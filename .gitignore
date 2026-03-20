@@ -1,0 +1,17 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Local virtual environment
+.venv/
+
+# Downloaded model artifacts
+.models/
+
+# Local raw document
+download.pdf
+
+# Generated pipeline outputs
+1_ket_qua.json
+3_llm_pre_structured_sentences_model_v*.json
+3_llm_pre_structured_triplets_model_v*.json
