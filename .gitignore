@@ -7,3 +7,6 @@ __pycache__/
 
 # Downloaded model artifacts
 .models/
+
+# Local vector database
+vectordb/

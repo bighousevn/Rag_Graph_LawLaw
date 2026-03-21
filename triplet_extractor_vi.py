@@ -30,14 +30,24 @@ PROTECTED_PHRASES = [
 
 SUBJECT_LABELS = {"nsubj", "nsubj:pass", "csubj", "subj", "sub"}
 OBJECT_LABELS = {"obj", "dobj", "dob", "iobj", "obl", "xcomp", "ccomp", "pob"}
-REL_EXPAND_LABELS = {"advmod", "adv", "aux", "cop", "neg", "mark"}
+REL_EXPAND_LABELS = {"advmod", "adv", "aux", "cop", "neg", "mark", "vmod"}
 ACTION_LINK_LABELS = {"xcomp", "ccomp", "vmod", "advcl", "iob", "iobj"}
 BRIDGE_OBJECT_LABELS = {"obj", "dobj", "dob", "iobj", "iob"}
+CONDITION_MARKERS = {
+    "nếu",
+    "khi",
+    "trong trường hợp",
+    "trường hợp",
+}
 ENTITY_EXPAND_LABELS = {
     "nmod",
     "amod",
     "det",
     "mnr",
+    "loc",
+    "tmp",
+    "tmod",
+    "vmod",
     "pob",
     "iob",
     "dob",
@@ -45,6 +55,14 @@ ENTITY_EXPAND_LABELS = {
     "coord",
     "punct",
 }
+
+OBJECT_SPLIT_PATTERNS = [
+    r"\s*,\s*",
+    r"\s+và\s+",
+    r"\s+hoặc\s+",
+    r"\s+hay\s+",
+    r"\s+cùng\s+",
+]
 
 
 def normalize_spaces(text: str) -> str:
@@ -331,6 +349,257 @@ def gather_phrase(indices: List[int], tokens: List[str]) -> str:
     return normalize_spaces(" ".join(tokens[i - 1] for i in uniq if 1 <= i <= len(tokens))).replace("_", " ")
 
 
+def token_to_plain(token: str) -> str:
+    return normalize_spaces(token.replace("_", " ").lower())
+
+
+def collect_subtree_indices(seed_idx: int, head: List[int]) -> List[int]:
+    collected = {seed_idx}
+    changed = True
+    while changed:
+        changed = False
+        for i, parent in enumerate(head, start=1):
+            if parent in collected and i not in collected:
+                collected.add(i)
+                changed = True
+    return sorted(collected)
+
+
+def find_condition_clause_indices(tokens: List[str], dep: List[str], head: List[int], root_idx: int) -> List[int]:
+    candidate_idxs: List[int] = []
+    for i, tok in enumerate(tokens, start=1):
+        plain = token_to_plain(tok)
+        if plain in CONDITION_MARKERS and i > root_idx:
+            candidate_idxs.append(i)
+
+    if not candidate_idxs:
+        return []
+
+    # Prefer explicit conditional connectors attached as clause links.
+    candidate_idxs.sort(key=lambda x: (dep[x - 1].lower() not in {"coord", "conj", "mark", "advcl"}, x))
+    seed = candidate_idxs[0]
+    return collect_subtree_indices(seed, head)
+
+
+def reduce_object_relation_overlap(relation_raw: str, object_raw: str) -> str:
+    rel_parts = relation_raw.split()
+    obj_parts = object_raw.split()
+    if not rel_parts or not obj_parts:
+        return object_raw
+
+    # Remove repeated prefix from object when it is already fully encoded in relation.
+    max_k = min(len(rel_parts), len(obj_parts))
+    overlap = 0
+    for k in range(max_k, 1, -1):
+        if obj_parts[:k] == rel_parts[-k:]:
+            overlap = k
+            break
+
+    if overlap >= 3 and overlap < len(obj_parts):
+        return " ".join(obj_parts[overlap:])
+    return object_raw
+
+
+def trim_relation_suffix_object(relation_raw: str, object_raw: str) -> str:
+    rel_parts = normalize_spaces(relation_raw).split()
+    obj_parts = normalize_spaces(object_raw).split()
+    if not rel_parts or not obj_parts:
+        return relation_raw
+    if len(rel_parts) <= len(obj_parts) + 1:
+        return relation_raw
+
+    # If relation already ends with full object phrase, cut that suffix to keep relation action-centric.
+    if rel_parts[-len(obj_parts) :] == obj_parts:
+        return " ".join(rel_parts[: -len(obj_parts)])
+    return relation_raw
+
+
+def refine_triplet_semantics(subject: str, relation: str, obj: str) -> Dict[str, str]:
+    r = relation
+    o = obj
+
+    # Case: "co quyen don phuong cham dut hop dong lao dong" duplicated in object.
+    if r.startswith("có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động") and o.startswith("quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động"):
+        r = "có_quyền_đơn_phương_chấm_dứt"
+        o = "hợp_đồng_lao_động"
+
+    # Case: purpose relation contains full purpose phrase while object starts with "muc dich ...".
+    if r.startswith("nhằm_mục_đích_") and o.startswith("mục_đích_"):
+        r = "nhằm_mục_đích"
+        o = o.replace("mục_đích_", "", 1)
+
+    # Case: "... khong can bao truoc" got split into relation + object="khong".
+    if o in {"không", "khong"} and "cần_báo_trước" in r:
+        r = r.replace("_cần_báo_trước", "")
+        o = "không_cần_báo_trước"
+
+    # Case: relation keeps "can_bao_truoc" while object already starts with condition.
+    if "cần_báo_trước" in r and o.startswith("nếu_"):
+        r = r.replace("_cần_báo_trước", "")
+        o = "không_cần_báo_trước_" + o
+
+    # Case: object accidentally repeats the same "quyen don phuong cham dut" phrase.
+    if o.startswith("quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động") and "cần_báo_trước" in r:
+        o = "không_cần_báo_trước"
+
+    # Case: purpose phrase collapsed as relation with very short object.
+    if r.startswith("nhằm_mục_đích_") and len(o.split("_")) <= 1:
+        tail = r[len("nhằm_mục_đích_") :]
+        if tail:
+            r = "nhằm_mục_đích"
+            o = tail
+
+    return {
+        "subject": subject,
+        "relation": r,
+        "object": o,
+    }
+
+
+def clean_triplet_parts(subject_raw: str, relation_raw: str, object_raw: str, stopwords: set[str]) -> Dict[str, str]:
+    relation_raw = trim_relation_suffix_object(relation_raw, object_raw)
+    object_raw = reduce_object_relation_overlap(relation_raw, object_raw)
+    subject_clean = to_snake_phrase(remove_stopwords_phrase(subject_raw.replace("_", " "), stopwords))
+    relation_clean = to_snake_phrase(remove_stopwords_phrase(relation_raw.replace("_", " "), stopwords))
+    object_clean = to_snake_phrase(remove_stopwords_phrase(object_raw.replace("_", " "), stopwords))
+    refined = refine_triplet_semantics(subject_clean, relation_clean, object_clean)
+    return {
+        "subject": refined["subject"],
+        "relation": refined["relation"],
+        "object": refined["object"],
+    }
+
+
+def split_compound_object_raw(object_raw: str) -> List[str]:
+    text = normalize_spaces(object_raw)
+    if not text:
+        return []
+    return [text]
+
+
+def build_triplets_from_parts(subject_raw: str, relation_raw: str, object_raw: str, stopwords: set[str]) -> List[Dict[str, str]]:
+    object_candidates = split_compound_object_raw(object_raw)
+    if not object_candidates:
+        object_candidates = [object_raw]
+
+    triplets: List[Dict[str, str]] = []
+    seen: set[tuple[str, str, str]] = set()
+    for obj_raw in object_candidates:
+        tri = clean_triplet_parts(subject_raw, relation_raw, obj_raw, stopwords)
+        if not tri["subject"] or not tri["relation"]:
+            continue
+        key = (tri["subject"], tri["relation"], tri["object"])
+        if key in seen:
+            continue
+        seen.add(key)
+        triplets.append(tri)
+
+    return triplets
+
+
+def build_full_object_indices(
+    root_idx: int,
+    action_idx: int,
+    relation_idxs: List[int],
+    subj_full_idxs: List[int],
+    dep: List[str],
+    pos: List[str],
+    head: List[int],
+) -> List[int]:
+    anchor = action_idx if action_idx != -1 else root_idx
+    excluded = set(relation_idxs) | set(subj_full_idxs)
+
+    # Prefer full subtree on the right of predicate to keep legal condition/detail intact.
+    subtree = [
+        i
+        for i in range(anchor + 1, len(dep) + 1)
+        if is_descendant(i, anchor, head)
+        and i not in excluded
+        and dep[i - 1].lower() not in {"punct"}
+    ]
+    if subtree:
+        return sorted(set(subtree))
+
+    # Fallback: take right-side content words from root.
+    return [
+        i
+        for i in range(root_idx + 1, len(dep) + 1)
+        if i not in excluded and pos[i - 1].upper() not in {"PUNCT", "SCONJ"}
+    ]
+
+
+def pick_subject_for_predicate(
+    pred_idx: int,
+    dep: List[str],
+    head: List[int],
+    fallback_subj_idxs: List[int],
+) -> List[int]:
+    subj_idxs = [
+        i
+        for i, d in enumerate(dep, start=1)
+        if head[i - 1] == pred_idx and d.lower() in SUBJECT_LABELS
+    ]
+    if subj_idxs:
+        return subj_idxs
+
+    # In causative chains, predicate subject often comes from bridge object of ancestor.
+    current = pred_idx
+    visited = set()
+    while 1 <= current <= len(head) and current not in visited:
+        visited.add(current)
+        parent = head[current - 1]
+        if parent <= 0:
+            break
+        bridge = [
+            i
+            for i, d in enumerate(dep, start=1)
+            if head[i - 1] == parent and d.lower() in BRIDGE_OBJECT_LABELS and i < current
+        ]
+        if bridge:
+            return [bridge[-1]]
+        current = parent
+
+    return fallback_subj_idxs
+
+
+def extract_triplet_for_predicate(
+    pred_idx: int,
+    tokens: List[str],
+    pos: List[str],
+    dep: List[str],
+    head: List[int],
+    fallback_subj_idxs: List[int],
+    stopwords: set[str],
+) -> List[Dict[str, str]]:
+    subj_idxs = pick_subject_for_predicate(pred_idx, dep, head, fallback_subj_idxs)
+    obj_idxs = [
+        i
+        for i, d in enumerate(dep, start=1)
+        if head[i - 1] == pred_idx and d.lower() in OBJECT_LABELS
+    ]
+    if not obj_idxs:
+        obj_idxs = pick_action_object_indices(pred_idx, dep, head, pos)
+
+    subj_full = expand_entity_indices(subj_idxs, dep, head)
+    obj_full = expand_entity_indices(obj_idxs, dep, head)
+    rel_idxs = expand_relation_indices(pred_idx, dep, head, tokens)
+
+    subject_raw = gather_phrase(subj_full, tokens)
+    relation_raw = gather_phrase(rel_idxs, tokens)
+    object_raw = gather_phrase(obj_full, tokens)
+
+    if not object_raw:
+        local_right = [
+            i
+            for i in range(pred_idx + 1, len(tokens) + 1)
+            if is_descendant(i, pred_idx, head) and dep[i - 1].lower() not in {"punct"}
+        ]
+        object_raw = gather_phrase(local_right, tokens)
+
+    triplets = build_triplets_from_parts(subject_raw, relation_raw, object_raw, stopwords)
+    return triplets
+
+
 def expand_entity_indices(seed_idxs: List[int], dep: List[str], head: List[int]) -> List[int]:
     if not seed_idxs:
         return []
@@ -440,7 +709,9 @@ def pick_action_via_object_bridge(root_idx: int, dep: List[str], head: List[int]
 
     candidates: List[int] = []
     for i, d in enumerate(dep, start=1):
-        if d.lower() not in ACTION_LINK_LABELS or not is_verb_pos(pos[i - 1]):
+        # Accept wider descendant verbs under bridge objects because legal patterns
+        # like "co quyen ... cham dut ..." often attach action as nmod/vmod.
+        if not is_verb_pos(pos[i - 1]) or d.lower() in {"aux", "cop", "punct"}:
             continue
         if any(is_descendant(i, bridge, head) for bridge in bridge_idxs):
             candidates.append(i)
@@ -510,6 +781,7 @@ def extract_triplet_from_dependencies(parsed: Dict[str, Any], stopwords: set[str
     obj_idxs = [i for i, d in enumerate(dep, start=1) if head[i - 1] == root_idx and d.lower() in OBJECT_LABELS]
 
     # Some PhoNLP parses use compact tags and may miss direct sub/obj edges.
+    used_subject_fallback = False
     if not subj_idxs:
         subj_idxs = [
             i
@@ -517,7 +789,10 @@ def extract_triplet_from_dependencies(parsed: Dict[str, Any], stopwords: set[str
             if pos[i - 1].upper().startswith("N") or dep[i - 1].lower() in SUBJECT_LABELS
         ]
         if subj_idxs:
-            subj_idxs = [subj_idxs[-1]]
+            # Prefer the left-most nominal anchor for legal headings like
+            # "Thoi han bao truoc ..." instead of taking the last noun token.
+            subj_idxs = [subj_idxs[0]]
+            used_subject_fallback = True
 
     if not obj_idxs:
         obj_idxs = [
@@ -534,14 +809,24 @@ def extract_triplet_from_dependencies(parsed: Dict[str, Any], stopwords: set[str
     # For causative structures (e.g., "yeu cau ... thuc hien ..."), pull object from the embedded action.
     if action_idx != -1:
         action_obj_idxs = pick_action_object_indices(action_idx, dep, head, pos)
-        if action_obj_idxs:
+        # Keep direct ROOT object unless action object clearly has richer span.
+        if action_obj_idxs and (not obj_idxs or len(action_obj_idxs) > len(obj_idxs) + 1):
             obj_idxs = action_obj_idxs
 
     subj_full_idxs = expand_entity_indices(subj_idxs, dep, head)
+    if used_subject_fallback and root_idx > 2:
+        # When subject dependency is missing, keep the full left clause as subject.
+        subj_full_idxs = [
+            i
+            for i in range(1, root_idx)
+            if dep[i - 1].lower() != "punct" and pos[i - 1].upper() != "PUNCT"
+        ]
     obj_full_idxs = expand_entity_indices(obj_idxs, dep, head)
 
     relation_idxs = expand_relation_indices(root_idx, dep, head, tokens)
-    if action_idx != -1:
+    root_plain = token_to_plain(tokens[root_idx - 1]) if 1 <= root_idx <= len(tokens) else ""
+    should_expand_with_action = len(relation_idxs) <= 2 or root_plain in {"có", "được", "phải", "bị", "là"}
+    if action_idx != -1 and should_expand_with_action:
         action_relation = expand_relation_indices(action_idx, dep, head, tokens)
         bridge_relation = collect_relation_bridge_indices(root_idx, action_idx, dep, head)
         relation_idxs = sorted(set(relation_idxs + action_relation + bridge_relation))
@@ -550,7 +835,32 @@ def extract_triplet_from_dependencies(parsed: Dict[str, Any], stopwords: set[str
     subject_raw = gather_phrase(subj_full_idxs, tokens)
     object_raw = gather_phrase(obj_full_idxs, tokens)
 
-    # If dependency object is empty, include right-side tokens of ROOT that are content words.
+    # Capture full conditional branch as object to preserve legal condition semantics.
+    condition_idxs = find_condition_clause_indices(tokens, dep, head, root_idx)
+    has_condition_object = False
+    if condition_idxs:
+        relation_idxs = [i for i in relation_idxs if i not in set(condition_idxs)]
+        if not relation_idxs:
+            relation_idxs = expand_relation_indices(root_idx, dep, head, tokens)
+        relation_raw = gather_phrase(relation_idxs, tokens)
+        object_raw = gather_phrase(condition_idxs, tokens)
+        has_condition_object = True
+
+    # Expand to fuller object phrase to preserve complete legal semantics.
+    full_object_idxs = build_full_object_indices(
+        root_idx=root_idx,
+        action_idx=action_idx,
+        relation_idxs=relation_idxs,
+        subj_full_idxs=subj_full_idxs,
+        dep=dep,
+        pos=pos,
+        head=head,
+    )
+    full_object_raw = gather_phrase(full_object_idxs, tokens)
+    if (not has_condition_object) and full_object_raw and len(full_object_raw.split()) >= max(2, len(object_raw.split())):
+        object_raw = full_object_raw
+
+    # If dependency object is still empty, include right-side tokens of ROOT that are content words.
     if not object_raw:
         right = [
             i
@@ -559,21 +869,20 @@ def extract_triplet_from_dependencies(parsed: Dict[str, Any], stopwords: set[str
         ]
         object_raw = gather_phrase(right, tokens)
 
-    subject_clean = to_snake_phrase(remove_stopwords_phrase(subject_raw.replace("_", " "), stopwords))
-    relation_clean = to_snake_phrase(remove_stopwords_phrase(relation_raw.replace("_", " "), stopwords))
-    object_clean = to_snake_phrase(remove_stopwords_phrase(object_raw.replace("_", " "), stopwords))
+    object_raw = reduce_object_relation_overlap(relation_raw, object_raw)
 
-    if not subject_clean:
+    main_triplet = clean_triplet_parts(subject_raw, relation_raw, object_raw, stopwords)
+
+    if not main_triplet["subject"]:
         raise RuntimeError("Khong trich xuat duoc subject tu parse model")
-    if not relation_clean:
+    if not main_triplet["relation"]:
         raise RuntimeError("Khong trich xuat duoc relation tu parse model")
 
+    triplets: List[Dict[str, str]] = [main_triplet]
+
     return {
-        "triplet": {
-            "subject": subject_clean,
-            "relation": relation_clean,
-            "object": object_clean,
-        },
+        "triplet": main_triplet,
+        "triplets": triplets,
         "dependency": {
             "root_index": root_idx,
             "tokens": tokens,
@@ -581,6 +890,73 @@ def extract_triplet_from_dependencies(parsed: Dict[str, Any], stopwords: set[str
             "head": head,
             "dep": dep,
         },
+    }
+
+
+def build_linked_triplet_view(sentence_id: str, triplets: Sequence[Dict[str, str]]) -> Dict[str, Any]:
+    nodes: List[Dict[str, Any]] = []
+    links: List[Dict[str, str]] = []
+    sentence_node = {
+        "sentence_id": sentence_id,
+        "node_type": "sentence",
+    }
+
+    for idx, tri in enumerate(triplets, start=1):
+        triplet_id = f"{sentence_id}_t{idx:02d}"
+        nodes.append(
+            {
+                "triplet_id": triplet_id,
+                "sentence_id": sentence_id,
+                "order": idx,
+                "subject": tri["subject"],
+                "relation": tri["relation"],
+                "object": tri["object"],
+            }
+        )
+        links.append(
+            {
+                "from": sentence_id,
+                "to": triplet_id,
+                "type": "belongs_to_sentence",
+            }
+        )
+
+    # Always link triplets in sentence order so they form one connected chain.
+    for i in range(len(nodes) - 1):
+        links.append(
+            {
+                "from": nodes[i]["triplet_id"],
+                "to": nodes[i + 1]["triplet_id"],
+                "type": "sequence",
+            }
+        )
+
+    # Add semantic bridge links when object of one triplet matches subject of another.
+    subject_index: Dict[str, List[str]] = {}
+    for node in nodes:
+        subject_index.setdefault(node["subject"], []).append(node["triplet_id"])
+
+    seen_semantic: set[tuple[str, str]] = set()
+    for node in nodes:
+        for target in subject_index.get(node["object"], []):
+            if target == node["triplet_id"]:
+                continue
+            key = (node["triplet_id"], target)
+            if key in seen_semantic:
+                continue
+            seen_semantic.add(key)
+            links.append(
+                {
+                    "from": node["triplet_id"],
+                    "to": target,
+                    "type": "semantic_bridge",
+                }
+            )
+
+    return {
+        "sentence_node": sentence_node,
+        "triplet_nodes": nodes,
+        "triplet_links": links,
     }
 
 
@@ -606,17 +982,80 @@ def extract_triplets_with_models(
             {
                 "id": rec["id"],
                 "source": rec.get("source", ""),
-                "metadata": rec.get("metadata", {}),
-                "original_text": rec.get("original_text", ""),
-                "llm_processed_text": rec.get("llm_processed_text", sentence),
                 "text": sentence,
-                "tokenization": wseg_tokens,
                 "triplet": extracted["triplet"],
-                "dependency": extracted["dependency"],
-                "method": "model_phonnlp_vncorenlp",
             }
         )
     return out
+
+
+def score_triplet_quality(tri: Dict[str, str]) -> int:
+    s = tri.get("subject", "")
+    r = tri.get("relation", "")
+    o = tri.get("object", "")
+
+    s_parts = [x for x in s.split("_") if x]
+    r_parts = [x for x in r.split("_") if x]
+    o_parts = [x for x in o.split("_") if x]
+
+    score = 0
+    score += min(len(s_parts), 12)
+    score += min(len(r_parts), 10)
+    score += min(len(o_parts), 14)
+
+    if 2 <= len(r_parts) <= 10:
+        score += 3
+    if len(r_parts) > 14:
+        score -= 4
+
+    if len(o_parts) <= 1:
+        score -= 8
+
+    if o.startswith(("khi_", "nếu_", "trong_", "vì_", "do_")) and len(o_parts) <= 5:
+        score -= 4
+
+    # Penalize circular relation/object duplication.
+    overlap = set(r_parts) & set(o_parts)
+    if len(overlap) >= max(4, int(0.6 * min(len(r_parts), len(o_parts)))):
+        score -= 6
+
+    if o.startswith("quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động") and "cần_báo_trước" in r:
+        score -= 8
+
+    return score
+
+
+def merge_with_previous_results(current: List[Dict[str, Any]], previous_path: Path) -> List[Dict[str, Any]]:
+    if not previous_path.exists():
+        return current
+
+    prev_data = json.loads(previous_path.read_text(encoding="utf-8"))
+    if not isinstance(prev_data, list):
+        return current
+
+    prev_map: Dict[str, Dict[str, str]] = {}
+    for item in prev_data:
+        if isinstance(item, dict) and isinstance(item.get("id"), str) and isinstance(item.get("triplet"), dict):
+            tri = item["triplet"]
+            if all(isinstance(tri.get(k), str) for k in ["subject", "relation", "object"]):
+                prev_map[item["id"]] = {
+                    "subject": tri["subject"],
+                    "relation": tri["relation"],
+                    "object": tri["object"],
+                }
+
+    merged: List[Dict[str, Any]] = []
+    for rec in current:
+        rec_out = dict(rec)
+        rid = rec.get("id")
+        if isinstance(rid, str) and rid in prev_map and isinstance(rec.get("triplet"), dict):
+            cur_tri = rec["triplet"]
+            prev_tri = prev_map[rid]
+            if score_triplet_quality(prev_tri) > score_triplet_quality(cur_tri):
+                rec_out["triplet"] = prev_tri
+        merged.append(rec_out)
+
+    return merged
 
 
 def write_json(path: Path, payload: Any) -> None:
@@ -634,6 +1073,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--stopwords-file", type=Path, default=Path("vietnamese_stopwords_legal.txt"), help="Vietnamese stopwords file")
     p.add_argument("--vncore-model-dir", type=Path, default=Path(".models/vncorenlp"), help="Directory for py_vncorenlp model files")
     p.add_argument("--phonlp-model-dir", type=Path, default=Path(".models/phonlp"), help="Directory for PhoNLP model files")
+    p.add_argument("--merge-with-prev", type=Path, default=Path("llm_pre_triplets_model.prev.json"), help="Optional previous triplet JSON to blend with current output")
     return p
 
 
@@ -667,6 +1107,7 @@ def main() -> int:
         vncore_model_dir=args.vncore_model_dir,
         phonlp_model_dir=args.phonlp_model_dir,
     )
+    triplets = merge_with_previous_results(triplets, args.merge_with_prev)
     write_json(args.triplets_output, triplets)
     print(f"Da tao file JSON triplet: {args.triplets_output} ({len(triplets)} bo ba)")
     return 0

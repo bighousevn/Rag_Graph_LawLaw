@@ -1,0 +1,722 @@
+[
+  {
+    "id": "0001_01",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 1",
+    "text": "Người sử dụng lao động không được giữ bản chính giấy tờ tùy thân của người lao động khi giao kết hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_giữ",
+      "object": "bản_chính_giấy_tờ_tuỳ_thân_của_người_lao_động_khi_giao_kết_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0001_02",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 1",
+    "text": "Người sử dụng lao động không được giữ bản chính giấy tờ tùy thân của người lao động khi thực hiện hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_giữ",
+      "object": "bản_chính_giấy_tờ_tuỳ_thân_của_người_lao_động_khi_thực_hiện_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0001_03",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 1",
+    "text": "Người sử dụng lao động không được giữ bản chính văn bằng của người lao động khi giao kết hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_giữ",
+      "object": "bản_chính_văn_bằng_của_người_lao_động_khi_giao_kết_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0001_04",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 1",
+    "text": "Người sử dụng lao động không được giữ bản chính văn bằng của người lao động khi thực hiện hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_giữ",
+      "object": "bản_chính_văn_bằng_của_người_lao_động_khi_thực_hiện_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0001_05",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 1",
+    "text": "Người sử dụng lao động không được giữ bản chính chứng chỉ của người lao động khi giao kết hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_giữ",
+      "object": "bản_chính_chứng_chỉ_của_người_lao_động_khi_giao_kết_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0001_06",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 1",
+    "text": "Người sử dụng lao động không được giữ bản chính chứng chỉ của người lao động khi thực hiện hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_giữ",
+      "object": "bản_chính_chứng_chỉ_của_người_lao_động_khi_thực_hiện_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0002_01",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 2",
+    "text": "Người sử dụng lao động không được yêu cầu người lao động phải thực hiện biện pháp bảo đảm bằng tiền.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_yêu_cầu_người_lao_động_phải_thực_hiện",
+      "object": "biện_pháp_bảo_đảm_bằng_tiền"
+    }
+  },
+  {
+    "id": "0002_02",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 2",
+    "text": "Biện pháp bảo đảm bằng tiền được áp dụng nhằm mục đích thực hiện hợp đồng lao động.",
+    "triplet": {
+      "subject": "Biện_pháp_bảo_đảm_bằng_tiền",
+      "relation": "được_áp_dụng",
+      "object": "nhằm_mục_đích_thực_hiện_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0002_03",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 2",
+    "text": "Người sử dụng lao động không được yêu cầu người lao động phải thực hiện biện pháp bảo đảm bằng tài sản khác.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_yêu_cầu_người_lao_động_phải_thực_hiện",
+      "object": "biện_pháp_bảo_đảm_bằng_tài_sản_khác"
+    }
+  },
+  {
+    "id": "0002_04",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 2",
+    "text": "Biện pháp bảo đảm bằng tài sản khác được áp dụng nhằm mục đích thực hiện hợp đồng lao động.",
+    "triplet": {
+      "subject": "Biện_pháp_bảo_đảm_bằng_tài_sản_khác",
+      "relation": "được_áp_dụng",
+      "object": "nhằm_mục_đích_thực_hiện_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0003_01",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 3",
+    "text": "Người sử dụng lao động không được buộc người lao động thực hiện hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "không_được_buộc_người_lao_động_thực_hiện",
+      "object": "hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0003_02",
+    "source": "Chương III | Điều 17. Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động | Khoản 3",
+    "text": "Việc thực hiện hợp đồng lao động nhằm mục đích trả nợ cho người sử dụng lao động.",
+    "triplet": {
+      "subject": "Việc_thực_hiện_hợp_đồng_lao_động",
+      "relation": "nhằm_mục_đích",
+      "object": "trả_nợ_cho_người_sử_dụng_lao_động"
+    }
+  },
+  {
+    "id": "0004_01",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm a",
+    "text": "Người lao động làm việc theo hợp đồng lao động không xác định thời hạn có quyền đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_theo_hợp_đồng_lao_động_xác_định_thời_hạn",
+      "relation": "có_quyền_đơn_phương_chấm_dứt",
+      "object": "hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0004_02",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm a",
+    "text": "Người lao động làm việc theo hợp đồng lao động không xác định thời hạn phải báo trước cho người sử dụng lao động ít nhất 45 ngày khi đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_theo_hợp_đồng_lao_động_xác_định_thời_hạn",
+      "relation": "phải_báo_trước",
+      "object": "khi_đơn_phương_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0005_01",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm b",
+    "text": "Người lao động làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng có quyền đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_theo_hợp_đồng_lao_động_xác_định_thời_hạn_có_thời_hạn_từ_12_tháng",
+      "relation": "có_quyền_đơn_phương_chấm_dứt",
+      "object": "hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0005_02",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm b",
+    "text": "Người lao động làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng phải báo trước cho người sử dụng lao động ít nhất 30 ngày khi đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_theo_hợp_đồng_lao_động_xác_định_thời_hạn_có_thời_hạn_từ_12_tháng",
+      "relation": "phải_báo_trước",
+      "object": "khi_đơn_phương_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0006_01",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm c",
+    "text": "Người lao động làm việc theo hợp đồng lao động xác định thời hạn dưới 12 tháng có quyền đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_theo_hợp_đồng_lao_động_xác_định_thời_hạn_dưới_12_tháng",
+      "relation": "có_quyền_đơn_phương_chấm_dứt",
+      "object": "hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0006_02",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm c",
+    "text": "Người lao động làm việc theo hợp đồng lao động xác định thời hạn dưới 12 tháng phải báo trước cho người sử dụng lao động ít nhất 03 ngày làm việc khi đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_theo_hợp_đồng_lao_động_xác_định_thời_hạn_dưới_12_tháng",
+      "relation": "phải_báo_trước",
+      "object": "khi_đơn_phương_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0007_01",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm d",
+    "text": "Người lao động làm việc trong một số ngành đặc thù có quyền đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_trong_một_số_ngành_đặc_thù",
+      "relation": "có_quyền_đơn_phương_chấm_dứt",
+      "object": "hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0007_02",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm d",
+    "text": "Người lao động làm việc trong một số nghề đặc thù có quyền đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_trong_một_số_nghề_đặc_thù",
+      "relation": "có_quyền_đơn_phương_chấm_dứt",
+      "object": "hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0007_03",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm d",
+    "text": "Người lao động làm việc trong một số công việc đặc thù có quyền đơn phương chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động_làm_việc_trong_một_số_công_việc_đặc_thù",
+      "relation": "có_quyền_đơn_phương_chấm_dứt",
+      "object": "hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0007_04",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm d",
+    "text": "Thời hạn báo trước khi đơn phương chấm dứt hợp đồng lao động đối với ngành đặc thù được thực hiện theo quy định của Chính phủ.",
+    "triplet": {
+      "subject": "Thời_hạn_báo_trước_khi_đơn_phương_chấm_dứt_hợp_đồng_lao_động_đối_với_ngành_đặc_thù",
+      "relation": "được_thực_hiện_theo",
+      "object": "quy_định_của_Chính_phủ"
+    }
+  },
+  {
+    "id": "0007_05",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm d",
+    "text": "Thời hạn báo trước khi đơn phương chấm dứt hợp đồng lao động đối với nghề đặc thù được thực hiện theo quy định của Chính phủ.",
+    "triplet": {
+      "subject": "Thời_hạn_báo_trước_khi_đơn_phương_chấm_dứt_hợp_đồng_lao_động_đối_với_nghề_đặc_thù",
+      "relation": "được_thực_hiện_theo",
+      "object": "quy_định_của_Chính_phủ"
+    }
+  },
+  {
+    "id": "0007_06",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 1 | Điểm d",
+    "text": "Thời hạn báo trước khi đơn phương chấm dứt hợp đồng lao động đối với công việc đặc thù được thực hiện theo quy định của Chính phủ.",
+    "triplet": {
+      "subject": "Thời_hạn_báo_trước_khi_đơn_phương_chấm_dứt_hợp_đồng_lao_động_đối_với_công_việc_đặc_thù",
+      "relation": "được_thực_hiện_theo",
+      "object": "quy_định_của_Chính_phủ"
+    }
+  },
+  {
+    "id": "0008_01",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm a",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu không được bố trí theo đúng công việc theo thỏa thuận.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_không_được_bố_trí_theo_đúng_công_việc_theo_thoả_thuận"
+    }
+  },
+  {
+    "id": "0008_02",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm a",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu không được bố trí theo đúng địa điểm làm việc theo thỏa thuận.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_không_được_bố_trí_theo_đúng_địa_điểm_làm_việc_theo_thoả_thuận"
+    }
+  },
+  {
+    "id": "0008_03",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm a",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu không được bảo đảm điều kiện làm việc theo thỏa thuận.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_không_được_bảo_đảm_điều_kiện_làm_việc_theo_thoả_thuận"
+    }
+  },
+  {
+    "id": "0009_01",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm b",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu không được trả đủ lương.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_không_được_trả_đủ_lương"
+    }
+  },
+  {
+    "id": "0009_02",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm b",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu không được trả lương đúng thời hạn.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_không_được_trả_lương_đúng_thời_hạn"
+    }
+  },
+  {
+    "id": "0010_01",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm c",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu bị người sử dụng lao động ngược đãi.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_bị_người_sử_dụng_lao_động_ngược_đãi"
+    }
+  },
+  {
+    "id": "0010_02",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm c",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu bị người sử dụng lao động đánh đập.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_bị_người_sử_dụng_lao_động_đánh_đập"
+    }
+  },
+  {
+    "id": "0010_03",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm c",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu bị người sử dụng lao động nhục mạ.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_bị_người_sử_dụng_lao_động_nhục_mạ"
+    }
+  },
+  {
+    "id": "0010_04",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm c",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu bị người sử dụng lao động làm ảnh hưởng đến sức khỏe.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_bị_người_sử_dụng_lao_động_làm_ảnh_hưởng_đến_sức_khoẻ"
+    }
+  },
+  {
+    "id": "0010_05",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm c",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu bị người sử dụng lao động làm ảnh hưởng đến danh dự.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_bị_người_sử_dụng_lao_động_làm_ảnh_hưởng_đến_danh_dự"
+    }
+  },
+  {
+    "id": "0010_06",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm c",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu bị cưỡng bức lao động.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_bị_cưỡng_bức_lao_động"
+    }
+  },
+  {
+    "id": "0011",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm d",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu bị quấy rối tình dục tại nơi làm việc.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_bị_quấy_rối_tình_dục_tại_nơi_làm_việc"
+    }
+  },
+  {
+    "id": "0012",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm đ",
+    "text": "Lao động nữ mang thai có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu phải nghỉ việc theo quy định của pháp luật.",
+    "triplet": {
+      "subject": "Lao_động_nữ_mang_thai",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_phải_nghỉ_việc_theo_quy_định_của_pháp_luật"
+    }
+  },
+  {
+    "id": "0013_01",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm e",
+    "text": "Người lao động đủ tuổi nghỉ hưu theo quy định có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước.",
+    "triplet": {
+      "subject": "Người_lao_động_đủ_tuổi_nghỉ_hưu_theo_quy_định",
+      "relation": "có_quyền_đơn_phương_chấm_dứt",
+      "object": "hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0013_02",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm e",
+    "text": "Người lao động có thể thỏa thuận khác với người sử dụng lao động về việc báo trước khi nghỉ hưu.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_thể_thoả_thuận_khác_về",
+      "object": "với_người_sử_dụng_lao_động_việc_báo_trước_khi_nghỉ_hưu"
+    }
+  },
+  {
+    "id": "0014",
+    "source": "Chương III | Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động | Khoản 2 | Điểm g",
+    "text": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu người sử dụng lao động cung cấp thông tin không trung thực làm ảnh hưởng đến việc thực hiện hợp đồng.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_quyền_đơn_phương_chấm_dứt_hợp_đồng_lao_động",
+      "object": "không_cần_báo_trước_nếu_người_sử_dụng_lao_động_cung_cấp_thông_tin_không_trung_thực_làm_ảnh_hưởng_đến_việc_thực_hiện_hợp_đồng"
+    }
+  },
+  {
+    "id": "0015_01",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm a",
+    "text": "Người lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của người sử dụng lao động trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_trách_nhiệm_thanh_toán_đầy_đủ_các_khoản_tiền_liên_quan",
+      "object": "đến_quyền_lợi_của_người_sử_dụng_lao_động_trong_thời_hạn_14_ngày_làm_việc_kể_từ_ngày_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0015_02",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm a",
+    "text": "Người sử dụng lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của người lao động trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_thanh_toán_đầy_đủ_các_khoản_tiền_liên_quan",
+      "object": "đến_quyền_lợi_của_người_lao_động_trong_thời_hạn_14_ngày_làm_việc_kể_từ_ngày_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0015_03",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm a",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày nếu người sử dụng lao động không phải là cá nhân chấm dứt hoạt động.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nếu_người_sử_dụng_lao_động_không_phải_là_cá_nhân_chấm_dứt_hoạt_động"
+    }
+  },
+  {
+    "id": "0016_01",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm b",
+    "text": "Người lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của người sử dụng lao động trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_trách_nhiệm_thanh_toán_đầy_đủ_các_khoản_tiền_liên_quan",
+      "object": "đến_quyền_lợi_của_người_sử_dụng_lao_động_trong_thời_hạn_14_ngày_làm_việc_kể_từ_ngày_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0016_02",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm b",
+    "text": "Người sử dụng lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của người lao động trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_thanh_toán_đầy_đủ_các_khoản_tiền_liên_quan",
+      "object": "đến_quyền_lợi_của_người_lao_động_trong_thời_hạn_14_ngày_làm_việc_kể_từ_ngày_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0016_03",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm b",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày nếu người sử dụng lao động thay đổi cơ cấu.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_nếu_người_sử_dụng_lao_động_thay_đổi_cơ_cấu"
+    }
+  },
+  {
+    "id": "0016_04",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm b",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày nếu người sử dụng lao động thay đổi công nghệ.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_nếu_người_sử_dụng_lao_động_thay_đổi_công_nghệ"
+    }
+  },
+  {
+    "id": "0016_05",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm b",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày vì lý do kinh tế.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_vì_lý_do_kinh_tế"
+    }
+  },
+  {
+    "id": "0017_01",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm c",
+    "text": "Người lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của người sử dụng lao động trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_trách_nhiệm_thanh_toán_đầy_đủ_các_khoản_tiền_liên_quan",
+      "object": "đến_quyền_lợi_của_người_sử_dụng_lao_động_trong_thời_hạn_14_ngày_làm_việc_kể_từ_ngày_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0017_02",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm c",
+    "text": "Người sử dụng lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của người lao động trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_thanh_toán_đầy_đủ_các_khoản_tiền_liên_quan",
+      "object": "đến_quyền_lợi_của_người_lao_động_trong_thời_hạn_14_ngày_làm_việc_kể_từ_ngày_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0017_03",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm c",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày trong trường hợp doanh nghiệp chia.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_trong_trường_hợp_doanh_nghiệp_chia"
+    }
+  },
+  {
+    "id": "0017_04",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm c",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày trong trường hợp doanh nghiệp tách.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_trong_trường_hợp_doanh_nghiệp_tách"
+    }
+  },
+  {
+    "id": "0017_05",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm c",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày trong trường hợp doanh nghiệp sáp nhập.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_trong_trường_hợp_doanh_nghiệp_sáp_nhập"
+    }
+  },
+  {
+    "id": "0017_06",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm c",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày trong trường hợp doanh nghiệp chuyển đổi loại hình doanh nghiệp.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_trong_trường_hợp_doanh_nghiệp_chuyển_đổi_loại_hình_doanh_nghiệp"
+    }
+  },
+  {
+    "id": "0018_01",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm d",
+    "text": "Người lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của người sử dụng lao động trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_lao_động",
+      "relation": "có_trách_nhiệm_thanh_toán_đầy_đủ_các_khoản_tiền_liên_quan",
+      "object": "đến_quyền_lợi_của_người_sử_dụng_lao_động_trong_thời_hạn_14_ngày_làm_việc_kể_từ_ngày_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0018_02",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm d",
+    "text": "Người sử dụng lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của người lao động trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_thanh_toán_đầy_đủ_các_khoản_tiền_liên_quan",
+      "object": "đến_quyền_lợi_của_người_lao_động_trong_thời_hạn_14_ngày_làm_việc_kể_từ_ngày_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0018_03",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm d",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày do thiên tai.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_do_thiên_tai"
+    }
+  },
+  {
+    "id": "0018_04",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm d",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày do hỏa hoạn.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_do_hoả_hoạn"
+    }
+  },
+  {
+    "id": "0018_05",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm d",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày do địch họa.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_do_địch_hoạ"
+    }
+  },
+  {
+    "id": "0018_06",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 1 | Điểm d",
+    "text": "Thời hạn thanh toán có thể kéo dài nhưng không quá 30 ngày do dịch bệnh nguy hiểm.",
+    "triplet": {
+      "subject": "Thời_hạn_thanh_toán",
+      "relation": "có_thể_kéo_dài",
+      "object": "nhưng_không_quá_30_ngày_do_dịch_bệnh_nguy_hiểm"
+    }
+  },
+  {
+    "id": "0019_01",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 2",
+    "text": "Tiền lương của người lao động được ưu tiên thanh toán khi doanh nghiệp bị giải thể.",
+    "triplet": {
+      "subject": "Tiền_lương_của_người_lao_động",
+      "relation": "được_ưu_tiên_thanh_toán",
+      "object": "khi_doanh_nghiệp_bị_giải_thể"
+    }
+  },
+  {
+    "id": "0019_02",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 2",
+    "text": "Tiền lương của người lao động được ưu tiên thanh toán khi doanh nghiệp bị phá sản.",
+    "triplet": {
+      "subject": "Tiền_lương_của_người_lao_động",
+      "relation": "được_ưu_tiên",
+      "object": "thanh_toán_khi_doanh_nghiệp_bị_phá_sản"
+    }
+  },
+  {
+    "id": "0019_03",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 2",
+    "text": "Bảo hiểm xã hội của người lao động được ưu tiên thanh toán khi doanh nghiệp bị giải thể.",
+    "triplet": {
+      "subject": "Bảo_hiểm_xã_hội_của_người_lao_động",
+      "relation": "được_ưu_tiên_thanh_toán",
+      "object": "khi_doanh_nghiệp_bị_giải_thể"
+    }
+  },
+  {
+    "id": "0019_04",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 2",
+    "text": "Bảo hiểm xã hội của người lao động được ưu tiên thanh toán khi doanh nghiệp bị phá sản.",
+    "triplet": {
+      "subject": "Bảo_hiểm_xã_hội_của_người_lao_động",
+      "relation": "được_ưu_tiên_thanh_toán",
+      "object": "khi_doanh_nghiệp_bị_phá_sản"
+    }
+  },
+  {
+    "id": "0019_05",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 2",
+    "text": "Trợ cấp thôi việc của người lao động được ưu tiên thanh toán khi doanh nghiệp bị giải thể.",
+    "triplet": {
+      "subject": "Trợ_cấp_thôi_việc_của_người_lao_động",
+      "relation": "được_ưu_tiên_thanh_toán",
+      "object": "khi_doanh_nghiệp_bị_giải_thể"
+    }
+  },
+  {
+    "id": "0019_06",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 2",
+    "text": "Trợ cấp thôi việc của người lao động được ưu tiên thanh toán khi doanh nghiệp bị phá sản.",
+    "triplet": {
+      "subject": "Trợ_cấp_thôi_việc_của_người_lao_động",
+      "relation": "được_ưu_tiên_thanh_toán",
+      "object": "khi_doanh_nghiệp_bị_phá_sản"
+    }
+  },
+  {
+    "id": "0020_01",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 3 | Điểm a",
+    "text": "Người sử dụng lao động có trách nhiệm hoàn thành thủ tục xác nhận thời gian đóng bảo hiểm xã hội khi chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_hoàn_thành_thủ_tục_xác_nhận_thời_gian_đóng",
+      "object": "bảo_hiểm_xã_hội_khi_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0020_02",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 3 | Điểm a",
+    "text": "Người sử dụng lao động có trách nhiệm hoàn thành thủ tục xác nhận thời gian đóng bảo hiểm thất nghiệp khi chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_hoàn_thành_thủ_tục_xác_nhận_thời_gian_đóng_bảo_hiểm_thất_nghiệp",
+      "object": "khi_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0020_03",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 3 | Điểm a",
+    "text": "Người sử dụng lao động có trách nhiệm trả lại bản chính giấy tờ khác cho người lao động nếu người sử dụng lao động đã giữ của người lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_trả_lại_bản_chính_giấy_tờ_khác_cho_người_lao_động",
+      "object": "nếu_người_sử_dụng_lao_động_đã_giữ_của_người_lao_động"
+    }
+  },
+  {
+    "id": "0021_01",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 3 | Điểm b",
+    "text": "Người sử dụng lao động có trách nhiệm cung cấp bản sao các tài liệu liên quan đến quá trình làm việc khi người lao động có yêu cầu lúc chấm dứt hợp đồng lao động.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_cung_cấp_bản_sao_các_tài_liệu_liên_quan",
+      "object": "đến_quá_trình_làm_việc_khi_người_lao_động_có_yêu_cầu_lúc_chấm_dứt_hợp_đồng_lao_động"
+    }
+  },
+  {
+    "id": "0021_02",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 3 | Điểm b",
+    "text": "Người sử dụng lao động có trách nhiệm chi trả chi phí sao tài liệu khi người lao động có yêu cầu.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_chi_trả_chi_phí_sao_tài_liệu",
+      "object": "khi_người_lao_động_có_yêu_cầu"
+    }
+  },
+  {
+    "id": "0021_03",
+    "source": "Chương III | Điều 48. Trách nhiệm khi chấm dứt hợp đồng lao động | Khoản 3 | Điểm b",
+    "text": "Người sử dụng lao động có trách nhiệm chi trả chi phí gửi tài liệu khi người lao động có yêu cầu.",
+    "triplet": {
+      "subject": "Người_sử_dụng_lao_động",
+      "relation": "có_trách_nhiệm_chi_trả_chi_phí_gửi_tài_liệu",
+      "object": "khi_người_lao_động_có_yêu_cầu"
+    }
+  }
+]
