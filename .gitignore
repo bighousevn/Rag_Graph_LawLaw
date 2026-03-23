@@ -4,7 +4,7 @@ __pycache__/
 
 # Local virtual environment
 .venv/
-
+venv/
 # Downloaded model artifacts
 .models/
 
