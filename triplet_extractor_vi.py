@@ -64,9 +64,234 @@ OBJECT_SPLIT_PATTERNS = [
     r"\s+cùng\s+",
 ]
 
+MICRO_SPLIT_PATTERNS = [
+    r"\s*[;:.!?]+\s*",
+    r"\s*,\s*(?=(nếu|khi|do|vì|để|trừ khi|trong trường hợp)\b)",
+    r"\s+và\s+(?=(phải|được|không|có|bị|trách nhiệm|nghĩa vụ|quyền)\b)",
+    r"\s+hoặc\s+",
+    r"\s+hay\s+",
+    r"\s+đồng thời\s+",
+]
+
+FILLER_WORDS = {
+    "thì",
+    "là",
+    "việc",
+    "được",
+    "sẽ",
+    "đang",
+    "này",
+    "kia",
+    "ấy",
+    "đó",
+    "các",
+    "những",
+}
+
+CORE_SINGLE_WORD_KEEP = {
+    "người",
+    "sử",
+    "dụng",
+    "lao",
+    "động",
+    "hợp",
+    "đồng",
+    "lương",
+    "quyền",
+    "nghĩa",
+    "vụ",
+    "bảo",
+    "hiểm",
+    "kỷ",
+    "luật",
+    "đình",
+    "công",
+    "tranh",
+    "chấp",
+}
+
 
 def normalize_spaces(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
+
+
+def load_format_word_keywords(path: Optional[Path]) -> set[str]:
+    if not path or not path.exists():
+        return set()
+
+    data = json.loads(path.read_text(encoding="utf-8"))
+    out: set[str] = set()
+
+    def _walk(obj: Any) -> None:
+        if isinstance(obj, str):
+            normalized = normalize_spaces(obj).lower()
+            if normalized:
+                out.add(normalized)
+            return
+        if isinstance(obj, list):
+            for item in obj:
+                _walk(item)
+            return
+        if isinstance(obj, dict):
+            for value in obj.values():
+                _walk(value)
+
+    _walk(data)
+    return out
+
+
+def prune_fragment_text(text: str, stopwords: set[str]) -> str:
+    # Keep protected phrases intact while removing low-value tokens.
+    lowered = text.lower()
+    protected_ranges: List[tuple[int, int]] = []
+    for phrase in PROTECTED_PHRASES:
+        start = 0
+        p = phrase.lower()
+        while True:
+            idx = lowered.find(p, start)
+            if idx == -1:
+                break
+            protected_ranges.append((idx, idx + len(p)))
+            start = idx + len(p)
+
+    tokens = text.split()
+    cursor = 0
+    kept: List[str] = []
+    for tok in tokens:
+        idx = lowered.find(tok.lower(), cursor)
+        if idx == -1:
+            idx = cursor
+        cursor = idx + len(tok)
+
+        in_protected = any(idx >= s and idx < e for s, e in protected_ranges)
+        if in_protected:
+            kept.append(tok)
+            continue
+
+        raw = re.sub(r"^[^\w%]+|[^\w%]+$", "", tok, flags=re.UNICODE).lower()
+        if not raw:
+            continue
+        if raw in FILLER_WORDS:
+            continue
+        if raw in stopwords and raw not in {"không", "phải", "được", "cần"}:
+            continue
+        kept.append(tok)
+
+    compact = normalize_spaces(" ".join(kept))
+    return compact if compact else normalize_spaces(text)
+
+
+def extract_keyword_windows(fragment: str, keyword_lexicon: set[str], max_words: int = 18) -> List[str]:
+    if not keyword_lexicon:
+        return []
+
+    frag = normalize_spaces(fragment)
+    lower = frag.lower()
+    windows: List[str] = []
+
+    # Use direct string matching; lexicon size is small enough for legal keyword lists.
+    hits = [kw for kw in keyword_lexicon if kw in lower]
+    if not hits:
+        return []
+
+    words = frag.split()
+    lower_words = [w.lower() for w in words]
+    for kw in sorted(hits, key=len, reverse=True)[:6]:
+        kw_words = kw.split()
+        k = len(kw_words)
+        if k == 0 or k > len(words):
+            continue
+        for i in range(0, len(words) - k + 1):
+            if lower_words[i : i + k] != kw_words:
+                continue
+            left = max(0, i - max_words // 2)
+            right = min(len(words), i + k + max_words // 2)
+            candidate = normalize_spaces(" ".join(words[left:right]))
+            if candidate:
+                windows.append(candidate)
+
+    return windows
+
+
+def build_keyword_token_lexicon(keyword_lexicon: set[str]) -> set[str]:
+    tokens: set[str] = set()
+    for phrase in keyword_lexicon:
+        for w in normalize_spaces(phrase).split():
+            lw = w.lower()
+            if len(lw) >= 2:
+                tokens.add(lw)
+    return tokens
+
+
+def extract_micro_tokens(fragment: str, stopwords: set[str], keyword_token_lexicon: set[str]) -> List[str]:
+    text = normalize_spaces(fragment)
+    if not text:
+        return []
+
+    words = [
+        re.sub(r"^[^\w%]+|[^\w%]+$", "", w, flags=re.UNICODE).lower()
+        for w in text.split()
+    ]
+
+    out: List[str] = []
+    seen: set[str] = set()
+    for w in words:
+        if not w or len(w) < 2:
+            continue
+        if w in FILLER_WORDS:
+            continue
+
+        is_keyword_token = w in keyword_token_lexicon or w in CORE_SINGLE_WORD_KEEP
+        if w in stopwords and not is_keyword_token:
+            continue
+
+        if w in seen:
+            continue
+        seen.add(w)
+        out.append(w)
+
+    return out
+
+
+def split_sentence_super_micro(sentence: str, keyword_lexicon: set[str], stopwords: set[str]) -> List[str]:
+    base = normalize_spaces(sentence)
+    if not base:
+        return []
+
+    fragments = [base]
+    for pattern in MICRO_SPLIT_PATTERNS:
+        next_fragments: List[str] = []
+        for frag in fragments:
+            parts = [normalize_spaces(x) for x in re.split(pattern, frag, flags=re.IGNORECASE) if normalize_spaces(x)]
+            if parts:
+                next_fragments.extend(parts)
+        fragments = next_fragments if next_fragments else fragments
+
+    keyword_token_lexicon = build_keyword_token_lexicon(keyword_lexicon)
+
+    expanded: List[str] = []
+    for frag in fragments:
+        expanded.append(frag)
+        expanded.extend(extract_keyword_windows(frag, keyword_lexicon))
+        expanded.extend(extract_micro_tokens(frag, stopwords, keyword_token_lexicon))
+
+    deduped: List[str] = []
+    seen: set[str] = set()
+    for frag in expanded:
+        # Keep raw fragment text, do not aggressively prune filler words.
+        compact = normalize_spaces(frag)
+        compact = re.sub(r"^[,;:.\-\s]+|[,;:.\-\s]+$", "", compact)
+        compact = normalize_spaces(compact)
+        # Keep 1-word fragments only when they are legally meaningful tokens.
+        if len(compact.split()) < 2 and compact.lower() not in keyword_token_lexicon and compact.lower() not in CORE_SINGLE_WORD_KEEP:
+            continue
+        key = compact.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(compact)
+
+    return deduped if deduped else [base]
 
 
 def to_snake_phrase(text: str) -> str:
@@ -108,7 +333,7 @@ def read_context_jsonl(path: Optional[Path]) -> List[Dict[str, Any]]:
     return out
 
 
-def read_structured_input_json(path: Path) -> List[Dict[str, Any]]:
+def read_structured_input_json(path: Path, keyword_lexicon: set[str], stopwords: set[str]) -> List[Dict[str, Any]]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, list):
         raise RuntimeError("Input structured JSON phai la mot mang object")
@@ -129,6 +354,18 @@ def read_structured_input_json(path: Path) -> List[Dict[str, Any]]:
             text = normalize_spaces(str(raw_processed))
             if text:
                 processed_sentences.append(text)
+
+        if processed_sentences:
+            # Preserve order while removing duplicate atomic sentences.
+            uniq: List[str] = []
+            seen: set[str] = set()
+            for s in processed_sentences:
+                key = s.lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+                uniq.append(s)
+            processed_sentences = uniq
 
         if not processed_sentences:
             continue
@@ -171,18 +408,30 @@ def build_source_string(ctx: Dict[str, Any]) -> str:
     return " | ".join(str(x) for x in parts if x)
 
 
-def build_sentence_records(lines: Sequence[str], contexts: Sequence[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def build_sentence_records(
+    lines: Sequence[str],
+    contexts: Sequence[Dict[str, Any]],
+    keyword_lexicon: set[str],
+    stopwords: set[str],
+) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     for i, sentence in enumerate(lines, start=1):
-        rec: Dict[str, Any] = {
-            "id": f"sent_{i:06d}",
-            "text": sentence,
-        }
-        if i - 1 < len(contexts):
-            rec["source"] = build_source_string(contexts[i - 1])
-        else:
-            rec["source"] = f"index_{i}"
-        out.append(rec)
+        chunks = split_sentence_super_micro(sentence, keyword_lexicon, stopwords)
+        if not chunks:
+            chunks = [sentence]
+
+        for atomic_idx, chunk in enumerate(chunks, start=1):
+            rec: Dict[str, Any] = {
+                "id": f"sent_{i:06d}_{atomic_idx:02d}" if len(chunks) > 1 else f"sent_{i:06d}",
+                "parent_id": f"sent_{i:06d}",
+                "atomic_index": atomic_idx,
+                "text": chunk,
+            }
+            if i - 1 < len(contexts):
+                rec["source"] = build_source_string(contexts[i - 1])
+            else:
+                rec["source"] = f"index_{i}"
+            out.append(rec)
     return out
 
 
@@ -237,9 +486,51 @@ def init_vncorenlp(model_dir: Path):
     if (not jar_path.exists()) or (not models_dir.exists()):
         py_vncorenlp.download_model(save_dir=str(model_dir))
     cwd = os.getcwd()
-    model = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir=str(model_dir))
-    os.chdir(cwd)
-    return model
+    try:
+        model = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir=str(model_dir))
+        os.chdir(cwd)
+        return model
+    except Exception:
+        # Fallback path: initialize VnCoreNLP directly via pyjnius when wrapper setup fails.
+        os.chdir(cwd)
+        import jnius_config  # type: ignore
+
+        jnius_config.add_options("-Xmx2g")
+        jnius_config.set_classpath(str(jar_path))
+
+        from jnius import autoclass  # type: ignore
+
+        java_vncorenlp = autoclass("vn.pipeline.VnCoreNLP")
+        java_annotation = autoclass("vn.pipeline.Annotation")
+        java_string = autoclass("java.lang.String")
+
+        class _VnCoreNLPWseg:
+            def __init__(self):
+                self._model = java_vncorenlp(["wseg"])
+
+            def annotate_text(self, sentence: str) -> Dict[int, List[Dict[str, Any]]]:
+                ann = java_annotation(java_string(sentence))
+                self._model.annotate(ann)
+                out: Dict[int, List[Dict[str, Any]]] = {}
+                sent_blocks = ann.toString().split("\n\n")
+                idx = 0
+                for block in sent_blocks:
+                    if not block.strip():
+                        continue
+                    words: List[Dict[str, Any]] = []
+                    for line in block.split("\n"):
+                        line = line.replace("\t\t", "\t")
+                        parts = line.split("\t")
+                        if len(parts) < 2:
+                            continue
+                        word_idx = int(parts[0]) if parts[0].isdigit() else len(words) + 1
+                        words.append({"index": word_idx, "wordForm": parts[1]})
+                    if words:
+                        out[idx] = words
+                        idx += 1
+                return out
+
+        return _VnCoreNLPWseg()
 
 
 def init_phonlp(model_dir: Path):
@@ -763,135 +1054,138 @@ def pick_action_object_indices(action_idx: int, dep: List[str], head: List[int],
     return fallback
 
 
-def extract_triplet_from_dependencies(parsed: Dict[str, Any], stopwords: set[str]) -> Dict[str, Any]:
-    tokens: List[str] = parsed["tokens"]
-    pos: List[str] = parsed["pos"]
-    dep: List[str] = parsed["dep"]
-    head: List[int] = parsed["head"]
+def extract_ultra_micro_triplets(parsed: Dict[str, Any], stopwords: set[str]) -> List[Dict[str, str]]:
+    tokens: List[str] = parsed['tokens']
+    pos: List[str] = parsed['pos']
+    dep: List[str] = parsed['dep']
+    head: List[int] = parsed['head']
 
-    root_idx = -1
-    for i, d in enumerate(dep, start=1):
-        if d.lower() == "root" or head[i - 1] == 0:
-            root_idx = i
-            break
-    if root_idx == -1:
-        raise RuntimeError("Khong tim thay ROOT tu PhoNLP")
-
-    subj_idxs = [i for i, d in enumerate(dep, start=1) if head[i - 1] == root_idx and d.lower() in SUBJECT_LABELS]
-    obj_idxs = [i for i, d in enumerate(dep, start=1) if head[i - 1] == root_idx and d.lower() in OBJECT_LABELS]
-
-    # Some PhoNLP parses use compact tags and may miss direct sub/obj edges.
-    used_subject_fallback = False
-    if not subj_idxs:
-        subj_idxs = [
-            i
-            for i in range(1, root_idx)
-            if pos[i - 1].upper().startswith("N") or dep[i - 1].lower() in SUBJECT_LABELS
-        ]
-        if subj_idxs:
-            # Prefer the left-most nominal anchor for legal headings like
-            # "Thoi han bao truoc ..." instead of taking the last noun token.
-            subj_idxs = [subj_idxs[0]]
-            used_subject_fallback = True
-
-    if not obj_idxs:
-        obj_idxs = [
-            i
-            for i in range(root_idx + 1, len(tokens) + 1)
-            if pos[i - 1].upper().startswith("N") or dep[i - 1].lower() in OBJECT_LABELS
-        ]
-
-    action_idx = pick_controlled_action_idx(root_idx, dep, head, pos)
-    if action_idx == -1:
-        action_idx = pick_action_via_object_bridge(root_idx, dep, head, pos)
-    action_idx = descend_action_verb(action_idx, dep, head, pos)
-
-    # For causative structures (e.g., "yeu cau ... thuc hien ..."), pull object from the embedded action.
-    if action_idx != -1:
-        action_obj_idxs = pick_action_object_indices(action_idx, dep, head, pos)
-        # Keep direct ROOT object unless action object clearly has richer span.
-        if action_obj_idxs and (not obj_idxs or len(action_obj_idxs) > len(obj_idxs) + 1):
-            obj_idxs = action_obj_idxs
-
-    subj_full_idxs = expand_entity_indices(subj_idxs, dep, head)
-    if used_subject_fallback and root_idx > 2:
-        # When subject dependency is missing, keep the full left clause as subject.
-        subj_full_idxs = [
-            i
-            for i in range(1, root_idx)
-            if dep[i - 1].lower() != "punct" and pos[i - 1].upper() != "PUNCT"
-        ]
-    obj_full_idxs = expand_entity_indices(obj_idxs, dep, head)
-
-    relation_idxs = expand_relation_indices(root_idx, dep, head, tokens)
-    root_plain = token_to_plain(tokens[root_idx - 1]) if 1 <= root_idx <= len(tokens) else ""
-    should_expand_with_action = len(relation_idxs) <= 2 or root_plain in {"có", "được", "phải", "bị", "là"}
-    if action_idx != -1 and should_expand_with_action:
-        action_relation = expand_relation_indices(action_idx, dep, head, tokens)
-        bridge_relation = collect_relation_bridge_indices(root_idx, action_idx, dep, head)
-        relation_idxs = sorted(set(relation_idxs + action_relation + bridge_relation))
-
-    relation_raw = gather_phrase(relation_idxs, tokens)
-    subject_raw = gather_phrase(subj_full_idxs, tokens)
-    object_raw = gather_phrase(obj_full_idxs, tokens)
-
-    # Capture full conditional branch as object to preserve legal condition semantics.
-    condition_idxs = find_condition_clause_indices(tokens, dep, head, root_idx)
-    has_condition_object = False
-    if condition_idxs:
-        relation_idxs = [i for i in relation_idxs if i not in set(condition_idxs)]
-        if not relation_idxs:
-            relation_idxs = expand_relation_indices(root_idx, dep, head, tokens)
-        relation_raw = gather_phrase(relation_idxs, tokens)
-        object_raw = gather_phrase(condition_idxs, tokens)
-        has_condition_object = True
-
-    # Expand to fuller object phrase to preserve complete legal semantics.
-    full_object_idxs = build_full_object_indices(
-        root_idx=root_idx,
-        action_idx=action_idx,
-        relation_idxs=relation_idxs,
-        subj_full_idxs=subj_full_idxs,
-        dep=dep,
-        pos=pos,
-        head=head,
-    )
-    full_object_raw = gather_phrase(full_object_idxs, tokens)
-    if (not has_condition_object) and full_object_raw and len(full_object_raw.split()) >= max(2, len(object_raw.split())):
-        object_raw = full_object_raw
-
-    # If dependency object is still empty, include right-side tokens of ROOT that are content words.
-    if not object_raw:
-        right = [
-            i
-            for i in range(root_idx + 1, len(tokens) + 1)
-            if pos[i - 1].upper() not in {"PUNCT", "SCONJ"}
-        ]
-        object_raw = gather_phrase(right, tokens)
-
-    object_raw = reduce_object_relation_overlap(relation_raw, object_raw)
-
-    main_triplet = clean_triplet_parts(subject_raw, relation_raw, object_raw, stopwords)
-
-    if not main_triplet["subject"]:
-        raise RuntimeError("Khong trich xuat duoc subject tu parse model")
-    if not main_triplet["relation"]:
-        raise RuntimeError("Khong trich xuat duoc relation tu parse model")
-
-    triplets: List[Dict[str, str]] = [main_triplet]
-
-    return {
-        "triplet": main_triplet,
-        "triplets": triplets,
-        "dependency": {
-            "root_index": root_idx,
-            "tokens": tokens,
-            "pos": pos,
-            "head": head,
-            "dep": dep,
-        },
+    function_words = {
+        'của', 'khi', 'và', 'hoặc', 'hay', 'là', 'thì', 'mà', 'nếu', 'do', 'vì',
+        'để', 'với', 'tại', 'ở', 'theo', 'cho', 'từ', 'đến'
     }
 
+    source_parts = {p.lower() for tok in tokens for p in tok.split('_') if p}
+
+    children = {i: [] for i in range(1, len(tokens) + 1)}
+    for i, p in enumerate(head, start=1):
+        if p > 0:
+            children[p].append(i)
+
+    def is_verb(p: str) -> bool:
+        return p.startswith('V')
+
+    def is_noun(p: str) -> bool:
+        return p.startswith('N') or p.startswith('P')
+
+    def token_text(idx: int) -> str:
+        if idx <= 0:
+            return ""
+        return tokens[idx - 1].lower()
+
+    def is_content_text(text: str) -> bool:
+        if not text:
+            return False
+        parts = [x for x in text.split('_') if x]
+        if not parts:
+            return False
+        if any(p in function_words for p in parts):
+            return False
+        return all(p in source_parts for p in parts)
+
+    def verb_relation(idx: int) -> str:
+        parts: List[str] = []
+        for c in sorted(children.get(idx, [])):
+            if dep[c - 1].lower() in {'adv', 'neg', 'aux'}:
+                t = token_text(c)
+                if is_content_text(t):
+                    parts.append(t)
+        base = token_text(idx)
+        if is_content_text(base):
+            parts.append(base)
+        return "_".join(parts)
+
+    triplets = []
+
+    for i in range(1, len(tokens) + 1):
+        p = pos[i-1]
+        d = dep[i-1]
+        token_i = token_text(i)
+        
+        if d.lower() in {'punct', 'case', 'mark', 'det', 'cc', 'conj'}:
+            continue
+
+        if token_i in function_words:
+            continue
+
+        node_text = token_i
+        if not is_content_text(node_text):
+            continue
+
+        sub_idxs = [c for c in children.get(i, []) if dep[c-1].lower() in {'sub', 'nsubj', 'nsubj:pass', 'csubj'}]
+        obj_idxs = [c for c in children.get(i, []) if dep[c-1].lower() in {'obj', 'dobj', 'dob', 'iobj', 'pob', 'obl'}]
+        sub_texts = [token_text(c) for c in sub_idxs if is_content_text(token_text(c))]
+        obj_texts = [token_text(c) for c in obj_idxs if is_content_text(token_text(c))]
+        
+        # 1. Trích xuất lõi Chủ ngữ - Động từ/Từ chính - Tân ngữ thành từng Node tách biệt
+        if is_verb(p) and sub_texts and obj_texts:
+            rel = verb_relation(i)
+            if not is_content_text(rel):
+                rel = node_text
+            for s in sub_texts:
+                for o in obj_texts:
+                    triplets.append({'subject': s, 'relation': rel, 'object': o})
+        
+        # Tu dong che token ghep dai theo dung tu trong cau.
+        # Vi du "người_sử_dụng_lao_động" -> người -sử_dụng-> lao_động
+        raw_token = tokens[i-1].lower()
+        parts = raw_token.split('_')
+        if len(parts) >= 3:
+            s_tok = parts[0]
+            r_tok = parts[1]
+            o_tok = "_".join(parts[2:])
+            if is_content_text(s_tok) and is_content_text(r_tok) and is_content_text(o_tok):
+                triplets.append({'subject': s_tok, 'relation': r_tok, 'object': o_tok})
+
+        # 2. Chuoi danh tu nmod theo tu noi dung (khong dung gioi tu/hư từ).
+        # Dùng parent-content để tạo thêm triplet cho cụm dài như
+        # giữ - bản_chính - giấy_tờ, giao_kết - hợp_đồng - lao_động.
+        if is_noun(p):
+            noun_mod_children = [
+                c
+                for c in sorted(children.get(i, []))
+                if dep[c - 1].lower() in {'nmod'} and is_content_text(token_text(c))
+            ]
+            noun_mod_texts = [token_text(c) for c in noun_mod_children if is_content_text(token_text(c))]
+            if len(noun_mod_texts) >= 2:
+                triplets.append({'subject': node_text, 'relation': noun_mod_texts[0], 'object': noun_mod_texts[1]})
+            elif len(noun_mod_texts) == 1:
+                parent_idx = head[i - 1]
+                parent_text = token_text(parent_idx)
+                if parent_idx > 0 and is_content_text(parent_text):
+                    triplets.append({'subject': parent_text, 'relation': node_text, 'object': noun_mod_texts[0]})
+
+    def all_parts_in_source(text: str) -> bool:
+        parts = [x for x in text.split('_') if x]
+        return bool(parts) and all(p.lower() in source_parts for p in parts)
+
+    final = []
+    seen = set()
+    for t in triplets:
+        s = t['subject'].replace('_', ' ').strip()
+        r = t['relation'].replace('_', ' ').strip()
+        o = t['object'].replace('_', ' ').strip()
+        
+        # Dọn dẹp lại cho đẹp và tránh node trùng ý
+        if s and r and o and s != r and r != o and s != o:
+           if not (all_parts_in_source(s.replace(' ', '_')) and all_parts_in_source(r.replace(' ', '_')) and all_parts_in_source(o.replace(' ', '_'))):
+               continue
+           key = (s.lower(), r.lower(), o.lower())
+           if key not in seen:
+               seen.add(key)
+               final.append({'subject': s.replace(' ', '_'), 'relation': r.replace(' ', '_'), 'object': o.replace(' ', '_')})
+
+    return final
 
 def build_linked_triplet_view(sentence_id: str, triplets: Sequence[Dict[str, str]]) -> Dict[str, Any]:
     nodes: List[Dict[str, Any]] = []
@@ -973,19 +1267,32 @@ def extract_triplets_with_models(
     out: List[Dict[str, Any]] = []
     for rec in records:
         sentence = rec["text"]
-        wseg_tokens = vncore_tokenize(vncore, sentence)
-        segmented_text = " ".join(wseg_tokens)
-        parsed = phonnlp_parse(ph_model, segmented_text)
-        extracted = extract_triplet_from_dependencies(parsed, stopwords)
+        try:
+            wseg_tokens = vncore_tokenize(vncore, sentence)
+            segmented_text = " ".join(wseg_tokens)
+            parsed = phonnlp_parse(ph_model, segmented_text)
+            
+            # Extract multiple, ultra-micro triplets
+            micro_triplets = extract_ultra_micro_triplets(parsed, stopwords)
 
-        out.append(
-            {
-                "id": rec["id"],
-                "source": rec.get("source", ""),
-                "text": sentence,
-                "triplet": extracted["triplet"],
-            }
-        )
+            out.append(
+                {
+                    "id": rec["id"],
+                    "source": rec.get("source", ""),
+                    "text": sentence,
+                    "triplets": micro_triplets,
+                }
+            )
+        except Exception as exc:
+            out.append(
+                {
+                    "id": rec["id"],
+                    "source": rec.get("source", ""),
+                    "text": sentence,
+                    "triplets": [],
+                    "extraction_error": str(exc),
+                }
+            )
     return out
 
 
@@ -1065,42 +1372,33 @@ def write_json(path: Path, payload: Any) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Convert LLM text to JSON and extract legal triplets with models")
-    p.add_argument("--input-structured-json", type=Path, default=None, help="Structured JSON input with fields: id, metadata, original_text, llm_processed_text")
+    p.add_argument("--input-structured-json", type=Path, default=Path("output/2_llm_pre_structured.json"), help="Structured JSON input with fields: id, metadata, original_text, llm_processed_text")
     p.add_argument("--input-txt", type=Path, default=Path("llm_pre.txt"), help="Input text file with one normalized sentence per line")
     p.add_argument("--contexts-jsonl", type=Path, default=Path("contexts_dieu_17_35_48.jsonl"), help="Optional context JSONL to map source metadata by line index")
-    p.add_argument("--sentences-output", type=Path, default=Path("llm_pre_sentences_model.json"), help="Output JSON containing sentence objects")
-    p.add_argument("--triplets-output", type=Path, default=Path("llm_pre_triplets_model.json"), help="Output JSON containing extracted triplets")
+    p.add_argument("--sentences-output", type=Path, default=Path("output/03_micro_sentences.json"), help="Output JSON containing sentence objects")
+    p.add_argument("--triplets-output", type=Path, default=Path("output/04_micro_triplets.json"), help="Output JSON containing extracted triplets")
     p.add_argument("--stopwords-file", type=Path, default=Path("vietnamese_stopwords_legal.txt"), help="Vietnamese stopwords file")
-    p.add_argument("--vncore-model-dir", type=Path, default=Path(".models/vncorenlp"), help="Directory for py_vncorenlp model files")
+    p.add_argument("--format-word-json", type=Path, default=Path("input/format_word.json"), help="Optional legal keyword JSON used for super-micro sentence splitting")
+    p.add_argument("--disable-super-micro", action="store_true", help="Disable aggressive super-micro sentence splitting")
+    p.add_argument("--vncore-model-dir", type=Path, default=Path(".models/VnCoreNLP"), help="Directory for py_vncorenlp model files")
     p.add_argument("--phonlp-model-dir", type=Path, default=Path(".models/phonlp"), help="Directory for PhoNLP model files")
-    p.add_argument("--merge-with-prev", type=Path, default=Path("llm_pre_triplets_model.prev.json"), help="Optional previous triplet JSON to blend with current output")
+    p.add_argument("--merge-with-prev", type=Path, default=Path("output/04_micro_triplets.prev.json"), help="Optional previous triplet JSON to blend with current output")
     return p
 
 
 def main() -> int:
     args = build_parser().parse_args()
 
-    if args.input_structured_json is not None:
-        if not args.input_structured_json.exists():
-            raise FileNotFoundError(f"Khong tim thay input structured JSON: {args.input_structured_json}")
-        records = read_structured_input_json(args.input_structured_json)
-        if not records:
-            raise RuntimeError("Input structured JSON khong co ban ghi hop le de xu ly.")
-    else:
-        if not args.input_txt.exists():
-            raise FileNotFoundError(f"Khong tim thay input text: {args.input_txt}")
-
-        lines = read_llm_lines(args.input_txt)
-        if not lines:
-            raise RuntimeError("Input text file khong co dong nao de xu ly.")
-
-        contexts = read_context_jsonl(args.contexts_jsonl)
-        records = build_sentence_records(lines, contexts)
-
-    write_json(args.sentences_output, records)
-    print(f"Da tao file JSON cau: {args.sentences_output} ({len(records)} cau)")
-
     stopwords = load_stopwords(args.stopwords_file)
+    keyword_lexicon = set() if args.disable_super_micro else load_format_word_keywords(args.format_word_json)
+
+    if not args.input_structured_json.exists():
+        raise FileNotFoundError(f"Khong tim thay input structured JSON: {args.input_structured_json}")
+
+    records = read_structured_input_json(args.input_structured_json, keyword_lexicon, stopwords)
+    if not records:
+        raise RuntimeError("Input structured JSON khong co ban ghi hop le de xu ly.")
+
     triplets = extract_triplets_with_models(
         records=records,
         stopwords=stopwords,
