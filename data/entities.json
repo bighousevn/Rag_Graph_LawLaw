@@ -1,0 +1,834 @@
+[
+    {
+        "entity": "Người",
+        "type": "node",
+        "listSectionId": [
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S9",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S21"
+        ],
+        "synonyms": [
+            "Cá nhân",
+            "Đương sự",
+            "Chủ thể",
+            "Con người",
+            "Nhân thân",
+            "Đối tượng",
+            "Công dân",
+            "Thành viên",
+            "Nhân sự",
+            "Bên liên quan",
+            "Thể nhân",
+            "Ai đó",
+            "Người dân",
+            "Mọi người",
+            "Người tham gia",
+            "Đầu người",
+            "Số lượng người",
+            "Phía con người"
+        ],
+        "data": "Cá nhân hoặc thực thể thực hiện các quyền và nghĩa vụ trong quan hệ lao động."
+    },
+    {
+        "entity": "sử dụng",
+        "type": "edge",
+        "listSectionId": [
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S9",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S21"
+        ],
+        "synonyms": [
+            "Dùng",
+            "Thuê mướn",
+            "Khai thác",
+            "Vận hành",
+            "Áp dụng",
+            "Tiêu thụ",
+            "Tận dụng",
+            "Huy động",
+            "Điều phối",
+            "Quản lý",
+            "Triển khai",
+            "Kích hoạt",
+            "Thực thi",
+            "Điều khiển",
+            "Trưng dụng",
+            "Nắm giữ",
+            "Lợi dụng",
+            "Thừa hưởng"
+        ],
+        "data": "Hành vi khai thác sức lao động hoặc vận hành các nguồn lực theo mục đích nhất định."
+    },
+    {
+        "entity": "lao động",
+        "type": "node",
+        "listSectionId": [
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S9",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S21"
+        ],
+        "synonyms": [
+            "Công việc",
+            "Làm việc",
+            "Nghề nghiệp",
+            "Nhân viên",
+            "Công nhân",
+            "Người làm thuê",
+            "Sức lao động",
+            "Việc làm",
+            "Người lao động",
+            "Lực lượng lao động",
+            "Công lao",
+            "Cống hiến",
+            "Nghiệp vụ",
+            "Chức trách",
+            "Nhiệm vụ",
+            "Lao lực",
+            "Sản xuất",
+            "Hoạt động chân tay",
+            "Hoạt động trí óc"
+        ],
+        "data": "Hoạt động có mục đích của con người nhằm tạo ra giá trị hoặc người tham gia thị trường việc làm."
+    },
+    {
+        "entity": "giấy tờ",
+        "type": "node",
+        "listSectionId": [
+            "S1",
+            "S9"
+        ],
+        "synonyms": [
+            "Hồ sơ",
+            "Văn bản",
+            "Chứng từ",
+            "Tài liệu",
+            "Giấy tờ tùy thân",
+            "Ấn phẩm",
+            "Hợp đồng",
+            "Đơn từ",
+            "Thẻ",
+            "Bằng chứng",
+            "Thư từ",
+            "Công văn",
+            "Hành chính",
+            "Sổ sách",
+            "Tờ trình",
+            "Giấy xác nhận",
+            "Biên bản",
+            "Lý lịch",
+            "Thủ tục",
+            "Pháp lý"
+        ],
+        "data": "Các loại văn bản, chứng từ pháp lý chứng minh thông tin cá nhân hoặc giao dịch."
+    },
+    {
+        "entity": "văn bằng",
+        "type": "node",
+        "listSectionId": [
+            "S1"
+        ],
+        "synonyms": [
+            "Bằng cấp",
+            "Chứng chỉ",
+            "Học vị",
+            "Chứng nhận",
+            "Học hàm",
+            "Bằng tốt nghiệp",
+            "Cử nhân",
+            "Kỹ sư",
+            "Thạc sĩ",
+            "Tiến sĩ",
+            "Giấy thông hành chuyên môn",
+            "Trình độ",
+            "Đào tạo",
+            "Văn bằng chính quy",
+            "Chứng thực chuyên môn"
+        ],
+        "data": "Chứng nhận bằng văn bản về trình độ đào tạo, chuyên môn của một cá nhân."
+    },
+    {
+        "entity": "đặt cọc",
+        "type": "node",
+        "listSectionId": [
+            "S2"
+        ],
+        "synonyms": [
+            "Ký quỹ",
+            "Tiền cọc",
+            "Thế chấp",
+            "Bảo lãnh",
+            "Tín chấp",
+            "Tiền bảo đảm",
+            "Đặt trước",
+            "Ứng trước",
+            "Vật bảo đảm",
+            "Cam kết tài chính",
+            "Ký cược",
+            "Tiền giữ chân",
+            "Thanh toán một phần",
+            "Khoản giữ lại",
+            "Giao kèo tiền mặt"
+        ],
+        "data": "Việc giao một khoản tiền hoặc tài sản để bảo đảm việc thực hiện một nghĩa vụ."
+    },
+    {
+        "entity": "tài sản",
+        "type": "node",
+        "listSectionId": [
+            "S2",
+            "S6"
+        ],
+        "synonyms": [
+            "Vật chất",
+            "Của cải",
+            "Tang vật",
+            "Sở hữu",
+            "Vốn",
+            "Nguồn lực",
+            "Bất động sản",
+            "Động sản",
+            "Phương tiện",
+            "Công cụ",
+            "Tiền bạc",
+            "Lợi ích kinh tế",
+            "Cơ sở vật chất",
+            "Trang thiết bị",
+            "Hàng hóa",
+            "Khoản mục",
+            "Giá trị",
+            "Di sản"
+        ],
+        "data": "Các vật có giá trị thuộc quyền sở hữu của cá nhân hoặc tổ chức."
+    },
+    {
+        "entity": "trả nợ",
+        "type": "node",
+        "listSectionId": [
+            "S3"
+        ],
+        "synonyms": [
+            "Thanh toán",
+            "Hoàn trả",
+            "Tất toán",
+            "Bồi hoàn",
+            "Giải quyết nợ",
+            "Nộp tiền nợ",
+            "Hết nợ",
+            "Đền bù",
+            "Chi trả nợ",
+            "Chung chi",
+            "Bù đắp khoản vay",
+            "Thanh lý nợ",
+            "Xử lý khoản nợ",
+            "Trả góp",
+            "Quyết toán nợ"
+        ],
+        "data": "Hoạt động thực hiện nghĩa vụ tài chính đã cam kết trước đó."
+    },
+    {
+        "entity": "hoạt động",
+        "type": "node",
+        "listSectionId": [
+            "S4",
+            "S8"
+        ],
+        "synonyms": [
+            "Vận hành",
+            "Sản xuất",
+            "Kinh doanh",
+            "Công việc",
+            "Thao tác",
+            "Nghiệp vụ",
+            "Quá trình",
+            "Diễn biến",
+            "Sự việc",
+            "Chương trình",
+            "Dự án",
+            "Hành động",
+            "Chuyển động",
+            "Sinh hoạt",
+            "Công vụ",
+            "Cơ chế",
+            "Hệ thống",
+            "Làm ăn"
+        ],
+        "data": "Sự triển khai các tác vụ chuyên môn hoặc chức năng của một tổ chức."
+    },
+    {
+        "entity": "cơ cấu",
+        "type": "node",
+        "listSectionId": [
+            "S5"
+        ],
+        "synonyms": [
+            "Tổ chức",
+            "Sơ đồ",
+            "Bộ máy",
+            "Hệ thống",
+            "Khung",
+            "Mô hình",
+            "Sắp xếp",
+            "Cấu trúc",
+            "Thành phần",
+            "Cấu tạo",
+            "Bản chất",
+            "Hình thái",
+            "Tổ hợp",
+            "Cách thức",
+            "Phân tầng",
+            "Phân khu",
+            "Kiến trúc doanh nghiệp"
+        ],
+        "data": "Cách thức sắp xếp, tổ chức các bộ phận trong một chỉnh thể."
+    },
+    {
+        "entity": "tái cấu trúc",
+        "type": "node",
+        "listSectionId": [
+            "S6"
+        ],
+        "synonyms": [
+            "Cải tổ",
+            "Sắp xếp lại",
+            "Đổi mới bộ máy",
+            "Chỉnh đốn",
+            "Tái thiết",
+            "Tái cơ cấu",
+            "Chuyển mình",
+            "Cơ cấu lại",
+            "Xây dựng lại",
+            "Quy hoạch lại",
+            "Tân trang",
+            "Làm mới tổ chức",
+            "Nâng cấp hệ thống",
+            "Cải cách doanh nghiệp"
+        ],
+        "data": "Thay đổi triệt để cấu trúc nhằm mục đích tối ưu hóa hiệu quả."
+    },
+    {
+        "entity": "thiên tai",
+        "type": "node",
+        "listSectionId": [
+            "S7"
+        ],
+        "synonyms": [
+            "Lũ lụt",
+            "Hạn hán",
+            "Động đất",
+            "Bão tố",
+            "Sóng thần",
+            "Tai biến",
+            "Thảm họa",
+            "Biến đổi khí hậu",
+            "Dịch bệnh",
+            "Hỏa hoạn",
+            "Sạt lở",
+            "Rủi ro tự nhiên",
+            "Bất khả kháng",
+            "Sự cố môi trường",
+            "Tai họa từ trời"
+        ],
+        "data": "Các sự kiện tự nhiên gây thiệt hại nghiêm trọng về người và tài sản."
+    },
+    {
+        "entity": "quyền lợi",
+        "type": "node",
+        "listSectionId": [
+            "S8"
+        ],
+        "synonyms": [
+            "Lợi ích",
+            "Chế độ",
+            "Đặc quyền",
+            "Phúc lợi",
+            "Ưu đãi",
+            "Quyền hạn",
+            "Lợi lộc",
+            "Phần thưởng",
+            "Sự công bằng",
+            "Bồi thường",
+            "Hỗ trợ",
+            "Trợ cấp",
+            "Thù lao",
+            "Giá trị nhận được",
+            "Lợi nhuận",
+            "Thành quả"
+        ],
+        "data": "Những lợi ích hợp pháp mà một cá nhân hoặc tổ chức được hưởng."
+    },
+    {
+        "entity": "bảo hiểm",
+        "type": "node",
+        "listSectionId": [
+            "S9"
+        ],
+        "synonyms": [
+            "An sinh",
+            "Bảo hộ",
+            "BHXH",
+            "BHYT",
+            "Bảo hiểm thất nghiệp",
+            "Quỹ dự phòng",
+            "Bảo đảm",
+            "Cam kết rủi ro",
+            "Phòng ngừa",
+            "An toàn",
+            "Bảo hiểm y tế",
+            "Bảo hiểm xã hội",
+            "Hỗ trợ rủi ro",
+            "Bảo vệ tài chính"
+        ],
+        "data": "Hình thức chia sẻ rủi ro tài chính khi có sự cố xảy ra."
+    },
+    {
+        "entity": "tài liệu",
+        "type": "node",
+        "listSectionId": [
+            "S10"
+        ],
+        "synonyms": [
+            "Hồ sơ",
+            "Văn bản",
+            "Dữ liệu",
+            "Thông tin",
+            "Sách báo",
+            "Tư liệu",
+            "Chứng cứ",
+            "Bản thảo",
+            "Giấy tờ",
+            "Ấn phẩm",
+            "Tệp tin",
+            "Công văn",
+            "Báo cáo",
+            "Ghi chép",
+            "Sử liệu",
+            "Thông điệp",
+            "Nội dung",
+            "Kho dữ liệu"
+        ],
+        "data": "Các vật mang thông tin được dùng để tham khảo hoặc lưu trữ."
+    },
+    {
+        "entity": "báo trước",
+        "type": "edge",
+        "listSectionId": [
+            "S11",
+            "S12",
+            "S13",
+            "S14"
+        ],
+        "synonyms": [
+            "Thông báo",
+            "Cho biết trước",
+            "Lệnh trước",
+            "Cảnh báo",
+            "Nhắc nhở",
+            "Đánh tiếng",
+            "Ra hiệu",
+            "Thông tin sớm",
+            "Dự báo",
+            "Ngỏ ý",
+            "Trình báo trước",
+            "Gửi đơn trước",
+            "Hẹn trước",
+            "Nêu ý kiến trước"
+        ],
+        "data": "Nghĩa vụ thông báo thông tin trước một thời hạn theo quy định."
+    },
+    {
+        "entity": "45 ngày",
+        "type": "node",
+        "listSectionId": [
+            "S11"
+        ],
+        "synonyms": [
+            "Bốn mươi lăm ngày",
+            "Tháng rưỡi",
+            "Kỳ hạn 45 ngày",
+            "Hơn một tháng",
+            "Thời gian 1.5 tháng",
+            "Khoảng 6 tuần",
+            "Tiến độ 45 ngày"
+        ],
+        "data": "Thời hạn báo trước bắt buộc đối với hợp đồng không xác định thời hạn."
+    },
+    {
+        "entity": "30 ngày",
+        "type": "node",
+        "listSectionId": [
+            "S12"
+        ],
+        "synonyms": [
+            "Ba mươi ngày",
+            "Một tháng",
+            "Kỳ hạn 30 ngày",
+            "Bốn tuần",
+            "Tháng làm việc",
+            "Thời gian một tháng",
+            "Hạn định 30 ngày"
+        ],
+        "data": "Thời hạn báo trước thường thấy đối với hợp đồng xác định thời hạn."
+    },
+    {
+        "entity": "03 ngày",
+        "type": "node",
+        "listSectionId": [
+            "S13"
+        ],
+        "synonyms": [
+            "Ba ngày",
+            "72 giờ",
+            "Hạn ngắn",
+            "Ba ngày làm việc",
+            "Thời hạn 3 ngày",
+            "Ít ngày",
+            "Vài ngày",
+            "Thời gian ngắn"
+        ],
+        "data": "Thời hạn báo trước trong các tình huống khẩn cấp hoặc đặc biệt."
+    },
+    {
+        "entity": "đặc thù",
+        "type": "node",
+        "listSectionId": [
+            "S14"
+        ],
+        "synonyms": [
+            "Riêng biệt",
+            "Độc đáo",
+            "Khác biệt",
+            "Chuyên biệt",
+            "Đặc điểm riêng",
+            "Cá biệt",
+            "Tính chất riêng",
+            "Cố hữu",
+            "Đặc sắc",
+            "Khu biệt",
+            "Khác thường",
+            "Chuyên dụng",
+            "Đặc tính riêng"
+        ],
+        "data": "Tính chất riêng có, không phổ biến của một công việc hoặc đối tượng."
+    },
+    {
+        "entity": "Chính phủ",
+        "type": "node",
+        "listSectionId": [
+            "S14"
+        ],
+        "synonyms": [
+            "Nhà nước",
+            "Cơ quan hành chính",
+            "Ban điều hành",
+            "Phía công quyền",
+            "Nội các",
+            "Chính quyền trung ương",
+            "Nhà đương cục",
+            "Thượng tầng quản lý",
+            "Hệ thống quản lý"
+        ],
+        "data": "Cơ quan hành chính nhà nước cao nhất, thực hiện quyền hành pháp."
+    },
+    {
+        "entity": "vi phạm",
+        "type": "edge",
+        "listSectionId": [
+            "S15",
+            "S16"
+        ],
+        "synonyms": [
+            "Lỗi",
+            "Sai phạm",
+            "Phạm luật",
+            "Trái quy định",
+            "Phạm quy",
+            "Xâm phạm",
+            "Lấn chiếm",
+            "Làm sai",
+            "Chệch hướng",
+            "Bất tuân",
+            "Khuyết điểm",
+            "Tội lỗi",
+            "Hành vi sai",
+            "Đắc tội",
+            "Chống đối",
+            "Phá vỡ cam kết"
+        ],
+        "data": "Hành động không tuân thủ các quy tắc, quy định hoặc thỏa thuận."
+    },
+    {
+        "entity": "bố trí",
+        "type": "node",
+        "listSectionId": [
+            "S15"
+        ],
+        "synonyms": [
+            "Sắp xếp",
+            "Điều động",
+            "Phân công",
+            "Thiết lập",
+            "Cài đặt",
+            "Bố cục",
+            "Dàn xếp",
+            "Phân bổ",
+            "Chỉnh đốn",
+            "Sửa soạn",
+            "Trình bày",
+            "Tổ chức lại",
+            "Đặt để",
+            "Phân loại",
+            "Quy hoạch nhân sự",
+            "Giao việc"
+        ],
+        "data": "Hoạt động phân phối, sắp đặt vị trí làm việc cho nhân viên."
+    },
+    {
+        "entity": "nợ",
+        "type": "edge",
+        "listSectionId": [
+            "S16"
+        ],
+        "synonyms": [
+            "Thiếu",
+            "Chậm trả",
+            "Chưa trả",
+            "Mắc nợ",
+            "Nợ nần",
+            "Tồn đọng",
+            "Kéo dài",
+            "Nghĩa vụ chưa hoàn thành",
+            "Thâm hụt",
+            "Vay mượn",
+            "Chưa thanh quyết toán"
+        ],
+        "data": "Trạng thái chưa hoàn thành nghĩa vụ tài chính khi đến hạn."
+    },
+    {
+        "entity": "lương",
+        "type": "node",
+        "listSectionId": [
+            "S16"
+        ],
+        "synonyms": [
+            "Tiền công",
+            "Tiền lương",
+            "Thu nhập",
+            "Thù lao",
+            "Bổng lộc",
+            "Tiền túi",
+            "Lợi tức",
+            "Thanh toán lao động",
+            "Kinh phí nhân sự",
+            "Tiền thưởng",
+            "Phụ cấp",
+            "Tiền làm việc",
+            "Lương bổng",
+            "Giá trị lao động",
+            "Thành quả tài chính"
+        ],
+        "data": "Khoản thù lao bằng tiền mà người sử dụng trả cho người lao động."
+    },
+    {
+        "entity": "ngược đãi",
+        "type": "node",
+        "listSectionId": [
+            "S17"
+        ],
+        "synonyms": [
+            "Hành hạ",
+            "Đối xử tệ",
+            "Bạo hành",
+            "Ức hiếp",
+            "Chèn ép",
+            "Làm nhục",
+            "Xúc phạm",
+            "Vùi dập",
+            "Bất công",
+            "Khinh rẻ",
+            "Áp bức",
+            "Đày đọa",
+            "Đối xử thô bạo",
+            "Xâm hại tinh thần",
+            "Bắt nạt"
+        ],
+        "data": "Hành vi xâm phạm thân thể, danh dự hoặc nhân phẩm của người lao động."
+    },
+    {
+        "entity": "cưỡng bức",
+        "type": "node",
+        "listSectionId": [
+            "S17"
+        ],
+        "synonyms": [
+            "Ép buộc",
+            "Bắt buộc",
+            "Áp đặt",
+            "Cưỡng chế",
+            "Thúc ép",
+            "Đe dọa làm việc",
+            "Khống chế",
+            "Giam cầm ý chí",
+            "Buộc tội",
+            "Bắt làm",
+            "Cưỡng đoạt sức lao động",
+            "Ép làm",
+            "Bất khả kháng hình thức"
+        ],
+        "data": "Dùng vũ lực hoặc đe dọa để buộc người khác làm việc trái ý muốn."
+    },
+    {
+        "entity": "quấy rối",
+        "type": "node",
+        "listSectionId": [
+            "S18"
+        ],
+        "synonyms": [
+            "Làm phiền",
+            "Xâm hại",
+            "Gây rối",
+            "Làm nhục",
+            "Chòng ghẹo",
+            "Tiếp cận bất chính",
+            "Công kích",
+            "Ám ảnh",
+            "Gây hấn",
+            "Đeo bám",
+            "Làm khó",
+            "Xúc phạm cá nhân",
+            "Làm phiền nhiễu",
+            "Gây áp lực xấu"
+        ],
+        "data": "Hành vi có tính chất xúc phạm, gây phiền toái cho người khác tại nơi làm việc."
+    },
+    {
+        "entity": "tình dục",
+        "type": "node",
+        "listSectionId": [
+            "S18"
+        ],
+        "synonyms": [
+            "Giới tính",
+            "Nhạy cảm",
+            "Thân xác",
+            "Yếu tố nam nữ",
+            "Quan hệ giới tính",
+            "Hành vi nhạy cảm",
+            "Đặc tính giới",
+            "Vấn đề sinh lý",
+            "Xâm hại tình dục",
+            "Biểu hiện giới"
+        ],
+        "data": "Yếu tố liên quan đến giới tính và các biểu hiện liên quan."
+    },
+    {
+        "entity": "thai sản",
+        "type": "node",
+        "listSectionId": [
+            "S19"
+        ],
+        "synonyms": [
+            "Mang thai",
+            "Sinh con",
+            "Nuôi con",
+            "Bầu bì",
+            "Mẹ bỉm",
+            "Sinh đẻ",
+            "Hậu sản",
+            "Nghỉ đẻ",
+            "Chăm sóc con nhỏ",
+            "Thời kỳ làm mẹ",
+            "Thiên chức",
+            "Sức khỏe sinh sản"
+        ],
+        "data": "Các vấn đề và chế độ liên quan đến quá trình mang thai, sinh con."
+    },
+    {
+        "entity": "tuổi hưu",
+        "type": "node",
+        "listSectionId": [
+            "S19"
+        ],
+        "synonyms": [
+            "Tuổi nghỉ việc",
+            "Tuổi già",
+            "Hết tuổi lao động",
+            "Nghỉ hưu",
+            "Hưởng chế độ",
+            "Gác kiếm",
+            "Rời vị trí",
+            "Tuổi nghỉ theo luật",
+            "Mãn hạn lao động",
+            "Thời điểm nghỉ ngơi"
+        ],
+        "data": "Độ tuổi mà người lao động được nghỉ việc và hưởng chế độ hưu trí."
+    },
+    {
+        "entity": "thông tin giả",
+        "type": "node",
+        "listSectionId": [
+            "S21"
+        ],
+        "synonyms": [
+            "Sai sự thật",
+            "Lừa dối",
+            "Gian lận",
+            "Xuyên tạc",
+            "Tin đồn",
+            "Nguỵ tạo",
+            "Bịa đặt",
+            "Ảo",
+            "Thông tin không thực",
+            "Sai lệch",
+            "Dối trá",
+            "Lừa gạt",
+            "Hồ sơ giả",
+            "Khai gian",
+            "Ngụy văn bản",
+            "Thông tin rác"
+        ],
+        "data": "Thông tin không đúng sự thật nhằm mục đích trục lợi hoặc gây hiểu nhầm."
+    }
+]
