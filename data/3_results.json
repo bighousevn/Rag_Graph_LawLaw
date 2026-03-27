@@ -1,104 +1,218 @@
 [
   {
     "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:36",
-    "name": "văn bằng",
-    "label": "Entity",
+    "entity_type": "node",
+    "label_or_type": "Entity",
+    "properties": {
+      "listSectionId": [
+        "s1"
+      ],
+      "synonyms": [
+        "bằng cấp"
+      ],
+      "name": "văn bằng",
+      "type": "node"
+    },
     "matched_from": "văn bằng",
     "matched_text": "văn bằng",
-    "score": 1.0,
-    "listSectionId": [
-      "s1"
-    ]
+    "score": 1.0
   },
   {
     "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917555415920148517",
-    "name": "giữ",
-    "label": "GIỮ",
+    "entity_type": "relationship",
+    "label_or_type": "GIỮ",
+    "properties": {
+      "listSectionId": [
+        "s1"
+      ],
+      "synonyms": [
+        "chiếm giữ",
+        "giam giữ"
+      ],
+      "name": "giữ",
+      "type": "edge"
+    },
     "matched_from": "giữ",
     "matched_text": "giữ",
     "score": 1.0,
-    "listSectionId": [
-      "s1"
-    ]
+    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
+    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:37"
   },
   {
     "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152947892885913634",
-    "name": "giữ",
-    "label": "GIỮ",
+    "entity_type": "relationship",
+    "label_or_type": "GIỮ",
+    "properties": {
+      "listSectionId": [
+        "s1"
+      ],
+      "synonyms": [
+        "nắm giữ",
+        "tạm giữ"
+      ],
+      "name": "giữ",
+      "type": "edge"
+    },
     "matched_from": "giữ",
     "matched_text": "giữ",
     "score": 1.0,
-    "listSectionId": [
-      "s1"
-    ]
+    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
+    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:35"
   },
   {
     "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1155199692699598882",
-    "name": "giữ",
-    "label": "GIỮ",
+    "entity_type": "relationship",
+    "label_or_type": "GIỮ",
+    "properties": {
+      "listSectionId": [
+        "s1"
+      ],
+      "synonyms": [
+        "duy trì",
+        "giữ lại"
+      ],
+      "name": "giữ",
+      "type": "edge"
+    },
     "matched_from": "giữ",
     "matched_text": "giữ",
     "score": 1.0,
-    "listSectionId": [
-      "s1"
-    ]
+    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
+    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:36"
   },
   {
     "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917568610059681849",
-    "name": "dừng",
-    "label": "DỪNG",
+    "entity_type": "relationship",
+    "label_or_type": "DỪNG",
+    "properties": {
+      "listSectionId": [
+        "s15"
+      ],
+      "synonyms": [
+        "ngừng",
+        "chấm dứt"
+      ],
+      "name": "dừng",
+      "type": "edge"
+    },
     "matched_from": "chấm dứt",
     "matched_text": "chấm dứt",
     "score": 1.0,
-    "listSectionId": [
-      "s15"
-    ]
-  },
-  {
-    "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917560913478287407",
-    "name": "vi phạm",
-    "label": "VI_PHẠM",
-    "matched_from": "vi phạm",
-    "matched_text": "vi phạm",
-    "score": 0.9999999403953552,
-    "listSectionId": [
-      "s8"
-    ]
-  },
-  {
-    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:40",
-    "name": "lao động",
-    "label": "Entity",
-    "matched_from": "Người lao động",
-    "matched_text": "lao động",
-    "score": 0.9615207314491272,
-    "listSectionId": [
-      "s1",
-      "s2",
-      "s3",
-      "s10"
-    ]
+    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
+    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:57"
   },
   {
     "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917576306641076259",
-    "name": "trả",
-    "label": "TRẢ",
+    "entity_type": "relationship",
+    "label_or_type": "TRẢ",
+    "properties": {
+      "listSectionId": [
+        "s20"
+      ],
+      "synonyms": [
+        "hoàn lại",
+        "thanh toán"
+      ],
+      "name": "trả",
+      "type": "edge"
+    },
     "matched_from": "trả lại",
     "matched_text": "hoàn lại",
     "score": 0.9540452361106873,
-    "listSectionId": [
-      "s20"
-    ]
+    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
+    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:35"
   },
   {
-    "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917576306641076292",
-    "name": "trả",
-    "label": "TRẢ",
-    "matched_from": "trả lại",
-    "matched_text": "trả",
-    "score": 0.9267827868461609,
-    "listSectionId": [
-      "s21"
-    ]
+    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:37",
+    "entity_type": "node",
+    "label_or_type": "Entity",
+    "properties": {
+      "listSectionId": [
+        "s1"
+      ],
+      "synonyms": [
+        "giấy chứng nhận"
+      ],
+      "name": "chứng chỉ",
+      "type": "node"
+    },
+    "matched_from": "văn bằng",
+    "matched_text": "giấy chứng nhận",
+    "score": 0.8845763802528381
+  },
+  {
+    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
+    "entity_type": "node",
+    "label_or_type": "Entity",
+    "properties": {
+      "listSectionId": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s20",
+        "s21"
+      ],
+      "synonyms": [
+        "nhân sự",
+        "cá nhân"
+      ],
+      "name": "Người",
+      "type": "node"
+    },
+    "matched_from": "Người lao động",
+    "matched_text": "Người",
+    "score": 0.8801485300064087
+  },
+  {
+    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:57",
+    "entity_type": "node",
+    "label_or_type": "Entity",
+    "properties": {
+      "listSectionId": [
+        "s15"
+      ],
+      "synonyms": [
+        "vận hành",
+        "thực hiện"
+      ],
+      "name": "hoạt động",
+      "type": "node"
+    },
+    "matched_from": "quá trình làm việc",
+    "matched_text": "hoạt động",
+    "score": 0.871152937412262
+  },
+  {
+    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:35",
+    "entity_type": "node",
+    "label_or_type": "Entity",
+    "properties": {
+      "listSectionId": [
+        "s1",
+        "s20"
+      ],
+      "synonyms": [
+        "hồ sơ",
+        "tài liệu"
+      ],
+      "name": "giấy tờ",
+      "type": "node"
+    },
+    "matched_from": "văn bằng",
+    "matched_text": "giấy tờ",
+    "score": 0.8636953830718994
   }
 ]
