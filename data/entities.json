@@ -1,802 +1,332 @@
 [
   {
-    "entity": "Người",
-    "type": "node",
-    "listSectionId": [
-      "S1",
-      "S2",
-      "S3",
-      "S4",
-      "S5",
-      "S9",
-      "S10",
-      "S11",
-      "S12",
-      "S13",
-      "S14",
-      "S15",
-      "S16",
-      "S17",
-      "S18",
-      "S19",
-      "S20",
-      "S21"
-    ],
-    "synonyms": [
-      "Cá nhân",
-      "Đương sự",
-      "Chủ thể",
-      "Con người",
-      "Nhân thân",
-      "Đối tượng",
-      "Công dân",
-      "Thành viên",
-      "Nhân sự",
-      "Bên liên quan",
-      "Thể nhân",
-      "Ai đó",
-      "Người dân",
-      "Mọi người",
-      "Người tham gia",
-      "Đầu người",
-      "Số lượng người",
-      "Phía con người"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
+    "name": "Người",
+    "type": "node"
   },
   {
-    "entity": "sử dụng",
-    "type": "edge",
-    "listSectionId": [
-      "S1",
-      "S2",
-      "S3",
-      "S4",
-      "S5",
-      "S9",
-      "S10",
-      "S11",
-      "S12",
-      "S13",
-      "S14",
-      "S15",
-      "S16",
-      "S17",
-      "S18",
-      "S21"
-    ],
-    "synonyms": [
-      "Dùng",
-      "Thuê mướn",
-      "Khai thác",
-      "Vận hành",
-      "Áp dụng",
-      "Tiêu thụ",
-      "Tận dụng",
-      "Huy động",
-      "Điều phối",
-      "Quản lý",
-      "Triển khai",
-      "Kích hoạt",
-      "Thực thi",
-      "Điều khiển",
-      "Trưng dụng",
-      "Nắm giữ",
-      "Lợi dụng",
-      "Thừa hưởng"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:35",
+    "name": "giấy tờ",
+    "type": "node"
   },
   {
-    "entity": "lao động",
-    "type": "node",
-    "listSectionId": [
-      "S1",
-      "S2",
-      "S3",
-      "S4",
-      "S5",
-      "S9",
-      "S10",
-      "S11",
-      "S12",
-      "S13",
-      "S14",
-      "S15",
-      "S16",
-      "S17",
-      "S18",
-      "S19",
-      "S20",
-      "S21"
-    ],
-    "synonyms": [
-      "Công việc",
-      "Làm việc",
-      "Nghề nghiệp",
-      "Nhân viên",
-      "Công nhân",
-      "Người làm thuê",
-      "Sức lao động",
-      "Việc làm",
-      "Người lao động",
-      "Lực lượng lao động",
-      "Công lao",
-      "Cống hiến",
-      "Nghiệp vụ",
-      "Chức trách",
-      "Nhiệm vụ",
-      "Lao lực",
-      "Sản xuất",
-      "Hoạt động chân tay",
-      "Hoạt động trí óc"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:36",
+    "name": "văn bằng",
+    "type": "node"
   },
   {
-    "entity": "giấy tờ",
-    "type": "node",
-    "listSectionId": [
-      "S1",
-      "S9"
-    ],
-    "synonyms": [
-      "Hồ sơ",
-      "Văn bản",
-      "Chứng từ",
-      "Tài liệu",
-      "Giấy tờ tùy thân",
-      "Ấn phẩm",
-      "Hợp đồng",
-      "Đơn từ",
-      "Thẻ",
-      "Bằng chứng",
-      "Thư từ",
-      "Công văn",
-      "Hành chính",
-      "Sổ sách",
-      "Tờ trình",
-      "Giấy xác nhận",
-      "Biên bản",
-      "Lý lịch",
-      "Thủ tục",
-      "Pháp lý"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:37",
+    "name": "chứng chỉ",
+    "type": "node"
   },
   {
-    "entity": "văn bằng",
-    "type": "node",
-    "listSectionId": [
-      "S1"
-    ],
-    "synonyms": [
-      "Bằng cấp",
-      "Chứng chỉ",
-      "Học vị",
-      "Chứng nhận",
-      "Học hàm",
-      "Bằng tốt nghiệp",
-      "Cử nhân",
-      "Kỹ sư",
-      "Thạc sĩ",
-      "Tiến sĩ",
-      "Giấy thông hành chuyên môn",
-      "Trình độ",
-      "Đào tạo",
-      "Văn bằng chính quy",
-      "Chứng thực chuyên môn"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:38",
+    "name": "đặt cọc",
+    "type": "node"
   },
   {
-    "entity": "đặt cọc",
-    "type": "node",
-    "listSectionId": [
-      "S2"
-    ],
-    "synonyms": [
-      "Ký quỹ",
-      "Tiền cọc",
-      "Thế chấp",
-      "Bảo lãnh",
-      "Tín chấp",
-      "Tiền bảo đảm",
-      "Đặt trước",
-      "Ứng trước",
-      "Vật bảo đảm",
-      "Cam kết tài chính",
-      "Ký cược",
-      "Tiền giữ chân",
-      "Thanh toán một phần",
-      "Khoản giữ lại",
-      "Giao kèo tiền mặt"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:39",
+    "name": "cầm cố",
+    "type": "node"
   },
   {
-    "entity": "tài sản",
-    "type": "node",
-    "listSectionId": [
-      "S2",
-      "S6"
-    ],
-    "synonyms": [
-      "Vật chất",
-      "Của cải",
-      "Tang vật",
-      "Sở hữu",
-      "Vốn",
-      "Nguồn lực",
-      "Bất động sản",
-      "Động sản",
-      "Phương tiện",
-      "Công cụ",
-      "Tiền bạc",
-      "Lợi ích kinh tế",
-      "Cơ sở vật chất",
-      "Trang thiết bị",
-      "Hàng hóa",
-      "Khoản mục",
-      "Giá trị",
-      "Di sản"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:40",
+    "name": "lao động",
+    "type": "node"
   },
   {
-    "entity": "trả nợ",
-    "type": "node",
-    "listSectionId": [
-      "S3"
-    ],
-    "synonyms": [
-      "Thanh toán",
-      "Hoàn trả",
-      "Tất toán",
-      "Bồi hoàn",
-      "Giải quyết nợ",
-      "Nộp tiền nợ",
-      "Hết nợ",
-      "Đền bù",
-      "Chi trả nợ",
-      "Chung chi",
-      "Bù đắp khoản vay",
-      "Thanh lý nợ",
-      "Xử lý khoản nợ",
-      "Trả góp",
-      "Quyết toán nợ"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:41",
+    "name": "45 ngày",
+    "type": "node"
   },
   {
-    "entity": "hoạt động",
-    "type": "node",
-    "listSectionId": [
-      "S4",
-      "S8"
-    ],
-    "synonyms": [
-      "Vận hành",
-      "Sản xuất",
-      "Kinh doanh",
-      "Công việc",
-      "Thao tác",
-      "Nghiệp vụ",
-      "Quá trình",
-      "Diễn biến",
-      "Sự việc",
-      "Chương trình",
-      "Dự án",
-      "Hành động",
-      "Chuyển động",
-      "Sinh hoạt",
-      "Công vụ",
-      "Cơ chế",
-      "Hệ thống",
-      "Làm ăn"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:42",
+    "name": "30 ngày",
+    "type": "node"
   },
   {
-    "entity": "cơ cấu",
-    "type": "node",
-    "listSectionId": [
-      "S5"
-    ],
-    "synonyms": [
-      "Tổ chức",
-      "Sơ đồ",
-      "Bộ máy",
-      "Hệ thống",
-      "Khung",
-      "Mô hình",
-      "Sắp xếp",
-      "Cấu trúc",
-      "Thành phần",
-      "Cấu tạo",
-      "Bản chất",
-      "Hình thái",
-      "Tổ hợp",
-      "Cách thức",
-      "Phân tầng",
-      "Phân khu",
-      "Kiến trúc doanh nghiệp"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:43",
+    "name": "03 ngày",
+    "type": "node"
   },
   {
-    "entity": "tái cấu trúc",
-    "type": "node",
-    "listSectionId": [
-      "S6"
-    ],
-    "synonyms": [
-      "Cải tổ",
-      "Sắp xếp lại",
-      "Đổi mới bộ máy",
-      "Chỉnh đốn",
-      "Tái thiết",
-      "Tái cơ cấu",
-      "Chuyển mình",
-      "Cơ cấu lại",
-      "Xây dựng lại",
-      "Quy hoạch lại",
-      "Tân trang",
-      "Làm mới tổ chức",
-      "Nâng cấp hệ thống",
-      "Cải cách doanh nghiệp"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:44",
+    "name": "Chính phủ",
+    "type": "node"
   },
   {
-    "entity": "thiên tai",
-    "type": "node",
-    "listSectionId": [
-      "S7"
-    ],
-    "synonyms": [
-      "Lũ lụt",
-      "Hạn hán",
-      "Động đất",
-      "Bão tố",
-      "Sóng thần",
-      "Tai biến",
-      "Thảm họa",
-      "Biến đổi khí hậu",
-      "Dịch bệnh",
-      "Hỏa hoạn",
-      "Sạt lở",
-      "Rủi ro tự nhiên",
-      "Bất khả kháng",
-      "Sự cố môi trường",
-      "Tai họa từ trời"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:45",
+    "name": "thời hạn",
+    "type": "node"
   },
   {
-    "entity": "quyền lợi",
-    "type": "node",
-    "listSectionId": [
-      "S8"
-    ],
-    "synonyms": [
-      "Lợi ích",
-      "Chế độ",
-      "Đặc quyền",
-      "Phúc lợi",
-      "Ưu đãi",
-      "Quyền hạn",
-      "Lợi lộc",
-      "Phần thưởng",
-      "Sự công bằng",
-      "Bồi thường",
-      "Hỗ trợ",
-      "Trợ cấp",
-      "Thù lao",
-      "Giá trị nhận được",
-      "Lợi nhuận",
-      "Thành quả"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:46",
+    "name": "quy định",
+    "type": "node"
   },
   {
-    "entity": "bảo hiểm",
-    "type": "node",
-    "listSectionId": [
-      "S9"
-    ],
-    "synonyms": [
-      "An sinh",
-      "Bảo hộ",
-      "BHXH",
-      "BHYT",
-      "Bảo hiểm thất nghiệp",
-      "Quỹ dự phòng",
-      "Bảo đảm",
-      "Cam kết rủi ro",
-      "Phòng ngừa",
-      "An toàn",
-      "Bảo hiểm y tế",
-      "Bảo hiểm xã hội",
-      "Hỗ trợ rủi ro",
-      "Bảo vệ tài chính"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:47",
+    "name": "bố trí",
+    "type": "node"
   },
   {
-    "entity": "tài liệu",
-    "type": "node",
-    "listSectionId": [
-      "S10"
-    ],
-    "synonyms": [
-      "Hồ sơ",
-      "Văn bản",
-      "Dữ liệu",
-      "Thông tin",
-      "Sách báo",
-      "Tư liệu",
-      "Chứng cứ",
-      "Bản thảo",
-      "Giấy tờ",
-      "Ấn phẩm",
-      "Tệp tin",
-      "Công văn",
-      "Báo cáo",
-      "Ghi chép",
-      "Sử liệu",
-      "Thông điệp",
-      "Nội dung",
-      "Kho dữ liệu"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:48",
+    "name": "lương",
+    "type": "node"
   },
   {
-    "entity": "báo trước",
-    "type": "edge",
-    "listSectionId": [
-      "S11",
-      "S12",
-      "S13",
-      "S14"
-    ],
-    "synonyms": [
-      "Thông báo",
-      "Cho biết trước",
-      "Lệnh trước",
-      "Cảnh báo",
-      "Nhắc nhở",
-      "Đánh tiếng",
-      "Ra hiệu",
-      "Thông tin sớm",
-      "Dự báo",
-      "Ngỏ ý",
-      "Trình báo trước",
-      "Gửi đơn trước",
-      "Hẹn trước",
-      "Nêu ý kiến trước"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:49",
+    "name": "ngược đãi",
+    "type": "node"
   },
   {
-    "entity": "45 ngày",
-    "type": "node",
-    "listSectionId": [
-      "S11"
-    ],
-    "synonyms": [
-      "Bốn mươi lăm ngày",
-      "Tháng rưỡi",
-      "Kỳ hạn 45 ngày",
-      "Hơn một tháng",
-      "Thời gian 1.5 tháng",
-      "Khoảng 6 tuần",
-      "Tiến độ 45 ngày"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:50",
+    "name": "cưỡng bức",
+    "type": "node"
   },
   {
-    "entity": "30 ngày",
-    "type": "node",
-    "listSectionId": [
-      "S12"
-    ],
-    "synonyms": [
-      "Ba mươi ngày",
-      "Một tháng",
-      "Kỳ hạn 30 ngày",
-      "Bốn tuần",
-      "Tháng làm việc",
-      "Thời gian một tháng",
-      "Hạn định 30 ngày"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:51",
+    "name": "quấy rối",
+    "type": "node"
   },
   {
-    "entity": "03 ngày",
-    "type": "node",
-    "listSectionId": [
-      "S13"
-    ],
-    "synonyms": [
-      "Ba ngày",
-      "72 giờ",
-      "Hạn ngắn",
-      "Ba ngày làm việc",
-      "Thời hạn 3 ngày",
-      "Ít ngày",
-      "Vài ngày",
-      "Thời gian ngắn"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:52",
+    "name": "thai sản",
+    "type": "node"
   },
   {
-    "entity": "đặc thù",
-    "type": "node",
-    "listSectionId": [
-      "S14"
-    ],
-    "synonyms": [
-      "Riêng biệt",
-      "Độc đáo",
-      "Khác biệt",
-      "Chuyên biệt",
-      "Đặc điểm riêng",
-      "Cá biệt",
-      "Tính chất riêng",
-      "Cố hữu",
-      "Đặc sắc",
-      "Khu biệt",
-      "Khác thường",
-      "Chuyên dụng",
-      "Đặc tính riêng"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:53",
+    "name": "tuổi hưu",
+    "type": "node"
   },
   {
-    "entity": "Chính phủ",
-    "type": "node",
-    "listSectionId": [
-      "S14"
-    ],
-    "synonyms": [
-      "Nhà nước",
-      "Cơ quan hành chính",
-      "Ban điều hành",
-      "Phía công quyền",
-      "Nội các",
-      "Chính quyền trung ương",
-      "Nhà đương cục",
-      "Thượng tầng quản lý",
-      "Hệ thống quản lý"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:54",
+    "name": "tin giả",
+    "type": "node"
   },
   {
-    "entity": "vi phạm",
-    "type": "edge",
-    "listSectionId": [
-      "S15",
-      "S16"
-    ],
-    "synonyms": [
-      "Lỗi",
-      "Sai phạm",
-      "Phạm luật",
-      "Trái quy định",
-      "Phạm quy",
-      "Xâm phạm",
-      "Lấn chiếm",
-      "Làm sai",
-      "Chệch hướng",
-      "Bất tuân",
-      "Khuyết điểm",
-      "Tội lỗi",
-      "Hành vi sai",
-      "Đắc tội",
-      "Chống đối",
-      "Phá vỡ cam kết"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:55",
+    "name": "Hai bên",
+    "type": "node"
   },
   {
-    "entity": "bố trí",
-    "type": "node",
-    "listSectionId": [
-      "S15"
-    ],
-    "synonyms": [
-      "Sắp xếp",
-      "Điều động",
-      "Phân công",
-      "Thiết lập",
-      "Cài đặt",
-      "Bố cục",
-      "Dàn xếp",
-      "Phân bổ",
-      "Chỉnh đốn",
-      "Sửa soạn",
-      "Trình bày",
-      "Tổ chức lại",
-      "Đặt để",
-      "Phân loại",
-      "Quy hoạch nhân sự",
-      "Giao việc"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:56",
+    "name": "quyền lợi",
+    "type": "node"
   },
   {
-    "entity": "nợ",
-    "type": "edge",
-    "listSectionId": [
-      "S16"
-    ],
-    "synonyms": [
-      "Thiếu",
-      "Chậm trả",
-      "Chưa trả",
-      "Mắc nợ",
-      "Nợ nần",
-      "Tồn đọng",
-      "Kéo dài",
-      "Nghĩa vụ chưa hoàn thành",
-      "Thâm hụt",
-      "Vay mượn",
-      "Chưa thanh quyết toán"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:57",
+    "name": "hoạt động",
+    "type": "node"
   },
   {
-    "entity": "lương",
-    "type": "node",
-    "listSectionId": [
-      "S16"
-    ],
-    "synonyms": [
-      "Tiền công",
-      "Tiền lương",
-      "Thu nhập",
-      "Thù lao",
-      "Bổng lộc",
-      "Tiền túi",
-      "Lợi tức",
-      "Thanh toán lao động",
-      "Kinh phí nhân sự",
-      "Tiền thưởng",
-      "Phụ cấp",
-      "Tiền làm việc",
-      "Lương bổng",
-      "Giá trị lao động",
-      "Thành quả tài chính"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:58",
+    "name": "cơ cấu",
+    "type": "node"
   },
   {
-    "entity": "ngược đãi",
-    "type": "node",
-    "listSectionId": [
-      "S17"
-    ],
-    "synonyms": [
-      "Hành hạ",
-      "Đối xử tệ",
-      "Bạo hành",
-      "Ức hiếp",
-      "Chèn ép",
-      "Làm nhục",
-      "Xúc phạm",
-      "Vùi dập",
-      "Bất công",
-      "Khinh rẻ",
-      "Áp bức",
-      "Đày đọa",
-      "Đối xử thô bạo",
-      "Xâm hại tinh thần",
-      "Bắt nạt"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:59",
+    "name": "Doanh nghiệp",
+    "type": "node"
   },
   {
-    "entity": "cưỡng bức",
-    "type": "node",
-    "listSectionId": [
-      "S17"
-    ],
-    "synonyms": [
-      "Ép buộc",
-      "Bắt buộc",
-      "Áp đặt",
-      "Cưỡng chế",
-      "Thúc ép",
-      "Đe dọa làm việc",
-      "Khống chế",
-      "Giam cầm ý chí",
-      "Buộc tội",
-      "Bắt làm",
-      "Cưỡng đoạt sức lao động",
-      "Ép làm",
-      "Bất khả kháng hình thức"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:60",
+    "name": "tái cấu trúc",
+    "type": "node"
   },
   {
-    "entity": "quấy rối",
-    "type": "node",
-    "listSectionId": [
-      "S18"
-    ],
-    "synonyms": [
-      "Làm phiền",
-      "Xâm hại",
-      "Gây rối",
-      "Làm nhục",
-      "Chòng ghẹo",
-      "Tiếp cận bất chính",
-      "Công kích",
-      "Ám ảnh",
-      "Gây hấn",
-      "Đeo bám",
-      "Làm khó",
-      "Xúc phạm cá nhân",
-      "Làm phiền nhiễu",
-      "Gây áp lực xấu"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:61",
+    "name": "tài sản",
+    "type": "node"
   },
   {
-    "entity": "tình dục",
-    "type": "node",
-    "listSectionId": [
-      "S18"
-    ],
-    "synonyms": [
-      "Giới tính",
-      "Nhạy cảm",
-      "Thân xác",
-      "Yếu tố nam nữ",
-      "Quan hệ giới tính",
-      "Hành vi nhạy cảm",
-      "Đặc tính giới",
-      "Vấn đề sinh lý",
-      "Xâm hại tình dục",
-      "Biểu hiện giới"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:62",
+    "name": "Thiên tai",
+    "type": "node"
   },
   {
-    "entity": "thai sản",
-    "type": "node",
-    "listSectionId": [
-      "S19"
-    ],
-    "synonyms": [
-      "Mang thai",
-      "Sinh con",
-      "Nuôi con",
-      "Bầu bì",
-      "Mẹ bỉm",
-      "Sinh đẻ",
-      "Hậu sản",
-      "Nghỉ đẻ",
-      "Chăm sóc con nhỏ",
-      "Thời kỳ làm mẹ",
-      "Thiên chức",
-      "Sức khỏe sinh sản"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:63",
+    "name": "gián đoạn",
+    "type": "node"
   },
   {
-    "entity": "tuổi hưu",
-    "type": "node",
-    "listSectionId": [
-      "S19"
-    ],
-    "synonyms": [
-      "Tuổi nghỉ việc",
-      "Tuổi già",
-      "Hết tuổi lao động",
-      "Nghỉ hưu",
-      "Hưởng chế độ",
-      "Gác kiếm",
-      "Rời vị trí",
-      "Tuổi nghỉ theo luật",
-      "Mãn hạn lao động",
-      "Thời điểm nghỉ ngơi"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:64",
+    "name": "ưu tiên",
+    "type": "node"
   },
   {
-    "entity": "thông tin giả",
-    "type": "node",
-    "listSectionId": [
-      "S21"
-    ],
-    "synonyms": [
-      "Sai sự thật",
-      "Lừa dối",
-      "Gian lận",
-      "Xuyên tạc",
-      "Tin đồn",
-      "Nguỵ tạo",
-      "Bịa đặt",
-      "Ảo",
-      "Thông tin không thực",
-      "Sai lệch",
-      "Dối trá",
-      "Lừa gạt",
-      "Hồ sơ giả",
-      "Khai gian",
-      "Ngụy văn bản",
-      "Thông tin rác"
-    ]
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:65",
+    "name": "phá sản",
+    "type": "node"
+  },
+  {
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:66",
+    "name": "bảo hiểm",
+    "type": "node"
+  },
+  {
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:67",
+    "name": "hồ sơ",
+    "type": "node"
+  },
+  {
+    "elementId": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:68",
+    "name": "chi phí",
+    "type": "node"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152947892885913634",
+    "name": "giữ",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1155199692699598882",
+    "name": "giữ",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917555415920148517",
+    "name": "giữ",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917556515431776294",
+    "name": "yêu cầu",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917556515431776295",
+    "name": "yêu cầu",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917557614943404072",
+    "name": "cưỡng ép",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917558714455031849",
+    "name": "báo trước",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917558714455031850",
+    "name": "báo trước",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917558714455031851",
+    "name": "báo trước",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917558714455031854",
+    "name": "báo trước",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917560913478287407",
+    "name": "vi phạm",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917562012989915184",
+    "name": "nợ",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917563112501542961",
+    "name": "thực hiện",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917563112501542962",
+    "name": "thực hiện",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917563112501542963",
+    "name": "thực hiện",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917564212013170740",
+    "name": "nghỉ",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917565311524798517",
+    "name": "đạt",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917566411036426294",
+    "name": "cung cấp",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917566411036426307",
+    "name": "cung cấp",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917568610059681849",
+    "name": "dừng",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917569709571309626",
+    "name": "thay đổi",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917575207129448514",
+    "name": "chốt",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917576306641076259",
+    "name": "trả",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917576306641076292",
+    "name": "trả",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152952290932424748",
+    "name": "quy định",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152959987513819191",
+    "name": "thanh toán",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152965485071958072",
+    "name": "được",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152955589467308091",
+    "name": "thực hiện",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152963286048702523",
+    "name": "chuyển nhượng",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917574107617820737",
+    "name": "bị",
+    "type": "edge"
+  },
+  {
+    "elementId": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152964385560330302",
+    "name": "gây",
+    "type": "edge"
   }
 ]
