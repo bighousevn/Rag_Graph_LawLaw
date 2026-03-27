@@ -8,7 +8,7 @@ AUTH = ("9a156fb4", "lSIr4nirHZX4oPudtOO0bQiwUUm3XulJgYuSC5NPNfE")
 
 BASE_DIR = Path(__file__).resolve().parent
 FILE_ENTITIES = BASE_DIR / '2_question_entities_vectorized.json'
-OUTPUT_FILE = BASE_DIR / 'query_neo4j_results.json'
+OUTPUT_FILE = BASE_DIR / '3_results.json'
 
 MIN_SCORE = 0.9  # Ngưỡng an toàn để lọc nhiễu
 TOP_K_PER_ENTITY = 1000  # Lấy top 30 cho mỗi từ khóa để đảm bảo độ phủ

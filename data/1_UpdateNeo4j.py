@@ -6,7 +6,7 @@ from neo4j import GraphDatabase
 URI = "neo4j+s://9a156fb4.databases.neo4j.io"
 USER = "9a156fb4"  # Username mặc định của Aura thường là 'neo4j'
 PASSWORD = "lSIr4nirHZX4oPudtOO0bQiwUUm3XulJgYuSC5NPNfE"
-FILE_JSON = 'data/b1_vectors.json'
+FILE_JSON = 'data/1_vectors.json'
 
 class Neo4jUpdater:
     def __init__(self, uri, user, password):
