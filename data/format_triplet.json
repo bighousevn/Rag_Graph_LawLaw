@@ -1,0 +1,48 @@
+[
+    {
+        "nodes": [
+            {
+                "id": "N01",
+                "name": "Người lao động",
+                "list_section_id": [
+                    "1.1",
+                    "1.2"
+                ]
+            },
+            {
+                "id": "N02",
+                "name": "Hợp đồng lao động",
+                "list_section_id": [
+                    "1.1"
+                ]
+            },
+            {
+                "id": "N03",
+                "name": "Tiền lương",
+                "list_section_id": [
+                    "1.2"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "id": "E01",
+                "name": "Ký kết",
+                "source": "N01",
+                "target": "N02",
+                "list_section_id": [
+                    "1.1"
+                ]
+            },
+            {
+                "id": "E02",
+                "name": "Bao gồm",
+                "source": "N02",
+                "target": "N03",
+                "list_section_id": [
+                    "1.2"
+                ]
+            }
+        ]
+    }
+]

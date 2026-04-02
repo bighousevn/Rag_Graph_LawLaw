@@ -1,0 +1,70 @@
+[
+    {
+        "source": {
+            "id": "N01",
+            "name": "Người lao động",
+            "synonym": [
+                "nhân viên",
+                "người làm công",
+                "công nhân"
+            ],
+            "label": "Person",
+            "type": "node"
+        },
+        "edge": {
+            "id": "E01",
+            "name": "Ký kết",
+            "synonym": [
+                "giao kết",
+                "thỏa thuận lập",
+                "xác nhận"
+            ],
+            "label": "SIGN_CONTRACT",
+            "type": "edge"
+        },
+        "target": {
+            "id": "N02",
+            "name": "Hợp đồng lao động",
+            "synonym": [
+                "HĐLĐ",
+                "giao kèo lao động"
+            ],
+            "label": "Document",
+            "type": "node"
+        }
+    },
+    {
+        "source": {
+            "id": "N02",
+            "name": "Hợp đồng lao động",
+            "synonym": [
+                "HĐLĐ",
+                "giao kèo lao động"
+            ],
+            "label": "Document",
+            "type": "node"
+        },
+        "edge": {
+            "id": "E02",
+            "name": "Bao gồm",
+            "synonym": [
+                "chứa đựng",
+                "có nội dung",
+                "quy định"
+            ],
+            "label": "INCLUDES",
+            "type": "edge"
+        },
+        "target": {
+            "id": "N03",
+            "name": "Tiền lương",
+            "synonym": [
+                "lương",
+                "thu nhập",
+                "thù lao"
+            ],
+            "label": "Benefit",
+            "type": "node"
+        }
+    }
+]

@@ -7,7 +7,7 @@ URI = "neo4j+s://9a156fb4.databases.neo4j.io"
 AUTH = ("9a156fb4", "lSIr4nirHZX4oPudtOO0bQiwUUm3XulJgYuSC5NPNfE")
 
 BASE_DIR = Path(__file__).resolve().parent
-FILE_ENTITIES = BASE_DIR / '121_vector.json'
+FILE_ENTITIES = BASE_DIR / '11_vector.json'
 OUTPUT_FILE = BASE_DIR / '3_results.json'
 
 MIN_SCORE = 0.85  # Ngưỡng an toàn để lọc nhiễu

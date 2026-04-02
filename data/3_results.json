@@ -1,83 +1,5 @@
 [
   {
-    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:41",
-    "entity_type": "node",
-    "label_or_type": "Entity",
-    "properties": {
-      "listSectionId": [
-        "s4"
-      ],
-      "synonyms": [
-        "tháng rưỡi"
-      ],
-      "name": "45 ngày",
-      "type": "node"
-    },
-    "matched_from": "45 ngày",
-    "matched_text": "45 ngày",
-    "score": 1.0
-  },
-  {
-    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:59",
-    "entity_type": "node",
-    "label_or_type": "Entity",
-    "properties": {
-      "listSectionId": [
-        "s17",
-        "s19"
-      ],
-      "synonyms": [
-        "công ty",
-        "đơn vị"
-      ],
-      "name": "Doanh nghiệp",
-      "type": "node"
-    },
-    "matched_from": "công ty",
-    "matched_text": "công ty",
-    "score": 1.0
-  },
-  {
-    "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917558714455031849",
-    "entity_type": "relationship",
-    "label_or_type": "BÁO_TRƯỚC",
-    "properties": {
-      "listSectionId": [
-        "s4"
-      ],
-      "synonyms": [
-        "thông báo trước"
-      ],
-      "name": "báo trước",
-      "type": "edge"
-    },
-    "matched_from": "báo trước",
-    "matched_text": "báo trước",
-    "score": 1.0,
-    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
-    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:41"
-  },
-  {
-    "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917558714455031850",
-    "entity_type": "relationship",
-    "label_or_type": "BÁO_TRƯỚC",
-    "properties": {
-      "listSectionId": [
-        "s5"
-      ],
-      "synonyms": [
-        "dự báo"
-      ],
-      "name": "báo trước",
-      "type": "edge"
-    },
-    "matched_from": "báo trước",
-    "matched_text": "báo trước",
-    "score": 1.0,
-    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
-    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:42"
-  },
-  {
     "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:1152959987513819191",
     "entity_type": "relationship",
     "label_or_type": "THANH_TOÁN",
@@ -92,124 +14,31 @@
       "name": "thanh toán",
       "type": "edge"
     },
-    "matched_from": "trả",
-    "matched_text": "chi trả",
-    "score": 0.8987924456596375,
+    "matched_from": "thanh toán lương",
+    "matched_text": "thanh toán",
+    "score": 0.9444319009780884,
     "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:55",
     "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:56"
   },
   {
-    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
+    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:56",
     "entity_type": "node",
     "label_or_type": "Entity",
     "properties": {
       "listSectionId": [
-        "s1",
-        "s2",
-        "s3",
-        "s4",
-        "s5",
-        "s6",
-        "s7",
-        "s8",
-        "s9",
-        "s10",
-        "s11",
-        "s12",
-        "s13",
-        "s14",
         "s15",
-        "s16",
-        "s20",
-        "s21"
-      ],
-      "synonyms": [
-        "nhân sự",
-        "cá nhân"
-      ],
-      "name": "Người",
-      "type": "node"
-    },
-    "matched_from": "người lao động",
-    "matched_text": "Người",
-    "score": 0.8800601959228516
-  },
-  {
-    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:48",
-    "entity_type": "node",
-    "label_or_type": "Entity",
-    "properties": {
-      "listSectionId": [
-        "s9"
-      ],
-      "synonyms": [
-        "tiền lương",
-        "thu nhập"
-      ],
-      "name": "lương",
-      "type": "node"
-    },
-    "matched_from": "người lao động",
-    "matched_text": "tiền lương",
-    "score": 0.8752784729003906
-  },
-  {
-    "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917574107617820737",
-    "entity_type": "relationship",
-    "label_or_type": "BỊ",
-    "properties": {
-      "listSectionId": [
         "s19"
       ],
       "synonyms": [
-        "gánh chịu",
-        "mắc phải"
+        "lợi ích",
+        "phúc lợi"
       ],
-      "name": "bị",
-      "type": "edge"
-    },
-    "matched_from": "mức hưởng",
-    "matched_text": "gánh chịu",
-    "score": 0.8688193559646606,
-    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:59",
-    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:65"
-  },
-  {
-    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:42",
-    "entity_type": "node",
-    "label_or_type": "Entity",
-    "properties": {
-      "listSectionId": [
-        "s5"
-      ],
-      "synonyms": [
-        "một tháng"
-      ],
-      "name": "30 ngày",
+      "name": "quyền lợi",
       "type": "node"
     },
-    "matched_from": "45 ngày",
-    "matched_text": "30 ngày",
-    "score": 0.8623075485229492
-  },
-  {
-    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:65",
-    "entity_type": "node",
-    "label_or_type": "Entity",
-    "properties": {
-      "listSectionId": [
-        "s19"
-      ],
-      "synonyms": [
-        "vỡ nợ",
-        "giải thể"
-      ],
-      "name": "phá sản",
-      "type": "node"
-    },
-    "matched_from": "bảo hiểm thất nghiệp",
-    "matched_text": "phá sản",
-    "score": 0.8581193685531616
+    "matched_from": "trả lương",
+    "matched_text": "phúc lợi",
+    "score": 0.8555182814598083
   },
   {
     "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:55",
@@ -229,46 +58,5 @@
     "matched_from": "công ty",
     "matched_text": "đối tác",
     "score": 0.8517178893089294
-  },
-  {
-    "graph_entity_id": "5:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:6917562012989915184",
-    "entity_type": "relationship",
-    "label_or_type": "NỢ",
-    "properties": {
-      "listSectionId": [
-        "s9"
-      ],
-      "synonyms": [
-        "vay mượn",
-        "thiếu nợ"
-      ],
-      "name": "nợ",
-      "type": "edge"
-    },
-    "matched_from": "trả",
-    "matched_text": "nợ",
-    "score": 0.8508428931236267,
-    "start_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:34",
-    "end_node_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:48"
-  },
-  {
-    "graph_entity_id": "4:46f47a78-e7e8-4db2-ab20-1fe597d19ba0:56",
-    "entity_type": "node",
-    "label_or_type": "Entity",
-    "properties": {
-      "listSectionId": [
-        "s15",
-        "s19"
-      ],
-      "synonyms": [
-        "lợi ích",
-        "phúc lợi"
-      ],
-      "name": "quyền lợi",
-      "type": "node"
-    },
-    "matched_from": "mức hưởng",
-    "matched_text": "lợi ích",
-    "score": 0.8503601551055908
   }
 ]
