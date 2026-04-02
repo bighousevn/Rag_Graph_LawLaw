@@ -1,0 +1,183 @@
+[
+    {
+        "id": "s233_sent_0",
+        "source": "s233",
+        "text": "Điều 38, Khoản 3, Điểm d quy định về việc tịch thu tang vật, phương tiện vi phạm hành chính.",
+        "triplets": [
+            {
+                "subject": "quy_định",
+                "relation": "điều",
+                "object": "khoản"
+            },
+            {
+                "subject": "điều",
+                "relation": "khoản",
+                "object": "điểm"
+            },
+            {
+                "subject": "về",
+                "relation": "việc",
+                "object": "tịch_thu"
+            },
+            {
+                "subject": "tang_vật",
+                "relation": "phương_tiện",
+                "object": "vi_phạm"
+            }
+        ]
+    },
+    {
+        "id": "s869_sent_0",
+        "source": "s869",
+        "text": "Trường hợp việc áp dụng biện pháp ngăn chặn và bảo đảm xử lý vi phạm hành chính không còn phù hợp với mục đích và điều kiện áp dụng theo quy định của Luật này, thì quyết định áp dụng biện pháp đó phải được huỷ bỏ.",
+        "triplets": [
+            {
+                "subject": "phù_hợp",
+                "relation": "việc",
+                "object": "áp_dụng"
+            },
+            {
+                "subject": "áp_dụng",
+                "relation": "biện_pháp",
+                "object": "ngăn_chặn"
+            },
+            {
+                "subject": "xử_lý",
+                "relation": "vi_phạm",
+                "object": "hành_chính"
+            },
+            {
+                "subject": "phải",
+                "relation": "quyết_định",
+                "object": "áp_dụng"
+            }
+        ]
+    },
+    {
+        "id": "s551_sent_0",
+        "source": "s551",
+        "text": "Theo PHẦN THỨ HAI - CHƯƠNG III - Mục 1 - Điều 63, nội dung chuyển hồ sơ vụ vi phạm để xử phạt hành chính.",
+        "triplets": [
+            {
+                "subject": "phần",
+                "relation": "thứ",
+                "object": "hai"
+            },
+            {
+                "subject": "phần",
+                "relation": "mục",
+                "object": "điều"
+            },
+            {
+                "subject": "nội_dung",
+                "relation": "chuyển",
+                "object": "hồ_sơ"
+            },
+            {
+                "subject": "chuyển",
+                "relation": "hồ_sơ",
+                "object": "vụ"
+            },
+            {
+                "subject": "hồ_sơ",
+                "relation": "vụ",
+                "object": "vi_phạm"
+            }
+        ]
+    },
+    {
+        "id": "s21_sent_0",
+        "source": "s21",
+        "text": "Người đại diện hợp pháp bao gồm cha mẹ hoặc người giám hộ.",
+        "triplets": [
+            {
+                "subject": "người",
+                "relation": "đại_diện",
+                "object": "hợp_pháp"
+            },
+            {
+                "subject": "người",
+                "relation": "bao_gồm",
+                "object": "cha_mẹ"
+            }
+        ]
+    },
+    {
+        "id": "s21_sent_1",
+        "source": "s21",
+        "text": "Người đại diện hợp pháp bao gồm luật sư.",
+        "triplets": [
+            {
+                "subject": "bao_gồm",
+                "relation": "người",
+                "object": "đại_diện"
+            },
+            {
+                "subject": "người",
+                "relation": "bao_gồm",
+                "object": "luật_sư"
+            }
+        ]
+    },
+    {
+        "id": "s21_sent_2",
+        "source": "s21",
+        "text": "Người đại diện hợp pháp bao gồm trợ giúp viên pháp lý.",
+        "triplets": [
+            {
+                "subject": "người",
+                "relation": "đại_diện",
+                "object": "hợp_pháp"
+            },
+            {
+                "subject": "người",
+                "relation": "bao_gồm",
+                "object": "trợ_giúp_viên"
+            },
+            {
+                "subject": "trợ",
+                "relation": "giúp",
+                "object": "viên"
+            },
+            {
+                "subject": "bao_gồm",
+                "relation": "trợ_giúp_viên",
+                "object": "pháp_lý"
+            }
+        ]
+    },
+    {
+        "id": "s445_sent_0",
+        "source": "s445",
+        "text": "Thẩm phán chủ tọa phiên toà có quyền.",
+        "triplets": [
+            {
+                "subject": "thẩm_phán",
+                "relation": "chủ_toạ",
+                "object": "phiên_toà"
+            },
+            {
+                "subject": "thẩm_phán",
+                "relation": "có",
+                "object": "quyền"
+            }
+        ]
+    },
+    {
+        "id": "s445_sent_1",
+        "source": "s445",
+        "text": "Điều 48, Khoản 1 thuộc Chương II của Phần Thứ Hai quy định nội dung này.",
+        "triplets": [
+            {
+                "subject": "điều",
+                "relation": "khoản",
+                "object": "thuộc"
+            },
+            {
+                "subject": "điều",
+                "relation": "quy_định",
+                "object": "nội_dung"
+            }
+        ]
+    }
+]

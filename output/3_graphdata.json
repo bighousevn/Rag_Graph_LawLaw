@@ -1,0 +1,360 @@
+[
+    {
+        "nodes": [
+            {
+                "id": "N01",
+                "name": "về",
+                "list_section_id": [
+                    "s233"
+                ]
+            },
+            {
+                "id": "N02",
+                "name": "tịch_thu",
+                "list_section_id": [
+                    "s233"
+                ]
+            },
+            {
+                "id": "N03",
+                "name": "tang_vật",
+                "list_section_id": [
+                    "s233"
+                ]
+            },
+            {
+                "id": "N04",
+                "name": "vi_phạm",
+                "list_section_id": [
+                    "s233",
+                    "s551"
+                ]
+            },
+            {
+                "id": "N05",
+                "name": "phù_hợp",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "N06",
+                "name": "áp_dụng",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "N07",
+                "name": "ngăn_chặn",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "N08",
+                "name": "xử_lý",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "N09",
+                "name": "hành_chính",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "N10",
+                "name": "phải",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "N11",
+                "name": "nội_dung",
+                "list_section_id": [
+                    "s551"
+                ]
+            },
+            {
+                "id": "N12",
+                "name": "hồ_sơ",
+                "list_section_id": [
+                    "s551"
+                ]
+            },
+            {
+                "id": "N13",
+                "name": "chuyển",
+                "list_section_id": [
+                    "s551"
+                ]
+            },
+            {
+                "id": "N14",
+                "name": "vụ",
+                "list_section_id": [
+                    "s551"
+                ]
+            },
+            {
+                "id": "N15",
+                "name": "người",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N16",
+                "name": "hợp_pháp",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N17",
+                "name": "cha_mẹ",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N18",
+                "name": "bao_gồm",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N19",
+                "name": "đại_diện",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N20",
+                "name": "luật_sư",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N21",
+                "name": "trợ_giúp_viên",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N22",
+                "name": "trợ",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N23",
+                "name": "viên",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N24",
+                "name": "pháp_lý",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "N25",
+                "name": "thẩm_phán",
+                "list_section_id": [
+                    "s445"
+                ]
+            },
+            {
+                "id": "N26",
+                "name": "phiên_toà",
+                "list_section_id": [
+                    "s445"
+                ]
+            },
+            {
+                "id": "N27",
+                "name": "quyền",
+                "list_section_id": [
+                    "s445"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "id": "E01",
+                "name": "việc",
+                "source": "N01",
+                "target": "N02",
+                "list_section_id": [
+                    "s233"
+                ]
+            },
+            {
+                "id": "E02",
+                "name": "phương_tiện",
+                "source": "N03",
+                "target": "N04",
+                "list_section_id": [
+                    "s233"
+                ]
+            },
+            {
+                "id": "E03",
+                "name": "việc",
+                "source": "N05",
+                "target": "N06",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "E04",
+                "name": "biện_pháp",
+                "source": "N06",
+                "target": "N07",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "E05",
+                "name": "vi_phạm",
+                "source": "N08",
+                "target": "N09",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "E06",
+                "name": "quyết_định",
+                "source": "N10",
+                "target": "N06",
+                "list_section_id": [
+                    "s869"
+                ]
+            },
+            {
+                "id": "E07",
+                "name": "chuyển",
+                "source": "N11",
+                "target": "N12",
+                "list_section_id": [
+                    "s551"
+                ]
+            },
+            {
+                "id": "E08",
+                "name": "hồ_sơ",
+                "source": "N13",
+                "target": "N14",
+                "list_section_id": [
+                    "s551"
+                ]
+            },
+            {
+                "id": "E09",
+                "name": "vụ",
+                "source": "N12",
+                "target": "N04",
+                "list_section_id": [
+                    "s551"
+                ]
+            },
+            {
+                "id": "E10",
+                "name": "đại_diện",
+                "source": "N15",
+                "target": "N16",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "E11",
+                "name": "bao_gồm",
+                "source": "N15",
+                "target": "N17",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "E12",
+                "name": "người",
+                "source": "N18",
+                "target": "N19",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "E13",
+                "name": "bao_gồm",
+                "source": "N15",
+                "target": "N20",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "E14",
+                "name": "bao_gồm",
+                "source": "N15",
+                "target": "N21",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "E15",
+                "name": "giúp",
+                "source": "N22",
+                "target": "N23",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "E16",
+                "name": "trợ_giúp_viên",
+                "source": "N18",
+                "target": "N24",
+                "list_section_id": [
+                    "s21"
+                ]
+            },
+            {
+                "id": "E17",
+                "name": "chủ_toạ",
+                "source": "N25",
+                "target": "N26",
+                "list_section_id": [
+                    "s445"
+                ]
+            },
+            {
+                "id": "E18",
+                "name": "có",
+                "source": "N25",
+                "target": "N27",
+                "list_section_id": [
+                    "s445"
+                ]
+            }
+        ]
+    }
+]
