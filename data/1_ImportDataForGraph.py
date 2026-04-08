@@ -21,7 +21,7 @@ SET n.name = node.name,
 // ==========================================
 // PHA 2: IMPORT TẤT CẢ RELATIONSHIPS (CẠNH)
 // ==========================================
-WITH $data AS data 
+WITH $data AS data
 UNWIND data AS batch
 UNWIND batch.relationships AS rel
 
@@ -29,14 +29,14 @@ MATCH (src:Entity {id: rel.source})
 MATCH (tgt:Entity {id: rel.target})
 
 CALL apoc.merge.relationship(
-  src, 
-  rel.name,          
-  {id: rel.id},      
+  src,
+  rel.name,
+  {id: rel.id},
   {
-    name: rel.name,  
+    name: rel.name,
     listSectionId: rel.listSectionId
-  }, 
-  tgt, 
+  },
+  tgt,
   {}
 ) YIELD rel AS r
 

@@ -1,0 +1,2319 @@
+{
+    "nodes": [
+        {
+            "id": "N001",
+            "name": "quốc hội",
+            "synonyms": [
+                "Quốc hội Cộng hòa xã hội chủ nghĩa Việt Nam"
+            ]
+        },
+        {
+            "id": "N002",
+            "name": "luật xử lý vi phạm hành chính",
+            "synonyms": [
+                "Luật số: 15/2012/QH13"
+            ]
+        },
+        {
+            "id": "N003",
+            "name": "vi phạm hành chính",
+            "synonyms": [
+                "hành vi vi phạm hành chính",
+                "hành vi trái pháp luật",
+                "hành vi vi phạm"
+            ]
+        },
+        {
+            "id": "N004",
+            "name": "cá nhân",
+            "synonyms": [
+                "cá nhân vi phạm hành chính",
+                "người",
+                "cá nhân vi phạm",
+                "người vi phạm",
+                "công dân"
+            ]
+        },
+        {
+            "id": "N005",
+            "name": "tổ chức",
+            "synonyms": [
+                "tổ chức vi phạm hành chính",
+                "hợp tác xã",
+                "đơn vị",
+                "cơ sở",
+                "doanh nghiệp",
+                "hội đoàn",
+                "tổ chức vi phạm",
+                "cơ quan"
+            ]
+        },
+        {
+            "id": "N006",
+            "name": "biện pháp xử lý hành chính",
+            "synonyms": [
+                "biện pháp giáo dục",
+                "biện pháp thay thế",
+                "biện pháp xử lý",
+                "biện pháp khắc phục hậu quả",
+                "biện pháp hành chính"
+            ]
+        },
+        {
+            "id": "N007",
+            "name": "tái phạm",
+            "synonyms": [
+                "vi phạm lại"
+            ]
+        },
+        {
+            "id": "N008",
+            "name": "nguyên tắc xử lý",
+            "synonyms": [
+                "nguyên tắc xử phạt"
+            ]
+        },
+        {
+            "id": "N009",
+            "name": "hình thức xử phạt",
+            "synonyms": [
+                "các hình thức xử phạt vi phạm hành chính",
+                "hình thức xử phạt chính",
+                "hình thức xử lý",
+                "hình thức xử phạt bổ sung",
+                "biện pháp xử phạt",
+                "hình thức phạt"
+            ]
+        },
+        {
+            "id": "N010",
+            "name": "thẩm quyền",
+            "synonyms": [
+                "quyền quyết định",
+                "quyền hạn",
+                "quyền lực"
+            ]
+        },
+        {
+            "id": "N011",
+            "name": "mức phạt",
+            "synonyms": [
+                "mức tiền phạt tối đa",
+                "tiền phạt",
+                "mức xử phạt",
+                "mức tiền phạt"
+            ]
+        },
+        {
+            "id": "N012",
+            "name": "thời hạn",
+            "synonyms": [
+                "khoảng thời gian",
+                "thời hiệu",
+                "thời gian quy định",
+                "thời gian",
+                "thời hạn ra quyết định",
+                "thời gian áp dụng"
+            ]
+        },
+        {
+            "id": "N013",
+            "name": "người vi phạm",
+            "synonyms": [
+                "người bị áp dụng biện pháp",
+                "người bị xử phạt",
+                "cá nhân vi phạm",
+                "người bị tạm giữ",
+                "người thực hiện hành vi xâm phạm",
+                "đối tượng vi phạm",
+                "tổ chức vi phạm",
+                "người thực hiện hành vi vi phạm",
+                "người có hành vi vi phạm"
+            ]
+        },
+        {
+            "id": "N014",
+            "name": "hậu quả vi phạm",
+            "synonyms": [
+                "hậu quả",
+                "hệ quả vi phạm"
+            ]
+        },
+        {
+            "id": "N015",
+            "name": "tình tiết giảm nhẹ",
+            "synonyms": [
+                "tình tiết giảm nhẹ trách nhiệm",
+                "tình tiết giảm nhẹ hình phạt"
+            ]
+        },
+        {
+            "id": "N016",
+            "name": "thời điểm",
+            "synonyms": [
+                "thời gian tính"
+            ]
+        },
+        {
+            "id": "N017",
+            "name": "tình thế cấp thiết",
+            "synonyms": [
+                "tình huống cấp thiết"
+            ]
+        },
+        {
+            "id": "N018",
+            "name": "người chưa thành niên",
+            "synonyms": [
+                "thiếu niên",
+                "trẻ em",
+                "trẻ vị thành niên"
+            ]
+        },
+        {
+            "id": "N019",
+            "name": "người khuyết tật",
+            "synonyms": [
+                "người có bệnh",
+                "người yếu"
+            ]
+        },
+        {
+            "id": "N020",
+            "name": "người già",
+            "synonyms": [
+                "người cao tuổi"
+            ]
+        },
+        {
+            "id": "N021",
+            "name": "phòng vệ chính đáng",
+            "synonyms": []
+        },
+        {
+            "id": "N022",
+            "name": "sự kiện bất ngờ",
+            "synonyms": []
+        },
+        {
+            "id": "N023",
+            "name": "sự kiện bất khả kháng",
+            "synonyms": []
+        },
+        {
+            "id": "N024",
+            "name": "năng lực trách nhiệm hành chính",
+            "synonyms": [
+                "năng lực pháp lý"
+            ]
+        },
+        {
+            "id": "N025",
+            "name": "tình tiết tăng nặng",
+            "synonyms": []
+        },
+        {
+            "id": "N026",
+            "name": "chức vụ",
+            "synonyms": []
+        },
+        {
+            "id": "N027",
+            "name": "quyền hạn",
+            "synonyms": []
+        },
+        {
+            "id": "N028",
+            "name": "hành vi tội phạm",
+            "synonyms": []
+        },
+        {
+            "id": "N029",
+            "name": "hành vi sách nhiễu",
+            "synonyms": []
+        },
+        {
+            "id": "N030",
+            "name": "hành vi nhận tiền",
+            "synonyms": []
+        },
+        {
+            "id": "N031",
+            "name": "hành vi bao che",
+            "synonyms": []
+        },
+        {
+            "id": "N032",
+            "name": "văn bản quy định",
+            "synonyms": [
+                "văn bản pháp luật",
+                "quy định pháp luật"
+            ]
+        },
+        {
+            "id": "N033",
+            "name": "hành vi vi phạm hành chính",
+            "synonyms": [
+                "vi phạm hành chính",
+                "hành vi vi phạm"
+            ]
+        },
+        {
+            "id": "N034",
+            "name": "biện pháp khắc phục hậu quả",
+            "synonyms": [
+                "biện pháp xử lý",
+                "biện pháp khắc phục",
+                "khắc phục hậu quả"
+            ]
+        },
+        {
+            "id": "N035",
+            "name": "thiệt hại",
+            "synonyms": [
+                "tổn thất",
+                "hậu quả"
+            ]
+        },
+        {
+            "id": "N036",
+            "name": "quyền khiếu nại",
+            "synonyms": [
+                "quyền khởi kiện"
+            ]
+        },
+        {
+            "id": "N037",
+            "name": "Chính phủ",
+            "synonyms": [
+                "cơ quan chính phủ"
+            ]
+        },
+        {
+            "id": "N038",
+            "name": "Bộ Tư pháp",
+            "synonyms": [
+                "cơ quan Tư pháp",
+                "Bộ Tư pháp Việt Nam"
+            ]
+        },
+        {
+            "id": "N039",
+            "name": "cơ sở dữ liệu",
+            "synonyms": [
+                "dữ liệu",
+                "cơ sở dữ liệu quốc gia"
+            ]
+        },
+        {
+            "id": "N040",
+            "name": "Tòa án nhân dân",
+            "synonyms": [
+                "Tòa án nhân dân các cấp",
+                "Tòa án",
+                "Tòa án cấp huyện",
+                "Tòa án nhân dân tối cao"
+            ]
+        },
+        {
+            "id": "N041",
+            "name": "Ủy ban nhân dân",
+            "synonyms": [
+                "UBND",
+                "Ủy ban nhân dân cấp xã",
+                "Ủy ban nhân dân cấp huyện",
+                "Ủy ban nhân dân cấp tỉnh"
+            ]
+        },
+        {
+            "id": "N042",
+            "name": "cơ quan quản lý",
+            "synonyms": [
+                "cơ quan nhà nước",
+                "cơ quan có thẩm quyền"
+            ]
+        },
+        {
+            "id": "N043",
+            "name": "công dân",
+            "synonyms": [
+                "công dân Việt Nam"
+            ]
+        },
+        {
+            "id": "N044",
+            "name": "nguyên tắc áp dụng",
+            "synonyms": [
+                "nguyên tắc xử phạt"
+            ]
+        },
+        {
+            "id": "N045",
+            "name": "hình thức xử phạt tiền",
+            "synonyms": [
+                "phạt tiền"
+            ]
+        },
+        {
+            "id": "N046",
+            "name": "cảnh cáo",
+            "synonyms": [
+                "hình thức cảnh cáo",
+                "phạt cảnh cáo"
+            ]
+        },
+        {
+            "id": "N047",
+            "name": "giấy phép",
+            "synonyms": [
+                "giấy phép sử dụng",
+                "giấy phép lái xe",
+                "giấy phép hành nghề",
+                "giấy tờ cần thiết",
+                "giấy phép có thời hạn",
+                "chứng chỉ hành nghề",
+                "giấy phép lưu hành phương tiện"
+            ]
+        },
+        {
+            "id": "N048",
+            "name": "tang vật",
+            "synonyms": [
+                "giấy phép",
+                "vật vi phạm",
+                "tài sản vi phạm",
+                "vật vi phạm hành chính",
+                "chứng chỉ hành nghề",
+                "phương tiện",
+                "phương tiện vi phạm",
+                "phương tiện vi phạm hành chính",
+                "vật chứng",
+                "tang vật vi phạm hành chính"
+            ]
+        },
+        {
+            "id": "N049",
+            "name": "mức phạt tiền",
+            "synonyms": [
+                "tiền phạt",
+                "mức phạt"
+            ]
+        },
+        {
+            "id": "N050",
+            "name": "quy định",
+            "synonyms": [
+                "luật",
+                "nghị định"
+            ]
+        },
+        {
+            "id": "N051",
+            "name": "trục xuất",
+            "synonyms": []
+        },
+        {
+            "id": "N052",
+            "name": "hoạt động",
+            "synonyms": [
+                "hoạt động sản xuất",
+                "hoạt động kinh doanh",
+                "hoạt động dịch vụ"
+            ]
+        },
+        {
+            "id": "N053",
+            "name": "môi trường",
+            "synonyms": [
+                "tình trạng ô nhiễm"
+            ]
+        },
+        {
+            "id": "N054",
+            "name": "hàng hóa",
+            "synonyms": [
+                "vật phẩm",
+                "sản phẩm"
+            ]
+        },
+        {
+            "id": "N055",
+            "name": "quyền sở hữu trí tuệ",
+            "synonyms": [
+                "quyền sở hữu"
+            ]
+        },
+        {
+            "id": "N056",
+            "name": "thông tin sai sự thật",
+            "synonyms": [
+                "thông tin nhầm lẫn",
+                "thông tin không chính xác"
+            ]
+        },
+        {
+            "id": "N057",
+            "name": "bao bì",
+            "synonyms": [
+                "bao bì hàng hóa"
+            ]
+        },
+        {
+            "id": "N058",
+            "name": "phương tiện kinh doanh",
+            "synonyms": [
+                "phương tiện",
+                "công cụ kinh doanh"
+            ]
+        },
+        {
+            "id": "N059",
+            "name": "số lợi bất hợp pháp",
+            "synonyms": [
+                "lợi nhuận bất hợp pháp",
+                "tiền bất hợp pháp"
+            ]
+        },
+        {
+            "id": "N060",
+            "name": "cưỡng chế",
+            "synonyms": [
+                "ép buộc",
+                "thực hiện cưỡng chế"
+            ]
+        },
+        {
+            "id": "N061",
+            "name": "Chủ tịch Ủy ban nhân dân",
+            "synonyms": [
+                "Chủ tịch UBND cấp tỉnh",
+                "Chủ tịch UBND cấp huyện",
+                "Chủ tịch UBND cấp xã",
+                "Chủ tịch Ủy ban nhân dân cấp xã",
+                "Chủ tịch UBND"
+            ]
+        },
+        {
+            "id": "N062",
+            "name": "Công an nhân dân",
+            "synonyms": [
+                "Công an",
+                "Chiến sĩ Công an"
+            ]
+        },
+        {
+            "id": "N063",
+            "name": "biện pháp khắc phục",
+            "synonyms": [
+                "biện pháp xử lý",
+                "biện pháp xử phạt",
+                "biện pháp sửa chữa"
+            ]
+        },
+        {
+            "id": "N064",
+            "name": "Trưởng Công an cấp xã",
+            "synonyms": [
+                "Trưởng đồn Công an",
+                "Trạm trưởng Trạm Công an cửa khẩu",
+                "công an xã"
+            ]
+        },
+        {
+            "id": "N065",
+            "name": "Trưởng Công an cấp huyện",
+            "synonyms": [
+                "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát đường thủy",
+                "Trưởng phòng Công an cấp tỉnh",
+                "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông đường bộ",
+                "Thủ trưởng đơn vị Cảnh sát cơ động",
+                "Trưởng Công an huyện"
+            ]
+        },
+        {
+            "id": "N066",
+            "name": "Giám đốc Công an cấp tỉnh",
+            "synonyms": []
+        },
+        {
+            "id": "N067",
+            "name": "Cục trưởng các cục nghiệp vụ",
+            "synonyms": [
+                "Cục trưởng Cục Quản lý xuất nhập cảnh"
+            ]
+        },
+        {
+            "id": "N068",
+            "name": "5 triệu",
+            "synonyms": [
+                "5.000.000 đồng"
+            ]
+        },
+        {
+            "id": "N069",
+            "name": "25 triệu",
+            "synonyms": [
+                "25.000.000 đồng"
+            ]
+        },
+        {
+            "id": "N070",
+            "name": "50 triệu",
+            "synonyms": [
+                "50.000.000 đồng"
+            ]
+        },
+        {
+            "id": "N071",
+            "name": "500 nghìn",
+            "synonyms": [
+                "500.000 đồng"
+            ]
+        },
+        {
+            "id": "N072",
+            "name": "phạt cảnh cáo",
+            "synonyms": [
+                "cảnh cáo"
+            ]
+        },
+        {
+            "id": "N073",
+            "name": "phạt tiền",
+            "synonyms": [
+                "phạt",
+                "xử phạt",
+                "phạt tiền đến 2.500.000 đồng",
+                "phạt tiền đến 20.000.000 đồng",
+                "phạt tiền đến mức tối đa",
+                "phạt tiền đến 1.000.000 đồng",
+                "phạt tiền đến",
+                "phạt tiền đến 5%",
+                "phạt tiền đến 5.000.000 đồng",
+                "phạt tiền đến 7.500.000 đồng",
+                "phạt tiền đến 20%",
+                "phạt tiền đến 500.000 đồng",
+                "phạt tiền đến 50%",
+                "phạt cảnh cáo"
+            ]
+        },
+        {
+            "id": "N074",
+            "name": "2.500.000 đồng",
+            "synonyms": [
+                "2.500.000",
+                "2.500.000 đồng"
+            ]
+        },
+        {
+            "id": "N075",
+            "name": "25.000.000 đồng",
+            "synonyms": [
+                "25.000.000",
+                "25.000.000 đồng"
+            ]
+        },
+        {
+            "id": "N076",
+            "name": "50.000.000 đồng",
+            "synonyms": [
+                "50.000.000",
+                "năm mươi triệu đồng",
+                "50.000.000 đồng",
+                "50 triệu"
+            ]
+        },
+        {
+            "id": "N077",
+            "name": "1.500.000 đồng",
+            "synonyms": [
+                "1.500.000",
+                "1.500.000 đồng"
+            ]
+        },
+        {
+            "id": "N078",
+            "name": "5.000.000 đồng",
+            "synonyms": [
+                "5.000.000",
+                "5.000.000 đồng"
+            ]
+        },
+        {
+            "id": "N079",
+            "name": "tịch thu tang vật",
+            "synonyms": [
+                "thu giữ tang vật",
+                "tịch thu",
+                "tịch thu phương tiện vi phạm"
+            ]
+        },
+        {
+            "id": "N080",
+            "name": "Cảnh sát biển",
+            "synonyms": [
+                "Cảnh sát viên Cảnh sát biển",
+                "Tổ trưởng Tổ nghiệp vụ Cảnh sát biển",
+                "Đội trưởng Đội nghiệp vụ Cảnh sát biển",
+                "Trạm trưởng Trạm Cảnh sát biển"
+            ]
+        },
+        {
+            "id": "N081",
+            "name": "Hải đội trưởng",
+            "synonyms": [
+                "Hải đội trưởng Hải đội Cảnh sát biển"
+            ]
+        },
+        {
+            "id": "N082",
+            "name": "Hải đoàn trưởng",
+            "synonyms": [
+                "Hải đoàn trưởng Hải đoàn Cảnh sát biển"
+            ]
+        },
+        {
+            "id": "N083",
+            "name": "Chỉ huy trưởng",
+            "synonyms": [
+                "Chỉ huy trưởng Vùng Cảnh sát biển"
+            ]
+        },
+        {
+            "id": "N084",
+            "name": "Cục trưởng",
+            "synonyms": [
+                "Cục trưởng Cục Cảnh sát biển",
+                "cục trưởng Cục Thi hành án dân sự"
+            ]
+        },
+        {
+            "id": "N085",
+            "name": "Nhân viên Hải quan",
+            "synonyms": []
+        },
+        {
+            "id": "N086",
+            "name": "Đội trưởng",
+            "synonyms": [
+                "Đội trưởng Chi cục Hải quan",
+                "Đội trưởng Cục kiểm tra sau thông quan",
+                "Đội trưởng Đội kiểm soát thuộc Cục Hải quan",
+                "Đội trưởng Đội kiểm soát chống buôn lậu",
+                "Đội trưởng Đội kiểm soát hàng giả và bảo vệ quyền sở hữu trí tuệ thuộc Cục điều tra chống buôn lậu Tổng cục Hải quan"
+            ]
+        },
+        {
+            "id": "N087",
+            "name": "500.000",
+            "synonyms": [
+                "500.000 đồng"
+            ]
+        },
+        {
+            "id": "N088",
+            "name": "10 triệu",
+            "synonyms": [
+                "10.000.000 đồng"
+            ]
+        },
+        {
+            "id": "N089",
+            "name": "Cục Hải quan",
+            "synonyms": [
+                "Cục trưởng Cục Hải quan",
+                "Cục trưởng Cục điều tra chống buôn lậu",
+                "Cục trưởng Cục kiểm tra sau thông quan"
+            ]
+        },
+        {
+            "id": "N090",
+            "name": "Kiểm lâm",
+            "synonyms": [
+                "Kiểm lâm viên",
+                "Trạm trưởng Trạm Kiểm lâm",
+                "Hạt trưởng Hạt Kiểm lâm",
+                "Đội trưởng Đội Kiểm lâm"
+            ]
+        },
+        {
+            "id": "N091",
+            "name": "2,5 triệu",
+            "synonyms": [
+                "2.500.000 đồng"
+            ]
+        },
+        {
+            "id": "N092",
+            "name": "70 triệu",
+            "synonyms": [
+                "70.000.000 đồng"
+            ]
+        },
+        {
+            "id": "N093",
+            "name": "500.000 đồng",
+            "synonyms": [
+                "500.000",
+                "năm trăm nghìn đồng"
+            ]
+        },
+        {
+            "id": "N094",
+            "name": "quản lý thị trường",
+            "synonyms": [
+                "Đội Quản lý thị trường",
+                "Chi cục Quản lý thị trường"
+            ]
+        },
+        {
+            "id": "N095",
+            "name": "thanh tra",
+            "synonyms": [
+                "Thanh tra viên"
+            ]
+        },
+        {
+            "id": "N096",
+            "name": "quyền",
+            "synonyms": [
+                "quyền lợi hợp pháp",
+                "thẩm quyền"
+            ]
+        },
+        {
+            "id": "N097",
+            "name": "10.000.000 đồng",
+            "synonyms": [
+                "10 triệu",
+                "mười triệu đồng"
+            ]
+        },
+        {
+            "id": "N098",
+            "name": "Cảng vụ hàng hải",
+            "synonyms": [
+                "Cảng vụ hàng không",
+                "Cảng vụ đường thuỷ nội địa"
+            ]
+        },
+        {
+            "id": "N099",
+            "name": "Chánh Thanh tra",
+            "synonyms": [
+                "Chánh Thanh tra sở",
+                "Chánh Thanh tra Cục"
+            ]
+        },
+        {
+            "id": "N100",
+            "name": "Trưởng đoàn thanh tra",
+            "synonyms": [
+                "Trưởng đoàn thanh tra chuyên ngành cấp bộ",
+                "Trưởng đoàn thanh tra chuyên ngành cấp sở"
+            ]
+        },
+        {
+            "id": "N101",
+            "name": "Thẩm phán",
+            "synonyms": [
+                "Thẩm phán chủ tọa phiên tòa",
+                "thẩm phán giải quyết vụ việc phá sản"
+            ]
+        },
+        {
+            "id": "N102",
+            "name": "chánh án",
+            "synonyms": [
+                "chánh án Tòa án nhân dân cấp huyện",
+                "chánh án Tòa án nhân dân cấp tỉnh",
+                "chánh án Tòa án quân sự khu vực",
+                "chánh án Tòa án quân sự quân khu",
+                "chánh án Tòa án nhân dân cấp cao"
+            ]
+        },
+        {
+            "id": "N103",
+            "name": "chấp hành viên",
+            "synonyms": [
+                "chấp hành viên thi hành án dân sự"
+            ]
+        },
+        {
+            "id": "N104",
+            "name": "chi cục trưởng",
+            "synonyms": [
+                "chi cục trưởng Chi cục Thi hành án dân sự"
+            ]
+        },
+        {
+            "id": "N105",
+            "name": "Tổng cục trưởng",
+            "synonyms": [
+                "Tổng cục trưởng Tổng cục Thi hành án dân sự",
+                "người đứng đầu Tổng cục"
+            ]
+        },
+        {
+            "id": "N106",
+            "name": "cơ quan đại diện ngoại giao",
+            "synonyms": [
+                "cơ quan lãnh sự",
+                "cơ quan được ủy quyền"
+            ]
+        },
+        {
+            "id": "N107",
+            "name": "người có thẩm quyền",
+            "synonyms": [
+                "người ra quyết định",
+                "người có quyền",
+                "người thi hành công vụ",
+                "cán bộ có thẩm quyền",
+                "cơ quan có thẩm quyền",
+                "người xử phạt",
+                "cơ quan xử phạt"
+            ]
+        },
+        {
+            "id": "N108",
+            "name": "quyết định xử phạt",
+            "synonyms": [
+                "quyết định xử lý",
+                "quyết định xử phạt vi phạm hành chính",
+                "quyết định áp dụng biện pháp",
+                "quyết định",
+                "quyết định xử phạt",
+                "quyết định hành chính"
+            ]
+        },
+        {
+            "id": "N109",
+            "name": "biên bản vi phạm hành chính",
+            "synonyms": [
+                "biên bản"
+            ]
+        },
+        {
+            "id": "N110",
+            "name": "hồ sơ xử phạt",
+            "synonyms": [
+                "hồ sơ xử phạt vi phạm hành chính"
+            ]
+        },
+        {
+            "id": "N111",
+            "name": "mức tiền phạt",
+            "synonyms": [
+                "tiền phạt"
+            ]
+        },
+        {
+            "id": "N112",
+            "name": "cá nhân vi phạm",
+            "synonyms": [
+                "người vi phạm"
+            ]
+        },
+        {
+            "id": "N113",
+            "name": "tổ chức vi phạm",
+            "synonyms": [
+                "doanh nghiệp vi phạm"
+            ]
+        },
+        {
+            "id": "N114",
+            "name": "thời hạn giải trình",
+            "synonyms": [
+                "thời gian giải trình"
+            ]
+        },
+        {
+            "id": "N115",
+            "name": "hồ sơ",
+            "synonyms": [
+                "hồ sơ đề nghị",
+                "hồ sơ vụ vi phạm",
+                "biên bản",
+                "hồ sơ xử phạt",
+                "tài liệu",
+                "hồ sơ đề nghị trục xuất"
+            ]
+        },
+        {
+            "id": "N116",
+            "name": "biên bản",
+            "synonyms": [
+                "biên bản khám",
+                "biên bản tạm giữ",
+                "biên bản vi phạm hành chính",
+                "biên bản giải trình"
+            ]
+        },
+        {
+            "id": "N117",
+            "name": "thời hiệu",
+            "synonyms": [
+                "thời hiệu xử phạt",
+                "thời hạn thi hành"
+            ]
+        },
+        {
+            "id": "N118",
+            "name": "phương tiện",
+            "synonyms": [
+                "phương tiện kỹ thuật nghiệp vụ",
+                "phương tiện giao thông",
+                "phương tiện vi phạm hành chính"
+            ]
+        },
+        {
+            "id": "N119",
+            "name": "biên bản vi phạm",
+            "synonyms": [
+                "biên bản vi phạm hành chính",
+                "biên bản"
+            ]
+        },
+        {
+            "id": "N120",
+            "name": "hành vi vi phạm",
+            "synonyms": [
+                "vi phạm",
+                "hành vi vi phạm hành chính",
+                "hành động vi phạm"
+            ]
+        },
+        {
+            "id": "N121",
+            "name": "chứng cứ",
+            "synonyms": [
+                "tài liệu chứng minh"
+            ]
+        },
+        {
+            "id": "N122",
+            "name": "tiền phạt",
+            "synonyms": [
+                "số tiền phạt",
+                "phạt tiền"
+            ]
+        },
+        {
+            "id": "N123",
+            "name": "cơ quan có thẩm quyền",
+            "synonyms": [
+                "cơ quan quản lý",
+                "cơ quan nhà nước",
+                "cơ quan chức năng"
+            ]
+        },
+        {
+            "id": "N124",
+            "name": "thời gian hoãn",
+            "synonyms": [
+                "thời gian trì hoãn",
+                "thời gian tạm dừng"
+            ]
+        },
+        {
+            "id": "N125",
+            "name": "chứng từ thu tiền phạt",
+            "synonyms": [
+                "biên lai",
+                "giấy biên nhận"
+            ]
+        },
+        {
+            "id": "N126",
+            "name": "chứng chỉ hành nghề",
+            "synonyms": [
+                "chứng chỉ"
+            ]
+        },
+        {
+            "id": "N127",
+            "name": "cơ quan",
+            "synonyms": [
+                "cơ quan nhà nước",
+                "cơ quan có thẩm quyền"
+            ]
+        },
+        {
+            "id": "N128",
+            "name": "tiền",
+            "synonyms": [
+                "tiền Việt Nam",
+                "ngoại tệ"
+            ]
+        },
+        {
+            "id": "N129",
+            "name": "quyết định",
+            "synonyms": [
+                "quyết định xử lý",
+                "quyết định tịch thu",
+                "quyết định bằng văn bản",
+                "quyết định xử phạt",
+                "quyết định áp dụng biện pháp",
+                "quyết định áp dụng",
+                "quyết định cưỡng chế"
+            ]
+        },
+        {
+            "id": "N130",
+            "name": "chi phí",
+            "synonyms": [
+                "kinh phí",
+                "chi phí thực hiện"
+            ]
+        },
+        {
+            "id": "N131",
+            "name": "tài sản",
+            "synonyms": [
+                "tài sản vi phạm",
+                "tài sản bị cưỡng chế"
+            ]
+        },
+        {
+            "id": "N132",
+            "name": "ngân sách",
+            "synonyms": [
+                "ngân sách dự phòng"
+            ]
+        },
+        {
+            "id": "N133",
+            "name": "cơ quan tổ chức",
+            "synonyms": [
+                "cơ quan",
+                "tổ chức"
+            ]
+        },
+        {
+            "id": "N134",
+            "name": "quyết định cưỡng chế",
+            "synonyms": [
+                "quyết định",
+                "quyết định thi hành"
+            ]
+        },
+        {
+            "id": "N135",
+            "name": "lực lượng Cảnh sát nhân dân",
+            "synonyms": [
+                "Cảnh sát",
+                "Cảnh sát nhân dân"
+            ]
+        },
+        {
+            "id": "N136",
+            "name": "tổ chức tín dụng",
+            "synonyms": [
+                "ngân hàng",
+                "tổ chức tài chính"
+            ]
+        },
+        {
+            "id": "N137",
+            "name": "biện pháp giáo dục",
+            "synonyms": [
+                "giáo dục",
+                "hình thức giáo dục",
+                "biện pháp xử lý",
+                "biện pháp xử lý hành chính"
+            ]
+        },
+        {
+            "id": "N138",
+            "name": "trường giáo dưỡng",
+            "synonyms": [
+                "cơ sở cai nghiện bắt buộc",
+                "trường giáo dưỡng bắt buộc",
+                "trường giáo dục",
+                "cơ sở giáo dục bắt buộc",
+                "cơ sở giáo dục",
+                "trung tâm giáo dưỡng",
+                "trường"
+            ]
+        },
+        {
+            "id": "N139",
+            "name": "cơ sở giáo dục bắt buộc",
+            "synonyms": [
+                "trường giáo dưỡng",
+                "cơ sở bắt buộc",
+                "cơ sở giáo dục",
+                "trường giáo dục bắt buộc"
+            ]
+        },
+        {
+            "id": "N140",
+            "name": "người nghiện ma túy",
+            "synonyms": [
+                "người nghiện"
+            ]
+        },
+        {
+            "id": "N141",
+            "name": "người từ đủ 12 tuổi",
+            "synonyms": [
+                "người vị thành niên",
+                "người trẻ tuổi"
+            ]
+        },
+        {
+            "id": "N142",
+            "name": "người từ đủ 14 tuổi",
+            "synonyms": [
+                "người vị thành niên",
+                "người trẻ tuổi"
+            ]
+        },
+        {
+            "id": "N143",
+            "name": "người từ đủ 18 tuổi",
+            "synonyms": [
+                "người trưởng thành"
+            ]
+        },
+        {
+            "id": "N144",
+            "name": "tội phạm",
+            "synonyms": [
+                "hành vi phạm pháp",
+                "hành vi vi phạm"
+            ]
+        },
+        {
+            "id": "N145",
+            "name": "số tiền",
+            "synonyms": [
+                "tiền",
+                "số tiền tương đương"
+            ]
+        },
+        {
+            "id": "N146",
+            "name": "người chưa đủ 18 tuổi",
+            "synonyms": [
+                "thiếu niên"
+            ]
+        },
+        {
+            "id": "N147",
+            "name": "người mang thai",
+            "synonyms": [
+                "phụ nữ có thai",
+                "phụ nữ mang thai"
+            ]
+        },
+        {
+            "id": "N148",
+            "name": "người nuôi con nhỏ",
+            "synonyms": [
+                "phụ nữ nuôi con dưới 36 tháng tuổi"
+            ]
+        },
+        {
+            "id": "N149",
+            "name": "cơ sở cai nghiện bắt buộc",
+            "synonyms": [
+                "cơ sở cai nghiện",
+                "trường cai nghiện",
+                "cơ sở giáo dục bắt buộc"
+            ]
+        },
+        {
+            "id": "N150",
+            "name": "ủy ban xã",
+            "synonyms": [
+                "Chủ tịch Ủy ban nhân dân cấp xã",
+                "Chủ tịch UBND cấp xã",
+                "chủ tịch phường",
+                "chủ tịch thị trấn"
+            ]
+        },
+        {
+            "id": "N151",
+            "name": "công an xã",
+            "synonyms": [
+                "Trưởng Công an cấp xã",
+                "Trưởng đồn Công an",
+                "Trạm trưởng Trạm Công an cửa khẩu"
+            ]
+        },
+        {
+            "id": "N152",
+            "name": "người chưa thành niên vi phạm",
+            "synonyms": [
+                "người vi phạm chưa thành niên",
+                "thiếu niên vi phạm"
+            ]
+        },
+        {
+            "id": "N153",
+            "name": "cha mẹ",
+            "synonyms": [
+                "người đại diện hợp pháp",
+                "người giám hộ"
+            ]
+        },
+        {
+            "id": "N154",
+            "name": "tòa án nhân dân cấp huyện",
+            "synonyms": [
+                "Tòa án cấp huyện",
+                "tòa án huyện"
+            ]
+        },
+        {
+            "id": "N155",
+            "name": "Trưởng phòng Tư pháp",
+            "synonyms": [
+                "Trưởng phòng Tư pháp cấp huyện"
+            ]
+        },
+        {
+            "id": "N156",
+            "name": "tài liệu chứng minh",
+            "synonyms": [
+                "tài liệu xác minh"
+            ]
+        },
+        {
+            "id": "N157",
+            "name": "tiền án, tiền sự",
+            "synonyms": [
+                "lịch sử vi phạm"
+            ]
+        },
+        {
+            "id": "N158",
+            "name": "Trưởng phòng Lao động - Thương binh và Xã hội cấp huyện",
+            "synonyms": [
+                "Trưởng phòng Lao động",
+                "Trưởng phòng Thương binh và Xã hội"
+            ]
+        },
+        {
+            "id": "N159",
+            "name": "Ủy ban nhân dân cấp xã",
+            "synonyms": [
+                "UBND cấp xã",
+                "Chủ tịch Ủy ban nhân dân cấp xã"
+            ]
+        },
+        {
+            "id": "N160",
+            "name": "người bị áp dụng",
+            "synonyms": [
+                "người phải chấp hành",
+                "người được giáo dục"
+            ]
+        },
+        {
+            "id": "N161",
+            "name": "công an cấp huyện",
+            "synonyms": [
+                "Trưởng Công an cấp huyện"
+            ]
+        },
+        {
+            "id": "N162",
+            "name": "cơ sở giáo dục",
+            "synonyms": [
+                "cơ sở giáo dục bắt buộc"
+            ]
+        },
+        {
+            "id": "N163",
+            "name": "cơ sở cai nghiện",
+            "synonyms": [
+                "cơ sở cai nghiện bắt buộc"
+            ]
+        },
+        {
+            "id": "N164",
+            "name": "người phải chấp hành",
+            "synonyms": [
+                "đối tượng chấp hành quyết định"
+            ]
+        },
+        {
+            "id": "N165",
+            "name": "giấy chứng nhận",
+            "synonyms": [
+                "giấy xác nhận"
+            ]
+        },
+        {
+            "id": "N166",
+            "name": "bệnh viện",
+            "synonyms": [
+                "cơ sở y tế"
+            ]
+        },
+        {
+            "id": "N167",
+            "name": "cơ sở bảo trợ xã hội",
+            "synonyms": [
+                "trung tâm bảo trợ xã hội"
+            ]
+        },
+        {
+            "id": "N168",
+            "name": "người ốm nặng",
+            "synonyms": [
+                "người bệnh nặng"
+            ]
+        },
+        {
+            "id": "N169",
+            "name": "người mắc bệnh hiểm nghèo",
+            "synonyms": [
+                "người bệnh hiểm nghèo"
+            ]
+        },
+        {
+            "id": "N170",
+            "name": "cơ quan tiến hành tố tụng hình sự",
+            "synonyms": [
+                "cơ quan tố tụng",
+                "cơ quan điều tra"
+            ]
+        },
+        {
+            "id": "N171",
+            "name": "đối tượng",
+            "synonyms": [
+                "người bị áp dụng biện pháp",
+                "người vi phạm"
+            ]
+        },
+        {
+            "id": "N172",
+            "name": "người nước ngoài",
+            "synonyms": [
+                "người ngoại quốc",
+                "người vi phạm pháp luật Việt Nam"
+            ]
+        },
+        {
+            "id": "N173",
+            "name": "thời hạn tạm giữ",
+            "synonyms": [
+                "thời gian giữ người",
+                "thời gian tạm giữ"
+            ]
+        },
+        {
+            "id": "N174",
+            "name": "nhà tạm giữ",
+            "synonyms": [
+                "buồng tạm giữ",
+                "phòng tạm giữ"
+            ]
+        },
+        {
+            "id": "N175",
+            "name": "cấp phó",
+            "synonyms": [
+                "người được giao quyền"
+            ]
+        },
+        {
+            "id": "N176",
+            "name": "người chỉ huy",
+            "synonyms": [
+                "thuyền trưởng",
+                "trưởng tàu"
+            ]
+        },
+        {
+            "id": "N177",
+            "name": "hàng hóa dễ hư hỏng",
+            "synonyms": [
+                "vật phẩm dễ hư hỏng"
+            ]
+        },
+        {
+            "id": "N178",
+            "name": "chủ tịch ủy ban nhân dân cấp xã",
+            "synonyms": [
+                "Chủ tịch UBND cấp xã",
+                "Chủ tịch xã",
+                "Chủ tịch UBND xã"
+            ]
+        },
+        {
+            "id": "N179",
+            "name": "gia đình",
+            "synonyms": [
+                "hộ gia đình"
+            ]
+        },
+        {
+            "id": "N180",
+            "name": "tổ chức xã hội",
+            "synonyms": [
+                "tổ chức"
+            ]
+        },
+        {
+            "id": "N181",
+            "name": "người được quản lý",
+            "synonyms": [
+                "đối tượng vi phạm"
+            ]
+        },
+        {
+            "id": "N182",
+            "name": "cơ quan công an",
+            "synonyms": [
+                "Công an cấp huyện",
+                "Công an"
+            ]
+        },
+        {
+            "id": "N183",
+            "name": "thời gian",
+            "synonyms": [
+                "thời hạn"
+            ]
+        },
+        {
+            "id": "N184",
+            "name": "thời gian bỏ trốn",
+            "synonyms": [
+                "thời gian không chấp hành"
+            ]
+        },
+        {
+            "id": "N185",
+            "name": "biện pháp nhắc nhở",
+            "synonyms": [
+                "nhắc nhở",
+                "cảnh cáo"
+            ]
+        },
+        {
+            "id": "N186",
+            "name": "biện pháp quản lý tại gia đình",
+            "synonyms": [
+                "quản lý tại gia",
+                "quản lý gia đình"
+            ]
+        },
+        {
+            "id": "N187",
+            "name": "Luật",
+            "synonyms": [
+                "Luật xử lý vi phạm hành chính"
+            ]
+        },
+        {
+            "id": "N188",
+            "name": "Pháp lệnh",
+            "synonyms": [
+                "Pháp lệnh xử lý vi phạm hành chính"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "id": "R001",
+            "name": "xử phạt",
+            "synonyms": [
+                "phạt",
+                "xử lý vi phạm hành chính",
+                "áp dụng hình thức phạt",
+                "xử phạt vi phạm hành chính",
+                "ra quyết định xử phạt",
+                "áp dụng hình thức xử phạt",
+                "xử lý",
+                "xử lý vi phạm",
+                "quyết định xử phạt"
+            ]
+        },
+        {
+            "id": "R002",
+            "name": "áp dụng",
+            "synonyms": [
+                "thi hành",
+                "thực hiện biện pháp",
+                "sử dụng",
+                "áp dụng biện pháp khắc phục hậu quả",
+                "áp dụng biện pháp",
+                "thực thi",
+                "thực hiện",
+                "quyết định áp dụng"
+            ]
+        },
+        {
+            "id": "R003",
+            "name": "khắc phục",
+            "synonyms": [
+                "buộc khôi phục",
+                "bồi thường",
+                "buộc tiêu hủy",
+                "sửa chữa",
+                "buộc tháo dỡ",
+                "biện pháp khắc phục hậu quả"
+            ]
+        },
+        {
+            "id": "R004",
+            "name": "giáo dục",
+            "synonyms": [
+                "đào tạo"
+            ]
+        },
+        {
+            "id": "R005",
+            "name": "chứng minh",
+            "synonyms": [
+                "bằng chứng",
+                "minh chứng",
+                "chứng thực"
+            ]
+        },
+        {
+            "id": "R006",
+            "name": "tính",
+            "synonyms": [
+                "đếm",
+                "xác định"
+            ]
+        },
+        {
+            "id": "R007",
+            "name": "ép buộc",
+            "synonyms": [
+                "bị ép buộc",
+                "bị lệ thuộc"
+            ]
+        },
+        {
+            "id": "R008",
+            "name": "lợi dụng",
+            "synonyms": [
+                "lợi dụng chức vụ",
+                "lợi dụng quyền hạn"
+            ]
+        },
+        {
+            "id": "R009",
+            "name": "trốn tránh",
+            "synonyms": [
+                "che giấu"
+            ]
+        },
+        {
+            "id": "R010",
+            "name": "sử dụng",
+            "synonyms": [
+                "sử dụng người vi phạm"
+            ]
+        },
+        {
+            "id": "R011",
+            "name": "thực hiện",
+            "synonyms": [
+                "tiến hành",
+                "thi hành",
+                "thực hiện nhiệm vụ"
+            ]
+        },
+        {
+            "id": "R012",
+            "name": "bồi thường",
+            "synonyms": [
+                "đền bù"
+            ]
+        },
+        {
+            "id": "R013",
+            "name": "chấp hành",
+            "synonyms": [
+                "thực hiện",
+                "tuân thủ"
+            ]
+        },
+        {
+            "id": "R014",
+            "name": "phát hiện",
+            "synonyms": [
+                "nhận biết",
+                "khám phá"
+            ]
+        },
+        {
+            "id": "R015",
+            "name": "tố cáo",
+            "synonyms": [
+                "báo cáo",
+                "khiếu nại"
+            ]
+        },
+        {
+            "id": "R016",
+            "name": "quản lý",
+            "synonyms": [
+                "giáo dục",
+                "điều hành",
+                "giám sát",
+                "kiểm soát",
+                "bảo quản",
+                "quản lý người vi phạm",
+                "giao cho quản lý",
+                "giúp đỡ"
+            ]
+        },
+        {
+            "id": "R017",
+            "name": "đề xuất",
+            "synonyms": [
+                "trình bày",
+                "gợi ý"
+            ]
+        },
+        {
+            "id": "R018",
+            "name": "theo dõi",
+            "synonyms": [
+                "kiểm tra",
+                "quan sát",
+                "giám sát"
+            ]
+        },
+        {
+            "id": "R019",
+            "name": "hướng dẫn",
+            "synonyms": [
+                "đào tạo",
+                "giáo dục"
+            ]
+        },
+        {
+            "id": "R020",
+            "name": "cung cấp",
+            "synonyms": [
+                "gửi thông tin",
+                "cung cấp thông tin"
+            ]
+        },
+        {
+            "id": "R021",
+            "name": "xử lý",
+            "synonyms": [
+                "giáo dục",
+                "giải quyết",
+                "xử phạt",
+                "xử lý tang vật",
+                "xử lý vi phạm"
+            ]
+        },
+        {
+            "id": "R022",
+            "name": "kiểm tra",
+            "synonyms": [
+                "thanh tra",
+                "xác minh",
+                "đánh giá"
+            ]
+        },
+        {
+            "id": "R023",
+            "name": "báo cáo",
+            "synonyms": [
+                "báo cáo kịp thời",
+                "thông báo"
+            ]
+        },
+        {
+            "id": "R024",
+            "name": "giám sát",
+            "synonyms": [
+                "theo dõi"
+            ]
+        },
+        {
+            "id": "R025",
+            "name": "ban hành",
+            "synonyms": [
+                "phát hành"
+            ]
+        },
+        {
+            "id": "R026",
+            "name": "tước quyền sử dụng",
+            "synonyms": [
+                "tước giấy phép",
+                "tước chứng chỉ",
+                "tước quyền sử dụng giấy phép",
+                "tước quyền sử dụng chứng chỉ hành nghề",
+                "đình chỉ hoạt động"
+            ]
+        },
+        {
+            "id": "R027",
+            "name": "tịch thu",
+            "synonyms": [
+                "tịch thu sung quỹ",
+                "tịch thu phương tiện vi phạm",
+                "tịch thu tang vật",
+                "chiếm đoạt",
+                "tịch thu phương tiện vi phạm hành chính",
+                "sung vào ngân sách",
+                "tịch thu sung vào ngân sách",
+                "thu giữ",
+                "thu hồi"
+            ]
+        },
+        {
+            "id": "R028",
+            "name": "phạt",
+            "synonyms": [
+                "phạt tiền",
+                "xử phạt",
+                "phạt cảnh cáo",
+                "áp dụng hình thức phạt"
+            ]
+        },
+        {
+            "id": "R029",
+            "name": "cảnh cáo",
+            "synonyms": []
+        },
+        {
+            "id": "R030",
+            "name": "quy định mức phạt",
+            "synonyms": [
+                "quy định khung tiền phạt"
+            ]
+        },
+        {
+            "id": "R031",
+            "name": "đình chỉ",
+            "synonyms": [
+                "đình chỉ hoạt động"
+            ]
+        },
+        {
+            "id": "R032",
+            "name": "trục xuất",
+            "synonyms": [
+                "buộc rời khỏi lãnh thổ"
+            ]
+        },
+        {
+            "id": "R033",
+            "name": "cưỡng chế",
+            "synonyms": [
+                "thực hiện cưỡng chế",
+                "ép buộc thực hiện",
+                "ép buộc"
+            ]
+        },
+        {
+            "id": "R034",
+            "name": "cải chính",
+            "synonyms": [
+                "sửa chữa thông tin",
+                "điều chỉnh thông tin"
+            ]
+        },
+        {
+            "id": "R035",
+            "name": "loại bỏ",
+            "synonyms": [
+                "xóa bỏ",
+                "khắc phục"
+            ]
+        },
+        {
+            "id": "R036",
+            "name": "thu hồi",
+            "synonyms": [
+                "trả lại",
+                "lấy lại"
+            ]
+        },
+        {
+            "id": "R037",
+            "name": "nộp lại",
+            "synonyms": [
+                "hoàn trả",
+                "trả lại"
+            ]
+        },
+        {
+            "id": "R038",
+            "name": "tước quyền",
+            "synonyms": [
+                "tước quyền sử dụng giấy phép",
+                "tước quyền chứng chỉ hành nghề",
+                "đình chỉ hoạt động",
+                "tước quyền sử dụng"
+            ]
+        },
+        {
+            "id": "R039",
+            "name": "đình chỉ hoạt động",
+            "synonyms": []
+        },
+        {
+            "id": "R040",
+            "name": "áp dụng biện pháp",
+            "synonyms": [
+                "áp dụng biện pháp khắc phục hậu quả"
+            ]
+        },
+        {
+            "id": "R041",
+            "name": "áp dụng biện pháp khắc phục",
+            "synonyms": [
+                "áp dụng biện pháp khắc phục hậu quả"
+            ]
+        },
+        {
+            "id": "R042",
+            "name": "có quyền",
+            "synonyms": [
+                "quyền hạn"
+            ]
+        },
+        {
+            "id": "R043",
+            "name": "giao quyền",
+            "synonyms": [
+                "ủy quyền",
+                "chuyển giao quyền"
+            ]
+        },
+        {
+            "id": "R044",
+            "name": "buộc chấm dứt",
+            "synonyms": [
+                "chấm dứt hành vi"
+            ]
+        },
+        {
+            "id": "R045",
+            "name": "lập biên bản",
+            "synonyms": [
+                "ghi biên bản"
+            ]
+        },
+        {
+            "id": "R046",
+            "name": "xác minh",
+            "synonyms": [
+                "kiểm tra",
+                "xác định"
+            ]
+        },
+        {
+            "id": "R047",
+            "name": "tạm giữ",
+            "synonyms": [
+                "tạm giữ phương tiện",
+                "giữ người",
+                "giữ tạm",
+                "giam giữ",
+                "giữ tang vật",
+                "giữ",
+                "tạm giữ tang vật"
+            ]
+        },
+        {
+            "id": "R048",
+            "name": "ra quyết định",
+            "synonyms": [
+                "ban hành quyết định"
+            ]
+        },
+        {
+            "id": "R049",
+            "name": "giải trình",
+            "synonyms": [
+                "trình bày",
+                "giải trình bằng văn bản",
+                "giải trình trực tiếp"
+            ]
+        },
+        {
+            "id": "R050",
+            "name": "chuyển hồ sơ",
+            "synonyms": [
+                "chuyển giao hồ sơ",
+                "gửi hồ sơ",
+                "chuyển hồ sơ vụ vi phạm",
+                "chuyển tài liệu"
+            ]
+        },
+        {
+            "id": "R051",
+            "name": "tạm đình chỉ",
+            "synonyms": [
+                "tạm ngừng",
+                "tạm dừng thi hành",
+                "đình chỉ tạm thời"
+            ]
+        },
+        {
+            "id": "R052",
+            "name": "thông báo",
+            "synonyms": [
+                "thông báo bằng văn bản",
+                "thông báo quyền và nghĩa vụ",
+                "công bố",
+                "cung cấp thông tin",
+                "thông tin"
+            ]
+        },
+        {
+            "id": "R053",
+            "name": "quy định",
+            "synonyms": [
+                "quy tắc",
+                "công bố quy định",
+                "ban hành quy định",
+                "quy định của pháp luật",
+                "điều khoản"
+            ]
+        },
+        {
+            "id": "R054",
+            "name": "gia hạn",
+            "synonyms": [
+                "xin gia hạn"
+            ]
+        },
+        {
+            "id": "R055",
+            "name": "thi hành",
+            "synonyms": [
+                "thực hiện quyết định",
+                "thi hành quyết định xử phạt",
+                "thực thi",
+                "thực hiện",
+                "áp dụng"
+            ]
+        },
+        {
+            "id": "R056",
+            "name": "công bố",
+            "synonyms": [
+                "công khai",
+                "thông báo"
+            ]
+        },
+        {
+            "id": "R057",
+            "name": "nộp",
+            "synonyms": [
+                "nộp vào ngân sách",
+                "trả",
+                "gửi",
+                "giao tiền phạt"
+            ]
+        },
+        {
+            "id": "R058",
+            "name": "hoãn",
+            "synonyms": [
+                "tạm dừng",
+                "trì hoãn"
+            ]
+        },
+        {
+            "id": "R059",
+            "name": "giảm",
+            "synonyms": [
+                "miễn",
+                "giảm thời hạn",
+                "giảm mức phạt",
+                "giảm bớt"
+            ]
+        },
+        {
+            "id": "R060",
+            "name": "thu",
+            "synonyms": [
+                "thu hồi",
+                "thu tiền"
+            ]
+        },
+        {
+            "id": "R061",
+            "name": "tước",
+            "synonyms": [
+                "tước quyền sử dụng",
+                "tước giấy phép"
+            ]
+        },
+        {
+            "id": "R062",
+            "name": "giao",
+            "synonyms": [
+                "giao lại"
+            ]
+        },
+        {
+            "id": "R063",
+            "name": "chịu trách nhiệm",
+            "synonyms": [
+                "có trách nhiệm",
+                "phải thực hiện"
+            ]
+        },
+        {
+            "id": "R064",
+            "name": "hoàn trả",
+            "synonyms": [
+                "trả lại",
+                "bồi hoàn"
+            ]
+        },
+        {
+            "id": "R065",
+            "name": "phối hợp",
+            "synonyms": [
+                "hợp tác",
+                "cùng thực hiện"
+            ]
+        },
+        {
+            "id": "R066",
+            "name": "bảo đảm",
+            "synonyms": [
+                "đảm bảo",
+                "đảm bảo an toàn"
+            ]
+        },
+        {
+            "id": "R067",
+            "name": "giữ lại",
+            "synonyms": [
+                "giữ",
+                "trong tài khoản"
+            ]
+        },
+        {
+            "id": "R068",
+            "name": "trích chuyển",
+            "synonyms": [
+                "chuyển tiền",
+                "chuyển khoản"
+            ]
+        },
+        {
+            "id": "R069",
+            "name": "giao cho",
+            "synonyms": [
+                "chuyển giao",
+                "đưa cho"
+            ]
+        },
+        {
+            "id": "R070",
+            "name": "đưa vào",
+            "synonyms": [
+                "giao cho",
+                "chuyển đến"
+            ]
+        },
+        {
+            "id": "R071",
+            "name": "lập hồ sơ",
+            "synonyms": [
+                "chuẩn bị hồ sơ",
+                "chuẩn bị tài liệu",
+                "soạn thảo hồ sơ"
+            ]
+        },
+        {
+            "id": "R072",
+            "name": "quyết định áp dụng",
+            "synonyms": [
+                "ra quyết định"
+            ]
+        },
+        {
+            "id": "R073",
+            "name": "đề nghị",
+            "synonyms": [
+                "xin ý kiến",
+                "đề xuất"
+            ]
+        },
+        {
+            "id": "R074",
+            "name": "xem xét",
+            "synonyms": [
+                "kiểm tra",
+                "đánh giá"
+            ]
+        },
+        {
+            "id": "R075",
+            "name": "thu thập",
+            "synonyms": [
+                "tập hợp",
+                "gather"
+            ]
+        },
+        {
+            "id": "R076",
+            "name": "chuyển",
+            "synonyms": [
+                "chuyển hồ sơ",
+                "giao hồ sơ",
+                "chuyển giao",
+                "gửi"
+            ]
+        },
+        {
+            "id": "R077",
+            "name": "gửi",
+            "synonyms": [
+                "gửi quyết định",
+                "gửi hồ sơ",
+                "chuyển",
+                "truyền"
+            ]
+        },
+        {
+            "id": "R078",
+            "name": "cam kết",
+            "synonyms": [
+                "đảm bảo",
+                "thỏa thuận"
+            ]
+        },
+        {
+            "id": "R079",
+            "name": "miễn",
+            "synonyms": [
+                "miễn chấp hành",
+                "miễn trừ"
+            ]
+        },
+        {
+            "id": "R080",
+            "name": "đưa",
+            "synonyms": [
+                "chuyển giao",
+                "đưa vào"
+            ]
+        },
+        {
+            "id": "R081",
+            "name": "xác nhận",
+            "synonyms": [
+                "khẳng định"
+            ]
+        },
+        {
+            "id": "R082",
+            "name": "huỷ",
+            "synonyms": [
+                "hủy bỏ",
+                "bãi bỏ"
+            ]
+        },
+        {
+            "id": "R083",
+            "name": "khám",
+            "synonyms": [
+                "kiểm tra",
+                "khám nơi cất giấu",
+                "khám phương tiện",
+                "khám người"
+            ]
+        },
+        {
+            "id": "R084",
+            "name": "truy tìm",
+            "synonyms": [
+                "điều tra",
+                "truy tìm đối tượng",
+                "tìm kiếm"
+            ]
+        },
+        {
+            "id": "R085",
+            "name": "áp giải",
+            "synonyms": [
+                "dẫn giải",
+                "đưa đi"
+            ]
+        },
+        {
+            "id": "R086",
+            "name": "bảo quản",
+            "synonyms": [
+                "giữ gìn",
+                "bảo vệ"
+            ]
+        },
+        {
+            "id": "R087",
+            "name": "trả lại",
+            "synonyms": [
+                "hoàn trả",
+                "trả về"
+            ]
+        },
+        {
+            "id": "R088",
+            "name": "tiêu hủy",
+            "synonyms": [
+                "hủy bỏ",
+                "tiêu diệt"
+            ]
+        },
+        {
+            "id": "R089",
+            "name": "quyết định giao",
+            "synonyms": [
+                "giao quyết định"
+            ]
+        },
+        {
+            "id": "R090",
+            "name": "hỗ trợ",
+            "synonyms": [
+                "hỗ trợ gia đình"
+            ]
+        },
+        {
+            "id": "R091",
+            "name": "bỏ trốn",
+            "synonyms": [
+                "trốn tránh",
+                "không chấp hành"
+            ]
+        },
+        {
+            "id": "R092",
+            "name": "khôi phục",
+            "synonyms": [
+                "trả lại",
+                "đưa về"
+            ]
+        },
+        {
+            "id": "R093",
+            "name": "chấm dứt",
+            "synonyms": [
+                "kết thúc",
+                "ngừng"
+            ]
+        }
+    ]
+}

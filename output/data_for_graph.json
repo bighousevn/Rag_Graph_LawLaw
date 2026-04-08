@@ -1,0 +1,4615 @@
+[
+    {
+        "nodes": [
+            {
+                "id": "N001",
+                "name": "quốc hội",
+                "listSectionId": [
+                    "s1"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N002",
+                "name": "luật xử lý vi phạm hành chính",
+                "listSectionId": [
+                    "s1"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N003",
+                "name": "vi phạm hành chính",
+                "listSectionId": [
+                    "s5",
+                    "s563"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N004",
+                "name": "xử phạt vi phạm hành chính",
+                "listSectionId": [
+                    "s6"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N005",
+                "name": "biện pháp xử lý hành chính",
+                "listSectionId": [
+                    "s1000",
+                    "s1001",
+                    "s1002",
+                    "s1003",
+                    "s1004",
+                    "s1005",
+                    "s1006",
+                    "s1007",
+                    "s1008",
+                    "s1009",
+                    "s1010",
+                    "s1011",
+                    "s7",
+                    "s839",
+                    "s974",
+                    "s975",
+                    "s976",
+                    "s977",
+                    "s978",
+                    "s979",
+                    "s980",
+                    "s981",
+                    "s982",
+                    "s983",
+                    "s984",
+                    "s985",
+                    "s986",
+                    "s987",
+                    "s988",
+                    "s989",
+                    "s990",
+                    "s991",
+                    "s992",
+                    "s993",
+                    "s994",
+                    "s995",
+                    "s996",
+                    "s997",
+                    "s998",
+                    "s999"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N006",
+                "name": "biện pháp thay thế xử lý",
+                "listSectionId": [
+                    "s8"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N007",
+                "name": "tái phạm",
+                "listSectionId": [
+                    "s9"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N008",
+                "name": "vi phạm nhiều lần",
+                "listSectionId": [
+                    "s10"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N009",
+                "name": "nguyên tắc xử lý",
+                "listSectionId": [
+                    "s22"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N010",
+                "name": "thẩm quyền xử phạt",
+                "listSectionId": [
+                    "s216",
+                    "s35"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N011",
+                "name": "đối tượng bị xử lý",
+                "listSectionId": [
+                    "s36"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N012",
+                "name": "thời hiệu xử lý",
+                "listSectionId": [
+                    "s42"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N013",
+                "name": "tình tiết giảm nhẹ",
+                "listSectionId": [
+                    "s59"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N014",
+                "name": "tình tiết tăng nặng",
+                "listSectionId": [
+                    "s68",
+                    "s82"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N015",
+                "name": "hành vi vi phạm hành chính",
+                "listSectionId": [
+                    "s82"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N016",
+                "name": "trường hợp không xử phạt",
+                "listSectionId": [
+                    "s83"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N017",
+                "name": "tình thế cấp thiết",
+                "listSectionId": [
+                    "s84"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N018",
+                "name": "phòng vệ chính đáng",
+                "listSectionId": [
+                    "s85"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N019",
+                "name": "sự kiện bất ngờ",
+                "listSectionId": [
+                    "s86"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N020",
+                "name": "sự kiện bất khả kháng",
+                "listSectionId": [
+                    "s87"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N021",
+                "name": "năng lực trách nhiệm hành chính",
+                "listSectionId": [
+                    "s88"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N022",
+                "name": "hành vi bị nghiêm cấm",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N023",
+                "name": "giữ lại vụ vi phạm",
+                "listSectionId": [
+                    "s90"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N024",
+                "name": "lợi dụng chức vụ",
+                "listSectionId": [
+                    "s91"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N025",
+                "name": "ban hành trái thẩm quyền",
+                "listSectionId": [
+                    "s92"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N026",
+                "name": "không xử phạt",
+                "listSectionId": [
+                    "s93"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N027",
+                "name": "xử phạt không kịp thời",
+                "listSectionId": [
+                    "s94"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N028",
+                "name": "áp dụng hình thức xử phạt không đúng",
+                "listSectionId": [
+                    "s95"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N029",
+                "name": "can thiệp trái pháp luật",
+                "listSectionId": [
+                    "s96"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N030",
+                "name": "kéo dài thời hạn xử lý",
+                "listSectionId": [
+                    "s97"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N031",
+                "name": "sử dụng tiền thu được trái quy định",
+                "listSectionId": [
+                    "s98"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N032",
+                "name": "giả mạo hồ sơ xử phạt",
+                "listSectionId": [
+                    "s99"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N033",
+                "name": "xâm phạm quyền lợi người bị xử phạt",
+                "listSectionId": [
+                    "s100"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N034",
+                "name": "chống đối quyết định xử phạt",
+                "listSectionId": [
+                    "s101"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N035",
+                "name": "bồi thường thiệt hại",
+                "listSectionId": [
+                    "s102"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N036",
+                "name": "người vi phạm",
+                "listSectionId": [
+                    "s103",
+                    "s836",
+                    "s895"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N037",
+                "name": "người có thẩm quyền xử lý",
+                "listSectionId": [
+                    "s104"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N038",
+                "name": "trách nhiệm đấu tranh phòng, chống vi phạm",
+                "listSectionId": [
+                    "s105"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N039",
+                "name": "quyền khiếu nại",
+                "listSectionId": [
+                    "s110"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N040",
+                "name": "quyền tố cáo",
+                "listSectionId": [
+                    "s111"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N041",
+                "name": "trách nhiệm giám sát",
+                "listSectionId": [
+                    "s143"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N042",
+                "name": "các hình thức xử phạt",
+                "listSectionId": [
+                    "s146"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N043",
+                "name": "cảnh cáo",
+                "listSectionId": [
+                    "s150"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N044",
+                "name": "phạt tiền",
+                "listSectionId": [
+                    "s151",
+                    "s244",
+                    "s249",
+                    "s255",
+                    "s262",
+                    "s270",
+                    "s273",
+                    "s278",
+                    "s283",
+                    "s288",
+                    "s295",
+                    "s298",
+                    "s301",
+                    "s305",
+                    "s310",
+                    "s315",
+                    "s320",
+                    "s327",
+                    "s330",
+                    "s333",
+                    "s338",
+                    "s344",
+                    "s356",
+                    "s358",
+                    "s361",
+                    "s367",
+                    "s373",
+                    "s380",
+                    "s386",
+                    "s391",
+                    "s396",
+                    "s485"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N045",
+                "name": "tịch thu tang vật",
+                "listSectionId": [
+                    "s153",
+                    "s187",
+                    "s245",
+                    "s251",
+                    "s257",
+                    "s264",
+                    "s274",
+                    "s279",
+                    "s284",
+                    "s289",
+                    "s296",
+                    "s302",
+                    "s306",
+                    "s311",
+                    "s316",
+                    "s321",
+                    "s322",
+                    "s334",
+                    "s340",
+                    "s345",
+                    "s359",
+                    "s375",
+                    "s392",
+                    "s397",
+                    "s406",
+                    "s486",
+                    "s641"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N046",
+                "name": "số tiền phạt tối thiểu",
+                "listSectionId": [
+                    "s162"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N047",
+                "name": "số tiền phạt tối đa",
+                "listSectionId": [
+                    "s162"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N048",
+                "name": "số lần",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N049",
+                "name": "tỷ lệ phần trăm",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N050",
+                "name": "giá trị hàng hóa",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N051",
+                "name": "tang vật vi phạm",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N052",
+                "name": "đối tượng bị vi phạm",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N053",
+                "name": "doanh thu",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N054",
+                "name": "số lợi thu được",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N055",
+                "name": "khung tiền phạt",
+                "listSectionId": [
+                    "s164"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N056",
+                "name": "mức tiền phạt",
+                "listSectionId": [
+                    "s164"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N057",
+                "name": "mức tiền phạt cụ thể",
+                "listSectionId": [
+                    "s165"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N058",
+                "name": "mức phạt tiền tối đa",
+                "listSectionId": [
+                    "s166"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N059",
+                "name": "mức phạt tiền tối đa cá nhân",
+                "listSectionId": [
+                    "s167"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N060",
+                "name": "mức phạt tiền tối đa tổ chức",
+                "listSectionId": [
+                    "s178"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N061",
+                "name": "tước quyền sử dụng giấy phép",
+                "listSectionId": [
+                    "s181",
+                    "s339",
+                    "s368",
+                    "s490"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N062",
+                "name": "đình chỉ hoạt động",
+                "listSectionId": [
+                    "s183",
+                    "s339",
+                    "s368"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N063",
+                "name": "trục xuất",
+                "listSectionId": [
+                    "s188"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N064",
+                "name": "biện pháp khắc phục hậu quả",
+                "listSectionId": [
+                    "s191",
+                    "s482",
+                    "s663"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N065",
+                "name": "khôi phục tình trạng ban đầu",
+                "listSectionId": [
+                    "s194"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N066",
+                "name": "tháo dỡ công trình",
+                "listSectionId": [
+                    "s195"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N067",
+                "name": "khắc phục ô nhiễm môi trường",
+                "listSectionId": [
+                    "s196"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N068",
+                "name": "đưa ra khỏi lãnh thổ",
+                "listSectionId": [
+                    "s197"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N069",
+                "name": "tiêu hủy hàng hóa",
+                "listSectionId": [
+                    "s198"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N070",
+                "name": "cải chính thông tin",
+                "listSectionId": [
+                    "s199"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N071",
+                "name": "loại bỏ yếu tố vi phạm",
+                "listSectionId": [
+                    "s200"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N072",
+                "name": "thu hồi sản phẩm",
+                "listSectionId": [
+                    "s201"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N073",
+                "name": "nộp lại số lợi bất hợp pháp",
+                "listSectionId": [
+                    "s202"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N074",
+                "name": "chủ tịch ủy ban nhân dân",
+                "listSectionId": [
+                    "s217"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N075",
+                "name": "công an nhân dân",
+                "listSectionId": [
+                    "s235"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N076",
+                "name": "trưởng công an cấp xã",
+                "listSectionId": [
+                    "s242"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N077",
+                "name": "phạt cảnh cáo",
+                "listSectionId": [
+                    "s243",
+                    "s248",
+                    "s254",
+                    "s261",
+                    "s269",
+                    "s272",
+                    "s277",
+                    "s282",
+                    "s287",
+                    "s294",
+                    "s297",
+                    "s300",
+                    "s304",
+                    "s309",
+                    "s314",
+                    "s319",
+                    "s326",
+                    "s329",
+                    "s332",
+                    "s337",
+                    "s343",
+                    "s354",
+                    "s357",
+                    "s366",
+                    "s372",
+                    "s379",
+                    "s382",
+                    "s385",
+                    "s390",
+                    "s395",
+                    "s401",
+                    "s404",
+                    "s484"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N078",
+                "name": "áp dụng biện pháp khắc phục hậu quả",
+                "listSectionId": [
+                    "s246",
+                    "s252",
+                    "s258",
+                    "s265",
+                    "s275",
+                    "s280",
+                    "s285",
+                    "s291",
+                    "s299",
+                    "s303",
+                    "s307",
+                    "s312",
+                    "s318",
+                    "s323",
+                    "s335",
+                    "s341",
+                    "s346",
+                    "s351",
+                    "s364",
+                    "s368",
+                    "s374",
+                    "s388",
+                    "s393",
+                    "s407"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N079",
+                "name": "giám đốc công an cấp tỉnh",
+                "listSectionId": [
+                    "s253"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N080",
+                "name": "cục trưởng các cục nghiệp vụ",
+                "listSectionId": [
+                    "s260"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N081",
+                "name": "cục trưởng cục quản lý xuất nhập cảnh",
+                "listSectionId": [
+                    "s266"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N082",
+                "name": "chiến sĩ bộ đội biên phòng",
+                "listSectionId": [
+                    "s268"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N083",
+                "name": "trạm trưởng",
+                "listSectionId": [
+                    "s271"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N084",
+                "name": "cảnh sát viên cảnh sát biển",
+                "listSectionId": [
+                    "s293"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N085",
+                "name": "tổ trưởng tổ nghiệp vụ cảnh sát biển",
+                "listSectionId": [
+                    "s296"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N086",
+                "name": "đội trưởng đội nghiệp vụ cảnh sát biển",
+                "listSectionId": [
+                    "s299"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N087",
+                "name": "hải đội trưởng hải đội cảnh sát biển",
+                "listSectionId": [
+                    "s303",
+                    "s890"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N088",
+                "name": "chỉ huy trưởng vùng cảnh sát biển",
+                "listSectionId": [
+                    "s313",
+                    "s890"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N089",
+                "name": "cục trưởng cục cảnh sát biển",
+                "listSectionId": [
+                    "s318"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N090",
+                "name": "phương tiện vi phạm hành chính",
+                "listSectionId": [
+                    "s322",
+                    "s334",
+                    "s340",
+                    "s345",
+                    "s359",
+                    "s375",
+                    "s392",
+                    "s397"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N091",
+                "name": "phạt tiền 500.000 đồng",
+                "listSectionId": [
+                    "s402",
+                    "s472"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N092",
+                "name": "đội trưởng đội quản lý thị trường",
+                "listSectionId": [
+                    "s403",
+                    "s888"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N093",
+                "name": "phạt tiền 25.000.000 đồng",
+                "listSectionId": [
+                    "s405"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N094",
+                "name": "chi cục trưởng chi cục quản lý thị trường",
+                "listSectionId": [
+                    "s408"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N095",
+                "name": "phạt tiền 50.000.000 đồng",
+                "listSectionId": [
+                    "s410",
+                    "s427"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N096",
+                "name": "cục trưởng cục quản lý thị trường",
+                "listSectionId": [
+                    "s413"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N097",
+                "name": "phạt tiền tối đa",
+                "listSectionId": [
+                    "s415"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N098",
+                "name": "tịch thu tang vật vi phạm",
+                "listSectionId": [
+                    "s417"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N099",
+                "name": "thẩm quyền của thanh tra",
+                "listSectionId": [
+                    "s419"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N100",
+                "name": "thanh tra viên",
+                "listSectionId": [
+                    "s420"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N101",
+                "name": "phạt tiền 1% mức tối đa",
+                "listSectionId": [
+                    "s422"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N102",
+                "name": "tịch thu tang vật không vượt quá mức phạt",
+                "listSectionId": [
+                    "s423",
+                    "s429"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N103",
+                "name": "chánh thanh tra sở",
+                "listSectionId": [
+                    "s425"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N104",
+                "name": "thẩm quyền của tòa án nhân dân",
+                "listSectionId": [
+                    "s450"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N105",
+                "name": "thẩm phán chủ tọa phiên tòa",
+                "listSectionId": [
+                    "s451",
+                    "s892"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N106",
+                "name": "phạt tiền 1.000.000 đồng",
+                "listSectionId": [
+                    "s453"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N107",
+                "name": "chấp hành viên thi hành án dân sự",
+                "listSectionId": [
+                    "s470"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N108",
+                "name": "chi cục trưởng chi cục thi hành án dân sự",
+                "listSectionId": [
+                    "s473"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N109",
+                "name": "phạt tiền 20.000.000 đồng",
+                "listSectionId": [
+                    "s480"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N110",
+                "name": "tổng cục trưởng tổng cục thi hành án dân sự",
+                "listSectionId": [
+                    "s483"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N111",
+                "name": "giải trình",
+                "listSectionId": [
+                    "s542"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N112",
+                "name": "hồ sơ vụ vi phạm",
+                "listSectionId": [
+                    "s551",
+                    "s569"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N113",
+                "name": "cơ quan tiến hành tố tụng hình sự",
+                "listSectionId": [
+                    "s547"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N114",
+                "name": "phương tiện, thiết bị kỹ thuật nghiệp vụ",
+                "listSectionId": [
+                    "s556"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N115",
+                "name": "chính phủ",
+                "listSectionId": [
+                    "s562"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N116",
+                "name": "quản lý",
+                "listSectionId": [
+                    "s562"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N117",
+                "name": "sử dụng",
+                "listSectionId": [
+                    "s562"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N118",
+                "name": "danh mục phương tiện",
+                "listSectionId": [
+                    "s562"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N119",
+                "name": "quyết định xử phạt",
+                "listSectionId": [
+                    "s564",
+                    "s915"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N120",
+                "name": "trường hợp không ra quyết định",
+                "listSectionId": [
+                    "s563"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N121",
+                "name": "đối tượng vi phạm",
+                "listSectionId": [
+                    "s566"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N122",
+                "name": "thời hiệu xử phạt",
+                "listSectionId": [
+                    "s567"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N123",
+                "name": "cá nhân vi phạm",
+                "listSectionId": [
+                    "s568"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N124",
+                "name": "quyết định tịch thu",
+                "listSectionId": [
+                    "s570",
+                    "s649"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N125",
+                "name": "thời hạn ra quyết định",
+                "listSectionId": [
+                    "s571"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N126",
+                "name": "người có thẩm quyền",
+                "listSectionId": [
+                    "s572",
+                    "s678"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N127",
+                "name": "quyết định xử phạt vi phạm hành chính",
+                "listSectionId": [
+                    "s574"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N128",
+                "name": "nội dung quyết định xử phạt",
+                "listSectionId": [
+                    "s579"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N129",
+                "name": "thời hạn thi hành",
+                "listSectionId": [
+                    "s593"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N130",
+                "name": "giảm miễn tiền phạt",
+                "listSectionId": [
+                    "s619"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N131",
+                "name": "thủ tục nộp tiền phạt",
+                "listSectionId": [
+                    "s623"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N132",
+                "name": "tang vật",
+                "listSectionId": [
+                    "s645",
+                    "s856",
+                    "s900"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N133",
+                "name": "tiền việt nam",
+                "listSectionId": [
+                    "s646"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N134",
+                "name": "giấy tờ",
+                "listSectionId": [
+                    "s647"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N135",
+                "name": "ma túy",
+                "listSectionId": [
+                    "s648"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N136",
+                "name": "tổ chức bán đấu giá",
+                "listSectionId": [
+                    "s650"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N137",
+                "name": "hội đồng xử lý",
+                "listSectionId": [
+                    "s651"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N138",
+                "name": "ngân sách nhà nước",
+                "listSectionId": [
+                    "s646",
+                    "s654"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N139",
+                "name": "cơ quan quản lý",
+                "listSectionId": [
+                    "s647"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N140",
+                "name": "cơ quan có thẩm quyền",
+                "listSectionId": [
+                    "s655"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N141",
+                "name": "chi phí",
+                "listSectionId": [
+                    "s656"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N142",
+                "name": "tiền thu từ xử phạt",
+                "listSectionId": [
+                    "s658"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N143",
+                "name": "quyết định trục xuất",
+                "listSectionId": [
+                    "s661"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N144",
+                "name": "cơ quan công an",
+                "listSectionId": [
+                    "s662",
+                    "s965",
+                    "s966"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N145",
+                "name": "quyết định cưỡng chế",
+                "listSectionId": [
+                    "s670",
+                    "s693"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N146",
+                "name": "cá nhân, tổ chức vi phạm",
+                "listSectionId": [
+                    "s671"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N147",
+                "name": "các biện pháp cưỡng chế",
+                "listSectionId": [
+                    "s672"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N148",
+                "name": "biện pháp đưa vào cơ sở giáo dục bắt buộc",
+                "listSectionId": [
+                    "s725"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N149",
+                "name": "thời hạn",
+                "listSectionId": [
+                    "s725"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N150",
+                "name": "đối tượng áp dụng",
+                "listSectionId": [
+                    "s726"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N151",
+                "name": "người thực hiện hành vi xâm phạm tài sản",
+                "listSectionId": [
+                    "s727"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N152",
+                "name": "không áp dụng biện pháp",
+                "listSectionId": [
+                    "s728"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N153",
+                "name": "người không có năng lực trách nhiệm hành chính",
+                "listSectionId": [
+                    "s729"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N154",
+                "name": "người chưa đủ 18 tuổi",
+                "listSectionId": [
+                    "s730"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N155",
+                "name": "nữ trên 55 tuổi",
+                "listSectionId": [
+                    "s731"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N156",
+                "name": "nam trên 60 tuổi",
+                "listSectionId": [
+                    "s731"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N157",
+                "name": "người đang mang thai",
+                "listSectionId": [
+                    "s732"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N158",
+                "name": "phụ nữ nuôi con nhỏ",
+                "listSectionId": [
+                    "s733"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N159",
+                "name": "biện pháp đưa vào cơ sở cai nghiện bắt buộc",
+                "listSectionId": [
+                    "s734"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N160",
+                "name": "đối tượng áp dụng biện pháp cai nghiện",
+                "listSectionId": [
+                    "s737"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N161",
+                "name": "người nghiện ma túy",
+                "listSectionId": [
+                    "s738"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N162",
+                "name": "hồ sơ đề nghị áp dụng biện pháp",
+                "listSectionId": [
+                    "s744"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N163",
+                "name": "chủ tịch ủy ban nhân dân cấp xã",
+                "listSectionId": [
+                    "s793"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N164",
+                "name": "tòa án nhân dân cấp huyện",
+                "listSectionId": [
+                    "s794",
+                    "s825"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N165",
+                "name": "người được giáo dục",
+                "listSectionId": [
+                    "s809"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N166",
+                "name": "ủy ban nhân dân cấp xã",
+                "listSectionId": [
+                    "s806"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N167",
+                "name": "người được phân công giúp đỡ",
+                "listSectionId": [
+                    "s808"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N168",
+                "name": "kế hoạch quản lý",
+                "listSectionId": [
+                    "s808"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N169",
+                "name": "giấy chứng nhận",
+                "listSectionId": [
+                    "s836"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N170",
+                "name": "quyết định giáo dục",
+                "listSectionId": [
+                    "s809"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N171",
+                "name": "cơ sở giáo dục bắt buộc",
+                "listSectionId": [
+                    "s811",
+                    "s965",
+                    "s966",
+                    "s967",
+                    "s968",
+                    "s990"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N172",
+                "name": "cơ sở cai nghiện bắt buộc",
+                "listSectionId": [
+                    "s811",
+                    "s965",
+                    "s966",
+                    "s967",
+                    "s968",
+                    "s990"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N173",
+                "name": "công an cấp huyện",
+                "listSectionId": [
+                    "s813"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N174",
+                "name": "phòng lao động – thương binh và xã hội",
+                "listSectionId": [
+                    "s814"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N175",
+                "name": "người phải chấp hành quyết định",
+                "listSectionId": [
+                    "s818"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N176",
+                "name": "hồ sơ",
+                "listSectionId": [
+                    "s844"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N177",
+                "name": "người nước ngoài",
+                "listSectionId": [
+                    "s860"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N178",
+                "name": "thủ trưởng đơn vị cảnh sát cơ động",
+                "listSectionId": [
+                    "s885"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N179",
+                "name": "trạm trưởng trạm công an cửa khẩu",
+                "listSectionId": [
+                    "s885"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N180",
+                "name": "hạt trưởng hạt kiểm lâm",
+                "listSectionId": [
+                    "s886"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N181",
+                "name": "đội trưởng đội kiểm lâm cơ động",
+                "listSectionId": [
+                    "s886"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N182",
+                "name": "chi cục trưởng chi cục hải quan",
+                "listSectionId": [
+                    "s887"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N183",
+                "name": "đội trưởng đội kiểm soát thuộc cục hải quan",
+                "listSectionId": [
+                    "s887"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N184",
+                "name": "đội trưởng đội kiểm soát chống buôn lậu",
+                "listSectionId": [
+                    "s887"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N185",
+                "name": "hải đội trưởng hải đội kiểm soát trên biển",
+                "listSectionId": [
+                    "s887"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N186",
+                "name": "chỉ huy trưởng tiểu khu biên phòng",
+                "listSectionId": [
+                    "s889"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N187",
+                "name": "chỉ huy trưởng biên phòng cửa khẩu cảng",
+                "listSectionId": [
+                    "s889"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N188",
+                "name": "chỉ huy trưởng hải đoàn biên phòng",
+                "listSectionId": [
+                    "s889"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N189",
+                "name": "chỉ huy trưởng hải đội biên phòng",
+                "listSectionId": [
+                    "s889"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N190",
+                "name": "trưởng đồn biên phòng",
+                "listSectionId": [
+                    "s889"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N191",
+                "name": "thủ trưởng đơn vị bộ đội biên phòng",
+                "listSectionId": [
+                    "s889"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N192",
+                "name": "hải đoàn trưởng hải đoàn cảnh sát biển",
+                "listSectionId": [
+                    "s890"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N193",
+                "name": "người chỉ huy tàu bay",
+                "listSectionId": [
+                    "s891"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N194",
+                "name": "thuyền trưởng",
+                "listSectionId": [
+                    "s891"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N195",
+                "name": "trưởng tàu",
+                "listSectionId": [
+                    "s891"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N196",
+                "name": "người có thẩm quyền tạm giữ người",
+                "listSectionId": [
+                    "s893"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N197",
+                "name": "phương tiện",
+                "listSectionId": [
+                    "s900"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N198",
+                "name": "giấy phép",
+                "listSectionId": [
+                    "s900"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N199",
+                "name": "chứng chỉ hành nghề",
+                "listSectionId": [
+                    "s900"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N200",
+                "name": "biên bản tạm giữ",
+                "listSectionId": [
+                    "s909"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N201",
+                "name": "người quản lý",
+                "listSectionId": [
+                    "s947"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N202",
+                "name": "gia đình",
+                "listSectionId": [
+                    "s948"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N203",
+                "name": "tổ chức xã hội",
+                "listSectionId": [
+                    "s948"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N204",
+                "name": "người",
+                "listSectionId": [
+                    "s1000",
+                    "s1001",
+                    "s1002",
+                    "s1003",
+                    "s1004",
+                    "s1005",
+                    "s1006",
+                    "s1007",
+                    "s1008",
+                    "s1009",
+                    "s1010",
+                    "s1011",
+                    "s965",
+                    "s966",
+                    "s967",
+                    "s968",
+                    "s973",
+                    "s974",
+                    "s975",
+                    "s976",
+                    "s977",
+                    "s978",
+                    "s979",
+                    "s980",
+                    "s981",
+                    "s982",
+                    "s983",
+                    "s984",
+                    "s985",
+                    "s986",
+                    "s987",
+                    "s988",
+                    "s989",
+                    "s990",
+                    "s991",
+                    "s992",
+                    "s993",
+                    "s994",
+                    "s995",
+                    "s996",
+                    "s997",
+                    "s998",
+                    "s999"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N205",
+                "name": "trường giáo dưỡng",
+                "listSectionId": [
+                    "s965",
+                    "s966",
+                    "s967",
+                    "s968",
+                    "s990"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N206",
+                "name": "hiệu trưởng",
+                "listSectionId": [
+                    "s966",
+                    "s967",
+                    "s990"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N207",
+                "name": "giám đốc cơ sở giáo dục",
+                "listSectionId": [
+                    "s966",
+                    "s967"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N208",
+                "name": "tòa án nhân dân",
+                "listSectionId": [
+                    "s967"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N209",
+                "name": "quyết định truy tìm",
+                "listSectionId": [
+                    "s965",
+                    "s966"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N210",
+                "name": "biện pháp đưa vào trường giáo dưỡng",
+                "listSectionId": [
+                    "s973",
+                    "s990"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N211",
+                "name": "biện pháp thay thế xử lý vi phạm hành chính",
+                "listSectionId": [
+                    "s1000",
+                    "s1001",
+                    "s1002",
+                    "s1003",
+                    "s1004",
+                    "s1005",
+                    "s1006",
+                    "s1007",
+                    "s1008",
+                    "s1009",
+                    "s1010",
+                    "s1011",
+                    "s994",
+                    "s995",
+                    "s996",
+                    "s997",
+                    "s998",
+                    "s999"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N212",
+                "name": "quản lý tại gia đình",
+                "listSectionId": [
+                    "s1003",
+                    "s1004",
+                    "s1005",
+                    "s1006",
+                    "s1007",
+                    "s1008",
+                    "s1009",
+                    "s1010",
+                    "s1011"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N213",
+                "name": "hình thức xử phạt",
+                "listSectionId": [
+                    "s978",
+                    "s979",
+                    "s980",
+                    "s981",
+                    "s982",
+                    "s983",
+                    "s984",
+                    "s985",
+                    "s986",
+                    "s987"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N214",
+                "name": "thời gian bỏ trốn",
+                "listSectionId": [
+                    "s968"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "N215",
+                "name": "quy định",
+                "listSectionId": [
+                    "s1000",
+                    "s1001",
+                    "s1002",
+                    "s1003",
+                    "s1004",
+                    "s1005",
+                    "s1006",
+                    "s1007",
+                    "s1008",
+                    "s1009",
+                    "s1010",
+                    "s1011",
+                    "s971",
+                    "s972",
+                    "s973",
+                    "s974",
+                    "s975",
+                    "s976",
+                    "s977",
+                    "s978",
+                    "s979",
+                    "s980",
+                    "s981",
+                    "s982",
+                    "s983",
+                    "s984",
+                    "s985",
+                    "s986",
+                    "s987",
+                    "s988",
+                    "s989",
+                    "s990",
+                    "s991",
+                    "s992",
+                    "s993",
+                    "s994",
+                    "s995",
+                    "s996",
+                    "s997",
+                    "s998",
+                    "s999"
+                ],
+                "synonym": []
+            }
+        ],
+        "relationships": [
+            {
+                "id": "E001",
+                "name": "ban hành",
+                "source": "N001",
+                "target": "N002",
+                "listSectionId": [
+                    "s1"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E002",
+                "name": "quy định",
+                "source": "N002",
+                "target": "N003",
+                "listSectionId": [
+                    "s3"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E003",
+                "name": "xử phạt",
+                "source": "N003",
+                "target": "N004",
+                "listSectionId": [
+                    "s6"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E004",
+                "name": "áp dụng",
+                "source": "N003",
+                "target": "N005",
+                "listSectionId": [
+                    "s7"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E005",
+                "name": "thay thế",
+                "source": "N004",
+                "target": "N006",
+                "listSectionId": [
+                    "s8"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E006",
+                "name": "xảy ra",
+                "source": "N003",
+                "target": "N007",
+                "listSectionId": [
+                    "s9"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E007",
+                "name": "xảy ra",
+                "source": "N003",
+                "target": "N008",
+                "listSectionId": [
+                    "s10"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E008",
+                "name": "quy định",
+                "source": "N002",
+                "target": "N009",
+                "listSectionId": [
+                    "s22"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E009",
+                "name": "quy định",
+                "source": "N002",
+                "target": "N010",
+                "listSectionId": [
+                    "s35"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E010",
+                "name": "quy định",
+                "source": "N002",
+                "target": "N011",
+                "listSectionId": [
+                    "s36"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E011",
+                "name": "quy định",
+                "source": "N002",
+                "target": "N012",
+                "listSectionId": [
+                    "s42"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E012",
+                "name": "quy định",
+                "source": "N002",
+                "target": "N013",
+                "listSectionId": [
+                    "s59"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E013",
+                "name": "quy định",
+                "source": "N002",
+                "target": "N014",
+                "listSectionId": [
+                    "s68"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E014",
+                "name": "không được coi là",
+                "source": "N015",
+                "target": "N014",
+                "listSectionId": [
+                    "s82"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E015",
+                "name": "không xử phạt",
+                "source": "N016",
+                "target": "N017",
+                "listSectionId": [
+                    "s83"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E016",
+                "name": "không xử phạt",
+                "source": "N016",
+                "target": "N018",
+                "listSectionId": [
+                    "s83"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E017",
+                "name": "không xử phạt",
+                "source": "N016",
+                "target": "N019",
+                "listSectionId": [
+                    "s83"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E018",
+                "name": "không xử phạt",
+                "source": "N016",
+                "target": "N020",
+                "listSectionId": [
+                    "s83"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E019",
+                "name": "không xử phạt",
+                "source": "N016",
+                "target": "N021",
+                "listSectionId": [
+                    "s83"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E020",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N023",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E021",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N024",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E022",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N025",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E023",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N026",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E024",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N027",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E025",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N028",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E026",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N029",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E027",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N030",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E028",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N031",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E029",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N032",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E030",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N033",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E031",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N034",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E032",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N035",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E033",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N036",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E034",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N037",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E035",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N038",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E036",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N039",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E037",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N040",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E038",
+                "name": "bị nghiêm cấm",
+                "source": "N022",
+                "target": "N041",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E039",
+                "name": "có quyền",
+                "source": "N039",
+                "target": "N042",
+                "listSectionId": [
+                    "s110"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E040",
+                "name": "có quyền",
+                "source": "N040",
+                "target": "N042",
+                "listSectionId": [
+                    "s111"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E041",
+                "name": "có trách nhiệm",
+                "source": "N038",
+                "target": "N042",
+                "listSectionId": [
+                    "s105"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E042",
+                "name": "có trách nhiệm",
+                "source": "N037",
+                "target": "N042",
+                "listSectionId": [
+                    "s104"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E043",
+                "name": "có trách nhiệm",
+                "source": "N036",
+                "target": "N042",
+                "listSectionId": [
+                    "s103"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E044",
+                "name": "có trách nhiệm",
+                "source": "N035",
+                "target": "N042",
+                "listSectionId": [
+                    "s102"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E045",
+                "name": "có trách nhiệm",
+                "source": "N034",
+                "target": "N042",
+                "listSectionId": [
+                    "s146"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E046",
+                "name": "có trách nhiệm",
+                "source": "N033",
+                "target": "N042",
+                "listSectionId": [
+                    "s100"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E047",
+                "name": "có trách nhiệm",
+                "source": "N032",
+                "target": "N042",
+                "listSectionId": [
+                    "s99"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E048",
+                "name": "có trách nhiệm",
+                "source": "N031",
+                "target": "N042",
+                "listSectionId": [
+                    "s98"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E049",
+                "name": "có trách nhiệm",
+                "source": "N030",
+                "target": "N042",
+                "listSectionId": [
+                    "s97"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E050",
+                "name": "có trách nhiệm",
+                "source": "N029",
+                "target": "N042",
+                "listSectionId": [
+                    "s96"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E051",
+                "name": "có trách nhiệm",
+                "source": "N028",
+                "target": "N042",
+                "listSectionId": [
+                    "s95"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E052",
+                "name": "có trách nhiệm",
+                "source": "N027",
+                "target": "N042",
+                "listSectionId": [
+                    "s94"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E053",
+                "name": "có trách nhiệm",
+                "source": "N026",
+                "target": "N042",
+                "listSectionId": [
+                    "s93"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E054",
+                "name": "có trách nhiệm",
+                "source": "N025",
+                "target": "N042",
+                "listSectionId": [
+                    "s92"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E055",
+                "name": "có trách nhiệm",
+                "source": "N024",
+                "target": "N042",
+                "listSectionId": [
+                    "s91"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E056",
+                "name": "có trách nhiệm",
+                "source": "N023",
+                "target": "N042",
+                "listSectionId": [
+                    "s90"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E057",
+                "name": "có trách nhiệm",
+                "source": "N022",
+                "target": "N042",
+                "listSectionId": [
+                    "s89"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E058",
+                "name": "có trách nhiệm",
+                "source": "N021",
+                "target": "N042",
+                "listSectionId": [
+                    "s88"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E059",
+                "name": "có trách nhiệm",
+                "source": "N020",
+                "target": "N042",
+                "listSectionId": [
+                    "s87"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E060",
+                "name": "có trách nhiệm",
+                "source": "N019",
+                "target": "N042",
+                "listSectionId": [
+                    "s86"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E061",
+                "name": "có trách nhiệm",
+                "source": "N018",
+                "target": "N042",
+                "listSectionId": [
+                    "s85"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E062",
+                "name": "có trách nhiệm",
+                "source": "N017",
+                "target": "N042",
+                "listSectionId": [
+                    "s84"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E063",
+                "name": "có trách nhiệm",
+                "source": "N016",
+                "target": "N042",
+                "listSectionId": [
+                    "s83"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E064",
+                "name": "có trách nhiệm",
+                "source": "N014",
+                "target": "N042",
+                "listSectionId": [
+                    "s82"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E065",
+                "name": "có trách nhiệm",
+                "source": "N015",
+                "target": "N042",
+                "listSectionId": [
+                    "s82"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E066",
+                "name": "xác định",
+                "source": "N046",
+                "target": "N047",
+                "listSectionId": [
+                    "s162"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E067",
+                "name": "xác định",
+                "source": "N048",
+                "target": "N049",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E068",
+                "name": "xác định",
+                "source": "N048",
+                "target": "N050",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E069",
+                "name": "xác định",
+                "source": "N048",
+                "target": "N051",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E070",
+                "name": "xác định",
+                "source": "N048",
+                "target": "N052",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E071",
+                "name": "xác định",
+                "source": "N048",
+                "target": "N053",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E072",
+                "name": "xác định",
+                "source": "N048",
+                "target": "N054",
+                "listSectionId": [
+                    "s163"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E073",
+                "name": "quy định",
+                "source": "N055",
+                "target": "N056",
+                "listSectionId": [
+                    "s164"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E074",
+                "name": "quy định",
+                "source": "N057",
+                "target": "N056",
+                "listSectionId": [
+                    "s165"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E075",
+                "name": "quy định",
+                "source": "N058",
+                "target": "N059",
+                "listSectionId": [
+                    "s167"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E076",
+                "name": "quy định",
+                "source": "N060",
+                "target": "N059",
+                "listSectionId": [
+                    "s178"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E077",
+                "name": "áp dụng",
+                "source": "N061",
+                "target": "N062",
+                "listSectionId": [
+                    "s181"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E078",
+                "name": "áp dụng",
+                "source": "N045",
+                "target": "N063",
+                "listSectionId": [
+                    "s187"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E079",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N065",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E080",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N066",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E081",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N067",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E082",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N068",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E083",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N069",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E084",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N070",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E085",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N071",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E086",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N072",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E087",
+                "name": "quy định",
+                "source": "N064",
+                "target": "N073",
+                "listSectionId": [
+                    "s191"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E088",
+                "name": "có quyền",
+                "source": "N074",
+                "target": "N010",
+                "listSectionId": [
+                    "s217"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E089",
+                "name": "có quyền",
+                "source": "N075",
+                "target": "N010",
+                "listSectionId": [
+                    "s235"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E090",
+                "name": "có quyền",
+                "source": "N076",
+                "target": "N077",
+                "listSectionId": [
+                    "s242"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E091",
+                "name": "có quyền",
+                "source": "N076",
+                "target": "N044",
+                "listSectionId": [
+                    "s242"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E092",
+                "name": "có quyền",
+                "source": "N076",
+                "target": "N045",
+                "listSectionId": [
+                    "s242"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E093",
+                "name": "có quyền",
+                "source": "N076",
+                "target": "N078",
+                "listSectionId": [
+                    "s242"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E094",
+                "name": "có quyền",
+                "source": "N079",
+                "target": "N077",
+                "listSectionId": [
+                    "s253"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E095",
+                "name": "có quyền",
+                "source": "N079",
+                "target": "N044",
+                "listSectionId": [
+                    "s253"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E096",
+                "name": "có quyền",
+                "source": "N079",
+                "target": "N045",
+                "listSectionId": [
+                    "s253"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E097",
+                "name": "có quyền",
+                "source": "N079",
+                "target": "N078",
+                "listSectionId": [
+                    "s253"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E098",
+                "name": "có quyền",
+                "source": "N080",
+                "target": "N077",
+                "listSectionId": [
+                    "s260"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E099",
+                "name": "có quyền",
+                "source": "N080",
+                "target": "N044",
+                "listSectionId": [
+                    "s260"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E100",
+                "name": "có quyền",
+                "source": "N080",
+                "target": "N045",
+                "listSectionId": [
+                    "s260"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E101",
+                "name": "có quyền",
+                "source": "N080",
+                "target": "N078",
+                "listSectionId": [
+                    "s260"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E102",
+                "name": "có quyền",
+                "source": "N081",
+                "target": "N077",
+                "listSectionId": [
+                    "s266"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E103",
+                "name": "có quyền",
+                "source": "N081",
+                "target": "N044",
+                "listSectionId": [
+                    "s266"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E104",
+                "name": "có quyền",
+                "source": "N081",
+                "target": "N045",
+                "listSectionId": [
+                    "s266"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E105",
+                "name": "có quyền",
+                "source": "N081",
+                "target": "N078",
+                "listSectionId": [
+                    "s266"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E106",
+                "name": "có quyền",
+                "source": "N082",
+                "target": "N077",
+                "listSectionId": [
+                    "s268"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E107",
+                "name": "có quyền",
+                "source": "N082",
+                "target": "N044",
+                "listSectionId": [
+                    "s268"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E108",
+                "name": "có quyền",
+                "source": "N082",
+                "target": "N045",
+                "listSectionId": [
+                    "s268"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E109",
+                "name": "có quyền",
+                "source": "N082",
+                "target": "N078",
+                "listSectionId": [
+                    "s268"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E110",
+                "name": "có quyền",
+                "source": "N083",
+                "target": "N077",
+                "listSectionId": [
+                    "s271"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E111",
+                "name": "có quyền",
+                "source": "N083",
+                "target": "N044",
+                "listSectionId": [
+                    "s271"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E112",
+                "name": "có quyền",
+                "source": "N083",
+                "target": "N045",
+                "listSectionId": [
+                    "s271"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E113",
+                "name": "có quyền",
+                "source": "N083",
+                "target": "N078",
+                "listSectionId": [
+                    "s271"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E114",
+                "name": "có quyền",
+                "source": "N084",
+                "target": "N077",
+                "listSectionId": [
+                    "s293"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E115",
+                "name": "có quyền",
+                "source": "N084",
+                "target": "N044",
+                "listSectionId": [
+                    "s293"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E116",
+                "name": "có quyền",
+                "source": "N084",
+                "target": "N045",
+                "listSectionId": [
+                    "s293"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E117",
+                "name": "có quyền",
+                "source": "N084",
+                "target": "N078",
+                "listSectionId": [
+                    "s293"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E118",
+                "name": "có quyền",
+                "source": "N085",
+                "target": "N077",
+                "listSectionId": [
+                    "s296"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E119",
+                "name": "có quyền",
+                "source": "N085",
+                "target": "N044",
+                "listSectionId": [
+                    "s296"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E120",
+                "name": "có quyền",
+                "source": "N085",
+                "target": "N045",
+                "listSectionId": [
+                    "s296"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E121",
+                "name": "có quyền",
+                "source": "N085",
+                "target": "N078",
+                "listSectionId": [
+                    "s296"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E122",
+                "name": "có quyền",
+                "source": "N086",
+                "target": "N077",
+                "listSectionId": [
+                    "s299"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E123",
+                "name": "có quyền",
+                "source": "N086",
+                "target": "N044",
+                "listSectionId": [
+                    "s299"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E124",
+                "name": "có quyền",
+                "source": "N086",
+                "target": "N045",
+                "listSectionId": [
+                    "s299"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E125",
+                "name": "có quyền",
+                "source": "N086",
+                "target": "N078",
+                "listSectionId": [
+                    "s299"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E126",
+                "name": "có quyền",
+                "source": "N087",
+                "target": "N077",
+                "listSectionId": [
+                    "s303"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E127",
+                "name": "có quyền",
+                "source": "N087",
+                "target": "N044",
+                "listSectionId": [
+                    "s303"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E128",
+                "name": "có quyền",
+                "source": "N087",
+                "target": "N045",
+                "listSectionId": [
+                    "s303"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E129",
+                "name": "có quyền",
+                "source": "N087",
+                "target": "N078",
+                "listSectionId": [
+                    "s303"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E130",
+                "name": "có quyền",
+                "source": "N088",
+                "target": "N077",
+                "listSectionId": [
+                    "s313"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E131",
+                "name": "có quyền",
+                "source": "N088",
+                "target": "N044",
+                "listSectionId": [
+                    "s313"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E132",
+                "name": "có quyền",
+                "source": "N088",
+                "target": "N045",
+                "listSectionId": [
+                    "s313"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E133",
+                "name": "có quyền",
+                "source": "N088",
+                "target": "N078",
+                "listSectionId": [
+                    "s313"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E134",
+                "name": "có quyền",
+                "source": "N089",
+                "target": "N077",
+                "listSectionId": [
+                    "s318"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E135",
+                "name": "có quyền",
+                "source": "N089",
+                "target": "N044",
+                "listSectionId": [
+                    "s318"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E136",
+                "name": "có quyền",
+                "source": "N089",
+                "target": "N045",
+                "listSectionId": [
+                    "s318"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E137",
+                "name": "có quyền",
+                "source": "N089",
+                "target": "N078",
+                "listSectionId": [
+                    "s318"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E138",
+                "name": "thực hiện",
+                "source": "N045",
+                "target": "N090",
+                "listSectionId": [
+                    "s322",
+                    "s334",
+                    "s340",
+                    "s345",
+                    "s359",
+                    "s375",
+                    "s392",
+                    "s397"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E139",
+                "name": "thực hiện",
+                "source": "N077",
+                "target": "N045",
+                "listSectionId": [
+                    "s326",
+                    "s329",
+                    "s332",
+                    "s337",
+                    "s343",
+                    "s354",
+                    "s357",
+                    "s366",
+                    "s372",
+                    "s379",
+                    "s382",
+                    "s385",
+                    "s390",
+                    "s395",
+                    "s401"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E140",
+                "name": "thực hiện",
+                "source": "N044",
+                "target": "N045",
+                "listSectionId": [
+                    "s327",
+                    "s330",
+                    "s333",
+                    "s338",
+                    "s344",
+                    "s356",
+                    "s358",
+                    "s361",
+                    "s367",
+                    "s373",
+                    "s380",
+                    "s386",
+                    "s391",
+                    "s396"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E141",
+                "name": "thực hiện",
+                "source": "N078",
+                "target": "N045",
+                "listSectionId": [
+                    "s323",
+                    "s335",
+                    "s341",
+                    "s346",
+                    "s351",
+                    "s364",
+                    "s368",
+                    "s374",
+                    "s388",
+                    "s393"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E142",
+                "name": "thực hiện",
+                "source": "N061",
+                "target": "N045",
+                "listSectionId": [
+                    "s339",
+                    "s368"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E143",
+                "name": "thực hiện",
+                "source": "N062",
+                "target": "N045",
+                "listSectionId": [
+                    "s339",
+                    "s368"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E144",
+                "name": "có quyền",
+                "source": "N092",
+                "target": "N077",
+                "listSectionId": [
+                    "s404"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E145",
+                "name": "có quyền",
+                "source": "N092",
+                "target": "N093",
+                "listSectionId": [
+                    "s405"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E146",
+                "name": "có quyền",
+                "source": "N092",
+                "target": "N045",
+                "listSectionId": [
+                    "s406"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E147",
+                "name": "có quyền",
+                "source": "N092",
+                "target": "N078",
+                "listSectionId": [
+                    "s407"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E148",
+                "name": "có quyền",
+                "source": "N094",
+                "target": "N077",
+                "listSectionId": [
+                    "s409"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E149",
+                "name": "có quyền",
+                "source": "N094",
+                "target": "N095",
+                "listSectionId": [
+                    "s410"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E150",
+                "name": "có quyền",
+                "source": "N094",
+                "target": "N098",
+                "listSectionId": [
+                    "s411"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E151",
+                "name": "có quyền",
+                "source": "N094",
+                "target": "N078",
+                "listSectionId": [
+                    "s412"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E152",
+                "name": "có quyền",
+                "source": "N099",
+                "target": "N100",
+                "listSectionId": [
+                    "s421"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E153",
+                "name": "có quyền",
+                "source": "N099",
+                "target": "N101",
+                "listSectionId": [
+                    "s422"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E154",
+                "name": "có quyền",
+                "source": "N099",
+                "target": "N102",
+                "listSectionId": [
+                    "s424"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E155",
+                "name": "có quyền",
+                "source": "N103",
+                "target": "N077",
+                "listSectionId": [
+                    "s426"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E156",
+                "name": "có quyền",
+                "source": "N103",
+                "target": "N095",
+                "listSectionId": [
+                    "s427"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E157",
+                "name": "có quyền",
+                "source": "N103",
+                "target": "N102",
+                "listSectionId": [
+                    "s428"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E158",
+                "name": "có quyền",
+                "source": "N104",
+                "target": "N105",
+                "listSectionId": [
+                    "s451"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E159",
+                "name": "có quyền",
+                "source": "N104",
+                "target": "N106",
+                "listSectionId": [
+                    "s454"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E160",
+                "name": "có quyền",
+                "source": "N107",
+                "target": "N077",
+                "listSectionId": [
+                    "s471"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E161",
+                "name": "có quyền",
+                "source": "N107",
+                "target": "N091",
+                "listSectionId": [
+                    "s472"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E162",
+                "name": "có quyền",
+                "source": "N108",
+                "target": "N077",
+                "listSectionId": [
+                    "s479"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E163",
+                "name": "có quyền",
+                "source": "N108",
+                "target": "N109",
+                "listSectionId": [
+                    "s480"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E164",
+                "name": "áp dụng",
+                "source": "N064",
+                "target": "N110",
+                "listSectionId": [
+                    "s482"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E165",
+                "name": "có quyền",
+                "source": "N110",
+                "target": "N077",
+                "listSectionId": [
+                    "s483"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E166",
+                "name": "có quyền",
+                "source": "N110",
+                "target": "N044",
+                "listSectionId": [
+                    "s483"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E167",
+                "name": "có quyền",
+                "source": "N110",
+                "target": "N045",
+                "listSectionId": [
+                    "s483"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E168",
+                "name": "có quyền",
+                "source": "N110",
+                "target": "N061",
+                "listSectionId": [
+                    "s490"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E169",
+                "name": "có quyền",
+                "source": "N110",
+                "target": "N111",
+                "listSectionId": [
+                    "s542"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E170",
+                "name": "chuyển",
+                "source": "N112",
+                "target": "N113",
+                "listSectionId": [
+                    "s551"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E171",
+                "name": "sử dụng",
+                "source": "N114",
+                "target": "N110",
+                "listSectionId": [
+                    "s556"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E172",
+                "name": "quy định",
+                "source": "N115",
+                "target": "N116",
+                "listSectionId": [
+                    "s562"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E173",
+                "name": "quy định",
+                "source": "N115",
+                "target": "N117",
+                "listSectionId": [
+                    "s562"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E174",
+                "name": "bao gồm",
+                "source": "N116",
+                "target": "N118",
+                "listSectionId": [
+                    "s562"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E175",
+                "name": "không ra quyết định",
+                "source": "N003",
+                "target": "N120",
+                "listSectionId": [
+                    "s563"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E176",
+                "name": "không xác định",
+                "source": "N120",
+                "target": "N121",
+                "listSectionId": [
+                    "s566"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E177",
+                "name": "hết thời hiệu",
+                "source": "N120",
+                "target": "N122",
+                "listSectionId": [
+                    "s567"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E178",
+                "name": "cá nhân chết",
+                "source": "N120",
+                "target": "N123",
+                "listSectionId": [
+                    "s568"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E179",
+                "name": "chuyển hồ sơ",
+                "source": "N120",
+                "target": "N112",
+                "listSectionId": [
+                    "s569"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E180",
+                "name": "ra quyết định",
+                "source": "N124",
+                "target": "N003",
+                "listSectionId": [
+                    "s570"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E181",
+                "name": "ra quyết định",
+                "source": "N125",
+                "target": "N126",
+                "listSectionId": [
+                    "s572"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E182",
+                "name": "ra quyết định",
+                "source": "N126",
+                "target": "N127",
+                "listSectionId": [
+                    "s574"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E183",
+                "name": "bao gồm",
+                "source": "N127",
+                "target": "N128",
+                "listSectionId": [
+                    "s579"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E184",
+                "name": "thời hạn thi hành",
+                "source": "N129",
+                "target": "N127",
+                "listSectionId": [
+                    "s593"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E185",
+                "name": "giảm miễn",
+                "source": "N130",
+                "target": "N127",
+                "listSectionId": [
+                    "s619"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E186",
+                "name": "nộp tiền phạt",
+                "source": "N131",
+                "target": "N127",
+                "listSectionId": [
+                    "s623"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E187",
+                "name": "tịch thu",
+                "source": "N045",
+                "target": "N127",
+                "listSectionId": [
+                    "s641"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E188",
+                "name": "xử lý",
+                "source": "N132",
+                "target": "N133",
+                "listSectionId": [
+                    "s646"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E189",
+                "name": "chuyển giao",
+                "source": "N132",
+                "target": "N134",
+                "listSectionId": [
+                    "s647"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E190",
+                "name": "chuyển giao",
+                "source": "N132",
+                "target": "N135",
+                "listSectionId": [
+                    "s648"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E191",
+                "name": "quyết định",
+                "source": "N132",
+                "target": "N124",
+                "listSectionId": [
+                    "s649"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E192",
+                "name": "bán đấu giá",
+                "source": "N132",
+                "target": "N136",
+                "listSectionId": [
+                    "s650"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E193",
+                "name": "lập hội đồng",
+                "source": "N132",
+                "target": "N137",
+                "listSectionId": [
+                    "s651"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E194",
+                "name": "nộp vào",
+                "source": "N141",
+                "target": "N138",
+                "listSectionId": [
+                    "s656"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E195",
+                "name": "thu",
+                "source": "N142",
+                "target": "N138",
+                "listSectionId": [
+                    "s658"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E196",
+                "name": "thông báo",
+                "source": "N143",
+                "target": "N144",
+                "listSectionId": [
+                    "s661"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E197",
+                "name": "thi hành",
+                "source": "N144",
+                "target": "N145",
+                "listSectionId": [
+                    "s662"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E198",
+                "name": "thực hiện",
+                "source": "N146",
+                "target": "N064",
+                "listSectionId": [
+                    "s665"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E199",
+                "name": "gửi",
+                "source": "N126",
+                "target": "N145",
+                "listSectionId": [
+                    "s693"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E200",
+                "name": "có thời hạn",
+                "source": "N148",
+                "target": "N149",
+                "listSectionId": [
+                    "s725"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E201",
+                "name": "áp dụng cho",
+                "source": "N148",
+                "target": "N150",
+                "listSectionId": [
+                    "s726"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E202",
+                "name": "là",
+                "source": "N150",
+                "target": "N151",
+                "listSectionId": [
+                    "s727"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E203",
+                "name": "không áp dụng cho",
+                "source": "N148",
+                "target": "N152",
+                "listSectionId": [
+                    "s728"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E204",
+                "name": "bao gồm",
+                "source": "N152",
+                "target": "N153",
+                "listSectionId": [
+                    "s729"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E205",
+                "name": "bao gồm",
+                "source": "N152",
+                "target": "N154",
+                "listSectionId": [
+                    "s730"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E206",
+                "name": "bao gồm",
+                "source": "N152",
+                "target": "N155",
+                "listSectionId": [
+                    "s731"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E207",
+                "name": "bao gồm",
+                "source": "N152",
+                "target": "N156",
+                "listSectionId": [
+                    "s731"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E208",
+                "name": "bao gồm",
+                "source": "N152",
+                "target": "N157",
+                "listSectionId": [
+                    "s732"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E209",
+                "name": "bao gồm",
+                "source": "N152",
+                "target": "N158",
+                "listSectionId": [
+                    "s733"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E210",
+                "name": "là",
+                "source": "N159",
+                "target": "N160",
+                "listSectionId": [
+                    "s737"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E211",
+                "name": "lập hồ sơ",
+                "source": "N162",
+                "target": "N163",
+                "listSectionId": [
+                    "s744"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E212",
+                "name": "quyết định áp dụng",
+                "source": "N163",
+                "target": "N159",
+                "listSectionId": [
+                    "s793"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E213",
+                "name": "quyết định áp dụng",
+                "source": "N164",
+                "target": "N159",
+                "listSectionId": [
+                    "s794"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E214",
+                "name": "giúp đỡ",
+                "source": "N167",
+                "target": "N165",
+                "listSectionId": [
+                    "s807"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E215",
+                "name": "báo cáo",
+                "source": "N167",
+                "target": "N166",
+                "listSectionId": [
+                    "s806"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E216",
+                "name": "quản lý",
+                "source": "N167",
+                "target": "N168",
+                "listSectionId": [
+                    "s808"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E217",
+                "name": "cấp",
+                "source": "N166",
+                "target": "N169",
+                "listSectionId": [
+                    "s836"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E218",
+                "name": "thi hành",
+                "source": "N173",
+                "target": "N171",
+                "listSectionId": [
+                    "s813"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E219",
+                "name": "phối hợp",
+                "source": "N174",
+                "target": "N173",
+                "listSectionId": [
+                    "s814"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E220",
+                "name": "xem xét",
+                "source": "N164",
+                "target": "N175",
+                "listSectionId": [
+                    "s825"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E221",
+                "name": "chuyển",
+                "source": "N176",
+                "target": "N164",
+                "listSectionId": [
+                    "s844"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E222",
+                "name": "áp dụng",
+                "source": "N005",
+                "target": "N175",
+                "listSectionId": [
+                    "s839"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E223",
+                "name": "quản lý",
+                "source": "N177",
+                "target": "N175",
+                "listSectionId": [
+                    "s860"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E224",
+                "name": "tạm giữ",
+                "source": "N132",
+                "target": "N175",
+                "listSectionId": [
+                    "s856"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E225",
+                "name": "có quyền",
+                "source": "N178",
+                "target": "N179",
+                "listSectionId": [
+                    "s885"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E226",
+                "name": "có quyền",
+                "source": "N180",
+                "target": "N181",
+                "listSectionId": [
+                    "s886"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E227",
+                "name": "có quyền",
+                "source": "N182",
+                "target": "N183",
+                "listSectionId": [
+                    "s887"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E228",
+                "name": "có quyền",
+                "source": "N184",
+                "target": "N185",
+                "listSectionId": [
+                    "s887"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E229",
+                "name": "có quyền",
+                "source": "N092",
+                "target": "N186",
+                "listSectionId": [
+                    "s888"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E230",
+                "name": "có quyền",
+                "source": "N187",
+                "target": "N188",
+                "listSectionId": [
+                    "s889"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E231",
+                "name": "có quyền",
+                "source": "N189",
+                "target": "N190",
+                "listSectionId": [
+                    "s889"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E232",
+                "name": "có quyền",
+                "source": "N191",
+                "target": "N087",
+                "listSectionId": [
+                    "s890"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E233",
+                "name": "có quyền",
+                "source": "N192",
+                "target": "N088",
+                "listSectionId": [
+                    "s890"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E234",
+                "name": "có quyền",
+                "source": "N193",
+                "target": "N194",
+                "listSectionId": [
+                    "s891"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E235",
+                "name": "có quyền",
+                "source": "N195",
+                "target": "N105",
+                "listSectionId": [
+                    "s892"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E236",
+                "name": "tạm giữ",
+                "source": "N196",
+                "target": "N036",
+                "listSectionId": [
+                    "s893"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E237",
+                "name": "tạm giữ",
+                "source": "N132",
+                "target": "N197",
+                "listSectionId": [
+                    "s900"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E238",
+                "name": "tạm giữ",
+                "source": "N198",
+                "target": "N199",
+                "listSectionId": [
+                    "s900"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E239",
+                "name": "xử lý",
+                "source": "N119",
+                "target": "N200",
+                "listSectionId": [
+                    "s915"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E240",
+                "name": "quản lý",
+                "source": "N201",
+                "target": "N202",
+                "listSectionId": [
+                    "s948"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E241",
+                "name": "quản lý",
+                "source": "N201",
+                "target": "N203",
+                "listSectionId": [
+                    "s948"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E242",
+                "name": "truy tìm",
+                "source": "N144",
+                "target": "N204",
+                "listSectionId": [
+                    "s965",
+                    "s966"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E243",
+                "name": "quyết định",
+                "source": "N206",
+                "target": "N209",
+                "listSectionId": [
+                    "s966",
+                    "s967"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E244",
+                "name": "quyết định",
+                "source": "N207",
+                "target": "N209",
+                "listSectionId": [
+                    "s966",
+                    "s967"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E245",
+                "name": "đề nghị",
+                "source": "N206",
+                "target": "N208",
+                "listSectionId": [
+                    "s967"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E246",
+                "name": "không tính",
+                "source": "N214",
+                "target": "N005",
+                "listSectionId": [
+                    "s968"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E247",
+                "name": "áp dụng",
+                "source": "N210",
+                "target": "N204",
+                "listSectionId": [
+                    "s973",
+                    "s990"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E248",
+                "name": "áp dụng",
+                "source": "N211",
+                "target": "N204",
+                "listSectionId": [
+                    "s1000",
+                    "s1001",
+                    "s1002",
+                    "s1003",
+                    "s1004",
+                    "s1005",
+                    "s1006",
+                    "s1007",
+                    "s1008",
+                    "s1009",
+                    "s1010",
+                    "s1011",
+                    "s994",
+                    "s995",
+                    "s996",
+                    "s997",
+                    "s998",
+                    "s999"
+                ],
+                "synonym": []
+            },
+            {
+                "id": "E249",
+                "name": "quản lý",
+                "source": "N212",
+                "target": "N204",
+                "listSectionId": [
+                    "s1003",
+                    "s1004",
+                    "s1005",
+                    "s1006",
+                    "s1007",
+                    "s1008",
+                    "s1009",
+                    "s1010",
+                    "s1011"
+                ],
+                "synonym": []
+            }
+        ]
+    }
+]
