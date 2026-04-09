@@ -1,0 +1,931 @@
+[
+    {
+        "nodes": [
+            {
+                "id": "N219",
+                "name": "tài sản",
+                "listSectionId": [
+                    "s570",
+                    "s573",
+                    "s641",
+                    "s643",
+                    "s646",
+                    "s649",
+                    "s650",
+                    "s651",
+                    "s652",
+                    "s653",
+                    "s654",
+                    "s655",
+                    "s656",
+                    "s658",
+                    "s661",
+                    "s673",
+                    "s674",
+                    "s675",
+                    "s905",
+                    "s906",
+                    "s907",
+                    "s908",
+                    "s909",
+                    "s910",
+                    "s911",
+                    "s912",
+                    "s913",
+                    "s914",
+                    "s915",
+                    "s916",
+                    "s917",
+                    "s918",
+                    "s919",
+                    "s921",
+                    "s923",
+                    "s929",
+                    "s931",
+                    "s935",
+                    "s936",
+                    "s937",
+                    "s938",
+                    "s939"
+                ],
+                "synonym": [
+                    "phương tiện vi phạm hành chính",
+                    "tang vật",
+                    "tang vật vi phạm",
+                    "tang vật vi phạm hành chính",
+                    "tài sản",
+                    "tài sản vi phạm",
+                    "vật chứng",
+                    "đồ vật"
+                ]
+            },
+            {
+                "id": "N137",
+                "name": "tịch thu",
+                "listSectionId": [
+                    "s227",
+                    "s228",
+                    "s233",
+                    "s234",
+                    "s257",
+                    "s264",
+                    "s268",
+                    "s387",
+                    "s392",
+                    "s397",
+                    "s406",
+                    "s423",
+                    "s429",
+                    "s436",
+                    "s467",
+                    "s471",
+                    "s472",
+                    "s475",
+                    "s476",
+                    "s478",
+                    "s479",
+                    "s480",
+                    "s481",
+                    "s650",
+                    "s651",
+                    "s652",
+                    "s653",
+                    "s654",
+                    "s655",
+                    "s662",
+                    "s664",
+                    "s920"
+                ],
+                "synonym": [
+                    "tịch thu",
+                    "tịch thu phương tiện",
+                    "tịch thu phương tiện vi phạm",
+                    "tịch thu phương tiện vi phạm hành chính",
+                    "tịch thu tang vật"
+                ]
+            },
+            {
+                "id": "N082",
+                "name": "kiểm tra",
+                "listSectionId": [
+                    "s122",
+                    "s133"
+                ],
+                "synonym": [
+                    "kiểm tra"
+                ]
+            },
+            {
+                "id": "N283",
+                "name": "tòa án nhân dân cấp huyện",
+                "listSectionId": [
+                    "s760",
+                    "s761",
+                    "s762",
+                    "s773",
+                    "s774",
+                    "s785",
+                    "s786",
+                    "s787",
+                    "s794",
+                    "s797",
+                    "s833",
+                    "s834"
+                ],
+                "synonym": [
+                    "Tòa án cấp huyện",
+                    "tòa án nhân dân cấp huyện"
+                ]
+            },
+            {
+                "id": "N029",
+                "name": "cơ quan nhà nước",
+                "listSectionId": [
+                    "s377",
+                    "s378",
+                    "s379",
+                    "s381",
+                    "s382",
+                    "s384",
+                    "s385",
+                    "s387",
+                    "s388",
+                    "s389",
+                    "s390",
+                    "s46",
+                    "s641",
+                    "s643",
+                    "s649",
+                    "s695",
+                    "s696",
+                    "s697",
+                    "s746",
+                    "s758",
+                    "s759",
+                    "s797",
+                    "s803",
+                    "s812",
+                    "s813",
+                    "s814",
+                    "s834",
+                    "s965",
+                    "s966"
+                ],
+                "synonym": [
+                    "Chi cục trưởng Chi cục Thuế",
+                    "Công an cấp huyện",
+                    "Công an cấp tỉnh",
+                    "Công an cấp xã",
+                    "Cục trưởng Cục Thuế",
+                    "cơ quan",
+                    "cơ quan Công an cấp huyện",
+                    "cơ quan Công an cấp tỉnh",
+                    "cơ quan công an",
+                    "cơ quan hữu quan",
+                    "cơ quan liên quan",
+                    "cơ quan nhà nước",
+                    "cơ quan thuế",
+                    "cơ quan tiến hành tố tụng",
+                    "cơ sở",
+                    "nhân viên Thuế",
+                    "tổ chức",
+                    "Đội trưởng Đội Thuế"
+                ]
+            },
+            {
+                "id": "N218",
+                "name": "giấy tờ",
+                "listSectionId": [
+                    "s569",
+                    "s622",
+                    "s626",
+                    "s747",
+                    "s752",
+                    "s754",
+                    "s762",
+                    "s763",
+                    "s764",
+                    "s766",
+                    "s768",
+                    "s786",
+                    "s787",
+                    "s788",
+                    "s789",
+                    "s790",
+                    "s836",
+                    "s837",
+                    "s843",
+                    "s845",
+                    "s846",
+                    "s850",
+                    "s854",
+                    "s855",
+                    "s856",
+                    "s857",
+                    "s858",
+                    "s859"
+                ],
+                "synonym": [
+                    "bản tóm tắt lý lịch",
+                    "bản tường trình",
+                    "chứng từ thu tiền phạt",
+                    "giấy chứng nhận",
+                    "giấy tờ",
+                    "giấy tờ, tang vật, phương tiện",
+                    "hồ sơ",
+                    "hồ sơ quy định",
+                    "tài liệu",
+                    "tài liệu vi phạm pháp luật",
+                    "đề nghị"
+                ]
+            },
+            {
+                "id": "N302",
+                "name": "áp giải",
+                "listSectionId": [
+                    "s853",
+                    "s855",
+                    "s894",
+                    "s898"
+                ],
+                "synonym": [
+                    "áp giải",
+                    "áp giải người vi phạm"
+                ]
+            },
+            {
+                "id": "N089",
+                "name": "giải quyết khiếu nại",
+                "listSectionId": [
+                    "s133"
+                ],
+                "synonym": [
+                    "giải quyết khiếu nại"
+                ]
+            },
+            {
+                "id": "N034",
+                "name": "kích động tinh thần",
+                "listSectionId": [
+                    "s62"
+                ],
+                "synonym": [
+                    "kích động",
+                    "kích động tinh thần",
+                    "tinh thần"
+                ]
+            },
+            {
+                "id": "N006",
+                "name": "vi phạm hành chính",
+                "listSectionId": [
+                    "s1",
+                    "s10",
+                    "s1000",
+                    "s1001",
+                    "s1005",
+                    "s1006",
+                    "s1007",
+                    "s107",
+                    "s108",
+                    "s110",
+                    "s111",
+                    "s112",
+                    "s114",
+                    "s115",
+                    "s116",
+                    "s117",
+                    "s118",
+                    "s119",
+                    "s120",
+                    "s121",
+                    "s33",
+                    "s34",
+                    "s36",
+                    "s38",
+                    "s39",
+                    "s40",
+                    "s41",
+                    "s42",
+                    "s45",
+                    "s46",
+                    "s5",
+                    "s555",
+                    "s6",
+                    "s605",
+                    "s606",
+                    "s609",
+                    "s614",
+                    "s62",
+                    "s63",
+                    "s64",
+                    "s65",
+                    "s66",
+                    "s67",
+                    "s69",
+                    "s7",
+                    "s70",
+                    "s71",
+                    "s72",
+                    "s73",
+                    "s74",
+                    "s75",
+                    "s76",
+                    "s77",
+                    "s78",
+                    "s79",
+                    "s80",
+                    "s81",
+                    "s82",
+                    "s84",
+                    "s85",
+                    "s86",
+                    "s87",
+                    "s88",
+                    "s89",
+                    "s9",
+                    "s90",
+                    "s91",
+                    "s999"
+                ],
+                "synonym": [
+                    "cá nhân",
+                    "hành chính",
+                    "hành vi có lỗi",
+                    "hành vi vi phạm",
+                    "hành vi vi phạm hành chính",
+                    "tổ chức",
+                    "vi phạm",
+                    "vi phạm hành chính"
+                ]
+            },
+            {
+                "id": "N023",
+                "name": "người vi phạm",
+                "listSectionId": [
+                    "s1001",
+                    "s1005",
+                    "s1007",
+                    "s1010",
+                    "s1011",
+                    "s107",
+                    "s114",
+                    "s115",
+                    "s138",
+                    "s139",
+                    "s140",
+                    "s143",
+                    "s34",
+                    "s40",
+                    "s41",
+                    "s512",
+                    "s513",
+                    "s516",
+                    "s521",
+                    "s525",
+                    "s543",
+                    "s544",
+                    "s545",
+                    "s547",
+                    "s548",
+                    "s549",
+                    "s550",
+                    "s553",
+                    "s555",
+                    "s572",
+                    "s573",
+                    "s59",
+                    "s60",
+                    "s61",
+                    "s621",
+                    "s625",
+                    "s634",
+                    "s64",
+                    "s704",
+                    "s705",
+                    "s707",
+                    "s708",
+                    "s709",
+                    "s722",
+                    "s732",
+                    "s733",
+                    "s740",
+                    "s756",
+                    "s757",
+                    "s759",
+                    "s760",
+                    "s768",
+                    "s771",
+                    "s772",
+                    "s780",
+                    "s781",
+                    "s783",
+                    "s784",
+                    "s801",
+                    "s804",
+                    "s805",
+                    "s806",
+                    "s807",
+                    "s808",
+                    "s809",
+                    "s810",
+                    "s815",
+                    "s816",
+                    "s817",
+                    "s818",
+                    "s819",
+                    "s820",
+                    "s821",
+                    "s822",
+                    "s824",
+                    "s825",
+                    "s827",
+                    "s828",
+                    "s829",
+                    "s893",
+                    "s894",
+                    "s895",
+                    "s898",
+                    "s937",
+                    "s940",
+                    "s941",
+                    "s942",
+                    "s943",
+                    "s944",
+                    "s945",
+                    "s950",
+                    "s951",
+                    "s952",
+                    "s956",
+                    "s957",
+                    "s958",
+                    "s960",
+                    "s962",
+                    "s970",
+                    "s971",
+                    "s972",
+                    "s973",
+                    "s974",
+                    "s975",
+                    "s976",
+                    "s977",
+                    "s978",
+                    "s999"
+                ],
+                "synonym": [
+                    "bệnh",
+                    "chủ nơi bị khám",
+                    "cấp phó",
+                    "cấp trưởng",
+                    "khuyết tật",
+                    "người chưa thành niên",
+                    "người chủ",
+                    "người chủ nơi khám",
+                    "người chứng kiến",
+                    "người chứng kiến khám",
+                    "người có bệnh",
+                    "người có quyền",
+                    "người có thẩm quyền",
+                    "người có thẩm quyền xử lý vi phạm hành chính",
+                    "người có thẩm quyền xử phạt",
+                    "người có thẩm quyền đang thi hành công vụ",
+                    "người không có năng lực trách nhiệm hành chính",
+                    "người mang thai",
+                    "người nghiện ma túy",
+                    "người nuôi con nhỏ",
+                    "người nước ngoài",
+                    "người phải chấp hành",
+                    "người phải chấp hành quyết định",
+                    "người từ 12 đến 14 tuổi",
+                    "người từ 14 đến 18 tuổi",
+                    "người từ 18 tuổi trở lên",
+                    "người vi phạm",
+                    "người vi phạm hành chính",
+                    "người vi phạm pháp luật",
+                    "người đã ra quyết định xử phạt",
+                    "người đó",
+                    "người được giáo dục",
+                    "người được quản lý",
+                    "người đại diện",
+                    "phụ nữ mang thai",
+                    "phụ nữ nuôi con nhỏ"
+                ]
+            },
+            {
+                "id": "N085",
+                "name": "xử lý vi phạm hành chính",
+                "listSectionId": [
+                    "s122",
+                    "s123",
+                    "s124",
+                    "s125",
+                    "s128",
+                    "s129",
+                    "s131",
+                    "s133",
+                    "s138",
+                    "s139",
+                    "s140",
+                    "s143",
+                    "s144"
+                ],
+                "synonym": [
+                    "vi phạm hành chính",
+                    "xử lý vi phạm",
+                    "xử lý vi phạm hành chính"
+                ]
+            },
+            {
+                "id": "N102",
+                "name": "quyết định",
+                "listSectionId": [
+                    "s164",
+                    "s165",
+                    "s530",
+                    "s533",
+                    "s534",
+                    "s540",
+                    "s548",
+                    "s553",
+                    "s563",
+                    "s564",
+                    "s566",
+                    "s567",
+                    "s568",
+                    "s569",
+                    "s570",
+                    "s571",
+                    "s572",
+                    "s573",
+                    "s574",
+                    "s575",
+                    "s576",
+                    "s577",
+                    "s578",
+                    "s579",
+                    "s580",
+                    "s590",
+                    "s593",
+                    "s596",
+                    "s597",
+                    "s598",
+                    "s599",
+                    "s600",
+                    "s604",
+                    "s607",
+                    "s608",
+                    "s609",
+                    "s610",
+                    "s612",
+                    "s615",
+                    "s617",
+                    "s619",
+                    "s620",
+                    "s621",
+                    "s624",
+                    "s626",
+                    "s628",
+                    "s629",
+                    "s634",
+                    "s666",
+                    "s669",
+                    "s670",
+                    "s671",
+                    "s677",
+                    "s692",
+                    "s693",
+                    "s695",
+                    "s696",
+                    "s697",
+                    "s748",
+                    "s749",
+                    "s751",
+                    "s752",
+                    "s753",
+                    "s754",
+                    "s797",
+                    "s798",
+                    "s799",
+                    "s815",
+                    "s816",
+                    "s817",
+                    "s818",
+                    "s821",
+                    "s826",
+                    "s845",
+                    "s846",
+                    "s925",
+                    "s932",
+                    "s939",
+                    "s951",
+                    "s965",
+                    "s966",
+                    "s967",
+                    "s968"
+                ],
+                "synonym": [
+                    "quy định xử phạt",
+                    "quyết nghị",
+                    "quyết định",
+                    "quyết định bằng văn bản",
+                    "quyết định cưỡng chế",
+                    "quyết định giao quản lý",
+                    "quyết định khung tiền phạt",
+                    "quyết định khám",
+                    "quyết định mức tiền phạt cụ thể",
+                    "quyết định nộp tiền phạt nhiều lần",
+                    "quyết định xử phạt",
+                    "quyết định xử phạt vi phạm hành chính",
+                    "quyết định áp dụng biện pháp giáo dục",
+                    "quyết định áp dụng biện pháp xử lý hành chính",
+                    "quyết định đưa vào cơ sở cai nghiện bắt buộc",
+                    "quyết định đưa vào cơ sở giáo dục bắt buộc",
+                    "quyết định đưa vào trường giáo dưỡng",
+                    "xử phạt",
+                    "xử phạt vi phạm hành chính"
+                ]
+            },
+            {
+                "id": "N086",
+                "name": "cung cấp thông tin",
+                "listSectionId": [
+                    "s123",
+                    "s128"
+                ],
+                "synonym": [
+                    "cung cấp thông tin"
+                ]
+            },
+            {
+                "id": "N236",
+                "name": "đơn đề nghị",
+                "listSectionId": [
+                    "s621",
+                    "s632"
+                ],
+                "synonym": [
+                    "đơn đề nghị",
+                    "đơn đề nghị giảm, miễn tiền phạt"
+                ]
+            },
+            {
+                "id": "N279",
+                "name": "hồ sơ đề nghị",
+                "listSectionId": [
+                    "s744",
+                    "s745",
+                    "s746",
+                    "s755",
+                    "s756",
+                    "s757",
+                    "s758",
+                    "s759",
+                    "s760",
+                    "s761",
+                    "s762",
+                    "s763",
+                    "s764",
+                    "s766",
+                    "s767",
+                    "s768",
+                    "s770",
+                    "s771",
+                    "s772",
+                    "s773",
+                    "s774",
+                    "s776",
+                    "s777",
+                    "s778",
+                    "s780",
+                    "s782",
+                    "s783",
+                    "s784"
+                ],
+                "synonym": [
+                    "biện pháp giáo dục tại xã, phường, thị trấn",
+                    "hồ sơ",
+                    "hồ sơ đề nghị",
+                    "đề nghị"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "id": "E036",
+                "name": "gây ra",
+                "source": "N006",
+                "target": "N034",
+                "listSectionId": [
+                    "s62"
+                ],
+                "synonym": [
+                    "gây ra"
+                ]
+            },
+            {
+                "id": "E088",
+                "name": "cung cấp",
+                "source": "N086",
+                "target": "N085",
+                "listSectionId": [
+                    "s123",
+                    "s128"
+                ],
+                "synonym": [
+                    "cung cấp"
+                ]
+            },
+            {
+                "id": "E091",
+                "name": "kiểm tra",
+                "source": "N082",
+                "target": "N089",
+                "listSectionId": [
+                    "s133"
+                ],
+                "synonym": [
+                    "kiểm tra"
+                ]
+            },
+            {
+                "id": "E248",
+                "name": "tịch thu",
+                "source": "N029",
+                "target": "N137",
+                "listSectionId": [
+                    "s387"
+                ],
+                "synonym": [
+                    "tịch thu"
+                ]
+            },
+            {
+                "id": "E330",
+                "name": "tịch thu",
+                "source": "N219",
+                "target": "N102",
+                "listSectionId": [
+                    "s570"
+                ],
+                "synonym": [
+                    "tịch thu"
+                ]
+            },
+            {
+                "id": "E358",
+                "name": "gửi",
+                "source": "N236",
+                "target": "N023",
+                "listSectionId": [
+                    "s621"
+                ],
+                "synonym": [
+                    "gửi"
+                ]
+            },
+            {
+                "id": "E372",
+                "name": "chuyển giao",
+                "source": "N219",
+                "target": "N029",
+                "listSectionId": [
+                    "s649"
+                ],
+                "synonym": [
+                    "chuyển giao"
+                ]
+            },
+            {
+                "id": "E438",
+                "name": "thu thập",
+                "source": "N029",
+                "target": "N279",
+                "listSectionId": [
+                    "s746"
+                ],
+                "synonym": [
+                    "thu thập"
+                ]
+            },
+            {
+                "id": "E446",
+                "name": "kiểm tra",
+                "source": "N283",
+                "target": "N279",
+                "listSectionId": [
+                    "s760"
+                ],
+                "synonym": [
+                    "kiểm tra"
+                ]
+            },
+            {
+                "id": "E450",
+                "name": "đề nghị",
+                "source": "N279",
+                "target": "N283",
+                "listSectionId": [
+                    "s773",
+                    "s774"
+                ],
+                "synonym": [
+                    "đề nghị"
+                ]
+            },
+            {
+                "id": "E459",
+                "name": "đề nghị",
+                "source": "N218",
+                "target": "N283",
+                "listSectionId": [
+                    "s787"
+                ],
+                "synonym": [
+                    "đề nghị"
+                ]
+            },
+            {
+                "id": "E464",
+                "name": "gửi",
+                "source": "N102",
+                "target": "N029",
+                "listSectionId": [
+                    "s797"
+                ],
+                "synonym": [
+                    "gửi"
+                ]
+            },
+            {
+                "id": "E485",
+                "name": "gửi quyết định",
+                "source": "N283",
+                "target": "N029",
+                "listSectionId": [
+                    "s834"
+                ],
+                "synonym": [
+                    "gửi quyết định"
+                ]
+            },
+            {
+                "id": "E497",
+                "name": "áp giải",
+                "source": "N302",
+                "target": "N218",
+                "listSectionId": [
+                    "s855"
+                ],
+                "synonym": [
+                    "áp giải"
+                ]
+            },
+            {
+                "id": "E521",
+                "name": "giao",
+                "source": "N023",
+                "target": "N023",
+                "listSectionId": [
+                    "s893"
+                ],
+                "synonym": [
+                    "giao quyền"
+                ]
+            },
+            {
+                "id": "E522",
+                "name": "áp giải",
+                "source": "N023",
+                "target": "N302",
+                "listSectionId": [
+                    "s894",
+                    "s898"
+                ],
+                "synonym": [
+                    "áp giải"
+                ]
+            }
+        ],
+        "relevant_section_ids": [
+            "s123",
+            "s128",
+            "s133",
+            "s387",
+            "s570",
+            "s62",
+            "s621",
+            "s649",
+            "s746",
+            "s760",
+            "s773",
+            "s774",
+            "s787",
+            "s797",
+            "s834",
+            "s855",
+            "s893",
+            "s894",
+            "s898"
+        ]
+    }
+]
