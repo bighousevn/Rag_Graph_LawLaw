@@ -1,0 +1,30 @@
+[
+    {
+        "nodes": [
+            {
+                "id": "String (Ví dụ: 'N001')",
+                "name": "String (Tên chuẩn của thực thể)",
+                "listSectionId": [
+                    "Array of Strings (Chứa các ID điều luật, VD: 's1')"
+                ],
+                "synonym": [
+                    "Array of Strings (Chứa các từ đồng nghĩa)"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "id": "String (Ví dụ: 'E001')",
+                "name": "String (Tên của mối quan hệ/hành động)",
+                "source": "String (ID của Node bắt đầu, VD: 'N001')",
+                "target": "String (ID của Node đích đến, VD: 'N002')",
+                "listSectionId": [
+                    "Array of Strings (Chứa các ID điều luật)"
+                ],
+                "synonym": [
+                    "Array of Strings (Chứa các từ đồng nghĩa của hành động)"
+                ]
+            }
+        ]
+    }
+]

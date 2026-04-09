@@ -1,0 +1,8 @@
+[
+    {
+        "synonymId": "String (Ví dụ: 'S0001') - Mã định danh duy nhất cho dòng synonym này",
+        "entityId": "String (Ví dụ: 'N001' hoặc 'E001') - ID của Thực thể hoặc Hành động gốc",
+        "entityName": "String (Ví dụ: 'quốc hội') - Tên chuẩn hóa đại diện của Thực thể/Hành động",
+        "synonym": "String (Ví dụ: 'QUỐC HỘI CỘNG HOÀ XÃ HỘI...') - Biến thể từ vựng, bao gồm cả từ gốc"
+    }
+]
