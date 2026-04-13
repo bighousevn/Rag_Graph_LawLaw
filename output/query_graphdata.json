@@ -1,0 +1,54 @@
+[
+  {
+    "nodes": [
+      {
+        "id": "N01",
+        "name": "bị",
+        "list_section_id": [
+          "query_user"
+        ]
+      },
+      {
+        "id": "N02",
+        "name": "đánh_bài",
+        "list_section_id": [
+          "query_user"
+        ]
+      },
+      {
+        "id": "N03",
+        "name": "tổng",
+        "list_section_id": [
+          "query_user"
+        ]
+      },
+      {
+        "id": "N04",
+        "name": "dưới",
+        "list_section_id": [
+          "query_user"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "id": "E01",
+        "name": "án",
+        "source": "N01",
+        "target": "N02",
+        "list_section_id": [
+          "query_user"
+        ]
+      },
+      {
+        "id": "E02",
+        "name": "tiền_mặt",
+        "source": "N03",
+        "target": "N04",
+        "list_section_id": [
+          "query_user"
+        ]
+      }
+    ]
+  }
+]

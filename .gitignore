@@ -11,4 +11,8 @@ venv/
 # Local vector database
 vectordb/
 doc
+
+.claude
 .env
+
+output/output_synonyms_with_vectors.json
