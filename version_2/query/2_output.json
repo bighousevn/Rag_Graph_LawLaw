@@ -1,1113 +1,355 @@
 [
     {
-        "query_id": "T02",
-        "query_name": "ban chỉ huy quân sự huyện t",
-        "total_matches": 1,
+        "query_id": "T01",
+        "query_name": "ô tô cũ",
+        "total_matches": 2,
         "matched_items": [
             {
-                "entityId": "N002",
-                "entityName": "luật xử lý vi phạm hành chính",
-                "synonym": "Luật số: 15/2012/QH13",
-                "score": 1.0
+                "entityId": "N212",
+                "entityName": "phương tiện",
+                "synonym": "phương tiện",
+                "score": 0.86342453956604
+            },
+            {
+                "entityId": "N336",
+                "entityName": "phương tiện vi phạm",
+                "synonym": "phương tiện",
+                "score": 0.86342453956604
+            }
+        ]
+    },
+    {
+        "query_id": "T02",
+        "query_name": "thủ tục hợp đồng",
+        "total_matches": 2,
+        "matched_items": [
+            {
+                "entityId": "N278",
+                "entityName": "thủ tục lập hồ sơ",
+                "synonym": "thủ tục lập hồ sơ",
+                "score": 0.8874381184577942
+            },
+            {
+                "entityId": "N200",
+                "entityName": "giá niêm yết",
+                "synonym": "giá hợp đồng",
+                "score": 0.8700334429740906
             }
         ]
     },
     {
         "query_id": "T03",
-        "query_name": "đất ở",
+        "query_name": "lệ phí trước bạ",
         "total_matches": 2,
         "matched_items": [
             {
-                "entityId": "N297",
-                "entityName": "nơi cư trú",
-                "synonym": "nơi cư trú",
-                "score": 0.865955114364624
+                "entityId": "N334",
+                "entityName": "phí bến bãi",
+                "synonym": "phí bến bãi",
+                "score": 0.892518162727356
             },
             {
-                "entityId": "N219",
-                "entityName": "tài sản",
-                "synonym": "tài sản",
-                "score": 0.851256787776947
+                "entityId": "N231",
+                "entityName": "tiền phạt",
+                "synonym": "tiền nộp phạt",
+                "score": 0.8556603789329529
             }
         ]
     },
     {
-        "query_id": "T07",
-        "query_name": "giấy chứng nhận quyền sử dụng đất",
-        "total_matches": 6,
+        "query_id": "T04",
+        "query_name": "đăng ký",
+        "total_matches": 9,
         "matched_items": [
             {
-                "entityId": "N218",
-                "entityName": "giấy tờ",
-                "synonym": "giấy chứng nhận",
-                "score": 0.917178213596344
+                "entityId": "N229",
+                "entityName": "thông tin người ra quyết định",
+                "synonym": "chữ ký",
+                "score": 0.8866497278213501
             },
             {
-                "entityId": "N149",
-                "entityName": "giấy phép",
-                "synonym": "giấy tờ",
-                "score": 0.8937104344367981
-            },
-            {
-                "entityId": "N218",
-                "entityName": "giấy tờ",
-                "synonym": "giấy tờ",
-                "score": 0.8937104344367981
-            },
-            {
-                "entityId": "N149",
-                "entityName": "giấy phép",
-                "synonym": "giấy phép",
-                "score": 0.8922798037528992
-            },
-            {
-                "entityId": "E486",
-                "entityName": "cấp giấy chứng nhận",
-                "synonym": "cấp giấy chứng nhận",
-                "score": 0.8585577607154846
-            },
-            {
-                "entityId": "N219",
-                "entityName": "tài sản",
-                "synonym": "tài sản",
-                "score": 0.852981448173523
-            }
-        ]
-    },
-    {
-        "query_id": "T08",
-        "query_name": "quyết định giao đất",
-        "total_matches": 12,
-        "matched_items": [
-            {
-                "entityId": "N102",
-                "entityName": "quyết định",
-                "synonym": "quyết định giao quản lý",
-                "score": 0.8920867443084717
-            },
-            {
-                "entityId": "E485",
-                "entityName": "gửi quyết định",
-                "synonym": "gửi quyết định",
-                "score": 0.8561067581176758
-            },
-            {
-                "entityId": "E584",
-                "entityName": "gửi quyết định",
-                "synonym": "gửi quyết định",
-                "score": 0.8561067581176758
-            },
-            {
-                "entityId": "N188",
-                "entityName": "giao quyền xử phạt",
-                "synonym": "giao quyền",
-                "score": 0.853439211845398
-            },
-            {
-                "entityId": "E521",
-                "entityName": "giao",
-                "synonym": "giao quyền",
-                "score": 0.853439211845398
-            },
-            {
-                "entityId": "N102",
-                "entityName": "quyết định",
-                "synonym": "quyết định",
-                "score": 0.8530044555664062
-            },
-            {
-                "entityId": "E105",
-                "entityName": "quyết định",
-                "synonym": "quyết định",
-                "score": 0.8530044555664062
-            },
-            {
-                "entityId": "E171",
-                "entityName": "quyết định",
-                "synonym": "quyết định",
-                "score": 0.8530044555664062
-            },
-            {
-                "entityId": "E440",
-                "entityName": "quyết định",
-                "synonym": "quyết định",
-                "score": 0.8530044555664062
-            },
-            {
-                "entityId": "E460",
-                "entityName": "quyết định",
-                "synonym": "quyết định",
-                "score": 0.8530044555664062
-            },
-            {
-                "entityId": "E544",
-                "entityName": "quyết định",
-                "synonym": "quyết định",
-                "score": 0.8530044555664062
-            },
-            {
-                "entityId": "N102",
-                "entityName": "quyết định",
-                "synonym": "quyết nghị",
-                "score": 0.8500896692276001
-            }
-        ]
-    },
-    {
-        "query_id": "T09",
-        "query_name": "tòa án hành chính",
-        "total_matches": 17,
-        "matched_items": [
-            {
-                "entityId": "N006",
-                "entityName": "vi phạm hành chính",
-                "synonym": "hành chính",
-                "score": 0.9326784610748291
-            },
-            {
-                "entityId": "N008",
-                "entityName": "biện pháp xử lý hành chính",
-                "synonym": "xử lý hành chính",
-                "score": 0.9043222665786743
-            },
-            {
-                "entityId": "N182",
-                "entityName": "tòa án nhân dân",
-                "synonym": "tòa án nhân dân",
-                "score": 0.9031808376312256
-            },
-            {
-                "entityId": "N256",
-                "entityName": "chánh án tòa án",
-                "synonym": "chánh án tòa án",
-                "score": 0.8915219306945801
-            },
-            {
-                "entityId": "N283",
-                "entityName": "tòa án nhân dân cấp huyện",
-                "synonym": "tòa án nhân dân cấp huyện",
-                "score": 0.8778244256973267
-            },
-            {
-                "entityId": "N006",
-                "entityName": "vi phạm hành chính",
-                "synonym": "vi phạm hành chính",
-                "score": 0.8607134819030762
-            },
-            {
-                "entityId": "N031",
-                "entityName": "hành vi vi phạm",
-                "synonym": "vi phạm hành chính",
-                "score": 0.8607134819030762
-            },
-            {
-                "entityId": "N085",
-                "entityName": "xử lý vi phạm hành chính",
-                "synonym": "vi phạm hành chính",
-                "score": 0.8607134819030762
-            },
-            {
-                "entityId": "N008",
-                "entityName": "biện pháp xử lý hành chính",
-                "synonym": "biện pháp xử lý hành chính",
-                "score": 0.860153079032898
-            },
-            {
-                "entityId": "N009",
-                "entityName": "biện pháp xử lý",
-                "synonym": "biện pháp xử lý hành chính",
-                "score": 0.860153079032898
-            },
-            {
-                "entityId": "N287",
-                "entityName": "biện pháp",
-                "synonym": "biện pháp xử lý hành chính",
-                "score": 0.860153079032898
-            },
-            {
-                "entityId": "N283",
-                "entityName": "tòa án nhân dân cấp huyện",
-                "synonym": "Tòa án cấp huyện",
-                "score": 0.8601115942001343
-            },
-            {
-                "entityId": "N085",
-                "entityName": "xử lý vi phạm hành chính",
-                "synonym": "xử lý vi phạm hành chính",
-                "score": 0.8571182489395142
-            },
-            {
-                "entityId": "N006",
-                "entityName": "vi phạm hành chính",
-                "synonym": "hành vi vi phạm hành chính",
-                "score": 0.8551136255264282
-            },
-            {
-                "entityId": "N031",
-                "entityName": "hành vi vi phạm",
-                "synonym": "hành vi vi phạm hành chính",
-                "score": 0.8551136255264282
-            },
-            {
-                "entityId": "N029",
-                "entityName": "cơ quan nhà nước",
-                "synonym": "cơ quan thuế",
-                "score": 0.8523660898208618
-            },
-            {
-                "entityId": "N029",
-                "entityName": "cơ quan nhà nước",
-                "synonym": "cơ quan nhà nước",
-                "score": 0.8502855896949768
-            }
-        ]
-    },
-    {
-        "query_id": "T10",
-        "query_name": "tài liệu, chứng cứ",
-        "total_matches": 2,
-        "matched_items": [
-            {
-                "entityId": "N218",
-                "entityName": "giấy tờ",
-                "synonym": "tài liệu",
-                "score": 0.8825648427009583
-            },
-            {
-                "entityId": "N282",
-                "entityName": "tài liệu",
-                "synonym": "tài liệu",
-                "score": 0.8825648427009583
-            }
-        ]
-    },
-    {
-        "query_id": "T11",
-        "query_name": "yêu cầu khởi kiện",
-        "total_matches": 12,
-        "matched_items": [
-            {
-                "entityId": "N227",
-                "entityName": "quyền khiếu nại",
-                "synonym": "khởi kiện",
-                "score": 0.939073920249939
-            },
-            {
-                "entityId": "N236",
-                "entityName": "đơn đề nghị",
-                "synonym": "đơn đề nghị",
-                "score": 0.8915700912475586
-            },
-            {
-                "entityId": "N074",
-                "entityName": "khiếu nại",
-                "synonym": "khiếu nại",
-                "score": 0.8843649625778198
-            },
-            {
-                "entityId": "E080",
-                "entityName": "khiếu nại",
-                "synonym": "khiếu nại",
-                "score": 0.8843649625778198
-            },
-            {
-                "entityId": "N218",
-                "entityName": "giấy tờ",
-                "synonym": "đề nghị",
-                "score": 0.8816359639167786
-            },
-            {
-                "entityId": "N279",
-                "entityName": "hồ sơ đề nghị",
-                "synonym": "đề nghị",
-                "score": 0.8816359639167786
-            },
-            {
-                "entityId": "E450",
-                "entityName": "đề nghị",
-                "synonym": "đề nghị",
-                "score": 0.8816359639167786
-            },
-            {
-                "entityId": "E459",
-                "entityName": "đề nghị",
-                "synonym": "đề nghị",
-                "score": 0.8816359639167786
-            },
-            {
-                "entityId": "E564",
-                "entityName": "đề nghị",
-                "synonym": "đề nghị",
-                "score": 0.8816359639167786
-            },
-            {
-                "entityId": "N279",
-                "entityName": "hồ sơ đề nghị",
-                "synonym": "hồ sơ đề nghị",
-                "score": 0.8779532313346863
-            },
-            {
-                "entityId": "N048",
-                "entityName": "lợi dụng chức vụ",
-                "synonym": "đòi tiền",
-                "score": 0.8619134426116943
-            },
-            {
-                "entityId": "N196",
-                "entityName": "giám định",
-                "synonym": "trưng cầu giám định",
-                "score": 0.852797269821167
-            }
-        ]
-    },
-    {
-        "query_id": "T12",
-        "query_name": "giao",
-        "total_matches": 17,
-        "matched_items": [
-            {
-                "entityId": "E294",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "E344",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "E362",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "E410",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "E411",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "E521",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "E552",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "E553",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "E554",
-                "entityName": "giao",
-                "synonym": "giao",
-                "score": 1.0
-            },
-            {
-                "entityId": "N344",
-                "entityName": "giao quản lý",
-                "synonym": "giao quản lý",
-                "score": 0.901657223701477
-            },
-            {
-                "entityId": "E553",
-                "entityName": "giao",
-                "synonym": "giao quản lý",
-                "score": 0.901657223701477
-            },
-            {
-                "entityId": "E554",
-                "entityName": "giao",
-                "synonym": "giao quản lý",
-                "score": 0.901657223701477
-            },
-            {
-                "entityId": "E372",
-                "entityName": "chuyển giao",
-                "synonym": "chuyển giao",
-                "score": 0.9000968933105469
-            },
-            {
-                "entityId": "N188",
-                "entityName": "giao quyền xử phạt",
-                "synonym": "giao quyền",
-                "score": 0.8867828845977783
-            },
-            {
-                "entityId": "E521",
-                "entityName": "giao",
-                "synonym": "giao quyền",
-                "score": 0.8867828845977783
-            },
-            {
-                "entityId": "E410",
-                "entityName": "giao",
-                "synonym": "giao cho",
-                "score": 0.8786318302154541
-            },
-            {
-                "entityId": "E411",
-                "entityName": "giao",
-                "synonym": "giao cho",
-                "score": 0.8786318302154541
-            }
-        ]
-    },
-    {
-        "query_id": "T14",
-        "query_name": "nộp",
-        "total_matches": 18,
-        "matched_items": [
-            {
-                "entityId": "E361",
-                "entityName": "nộp",
-                "synonym": "nộp",
-                "score": 1.0
-            },
-            {
-                "entityId": "E376",
-                "entityName": "nộp",
-                "synonym": "nộp",
-                "score": 1.0
+                "entityId": "E323",
+                "entityName": "ghi nhận",
+                "synonym": "ghi nhận",
+                "score": 0.8672856092453003
             },
             {
                 "entityId": "E371",
                 "entityName": "nộp vào",
                 "synonym": "nộp vào",
-                "score": 0.9470618963241577
-            },
-            {
-                "entityId": "N067",
-                "entityName": "tiền thu được",
-                "synonym": "tiền nộp",
-                "score": 0.923552393913269
-            },
-            {
-                "entityId": "E312",
-                "entityName": "gửi",
-                "synonym": "gửi",
-                "score": 0.886991024017334
-            },
-            {
-                "entityId": "E358",
-                "entityName": "gửi",
-                "synonym": "gửi",
-                "score": 0.886991024017334
-            },
-            {
-                "entityId": "E439",
-                "entityName": "gửi",
-                "synonym": "gửi",
-                "score": 0.886991024017334
-            },
-            {
-                "entityId": "E462",
-                "entityName": "gửi",
-                "synonym": "gửi",
-                "score": 0.886991024017334
-            },
-            {
-                "entityId": "E463",
-                "entityName": "gửi",
-                "synonym": "gửi",
-                "score": 0.886991024017334
-            },
-            {
-                "entityId": "E464",
-                "entityName": "gửi",
-                "synonym": "gửi",
-                "score": 0.886991024017334
-            },
-            {
-                "entityId": "E360",
-                "entityName": "nhận",
-                "synonym": "nhận",
-                "score": 0.8622728586196899
-            },
-            {
-                "entityId": "E485",
-                "entityName": "gửi quyết định",
-                "synonym": "gửi quyết định",
-                "score": 0.8569984436035156
-            },
-            {
-                "entityId": "E584",
-                "entityName": "gửi quyết định",
-                "synonym": "gửi quyết định",
-                "score": 0.8569984436035156
-            },
-            {
-                "entityId": "E088",
-                "entityName": "cung cấp",
-                "synonym": "cung cấp",
-                "score": 0.855783224105835
-            },
-            {
-                "entityId": "E410",
-                "entityName": "giao",
-                "synonym": "giao cho",
-                "score": 0.8551764488220215
-            },
-            {
-                "entityId": "E411",
-                "entityName": "giao",
-                "synonym": "giao cho",
-                "score": 0.8551764488220215
-            },
-            {
-                "entityId": "E442",
-                "entityName": "lập hồ sơ",
-                "synonym": "lập hồ sơ",
-                "score": 0.8539509773254395
-            },
-            {
-                "entityId": "E495",
-                "entityName": "lập hồ sơ",
-                "synonym": "lập hồ sơ",
-                "score": 0.8539509773254395
-            }
-        ]
-    },
-    {
-        "query_id": "T15",
-        "query_name": "thu hồi",
-        "total_matches": 20,
-        "matched_items": [
-            {
-                "entityId": "N133",
-                "entityName": "thu hồi",
-                "synonym": "thu hồi",
-                "score": 1.0
-            },
-            {
-                "entityId": "N125",
-                "entityName": "thu hồi sản phẩm",
-                "synonym": "thu hồi sản phẩm",
-                "score": 0.9111675024032593
-            },
-            {
-                "entityId": "N133",
-                "entityName": "thu hồi",
-                "synonym": "thu hồi hàng hóa",
-                "score": 0.9073060750961304
-            },
-            {
-                "entityId": "E383",
-                "entityName": "hoàn trả",
-                "synonym": "hoàn trả",
-                "score": 0.9025236368179321
-            },
-            {
-                "entityId": "E384",
-                "entityName": "hoàn trả",
-                "synonym": "hoàn trả",
-                "score": 0.9025236368179321
-            },
-            {
-                "entityId": "E388",
-                "entityName": "khấu trừ",
-                "synonym": "khấu trừ",
-                "score": 0.8716614842414856
-            },
-            {
-                "entityId": "N330",
-                "entityName": "tiêu hủy",
-                "synonym": "hủy bỏ",
-                "score": 0.8688283562660217
-            },
-            {
-                "entityId": "E484",
-                "entityName": "hủy bỏ",
-                "synonym": "hủy bỏ",
-                "score": 0.8688283562660217
-            },
-            {
-                "entityId": "N328",
-                "entityName": "bồi thường",
-                "synonym": "bồi hoàn",
-                "score": 0.8613148331642151
-            },
-            {
-                "entityId": "E484",
-                "entityName": "hủy bỏ",
-                "synonym": "hủy bỏ quyết định",
-                "score": 0.8599993586540222
-            },
-            {
-                "entityId": "N097",
-                "entityName": "tịch thu tang vật",
-                "synonym": "tịch thu",
-                "score": 0.8568518161773682
-            },
-            {
-                "entityId": "N137",
-                "entityName": "tịch thu",
-                "synonym": "tịch thu",
-                "score": 0.8568518161773682
-            },
-            {
-                "entityId": "E100",
-                "entityName": "tịch thu",
-                "synonym": "tịch thu",
-                "score": 0.8568518161773682
-            },
-            {
-                "entityId": "E248",
-                "entityName": "tịch thu",
-                "synonym": "tịch thu",
-                "score": 0.8568518161773682
-            },
-            {
-                "entityId": "E266",
-                "entityName": "tịch thu",
-                "synonym": "tịch thu",
-                "score": 0.8568518161773682
-            },
-            {
-                "entityId": "E330",
-                "entityName": "tịch thu",
-                "synonym": "tịch thu",
-                "score": 0.8568518161773682
-            },
-            {
-                "entityId": "E369",
-                "entityName": "tịch thu",
-                "synonym": "tịch thu",
-                "score": 0.8568518161773682
-            },
-            {
-                "entityId": "E533",
-                "entityName": "tịch thu",
-                "synonym": "tịch thu",
-                "score": 0.8568518161773682
-            },
-            {
-                "entityId": "N095",
-                "entityName": "tước quyền sử dụng",
-                "synonym": "tước quyền",
-                "score": 0.8539472818374634
-            },
-            {
-                "entityId": "E438",
-                "entityName": "thu thập",
-                "synonym": "thu thập",
-                "score": 0.850490391254425
-            }
-        ]
-    },
-    {
-        "query_id": "T16",
-        "query_name": "đề nghị bàn giao",
-        "total_matches": 12,
-        "matched_items": [
-            {
-                "entityId": "N218",
-                "entityName": "giấy tờ",
-                "synonym": "đề nghị",
-                "score": 0.8846979141235352
-            },
-            {
-                "entityId": "N279",
-                "entityName": "hồ sơ đề nghị",
-                "synonym": "đề nghị",
-                "score": 0.8846979141235352
-            },
-            {
-                "entityId": "E450",
-                "entityName": "đề nghị",
-                "synonym": "đề nghị",
-                "score": 0.8846979141235352
-            },
-            {
-                "entityId": "E459",
-                "entityName": "đề nghị",
-                "synonym": "đề nghị",
-                "score": 0.8846979141235352
-            },
-            {
-                "entityId": "E564",
-                "entityName": "đề nghị",
-                "synonym": "đề nghị",
-                "score": 0.8846979141235352
-            },
-            {
-                "entityId": "E410",
-                "entityName": "giao",
-                "synonym": "giao cho",
-                "score": 0.8676713705062866
-            },
-            {
-                "entityId": "E411",
-                "entityName": "giao",
-                "synonym": "giao cho",
-                "score": 0.8676713705062866
-            },
-            {
-                "entityId": "N279",
-                "entityName": "hồ sơ đề nghị",
-                "synonym": "hồ sơ đề nghị",
-                "score": 0.8672223091125488
-            },
-            {
-                "entityId": "N236",
-                "entityName": "đơn đề nghị",
-                "synonym": "đơn đề nghị",
-                "score": 0.8642100095748901
-            },
-            {
-                "entityId": "E372",
-                "entityName": "chuyển giao",
-                "synonym": "chuyển giao",
-                "score": 0.8629822731018066
-            },
-            {
-                "entityId": "N188",
-                "entityName": "giao quyền xử phạt",
-                "synonym": "giao quyền",
-                "score": 0.8522693514823914
-            },
-            {
-                "entityId": "E521",
-                "entityName": "giao",
-                "synonym": "giao quyền",
-                "score": 0.8522693514823914
-            }
-        ]
-    },
-    {
-        "query_id": "T17",
-        "query_name": "khởi kiện",
-        "total_matches": 10,
-        "matched_items": [
-            {
-                "entityId": "N227",
-                "entityName": "quyền khiếu nại",
-                "synonym": "khởi kiện",
-                "score": 1.0
-            },
-            {
-                "entityId": "N074",
-                "entityName": "khiếu nại",
-                "synonym": "khiếu nại",
-                "score": 0.8873394727706909
-            },
-            {
-                "entityId": "E080",
-                "entityName": "khiếu nại",
-                "synonym": "khiếu nại",
-                "score": 0.8873394727706909
-            },
-            {
-                "entityId": "N074",
-                "entityName": "khiếu nại",
-                "synonym": "tố cáo",
-                "score": 0.8709425926208496
-            },
-            {
-                "entityId": "N075",
-                "entityName": "tố cáo",
-                "synonym": "tố cáo",
-                "score": 0.8709425926208496
-            },
-            {
-                "entityId": "E080",
-                "entityName": "khiếu nại",
-                "synonym": "tố cáo",
-                "score": 0.8709425926208496
-            },
-            {
-                "entityId": "N029",
-                "entityName": "cơ quan nhà nước",
-                "synonym": "cơ quan tiến hành tố tụng",
-                "score": 0.8573327660560608
-            },
-            {
-                "entityId": "N089",
-                "entityName": "giải quyết khiếu nại",
-                "synonym": "giải quyết khiếu nại",
-                "score": 0.8540982007980347
-            },
-            {
-                "entityId": "N034",
-                "entityName": "kích động tinh thần",
-                "synonym": "kích động",
-                "score": 0.8525385856628418
-            },
-            {
-                "entityId": "N236",
-                "entityName": "đơn đề nghị",
-                "synonym": "đơn đề nghị",
-                "score": 0.8512819409370422
-            }
-        ]
-    },
-    {
-        "query_id": "T18",
-        "query_name": "cung cấp",
-        "total_matches": 20,
-        "matched_items": [
-            {
-                "entityId": "E088",
-                "entityName": "cung cấp",
-                "synonym": "cung cấp",
-                "score": 1.0
-            },
-            {
-                "entityId": "N086",
-                "entityName": "cung cấp thông tin",
-                "synonym": "cung cấp thông tin",
-                "score": 0.9220657348632812
-            },
-            {
-                "entityId": "N036",
-                "entityName": "tình thế cấp thiết",
-                "synonym": "cấp thiết",
-                "score": 0.884954571723938
-            },
-            {
-                "entityId": "E016",
-                "entityName": "đảm bảo",
-                "synonym": "đảm bảo",
-                "score": 0.8714624047279358
-            },
-            {
-                "entityId": "E486",
-                "entityName": "cấp giấy chứng nhận",
-                "synonym": "cấp giấy chứng nhận",
-                "score": 0.8713212013244629
-            },
-            {
-                "entityId": "E324",
-                "entityName": "bảo đảm",
-                "synonym": "bảo đảm",
-                "score": 0.8709626197814941
-            },
-            {
-                "entityId": "E405",
-                "entityName": "bảo đảm",
-                "synonym": "bảo đảm",
-                "score": 0.8709626197814941
-            },
-            {
-                "entityId": "E410",
-                "entityName": "giao",
-                "synonym": "giao cho",
-                "score": 0.8691666722297668
-            },
-            {
-                "entityId": "E411",
-                "entityName": "giao",
-                "synonym": "giao cho",
-                "score": 0.8691666722297668
-            },
-            {
-                "entityId": "N188",
-                "entityName": "giao quyền xử phạt",
-                "synonym": "giao quyền",
-                "score": 0.8667006492614746
-            },
-            {
-                "entityId": "E521",
-                "entityName": "giao",
-                "synonym": "giao quyền",
-                "score": 0.8667006492614746
-            },
-            {
-                "entityId": "N023",
-                "entityName": "người vi phạm",
-                "synonym": "cấp phó",
-                "score": 0.859255313873291
-            },
-            {
-                "entityId": "E536",
-                "entityName": "trả phí",
-                "synonym": "trả phí",
-                "score": 0.8583122491836548
-            },
-            {
-                "entityId": "E537",
-                "entityName": "trả phí",
-                "synonym": "trả phí",
-                "score": 0.8583122491836548
+                "score": 0.860069751739502
             },
             {
                 "entityId": "E361",
                 "entityName": "nộp",
                 "synonym": "nộp",
-                "score": 0.855783224105835
+                "score": 0.8531374931335449
             },
             {
                 "entityId": "E376",
                 "entityName": "nộp",
                 "synonym": "nộp",
-                "score": 0.855783224105835
+                "score": 0.8531374931335449
             },
             {
-                "entityId": "E036",
-                "entityName": "gây ra",
-                "synonym": "gây ra",
-                "score": 0.8517241477966309
+                "entityId": "N222",
+                "entityName": "ngày ký",
+                "synonym": "ngày ký",
+                "score": 0.8527407646179199
             },
             {
-                "entityId": "N302",
-                "entityName": "áp giải",
-                "synonym": "áp giải",
-                "score": 0.8508861064910889
+                "entityId": "N236",
+                "entityName": "đơn đề nghị",
+                "synonym": "đơn đề nghị",
+                "score": 0.8526051640510559
             },
             {
-                "entityId": "E497",
-                "entityName": "áp giải",
-                "synonym": "áp giải",
-                "score": 0.8508861064910889
+                "entityId": "E442",
+                "entityName": "lập hồ sơ",
+                "synonym": "lập hồ sơ",
+                "score": 0.8500746488571167
             },
             {
-                "entityId": "E522",
-                "entityName": "áp giải",
-                "synonym": "áp giải",
-                "score": 0.8508861064910889
+                "entityId": "E495",
+                "entityName": "lập hồ sơ",
+                "synonym": "lập hồ sơ",
+                "score": 0.8500746488571167
             }
         ]
     },
     {
-        "query_id": "T19",
-        "query_name": "chứng minh",
+        "query_id": "T06",
+        "query_name": "công an",
+        "total_matches": 17,
+        "matched_items": [
+            {
+                "entityId": "N029",
+                "entityName": "cơ quan nhà nước",
+                "synonym": "cơ quan công an",
+                "score": 0.9435311555862427
+            },
+            {
+                "entityId": "N157",
+                "entityName": "cảnh sát",
+                "synonym": "cảnh sát",
+                "score": 0.932288408279419
+            },
+            {
+                "entityId": "N157",
+                "entityName": "cảnh sát",
+                "synonym": "cảnh sát nhân dân",
+                "score": 0.9107382297515869
+            },
+            {
+                "entityId": "N139",
+                "entityName": "chiến sĩ công an",
+                "synonym": "chiến sĩ công an",
+                "score": 0.9076406955718994
+            },
+            {
+                "entityId": "N157",
+                "entityName": "cảnh sát",
+                "synonym": "lực lượng cảnh sát",
+                "score": 0.8935443162918091
+            },
+            {
+                "entityId": "N317",
+                "entityName": "trưởng công an",
+                "synonym": "trưởng công an",
+                "score": 0.8925703763961792
+            },
+            {
+                "entityId": "N264",
+                "entityName": "tội phạm",
+                "synonym": "tội phạm",
+                "score": 0.88988196849823
+            },
+            {
+                "entityId": "N157",
+                "entityName": "cảnh sát",
+                "synonym": "cảnh sát viên",
+                "score": 0.8872178196907043
+            },
+            {
+                "entityId": "N139",
+                "entityName": "chiến sĩ công an",
+                "synonym": "chiến sĩ Công an nhân dân",
+                "score": 0.8697747588157654
+            },
+            {
+                "entityId": "N284",
+                "entityName": "công an cấp xã",
+                "synonym": "công an cấp xã",
+                "score": 0.86747145652771
+            },
+            {
+                "entityId": "N050",
+                "entityName": "vi phạm hình sự",
+                "synonym": "vi phạm hình sự",
+                "score": 0.8634868860244751
+            },
+            {
+                "entityId": "N347",
+                "entityName": "cơ quan công an cấp huyện",
+                "synonym": "cơ quan công an cấp huyện",
+                "score": 0.8616531491279602
+            },
+            {
+                "entityId": "N023",
+                "entityName": "người vi phạm",
+                "synonym": "người vi phạm pháp luật",
+                "score": 0.8602324724197388
+            },
+            {
+                "entityId": "N182",
+                "entityName": "tòa án nhân dân",
+                "synonym": "tòa án nhân dân",
+                "score": 0.859664261341095
+            },
+            {
+                "entityId": "N029",
+                "entityName": "cơ quan nhà nước",
+                "synonym": "cơ quan Công an cấp huyện",
+                "score": 0.8582659959793091
+            },
+            {
+                "entityId": "N029",
+                "entityName": "cơ quan nhà nước",
+                "synonym": "cơ quan Công an cấp tỉnh",
+                "score": 0.8550269603729248
+            },
+            {
+                "entityId": "N177",
+                "entityName": "thanh tra viên",
+                "synonym": "thanh tra viên",
+                "score": 0.852314829826355
+            }
+        ]
+    },
+    {
+        "query_id": "T07",
+        "query_name": "phạt",
         "total_matches": 20,
         "matched_items": [
             {
-                "entityId": "E018",
-                "entityName": "chứng minh",
-                "synonym": "chứng minh",
+                "entityId": "N012",
+                "entityName": "xử phạt",
+                "synonym": "phạt",
                 "score": 1.0
             },
             {
-                "entityId": "N325",
-                "entityName": "xác minh",
-                "synonym": "xác minh",
-                "score": 0.9262785315513611
+                "entityId": "N063",
+                "entityName": "hình thức xử phạt",
+                "synonym": "phạt",
+                "score": 1.0
             },
             {
-                "entityId": "E301",
-                "entityName": "xác minh",
-                "synonym": "xác minh",
-                "score": 0.9262785315513611
+                "entityId": "N094",
+                "entityName": "phạt tiền",
+                "synonym": "phạt",
+                "score": 1.0
             },
             {
-                "entityId": "E303",
-                "entityName": "xác minh",
-                "synonym": "xác minh",
-                "score": 0.9262785315513611
+                "entityId": "N148",
+                "entityName": "phạt",
+                "synonym": "phạt",
+                "score": 1.0
             },
             {
-                "entityId": "E457",
-                "entityName": "xác minh",
-                "synonym": "xác minh",
-                "score": 0.9262785315513611
+                "entityId": "E244",
+                "entityName": "xử phạt",
+                "synonym": "phạt",
+                "score": 1.0
             },
             {
-                "entityId": "N018",
-                "entityName": "chứng minh vi phạm",
-                "synonym": "chứng minh vi phạm",
-                "score": 0.9007968902587891
+                "entityId": "N094",
+                "entityName": "phạt tiền",
+                "synonym": "phạt tiền",
+                "score": 0.977203369140625
             },
             {
-                "entityId": "E365",
-                "entityName": "xác nhận",
-                "synonym": "xác nhận",
-                "score": 0.8851472735404968
+                "entityId": "N148",
+                "entityName": "phạt",
+                "synonym": "phạt tiền",
+                "score": 0.977203369140625
             },
             {
-                "entityId": "E475",
-                "entityName": "xác nhận",
-                "synonym": "xác nhận",
-                "score": 0.8851472735404968
+                "entityId": "N231",
+                "entityName": "tiền phạt",
+                "synonym": "phạt tiền",
+                "score": 0.977203369140625
             },
             {
-                "entityId": "N149",
-                "entityName": "giấy phép",
-                "synonym": "chứng chỉ",
-                "score": 0.8673722147941589
+                "entityId": "N067",
+                "entityName": "tiền thu được",
+                "synonym": "tiền phạt",
+                "score": 0.96552574634552
             },
             {
-                "entityId": "N018",
-                "entityName": "chứng minh vi phạm",
-                "synonym": "chứng minh vi phạm hành chính",
-                "score": 0.8609731197357178
+                "entityId": "N094",
+                "entityName": "phạt tiền",
+                "synonym": "tiền phạt",
+                "score": 0.96552574634552
             },
             {
-                "entityId": "N205",
-                "entityName": "giải trình",
-                "synonym": "giải trình",
-                "score": 0.8600842952728271
+                "entityId": "N231",
+                "entityName": "tiền phạt",
+                "synonym": "tiền phạt",
+                "score": 0.96552574634552
             },
             {
-                "entityId": "N082",
-                "entityName": "kiểm tra",
-                "synonym": "kiểm tra",
-                "score": 0.8590592741966248
+                "entityId": "N012",
+                "entityName": "xử phạt",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             },
             {
-                "entityId": "E091",
-                "entityName": "kiểm tra",
-                "synonym": "kiểm tra",
-                "score": 0.8590592741966248
+                "entityId": "N063",
+                "entityName": "hình thức xử phạt",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             },
             {
-                "entityId": "E446",
-                "entityName": "kiểm tra",
-                "synonym": "kiểm tra",
-                "score": 0.8590592741966248
+                "entityId": "N102",
+                "entityName": "quyết định",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             },
             {
-                "entityId": "E451",
-                "entityName": "kiểm tra",
-                "synonym": "kiểm tra",
-                "score": 0.8590592741966248
+                "entityId": "E005",
+                "entityName": "xử phạt",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             },
             {
-                "entityId": "N218",
-                "entityName": "giấy tờ",
-                "synonym": "giấy chứng nhận",
-                "score": 0.8561404943466187
+                "entityId": "E027",
+                "entityName": "xử phạt",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             },
             {
-                "entityId": "E104",
-                "entityName": "xác định",
-                "synonym": "xác định",
-                "score": 0.8549567461013794
+                "entityId": "E028",
+                "entityName": "xử phạt",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             },
             {
-                "entityId": "E304",
-                "entityName": "xác định",
-                "synonym": "xác định",
-                "score": 0.8549567461013794
+                "entityId": "E029",
+                "entityName": "xử phạt",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             },
             {
-                "entityId": "E016",
-                "entityName": "đảm bảo",
-                "synonym": "đảm bảo",
-                "score": 0.8535051345825195
+                "entityId": "E068",
+                "entityName": "xử phạt",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             },
             {
-                "entityId": "N197",
-                "entityName": "văn bản xác minh",
-                "synonym": "văn bản xác minh",
-                "score": 0.8501613140106201
+                "entityId": "E244",
+                "entityName": "xử phạt",
+                "synonym": "xử phạt",
+                "score": 0.9578633308410645
             }
         ]
     }

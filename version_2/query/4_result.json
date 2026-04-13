@@ -1,0 +1,45 @@
+{
+    "question": "Mọi người cho mình hỏi mình có mua ô tô cũ thủ tục hợp đồng mình đã hoàn thiện cách đây gần 1 tháng , mk đã đóng lệ phí trước bạ, đăng ký lên hành chính công bộ công an . Nhưng 2 lần mình tới để bấm biển hôm thì hệ thống lỗi , hôm nay thì công an đi hộ đê không ai trực . Vậy cho mình hỏi mình có bị phạt khi không đăng kí xe bấm biển không khi công an viên không có mặt ở trụ sở để mình làm thủ tục bấm biển",
+    "relevant_section_ids": [
+        "s379",
+        "s382",
+        "s385",
+        "s390"
+    ],
+    "relevant_sections": [
+        {
+            "section_id": "s379",
+            "original_text": "PHẦN THỨ HAI - CHƯƠNG II - Điều 44 - Khoản 1 - Điểm a. Nội dung: Phạt cảnh cáo;",
+            "sentences": [
+                "Theo Điểm a Khoản 1 Điều 44, Nhân viên Thuế đang thi hành công vụ có quyền phạt cảnh cáo."
+            ]
+        },
+        {
+            "section_id": "s382",
+            "original_text": "PHẦN THỨ HAI - CHƯƠNG II - Điều 44 - Khoản 2 - Điểm a. Nội dung: Phạt cảnh cáo;",
+            "sentences": [
+                "Theo Điểm a Khoản 2 Điều 44, Đội trưởng Đội Thuế có quyền phạt cảnh cáo."
+            ]
+        },
+        {
+            "section_id": "s385",
+            "original_text": "PHẦN THỨ HAI - CHƯƠNG II - Điều 44 - Khoản 3 - Điểm a. Nội dung: Phạt cảnh cáo;",
+            "sentences": [
+                "Theo Điểm a Khoản 3 Điều 44, Chi cục trưởng Chi cục Thuế có quyền phạt cảnh cáo."
+            ]
+        },
+        {
+            "section_id": "s390",
+            "original_text": "PHẦN THỨ HAI - CHƯƠNG II - Điều 44 - Khoản 4 - Điểm a. Nội dung: Phạt cảnh cáo;",
+            "sentences": [
+                "Theo Điểm a Khoản 4 Điều 44, Cục trưởng Cục Thuế có quyền phạt cảnh cáo."
+            ]
+        }
+    ],
+    "irac": {
+        "issue": "Người dùng có bị phạt khi không đăng ký xe bấm biển do công an không có mặt để thực hiện thủ tục không?",
+        "rule": "Theo Điều 44, các nhân viên thuế và đội trưởng, chi cục trưởng, cục trưởng có quyền phạt cảnh cáo trong trường hợp vi phạm quy định về thuế.",
+        "application": "Trong trường hợp này, người dùng đã hoàn thiện thủ tục mua ô tô cũ và đã đóng lệ phí trước bạ, nhưng gặp khó khăn trong việc bấm biển do công an không có mặt. Do đó, việc không thể thực hiện thủ tục bấm biển không phải là lỗi của người dùng mà là do tình huống khách quan. Theo quy định, việc phạt cảnh cáo chỉ áp dụng khi có vi phạm từ phía người nộp thuế.",
+        "conclusion": "Người dùng không bị phạt khi không đăng ký xe bấm biển do công an không có mặt để thực hiện thủ tục."
+    }
+}
