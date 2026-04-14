@@ -44,8 +44,21 @@ Ví dụ Output JSON:
 
 def load_question(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        return data.get("question", "")
+        content = f.read().strip()
+
+    if not content:
+        return ""
+
+    # Tuong thich nguoc voi dinh dang JSON cu, nhung uu tien file text thuần.
+    if content.startswith("{"):
+        try:
+            data = json.loads(content)
+            if isinstance(data, dict):
+                return str(data.get("question", "")).strip()
+        except json.JSONDecodeError:
+            pass
+
+    return content
 
 def extract_entities(question_text):
     response = client.chat.completions.create(
@@ -83,7 +96,7 @@ def normalize_to_output_format(raw_result):
     return final_output
 
 def main():
-    input_file = "./version_3/query/1_question.json"
+    input_file = "./version_3/query/1_question.txt"
     output_file = "./version_3/query/2_entities_question.json"
 
     if not os.path.exists(input_file):
@@ -92,7 +105,7 @@ def main():
 
     question = load_question(input_file)
     if not question:
-        print("Lỗi: File câu hỏi không có trường 'question' hợp lệ.")
+        print("Lỗi: File câu hỏi rỗng hoặc không hợp lệ.")
         return
 
     print("🔍 Đang phân tích câu hỏi và trích xuất siêu trừu tượng...")

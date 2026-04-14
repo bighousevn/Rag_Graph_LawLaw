@@ -9,7 +9,7 @@ load_dotenv()
 API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=API_KEY)
 
-QUESTION_FILE = "./version_3/query/1_question.json"
+QUESTION_FILE = "./version_3/query/1_question.txt"
 FILTERED_TRIPLETS_FILE = "./version_3/query/5_filtered_triplets.json"
 SENTENCES_FILE = "./version_3/1_sections.json"
 OUTPUT_FILE = "./version_3/query/6_irac_answer.json"
@@ -41,10 +41,8 @@ def load_json(file_path):
 
 
 def load_question(file_path):
-    data = load_json(file_path)
-    if isinstance(data, dict):
-        return str(data.get("question", "")).strip()
-    return ""
+    with open(file_path, "r", encoding="utf-8") as f:
+        return f.read().strip()
 
 
 def load_relevant_section_ids(file_path):
@@ -150,7 +148,7 @@ def main():
 
     question = load_question(QUESTION_FILE)
     if not question:
-        print("Lỗi: Không đọc được câu hỏi hợp lệ từ 1_question.json")
+        print("Lỗi: Không đọc được câu hỏi hợp lệ từ 1_question.txt")
         return
 
     relevant_section_ids = load_relevant_section_ids(FILTERED_TRIPLETS_FILE)

@@ -1,38 +1,42 @@
 [
     {
         "id": "T01",
-        "name": "người"
+        "name": "bạo lực"
     },
     {
         "id": "T02",
-        "name": "hợp đồng"
+        "name": "nhân phẩm"
     },
     {
         "id": "T03",
-        "name": "thủ tục"
+        "name": "thương tích"
     },
     {
         "id": "T04",
-        "name": "tài sản"
+        "name": "bằng chứng"
     },
     {
         "id": "T05",
-        "name": "nộp"
+        "name": "thủ tục"
     },
     {
         "id": "T06",
-        "name": "đăng ký"
+        "name": "kiện"
     },
     {
         "id": "T07",
-        "name": "đến"
+        "name": "giải quyết"
     },
     {
         "id": "T08",
-        "name": "cơ quan"
+        "name": "tự bảo vệ"
     },
     {
         "id": "T09",
-        "name": "?thủ tục"
+        "name": "?cách thức"
+    },
+    {
+        "id": "T10",
+        "name": "?trách nhiệm"
     }
 ]
