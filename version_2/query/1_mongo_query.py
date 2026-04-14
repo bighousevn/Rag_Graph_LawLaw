@@ -88,7 +88,7 @@ def main():
             {
                 # BỘ LỌC QUAN TRỌNG: Chỉ lấy kết quả có độ tương đồng > 0.85
                 "$match": {
-                    "score": { "$gt": 0.85 }
+                    "score": { "$gt": 0.9 }
                 }
             }
         ]

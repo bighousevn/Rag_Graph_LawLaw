@@ -1,34 +1,26 @@
 [
     {
         "id": "T01",
-        "name": "mua ô tô cũ"
+        "name": "hợp đồng mua bán ô tô cũ"
     },
     {
         "id": "T02",
-        "name": "thủ tục hợp đồng"
+        "name": "lệ phí trước bạ"
     },
     {
         "id": "T03",
-        "name": "đóng lệ phí trước bạ"
+        "name": "đăng ký hồ sơ"
     },
     {
         "id": "T04",
-        "name": "đăng ký"
+        "name": "cổng dịch vụ hành chính công"
     },
     {
         "id": "T05",
-        "name": "bấm biển"
+        "name": "trụ sở cơ quan công an"
     },
     {
         "id": "T06",
-        "name": "công an"
-    },
-    {
-        "id": "T07",
-        "name": "phạt"
-    },
-    {
-        "id": "T08",
-        "name": "không đăng ký xe"
+        "name": "thủ tục bấm biển số"
     }
 ]
