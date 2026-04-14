@@ -47,14 +47,18 @@ ENTITY_EXPAND_LABELS = {
     "loc",
     "tmp",
     "tmod",
-    "vmod",
     "pob",
     "iob",
     "dob",
-    "conj",
-    "coord",
-    "punct",
 }
+
+PREDICATE_DEP_LABELS = {"root", "xcomp", "ccomp", "advcl", "conj", "parataxis", "cop"}
+
+RELATION_SKIP_TOKENS = {
+    "theo", "khi", "nếu", "do", "vì", "để", "với", "tại", "từ", "ở",
+}
+
+MAX_ENTITY_TOKENS = 3
 
 OBJECT_SPLIT_PATTERNS = [
     r"\s*,\s*",
@@ -871,21 +875,22 @@ def extract_triplet_for_predicate(
     if not obj_idxs:
         obj_idxs = pick_action_object_indices(pred_idx, dep, head, pos)
 
-    subj_full = expand_entity_indices(subj_idxs, dep, head)
-    obj_full = expand_entity_indices(obj_idxs, dep, head)
+    # Micro-triplet: cap token count for S and O, no recursive expansion
+    subj_idxs = sorted(set(subj_idxs))[:MAX_ENTITY_TOKENS]
+    obj_idxs = sorted(set(obj_idxs))[:MAX_ENTITY_TOKENS]
     rel_idxs = expand_relation_indices(pred_idx, dep, head, tokens)
+    rel_idxs = sorted(set(rel_idxs))[:MAX_ENTITY_TOKENS]
 
-    subject_raw = gather_phrase(subj_full, tokens)
+    subject_raw = gather_phrase(subj_idxs, tokens)
     relation_raw = gather_phrase(rel_idxs, tokens)
-    object_raw = gather_phrase(obj_full, tokens)
+    object_raw = gather_phrase(obj_idxs, tokens)
 
     if not object_raw:
-        local_right = [
-            i
-            for i in range(pred_idx + 1, len(tokens) + 1)
-            if is_descendant(i, pred_idx, head) and dep[i - 1].lower() not in {"punct"}
-        ]
-        object_raw = gather_phrase(local_right, tokens)
+        # Fallback: grab first direct noun child on the right
+        for i in range(pred_idx + 1, len(tokens) + 1):
+            if head[i - 1] == pred_idx and dep[i - 1].lower() not in {"punct", "cc", "mark"}:
+                object_raw = tokens[i - 1].replace("_", " ")
+                break
 
     triplets = build_triplets_from_parts(subject_raw, relation_raw, object_raw, stopwords)
     return triplets
@@ -911,6 +916,10 @@ def expand_relation_indices(root_idx: int, dep: List[str], head: List[int], toke
     idxs = [root_idx]
     for i, d in enumerate(dep, start=1):
         if head[i - 1] == root_idx and d.lower() in REL_EXPAND_LABELS:
+            # Skip prepositions/conjunctions that shouldn't be part of relation
+            token_plain = tokens[i - 1].replace("_", " ").lower().strip()
+            if token_plain in RELATION_SKIP_TOKENS:
+                continue
             idxs.append(i)
 
     relation_text = gather_phrase(idxs, tokens).lower()
@@ -925,6 +934,41 @@ def expand_relation_indices(root_idx: int, dep: List[str], head: List[int], toke
 def is_verb_pos(tag: str) -> bool:
     upper = tag.upper()
     return upper.startswith("V") or upper == "VERB"
+
+
+def is_predicate_verb(idx: int, dep: List[str], head: List[int], pos: List[str]) -> bool:
+    """Return True only if the verb at `idx` is in a true predicate position,
+    not a verb acting as modifier inside a compound noun phrase."""
+    d = dep[idx - 1].lower()
+    # Direct predicate roles (includes cop for 'là')
+    if d in PREDICATE_DEP_LABELS:
+        return True
+    # Head is 0 (root)
+    if head[idx - 1] == 0:
+        return True
+    # Verb chained to another verb (via vmod, dep, etc.)
+    parent = head[idx - 1]
+    if 1 <= parent <= len(pos) and is_verb_pos(pos[parent - 1]):
+        if d in {"vmod", "dep"}:
+            return True
+    # vmod/nmod on noun: accept if the verb has its own obj/obl children
+    # (e.g. 'áp_dụng đối_với cá_nhân' — áp_dụng is vmod but has real object)
+    if d in {"vmod", "nmod", "amod"} and 1 <= parent <= len(pos):
+        if pos[parent - 1].upper().startswith("N"):
+            has_own_args = any(
+                head[j - 1] == idx and dep[j - 1].lower() in OBJECT_LABELS
+                for j in range(1, len(dep) + 1)
+            )
+            return has_own_args
+    return False
+
+
+def truncate_long_phrase(phrase: str, max_tokens: int = MAX_ENTITY_TOKENS) -> str:
+    """Cap a phrase to max_tokens words to prevent bloated entities."""
+    parts = phrase.split()
+    if len(parts) <= max_tokens:
+        return phrase
+    return normalize_spaces(" ".join(parts[:max_tokens]))
 
 
 def is_descendant(node_idx: int, ancestor_idx: int, head: List[int]) -> bool:
@@ -1060,133 +1104,142 @@ def extract_ultra_micro_triplets(parsed: Dict[str, Any], stopwords: set[str]) ->
     dep: List[str] = parsed['dep']
     head: List[int] = parsed['head']
 
-    function_words = {
-        'của', 'khi', 'và', 'hoặc', 'hay', 'là', 'thì', 'mà', 'nếu', 'do', 'vì',
-        'để', 'với', 'tại', 'ở', 'theo', 'cho', 'từ', 'đến'
-    }
-
-    source_parts = {p.lower() for tok in tokens for p in tok.split('_') if p}
-
     children = {i: [] for i in range(1, len(tokens) + 1)}
     for i, p in enumerate(head, start=1):
         if p > 0:
             children[p].append(i)
 
-    def is_verb(p: str) -> bool:
-        return p.startswith('V')
+    def token_text(idx):
+        if idx <= 0 or idx > len(tokens): return ""
+        return tokens[idx-1].lower()
 
-    def is_noun(p: str) -> bool:
-        return p.startswith('N') or p.startswith('P')
-
-    def token_text(idx: int) -> str:
-        if idx <= 0:
-            return ""
-        return tokens[idx - 1].lower()
-
-    def is_content_text(text: str) -> bool:
-        if not text:
-            return False
-        parts = [x for x in text.split('_') if x]
-        if not parts:
-            return False
-        if any(p in function_words for p in parts):
-            return False
-        return all(p in source_parts for p in parts)
-
-    def verb_relation(idx: int) -> str:
-        parts: List[str] = []
-        for c in sorted(children.get(idx, [])):
-            if dep[c - 1].lower() in {'adv', 'neg', 'aux'}:
-                t = token_text(c)
-                if is_content_text(t):
-                    parts.append(t)
-        base = token_text(idx)
-        if is_content_text(base):
-            parts.append(base)
-        return "_".join(parts)
+    function_words = {'của', 'khi', 'và', 'hoặc', 'hay', 'thì', 'mà', 'nếu', 'do', 'vì', 'để', 'tại', 'ở', 'theo', 'cho', 'từ', 'đến'}
 
     triplets = []
 
+    def find_subject(idx):
+        subs = [c for c in children.get(idx, []) if dep[c-1].lower() in {'sub', 'nsubj', 'nsubj:pass', 'csubj'}]
+        if subs: return subs
+        curr = idx
+        while curr > 0:
+            parent = head[curr-1]
+            if parent <= 0: break
+            if dep[curr-1].lower() in {'nmod', 'vmod', 'acl', 'amod'} and pos[parent-1].startswith('N'):
+                return [parent]
+            if dep[parent-1].lower() == 'coord' or pos[parent-1] == 'C' or dep[curr-1].lower() == 'conj':
+                curr = parent
+                continue
+            curr = parent
+            if pos[curr-1].startswith('V'):
+                 verb_subs = [c for c in children.get(curr, []) if dep[c-1].lower() in {'sub', 'nsubj'}]
+                 if verb_subs: return verb_subs
+                 if dep[curr-1].lower() in {'nmod', 'vmod'} and head[curr-1] > 0 and pos[head[curr-1]-1].startswith('N'):
+                      return [head[curr-1]]
+        return []
+
     for i in range(1, len(tokens) + 1):
         p = pos[i-1]
-        d = dep[i-1]
-        token_i = token_text(i)
-        
-        if d.lower() in {'punct', 'case', 'mark', 'det', 'cc', 'conj'}:
-            continue
+        t = token_text(i)
 
-        if token_i in function_words:
-            continue
-
-        node_text = token_i
-        if not is_content_text(node_text):
-            continue
-
-        sub_idxs = [c for c in children.get(i, []) if dep[c-1].lower() in {'sub', 'nsubj', 'nsubj:pass', 'csubj'}]
-        obj_idxs = [c for c in children.get(i, []) if dep[c-1].lower() in {'obj', 'dobj', 'dob', 'iobj', 'pob', 'obl'}]
-        sub_texts = [token_text(c) for c in sub_idxs if is_content_text(token_text(c))]
-        obj_texts = [token_text(c) for c in obj_idxs if is_content_text(token_text(c))]
-        
-        # 1. Trích xuất lõi Chủ ngữ - Động từ/Từ chính - Tân ngữ thành từng Node tách biệt
-        if is_verb(p) and sub_texts and obj_texts:
-            rel = verb_relation(i)
-            if not is_content_text(rel):
-                rel = node_text
-            for s in sub_texts:
-                for o in obj_texts:
-                    triplets.append({'subject': s, 'relation': rel, 'object': o})
-        
-        # Tu dong che token ghep dai theo dung tu trong cau.
-        # Vi du "người_sử_dụng_lao_động" -> người -sử_dụng-> lao_động
-        raw_token = tokens[i-1].lower()
-        parts = raw_token.split('_')
+        parts = t.split('_')
         if len(parts) >= 3:
             s_tok = parts[0]
-            r_tok = parts[1]
-            o_tok = "_".join(parts[2:])
-            if is_content_text(s_tok) and is_content_text(r_tok) and is_content_text(o_tok):
+            if parts[1] == 'sử' and parts[2] == 'dụng':
+                r_tok = 'sử_dụng'
+                o_tok = "_".join(parts[3:]) if len(parts)>3 else ""
+            else:
+                r_tok = parts[1]
+                o_tok = "_".join(parts[2:])
+            if s_tok and r_tok and o_tok:
                 triplets.append({'subject': s_tok, 'relation': r_tok, 'object': o_tok})
 
-        # 2. Chuoi danh tu nmod theo tu noi dung (khong dung gioi tu/hư từ).
-        # Dùng parent-content để tạo thêm triplet cho cụm dài như
-        # giữ - bản_chính - giấy_tờ, giao_kết - hợp_đồng - lao_động.
-        if is_noun(p):
-            noun_mod_children = [
-                c
-                for c in sorted(children.get(i, []))
-                if dep[c - 1].lower() in {'nmod'} and is_content_text(token_text(c))
-            ]
-            noun_mod_texts = [token_text(c) for c in noun_mod_children if is_content_text(token_text(c))]
-            if len(noun_mod_texts) >= 2:
-                triplets.append({'subject': node_text, 'relation': noun_mod_texts[0], 'object': noun_mod_texts[1]})
-            elif len(noun_mod_texts) == 1:
-                parent_idx = head[i - 1]
-                parent_text = token_text(parent_idx)
-                if parent_idx > 0 and is_content_text(parent_text):
-                    triplets.append({'subject': parent_text, 'relation': node_text, 'object': noun_mod_texts[0]})
+        if p.startswith('V') or (p.startswith('A') and t == 'phải'):
+            sub_idxs = find_subject(i)
+            obj_idxs = []
+            rel_suffix = ""
+            for c in children.get(i, []):
+                d_c = dep[c-1].lower()
+                if d_c in {'obj', 'dobj', 'dob', 'iobj', 'pob', 'obl', 'vmod', 'xcomp', 'ccomp'}:
+                    if pos[c-1] == 'E' and children.get(c):
+                        pobs = [gc for gc in children.get(c, []) if dep[gc-1].lower() in {'pob', 'nmod'}]
+                        if pobs:
+                            obj_idxs.extend(pobs)
+                            rel_suffix = "_" + token_text(c)
+                        else:
+                            obj_idxs.append(c)
+                    else:
+                        obj_idxs.append(c)
+                if t == 'phải' and token_text(c) == 'là':
+                    pobs = [gc for gc in children.get(c, []) if dep[gc-1].lower() in {'vmod', 'dob', 'obj', 'pob'}]
+                    obj_idxs.extend(pobs)
+                    rel_suffix = "_là"
 
-    def all_parts_in_source(text: str) -> bool:
-        parts = [x for x in text.split('_') if x]
-        return bool(parts) and all(p.lower() in source_parts for p in parts)
+            if t == 'phải':
+                 for sibling in children.get(head[i-1], []):
+                      if token_text(sibling) == 'là':
+                           pobs = [gc for gc in children.get(sibling, []) if dep[gc-1].lower() in {'vmod', 'dob', 'obj', 'pob'}]
+                           obj_idxs.extend(pobs)
+                           rel_suffix = "_là"
+
+            relation = t
+            neg_idxs = [c for c in children.get(i, []) if dep[c-1].lower() in {'neg', 'adv', 'amod'} and token_text(c) in {'không', 'chưa'}]
+            if not neg_idxs and token_text(head[i-1]) == 'mà':
+                 neg_idxs = [c for c in children.get(head[i-1], []) if token_text(c) == 'không']
+
+            if neg_idxs:
+                 relation = token_text(neg_idxs[0]) + "_" + relation
+            if rel_suffix == "_là":
+                 relation += rel_suffix
+
+            for s_id in sub_idxs:
+                 for o_id in obj_idxs:
+                     if token_text(o_id) not in {'là', 'không', 'phải'}:
+                         triplets.append({'subject': token_text(s_id), 'relation': relation, 'object': token_text(o_id)})
+
+        if p.startswith('N') or p.startswith('P'):
+            for c in children.get(i, []):
+                if dep[c-1].lower() == 'nmod' and pos[c-1] == 'E':
+                    pobs = [gc for gc in children.get(c, []) if dep[gc-1].lower() in {'pob', 'nmod'}]
+                    for pob in pobs:
+                        triplets.append({'subject': t, 'relation': token_text(c), 'object': token_text(pob)})
+
+    for i in range(1, len(tokens) + 1):
+        if pos[i-1].startswith('N') and dep[i-1].lower() in {'coord', 'conj', 'nmod'}:
+             curr = head[i-1]
+             if curr > 0 and token_text(curr) == ',': curr = head[curr-1]
+             if curr > 0 and pos[curr-1].startswith('N'):
+                 parent_txt = token_text(curr)
+                 new_trips = []
+                 for tri in triplets:
+                     if tri['object'] == parent_txt:
+                         new_trips.append({'subject': tri['subject'], 'relation': tri['relation'], 'object': token_text(i)})
+                 triplets.extend(new_trips)
 
     final = []
     seen = set()
-    for t in triplets:
-        s = t['subject'].replace('_', ' ').strip()
-        r = t['relation'].replace('_', ' ').strip()
-        o = t['object'].replace('_', ' ').strip()
-        
-        # Dọn dẹp lại cho đẹp và tránh node trùng ý
-        if s and r and o and s != r and r != o and s != o:
-           if not (all_parts_in_source(s.replace(' ', '_')) and all_parts_in_source(r.replace(' ', '_')) and all_parts_in_source(o.replace(' ', '_'))):
-               continue
-           key = (s.lower(), r.lower(), o.lower())
-           if key not in seen:
-               seen.add(key)
-               final.append({'subject': s.replace(' ', '_'), 'relation': r.replace(' ', '_'), 'object': o.replace(' ', '_')})
+    for tri in triplets:
+        s = tri['subject'].replace('_', ' ').strip()
+        r = tri['relation'].replace('_', ' ').strip()
+        o = tri['object'].replace('_', ' ').strip()
 
-    return final
+        if s in function_words or o in function_words or len(s.split()) < 1 or len(o.split()) < 1: continue
+        if len(s.replace(' ', '_')) < 2 or len(o.replace(' ', '_')) < 2: continue
+        if not s or not r or not o: continue
+        if s == r or r == o or s == o: continue
 
+        key = (s, r, o)
+        if key not in seen:
+            seen.add(key)
+            final.append({'subject': s.replace(' ', '_'), 'relation': r.replace(' ', '_'), 'object': o.replace(' ', '_')})
+            
+    final_filtered = []
+    has_neg = { (tri['subject'], tri['object']) for tri in final if 'không' in tri['relation'] or 'chưa' in tri['relation'] }
+    for tri in final:
+         if (tri['subject'], tri['object']) in has_neg and 'không' not in tri['relation'] and 'chưa' not in tri['relation']:
+              continue
+         final_filtered.append(tri)
+
+    return final_filtered
 def build_linked_triplet_view(sentence_id: str, triplets: Sequence[Dict[str, str]]) -> Dict[str, Any]:
     nodes: List[Dict[str, Any]] = []
     links: List[Dict[str, str]] = []
@@ -1272,15 +1325,29 @@ def extract_triplets_with_models(
             segmented_text = " ".join(wseg_tokens)
             parsed = phonnlp_parse(ph_model, segmented_text)
             
-            # Extract multiple, ultra-micro triplets
-            micro_triplets = extract_ultra_micro_triplets(parsed, stopwords)
+            tokens = parsed['tokens']
+            pos = parsed['pos']
+            dep = parsed['dep']
+            head = parsed['head']
+
+            root_idxs = [i for i, h in enumerate(head, start=1) if h == 0]
+            if not root_idxs:
+                root_idxs = [1]
+            root_idx = root_idxs[0]
+
+            fallback_subj_idxs = [
+                i for i, d in enumerate(dep, start=1)
+                if head[i - 1] == root_idx and d.lower() in SUBJECT_LABELS
+            ]
+
+            final_triplets = extract_ultra_micro_triplets(parsed, stopwords)
 
             out.append(
                 {
                     "id": rec["id"],
                     "source": rec.get("source", ""),
                     "text": sentence,
-                    "triplets": micro_triplets,
+                    "triplets": final_triplets,
                 }
             )
         except Exception as exc:

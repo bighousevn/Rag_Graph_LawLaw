@@ -1,0 +1,19 @@
+[
+  {
+    "id": "query_sent_0",
+    "source": "query_user",
+    "text": "Ace trên nhóm cho em hỏi là án đánh bài bị tóm tổng tiền mặt dưới 5tr và bị phạt hành chính rồi có bị án tích là bao lâu..? Hay phải như nào mới không có án tích ko ạ em cảm ơn",
+    "triplets": [
+      {
+        "subject": "bị",
+        "relation": "án",
+        "object": "đánh_bài"
+      },
+      {
+        "subject": "tổng",
+        "relation": "tiền_mặt",
+        "object": "dưới"
+      }
+    ]
+  }
+]

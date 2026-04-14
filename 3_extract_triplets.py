@@ -98,24 +98,26 @@ def extract_to_graph(input_path, raw_triplets_path, graph_output_path):
                 node_counter += 1
             elif sec_id not in nodes_map[obj]["list_section_id"]:
                 nodes_map[obj]["list_section_id"].append(sec_id)
-
-            # Process Edge
-            edge_key = f"{subj}|{rel}|{obj}"
-            source_id = nodes_map[subj]["id"]
-            target_id = nodes_map[obj]["id"]
-
-            if edge_key not in edges_map:
-                edges_map[edge_key] = {
-                    "id": f"E{edge_counter:02d}",
-                    "name": rel,
-                    "source": source_id,
-                    "target": target_id,
-                    "list_section_id": [sec_id]
-                }
-                edge_counter += 1
-            elif sec_id not in edges_map[edge_key]["list_section_id"]:
-                edges_map[edge_key]["list_section_id"].append(sec_id)
-
+                
+            # Process Edge (chỉ tạo Cạnh nếu không phải hư từ đơn lẻ)
+            skip_edge_rels = {'cho', 'về', 'với', 'đối với', 'đối_với', 'tại', 'ở', 'của', 'từ', 'đến', 'bởi', 'theo', 'như'}
+            if rel.lower() not in skip_edge_rels:
+                edge_key = f"{subj}|{rel}|{obj}"
+                source_id = nodes_map[subj]["id"]
+                target_id = nodes_map[obj]["id"]
+                
+                if edge_key not in edges_map:
+                    edges_map[edge_key] = {
+                        "id": f"E{edge_counter:02d}",
+                        "name": rel,
+                        "source": source_id,
+                        "target": target_id,
+                        "list_section_id": [sec_id]
+                    }
+                    edge_counter += 1
+                elif sec_id not in edges_map[edge_key]["list_section_id"]:
+                    edges_map[edge_key]["list_section_id"].append(sec_id)
+                
     graph_data = [
         {
             "nodes": list(nodes_map.values()),
