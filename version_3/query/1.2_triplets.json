@@ -1,52 +1,37 @@
 [
     {
-        "s": "cơ quan",
-        "v": "phát hiện",
-        "o": "hành vi"
+        "s": "người",
+        "v": "thực hiện",
+        "o": "thủ tục"
     },
     {
-        "s": "cơ quan",
-        "v": "lập",
-        "o": "văn bản"
+        "s": "người",
+        "v": "muốn",
+        "o": "sửa thông tin"
     },
     {
-        "s": "văn bản",
-        "v": "ghi nhận",
-        "o": "hành vi"
+        "s": "người",
+        "v": "cung cấp",
+        "o": "tài liệu"
     },
     {
-        "s": "cơ quan",
-        "v": "ban hành",
-        "o": "quyết định"
+        "s": "tài liệu",
+        "v": "chứng minh",
+        "o": "thông tin"
     },
     {
-        "s": "quyết định",
-        "v": "xử phạt",
-        "o": "người"
+        "s": "thông tin",
+        "v": "liên quan",
+        "o": "thành viên"
     },
     {
-        "s": "quyết định",
-        "v": "áp dụng",
-        "o": "biện pháp"
+        "s": "thành viên",
+        "v": "thuộc",
+        "o": "hộ"
     },
     {
-        "s": "biện pháp",
-        "v": "gồm",
-        "o": "phạt tiền"
-    },
-    {
-        "s": "biện pháp",
-        "v": "gồm",
-        "o": "tiêu hủy"
-    },
-    {
-        "s": "tiêu hủy",
-        "v": "tác động",
-        "o": "tài sản độc hại"
-    },
-    {
-        "s": "quyết định",
-        "v": "có",
-        "o": "tính hợp pháp"
+        "s": "hộ",
+        "v": "cần",
+        "o": "sửa đổi"
     }
 ]
