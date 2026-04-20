@@ -1,37 +1,32 @@
 [
     {
+        "s": "cơ quan nhà nước",
+        "v": "thực hiện",
+        "o": "đền bù"
+    },
+    {
         "s": "người",
         "v": "thực hiện",
-        "o": "thủ tục"
+        "o": "hành vi"
     },
     {
-        "s": "người",
-        "v": "muốn",
-        "o": "sửa thông tin"
+        "s": "hành vi",
+        "v": "liên quan",
+        "o": "tài sản"
     },
     {
-        "s": "người",
-        "v": "cung cấp",
-        "o": "tài liệu"
-    },
-    {
-        "s": "tài liệu",
-        "v": "chứng minh",
+        "s": "cơ quan nhà nước",
+        "v": "nhận",
         "o": "thông tin"
     },
     {
-        "s": "thông tin",
-        "v": "liên quan",
-        "o": "thành viên"
+        "s": "cơ quan nhà nước",
+        "v": "xác định",
+        "o": "khả năng kiểm tra"
     },
     {
-        "s": "thành viên",
-        "v": "thuộc",
-        "o": "hộ"
-    },
-    {
-        "s": "hộ",
-        "v": "cần",
-        "o": "sửa đổi"
+        "s": "cơ quan nhà nước",
+        "v": "xác định",
+        "o": "khả năng xử phạt"
     }
 ]
