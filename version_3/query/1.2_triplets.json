@@ -1,32 +1,32 @@
 [
     {
-        "s": "cơ quan nhà nước",
-        "v": "thực hiện",
-        "o": "đền bù"
+        "s": "cơ quan",
+        "v": "hòa giải",
+        "o": "các bên"
     },
     {
-        "s": "người",
-        "v": "thực hiện",
-        "o": "hành vi"
-    },
-    {
-        "s": "hành vi",
-        "v": "liên quan",
+        "s": "các bên",
+        "v": "tranh chấp",
         "o": "tài sản"
     },
     {
-        "s": "cơ quan nhà nước",
-        "v": "nhận",
-        "o": "thông tin"
+        "s": "bên",
+        "v": "sử dụng",
+        "o": "tài sản"
     },
     {
-        "s": "cơ quan nhà nước",
-        "v": "xác định",
-        "o": "khả năng kiểm tra"
+        "s": "bên",
+        "v": "khởi kiện",
+        "o": "cơ quan"
     },
     {
-        "s": "cơ quan nhà nước",
-        "v": "xác định",
-        "o": "khả năng xử phạt"
+        "s": "bên",
+        "v": "chuyển nhượng",
+        "o": "tài sản"
+    },
+    {
+        "s": "tài sản",
+        "v": "cho",
+        "o": "bên thứ ba"
     }
 ]

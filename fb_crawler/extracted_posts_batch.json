@@ -1,0 +1,494 @@
+{
+    "source_file": "./fb_crawler/crawled_posts.json",
+    "search_query": "luật hành chính",
+    "crawled_at": "2026-04-14T21:59:01.768165",
+    "total_posts_in_source": 167,
+    "processed_posts": 10,
+    "results": [
+        {
+            "post_id": 1,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:01.756361",
+            "original_content": "Em chào luật sư\nDạ luật sư cho em hỏi\nThuận tình ly hôn\nKo có con\nKo có tài sản\nKo có nợ\nDạ từ ngày đóng lệ phí 300k\nĐến ngày tòa giải huyết là bao lâu ạ\nVới ląi em còn đóng phí gì nữa ko ạ\nEm xin cảm ơn",
+            "normalized_text": "người nộp đơn yêu cầu cơ quan giải quyết thủ tục ly hôn thuận tình. xác định thời gian giải quyết thủ tục và các khoản phí liên quan.",
+            "target": "thời gian giải quyết thủ tục",
+            "triplets": [
+                {
+                    "s": "người",
+                    "v": "nộp",
+                    "o": "đơn"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "giải quyết",
+                    "o": "thủ tục"
+                },
+                {
+                    "s": "thủ tục",
+                    "v": "là",
+                    "o": "ly hôn"
+                },
+                {
+                    "s": "thủ tục",
+                    "v": "không có",
+                    "o": "con"
+                },
+                {
+                    "s": "thủ tục",
+                    "v": "không có",
+                    "o": "tài sản"
+                },
+                {
+                    "s": "thủ tục",
+                    "v": "không có",
+                    "o": "nợ"
+                },
+                {
+                    "s": "người",
+                    "v": "đóng",
+                    "o": "phí"
+                },
+                {
+                    "s": "phí",
+                    "v": "là",
+                    "o": "300k"
+                },
+                {
+                    "s": "thủ tục",
+                    "v": "cần",
+                    "o": "phí"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 2,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:01.756599",
+            "original_content": "Tình huống pháp luật vui như pháp luật là thật. law phân tích thật nếu là thật?\nAn bị bắt giam.\nCán bộ hỏi:\n- Tại sao anh bị bắt vào đây?.\n-  An nói: Tại em ăn trộm.\n- Cán bộ hỏi: ăn trộm gì?\n- An nói sợ dây.\n-Cán bộ hỏi sợ dây gì.\n- An nói sợ dây 3m.\n-Sợi dây 3m mà bị bắt. Sợ dây gì?\n- An nói dây thường. Nhưng cuối sợ dây có con bò.\nVậy an có bị tội trộm không? Vì an chỉ lấy sợi dây thôi mà.\nLAW  Phân tích:\nTình huống nêu ở đây rất hài hước và dí dỏm, nhưng ẩn sau câu chuyện vui đó là một vấn đề pháp lý thú vị về tội trộm cắp tài sản theo quy định của pháp luật.\nPhân tích pháp lý:\nAn nói rằng chỉ \"lấy sợi dây thường dài 3 mét\", nhưng cuối sợi dây... có con bò. Vậy câu hỏi đặt ra:\nAn chỉ có ý định lấy dây, hay thực chất là lấy cả bò?\nTheo luật hình sự Việt Nam (Điều 173 BLHS 2015, sửa đổi 2017):\n\"Người nào trộm cắp tài sản của người khác trị giá từ 2 triệu đồng trở lên hoặc dưới 2 triệu đồng nhưng thuộc các trường hợp nhất định... thì bị coi là phạm tội.\"\nTrong trường hợp này:\n• Nếu An lấy sợi dây nhưng biết rõ hoặc lường trước được rằng việc lấy dây sẽ kéo theo việc dắt bò đi, thì:\n•\nHành vi của An là trộm bò, chứ không phải chỉ trộm dây.\n• Nếu An cố tình viện lý do \"chỉ lấy dây\" để lấp liếm cho việc trộm bò thì không được miễn trách nhiệm hình sự.\n• Tài sản bị trộm là con bò, không phải cái dây. Cái dây chỉ là công cụ hoặc phần phụ đi kèm.\nVậy An có phạm tội không?\nCÓ, nếu:\n• An biết rõ con bò đang buộc vào dây, và khi dắt dây là cố ý lấy luôn cả bò → đủ yếu tố cấu thành tội trộm cắp tài sản.\n• Con bò có giá trị tài sản (thường vài triệu trở lên), là đủ điều kiện để xử lý hình sự.\nLaw kết luận dí dỏm tí nhé:\nAn nói: “Em chỉ lấy sợi dây thường thôi mà!”\nLaw : “Ờ, nhưng cái dây thường đó lại thường buộc... con bò!”\nNên dù em không muốn, tội nó vẫn \"buộc vào em\" như con bò bị buộc vào dây vậy!\nAi có câu truyện vui pháp lý cứ hỏi. Chỉ là tình huống thôi mà.\nLaw: 0919312102",
+            "normalized_text": "người bị bắt giam và khai báo về hành vi liên quan tài sản. xác định ý định của người trong việc lấy tài sản. phân tích tính hợp pháp của hành vi trộm cắp.",
+            "target": "tội trộm cắp",
+            "triplets": [
+                {
+                    "s": "người",
+                    "v": "bị",
+                    "o": "bắt giam"
+                },
+                {
+                    "s": "người",
+                    "v": "khai báo",
+                    "o": "hành vi"
+                },
+                {
+                    "s": "hành vi",
+                    "v": "liên quan",
+                    "o": "tài sản"
+                },
+                {
+                    "s": "người",
+                    "v": "có ý định",
+                    "o": "lấy tài sản"
+                },
+                {
+                    "s": "tài sản",
+                    "v": "bao gồm",
+                    "o": "con bò"
+                },
+                {
+                    "s": "tài sản",
+                    "v": "bao gồm",
+                    "o": "sợi dây"
+                },
+                {
+                    "s": "hành vi",
+                    "v": "đủ",
+                    "o": "yếu tố cấu thành tội"
+                },
+                {
+                    "s": "tài sản",
+                    "v": "có giá trị",
+                    "o": "đủ điều kiện xử lý"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 3,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:01.757017",
+            "original_content": "MẪU ĐƠN KHỞI KIỆN QUYẾT ĐỊNH HÀNH CHÍNH TRÁI PHÁP LUẬT\n(Áp dụng cho các trường hợp thu hồi đất sai, xử phạt vi phạm hành chính sai, cưỡng chế, cấp/thu hồi sổ đỏ, quyết định của UBND hoặc cơ quan Nhà nước không đúng quy định)\nSoạn theo Mẫu số 01-HC ban hành kèm Nghị quyết 02/2017/NQ-HĐTP của Hội đồng Thẩm phán TAND Tối cao.\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMm\nĐộc lập – Tự do – Hạnh phúc\nĐƠN KHỞI KIỆN.\n(V/v: Khiếu kiện quyết định hành chính, hành vi hành chính trái pháp luật)\nKính gửi: TÒA ÁN NHÂN DÂN ....................................................\n1. Người khởi kiện:\n• Họ và tên: .....................................................................................\n• Ngày, tháng, năm sinh: ...............................................................\n• Số CCCD/CMND: .................. Cấp ngày: ............... Nơi cấp: ..................\n• Địa chỉ thường trú: ........................................................................\n• Số điện thoại (nếu có): .................................................................\n• (Nếu là tổ chức): Tên cơ quan, doanh nghiệp, người đại diện theo pháp luật, chức vụ, địa chỉ trụ sở, mã số doanh nghiệp,...\n2. Người bị kiện:\n(Cơ quan hoặc người có thẩm quyền ban hành quyết định hành chính/hành vi hành chính bị kiện)\n• Tên cơ quan: ................................................................................\n• Người đại diện theo pháp luật: ....................................................\n• Chức vụ: .........................................................................................\n• Địa chỉ trụ sở: ................................................................................\n3. Người có quyền lợi, nghĩa vụ liên quan (nếu có):\n• Họ tên hoặc tên tổ chức: ..............................................................\n• Địa chỉ: .........................................................................................\n4. Nội dung khởi kiện:\nNgày … tháng … năm …, cơ quan/UBND ……… đã ban hành Quyết định số …/QĐ-… về việc … (ví dụ: thu hồi đất, xử phạt vi phạm hành chính, cưỡng chế công trình, không cấp sổ đỏ, …).\nTôi nhận thấy Quyết định/Hành vi hành chính này là trái pháp luật, cụ thể:\n• Ban hành không đúng thẩm quyền;\n• Không đúng trình tự, thủ tục quy định tại Luật Đất đai, Luật Xử lý vi phạm hành chính, Luật Tố tụng hành chính;\n• Nội dung quyết định sai sự thật, xâm phạm quyền, lợi ích hợp pháp của tôi.\nVí dụ:\n• Quyết định thu hồi đất khi chưa có phương án bồi thường, chưa đo đạc xác định ranh giới, chưa thông báo hợp lệ;\n• Quyết định xử phạt vi phạm hành chính sai đối tượng, không lập biên bản đúng trình tự;\n• Hành vi cưỡng chế, lập biên bản, tịch thu tài sản khi chưa có quyết định hợp pháp.\nTôi đã khiếu nại đến cơ quan ban hành quyết định nhưng không được giải quyết thỏa đáng / không được trả lời trong thời hạn luật định.\nDo đó, tôi làm đơn này khởi kiện đến Tòa án để yêu cầu xem xét, hủy bỏ quyết định/hành vi trái pháp luật nêu trên.\n5. Yêu cầu Tòa án giải quyết:\nHủy toàn bộ hoặc một phần Quyết định hành chính số …/QĐ-… ngày …/…/… của … về việc .............................................\nBuộc cơ quan/UBND … hoặc người có thẩm quyền phải:\n• Khôi phục lại quyền, lợi ích hợp pháp của tôi (ví dụ: giao trả lại đất, cấp lại giấy chứng nhận, hoàn trả tiền phạt,…).\n• Bồi thường thiệt hại do việc ban hành quyết định sai (nếu có).\nBuộc cơ quan/UBND … chịu án phí hành chính sơ thẩm theo quy định pháp luật.\n6. Tài liệu, chứng cứ kèm theo đơn:\n• Bản sao Quyết định hành chính bị kiện hoặc văn bản thể hiện hành vi hành chính (biên bản, thông báo, công văn...).\n• Giấy tờ chứng minh quyền lợi bị xâm phạm (Giấy chứng nhận QSDĐ, sổ đỏ, biên bản đo đạc, hình ảnh, video, biên bản làm việc, thư từ, v.v.).\n• Đơn khiếu nại, biên bản làm việc, quyết định giải quyết khiếu nại (nếu có).\n• Giấy tờ tùy thân của người khởi kiện (CMND/CCCD, sổ hộ khẩu).\n• Các chứng cứ khác có liên quan đến vụ việc.\nTôi cam kết toàn bộ nội dung trên là đúng sự thật và chịu trách nhiệm trước pháp luật.\nKính đề nghị Quý Tòa xem xét, thụ lý và giải quyết theo quy định pháp luật.\n..., ngày ... tháng ... năm 2025\nNgười khởi kiện\n(Ký, ghi rõ họ tên)\nLuật sư Nguyên Thạo- tư vấn pháp lý. Tham gia tố tụng.\nCall: 0919312102.\nEmail: co102.ipo@gmail.com\nHƯỚNG DẪN NỘP ĐƠN:\n• Nộp tại Tòa án nhân dân cấp tỉnh nơi cơ quan Nhà nước ban hành quyết định có trụ sở (đối với UBND cấp huyện trước đây. Nay cấp xã, hay sở, phòng...).\n• Nếu quyết định do UBND xã/phường ban hành, có thể nộp tại Tòa án nhân dân cấp huyện.\n• Kèm bản sao quyết định bị kiện, chứng cứ và biên nhận khiếu nại (nếu đã khiếu nại).\n• Thời hạn khởi kiện: 01 năm kể từ ngày nhận hoặc biết được quyết định/hành vi hành chính.",
+            "normalized_text": "người khởi kiện gửi đơn đến cơ quan có thẩm quyền yêu cầu xem xét quyết định hành chính. quyết định hành chính bị kiện có thể là thu hồi tài sản, xử phạt hành vi, cưỡng chế hành vi. người khởi kiện cho rằng quyết định hành chính này trái pháp luật, không đúng thẩm quyền, không đúng trình tự, xâm phạm quyền lợi. yêu cầu hủy bỏ quyết định hành chính và khôi phục quyền lợi hợp pháp.",
+            "target": "tính hợp pháp",
+            "triplets": [
+                {
+                    "s": "người khởi kiện",
+                    "v": "gửi",
+                    "o": "đơn"
+                },
+                {
+                    "s": "đơn",
+                    "v": "yêu cầu",
+                    "o": "xem xét"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "ban hành",
+                    "o": "quyết định"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "thu hồi",
+                    "o": "tài sản"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "xử phạt",
+                    "o": "hành vi"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "cưỡng chế",
+                    "o": "hành vi"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "trái",
+                    "o": "pháp luật"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "không đúng",
+                    "o": "thẩm quyền"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "không đúng",
+                    "o": "trình tự"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "xâm phạm",
+                    "o": "quyền lợi"
+                },
+                {
+                    "s": "người khởi kiện",
+                    "v": "yêu cầu",
+                    "o": "hủy bỏ"
+                },
+                {
+                    "s": "người khởi kiện",
+                    "v": "khôi phục",
+                    "o": "quyền lợi"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 4,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:01.757090",
+            "original_content": "Đất đang tranh chấp vậy mà xã vẫn xác nhận cấp sổ đỏ cho nhà hàng xóm.\nChuyện vô lý như vậy mà vẫn xảy ra liẹu có kiện được không?\nĐa số người tranh chấp sẽ lao vào kiện nhà hàng xóm, nhưng bạn cần hiểu. Thực tế hàng xóm chỉ là người thụ hưởng.\nCòn cơ quan cấp sổ sai quy trình mới là nơi nắm giữ chìa khóa để hủy bỏ cuốn sổ đó.\nLuật quy định đất đang có tranh chấp thì tuyệt đối không được cấp sổ. Vậy tại sao sổ vẫn ra.\nCó thể quy trình lấy ý kiến khu dân cư hoặc quy trình xác minh nguồn gốc đất ở xã đã bị bỏ qua. Thay vì tranh chấp dân sự kéo dài hãy xem xét việc khởi kiện hành chính để hủy quyết định cấp sổ sai trái. Khi cuốn sổ đỏ bị thu hồi quyền lợi của bạn tự động được khôi phục. Đất đai là tài sản cả đời. Đừng để sai sót của người khác tước đi quyền lợi của mình.\nNếu bạn bị mắt kẹt trong tình huống này hãy gửi hồ sơ cho luật Nguyên Thạo\nZalo 0919312102.",
+            "normalized_text": "cơ quan cấp giấy xác nhận tài sản đang có tranh chấp. cơ quan cấp giấy xác nhận sai quy trình. xác định tính hợp pháp của quyết định cấp giấy xác nhận. khởi kiện hành chính để hủy quyết định cấp giấy xác nhận sai trái.",
+            "target": "tính hợp pháp",
+            "triplets": [
+                {
+                    "s": "cơ quan",
+                    "v": "cấp",
+                    "o": "giấy xác nhận"
+                },
+                {
+                    "s": "giấy xác nhận",
+                    "v": "liên quan",
+                    "o": "tài sản"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "cấp",
+                    "o": "giấy xác nhận"
+                },
+                {
+                    "s": "giấy xác nhận",
+                    "v": "có",
+                    "o": "tính hợp pháp"
+                },
+                {
+                    "s": "quy trình",
+                    "v": "bị bỏ qua",
+                    "o": "giấy xác nhận"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "cần hủy",
+                    "o": "giấy xác nhận"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 5,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:01.757192",
+            "original_content": "Ông Nguyễn Thành được Công ty LA tuyển vào làm nhân viên kế toán từ ngày 01/03/2020 với thời gian thử việc 01 tháng. Hết thời gian thử việc, Công ty chính thức ký hợp đồng lao động với ông từ ngày 01/04/2020, thời hạn 1 năm. Đến ngày 01/04/2021 ông được tái ký hợp đồng lao động không xác định thời hạn. Ngày 30/03/2022 Công ty ra quyết định số 105/QĐ-LV thanh lý hợp đồng lao động đối với 89 nhân viên (trong đó có ông Thành) kể từ ngày 01/05/2022 với lý do tái cơ cấu doanh nghiệp. Thực tế, Công ty đã sáp nhập phòng tài chính kế toán và Phòng hành chính tổng hợp, đồng thời sắp xếp lại nhân sự ở một số phòng ban khác dẫn đến dôi dư 89 nhân viên. Vì Công ty chưa thành lập tổ chức công đoàn cơ sở nên công ty không thực hiện được phương án sử dụng lao động mà thay vào đó, công ty đã triệu tập toàn thể cán bộ, công nhân viên trong Công ty để giải đáp mọi thắc mắc liên quan đến quyết định số 105/ADD-LV. Ngày 11/04/2022 Công ty ra quyết định số 206-3/QĐ-LV chấm dứt hợp đồng lao động với ông Thành và những người lao động dôi dư kể từ ngày 01/05/2022.\nÔng Thành cho rằng Công ty đã cho ông thôi việc không tuân thủ đúng trình tự, thủ tục luật định. Ngày 15/11/2022. Ông làm đơn yêu cầu Tòa án giải quyết buộc Công ty nhận ông trở lại làm việc, bồi thường lương những ngày ông không được làm việc từ ngày 01/05/2015 cho đến khi Công ty nhận ông trở lại làm việc cộng với 02 tháng lương theo quy định của pháp luật.\nCÂU HỎI:\n1. Công ty chấm dứt hợp đồng với ông Thành trong trường hợp trên đúng hay sai? Tại sao?\n2. Các yêu cầu của ông Thành trong trường hợp trên có căn cứ pháp lý ko? Tại sao?\n3. Quyền lợi của ông Thành trong trường hợp trên được giải quyết như thế nào?",
+            "normalized_text": "công ty chấm dứt hợp đồng lao động với người trong trường hợp tái cơ cấu doanh nghiệp. người yêu cầu tòa án giải quyết buộc công ty nhận lại làm việc và bồi thường lương. xác định tính hợp pháp của quyết định chấm dứt hợp đồng.",
+            "target": "tính hợp pháp",
+            "triplets": [
+                {
+                    "s": "công ty",
+                    "v": "chấm dứt",
+                    "o": "hợp đồng lao động"
+                },
+                {
+                    "s": "công ty",
+                    "v": "triệu tập",
+                    "o": "cán bộ"
+                },
+                {
+                    "s": "người",
+                    "v": "yêu cầu",
+                    "o": "tòa án"
+                },
+                {
+                    "s": "tòa án",
+                    "v": "giải quyết",
+                    "o": "yêu cầu"
+                },
+                {
+                    "s": "người",
+                    "v": "được",
+                    "o": "bồi thường"
+                },
+                {
+                    "s": "quyền lợi",
+                    "v": "được giải quyết",
+                    "o": "căn cứ pháp lý"
+                },
+                {
+                    "s": "quyết định",
+                    "v": "có",
+                    "o": "tính hợp pháp"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 6,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:01.757383",
+            "original_content": "Anh chị quan tâm vụ án ly hôn tham khảo:\nQuy trình tố tụng án hôn nhân và gia đình (đối với vụ án ly hôn đơn phương) gồm các bước chính sau:\n1. Chuẩn bị hồ sơ khởi kiện:\nĐơn khởi kiện ly hôn (theo mẫu của Tòa án).\nGiấy chứng nhận kết hôn (bản chính). Nếu mất, có thể xin trích lục.\nCMND/CCCD và hộ khẩu (bản sao công chứng) của hai vợ chồng.\nGiấy khai sinh của con (nếu có con chung).\nTài liệu chứng minh tài sản chung (nếu yêu cầu chia tài sản).\nChứng cứ chứng minh lý do ly hôn (ví dụ: hành vi ngoại tình, bạo lực gia đình, không thực hiện nghĩa vụ nuôi con...).\n2. Nộp hồ sơ khởi kiện\nNộp tại Tòa án nhân dân cấp huyện nơi bị đơn (chồng) cư trú hoặc làm việc.\nNếu không biết nơi cư trú của bị đơn, có thể nộp tại Tòa án nơi nguyên đơn (vợ) cư trú theo quy định pháp luật\n3. Thụ lý vụ án\nSau khi nhận đơn, Tòa án sẽ xem xét hồ sơ trong vòng 8 ngày làm việc.\nNếu hồ sơ hợp lệ, Tòa án ra thông báo nộp án phí tạm ứng (khoảng 300.000 đồng).\nSau khi người khởi kiện nộp án phí và nộp biên lai cho Tòa, Tòa án sẽ ra quyết định thụ lý vụ án.\n4. Hòa giải tại Tòa án\nTòa án tiến hành hòa giải trong vòng 4 tháng kể từ ngày thụ lý (có thể gia hạn 2 tháng).\nNếu hòa giải không thành hoặc bị đơn vắng mặt không lý do, Tòa án sẽ đưa vụ án ra xét xử.\n5. Xét xử sơ thẩm\nPhiên tòa sơ thẩm được mở để xét xử vụ án.\nNếu một bên không đồng ý với bản án sơ thẩm, có quyền kháng cáo trong 15 ngày kể từ ngày tuyên án.\n6. Xét xử phúc thẩm (nếu có)\nTòa án cấp tỉnh sẽ xét xử phúc thẩm nếu có đơn kháng cáo hợp lệ.\nBản án phúc thẩm là chung thẩm, có hiệu lực thi hành ngay.\nLưu ý:\nTrường hợp bị đơn cố tình tránh mặt hoặc không hợp tác, Tòa án vẫn có thể giải quyết vắng mặt theo quy định.\nNếu có tranh chấp về quyền nuôi con và tài sản, Tòa sẽ xem xét dựa trên lợi ích tốt nhất cho con và công sức đóng góp của các bên.\nNếu bạn cần hỗ trợ chi tiết hơn về cách viết đơn ly hôn hoặc quy trình cụ thể trong trường hợp của bạn, mình có thể giúp!\nLh 0919312102",
+            "normalized_text": "cơ quan tiếp nhận hồ sơ khởi kiện liên quan đến vụ án hôn nhân và gia đình. cơ quan xem xét hồ sơ và ra thông báo về án phí. cơ quan tiến hành hòa giải và xét xử vụ án. xác định quyền nuôi con và tài sản dựa trên lợi ích tốt nhất.",
+            "target": "quy trình tố tụng",
+            "triplets": [
+                {
+                    "s": "cơ quan",
+                    "v": "tiếp nhận",
+                    "o": "hồ sơ"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "xem xét",
+                    "o": "hồ sơ"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "ra",
+                    "o": "thông báo"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "tiến hành",
+                    "o": "hòa giải"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "xét xử",
+                    "o": "vụ án"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "xác định",
+                    "o": "quyền nuôi con"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "xác định",
+                    "o": "tài sản"
+                },
+                {
+                    "s": "quyền nuôi con",
+                    "v": "dựa trên",
+                    "o": "lợi ích"
+                },
+                {
+                    "s": "tài sản",
+                    "v": "dựa trên",
+                    "o": "công sức"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 7,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:01.757803",
+            "original_content": "10\nMẪU ĐƠN KHỞI KIỆN QUYẾT ĐỊNH HÀNH CHÍNH TRÁI PHÁP LUẬT\n(Áp dụng cho các trường hợp thu hồi đất sai, xử phạt vi phạm hành chính sai, cưỡng chế, cấp/thu hồi sổ đỏ, quyết định của UBND hoặc cơ quan Nhà nước không đúng quy định)\nSoạn theo Mẫu số 01-HC ban hành kèm Nghị quyết 02/2017/NQ-HĐTP của Hội đồng Thẩm phán TAND Tối cao.\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMm\nĐộc lập – Tự do – Hạnh phúc\nĐƠN KHỞI KIỆN.\n(V/v: Khiếu kiện quyết định hành chính, hành vi hành chính trái pháp luật)\nKính gửi: TÒA ÁN NHÂN DÂN ....................................................\n1. Người khởi kiện:\n• Họ và tên: .....................................................................................\n• Ngày, tháng, năm sinh: ...............................................................\n• Số CCCD/CMND: .................. Cấp ngày: ............... Nơi cấp: ..................\n• Địa chỉ thường trú: ........................................................................\n• Số điện thoại (nếu có): .................................................................\n• (Nếu là tổ chức): Tên cơ quan, doanh nghiệp, người đại diện theo pháp luật, chức vụ, địa chỉ trụ sở, mã số doanh nghiệp,...\n2. Người bị kiện:\n(Cơ quan hoặc người có thẩm quyền ban hành quyết định hành chính/hành vi hành chính bị kiện)\n• Tên cơ quan: ................................................................................\n• Người đại diện theo pháp luật: ....................................................\n• Chức vụ: .........................................................................................\n• Địa chỉ trụ sở: ................................................................................\n3. Người có quyền lợi, nghĩa vụ liên quan (nếu có):\n• Họ tên hoặc tên tổ chức: ..............................................................\n• Địa chỉ: .........................................................................................\n4. Nội dung khởi kiện:\nNgày … tháng … năm …, cơ quan/UBND ……… đã ban hành Quyết định số …/QĐ-… về việc … (ví dụ: thu hồi đất, xử phạt vi phạm hành chính, cưỡng chế công trình, không cấp sổ đỏ, …).\nTôi nhận thấy Quyết định/Hành vi hành chính này là trái pháp luật, cụ thể:\n• Ban hành không đúng thẩm quyền;\n• Không đúng trình tự, thủ tục quy định tại Luật Đất đai, Luật Xử lý vi phạm hành chính, Luật Tố tụng hành chính;\n• Nội dung quyết định sai sự thật, xâm phạm quyền, lợi ích hợp pháp của tôi.\nVí dụ:\n• Quyết định thu hồi đất khi chưa có phương án bồi thường, chưa đo đạc xác định ranh giới, chưa thông báo hợp lệ;\n• Quyết định xử phạt vi phạm hành chính sai đối tượng, không lập biên bản đúng trình tự;\n• Hành vi cưỡng chế, lập biên bản, tịch thu tài sản khi chưa có quyết định hợp pháp.\nTôi đã khiếu nại đến cơ quan ban hành quyết định nhưng không được giải quyết thỏa đáng / không được trả lời trong thời hạn luật định.\nDo đó, tôi làm đơn này khởi kiện đến Tòa án để yêu cầu xem xét, hủy bỏ quyết định/hành vi trái pháp luật nêu trên.\n5. Yêu cầu Tòa án giải quyết:\nHủy toàn bộ hoặc một phần Quyết định hành chính số …/QĐ-… ngày …/…/… của … về việc .............................................\nBuộc cơ quan/UBND … hoặc người có thẩm quyền phải:\n• Khôi phục lại quyền, lợi ích hợp pháp của tôi (ví dụ: giao trả lại đất, cấp lại giấy chứng nhận, hoàn trả tiền phạt,…).\n• Bồi thường thiệt hại do việc ban hành quyết định sai (nếu có).\nBuộc cơ quan/UBND … chịu án phí hành chính sơ thẩm theo quy định pháp luật.\n6. Tài liệu, chứng cứ kèm theo đơn:\n• Bản sao Quyết định hành chính bị kiện hoặc văn bản thể hiện hành vi hành chính (biên bản, thông báo, công văn...).\n• Giấy tờ chứng minh quyền lợi bị xâm phạm (Giấy chứng nhận QSDĐ, sổ đỏ, biên bản đo đạc, hình ảnh, video, biên bản làm việc, thư từ, v.v.).\n• Đơn khiếu nại, biên bản làm việc, quyết định giải quyết khiếu nại (nếu có).\n• Giấy tờ tùy thân của người khởi kiện (CMND/CCCD, sổ hộ khẩu).\n• Các chứng cứ khác có liên quan đến vụ việc.\nTôi cam kết toàn bộ nội dung trên là đúng sự thật và chịu trách nhiệm trước pháp luật.\nKính đề nghị Quý Tòa xem xét, thụ lý và giải quyết theo quy định pháp luật.\n..., ngày ... tháng ... năm 2025\nNgười khởi kiện\n(Ký, ghi rõ họ tên)\nLuật sư Nguyên Thạo- tư vấn pháp lý. Tham gia tố tụng.\nCall: 0919312102.\nEmail: co102.ipo@gmail.com\nHƯỚNG DẪN NỘP ĐƠN:\n• Nộp tại Tòa án nhân dân cấp tỉnh nơi cơ quan Nhà nước ban hành quyết định có trụ sở (đối với UBND cấp huyện trước đây. Nay cấp xã, hay sở, phòng...).\n• Nếu quyết định do UBND xã/phường ban hành, có thể nộp tại Tòa án nhân dân cấp huyện.\n• Kèm bản sao quyết định bị kiện, chứng cứ và biên nhận khiếu nại (nếu đã khiếu nại).\n• Thời hạn khởi kiện: 01 năm kể từ ngày nhận hoặc biết được quyết định/hành vi hành chính.",
+            "normalized_text": "người khởi kiện gửi đơn đến cơ quan có thẩm quyền yêu cầu xem xét quyết định hành chính. quyết định hành chính bị kiện có thể là trái pháp luật. người khởi kiện yêu cầu hủy bỏ quyết định hành chính và khôi phục quyền lợi hợp pháp.",
+            "target": "tính hợp pháp",
+            "triplets": [
+                {
+                    "s": "người khởi kiện",
+                    "v": "gửi",
+                    "o": "đơn"
+                },
+                {
+                    "s": "đơn",
+                    "v": "yêu cầu",
+                    "o": "cơ quan"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "xem xét",
+                    "o": "quyết định hành chính"
+                },
+                {
+                    "s": "quyết định hành chính",
+                    "v": "bị kiện",
+                    "o": "trái pháp luật"
+                },
+                {
+                    "s": "người khởi kiện",
+                    "v": "yêu cầu",
+                    "o": "hủy bỏ quyết định hành chính"
+                },
+                {
+                    "s": "người khởi kiện",
+                    "v": "khôi phục",
+                    "o": "quyền lợi hợp pháp"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 8,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:31.130299",
+            "original_content": "17\nCác mẫu đơn khởi kiện:\nHiện nay pháp luật Việt Nam không có một con số cố định về “bao nhiêu mẫu đơn khởi kiện” vì tùy loại vụ việc (dân sự, hình sự, hành chính, lao động, hôn nhân gia đình, đất đai, kinh doanh thương mại...) mà nội dung và hình thức đơn khởi kiện khác nhau.\nTuy nhiên, có các nhóm chính sau:\n1. Mẫu đơn khởi kiện theo Bộ luật Tố tụng Dân sự hiện hành.\n• Mẫu số 23-DS: Đơn khởi kiện (ban hành theo Nghị quyết 01/2017/NQ-HĐTP)\nÁp dụng cho tất cả các vụ án dân sự, hôn nhân gia đình, kinh doanh thương mại, lao động...\n2. Mẫu đơn khởi kiện vụ án hành chính\n• Mẫu số 01-HC: Đơn khởi kiện hành chính\nTheo Nghị quyết 02/2017/NQ-HĐTP, dùng để kiện quyết định hành chính, hành vi hành chính của cơ quan Nhà nước, cán bộ công chức.\n3. Các mẫu đơn chuyên biệt theo từng lĩnh vực\nDựa trên Mẫu số 23-DS hoặc 01-HC nhưng được chỉnh sửa nội dung phù hợp:\n• Đơn khởi kiện tranh chấp đất đai\n• Đơn khởi kiện chia di sản thừa kế\n• Đơn khởi kiện vi phạm hợp đồng đặt cọc / mua bán\n• Đơn khởi kiện ly hôn (đơn phương)\n• Đơn khởi kiện đòi nợ / vay mượn tài sản\n• Đơn khởi kiện bồi thường thiệt hại\n• Đơn khởi kiện tranh chấp hợp đồng lao động\n• Đơn khởi kiện đòi quyền nuôi con / cấp dưỡng\n• Đơn khởi kiện doanh nghiệp / công ty vi phạm nghĩa vụ\n• Đơn khởi kiện quyết định hành chính sai trái (thu hồi đất, xử phạt,...)\nTóm lại:\n• Chính thức theo pháp luật: có 2 mẫu chuẩn. (Mẫu 23-DS và Mẫu 01-HC) do Tòa án Nhân dân Tối cao ban hành.\n• Thực tế sử dụng: có hàng chục mẫu khởi kiện tùy nội dung vụ việc, nhưng đều dựa trên 2 mẫu chuẩn trên. ls gửi đúng mẫu đơn khởi kiện chuẩn, điền sẵn phần nội dung và căn cứ pháp luật cho bạn ngay.\nBạn muốn mình soạn mẫu khởi kiện về loại vụ việc nào?\nLiên hệ zalo để lấy mẫu và hướng dẫn 0919312102",
+            "normalized_text": "cơ quan không có con số cố định về mẫu đơn khởi kiện vì tùy loại vụ việc mà nội dung và hình thức khác nhau. có các nhóm chính về mẫu đơn khởi kiện theo quy định pháp luật. xác định loại vụ việc cần mẫu đơn khởi kiện.",
+            "target": "mẫu đơn khởi kiện",
+            "triplets": [
+                {
+                    "s": "cơ quan",
+                    "v": "không có",
+                    "o": "con số"
+                },
+                {
+                    "s": "mẫu đơn khởi kiện",
+                    "v": "tùy thuộc",
+                    "o": "loại vụ việc"
+                },
+                {
+                    "s": "mẫu đơn khởi kiện",
+                    "v": "có",
+                    "o": "nhóm chính"
+                },
+                {
+                    "s": "nhóm chính",
+                    "v": "bao gồm",
+                    "o": "mẫu đơn khởi kiện"
+                },
+                {
+                    "s": "mẫu đơn khởi kiện",
+                    "v": "theo",
+                    "o": "quy định pháp luật"
+                },
+                {
+                    "s": "loại vụ việc",
+                    "v": "cần",
+                    "o": "mẫu đơn khởi kiện"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 9,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:31.130449",
+            "original_content": "[TÌM CƠ HỘI VIỆC LÀM – HÀNH CHÍNH / PHÁP LÝ / NHÂN SỰ]\nEm chào anh/chị và mọi người trong group,\nEm là sinh viên chuyên ngành Luật của Trường đại học Luật TPHCM, hiện em đã hoàn thành chương trình học. Trong quá trình học tập và làm việc, em đã có cơ hội thực tập tại cơ quan nhà nước, doanh nghiệp, đồng thời có kinh nghiệm làm việc tại văn phòng luật sư.\nCông việc em đã từng hỗ trợ gồm:\nSoạn thảo, rà soát hợp đồng và hồ sơ pháp lý\nQuản lý, lưu trữ, sắp xếp hồ sơ nội bộ\nHỗ trợ công tác hành chính – nhân sự (soạn quy chế, quy trình, hồ sơ nhân sự)\nNghiên cứu quy định pháp luật, lập báo cáo, hỗ trợ tư vấn pháp lý cơ bản\nHỗ trợ tiếp nhận khách hàng, chuẩn bị hồ sơ và công việc văn phòng tại văn phòng luật sư\nThực hiện một số công việc liên quan đến hồ sơ đất đai, dân sự và thủ tục hành chính\nEm có ưu điểm là cẩn thận, trung thực, có trách nhiệm trong công việc; sử dụng thành thạo Word, Excel, PowerPoint và luôn sẵn sàng học hỏi để nâng cao kỹ năng chuyên môn.\nHiện em đang tìm cơ hội làm việc ở vị trí nhân viên pháp lý / hành chính / nhân sự tại Đồng Tháp, ưu tiên khu vực Cai Lậy (Đồng Tháp mới).\nAnh/chị hoặc đơn vị nào đang có nhu cầu tuyển dụng hoặc biết vị trí phù hợp, em rất mong có cơ hội được kết nối và trao đổi thêm. Anh/chị có thể comment bên dưới, em sẽ chủ động liên hệ và gửi CV ạ.\nEm cảm ơn anh/chị đã đọc bài và hy vọng có cơ hội hợp tác trong thời gian tới",
+            "normalized_text": "người tìm kiếm cơ hội làm việc ở vị trí liên quan đến hành chính, pháp lý, nhân sự. người có kinh nghiệm thực tập tại cơ quan, doanh nghiệp và văn phòng luật sư. người có kỹ năng soạn thảo, rà soát hợp đồng, quản lý hồ sơ, hỗ trợ công tác hành chính, nghiên cứu quy định pháp luật, và tiếp nhận khách hàng.",
+            "target": "cơ hội làm việc",
+            "triplets": [
+                {
+                    "s": "người",
+                    "v": "tìm kiếm",
+                    "o": "cơ hội"
+                },
+                {
+                    "s": "người",
+                    "v": "có",
+                    "o": "kinh nghiệm"
+                },
+                {
+                    "s": "người",
+                    "v": "hỗ trợ",
+                    "o": "công tác"
+                },
+                {
+                    "s": "người",
+                    "v": "sử dụng",
+                    "o": "kỹ năng"
+                },
+                {
+                    "s": "người",
+                    "v": "mong muốn",
+                    "o": "kết nối"
+                }
+            ],
+            "status": "success"
+        },
+        {
+            "post_id": 10,
+            "source_url": "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+            "crawled_at": "2026-04-14T21:48:31.130604",
+            "original_content": "Bạn Giang Kim Thủy. Giá Rai - Bạc Liêu hỏi\nSau khi giải tỏa huyện. Xác nhập xã. Chính quyền địa phương 2 cấp. Vậy mọi thông tin các nhân. Giấy tờ tùy thân có bắt buộc làm lại không?\nTrả lời bạn như sau:\nKhi có giải tỏa, sáp nhập xã/huyện và thay đổi địa giới hành chính, thì người dân KHÔNG bắt buộc phải làm lại toàn bộ giấy tờ tùy thân như CMND/CCCD, sổ hộ khẩu, giấy khai sinh, v.v.\nTuy nhiên, sẽ có một số trường hợp cụ thể cần lưu ý:\n1. Chứng minh nhân dân / Căn cước công dân:\n• Nếu bạn đang dùng CMND 9 số thì nên đổi sang CCCD gắn chip, không bắt buộc do sáp nhập, mà do chính sách chung.\n• Nếu bạn đang dùng CCCD gắn chip, thì không cần làm lại chỉ vì lý do sáp nhập xã/huyện. Địa chỉ mới sẽ được cập nhật trong cơ sở dữ liệu dân cư quốc gia.\n2. Hộ khẩu và thông tin thường trú:\n• Từ 1/7/2021, sổ hộ khẩu giấy đã bị hủy giá trị pháp lý.\n• Thông tin hộ khẩu đã được số hóa, nên khi địa phương có sáp nhập:\n• Cơ quan quản lý sẽ tự động cập nhật địa chỉ mới trong hệ thống cơ sở dữ liệu quốc gia.\n• Bạn không cần phải xin cấp lại sổ hộ khẩu hay đi điều chỉnh gì cả, trừ khi bạn muốn làm lại giấy tờ có ghi địa chỉ mới (xem phần 3).\n3. Giấy tờ có ghi địa chỉ cũ (trước khi sáp nhập):\n• Các giấy tờ như: giấy khai sinh, giấy đăng ký kết hôn, bằng cấp, giấy tờ nhà đất… nếu có ghi địa chỉ cũ (tên xã/huyện trước sáp nhập), vẫn có giá trị pháp lý bình thường.\n• Bạn không cần phải đi điều chỉnh lại trừ khi có yêu cầu cụ thể từ một cơ quan hoặc bạn muốn thống nhất thông tin.\n4. Khi nào cần cập nhật thông tin mới:\n• Khi bạn mua bán nhà đất, làm hồ sơ vay ngân hàng, hoặc thực hiện thủ tục hành chính yêu cầu địa chỉ mới.\n• Khi muốn cập nhật địa chỉ trên CCCD hoặc giấy tờ cá nhân cho đồng bộ (không bắt buộc, nhưng nên làm để thuận tiện).\nLiên hệ: 0919312102",
+            "normalized_text": "cơ quan thực hiện giải tỏa và sáp nhập xã. người dân không bắt buộc làm lại giấy tờ tùy thân. một số trường hợp cần lưu ý về giấy tờ có ghi địa chỉ cũ. xác định khi nào cần cập nhật thông tin mới.",
+            "target": "cần cập nhật thông tin mới",
+            "triplets": [
+                {
+                    "s": "cơ quan",
+                    "v": "thực hiện",
+                    "o": "giải tỏa"
+                },
+                {
+                    "s": "cơ quan",
+                    "v": "thực hiện",
+                    "o": "sáp nhập"
+                },
+                {
+                    "s": "người dân",
+                    "v": "không bắt buộc",
+                    "o": "giấy tờ"
+                },
+                {
+                    "s": "giấy tờ",
+                    "v": "có",
+                    "o": "giá trị pháp lý"
+                },
+                {
+                    "s": "giấy tờ",
+                    "v": "cần cập nhật",
+                    "o": "thông tin mới"
+                },
+                {
+                    "s": "giấy tờ",
+                    "v": "ghi",
+                    "o": "địa chỉ cũ"
+                },
+                {
+                    "s": "người dân",
+                    "v": "cần",
+                    "o": "cập nhật thông tin"
+                }
+            ],
+            "status": "success"
+        }
+    ]
+}
