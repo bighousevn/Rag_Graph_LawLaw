@@ -1,32 +1,17 @@
 [
     {
-        "s": "cơ quan",
-        "v": "hòa giải",
-        "o": "các bên"
+        "s": "Cơ quan",
+        "v": "xử phạt",
+        "o": "Hành vi"
     },
     {
-        "s": "các bên",
-        "v": "tranh chấp",
-        "o": "tài sản"
+        "s": "Cơ quan",
+        "v": "xử phạt",
+        "o": "Hình phạt"
     },
     {
-        "s": "bên",
-        "v": "sử dụng",
-        "o": "tài sản"
-    },
-    {
-        "s": "bên",
-        "v": "khởi kiện",
-        "o": "cơ quan"
-    },
-    {
-        "s": "bên",
-        "v": "chuyển nhượng",
-        "o": "tài sản"
-    },
-    {
-        "s": "tài sản",
-        "v": "cho",
-        "o": "bên thứ ba"
+        "s": "người có thẩm quyền",
+        "v": "xử phạt",
+        "o": "Hành vi"
     }
 ]

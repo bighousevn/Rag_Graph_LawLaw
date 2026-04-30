@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 1. Load dữ liệu từ file JSON
-with open("./version_3/2_entitites_per_chunk.json", "r", encoding="utf-8") as file:
+with open("./version_3/2_final_graph.json", "r", encoding="utf-8") as file:
     json_data = json.load(file)
 
 # --- XỬ LÝ DATA TRONG PYTHON TRƯỚC ---

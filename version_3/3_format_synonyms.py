@@ -44,7 +44,7 @@ def format_synonyms(graph_data):
     return synonyms_output
 
 def main():
-    input_file = './version_3/2_entitites_per_chunk.json'
+    input_file = './version_3/2_final_graph.json'
     output_file = './version_3/4_synonyms_formatted.json'
 
     os.makedirs(os.path.dirname(output_file), exist_ok=True)

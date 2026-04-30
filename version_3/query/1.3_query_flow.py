@@ -1,11 +1,13 @@
 """
-Query Flow Pipeline (Steps 3 → 4 → 5)
---------------------------------------
-Input   : ./version_3/query/3_triplets_with_vectors.json
-          (Chứa danh sách các triplet, mỗi S, V, O có sẵn trường "name" và "vector")
+Query Flow Pipeline
+-------------------
+Input   : ./version_3/query/1.3_triplets_with_nested_vectors.json
+          (Danh sách triplet câu hỏi, mỗi S/V/O có "name" và "vector")
 Process :
-          - Step 3: MongoDB Vector Search cho từng thành phần (s, v, o) để tìm candidate IDs.
-          - Step 4: Lọc Strict Triplet từ đồ thị (edge thuộc V, source thuộc S, target thuộc O).
+          - Với từng triplet câu hỏi, vector search riêng S, V, O để lấy candidate IDs.
+          - Dùng graph local để lấy edge data đầy đủ, gồm source/target/listSectionId.
+          - Lọc strict: edge thuộc V candidates, source thuộc S candidates,
+            target thuộc O candidates.
 Output  : ./version_3/query/5_filtered_triplets.json
 """
 
@@ -21,7 +23,7 @@ load_dotenv()
 BASE             = "./version_3"
 TRIPLETS_IN      = f"{BASE}/query/1.3_triplets_with_nested_vectors.json"  # File User cung cấp
 FILTERED_OUT     = f"{BASE}/query/5_filtered_triplets.json"
-GRAPH_FILE       = f"{BASE}/2_entities_per_chunk.json"
+GRAPH_FILE       = f"{BASE}/2_final_graph.json"
 
 # ── MONGODB CONFIG ───────────────────────────────────────────────────
 MONGO_URI            = os.getenv("MONGO_URI", "").strip()
@@ -29,12 +31,30 @@ DB_NAME              = os.getenv("MONGO_DB_NAME", "vectorDB").strip()
 COLLECTION_NAME      = os.getenv("MONGO_COLLECTION_NAME", "vector_entities").strip()
 VECTOR_INDEX_NAME    = os.getenv("MONGO_VECTOR_INDEX_NAME", "vector_index").strip()
 VECTOR_FIELD_PATH    = os.getenv("MONGO_VECTOR_FIELD_PATH", "vector").strip()
-SCORE_THRESHOLD      = 0.85
+SCORE_THRESHOLD      = float(os.getenv("MONGO_VECTOR_SCORE_THRESHOLD", "0.85"))
+SEARCH_LIMIT         = int(os.getenv("MONGO_VECTOR_SEARCH_LIMIT", "20"))
+NUM_CANDIDATES       = int(os.getenv("MONGO_VECTOR_NUM_CANDIDATES", "100"))
 
-def mongo_vector_search(db_collection, query_vector, limit=20) -> set:
-    """Trả về tập hợp các entityId khớp với vector query (> SCORE_THRESHOLD)."""
+def load_graph(graph_file):
+    with open(graph_file, "r", encoding="utf-8") as f:
+        raw_graph = json.load(f)
+
+    graph_data = raw_graph[0] if isinstance(raw_graph, list) and raw_graph else raw_graph
+    if not isinstance(graph_data, dict):
+        raise ValueError(f"Graph file không đúng định dạng: {graph_file}")
+
+    nodes = graph_data.get("nodes", [])
+    edges = graph_data.get("relationships", [])
+
+    nodes_by_id = {node["id"]: node for node in nodes if node.get("id")}
+    edges_by_id = {edge["id"]: edge for edge in edges if edge.get("id")}
+
+    return graph_data, nodes_by_id, edges_by_id
+
+def mongo_vector_search(db_collection, query_vector, limit=SEARCH_LIMIT) -> dict:
+    """Trả về dict entityId -> metadata khớp vector query (> SCORE_THRESHOLD)."""
     if not query_vector:
-        return set()
+        return {}
 
     pipeline = [
         {
@@ -42,13 +62,16 @@ def mongo_vector_search(db_collection, query_vector, limit=20) -> set:
                 "index": VECTOR_INDEX_NAME,
                 "path": VECTOR_FIELD_PATH,
                 "queryVector": query_vector,
-                "numCandidates": 100,
+                "numCandidates": NUM_CANDIDATES,
                 "limit": limit
             }
         },
         {
             "$project": {
+                "_id": 0,
                 "entityId": 1,
+                "entityName": 1,
+                "synonym": 1,
                 "score": {"$meta": "vectorSearchScore"}
             }
         },
@@ -59,14 +82,79 @@ def mongo_vector_search(db_collection, query_vector, limit=20) -> set:
 
     try:
         matches = list(db_collection.aggregate(pipeline))
-        return {m["entityId"] for m in matches}
+        candidates = {}
+        for match in matches:
+            entity_id = match.get("entityId")
+            if not entity_id:
+                continue
+
+            current = candidates.get(entity_id)
+            if current is None or match.get("score", 0) > current.get("score", 0):
+                candidates[entity_id] = match
+
+        return candidates
     except Exception as e:
         print(f"Lỗi truy vấn MongoDB: {e}")
-        return set()
+        return {}
+
+def candidate_ids(candidates):
+    return set(candidates.keys())
+
+def compact_candidate(candidate, graph_item=None):
+    data = {
+        "id": candidate.get("entityId"),
+        "entityName": candidate.get("entityName"),
+        "synonym": candidate.get("synonym"),
+        "score": candidate.get("score"),
+    }
+
+    if graph_item:
+        data["graphName"] = graph_item.get("name")
+
+    return data
+
+def build_matched_triplet_record(query_triplet, edge, source_node, target_node, s_match, v_match, o_match):
+    return {
+        "query_triplet": {
+            "s": query_triplet.get("s", {}).get("name", ""),
+            "v": query_triplet.get("v", {}).get("name", ""),
+            "o": query_triplet.get("o", {}).get("name", ""),
+        },
+        "matched_triplet": {
+            "s": {
+                "id": source_node.get("id"),
+                "name": source_node.get("name"),
+            },
+            "v": {
+                "id": edge.get("id"),
+                "name": edge.get("name"),
+                "source": edge.get("source"),
+                "target": edge.get("target"),
+                "listSectionId": edge.get("listSectionId", []),
+            },
+            "o": {
+                "id": target_node.get("id"),
+                "name": target_node.get("name"),
+            },
+        },
+        "match_scores": {
+            "s": s_match.get("score"),
+            "v": v_match.get("score"),
+            "o": o_match.get("score"),
+        },
+        "matched_by": {
+            "s": compact_candidate(s_match, source_node),
+            "v": compact_candidate(v_match, edge),
+            "o": compact_candidate(o_match, target_node),
+        },
+        "edge": edge,
+        "source_node": source_node,
+        "target_node": target_node,
+    }
 
 def run_pipeline():
     print("="*70)
-    print("🚀 QUERY FLOW PIPELINE — STEPS 3 & 4 (FROM VECTOR TRIPLETS)")
+    print("🚀 QUERY FLOW PIPELINE — MATCH QUESTION TRIPLETS TO GRAPH TRIPLETS")
     print("="*70)
 
     # 1. KIỂM TRA FILE ĐẦU VÀO
@@ -89,19 +177,24 @@ def run_pipeline():
     db = client[DB_NAME]
     collection = db[COLLECTION_NAME]
 
-    # --- STEP 3 & 4: MONGODB SEARCH TRÊN TỪNG THÀNH PHẦN & LỌC TRIPLETS ---
-    print("\n📌 STEP 3 & 4 — VECTOR SEARCH VÀ LỌC ĐỒ THỊ GỐC")
-
-    with open(GRAPH_FILE, "r", encoding="utf-8") as f:
-        raw_graph = json.load(f)
-    graph_data = raw_graph[0] if isinstance(raw_graph, list) and raw_graph else raw_graph
+    print("\n📌 Nạp graph local để lấy edge data đầy đủ")
+    try:
+        graph_data, all_nodes, all_edges_by_id = load_graph(GRAPH_FILE)
+    except Exception as e:
+        print(f"❌ Không nạp được graph: {e}")
+        return
 
     all_edges = graph_data.get("relationships", [])
-    all_nodes = {n["id"]: n for n in graph_data.get("nodes", [])}
+    print(f"   => Graph: {len(all_nodes)} nodes | {len(all_edges)} edges")
+
+    # --- VECTOR SEARCH TRÊN TỪNG THÀNH PHẦN & LỌC TRIPLETS ---
+    print("\n📌 VECTOR SEARCH VÀ LỌC STRICT TRIPLET")
 
     valid_edges = []
     valid_node_ids = set()
     section_ids = set()
+    matched_triplets = []
+    matched_triplets_by_query = []
 
     for i, t in enumerate(input_triplets):
         print(f"\n▶ Xử lý Triplet #{i+1}:")
@@ -109,47 +202,78 @@ def run_pipeline():
         v_obj = t.get("v", {})
         o_obj = t.get("o", {})
 
-        # Step 3: Tìm candidate IDs từ Mongo (những ID có semantic tương đồng)
+        # Tìm candidate IDs từ Mongo (những ID có semantic tương đồng)
         v_candidates = mongo_vector_search(collection, v_obj.get("vector"))
         s_candidates = mongo_vector_search(collection, s_obj.get("vector"))
         o_candidates = mongo_vector_search(collection, o_obj.get("vector"))
 
-        print(f"   [v] '{v_obj.get('name')}' -> {len(v_candidates)} matching edges")
-        print(f"   [s] '{s_obj.get('name')}' -> {len(s_candidates)} matching nodes")
-        print(f"   [o] '{o_obj.get('name')}' -> {len(o_candidates)} matching nodes")
+        v_ids = candidate_ids(v_candidates)
+        s_ids = candidate_ids(s_candidates)
+        o_ids = candidate_ids(o_candidates)
 
-        # Step 4: Map thẳng vào Grid Edge của Graph
-        found = False
-        for edge in all_edges:
-            edge_id = edge.get("id")
+        print(f"   [s] '{s_obj.get('name')}' -> {len(s_ids)} candidate IDs")
+        print(f"   [v] '{v_obj.get('name')}' -> {len(v_ids)} candidate IDs")
+        print(f"   [o] '{o_obj.get('name')}' -> {len(o_ids)} candidate IDs")
+
+        query_matches = []
+        graph_edge_ids = v_ids.intersection(all_edges_by_id.keys())
+        sorted_graph_edge_ids = sorted(
+            graph_edge_ids,
+            key=lambda edge_id: v_candidates[edge_id].get("score", 0),
+            reverse=True,
+        )
+        for edge_id in sorted_graph_edge_ids:
+            edge = all_edges_by_id.get(edge_id)
+            if not edge:
+                continue
+
             src_id = edge.get("source")
             tgt_id = edge.get("target")
 
-            # Check Vector Relations (v)
-            if edge_id not in v_candidates:
-                continue
-
-            # Check Subjects (s)
             if src_id not in s_candidates:
                 continue
 
-            # Check Objects (o)
             if tgt_id not in o_candidates:
                 continue
 
-            # Thoả đủ 3 chiều S-V-O
+            source_node = all_nodes.get(src_id, {"id": src_id, "name": ""})
+            target_node = all_nodes.get(tgt_id, {"id": tgt_id, "name": ""})
+            match_record = build_matched_triplet_record(
+                t,
+                edge,
+                source_node,
+                target_node,
+                s_candidates[src_id],
+                v_candidates[edge_id],
+                o_candidates[tgt_id],
+            )
+
             valid_edges.append(edge)
             valid_node_ids.update([src_id, tgt_id])
             section_ids.update(edge.get("listSectionId", []))
-            found = True
+            matched_triplets.append(match_record)
+            query_matches.append(match_record)
 
-            src_name = all_nodes.get(src_id, {}).get("name", "")
-            tgt_name = all_nodes.get(tgt_id, {}).get("name", "")
-            edge_name = edge.get("name", "")
-            print(f"   => KHỚP: ({src_name})-[{edge_name}]->({tgt_name})")
+            print(f"   => KHỚP: ({source_node.get('name')})-[{edge.get('name')}]->({target_node.get('name')})")
 
-        if not found:
+        if not query_matches:
             print("   => KHÔNG TÌM THẤY TRIPLETS TƯƠNG ƯỚNG TRONG GRAPH")
+
+        matched_triplets_by_query.append({
+            "query_index": i,
+            "query_triplet": {
+                "s": s_obj.get("name", ""),
+                "v": v_obj.get("name", ""),
+                "o": o_obj.get("name", ""),
+            },
+            "candidate_counts": {
+                "s": len(s_ids),
+                "v": len(v_ids),
+                "o": len(o_ids),
+                "v_edges_in_graph": len(graph_edge_ids),
+            },
+            "matches": query_matches,
+        })
 
     # Lưu Step 4 Output
     unique_edges = {e["id"]: e for e in valid_edges}.values()
@@ -162,6 +286,8 @@ def run_pipeline():
         "nodes": valid_nodes,
         "relationships": list(unique_edges),
         "relevant_section_ids": sorted_sids,
+        "matched_triplets": matched_triplets,
+        "matched_triplets_by_query": matched_triplets_by_query,
     }]
     os.makedirs(os.path.dirname(FILTERED_OUT), exist_ok=True)
     with open(FILTERED_OUT, "w", encoding="utf-8") as f:
