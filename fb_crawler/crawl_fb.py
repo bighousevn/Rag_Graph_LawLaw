@@ -14,9 +14,10 @@ from playwright.async_api import async_playwright
 
 # ==================== CẤU HÌNH ====================
 URLS = [
-   "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
-    "https://www.facebook.com/groups/1545991175927462/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
-     
+#    "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+#     "https://www.facebook.com/groups/1545991175927462/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
+    "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
+    "https://www.facebook.com/groups/1545991175927462/search?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh&filters=eyJyZWNlbnRfcG9zdHM6MCI6IntcIm5hbWVcIjpcInJlY2VudF9wb3N0c1wiLFwiYXJnc1wiOlwiXCJ9In0%3D"
 ]
 
 TARGET_POSTS = 200
