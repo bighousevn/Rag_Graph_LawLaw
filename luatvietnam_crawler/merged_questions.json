@@ -1,813 +1,905 @@
 {
-  "mo_ta": "Bảng phân loại tổng hợp bài viết Facebook theo nhóm luật hành chính (nội dung đầy đủ)",
-  "nguon_file": [
-    "crawled_posts.json",
-    "crawled_posts(2).json"
-  ],
-  "tong_bai": 73,
-  "bang": [
+  "total": 179,
+  "sources": {
+    "facebook_classified": 73,
+    "luatvietnam": 106
+  },
+  "merged_at": "2026-05-10T20:32:18.268034",
+  "data": [
     {
-      "stt": 1,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 20,
+      "id": 1,
       "content": "Bạn Huỳnh Khánh ở Vĩnh Long hỏi:\nTrước đây, khi cha ông qua đời có để lại cho tôi 100m² đất ở nhưng không có sổ. Nay, tôi muốn làm sổ hồng cho mảnh đất này thì có được không. Nếu được xin hỏi tôi cần chuẩn bị thủ tục gì và đến đâu để làm?\nLs trả lời bạn như sau:\nTrường hợp của bạn muốn làm sổ hồng (Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất) cho mảnh đất 100m² do cha để lại nhưng chưa có sổ, bạn có thể thực hiện theo quy trình sau:\n1. Xác định điều kiện để được cấp sổ hồng\nBạn có thể được cấp sổ hồng nếu:\nMảnh đất có giấy tờ hợp pháp chứng minh quyền sử dụng đất của cha (như giấy tờ mua bán, cho tặng, thừa kế, biên lai nộp thuế trước năm 1993, v.v.).\nTrường hợp không có giấy tờ, nhưng đất đã sử dụng ổn định, không tranh chấp và được chính quyền địa phương xác nhận thì vẫn có thể được xem xét cấp sổ theo quy định tại Điều 101 Luật Đất đai 2013\n2. Thực hiện thủ tục khai nhận thừa kế\nVì mảnh đất do cha chồng để lại, bạn cần chứng minh quyền thừa kế:\nNếu cha có di chúc để lại đất cho bạn:\nLàm thủ tục công chứng di chúc tại phòng công chứng.\nNếu không có di chúc:\nThực hiện khai nhận di sản thừa kế theo pháp luật tại văn phòng công chứng.\nTất cả những người thừa kế hợp pháp (vợ, con của cha chồng) cần tham gia hoặc từ chối nhận thừa kế theo quy định\nHồ sơ cần chuẩn bị khi khai nhận thừa kế:\nGiấy chứng tử của cha.\nGiấy tờ chứng minh quan hệ gia đình (hộ khẩu, giấy khai sinh của chồng bạn, giấy đăng ký kết hôn của bạn).\nGiấy tờ chứng minh quyền sử dụng đất (nếu có).\nVăn bản khai nhận/thỏa thuận phân chia di sản.\n3. Hồ sơ xin cấp sổ hồng\nSau khi hoàn tất thủ tục thừa kế, bạn nộp hồ sơ xin cấp sổ hồng tại Văn phòng đăng ký đất đai (VPĐKĐĐ) cấp huyện hoặc UBND cấp xã nơi có đất.\nHồ sơ gồm:\nĐơn đề nghị cấp Giấy chứng nhận (theo mẫu).\nBản sao công chứng CMND/CCCD và sổ hộ khẩu.\nGiấy tờ chứng minh quyền sử dụng đất (nếu có).\nVăn bản khai nhận hoặc thỏa thuận phân chia di sản thừa kế đã được công chứng.\nBiên bản xác nhận không tranh chấp (nếu không có giấy tờ đất).\nTrích lục bản đồ thửa đất (nếu cần).\n4. Nộp hồ sơ và nộp lệ phí\nNơi nộp:\nBộ phận một cửa của UBND cấp huyện nơi có đất.\nThời gian giải quyết: Tối đa 30 ngày làm việc (không tính ngày nghỉ, lễ).\nLệ phí:\nLệ phí trước bạ: 0,5% giá trị đất.\nLệ phí cấp sổ hồng: Theo quy định từng địa phương (thường từ 100.000 - 500.000 đồng).\n5. Nhận kết quả\nSau khi hoàn tất các nghĩa vụ tài chính, bạn sẽ nhận được sổ hồng đứng tên mình.\nLưu ý quan trọng:\nNếu mảnh đất nằm trong quy hoạch hoặc không đủ điều kiện cấp sổ theo quy định pháp luật thì có thể bị từ chối.\nNếu chồng bạn đã từ chối quyền thừa kế (nếu có liên quan) thì bạn cần có văn bản từ chối thừa kế công chứng.\nNếu đất đang tranh chấp, phải giải quyết xong tranh chấp mới có thể xin cấp sổ.\nNếu cần hỗ trợ chi tiết hơn về quy trình khai nhận thừa kế hoặc các biểu mẫu, bạn có thể hỏi thêm nhé!\nLh 0919312102",
-      "url": "",
-      "crawled_at": "2026-04-14T21:48:46.755959",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 2,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 22,
+      "id": 2,
       "content": "Em ở Hà Nội Luật sư cho em hỏi ,em muốn làm sổ đỏ cho mảnh đất em đang ở trước đây là đất 50 năm,bố em là người có công với cách mạng được hưởng một xuất làm sổ đỏ và được miễn giảm 90 phần trăm , nhưng các cán bộ địa chính tại địa phương trả lời rằng nhà em phải nộp phạt mới được hưởng theo chế độ , vì nhà em làm nhà trên đất chưa có sõ đỏ . Nhà em làm là năm 2007 . Các luât sư cho em hỏi  trường hợp của em có phải nộp phạt khg ạ  , và  cán bộ địa chính làm như vậy có đúng khg ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:48:54.668449",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 3,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 27,
+      "id": 3,
       "content": "Em chào Anh/Chị!\nEm muốn tư vấn về thủ tục hành chính liên quan tới đất thổ cư (đất ở).\nGia đình em từ thời ông bà đã chuyển đổi đất ở từ khu vực A sang khu vực B.\nKhu vực B (đất nhà em đang sinh sống) trước khi nhà em chuyển vào ở, nhà trước đã có 300m2 thổ cư. Sau khi nhà em ở qua quá trình chuyển đổi, sơ xuất về giấy tờ nên hiện tại trên sổ đỏ nhà em chỉ thể hiện đất vườn và không có 300m2 thổ cư như trước đó.\nGiờ em muốn xin anh chị hướng tư vấn và xử lý trong trường hợp này ạ.\nEm cảm ơn anh/chị đã giúp đỡ!\nMong nhận được phản hồi từ Anh/Chị ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:48:58.746590",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 4,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 89,
+      "id": 4,
       "content": "Chào các luật sư, em có cái Sổ đỏ số hiệu 00001 từ năm 1990 nhưng giờ phường và vpdkdd bảo mất bản đồ gốc nên không làm lại sổ hồng mới cho nhà em.\n​Thế là mấy ổng dựa hơi đó để dịch chuyển ranh giới đất em, cho nông trường đầu tư vào đất của dân và làm sổ đỏ chồng lên sổ đỏ nhà em năm 2005. Dụ người dân kí hợp đồng nhận khoán 1997 ( nhận khoán: đất của nông trường - người dân làm thuê )\n​Đã vậy, em kiện trên mạng (dichvucong) thì phường báo cáo khống là 'Đã xử lý xong' trong khi em chẳng thấy tờ giấy nào. Lên gặp thì mời vô phòng riêng mắng dân như cái chợ.\n​Giờ em muốn chốt lấy đúng 7 sào như hợp đồng nhận khoán thôi - sổ đỏ ngày xưa thì có 5 sào (dù thực tế trước đây nhà em khai hoang và bỏ vào nông trường  tới 2 mẫu) thì cần giấy tờ gì để sau này tụi nó không lật kèo, không bảo em lấn chiếm đất công? Với lại hành vi báo cáo láo trên mạng (dichvucong) của mấy ổng thì kiện ở đâu cho đâu ạ ?\nEm làm vụ này hơn cả năm rồi, mà chắc bọn cán bộ cấp sai với ăn một mớ của nông trường rồi. Nên cấp chồng đất sai tè le, giờ sợ truy cứu ra thì bảo mất bản đồ.\nPs: ảnh chỉ mang tính chất chống trôi bài.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:51:52.803112",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 5,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 105,
+      "id": 5,
       "content": "Em chào Anh/Chị.\nEm muốn tư vấn về thủ tục hành chính liên quan tới đất thổ cư (đất ở).\nGia đình em từ thời ông bà đã chuyển đổi đất ở từ khu vực A sang khu vực B.\nKhu vực B (đất nhà em đang sinh sống) trước khi nhà em chuyển vào ở, nhà trước đã có 300m2 thổ cư. Sau khi nhà em ở qua quá trình chuyển đổi, sơ xuất về giấy tờ nên hiện tại trên sổ đỏ nhà em chỉ thể hiện đất vườn và không có 300m2 thổ cư như trước đó.\nGiờ em muốn xin anh chị hướng tư vấn và xử lý trong trường hợp này ạ.\nEm cảm ơn anh/chị đã giúp đỡ!\nMong nhận được phản hồi từ Anh/Chị ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:53:48.733722",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 6,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 154,
+      "id": 6,
       "content": "ba mẹ e mất đứng tên sổ đất .ông bà 2 bên điều mất cả .giờ e ra công chứng sang tên mà trích lục khai tử ông nội ko có trong hệ thống và chết quá lâu cũng ko có thông tin gì .khai tử khai sinh bà nội ko trùng nhau .giờ e nhờ dịch vụ làm giúp thì giá cả tầm bao nhiêu ạ bao lâu thì mới ra sổ tên e ạ.xin các bác giúp e với ạ người ta có nói là 50 triệu 3 tháng ra sổ là tất cho e như vậy có ổn ko ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:56:07.949235",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 7,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 178,
+      "id": 7,
       "content": "Đất nhà ở của gia đình e đã có sổ đỏ tuy nhiên trên thực tế khi xây nhà gia đình e có để lại khe để chảy nước. Tuy nhiên khi hàng xóm xây lại lấn luôn phần đất đó. Giờ gia đình e muốn tách mảnh đất thành 2 sổ thì khi làm sổ có cần đo lại đất k? Và nếu đo thì tính theo diện tích nhà hiện tại hay theo đất trên sổ ạ? Nhờ các luật sư tư vấn giúp e",
-      "url": "",
-      "crawled_at": "2026-04-14T21:57:32.563207",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 8,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 181,
+      "id": 8,
       "content": "Hàng xóm không ký giáp ranh có làm được sổ đỏ không?\nNhiều người cho rằng nếu hàng xóm không ký xác nhận giáp ranh thì sẽ không thể làm được sổ đỏ. Tuy nhiên, theo quy định pháp luật hiện hành, chữ ký của hộ liền kề không phải là điều kiện bắt buộc trong mọi trường hợp.\nThực tế, nếu thửa đất không có tranh chấp, bạn vẫn có thể thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất. Trong trường hợp không có xác nhận của hàng xóm, cơ quan có thẩm quyền sẽ tiến hành niêm yết công khai hồ sơ tại UBND cấp xã trong thời gian 15 ngày. Nếu hết thời hạn niêm yết mà không phát sinh khiếu nại, tố cáo, bạn vẫn được xem xét cấp sổ đỏ theo quy định.\nVì vậy, người dân không nên quá phụ thuộc vào việc ký giáp ranh của hàng xóm, mà cần hiểu rõ quy định pháp luật để bảo vệ quyền lợi hợp pháp của mình và tránh bị gây khó khăn không cần thiết.\nLiên hệ tư vấn: zalo 0919.312.102",
-      "url": "",
-      "crawled_at": "2026-04-14T21:57:37.048981",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 9,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Cấp, tách, sửa đổi Sổ đỏ/Sổ hồng",
-      "post_id": 187,
+      "id": 9,
       "content": "Xin sự tư vấn của các luật sư ạ.\nÔng nội tôi thầu Đất  5% từ năm 1993 hạn 20 năm. Đến 2023 là hết hạn. Gia đình vẫn lên ký với xã cũ là thầu tiếp nhưng ko có biên bản/hợp đồng nào. Cũng ko nhận được giấy/văn bản nào từ chính quyền là thông báo hợp động sắp hết hạn. Cuối năm 2024 tôi với mẹ tôi ra xã nộp thuế đất hàng năm thì ngta báo là đất thầu này đã đứng tên bác rể tôi từ năm 2024 rồi ạ,. Xin hỏi các luật sư giờ có thể khởi kiện đc ko ạ? Hay tự đi gia hạn lại hợp đòng mới đc ko ạ? Xin cảm ơn!",
-      "url": "",
-      "crawled_at": "2026-04-14T21:57:54.856655",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 10,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Thu hồi đất, đền bù, giải phóng mặt bằng và cưỡng chế",
-      "post_id": 53,
+      "id": 10,
       "content": "Em rất tha thiết nhờ sự tư vấn của anh chị Luật Sư ạ\nChuyện là: Không hề có thông báo đấu thầu, không họp dân, không niêm yết. Nhưng chỉ trong một ngày, có người đến đóng cọc ngay trên mảnh đất gia đình em khai hoang, cải tạo suốt gần 40 năm, thậm chí còn buông lời thách thức và nói rằng họ đã ‘trúng thầu’.\nĐiều khiến gia đình em bức xúc hơn là những người được thuê đến còn tự ý vào khu đất, có thái độ coi thường và thách thức khi gia đình em phản đối.\nGia đình em đã làm đơn gửi lên chính quyền địa phương để đề nghị làm rõ sự việc, nhưng mấy tháng trôi qua vẫn không nhận được phản hồi.\nKhi đến hỏi trực tiếp, câu trả lời nhận lại là: 'Gia đình phải tự đi chứng minh đất đó do gia đình khai hoang phục hoá'\nEm xin nói rõ, gia đình em chỉ là nông dân, không am hiểu pháp luật, cũng không có điều kiện hay mối quan hệ để biết phải bắt đầu từ đâu.\nHơn 40 năm qua, em lớn lên cùng hình ảnh bố mẹ mình cặm cụi xúc từng ô đất, tự tay lấp từng hố bom để cải tạo mảnh đất đó. Từ một nơi không ai sử dụng được, đến khi trở thành đất canh tác ổn định như hôm nay là cả một quá trình rất dài.\nGia đình em sử dụng đất liên tục, ổn định, không tranh chấp. Nhưng đến khi xảy ra chuyện, điều mà gia đình em nhận lại là yêu cầu phải tự đi chứng minh tất cả.\nQuan điểm của gia đình em rất rõ ràng:\nNếu Nhà nước thu hồi đất phục vụ mục đích chung, gia đình em hoàn toàn sẵn sàng chấp hành.\nNhưng ở đây:\n- Không có thông báo\n- Không có quyết định\n- Không có bất kỳ thông tin công khai nào\n- Và hiện tại địa phương em cũng không có dự án nào liên quan đến khu đất này.\nĐiều khiến gia đình em băn khoăn là:\nTại sao một cá nhân lại có thể tự nhận đã “trúng thầu” và vào sử dụng đất như vậy?\nQuy trình đó có thực sự đúng quy định pháp luật không?\nEm rất mong anh/chị am hiểu pháp luật, hoặc các luật sư, có thể cho em xin lời khuyên:\n- Gia đình em nên làm gì trong trường hợp này?\n- Việc như vậy có đúng quy định không?\n- Nếu cần nhờ luật sư hỗ trợ thì chi phí thường khoảng bao nhiêu?\nEm chỉ mong sự việc được làm rõ minh bạch, để dù thế nào cũng cảm thấy được thoả đáng\nEm xin cảm ơn rất nhiều",
-      "url": "",
-      "crawled_at": "2026-04-14T21:49:24.036131",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 11,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Thu hồi đất, đền bù, giải phóng mặt bằng và cưỡng chế",
-      "post_id": 60,
+      "id": 11,
       "content": "Dạ chào các anh/chị Luật sư.\nEm nhờ các anh chị tư vấn giúp em trường hợp này ạ.\nNhà em thuộc trường hợp thu hồi đất để thực hiện dự án nhà nước.\nTháng 9/2025: xã đã gửi bản dự thảo phương án đền bù và họp dân về phương án nhưng người dân không đồng ý về giá bồi thường quá thấp và yêu cầu công khai phương pháp định giá đất. Tuy nhiên bên ban bồi thường k trả lời các yêu cầu của dân và không tổ chức họp đối thoại.\nĐến tháng 3/2026: ubnd xã đã ký phê duyệt phương án bồi thường nhưng phương án này lại khác số liệu so với phương án của tháng 9/2025 ( do áp dụng quyết định mới của ubnd tỉnh vừa ban hành lúc tháng 12/2025).\nVậy cho em hỏi quyết định phê duyệt mà ubnd xã đã ký có đúng không? Việc k đối thoai và phương án mới k niêm yết như vậy có đúng quy trình lập, thẩm định và phê duyệt phương án bồi thường không? Em có thể khiếu nại để huỷ quyết định phê duyệt này do k đúng quy trình được không ạ?\nMong các anh/chị tư vấn\nEm cảm ơn.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:49:49.869467",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 12,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Thu hồi đất, đền bù, giải phóng mặt bằng và cưỡng chế",
-      "post_id": 65,
+      "id": 12,
       "content": "Em xin chào cả nhà. Em có việc muốn xin đc các bác tư vấn giúp gđ em. Do nhà e không có kiến thức gì về luật đất đai nên e xin phép lên đây nhờ mng chỉ giúp em phải làm sao ạ.\nHiện tại gđ e có 1 mảnh ao cạnh cổng trường học, là đất vỡ hoang từ thời các ông bà. Ông em đã vỡ hoang để làm ao nuôi cá, sau khi ông mất đc 7 năm nay nhà e cho ng khác mượn ao để thả cá vânc giữ nguyên ao. Nhưng đến năm vừa rồi thì bên ubnd xã lại xuống đo đạc bảo nằm trong diện tích đất quy hoạch của nhà nước nên thu hồi, hai ngày nay đang đổ đất vào ao muốn cưỡng chế mảnh ao nhà em. Gia đình em có xuống ủy ban xã xuân mai để gặp chủ tịch nhưng họ nói cần chứng minh được nguồn gốc mảnh đất mới giải quyết cho. Nhưng đã là đất vỡ hoang thì làm gì có giấy tờ gì đâu ạ, khổ công bao năm nhà em vỡ đất hoang ra làm ao nuôi không thấy bên ubnd hỏi han gì, nay thấy mở đường to mảnh đất tiềm năng lại muốn lấy trắng công sức của gđ em. Vậy gđ muốn gquyet nhận đền bù thì cần làm những gì ạ. E tv giúp em về mặt pháp lí với ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:50:07.583876",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 13,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Thu hồi đất, đền bù, giải phóng mặt bằng và cưỡng chế",
-      "post_id": 122,
+      "id": 13,
       "content": "Có ai hiểu luật giúp mình với ạ nhà mình xây nhà từ năm 1991 sinh sống ổn định,năm 1999 được cấp GCNQSD Đ 704 m2 thổ cư+ vườn có 400m2 đất thổ cư 304m2 cây lâu năm ,năm 2000 tôi có mua lại 2 thửa đất liền kề theo bản đồ địa chính thửa 235 là 618 m2 ,thửa 236 168m2 là loại đất cây hàng năm khác nhưng chưa có GCN,năm 2011 nhà nước thu hồi đất của tôi để nâng cấp  đường tỉnh lộ,theo bản đồ trích đo thửa đất là1242m2 đất ONT thu hồi 153m2 ONTtheo mốc dự án cách móng nhà ở của tôi 0,8m năm 2014 tôi xin cấp lại từ sổ đỏ sang sổ hồng theo sổ cấp năm 2014 thì có sơ đồ thửa đất có 400m2 đất ONT 304m2 CLN năm 2020 tôi được cấp GCN thửa đất 235 dt là 318 m2 thửa 236 dt 168 m2  năm 2015 nhà tôi bị nứt hỏng do đương nâng cao nhà thấp hơn mặt đường khoảng hơn 1m,tôi làm đơn lên tỉnh sau đó được hỗ trợ 50 triệu tiền tu sửa nhà,năm 2019 do nhà hỏng năng tôi tự tháo dỡ nhà cũ và bỏ ra khoản tiền hơn 800 triẹu để tân đất xây kè bao cao bằng mặt đường để chuyển bị xây nhà  lúc đó không còn tiền để làm nhà tôi có trồng cây keo chủ để kiếm thêm thu nhập thời điểm đó các con tôi đi du học và tạm chú ở nơi học tập vợ chồng tôi đi làm ăn ở tỉnh khác và tạm chú ở chỗ làm khi có công việc vợ chồng tôi vẫn thường xuyên về ở tạm nhà anh trai trông nom cây cối,năm 2022 nhà nước có thông báo  thu hồi đất ở và dất nông nghiệp liền kề của tôi dt thu hồi 1050m2 trong đó có  297m2 đất ONT 753m2 đất CLN  để làm dự án tái định cư thời điểm này các con tôi đã về nước do đất vào dự án nên không làm được nhà nên cũng tạm chú với vợ chồng tôi để đi làm năm 2023 tôi nhận được QĐ thu hôi 753m2 đất nông nghiệp sau đó tháng 9 năm 2025 tôi nhận QĐ thu hồi  297m2 phần đất ONT phần đất ở còn lại  không đủ điều kiện làm nhà do vào hành lang đường tôi đề nghị bố chí tái định cư thì đuọc một suất còn con tôi đã kết hôn nhưng không được tái định cư theo điều kiện tách hộ xã cho rằng tại thời điểm thu hồi đất tôi không có nhà nên các con tôi không đủ điều kiện về cư chú họ chỉ dựa vào thời điểm thu hồi mà không xem quá trình sử dụng đất các con tôi đều được sinh ra và lớn lên trên thửa đất thu hồi hiện tại các con tôi chưa có nơi ở nào khác",
-      "url": "",
-      "crawled_at": "2026-04-14T21:54:35.923435",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 14,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Thu hồi đất, đền bù, giải phóng mặt bằng và cưỡng chế",
-      "post_id": 175,
+      "id": 14,
       "content": "Các bác luật sư làm ơn cho e hỏi: khu nhà e bị GPMB làm đường 2,5. Hiện tại người dân mới nhận được dự thảo đền bù, chưa đồng ý với dự thảo, chưa nhận đất tái định cư nhưng phường Yên Hoà đã 2 lần ra văn bản yêu cầu người dân chấm dứt ngay việc cho thuê mặt bằng trong phạm vi làm đường, trong khi việc cho thuê nhà là nguồn thu nhập chỉ yếu của nhiều hộ dân tại đây.\nCác bác cho e hỏi: văn bản này của phường Yên Hoà có đúng pháp luật không ạ?\nE xin cảm ơn các bác!",
-      "url": "",
-      "crawled_at": "2026-04-14T21:57:10.837396",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 15,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Khởi kiện, khiếu nại cán bộ/cơ quan cấp sổ sai hoặc chậm trễ",
-      "post_id": 4,
+      "id": 15,
       "content": "Đất đang tranh chấp vậy mà xã vẫn xác nhận cấp sổ đỏ cho nhà hàng xóm.\nChuyện vô lý như vậy mà vẫn xảy ra liẹu có kiện được không?\nĐa số người tranh chấp sẽ lao vào kiện nhà hàng xóm, nhưng bạn cần hiểu. Thực tế hàng xóm chỉ là người thụ hưởng.\nCòn cơ quan cấp sổ sai quy trình mới là nơi nắm giữ chìa khóa để hủy bỏ cuốn sổ đó.\nLuật quy định đất đang có tranh chấp thì tuyệt đối không được cấp sổ. Vậy tại sao sổ vẫn ra.\nCó thể quy trình lấy ý kiến khu dân cư hoặc quy trình xác minh nguồn gốc đất ở xã đã bị bỏ qua. Thay vì tranh chấp dân sự kéo dài hãy xem xét việc khởi kiện hành chính để hủy quyết định cấp sổ sai trái. Khi cuốn sổ đỏ bị thu hồi quyền lợi của bạn tự động được khôi phục. Đất đai là tài sản cả đời. Đừng để sai sót của người khác tước đi quyền lợi của mình.\nNếu bạn bị mắt kẹt trong tình huống này hãy gửi hồ sơ cho luật Nguyên Thạo\nZalo 0919312102.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:48:01.757090",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 16,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Khởi kiện, khiếu nại cán bộ/cơ quan cấp sổ sai hoặc chậm trễ",
-      "post_id": 13,
+      "id": 16,
       "content": "Thủ tục để tiến hành khiếu nại, tố cáo về đất đai thế nào\nLS  chia rõ cho bạn dễ hiểu nhé, vì khiếu nại và tố cáo trong đất đai là hai thủ tục khác nhau theo Luật Đất đai 2013 và Luật Khiếu nại, Luật Tố cáo:\n1. Khiếu nại về đất đai\nDùng khi bạn cho rằng quyết định hành chính hoặc hành vi hành chính của cơ quan nhà nước/cán bộ quản lý đất đai là trái luật, xâm phạm quyền lợi của mình.\nTrình tự:\n• Chuẩn bị đơn khiếu nại (ghi rõ: họ tên, địa chỉ, nội dung khiếu nại, quyết định/hành vi nào sai, yêu cầu giải quyết).\n• Kèm: bản sao giấy tờ đất, quyết định bị khiếu nại, chứng cứ liên quan.\n• Nộp đơn lần đầu đến người đã ra quyết định hành chính hoặc thủ trưởng cơ quan có hành vi hành chính.\n• Ví dụ: UBND xã đo đạc sai → khiếu nại đến Chủ tịch UBND xã.\n• Thời hạn giải quyết:\n• Lần đầu: 30 ngày (vùng xa, phức tạp: 45 ngày).\n• Nếu không đồng ý, có thể khiếu nại lần 2 đến cấp trên trực tiếp (ví dụ: Chủ tịch UBND tỉnh).\n• Nếu vẫn không đồng ý → có quyền khởi kiện tại Tòa án hành chính.\n2. Tố cáo về đất đai\nDùng khi bạn phát hiện cán bộ, công chức, tổ chức, cá nhân vi phạm pháp luật trong quản lý, sử dụng đất đai (ví dụ: xã bao che cho hàng xóm lấn chiếm, cán bộ nhận hối lộ…).\nTrình tự:\n• Làm đơn tố cáo (ghi rõ: người tố cáo, người bị tố cáo, hành vi vi phạm, chứng cứ kèm theo).\n• Nộp đơn đến:\n• Cơ quan quản lý đất đai (Phòng TN&MT, Sở TN&MT).\n• Hoặc cơ quan cấp trên của người/cơ quan bị tố cáo.\n• Có thể gửi Thanh tra Nhà nước hoặc Cơ quan công an (nếu có dấu hiệu hình sự: giả mạo hồ sơ, chiếm đoạt…).\n• Thời hạn giải quyết: 30 ngày (phức tạp có thể 60 ngày).\n3. Phân biệt khiếu nại và tố cáo\n• Khiếu nại: Bảo vệ quyền lợi hợp pháp của chính mình.\n• Tố cáo: Báo cho cơ quan nhà nước biết hành vi vi phạm pháp luật của người khác.\n4. Lời khuyên thực tế\n• Trước khi gửi đơn, nên chuẩn bị hồ sơ đầy đủ: giấy tờ đất, bản đồ đo đạc, biên bản làm việc, nhân chứng, hình ảnh…\n• Gửi đơn bằng đường bưu điện có bảo đảm hoặc nộp trực tiếp và xin phiếu nhận đơn để làm căn cứ.\n• Trường hợp phức tạp, dễ kéo dài, bạn có thể song song gửi đơn tố cáo đến Thanh tra tỉnh/huyện và khiếu nại theo trình tự để đảm bảo quyền lợi.\nBạn có muốn LS làm luôn cho bạn mẫu đơn khiếu nại và mẫu đơn tố cáo về đất đai để dùng trực tiếp không?\nLIÊN HỆ: 0919312102",
-      "url": "",
-      "crawled_at": "2026-04-14T21:48:31.130823",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 17,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Khởi kiện, khiếu nại cán bộ/cơ quan cấp sổ sai hoặc chậm trễ",
-      "post_id": 38,
+      "id": 17,
       "content": "Xin kính chào quý anh chị luật sư ạ .Gđ e vướng vào vụ việc tranh chấp đất đai hiện tại gđ e đã thắng kiện ở vòng phúc thẩm  và đã có bản án ạ  .Nhưng khi Gđ e cầm bản án đi đến trung tâm quỹ đất lấy tiền thì anh giám đốc trung tâm quỹ đất bảo là do nhà kia họ có đơn lên giám đốc thẩm nên là họ chưa dám chi trả số tiền đó cho nhà e .Gđ e biết họ làm như vậy  là sai  vậy e kính mong quý anh chị luật sư tư vấn giúp GĐ e muốn làm đơn khiếu nại ô giám đốc trung tâm tâm quỹ đất đó thì gđ em phải làm đơn khiếu nại gửi cơ quan nào ạ?  .Em xin cảm ơn quý anh chị luật sư ạ .",
-      "url": "",
-      "crawled_at": "2026-04-14T21:49:11.217046",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 18,
-      "nhom_id": "1",
-      "nhom": "Thủ tục, Quản lý và Khởi kiện Đất đai",
-      "phan_nhom": "Bình luận bản án hành chính sơ thẩm về đất đai",
-      "post_id": 171,
+      "id": 18,
       "content": "BÌNH LUẬN KHOA HỌC BẢN ÁN HÀNH CHÍNH SƠ THẨM SỐ 122/2025/HC-ST VỀ KHIẾU KIỆN QUYẾT ĐỊNH HÀNH CHÍNH VÀ HÀNH VI HÀNH CHÍNH TRONG LĨNH VỰC QUẢN LÝ ĐẤT ĐAI (THU HỒI ĐẤT, BỒI THƯỜNG, HỖ TRỢ VÀ TÁI ĐỊNH CƯ)\nNgười thực hiện: Luật sư Nguyễn Văn Chung\nĐơn vị: Công ty Luật Bình Minh – Đoàn Luật sư tỉnh Quảng Ninh\nĐịa chỉ: Số 511, đường Nguyễn Văn Cừ, Hạ Long, tỉnh Quảng Ninh\nĐiện thoại: 0904.088.624\nPS: Bản án hành chính sơ thẩm số 122/2025/HC-ST của Tòa án nhân dân tỉnh Lâm Đồng là một minh chứng xuất sắc cho vai trò tối thượng của cơ quan tài phán trong việc kiểm soát sự lạm quyền và thói quan liêu của bộ máy hành chính nhà nước. Bằng tư duy pháp lý sắc bén, Hội đồng xét xử đã phân tích thấu đáo sự xung đột giữa các tầng nấc văn bản quy phạm pháp luật, loại bỏ một cách dứt khoát các điều kiện hạn chế quyền công dân trái luật (yêu cầu về hộ khẩu thường trú), và không để lọt các hành vi hành chính mang tính chất trốn tránh trách nhiệm (sự im lặng trước diện tích 247,2m² thu hồi dở dang).— tại Công Ty Luật Bình Minh.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:57:02.160569",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 19,
-      "nhom_id": "2",
-      "nhom": "Xử phạt Vi phạm Hành chính (VPHC)",
-      "phan_nhom": "Bị phạt hành chính do hành vi đánh nhau/cố ý gây thương tích",
-      "post_id": 69,
+      "id": 19,
       "content": "Cho em hỏi là em bị người ta tới nhà đánh gây thương tích. Sau đó có viết đơn tố cáo đã khởi tố vụ án. Nhưng e mới nhận được một tờ giấy phạt hành chính với lý do người bị tố cáo viết đơn tố cáo em, có hỏi csdt thì họ nói vậy do bên kia không có thương tích nhưng em không hề được biết đến hay mời lên làm việc liên quan đến đơn tố cáo này chỉ đến khi nhận được tờ xử phạt hành chính . Các bác cho em xin ý kiến về vụ việc với ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:50:12.138514",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 20,
-      "nhom_id": "2",
-      "nhom": "Xử phạt Vi phạm Hành chính (VPHC)",
-      "phan_nhom": "Bị phạt hành chính do hành vi đánh nhau/cố ý gây thương tích",
-      "post_id": 87,
+      "id": 20,
       "content": "Mọi người Cho e xin hỏi .. E bị đánh gãy tay. Đã trình cômg an giám định 10% k đủ khởi tố . Chỉ phạt hành chính  6 triệu đồng. Công an kêu e làm đơn gửi tòa án . Vậy e cần gửi đơn gì  đến tòa để yêu cầu bồi thường thiệt hại việc cố ý đánh ng gây thương tích ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:51:52.802973",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 21,
-      "nhom_id": "2",
-      "nhom": "Xử phạt Vi phạm Hành chính (VPHC)",
-      "phan_nhom": "Bị phạt hành chính do hành vi đánh nhau/cố ý gây thương tích",
-      "post_id": 173,
+      "id": 21,
       "content": "E chào các luật sư .xin mọi người đánh giá cho e 1 việc .A và B là cùng họ hàng .Ngày thanh minh có lịch hẹn nhau về quê và có xảy ra cãi vã mâu thuẫn nhiều việc gia đình .A là bác có sang nhà B là em dâu và cháu nói chuyện và bức xúc chửi vài câu do B là cháu nhỏ tuổi mà có những hành động lời nói thái độ không đúng mực .2 bên xảy ra xô xát khi lúc A chửi thì 2 mẹ con B nhảy vào đánh A (còn giữ tay cho mẹ đánh ) A cũng cắn lại 1 cái .Dám định A cắn B thì 1phần trăm .2 mẹ con B một người giữ 1 người đánh A thì dám định A bị 3 phần trăm .Công an họ lập biên bản  nộp phạt cả 2 bên .vậy tình huống như vậy đánh giá khách quan thì bên nào bị truy cứu nặng hơn ạ ? E xin cảm ơn các luật sư nhiều ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:57:06.500325",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 22,
-      "nhom_id": "2",
-      "nhom": "Xử phạt Vi phạm Hành chính (VPHC)",
-      "phan_nhom": "Bị phạt hành chính do vi phạm giao thông (xe 50cc)",
-      "post_id": 49,
+      "id": 22,
       "content": "Xin chào mọi người, do gia đình nhà em khó khăn mà còn bị vướn vào pháp lý nên mong được sự giúp đỡ ạ.\nÔng ngoại em do lái xe máy (xe 50) không chú ý quan sát tông vào bà cụ đi ra đường (đường xác nhà) và làm bà cụ bị gãy chân. Gia đình ngoại em đã bồi thường viện phí cho gia đình đó hơn 5tr và đã xuất viện, gia đình đó có bảo hiểm nhưng không hiểu sao số tiền phát sinh cao đến vậy. Dù đã bồi thường xong nhưng gia đình bên đó không chịu ra xã cho xong việc mà cứ trốn tránh (dù công an đã liên hệ làm việc cũng không nghe máy). Và gia đình đó cứ biện lý do là cần tái khám, mỗi lần lý do như vậy là gia định em lại tốn 1tr. Và bên gia đình đó đã dùng lý do đó 2 3 lần rồi, thật sự gia đình em hết khả năng chi trả luôn. Đến hôm nay khi ra xã thì công an xã báo là phạt hành chính 11tr (gần như không thể chi trả nổi) và thật sự gia đình ngoại em rất khó khăn và cả tháng nay bị giam không có xe đi làm. Đến hiện tại gia đình bên kia vẫn chưa chịu làm việc và vẫn còn dấu hiệu dằn co. Công an xã thì cũng im lặng. Do em cũng không có kiến thức pháp luật nên cũng không biết phải giúp ông ngoại như nào. Em thành thật cảm ơn mọi người và mong được giúp đỡ ạ.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:49:19.742527",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 23,
-      "nhom_id": "2",
-      "nhom": "Xử phạt Vi phạm Hành chính (VPHC)",
-      "phan_nhom": "Bị phạt hành chính do đá gà, giúp sức đánh bạc",
-      "post_id": 113,
+      "id": 23,
       "content": "Cho e hỏi lần đầu e có đá gà phạt hành chính bảo lãnh đc thả về, có 1ng  bị bắt chung với em nói  là e bị 1 thể vàng (là ý gì)e k hiểu,Zay làm sao hết the vàng",
-      "url": "",
-      "crawled_at": "2026-04-14T21:54:32.022762",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 24,
-      "nhom_id": "2",
-      "nhom": "Xử phạt Vi phạm Hành chính (VPHC)",
-      "phan_nhom": "Bị phạt hành chính do đá gà, giúp sức đánh bạc",
-      "post_id": 123,
+      "id": 24,
       "content": "ls cho em hỏi, em đi làm thu ngân ở quán cafe board game, hôm kiểm tra ca phát hiện quán đang cho khách chơi poker (mua combo nước + dịch vụ trò chơi giải trí để tham gia game thắng được lượt chơi miễn phí) không liên quan tiền nên bị phạt hành chính “giúp sức đánh bạc”, em có kháng cáo được không ạ? tỉ lệ có cao không? em ở hcm",
-      "url": "",
-      "crawled_at": "2026-04-14T21:54:39.761704",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 25,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thay đổi giấy tờ tùy thân, hộ tịch do sáp nhập hành chính hoặc sai sót cán bộ",
-      "post_id": 11,
+      "id": 25,
       "content": "Bạn Giang Kim Thủy. Giá Rai - Bạc Liêu hỏi\nSau khi giải tỏa huyện. Xác nhập xã. Chính quyền địa phương 2 cấp. Vậy mọi thông tin các nhân. Giấy tờ tùy thân có bắt buộc làm lại không?\nTrả lời bạn như sau:\nKhi có giải tỏa, sáp nhập xã/huyện và thay đổi địa giới hành chính, thì người dân KHÔNG bắt buộc phải làm lại toàn bộ giấy tờ tùy thân như CMND/CCCD, sổ hộ khẩu, giấy khai sinh, v.v.\nTuy nhiên, sẽ có một số trường hợp cụ thể cần lưu ý:\n1. Chứng minh nhân dân / Căn cước công dân:\n• Nếu bạn đang dùng CMND 9 số thì nên đổi sang CCCD gắn chip, không bắt buộc do sáp nhập, mà do chính sách chung.\n• Nếu bạn đang dùng CCCD gắn chip, thì không cần làm lại chỉ vì lý do sáp nhập xã/huyện. Địa chỉ mới sẽ được cập nhật trong cơ sở dữ liệu dân cư quốc gia.\n2. Hộ khẩu và thông tin thường trú:\n• Từ 1/7/2021, sổ hộ khẩu giấy đã bị hủy giá trị pháp lý.\n• Thông tin hộ khẩu đã được số hóa, nên khi địa phương có sáp nhập:\n• Cơ quan quản lý sẽ tự động cập nhật địa chỉ mới trong hệ thống cơ sở dữ liệu quốc gia.\n• Bạn không cần phải xin cấp lại sổ hộ khẩu hay đi điều chỉnh gì cả, trừ khi bạn muốn làm lại giấy tờ có ghi địa chỉ mới (xem phần 3).\n3. Giấy tờ có ghi địa chỉ cũ (trước khi sáp nhập):\n• Các giấy tờ như: giấy khai sinh, giấy đăng ký kết hôn, bằng cấp, giấy tờ nhà đất… nếu có ghi địa chỉ cũ (tên xã/huyện trước sáp nhập), vẫn có giá trị pháp lý bình thường.\n• Bạn không cần phải đi điều chỉnh lại trừ khi có yêu cầu cụ thể từ một cơ quan hoặc bạn muốn thống nhất thông tin.\n4. Khi nào cần cập nhật thông tin mới:\n• Khi bạn mua bán nhà đất, làm hồ sơ vay ngân hàng, hoặc thực hiện thủ tục hành chính yêu cầu địa chỉ mới.\n• Khi muốn cập nhật địa chỉ trên CCCD hoặc giấy tờ cá nhân cho đồng bộ (không bắt buộc, nhưng nên làm để thuận tiện).\nLiên hệ: 0919312102",
-      "url": "",
-      "crawled_at": "2026-04-14T21:48:31.130604",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 26,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thay đổi giấy tờ tùy thân, hộ tịch do sáp nhập hành chính hoặc sai sót cán bộ",
-      "post_id": 56,
+      "id": 26,
       "content": "Các ace cho e hỏi chút ạ. Chồng e sinh ngày 06/06/1987 cccd. Hộ chiếu. Sổ hộ khẩu. Giấy kh nói chung tất cả các giấy tờ đều là 1987 . nhưng do mất giấy khai sinh từ lâu rồi. Nhà cũng không đi xin cấp lại. Vì ck e cũng nghỉ học từ năm hết lớp 9 . lớn lên đủ tuổi thì đi phụ hồ. Rồi đi xklđ cũng không cần gì đến giấy ks nên không đi xin cấp lại. Gần đây ck em đi làm ct. Ct yêu cầu có giấy ks trong hồ sơ. Ra xã xin cấp giấy khai sinh. Thì ở xã lại là 06/06/1986  . (Anh ruột ck em thì sinh ngày 9/12/1985. Nên không thể nào sau 6 tháng mẹ e lại sinh đc ra ck em .)  Nhưng vì lý thì cán bộ xã nói giờ không biết là người đi khai. Khai nhầm. Hay người viết viết nhầm .họ yêu cầu ck e phải có tất cả các giấy tờ liên quan từ trước đến giờ đều 1987 mang ra xã để khai sinh lại .ck e cũng đi xin học bạ. Cccd giấy kết hôn hộ chiếu. Bhyt ra xã  .. lúc đầu họ nói xong rồi. Mai ra lấy giấy khai sinh. Lúc sau ck e về đến nhà.họ lại gọi nói là không làm đc ..theo các ac. Giờ ck e phải làm thế nào ạ. Làm lại giấy tờ hết theo giấy khai sinh 1986 hay làm thế nào để đúng năm sinh của mình là 1987. Em xin cảm ơn ạ. Cảm ơn AD duyệt bài giúp e",
-      "url": "",
-      "crawled_at": "2026-04-14T21:49:32.562115",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 27,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thay đổi giấy tờ tùy thân, hộ tịch do sáp nhập hành chính hoặc sai sót cán bộ",
-      "post_id": 138,
+      "id": 27,
       "content": "Kính chào các anh/chị luật sư\nEm xin phép được hỏi về thủ tục thay đổi tên theo Luật Hộ tịch.\nHiện em đã nộp hồ sơ đổi tên theo quy định. Tuy nhiên, trong quá trình tiếp nhận và giải quyết, em được yêu cầu bổ sung thêm một số giấy tờ và lý do mà em chưa thấy được quy định rõ trong các văn bản hướng dẫn.\nEm kính mong các anh/chị luật sư cho em hỏi:\n1. Theo quy định pháp luật hiện hành, điều kiện và hồ sơ bắt buộc khi đổi tên gồm những gì?\n2. Cơ quan/cán bộ tiếp nhận hồ sơ có được yêu cầu thêm giấy tờ ngoài quy định hay không? Nếu có thì trong trường hợp nào?\n3. Trường hợp hồ sơ hợp lệ nhưng bị kéo dài thời gian giải quyết, người dân có quyền khiếu nại hoặc yêu cầu giải thích bằng văn bản không?\nEm xin chân thành cảm ơn sự tư vấn của các anh/chị luật sư.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:55:18.986108",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 28,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thủ tục mở xưởng, kinh doanh, đóng thuế, quy định phòng cháy chữa cháy",
-      "post_id": 97,
+      "id": 28,
       "content": "Xin chào luật sư,\nTôi dự định mở một quán cafe giải trí tại Đà Nẵng với các chi tiết cụ thể như sau:\n1. Hình thức vận hành: Khách hàng mua combo đồ uống/thức ăn sẽ được tặng kèm một slot để tham gia trò chơi Poker giải trí tại quán.\n2. Cam kết No-cash, just fun: Quán tuyệt đối không thu phí phế trên từng ván bài, không cho phép khách quy đổi phỉnh thắng cuộc thành tiền mặt, thẻ cào hay bất kỳ hiện vật có giá trị kinh tế nào. Cam kết đặt bản quy định to rõ, tuyên truyền, giám sát, nhắc nhở khách hàng không được cá cược, trao đổi dưới bất kỳ hình thức gì, hỗ trợ thông báo đồng hành cùng cơ quan chức năng.\n3. Mục đích: Tạo không gian giao lưu trí tuệ tương tự các mô hình Board Game phổ biến.\nTôi cần Luật sư tư vấn các vấn đề sau:\n• Mô hình 'Mua nước tặng Slot' như trên có nguy cơ bị khép vào tội 'Tổ chức đánh bạc' theo Bộ luật Hình sự hiện hành hay không?\n• Các rủi ro về xử phạt hành chính khi cơ quan chức năng kiểm tra tại địa bàn Đà Nẵng.\n• Tôi cần những loại giấy phép gì và cần cam kết/nội quy như thế nào để bảo vệ quán và bảo vệ hồ sơ nhân thân của tôi trước pháp luật.\nRất mong nhận được phản hồi từ Luật sư",
-      "url": "",
-      "crawled_at": "2026-04-14T21:53:34.032291",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 29,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thủ tục mở xưởng, kinh doanh, đóng thuế, quy định phòng cháy chữa cháy",
-      "post_id": 140,
+      "id": 29,
       "content": "Tôi định thuê xưởng khoảng 500m2 để sản xuất kinh doanh hạt nhựa ( PE/Ldpe ) bằng nhựa tái chế. Công suất khoảng 4 tấn/ngày. Nguồn nguyên liệu là nhựa phế thải từ các CTY sx trong nước.\nXin cho biết tôi cần phải thực hiện các bước , thủ tục  hành chính gì ( về môi trường, pccc ) để xưởng được hoạt động.\nTôi xin trân trọng cảm ơn.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:55:27.006380",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 30,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thủ tục mở xưởng, kinh doanh, đóng thuế, quy định phòng cháy chữa cháy",
-      "post_id": 150,
+      "id": 30,
       "content": "THUẾ MỚI, THỦ TỤC NHẸ: HỘ KINH DOANH NHỎ THỞ PHÀO\nCải cách hành chính thuế gần đây mang lại một tin vui cho hộ kinh doanh nhỏ: giờ đây không cần chạy vạy xin mã số thuế cho từng cửa hàng, cũng chẳng phải nộp hồ sơ rườm rà. Chỉ cần số định danh cá nhân – thế là đủ để “làm ăn hợp pháp”.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:56:03.777998",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 31,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thủ tục mở xưởng, kinh doanh, đóng thuế, quy định phòng cháy chữa cháy",
-      "post_id": 161,
+      "id": 31,
       "content": "Kính gửi Quý luật sư,\nTôi hiện đang tìm hiểu về thủ tục hành chính liên quan đến Văn phòng đại diện và kính mong Quý luật sư hỗ trợ giải đáp một số nội dung như sau:\nThủ tục thay đổi người đứng đầu Văn phòng đại diện cần chuẩn bị những hồ sơ, giấy tờ gì?\nThủ tục thay đổi địa chỉ Văn phòng đại diện được thực hiện như thế nào?\nTrường hợp thay đổi con dấu của Văn phòng đại diện thì cần thực hiện các bước gì?",
-      "url": "",
-      "crawled_at": "2026-04-14T21:56:40.829517",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 32,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thủ tục xuất nhập khẩu (tem bưu chính)",
-      "post_id": 92,
+      "id": 32,
       "content": "Cả nhà ơi, nếu em nhập khẩu tem bưu chính nước ngoài (dưới hoặc trên 500 con tem) phục vụ mục đích nghiên cứu, sưu tập văn hoá bưu chính thì có cần phải đăng ký cấp phép cũng như làm thủ tục gì để được phép nhập khẩu tem bưu chính nước ngoài về Việt Nam không?\nMong cả nhà cmt tư vấn giúp em. Trân trọng.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:52:11.519006",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 33,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Quy định về thu thuế, quỹ cấp xã",
-      "post_id": 114,
+      "id": 33,
       "content": "Chào mọi người, em thì sinh sống ở xã, hôm qua có người bên xã đến đưa giấy trong giấy ghi “ Thông báo về việc đóng góp các nguồn quỹ, thuế mùa khô 2026”. Và trong đó liệt kê ra những nguồn quỹ và thuế như sau:\n1/ Quỹ Phòng chống thiên tai: 10.000 đồng x 3 lao động = 30.000 đồng\n2/ Quỹ đền ơn đáp nghĩa: 30.000 đồng/hộ/năm\n3/ Quỹ vì người nghèo: 35.000 đồng/hộ/năm",
-      "url": "",
-      "crawled_at": "2026-04-14T21:54:32.022805",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 34,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Thay đổi địa chỉ trên đăng ký nhãn hiệu do đổi địa giới hành chính",
-      "post_id": 71,
+      "id": 34,
       "content": "Các luật sư cho em hỏi với ah, bây giờ khi mà đã thay đổi địa giới hành chính thì mình có bắt buộc phải thay đổi địa chỉ trên giấy chứng nhận đăng ký nhãn hiệu không ah?",
-      "url": "",
-      "crawled_at": "2026-04-14T21:50:43.573013",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 35,
-      "nhom_id": "3",
-      "nhom": "Thủ tục Hành chính, Hộ tịch và Giấy phép",
-      "phan_nhom": "Quy định quản lý hồ đập thủy nông của Nhà nước",
-      "post_id": 145,
+      "id": 35,
       "content": "Chào cả nhà cả nhà có luật sư nào biết và hiểu về luật bên lĩnh vực thủy nông thì giúp mình cho mình hỏi sau sát nhập thì nhũng hồ đập thuộc địa lý hành chính xóm thì do xã hay xóm hay cỏ quan nào quản lý hay được phép cho thuê k ạ ? Mong mọi người giúp đỡ mình với ạ.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:55:35.256137",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 36,
-      "nhom_id": "4",
-      "nhom": "Khởi kiện, Tố cáo Quyết định/Hành vi Hành chính (Tố tụng Hành chính)",
-      "phan_nhom": "Mẫu đơn khởi kiện Quyết định hành chính",
-      "post_id": 3,
+      "id": 36,
       "content": "MẪU ĐƠN KHỞI KIỆN QUYẾT ĐỊNH HÀNH CHÍNH TRÁI PHÁP LUẬT\n(Áp dụng cho các trường hợp thu hồi đất sai, xử phạt vi phạm hành chính sai, cưỡng chế, cấp/thu hồi sổ đỏ, quyết định của UBND hoặc cơ quan Nhà nước không đúng quy định)\nSoạn theo Mẫu số 01-HC ban hành kèm Nghị quyết 02/2017/NQ-HĐTP của Hội đồng Thẩm phán TAND Tối cao.\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMm\nĐộc lập – Tự do – Hạnh phúc\nĐƠN KHỞI KIỆN.\n(V/v: Khiếu kiện quyết định hành chính, hành vi hành chính trái pháp luật)\nKính gửi: TÒA ÁN NHÂN DÂN ....................................................\n1. Người khởi kiện:\n• Họ và tên: .....................................................................................\n• Ngày, tháng, năm sinh: ...............................................................\n• Số CCCD/CMND: .................. Cấp ngày: ............... Nơi cấp: ..................\n• Địa chỉ thường trú: ........................................................................\n• Số điện thoại (nếu có): .................................................................\n• (Nếu là tổ chức): Tên cơ quan, doanh nghiệp, người đại diện theo pháp luật, chức vụ, địa chỉ trụ sở, mã số doanh nghiệp,...\n2. Người bị kiện:\n(Cơ quan hoặc người có thẩm quyền ban hành quyết định hành chính/hành vi hành chính bị kiện)\n• Tên cơ quan: ................................................................................\n• Người đại diện theo pháp luật: ....................................................\n• Chức vụ: .........................................................................................\n• Địa chỉ trụ sở: ................................................................................\n3. Người có quyền lợi, nghĩa vụ liên quan (nếu có):\n• Họ tên hoặc tên tổ chức: ..............................................................\n• Địa chỉ: .........................................................................................\n4. Nội dung khởi kiện:\nNgày … tháng … năm …, cơ quan/UBND ……… đã ban hành Quyết định số …/QĐ-… về việc … (ví dụ: thu hồi đất, xử phạt vi phạm hành chính, cưỡng chế công trình, không cấp sổ đỏ, …).\nTôi nhận thấy Quyết định/Hành vi hành chính này là trái pháp luật, cụ thể:\n• Ban hành không đúng thẩm quyền;\n• Không đúng trình tự, thủ tục quy định tại Luật Đất đai, Luật Xử lý vi phạm hành chính, Luật Tố tụng hành chính;\n• Nội dung quyết định sai sự thật, xâm phạm quyền, lợi ích hợp pháp của tôi.\nVí dụ:\n• Quyết định thu hồi đất khi chưa có phương án bồi thường, chưa đo đạc xác định ranh giới, chưa thông báo hợp lệ;\n• Quyết định xử phạt vi phạm hành chính sai đối tượng, không lập biên bản đúng trình tự;\n• Hành vi cưỡng chế, lập biên bản, tịch thu tài sản khi chưa có quyết định hợp pháp.\nTôi đã khiếu nại đến cơ quan ban hành quyết định nhưng không được giải quyết thỏa đáng / không được trả lời trong thời hạn luật định.\nDo đó, tôi làm đơn này khởi kiện đến Tòa án để yêu cầu xem xét, hủy bỏ quyết định/hành vi trái pháp luật nêu trên.\n5. Yêu cầu Tòa án giải quyết:\nHủy toàn bộ hoặc một phần Quyết định hành chính số …/QĐ-… ngày …/…/… của … về việc .............................................\nBuộc cơ quan/UBND … hoặc người có thẩm quyền phải:\n• Khôi phục lại quyền, lợi ích hợp pháp của tôi (ví dụ: giao trả lại đất, cấp lại giấy chứng nhận, hoàn trả tiền phạt,…).\n• Bồi thường thiệt hại do việc ban hành quyết định sai (nếu có).\nBuộc cơ quan/UBND … chịu án phí hành chính sơ thẩm theo quy định pháp luật.\n6. Tài liệu, chứng cứ kèm theo đơn:\n• Bản sao Quyết định hành chính bị kiện hoặc văn bản thể hiện hành vi hành chính (biên bản, thông báo, công văn...).\n• Giấy tờ chứng minh quyền lợi bị xâm phạm (Giấy chứng nhận QSDĐ, sổ đỏ, biên bản đo đạc, hình ảnh, video, biên bản làm việc, thư từ, v.v.).\n• Đơn khiếu nại, biên bản làm việc, quyết định giải quyết khiếu nại (nếu có).\n• Giấy tờ tùy thân của người khởi kiện (CMND/CCCD, sổ hộ khẩu).\n• Các chứng cứ khác có liên quan đến vụ việc.\nTôi cam kết toàn bộ nội dung trên là đúng sự thật và chịu trách nhiệm trước pháp luật.\nKính đề nghị Quý Tòa xem xét, thụ lý và giải quyết theo quy định pháp luật.\n..., ngày ... tháng ... năm 2025\nNgười khởi kiện\n(Ký, ghi rõ họ tên)\nLuật sư Nguyên Thạo- tư vấn pháp lý. Tham gia tố tụng.\nCall: 0919312102.\nEmail: co102.ipo@gmail.com\nHƯỚNG DẪN NỘP ĐƠN:\n• Nộp tại Tòa án nhân dân cấp tỉnh nơi cơ quan Nhà nước ban hành quyết định có trụ sở (đối với UBND cấp huyện trước đây. Nay cấp xã, hay sở, phòng...).\n• Nếu quyết định do UBND xã/phường ban hành, có thể nộp tại Tòa án nhân dân cấp huyện.\n• Kèm bản sao quyết định bị kiện, chứng cứ và biên nhận khiếu nại (nếu đã khiếu nại).\n• Thời hạn khởi kiện: 01 năm kể từ ngày nhận hoặc biết được quyết định/hành vi hành chính.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:48:01.757017",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 37,
-      "nhom_id": "4",
-      "nhom": "Khởi kiện, Tố cáo Quyết định/Hành vi Hành chính (Tố tụng Hành chính)",
-      "phan_nhom": "Mẫu đơn khởi kiện Quyết định hành chính",
-      "post_id": 8,
+      "id": 37,
       "content": "10\nMẪU ĐƠN KHỞI KIỆN QUYẾT ĐỊNH HÀNH CHÍNH TRÁI PHÁP LUẬT\n(Áp dụng cho các trường hợp thu hồi đất sai, xử phạt vi phạm hành chính sai, cưỡng chế, cấp/thu hồi sổ đỏ, quyết định của UBND hoặc cơ quan Nhà nước không đúng quy định)\nSoạn theo Mẫu số 01-HC ban hành kèm Nghị quyết 02/2017/NQ-HĐTP của Hội đồng Thẩm phán TAND Tối cao.\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMm\nĐộc lập – Tự do – Hạnh phúc\nĐƠN KHỞI KIỆN.\n(V/v: Khiếu kiện quyết định hành chính, hành vi hành chính trái pháp luật)\nKính gửi: TÒA ÁN NHÂN DÂN ....................................................\n1. Người khởi kiện:\n• Họ và tên: .....................................................................................\n• Ngày, tháng, năm sinh: ...............................................................\n• Số CCCD/CMND: .................. Cấp ngày: ............... Nơi cấp: ..................\n• Địa chỉ thường trú: ........................................................................\n• Số điện thoại (nếu có): .................................................................\n• (Nếu là tổ chức): Tên cơ quan, doanh nghiệp, người đại diện theo pháp luật, chức vụ, địa chỉ trụ sở, mã số doanh nghiệp,...\n2. Người bị kiện:\n(Cơ quan hoặc người có thẩm quyền ban hành quyết định hành chính/hành vi hành chính bị kiện)\n• Tên cơ quan: ................................................................................\n• Người đại diện theo pháp luật: ....................................................\n• Chức vụ: .........................................................................................\n• Địa chỉ trụ sở: ................................................................................\n3. Người có quyền lợi, nghĩa vụ liên quan (nếu có):\n• Họ tên hoặc tên tổ chức: ..............................................................\n• Địa chỉ: .........................................................................................\n4. Nội dung khởi kiện:\nNgày … tháng … năm …, cơ quan/UBND ……… đã ban hành Quyết định số …/QĐ-… về việc … (ví dụ: thu hồi đất, xử phạt vi phạm hành chính, cưỡng chế công trình, không cấp sổ đỏ, …).\nTôi nhận thấy Quyết định/Hành vi hành chính này là trái pháp luật, cụ thể:\n• Ban hành không đúng thẩm quyền;\n• Không đúng trình tự, thủ tục quy định tại Luật Đất đai, Luật Xử lý vi phạm hành chính, Luật Tố tụng hành chính;\n• Nội dung quyết định sai sự thật, xâm phạm quyền, lợi ích hợp pháp của tôi.\nVí dụ:\n• Quyết định thu hồi đất khi chưa có phương án bồi thường, chưa đo đạc xác định ranh giới, chưa thông báo hợp lệ;\n• Quyết định xử phạt vi phạm hành chính sai đối tượng, không lập biên bản đúng trình tự;\n• Hành vi cưỡng chế, lập biên bản, tịch thu tài sản khi chưa có quyết định hợp pháp.\nTôi đã khiếu nại đến cơ quan ban hành quyết định nhưng không được giải quyết thỏa đáng / không được trả lời trong thời hạn luật định.\nDo đó, tôi làm đơn này khởi kiện đến Tòa án để yêu cầu xem xét, hủy bỏ quyết định/hành vi trái pháp luật nêu trên.\n5. Yêu cầu Tòa án giải quyết:\nHủy toàn bộ hoặc một phần Quyết định hành chính số …/QĐ-… ngày …/…/… của … về việc .............................................\nBuộc cơ quan/UBND … hoặc người có thẩm quyền phải:\n• Khôi phục lại quyền, lợi ích hợp pháp của tôi (ví dụ: giao trả lại đất, cấp lại giấy chứng nhận, hoàn trả tiền phạt,…).\n• Bồi thường thiệt hại do việc ban hành quyết định sai (nếu có).\nBuộc cơ quan/UBND … chịu án phí hành chính sơ thẩm theo quy định pháp luật.\n6. Tài liệu, chứng cứ kèm theo đơn:\n• Bản sao Quyết định hành chính bị kiện hoặc văn bản thể hiện hành vi hành chính (biên bản, thông báo, công văn...).\n• Giấy tờ chứng minh quyền lợi bị xâm phạm (Giấy chứng nhận QSDĐ, sổ đỏ, biên bản đo đạc, hình ảnh, video, biên bản làm việc, thư từ, v.v.).\n• Đơn khiếu nại, biên bản làm việc, quyết định giải quyết khiếu nại (nếu có).\n• Giấy tờ tùy thân của người khởi kiện (CMND/CCCD, sổ hộ khẩu).\n• Các chứng cứ khác có liên quan đến vụ việc.\nTôi cam kết toàn bộ nội dung trên là đúng sự thật và chịu trách nhiệm trước pháp luật.\nKính đề nghị Quý Tòa xem xét, thụ lý và giải quyết theo quy định pháp luật.\n..., ngày ... tháng ... năm 2025\nNgười khởi kiện\n(Ký, ghi rõ họ tên)\nLuật sư Nguyên Thạo- tư vấn pháp lý. Tham gia tố tụng.\nCall: 0919312102.\nEmail: co102.ipo@gmail.com\nHƯỚNG DẪN NỘP ĐƠN:\n• Nộp tại Tòa án nhân dân cấp tỉnh nơi cơ quan Nhà nước ban hành quyết định có trụ sở (đối với UBND cấp huyện trước đây. Nay cấp xã, hay sở, phòng...).\n• Nếu quyết định do UBND xã/phường ban hành, có thể nộp tại Tòa án nhân dân cấp huyện.\n• Kèm bản sao quyết định bị kiện, chứng cứ và biên nhận khiếu nại (nếu đã khiếu nại).\n• Thời hạn khởi kiện: 01 năm kể từ ngày nhận hoặc biết được quyết định/hành vi hành chính.",
-      "url": "",
-      "crawled_at": "2026-04-14T21:48:01.757803",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 38,
-      "nhom_id": "4",
-      "nhom": "Khởi kiện, Tố cáo Quyết định/Hành vi Hành chính (Tố tụng Hành chính)",
-      "phan_nhom": "Tố cáo sai phạm của cán bộ/cơ quan nhà nước (CSGT, Công an xã/huyện)",
-      "post_id": 86,
+      "id": 38,
       "content": "Chỗ e ở đông triều, Quảng ninh, đất đang đc nhà nước đền bù cho dân để xây dựng doanh trại quân đội.\nVà dân đã dc nhận đền bù xong hết r. Nhưng có 1 số dân lại đi múc trộm đất đồi của nhà nước.\nMn cho e hỏi việc này họ đã đút lót tiền cho bên CA xã và cấp huyện 1 ít rồi.\nMà mình muốn cấp to hơn về kiểm tra để phạt nặng hoặc khởi kiện thì có được không ạ? Và nếu được thì liên hệ cho ai thì được ạ! Em xin cảm ơn",
-      "url": "",
-      "crawled_at": "2026-04-14T21:51:48.053936",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 39,
-      "nhom_id": "4",
-      "nhom": "Khởi kiện, Tố cáo Quyết định/Hành vi Hành chính (Tố tụng Hành chính)",
-      "phan_nhom": "Tố cáo sai phạm của cán bộ/cơ quan nhà nước (CSGT, Công an xã/huyện)",
-      "post_id": 107,
+      "id": 39,
       "content": "Mọi người xem đơn chồng tôi tố cáo gửi đến các cơ quan về giao thông cần thơ làm trái quy định pháp luật",
-      "url": "",
-      "crawled_at": "2026-04-14T21:53:52.459379",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 40,
-      "nhom_id": "4",
-      "nhom": "Khởi kiện, Tố cáo Quyết định/Hành vi Hành chính (Tố tụng Hành chính)",
-      "phan_nhom": "Tố cáo sai phạm của cán bộ/cơ quan nhà nước (CSGT, Công an xã/huyện)",
-      "post_id": 144,
+      "id": 40,
       "content": "Anh chị nào hiểu rõ về luật giao thông giải đáp thắc mắc cho em 1 chút ạ . Chuyện là em có đi sai vào cao tốc và bị các anh csgt gọi vào xử lý . Khi làm việc thì các anh không cho cầm điện thoại theo và không lập biên bản ngay chỉ nói về mức phạt từ 4-6tr và bảo em nộp để được đi ngay , nhưng em chưa có tiền nộp phạt ngay thì các anh tạm giữ blx và gpl xe nhưng chưa có biên bản hay giấy hẹn và hẹn hôm khác em lên làm việc tiếp tại chỗ em bị bắt , sáng hô sau em có quay lại nhưng các anh không trực ở đó và em có lên lại vào buổi chiều 2-3 buồi nhưng cũng không thấy các anh làm việc . Trường hợp của em vẫn bị giữ giấy tờ xe và blx kéo dài hơn 1 tuần r nhưng chưa làm việc được , và không có biên bản hay giấy hẹn làm việc thì em lên xử lý như thế nào và csgt có sai không ạ . Em xin cảm ơn ạ",
-      "url": "",
-      "crawled_at": "2026-04-14T21:55:31.128628",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 41,
-      "nhom_id": "4",
-      "nhom": "Khởi kiện, Tố cáo Quyết định/Hành vi Hành chính (Tố tụng Hành chính)",
-      "phan_nhom": "Phản ánh tình trạng im lặng hành chính khi giải quyết khiếu nại",
-      "post_id": 120,
+      "id": 41,
       "content": "IM LẶNG HÀNH CHÍNH: VŨ KHÍ NGUY HIỂM NHẤT TRONG QUẢN LÝ NHÀ NƯỚC\nCó một loại quyền lực không cần cưỡng chế, không cần mệnh lệnh, không cần cư xử gay gắt.\nĐó là im lặng.\nMột lá đơn gửi đi – không phản hồi.\nMột kiến nghị hợp pháp – không trả lời.\nMột khiếu nại chính đáng – không giải quyết.\nIm lặng kéo dài ngày này qua tháng khác.\nNgười dân chờ.\nRồi chờ tiếp.\nRồi mệt mỏi.\nRồi bỏ cuộc.\nĐó chính là cơ chế bào mòn ý chí công dân.\nPháp luật quy định rất rõ:\nThời hạn giải quyết khiếu nại.\nTrách nhiệm phản hồi.\nNghĩa vụ trả lời công dân.\nNhưng khi im lặng trở thành thông lệ, thì luật bị vô hiệu hóa bằng sự trì hoãn.\nIm lặng hành chính không gây ồn ào, nhưng phá hủy niềm tin sâu sắc.\nMột xã hội mà công dân gửi đơn trong vô vọng – là xã hội mà quyền lực không còn bị giám sát thực chất.\nChống tham nhũng, chống sai phạm – đôi khi không bắt đầu từ những đại án.\nMà bắt đầu từ:\nBuộc hệ thống phải trả lời.\n#phapquyen #congdan #phapluat #thucthi #congly #hanhphap",
-      "url": "",
-      "crawled_at": "2026-04-14T21:54:35.923235",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 42,
-      "nhom_id": "4",
-      "nhom": "Khởi kiện, Tố cáo Quyết định/Hành vi Hành chính (Tố tụng Hành chính)",
-      "phan_nhom": "Tìm luật sư khởi kiện hành chính",
-      "post_id": 159,
+      "id": 42,
       "content": "Mình cần thuê 1 luật sư khởi kiện hành chính tại tòa Vĩnh long? Cảm ơn lstvpl",
-      "url": "",
-      "crawled_at": "2026-04-14T21:56:40.829404",
-      "nguon_file": "crawled_posts.json"
+      "source": "facebook"
     },
     {
-      "stt": 43,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính tội đánh bạc/ghi đề (dưới mức truy cứu hình sự)",
-      "post_id": 1,
+      "id": 43,
       "content": "anh trai e có giấy triệu tập của công an tp do đánh đề. này bị phạt hành chính hay như nào vậy ạ?",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:57:56.084188",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 44,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính tội đánh bạc/ghi đề (dưới mức truy cứu hình sự)",
-      "post_id": 49,
+      "id": 44,
       "content": "E ng Bắc giang Em bị công an tuyên quang về Bắc giang mời ra xã lm việc và lậ biên bản về hành vi đánh bạc trên mạng,hình phạt 5-7 năm. Rồi có giấy triệu tập lên c.an tỉnh tuyên quang.em xin hỏi sau khi lên họ có tạm giam hay không.họ cho 2 ngày chuẩn bị lộ,em hiện tại lo chưa đủ thì có gọi điện kéo dài chút thời gian được không ạ",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:00:00.263805",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 45,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính tội đánh bạc/ghi đề (dưới mức truy cứu hình sự)",
-      "post_id": 72,
+      "id": 45,
       "content": "Xin chào mọi, mong mọi người giải đáp thất mắc ạ. e đọc luật thì đánh bạc dưới 5tr thì phạt hành chính như mà 5tr này tính như thế nào ạ (qua mạng với đánh ngoài có tính khác nhau không) e đọc nhiều bản án nó cứ mơ hồ sau ý.\nEm cám ơn",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:01:46.845237",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 46,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính tội đánh bạc/ghi đề (dưới mức truy cứu hình sự)",
-      "post_id": 74,
+      "id": 46,
       "content": "Mn cho em tham khảo với ạ.\nNgười nhà e đánh bạc bị bắt 2 lần cả 2 đều dưới 5 triệu ( lần 1 bị phạt hành chính và đóng phạt tháng 4/2025, lần 2 bị bắt vào tháng 7/2025). Khi ra toà sơ thẩm vks đọc cáo trạng đề xuất mức án 9-12 tháng, toà tuyên 8 tháng.\nEm đang dự định làm đơn kháng cáo xin giảm nhẹ hình phạt, tài liệu bổ sung gồm giấy nộp án phí sơ thẩm.",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:01:46.845347",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 47,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính tội đánh bạc/ghi đề (dưới mức truy cứu hình sự)",
-      "post_id": 80,
+      "id": 47,
       "content": "em chào mn. hữu duyên cho em hỏi em có ông anh chơi tx online. nay bị công an triệu tập. trong biên bản có ghi ổng nạp 3 lần tổng 12tr ( 2 lần 5tr, 1 lần 2tr) . ổng chơi 1 mình, không tổ chức, không trung gian, không lôi kéo ai. ý là ổng nạp tiền vào app chơi, cái tài khoản nhận tiền kia bị điều tra, bị truy ngược ấy ạ. mn cho em hỏi trường hợp của ổng có phải bị khoản 2 là sử dụng mạng viễn thông để chơi không ạ. trường hợp này thường bị xử lý hành chính hay hình sự ạ. nếu hành chính thì bị phạ bao nhiêu và hình sự thì sẽ như thế nào ạ. em cảm ơn mn",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:02:30.804775",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 48,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính tội đánh bạc/ghi đề (dưới mức truy cứu hình sự)",
-      "post_id": 87,
+      "id": 48,
       "content": "Xin chào mn . Stt này mình lưu ý những ai đam mê cobac nhé.\n1. Pháp luật Việt Nam quy định rõ: Đánh bạc là tội phạm hình sự\n• Bộ luật Hình sự 2015, Điều 321, 322: Cấm cả hành vi đánh bạc và tổ chức đánh bạc, dù dưới hình thức truyền thống hay qua mạng.\n• Kể cả đánh 50.000 VNĐ qua mạng nếu đủ yếu tố cấu thành (có tính ăn thua, lặp lại…), cũng bị xử lý hành chính hoặc hình sự....\n.....",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:02:47.224952",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 49,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính tội đánh bạc/ghi đề (dưới mức truy cứu hình sự)",
-      "post_id": 103,
+      "id": 49,
       "content": "Xin hỏi các vị luật sư,vk tôi có ghi giúp cho đứa em mấy con đề trong khoảng thời gian hơn 1 tháng có 2 ngày trúng trên 5tr còn lại toàn vài trăm k,công an điều tra và quyết định khởi tố những ngày trên 5 triệu còn những ngày dưới 5tr lại tách ra xử phạt hành chính 17,5tr đồng ,tôi đọc thấy rất nhiều thông tin chỉ áp dụng xử phạt hành chính hoăc khởi tố cho 1 hành vi vậy ở đây họ tách như vậy có đúng không?xin các ls học rộng hiểu nhiều cho biết với.xin cảm ơn",
-      "url": "https://www.facebook.com/groups/1545991175927462/search?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh&filters=eyJyZWNlbnRfcG9zdHM6MCI6IntcIm5hbWVcIjpcInJlY2VudF9wb3N0c1wiLFwiYXJnc1wiOlwiXCJ9In0%3D",
-      "crawled_at": "2026-05-06T23:04:27.780260",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 50,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính do đánh nhau/gây rối trật tự",
-      "post_id": 83,
+      "id": 50,
       "content": "Mọi người cho em hỏi với ạ :\n2 bàn ngồi uống rượu cạnh nhau  có lời qua tiếng lại gây đến đánh nhau bằng chân tay k gây thương tích gì . Bên họ bị đau nhẹ . Sưng bầm ngoài da . Quá trình đó xảy ra khi say rượu nên bên kia đã lên báo công an . Nhưng hôm sau công an gọi lên xử lí thì 2 bên thoả thuận giải quyết tình cảm . Nhưng công an k nghe và phạt hành chính 2 bênn.Vì bên đánh chưa thống nhất được nộp phạt thì  Xong lại báo là gửi đơn đi tỉnh theo mọi người là 2 bên sẽ bị xử lí ra sao . ( lần đầu phạm tội)",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:02:34.890239",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 51,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt hành chính do đánh nhau/gây rối trật tự",
-      "post_id": 85,
+      "id": 51,
       "content": "E có làm đơn tố cáo gửi công an họ giải quyết chỉ thông báo mồm là tội gây rối trật tự công cộng phạt hành chính 6 triệu rưỡi. E có quyền được yêu cầu xem quyết định xử phạt và biên lai thu tiền ko ạ. Mong ai biết trả lời giúp e với ạ.",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:02:34.890582",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 52,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt vi phạm giao thông (CSGT)",
-      "post_id": 53,
+      "id": 52,
       "content": "Mọi người ơi cho e hỏi, ông e đi xe ô tô quay đầu va chạm với xe khác. Lên công an, bên e sai hoàn toàn. Giám định xe kia hư tổn 150tr. Nhưng bên e không có tiền để đền liền. Hiện tại thu nhập ông e 1 tháng 4-5tr, không có tài sản đứng tên. Bên kia đòi khởi kiện thì ông e có bị sao không ạ",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:00:19.622990",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 53,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt vi phạm giao thông (CSGT)",
-      "post_id": 56,
+      "id": 53,
       "content": "Mọi người ơi cho em hỏi với ạ . Em đi đường chấp hành luật giao thông đầy đủ. Nhưng lúc em dừng đèn đỏ (có tắc đường) thì bị người khác tông phải . Nhưng họ lại là người bị thương nằm ra đất, có hơi co giật nhẹ . Em không bị làm sao , ko hư hại về tài sản.  Do em chưa gặp trường hợp này bao giờ nên em đã hoảng loạn và phóng xe đi . Trong trường hợp tệ nhất em có bị làm sao không ạ",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:00:23.570105",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 54,
-      "nhom_id": "1",
-      "nhom": "Xử phạt Vi phạm Hành chính (XPVPHC)",
-      "phan_nhom": "Xử phạt vi phạm giao thông (CSGT)",
-      "post_id": 108,
+      "id": 54,
       "content": "Gia đình nên nhờ luật sư\nNghi vi phạm hành chính không dùng hiệu lệnh dừng xe , dùng xe đuổi phía sau , khi cháu bị tai nạn thì quay xe bỏ đi",
-      "url": "https://www.facebook.com/groups/1545991175927462/search?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh&filters=eyJyZWNlbnRfcG9zdHM6MCI6IntcIm5hbWVcIjpcInJlY2VudF9wb3N0c1wiLFwiYXJnc1wiOlwiXCJ9In0%3D",
-      "crawled_at": "2026-05-06T23:05:20.281109",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 55,
-      "nhom_id": "2",
-      "nhom": "Thủ tục Hành chính, Giấy phép và Thuế",
-      "phan_nhom": "Giấy phép kinh doanh và điều kiện hoạt động",
-      "post_id": 58,
+      "id": 55,
       "content": "TÌM LUẬT SƯ TƯ VẤN DOANH NGHIỆP\nTôi đang chuẩn bị mở công ty trong lĩnh vực nhà hàng – ẩm thực tại Ninh Bình\nvà cần tìm luật sư chuyên về doanh nghiệp để tư vấn:\n• Thủ tục thành lập công ty\n• Các vấn đề pháp lý khi vận hành nhà hàng\n• Hợp đồng và cấu trúc doanh nghiệp\nƯu tiên luật sư có kinh nghiệm trong lĩnh vực F&B\nNếu anh/chị có luật sư uy tín\nxin vui lòng giới thiệu giúp tôi.\nCảm ơn mọi người.",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:00:31.478603",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 56,
-      "nhom_id": "2",
-      "nhom": "Thủ tục Hành chính, Giấy phép và Thuế",
-      "phan_nhom": "Thuế thu nhập cá nhân",
-      "post_id": 27,
+      "id": 56,
       "content": "Chào hội  tư vấn pháp luật.\nHiện tại em đang gặp một vấn đề như sau:\nSếp em chủ đầu tư là người Trung Quốc ,vào tháng 03 năm 2022 thì sếp em có nhờ em tìm xưởng sản xuất để thuê và giúp ông thực hiện hoạt động kinh doanh và ông nhờ một người làm đại diện pháp nhân tên là Lềnh Tú Nhàn.\nDo công ty chưa vào hoạt động chính thức nên sếp đã nhờ em dùng tài khoản Sacombank của em để nhận tiền vào tài khoản và thanh toán các chi phí chuẩn bị công ty gồm các chi phí thuê xưởng hoặc mua thiết bị trang bị.kể cả phát lương tiền mặt ,\nEm làm việc từ tháng 3 và tháng tư thì có giấy phép kinh doanh và đi vào hoạt động chính thức vào tháng 6 và sếp lại nhờ em mở cho ông một tài khoản cá nhân cho ông dùng để ông đổi tiền Trung sang tiền Việt , tức là ông muốn dùng tài khoản Vietcombank nhận các nguồn tiền ví dụ như tiền đầu tư bên Trung Quốc đổi sang, phải dùng tài khoản Vietcombank đó chuyển vào tài khoản Sacombank cho em để em thanh toán những chi phí sinh hoạt của công ty. Thay vì chuyển thẳng vào tài khoản Sacombank của em như lúc trước. Và thời gian đó sếp có nhờ em bán hàng tức là công ty của em là công ty gỗ và dùng tài khoản cá nhân nhận tiền, ví dụ như một kiện hàng em bán được 30 triệu sếp đưa ra giá là 28 triệu thì em sẽ chuyển là 28 triệu cho sếp và em được giữ lại 2 triệu tiền lợi nhuận. Cũng dùng từ tài khoản cá nhân Chuyển sang tài khoản cá nhân của sếp, nói chung đều là tài khoản cá nhân của em. Với số tiền bán hàng từ tháng 8 đến tháng 11 khoảng 7 tỷ. Theo em được biết thì thời gian đó là không có\nXuất hóa đơn bán hàng, tôi nhận hàng tài khoản cá nhân bởi vì lúc đó là em được bổ nhiệm làm phó giám đốc và được ủy quyền , nói chung vừa diện pháp luật chỉ đứng tên thôi còn lại là đều do em điều hành dưới sự chỉ đạo của sếp Trung Quốc, tháng 11 sếp đuổi việc em do nghi ngờ em chiếm đoạt tiền bán hàng của công ty. Đuổi việc không có lý do chính thức về không trả lương tháng 11 rồi em cũng như là không hủy bỏ giấy ủy quyền của em, ký kết các văn bản thuộc phạm vi của giám đốc trong thời giời gian 5 năm, không đóng bảo hiểm cho em luôn.Đến hiện tại thì em bị truy thuế thu nhập cá nhân từ nhiều tài khoản do ảnh hưởng của công việc em hiện tại. Và chuyên nhiều tài khoản ngân hàng, Công việc hiện tại của em là môi giới hôn nhân và kể cả chồng em là người nước ngoài cho nên thường xuyên nhận các số tiền lớn. Em có viết tường trình gửi cho chị giám đốc đại diện pháp luật bởi vì em nghĩ nếu như có ảnh hưởng là sao ảnh hưởng đến chị nhưng chị ấy đã xóa bỏ em luôn không trả lời giờ em phải làm sao ạ. Công ty của em là công ty trách nhiệm hữu hạn sản xuất có xuất nhập khẩu ạ. Nhập hàng gỗ từ nước ngoài về về sản xuất rồi xuất về nước ngoài.",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:58:51.576388",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 57,
-      "nhom_id": "2",
-      "nhom": "Thủ tục Hành chính, Giấy phép và Thuế",
-      "phan_nhom": "Hộ tịch",
-      "post_id": 12,
+      "id": 57,
       "content": "Bố tôi (đã mất) , ông không có khai sinh. Cần xác nhận Bố tôi là con của ông bà nội ( ông bà nội đã mất). Có cách nào để xác minh?",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:58:17.973815",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 58,
-      "nhom_id": "3",
-      "nhom": "Quản lý Đất đai và Khởi kiện Hành chính",
-      "phan_nhom": "Thủ tục, giấy tờ đất đai",
-      "post_id": 23,
+      "id": 58,
       "content": "Em đã có bản án cho con Nợ lừa em tiên để đầu tư số tiền 700 triệu. Cũng đã làm thủ tục thi hành án với tài khoản ngân hàng của nó.. Cho em hỏi giờ có cách làm liên hệ với văn phòng đất đai để kiểm tra xem con nợ của em còn tài sản hay không ạ.. Theo kiện gần 1 năm em mệt mỏi quá ạ",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:58:43.948155",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 59,
-      "nhom_id": "3",
-      "nhom": "Quản lý Đất đai và Khởi kiện Hành chính",
-      "phan_nhom": "Thu hồi, đền bù đất",
-      "post_id": 34,
+      "id": 59,
       "content": "Có bác luật sư nào giờ dám đụng độ với ubnd xã về đền bù đất đai của người dân không ạ. Theo đúng luật còn bị xã hành thì các bác luật sư sẽ làm sao ạ.",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:59:06.737007",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 60,
-      "nhom_id": "3",
-      "nhom": "Quản lý Đất đai và Khởi kiện Hành chính",
-      "phan_nhom": "Tố tụng hành chính/Quy trình giải quyết",
-      "post_id": 60,
+      "id": 60,
       "content": "E cần 1 luật sư giỏi kiện về đất đai\nAii biết chỉ em với ạ\nKhu vực :đồng nai",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:00:39.381278",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 61,
-      "nhom_id": "3",
-      "nhom": "Quản lý Đất đai và Khởi kiện Hành chính",
-      "phan_nhom": "Tố tụng hành chính/Quy trình giải quyết",
-      "post_id": 66,
+      "id": 61,
       "content": "Dạ em muốn hỏi chi phí kiện tụng hay thuê luật sư cho vụ hành chính hoặc dân sự hiện nay tại TPHCM là bao nhiêu vậy ạ? Em đang muốn được tư vấn pháp lý. Anh/ chị nào biết hãy chỉ cho em với ạ. Em cám ơn ạ!",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:00:55.191300",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 62,
-      "nhom_id": "3",
-      "nhom": "Quản lý Đất đai và Khởi kiện Hành chính",
-      "phan_nhom": "Tố tụng hành chính/Quy trình giải quyết",
-      "post_id": 98,
+      "id": 62,
       "content": "Nhiều bạn hỏi: Điều kiện khởi kiện quan trọng nhất là gì?\nLuật sư trả lời để các bạn nắm rõ như sau:\nTranh chấp đất đai và quyền khởi kiện cần lưu ý vấn đề sau đây:\nCó rất nhiều loại tranh chấp đất đai Khi gửi đơn ra tòa thì chú ta cần phân biệt sẽ có nhiều dạng tranh chấp như:\n1- Tranh chấp QSDD\n2- Tranh chấp liên quan đến QSDĐ.\n3- Tranh chấp về hành chính liên quan lĩnh vực đất đai.....\nKhi khởi kiện luật sư tư vấn nên cần lưi ý đó là: QUYỀN KHỞI KIỆN.\nĐây là một vấn đề gần như không có sách vỡ. Không có một quyết định cụ thể nào để người khởi kiện có thẻ soi chiếu hướng dẫn đúng bagame hay quy trình. Nhưng kinh nghiệm hành nghề chỉ ra rằng. Đầu tiên phải xác định QUYỀN KHỞI KIỆN.\n1-  khi Quyền và lợi ích của mình bị  xâm phạm thì khi đó mình sẽ có quyền khởi  kiện. Phải chứng minh hồ sơ là quyền và lợi ích hợp pháp bị xâm phạm. Nếu không chứng minh được thì Tòa án sẽ từ chối ngan từ ban đầu.\n2- Đối tượng khởi kiện và phạm vi khởi kiện. Rất nhiều trường hợp ls tiếp nhận và sau khi xem đơn khởi kiện tự viết gửi đến Tòa án. Nội dung trình bày rất dài, rất lan man. Quyền lợi xâm phạm rất rõ ràng nhưng không biết cách  ĐƯA YÊU CẦU KHỞI KIỆN dẫn đến MONG MUỐN MỘT ĐẰNG, TÒA THỤ LÝ MỘT NẺO. Vì trình bày quá dài vòng lan man không chốt được vấn đề vì vậy khi khởi kiện nên hiểu : TÒA CHỈ GIẢI QUYẾT THEO YÊU CẦU TRONG PHẠM VI CỦA ĐƯƠNG SỰ. Đương sự khởi kiện nội dung nào thì Tòa án chỉ giải quyến vấn đề đó.\nVì vậy: YÊU CẦU KHỞI KIỆN RẤT QUAN TRỌNG. Nêu phải xác định rõ yêu cầu khởi kiện phải đúng định hướng ban đầu nếu không bỏ mất thời gian có thể mất quyền khởi kiện. Mất thời gian, mất quyền sữa đổi bổ sung yêu cầu khởi kiện trong vụ án.\n- Luật sư - Kiểm Toán Nguyên Thạo. 0919312102  chuyên tư vấn  lĩnh vực pháp lý. Kiểm toán, Thẩm định. Nhận xử lý hồ sơ và tham gia các loại án.\nZalo 0919312102.\nEmail: co102.ipo@gmail.com",
-      "url": "https://www.facebook.com/groups/1545991175927462/search?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh&filters=eyJyZWNlbnRfcG9zdHM6MCI6IntcIm5hbWVcIjpcInJlY2VudF9wb3N0c1wiLFwiYXJnc1wiOlwiXCJ9In0%3D",
-      "crawled_at": "2026-05-06T23:04:13.073294",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 63,
-      "nhom_id": "3",
-      "nhom": "Quản lý Đất đai và Khởi kiện Hành chính",
-      "phan_nhom": "Tố tụng hành chính/Quy trình giải quyết",
-      "post_id": 109,
+      "id": 63,
       "content": "Khi Bô Nông Nghiêp và Môi trường ban hành quyết định 633 lập đường dây nóng thì công chức, người thi hành công vụ trong linh vực đất đai về quản lý, thủ hành chính nên hiểu là nếu co vi phạm pháp luật và vi phạm điều 109 Nghị định 102 thì kết quả sẽ bị xử lý tức thì. Không ai đỡ nỗi đâu",
-      "url": "https://www.facebook.com/groups/1545991175927462/search?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh&filters=eyJyZWNlbnRfcG9zdHM6MCI6IntcIm5hbWVcIjpcInJlY2VudF9wb3N0c1wiLFwiYXJnc1wiOlwiXCJ9In0%3D",
-      "crawled_at": "2026-05-06T23:05:20.281166",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 64,
-      "nhom_id": "3",
-      "nhom": "Quản lý Đất đai và Khởi kiện Hành chính",
-      "phan_nhom": "Tố tụng hành chính/Quy trình giải quyết",
-      "post_id": 110,
+      "id": 64,
       "content": "Có một trường hợp khởi kiện hành chính. Tất cả các thủ tục hành chính khi bị ngưng, gián đoạn phải đảm bảo đúng quy định pháp luật là có văn bản yêu cầu bổ sung hoặc một số nội dung hồ sơ thuộc thẩm quyền của Cơ quan thuế, cơ quan đo đạc, hoặc người dân phải thực hiện nghĩa vụ tài chính ... đó là các khoản thời gian có quy định cho phép ngưng, gián đoạn hồ sơ. Có một trường hợp ... đẩy file sken lên hệ thống dịch vụ công Quốc gia để tạo cơ sở được phép ngưng thời gian giải quyết thủ tục hợp quy trình điện tử nhưng không đúng với trình tự, thủ tục giải quyết thủ tục hành chính. Nếu có trường hợp tự giả mạo file văn bản để đẩy lên Hệ thống quy trình điện tử để ngưng hồ sơ thì đó là hành vi vi phạp pháp luật về trình tự, thủ tục, thời gian. Theo đó cũng lừa  luôn hệ thống dịch vụ công quốc gia của Chính phủ, việc này hình thành các vi phạm nghiêm trọng: cản trở, ko trung thực, giả mạo, xâm hại đến quyền lợi chính đáng của người dân đã được quy định cụ thể tại Điều 109, NĐ 102 của Chính phủ... sẽ phải bồi thường theo Luật trách nhiệm bồi thường Nhà nước về các khoản phí: chi phí đi lại, ngày công nghĩ để liên hệ các cơ quan, chi phí thưa kiện, chi phí in ấn hồ sơ tài liệu phục vụ khiếu nại hoặc khởi kiện, chi phí bồi thường thiệt hại đối với các hợp đồng dân sự bên ngoài bị chậm trễ thời so với ngày hẹn trả kết quả. Thật sự là khủng khiếp đấy. Hậu quả pháp lý, quy tắc nhân quả trong bồi trách nhiệm bồi thường...  không đùa được đâu?!",
-      "url": "https://www.facebook.com/groups/1545991175927462/search?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh&filters=eyJyZWNlbnRfcG9zdHM6MCI6IntcIm5hbWVcIjpcInJlY2VudF9wb3N0c1wiLFwiYXJnc1wiOlwiXCJ9In0%3D",
-      "crawled_at": "2026-05-06T23:05:20.281242",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 65,
-      "nhom_id": "4",
-      "nhom": "Khiếu nại, Tố cáo Cơ quan Nhà nước/Người thi hành công vụ",
-      "phan_nhom": "Khiếu nại Công an/Cơ quan điều tra",
-      "post_id": 9,
+      "id": 65,
       "content": "Xin nhờ các bác tư vấn tố cáo hành vi vu khống xúc phạm người khác với ạ. Mình có làm đơn tố cáo gửi ra công an phường nhưng thấy họ nói khó ko muốn xử lý. Mình nhất định yêu cầu thì họ mới làm thủ tục tiếp nhận nhưng mãi ko thấy phản hồi gì. Theo quy định bao lâu phải có văn bản trả lời, nếu Công an k xử lý thì phải làm gì ạ?",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:58:03.350221",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 66,
-      "nhom_id": "4",
-      "nhom": "Khiếu nại, Tố cáo Cơ quan Nhà nước/Người thi hành công vụ",
-      "phan_nhom": "Khiếu nại Công an/Cơ quan điều tra",
-      "post_id": 10,
+      "id": 66,
       "content": "Vụ việc đất đai tại Hà Tĩnh: Đã được nhiều cơ quan chuyển đơn nhưng vẫn chưa có kết quả rõ ràng\nTôi là công dân đã gửi đơn tố cáo liên quan đến vụ việc có dấu hiệu sai phạm trong lĩnh vực đất đai, gây ảnh hưởng nghiêm trọng đến tài sản và quyền lợi hợp pháp của tôi.\nTrong thời gian qua, đơn của tôi đã được:\nViện kiểm sát nhân dân tỉnh Hà Tĩnh chuyển đến Cơ quan CSĐT Công an tỉnh\nCơ quan Cảnh sát điều tra Bộ Công an tiếp tục chuyển về địa phương để giải quyết\nThanh tra Công an tỉnh Hà Tĩnh cũng đã chuyển đơn đến Cơ quan điều tra\nNhư vậy, vụ việc đã được nhiều cấp có thẩm quyền xem xét và chuyển đến đúng cơ quan giải quyết.\nTuy nhiên, đến nay:\nĐã quá thời gian theo quy định giải quyết tin báo, tố giác tội phạm\nTôi chưa nhận được thông báo chính thức về kết quả xử lý\nChưa được thông tin đầy đủ về việc xác minh, làm việc với các cá nhân liên quan\nViệc kéo dài này đã ảnh hưởng nghiêm trọng đến quyền và cuộc sống của tôi trong thời gian dài.\nTôi xin được đặt câu hỏi:\nKhi đơn đã được chuyển qua nhiều cơ quan có thẩm quyền,\nVì sao đến nay vụ việc vẫn chưa được làm rõ và giải quyết dứt điểm?\nTôi kính đề nghị các cơ quan chức năng:\nSớm xem xét, giải quyết vụ việc theo đúng quy định pháp luật\nBảo vệ quyền và lợi ích hợp pháp của công dân\nTôi tin rằng pháp luật là công bằng, và công dân có quyền được bảo vệ.",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:58:10.598804",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 67,
-      "nhom_id": "4",
-      "nhom": "Khiếu nại, Tố cáo Cơ quan Nhà nước/Người thi hành công vụ",
-      "phan_nhom": "Khiếu nại Công an/Cơ quan điều tra",
-      "post_id": 78,
+      "id": 67,
       "content": "Tình huống : em đang ngồi chơi trong quán internet thì có 2 công an( cấp phường)bắt giữ em tại thời điểm bắt giữ e không thực hiện hành vi vi phạm pháp luật phía công an không mặc đồng phục,không giấy tờ bắt giữ  không giải thích lý do trực tiếp đưa e về công an phường. Tại đây e bị thu giữ điện thoại và phát hiện hành vi đánh bạc online đủ khởi tố hình sự. Nguyên nhân bắt giữ có thể do người quán net đã báo với công an nhưng không có căn cứ và không bắt quả tang. Hiện tại e muốn khiếu nại hoặc kiện CA tội bắt giữ người trái pháp luật thì e làm đơn lên cơ quan nào ạ. Em xin cảm ơn",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:01:54.917369",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 68,
-      "nhom_id": "4",
-      "nhom": "Khiếu nại, Tố cáo Cơ quan Nhà nước/Người thi hành công vụ",
-      "phan_nhom": "Khiếu nại Công an/Cơ quan điều tra",
-      "post_id": 89,
+      "id": 68,
       "content": "Các luật sư cho em hỏi ạ. Mẹ em bị hành hung ngày 29 Tết, nằm viện tới mùng 8. Về báo bên công an xã thì cách đây tầm 1 tháng có kêu mẹ em lên rồi ra trạm y tế xã giám định??? Sau đó im lặng tới hôm nay CA huyện gọi mẹ em về và nói rằng mai lên trung tâm giám định nào đó ở HN gặp 1 ai đó rồi làm giám định hết tầm 5-6triệu và mẹ em chi trả toàn bộ chi phí đi lại của mẹ, giám định.\nNếu như vậy có đang đúng quy trình không và mức phí giám định đó mẹ em chi trả có đúng không ạ?\nEm cảm ơn các luật sư ạ.",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:02:47.225057",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 69,
-      "nhom_id": "4",
-      "nhom": "Khiếu nại, Tố cáo Cơ quan Nhà nước/Người thi hành công vụ",
-      "phan_nhom": "Khiếu nại Cơ quan Thi hành án dân sự",
-      "post_id": 16,
+      "id": 69,
       "content": "Tòa án bình minh và thi hành án bình minh . Người ta mua nhà hợp lệ đã ra sổ hồng đầy đủ sang tên rõ ràng . Nhưng chủ cũ không chịu di dời bàn giao nhà lại . Đã xử 7 năm chời . Bây giờ thuê luật sư xử lại đã thắng kiện hoàn toàn thì đưa qua thi hành án thì lại neo tới 1 năm nay chưa giải quyết . Có nên mời nhà báo đài truyền hình lên không ạ . Có nên làm đơn tố lên viện kiểm soát trên tỉnh được chưa cả nhà",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:58:29.019842",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 70,
-      "nhom_id": "4",
-      "nhom": "Khiếu nại, Tố cáo Cơ quan Nhà nước/Người thi hành công vụ",
-      "phan_nhom": "Khiếu nại Cơ quan Thi hành án dân sự",
-      "post_id": 20,
+      "id": 70,
       "content": "Chúng tôi kiện công ty xây dựng Hòa Bình đã có biên bản thi hành án từ tháng 5/2025 , sau 1 quá trình kiện tụng kéo dài suốt 3 năm. Tổng công nợ công ty này nợ chúng tôi là 700.000.000. Nhưng khi nộp lên thì án khu khu vực 1 thành phố Hồ Chí Minh, thì chấp hành viên tên là Trần Thị hoài danh bảo chúng tôi gửi được các thông tin đầy đủ số tài khoản của họ ở các ngân hàng để họ phong tỏa nhưng chúng tôi không biết tìm thông tin này ở đâu.\nChấp hành viên có yêu cầu chúng tôi muốn làm yêu cầu cho ông lê viết Hải cấm xuất nhập khẩu nhập cảnh thì phải cung cấp được đầy đủ số căn cước công dân của ông Hải và các thông tin cá nhân\nChúng tôi cảm thấy là không biết tìm những thông tin này ở đâu để cung cấp cho chấp hành viên Trần Thị hoài Danh\nHôm nay gửi lên đây nhờ cộng đồng tư vấn các anh chị ai biết được cách thức xử lý thông tin thì chỉ cho chúng tôi. Bởi vì công nợ này sinh ra từ trước năm 2018 tới giờ lâu quá rồi chúng tôi không có tiền để thanh toán tất cả các khoản phí kiện tụng cũng như công nợ của công ty.",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:58:36.494440",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 71,
-      "nhom_id": "4",
-      "nhom": "Khiếu nại, Tố cáo Cơ quan Nhà nước/Người thi hành công vụ",
-      "phan_nhom": "Khiếu nại Cơ quan Thi hành án dân sự",
-      "post_id": 25,
+      "id": 71,
       "content": "E chào ac ạ. Nhờ ac tư vấn giúp em\nVụ việc nhà e là án dân sự. Đã thắng kiện cả sơ thẩm và phúc thẩm ngày 15/1.\nNgày 8/2 nhà e có đến cơ quan thi hành án nộp đơn yêu cầu thi hành và đã được chấp nhận đơn.\nNhưng đến nay. Ngày 27/2 nhà e vẫn k nhận đ phản hồi cũng như công văn nào từ bên phía thi hành án.\nE phải làm gì tiếp theo. Kính nhờ ac tư vấn giúp e ạ",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:58:47.753507",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 72,
-      "nhom_id": "4",
-      "nhom": "Khiếu nại, Tố cáo Cơ quan Nhà nước/Người thi hành công vụ",
-      "phan_nhom": "Khiếu nại Cơ quan quản lý Lao động",
-      "post_id": 68,
+      "id": 72,
       "content": "Thủ tục cần làm khiếu nại công ty nợ lương\nEm chào ac ạ, em mới ra trường và bị nợ lương, em muốn xin hướng dẫn từ anh chị ạ\n1Về công ty em: Nhân sự khá ít (hiện cũng nghỉ gần hết), kế toán thuế thuê ngoài, không đóng BHXH, nợ lương (em gọi điện, nhắn tin đều không trả lời, bên này k có bộ phận HCNS chuyên trách)\nEm có tham khảo thì sẽ gửi email yêu cầu giải quyết lên BLĐ sau đó không được thì gửi Khiếu nại tới Chánh Thanh tra Sở Lao động, Thương binh và Xã hội. Em muốn hỏi:\n- Cần thu thập bằng chứng gì ngoài HĐLĐ (công ty làm việc qua team sau khi nghỉ em bị xoá tài khoản rồi ạ)\n- Gửi đơn qua đường bưu điện hay qua hòm thư ạ?\n- Công ty nợ đóng BHXH nhưng trong hợp đồng lao động có ghi sau 3 tháng mới đóng thì có sao không ạ?",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T23:01:30.970189",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
     },
     {
-      "stt": 73,
-      "nhom_id": "5",
-      "nhom": "Quản lý Nhà nước Khác",
-      "phan_nhom": "Quản lý cán bộ, công chức, chức danh bổ trợ tư pháp",
-      "post_id": 41,
+      "id": 73,
       "content": "\"Từ ngày 18.5, Chủ tịch UBND cấp xã được tước chứng chỉ hành nghề luật sư khi nào? \"\nCác bác giải thích giúp em vơi!",
-      "url": "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-      "crawled_at": "2026-05-06T22:59:25.760159",
-      "nguon_file": "crawled_posts(2).json"
+      "source": "facebook"
+    },
+    {
+      "id": 74,
+      "content": "Xin hỏi LuatVietnam: Tôi là người khởi kiện trong một vụ án hành chính vừa kết thúc phiên tòa sơ thẩm. Tuy nhiên, tôi không đồng ý với kết quả của phiên tòa sơ thẩm. Vì vậy, tôi muốn hỏi khi nào tôi sẽ nhận được bản án sơ thẩm để tôi có thể kịp thời thực hiện thủ tục kháng cáo bởi tôi vẫn chưa biết số bản án nên chưa thể soạn đơn kháng cáo? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 75,
+      "content": "Xin hỏi LuatVietnam: Tôi là một người dân sử dụng đất có nguồn gốc ở huyện HN, tỉnh NA. Hiện nay, thửa đất của tôi bị Nhà nước thu hồi đất để thực hiện dự án khu công nghiệp. Tuy nhiên, trong suốt quá trình thu hồi thửa đất mà tôi khai hoang, tôi không nhận được bất kỳ một thông tin, tài liệu nào về việc thửa đất của tôi bị thu hồi và sẽ được bồi thường hay không. Tôi đi hỏi thì được biết quan điểm của cơ quan thu hồi là đất đó thuộc quyền quản lý, sở hữu của xã nên không gửi thông tin, tài liệu cho tôi (vì họ cho rằng tôi không phải chủ đất). Tôi nộp hồ sơ khởi kiện hành vi hành chính không bồi thường về đất khi Nhà nước thu hồi đất. Tuy nhiên, Tòa án trả lại đơn khởi kiện với lý do hồ sơ khởi kiện không có các tài liệu, chứng cứ để chứng minh quyền và lợi ích bị xâm phạm (ví dụ như thông báo thu hồi đất, quyết định thu hồi đất, quyết định phê duyệt phương án bồi thường). Xin hỏi, việc Tòa án trả lại đơn khởi kiện của tôi như vậy là đúng hay sai? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 76,
+      "content": "Xin hỏi LuatVietnam: Tôi là nguyên đơn trong một vụ kiện tố tụng. Tuy nhiên, vụ án của tôi bị kéo dài thời gian giải quyết do cơ quan Nhà nước có thẩm quyền không cung cấp tài liệu, chứng cứ cho Tòa án theo yêu cầu của Tòa án? Vậy, theo quy định của pháp luật, những cơ quan này có thể bị xử phạt như thế nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 77,
+      "content": "Xin hỏi LuatVietnam: Tôi là người sử dụng đất có một thửa đất bị Nhà nước thu hồi để làm dự án cầu đường. Tuy nhiên, tôi thấy quyết định phê duyệt giá đất cụ thể cho dự án của Ủy ban nhân dân cấp tỉnh ban hành có đơn giá thấp quá. Tôi đang định khởi kiện quyết định phê duyệt giá đất cụ thể này thì có được không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 78,
+      "content": "Xin hỏi LuatVietnam: Tôi đề nghị Ủy ban nhân dân xã lập Hồ sơ cấp giấy chứng nhận quyền sử dụng đất nhưng Ủy ban nhân dân cấp xã không thực hiện. Ủy ban nhân dân huyện có văn bản chỉ đạo Ủy ban nhân dân xã phải lập hồ sơ cấp giấy chứng nhận quyền sử dụng đất cho tôi. Tuy nhiên, Ủy ban nhân dân xã không thực hiện văn bản này. Vậy tôi có thể kiện ủy ban nhân dân xã được không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 79,
+      "content": "Xin hỏi LuatVietnam: Tôi đã nộp hồ sơ xin cấp sổ đỏ lên bộ phận một cửa của UBND cấp huyện.? Xin cảm ơn! Theo quy định của pháp luật thì hồ sơ đăng ký quyền sử dụng đất yêu cầu phải có người dẫn đạc ký tên trong hồ sơ địa chính do Chi nhánh Văn phòng đăng ký đất đai đo vẽ. Người dẫn đạc là cán bộ, công chức địa chính cấp xã nhưng Ủy ban nhân dân xã nơi tôi có đất lại không cử và cũng không đồng ý cho người dẫn đạc ký tên nên không đo vẽ được bản đồ địa chính. Vậy tôi có quyền khởi kiện UBND cấp xã này về hành vi này hay không?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 80,
+      "content": "Xin hỏi LuatVietnam: Chúng tôi là một cơ quan Nhà nước và là bị đơn trong một vụ án hành chính. Chúng tôi muốn cử cấp phó của mình vừa là người đại diện theo ủy quyền đồng thời cũng là người bảo vệ quyền và lợi ích hợp pháp cho chúng tôi được không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 81,
+      "content": "Xin hỏi LuatVietnam: Chúng tôi là bị đơn trong một vụ án hành chính. Chúng tôi nhận được một văn bản mà Tòa án ấn định thời gian giao nộp tài liệu, chứng cứ liên quan đến vụ án. Vậy, nếu chúng tôi không giao nộp thì Tòa án giải quyết như thế nào? Nếu chúng tôi giao nộp tài liệu, chứng cứ sau khi có quyết định đưa vụ án ra xét xử thì tài liệu, chứng cứ đó có được sử dụng để giải quyết vụ án không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 82,
+      "content": "Xin hỏi LuatVietnam: Giấy chứng nhận quyền sử dụng đất có phải là quyết định hành chính không? Có được coi là đối tượng khởi kiện vụ án hành chính không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 83,
+      "content": "Xin hỏi LuatVietnam: Tôi có một thửa đất bị thu hồi. Tuy nhiên, tôi chưa đồng ý với chính sách bồi thường khi Nhà nước thu hồi đất của tôi. Quá trình đấu tranh, vì thiếu hiếu biết, tôi không thực hiện khiếu nại mà chỉ gửi đơn thư tố cáo, kiến nghị đến các cơ quan chức năng. Đến nay, đã hơn một năm kể từ ngày tôi biết quyền lợi của mình bị xâm phạm nhưng tôi vẫn chưa một lần thực hiện thủ tục khiếu nại hay khởi kiện nên đã không còn thời hiệu để khiếu nại hay khởi kiện nữa. Tôi nghe nói rằng: nếu bây giờ tôi vẫn tiếp tục gửi đơn khiếu nại thì có thể vẫn sẽ được giải quyết khiếu nại; và từ đó, tôi sẽ được khôi phục thời hiệu khởi kiện. Điều này có đúng không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 84,
+      "content": "Xin hỏi LuatVietnam: Tôi là nguyên đơn trong vụ án hành chính khởi kiện về hành vi từ chối cấp sổ đỏ của UBND huyện X? Theo tôi biết, trong quá trình giải quyết vụ án, Tòa án sẽ gọi các bên lên để tiến hành công tác hòa giải, đối thoại. Tôi đã được gọi lên một lần nhưng cả tôi và bị đơn đều vắng mặt. Vậy, nếu Tòa án gọi lần 2 mà tôi vẫn vắng mặt thì vụ án có bị đình chỉ không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 85,
+      "content": "Xin hỏi LuatVietnam: Mẹ nuôi lợi dụng việc nuôi con ép con nuôi ra đường xin ăn kiếm tiền thì có vi phạm pháp luật không? Mẹ nuôi ép buộc con nuôi ra đường xin ăn sẽ bị xử phạt hành chính thế nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 86,
+      "content": "Xin hỏi Luatvietnam: Tôi có nghe nhiều người nói hành vi cho mượn nhà để đánh bạc cũng là vi phạm pháp luật. Xin hỏi, mức xử phạt hành chính đối với hành vi này là bao nhiêu tiền?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 87,
+      "content": "Xin hỏi LuatVietnam: Tôi là công chức. Do không chấp hành quyết định điều động, phân công công tác của cấp có thẩm quyền nên bị phạt cảnh cáo. Xin hỏi trường hợp này tôi có bị kéo dài thời gian nâng lương không? Thời gian giữ bậc để xét nâng bậc lương thường xuyên đối với công chức là trong bao nhiêu ngày? Xin cảm ơn?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 88,
+      "content": "Xin hỏi LuatVietnam: Tôi có có quen người bạn quốc tịch Mỹ, hai người bạn về Việt Nam chơi thì vợ sinh con ở Việt Nam. Vậy, luật sư cho tôi hỏi, con của người nước ngoài có được đăng ký khai sinh ở Việt Nam không, nếu được thì cần chuẩn bị những giấy tờ gì? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 89,
+      "content": "Xin hỏi LuatVietnam: Con tôi sinh ra tại Nhật, đã làm giấy khai sinh ở bên Nhật. Gia đình tôi đã về Việt Nam. Con tôi chuẩn bị vào lớp 1, cần giấy khai sinh để làm thủ tục nhập học. Tuy nhiên, tôi phát hiện giấy khai sinh bị mất. Xin hỏi tôi có thể cấp lại giấy khai sinh được không? Cơ quan nào có thẩm quyền cấp lại trong trường hợp này? Căn cứ pháp lý? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 90,
+      "content": "Xin hỏi LuatVietnam: Trên thực tế có thể phát sinh rất nhiều các vi phạm pháp luật do ý thức hoặc nhận thức của người dân về pháp luật chưa cao. Vậy, luật sư cho tôi hỏi, một hành vi vi phạm hành chính có thể bị xử phạt nhiều lần hay không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 91,
+      "content": "Xin hỏi LuatVietnam: Tôi đang muốn làm căn cước công dân do chứng minh nhân dân đã hết hạn từ lâu. Tuy nhiên, do đi làm xa nên tôi đã bị xóa đăng ký thường trú, hiện tại chỉ có đăng ký tạm trú ở TP HCM. Tôi đã đến công an quận để làm CCCD thì bị từ chối vì chưa có địa chỉ đăng ký thường trú và họ yêu cầu tôi phải đăng ký thường trú. Sau đó tôi cũng đã quay về để làm thủ tục đăng ký thường trú lại bị công an xã từ chối vì không xuất trình được CCCD. vậy luật su cho tôi hỏi, đăng ký tạm trú có phải xuất trình thẻ CCCD không? Tôi phải làm gì để có thể được cấp CCCD? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 92,
+      "content": "Xin hỏi LuatVietnam: Tôi đăng ký tạm trú có thời hạn từ ngày 01/04/2022 và được xác nhận thời hạn tạm trú đến hết ngày 27/04/2024. Ngày 25/04/2024 tôi làm thủ tục để gia hạn tạm trú thì bị phạt 1 triệu đồng với hành vi chậm gia hạn tạm trú. Vậy, Luật sư cho tôi hỏi, tôi bị phạt như vậy có đúng không và thời hạn gia hạn tạm trú bao nhiêu ngày là hợp pháp? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 93,
+      "content": "Xin hỏi LuatVietnam: Trước đây bố mẹ tôi đi đăng ký khai sinh cho tôi ở xã A là họ Đỗ, sau đó không rõ nguyên nhân gì mà lại tiếp tục đăng ký khai sinh ở xã B mang tên họ Bùi (Họ Bùi là đúng trheo tên họ của bố và mẹ tôi) Do vậy mà tôi có đến 2 giấy khai sinh, luật sư cho tôi hỏi, giờ tôi muốn giữ lại giấy khai sinh họ Bùi thì có hủy dược giấy khai sinh họ Đỗ đã được đăng ký trước không? Thủ tục thực hiện như thế nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 94,
+      "content": "Xin hỏi LuatVietnam: Em là lái xe cho hợp tác xã. Hôm trước em tham gia giao thông thì bị xử phạt về lỗi xe chở quá tải trọng 150%. Xin hỏi mức phạt của cá nhân là bao nhiêu? của tổ chức là bao nhiêu? Trường hợp kinh tế gia đình em khó khăn, em có thể xin nộp tiền phạt vi phạm giao thông theo hình thức trả góp được không? Bên hợp tác xã có thể nộp phạt vi phạm giao thông theo hình thức trả góp không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 95,
+      "content": "Xin hỏi LuatVietnam: Tôi đăng ký thường trú ở tỉnh A và đã được cấp CCCD găn chíp có địa chỉ cũng ở tỉnh A. Nay tôi đã chuyển khẩu sang tỉnh B để sinh sống, hiện tại tôi đang muốn chuyển nhượng 1 chiếc xe máy. Vậy, luật sư cho tôi hỏi trên hợp đồng chuyển nhượng tôi phải ghi phần thông tin cứ trú theo CCCD hay theo nơi cu trú hiện tại của tôi, và có bắt buộc phải cấp đổi lại CCCD khi thay đổi nơi thường trú không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 96,
+      "content": "Xin hỏi LuatVietnam: Bố mẹ tôi ly hôn đã 10 năm nay, thời điểm trước khi ly hôn bố tôi là chủ hộ. Sau khi ly hôn thì theo quyết định của tòa là mẹ tôi có quyền sở hữu căn nhà và bà thanh toán phần chi phí 50% giá trị căn nhà cho bố tôi. Hiện nay, tôi lấy vợ và sinh con khi đi đăng ký khai sinh và nhập khẩu cho con thì cán bộ lại yêu cầu có chữ ký đồng ý của bố tôi thì mới nhập khẩu được, tuy nhiên bố tôi không đồng ý ký để gây khó khăn cho tôi. Vậy luật sư cho tôi hỏi, trường trường hợp này bố tôi còn quyền quyết định của chủ hộ không, tôi cần làm gì để đăng ký thường trú cho con tôi? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 97,
+      "content": "Xin hỏi LuatVietnam: Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai do Văn phòng đăng ký đất đai lập có phải là quyết định hành chính không? Có được coi là đối tượng khởi kiện vụ án hành chính không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 98,
+      "content": "Xin hỏi LuatVietnam: Con tôi năm nay 3 tuổi. Trước đó, cháu sinh ở Nhật nên làm thủ tục đăng kí khai sinh tại đại sứ quán ở Nhật Bản. Nay cháu đã về Việt Nam. Do sơ suất nên vợ chồng tôi làm mất giấy khai sinh của cháu. Nay tôi muốn cấp lại trích lục khai sinh. Xin hỏi tôi có thể làm thủ tục cấp lại trích lục khai sinh ở cơ quan nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 99,
+      "content": "Xin hỏi LuatVietnam: Em tôi bị tàn tật (bệnh Đao) từ khi mới sinh ra đến giờ, không biết gì và cũng không tự sinh hoạt được phải chăm sóc hoàn toàn, trước kia mẹ tôi còn sống chăm sóc em tôi từ lúc sinh ra đến khi mẹ tôi mất đi. Đến nay chị gái tôi (đã đến tuổi nghỉ hưu) đang chăm sóc em trai tôi.Tôi có tìm hiểu thì được biết có chế độ hỗ trợ tiền cho người chăm sóc người tàn tật. Xin hỏi kinh phí hỗ trợ trường hợp của em trai tôi là bao nhiêu? Gia đình tôi phải làm những thủ tục gì để được chế độ chăm sóc người tàn tật đó. Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 100,
+      "content": "Xin hỏi LuatVietnam: Tôi dự định nhận 1 đứa trẻ làm con nuôi, có Giấy chứng sinh của bệnh viện và giấy cho con của mẹ đứa trẻ. Mẹ bé năm nay dưới 18 tuổi, chưa đăng kí kết hôn, bố bé cũng không nhận con. Nay tôi đi làm giấy khai sinh cho cháu thì bộ phận tư pháp hộ tịch xã nói rằng phải có ý kiến đồng ý cho cho con làm con nuôi của bố cháu bé. Xin hỏi bộ phận tư pháp hộ tịch yêu cầu như vậy có đúng không? Trường hợp này tôi phải làm như thế nào để có thể đăng kí khai sinh cho cháu bé? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 101,
+      "content": "Xin hỏi LuatVietnam: Mẹ tôi là vợ liệt sĩ tái giá. Năm nay mẹ tôi 82 tuổi. Xin hỏi mẹ tôi có được hưởng thêm chính sách bảo trợ xã hội đối với người từ đủ 80 tuổi không? Tôi liên hệ địa phương thì cán bộ xã nói rằng mẹ tôi chỉ được hưởng 1 trong 2 chế độ, k được hưởng đồng thời cả 2. Xin hỏi như vậy có đúng không? Căn cứ pháp lý? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 102,
+      "content": "Xin hỏi LuatVietnam: Do cần tiền tiêu dùng cá nhân, nên tôi đã bán căn cước công dân của mình cho một tiệm cầm đồ. Vậy Luật sư cho tôi hỏi, tôi bán Căn cước công dân của mình cho người khác có bị xử phạt không? Mức phạt là bao nhiêu? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 103,
+      "content": "Xin hỏi LuatVietnam: Gia đình mình thuộc hộ nghèo, có con đang là sinh viên. mình đã đứng ra vay vốn ngân hàng chính sách theo diện hộ nghèo. Con mình mới theo học đại học năm nhất, nên mình muốn vay vốn theo diện sinh viên thuộc hộ nghèo, nhưng lại được trả lời là 1 hộ gia đình chỉ được vay 1 lần. Cho mình hỏi mình có thể vay đồng thời hai chế độ vừa hộ nghèo, vừa sinh viên nghèo cho con (trong cùng 1 năm) được không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 104,
+      "content": "Xin hỏi LuatVietnam: Bố tôi là thương binh hạng 4/4, được nhà nước cấp sổ đỏ để sinh sống. Tuy nhiên ông đã làm mất sổ đỏ, hiện nay sức khỏe ông rất yếu, không ký và điểm chỉ để ủy quyền cho tôi thay ông xin cấp lại sổ đỏ được. Vậy, Luật sư cho tôi hỏi trong trường hợp này, tôi cần phải làm thế nào để xin cấp lại sổ đỏ cho bố tôi. Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 105,
+      "content": "Xin hỏi LuatVietnam: Hiện tại tôi đang định cư ở Nhật bản, tháng 2 năm nay tôi cùng con trai bay về Việt Nam tạm trú 5 tháng thì hộ chiếu của bé đến hạn phải cấp mới. Khi tôi đến cơ quan quản lý xuất nhập cảnh tỉnh tạm trú để làm thủ tục cấp mới cho bé thì tôi cần phải chuẩn bị những giấy tờ gì? Vì con tôi đăng ký khai sinh tại nước ngoài nên phòng quản lý xuất nhập cảnh không giải quyết hộ chiếu cho bé nhà tôi. Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 106,
+      "content": "Xin hỏi Luatvietnam: Tôi và chồng ngoại quốc sống với nhau được 3 năm thì tôi phát hiện ra chồng ngoại tình, vì vậy tôi yêu cầu ly hôn nhưng vì anh ta sợ ly hôn ảnh hưởng đến thị thực ở Việt Nam nên không đồng ý ly hôn. Vậy xin hỏi sau khi ly hôn thì anh ta sẽ buộc phải rời khỏi Việt Nam hay vẫn được ở lại Việt Nam theo thị thực đã cấp? Quy định pháp luật? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 107,
+      "content": "Xin hỏi LuatVietnam: Do chưa tìm hiểu quy định của pháp luật, cho nên tôi không biết việc đánh bạc qua mạng sẽ bị xử lý như thế nào? Sẽ phạt hành chính hay bị truy cứu trách nhiệm hình sự? Một số hình thức đánh bạc qua mạng phổ biến hiện nay là gì? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 108,
+      "content": "Xin hỏi LuatVietnam: Tôi muốn đăng ký cấp hộ chiếu lần đầu cho con (12 tuổi), nhưng thẻ căn cước công dân của tôi bị sai số định danh nên không đăng ký được tài khoản trên cổng dịch vụ công. Vì vậy, luật sư cho tôi hỏi, tôi có thể dùng tài khoản của ông/bà của cháu để đăng ký hộ chiếu cho con tôi được không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 109,
+      "content": "Xin hỏi LuatVietnam: Nhà tôi có nhiều phòng, nên tôi tận dụng các phòng không ở để cho sinh viên thuê trọ. Vậy Luật sư cho tôi hỏi, khi đi đăng ký tạm trú thì gia đình tôi (chủ hộ) hay người thuê trọ (sinh viên) phải nộp lệ phí đăng ký cư trú? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 110,
+      "content": "Xin hỏi LuatVietnam: Tôi là công dân Việt Nam, còn giữ quốc tịch Việt Nam, hiện tại tôi muốn làm thủ tục đăng ký thường trú ở Việt Nam để làm CCCD. Tuy nhiên tôi bị cán bộ từ chối cho đăng ký thường trú với lý do tôi đang có thẻ thường trú ở nước ngoài (Mỹ - thời hạn 10 năm), mỗi cá nhân không được đăng ký thường trú ở 2 nơi. Vậy, luật sư cho tôi hỏi, cán bộ trả lời như vậy có đúng không? có thẻ thường trú ở nước ngoài (Mỹ - thời hạn 10 năm) thì có được đăng ký thường trú ở Việt Nam không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 111,
+      "content": "Xin hỏi LuatVietnam: Tôi là vợ liệt sĩ đã tái giá, Năm 2013 tôi được hưởng chế độ ưu đãi Tại Khoản 4 Điều 20 Nghị định số 31/2013/NĐ-CP ngày 9/4/2013 của Chính phủ quy định chi tiết, hướng dẫn thi hành một số điều của Pháp lệnh Ưu đãi người có công với cách mạng quy định: “Vợ hoặc chồng liệt sĩ lấy chồng hoặc vợ khác thì được hưởng trợ cấp tiền tuất hàng tháng bằng một lần mức chuẩn”. Năm nay, năm 2023 cán bộ xã nói rằng tôi không được hưởng chế độ nữa vì quy định này đã hết hiệu lực. Cán bộ xã nói như vậy có đúng không? Pháp luật quy định như thế nào về hiệu lực áp dụng với chủ thể của văn bản quy phạm pháp luật? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 112,
+      "content": "Xin hỏi LuatVietnam: Năm 1992, mẹ tôi bị lừa bán sang Trung Quốc, gia đình đã tìm kiếm mà không thấy, nhưng lại không báo công an. Hiện tại, mẹ đã liên lạc về được với gia đình, có địa chỉ bên Trung Quốc rõ ràng. Nhưng mẹ tôi bị liệt, lại không có giấy tờ tuỳ thân. Xin hỏi làm sao để gia đình chúng tôi có thể đón mẹ về Việt Nam? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 113,
+      "content": "Xin hỏi LuatVietnam: Em là sinh viên Đại học Sư phạm. Cho em hỏi là sau khi tốt nghiệp ngành sư phạm, em đi dạy ở các trung tâm tư nhân thì có bị bồi hoàn tiền hỗ trợ học phí không? Căn cứ pháp lý? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 114,
+      "content": "Xin hỏi LuatVietnam: Cho mình hỏi khoản phụ cấp cấp ủy đảng (khoản phụ cấp cho những người trong BCH đảng bộ của doanh nghiệp) thì có phải chịu thuế thu nhập cá nhân không? Khoản phụ cấp này do doanh nghiệp chi trả thì có được tính vào chi phí hợp lý của doanh nghiệp không?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 115,
+      "content": "Xin hỏi LuatVietnam: Em năm nay 21 tuổi gia đình em thuộc diện hộ nghèo, em gái em thì đang đi học Đại học năm 2. Mẹ em mất. Giờ chỉ còn có ba em và em, mà ba em thì đã 56 tuổi mắc bệnh ung thư, không có công việc làm và sức khỏe không đủ để làm việc. Em là người trực tiếp đi làm kiếm tiền lo cho ba em chữa bệnh và lo cho em gái đi học. Cho em hỏi bây giờ ba em lên phường xin giấy xác nhận tạm hoãn nghĩa vụ quân sự đối với trường hợp của em thì có được tạm hoãn không ạ ? Và có cần thêm 1 số hồ sơ nào khác để được tạm hoãn ạ? Thời điểm em nộp hồ sơ xin tạm hoãn là khi nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 116,
+      "content": "Xin hỏi LuatVietnam: Năm nay em 19 tuổi, đang học hệ cao đẳng sắp tốt nghiệp. Em đã tạm hoãn 1 lần. Sau khi tốt nghiệp em muốn học thêm chuyên ngành khác thì có được tạm hoãn NVQS không ạ? Căn cứ pháp lý? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 117,
+      "content": "Xin hỏi LuatVietnam: Năm nay em 20 tuổi. Hiện tại em đang học Đại học Luật Hà Nội, tuy nhiên em đã bảo lưu từ cuối năm ngoái để ôn thi lại. Năm nay em đỗ và chuyển sang Đại học Ngoại Thương. Xin hỏi em có được tiếp tục tạm hoãn nghĩa vụ quân sự không? Căn cứ pháp lý? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 118,
+      "content": "Xin hỏi LuatVietnam: Tôi có bằng lái xe hạng A1 cấp cách đây hơn chục năm. Nay bằng lái xe bị rách và hồ sơ gốc bị mất thì có cấp lại được bằng lái không, hay phải thi lại? Xin cảm ơn.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 119,
+      "content": "Xin hỏi LuatVietnam: Tôi có giấy phép lái xe tích hợp (xe 2 bánh và xe 4 bánh). Vừa rồi khi đi xe 2 bánh có vi phạm giao thông, bị cảnh sát giao thông xử phạt và ban hành quyết định tạm giữ giấy phép lái xe 2 bánh. Nay giấy phép lái xe 4 bánh đến thời hạn phải đổi, tôi đến Phòng quản lý giấy phép lái xe của Sở Giao thông vận tải để làm thủ tục xin đổi, có xuất trình quyết định tạm giữ giấy phép lái xe nhưng bộ phận tiếp nhận yêu cầu phải có giấy phép lái xe bản chính mới được tiếp nhận. Tôi đến Phòng cảnh sát giao thông trình bày xin được mượn giấy phép lái xe để xuất trình cho bộ phận đổi giấy phép của Sở Giao thông vận tải nhưng không được. Vậy giờ phải làm sao để làm thủ tục đổi giấy phép lái xe đúng thời hạn? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 120,
+      "content": "Xin hỏi LuatVietnam: Tôi và vợ kết hôn được 13 năm, có 2 cháu năm nay 12 tuổi và 2 tuổi. Khi ly hôn, Tòa quyết định giao con cho tôi nuôi dưỡng. Hiện tại tôi muốn đổi họ cho con từ họ cha sang họ mẹ và bỏ tên cha trên giấy khai sinh của con. Xin hỏi tôi có thể thực hiện hai thủ tục trên là đổi họ cho con và bỏ tên cha trên giấy khai sinh của con tôi hay không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 121,
+      "content": "Xin hỏi LuatVietnam: Giấy phép lái xe của tôi hết hạn vào tháng 6 năm 2023. Tuy nhiên, do vi phạm nồng độ cồn, nên tôi đã bị cảnh sát giao thông xử phạt vi phạm hành chính và áp dụng hình thức phạt bổ sung là tước giấy phép lái xe. Vậy luật sư cho tôi hỏi, đến thời hạn ghi trên giấy phép lái xe tôi có thể xin gia hạn được không? hay tôi phải chờ đến khi hết thời hạn thu giữ giấy phép lái xe mới đi ra hạn được? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 122,
+      "content": "Xin hỏi LuatVietnam: Trước đây tôi có vi phạm tốc độ khi tham gia giao thông, và đã tiến hành nộp phạt. Tuy nhiên, trên hệ thống vi phạm giao thông trực tuyến vẫn chưa gỡ bỏ thông tin vi phạm của tôi mà chỉ thay đổi trạng thái từ chưa xử phạt sang đã xử phạt. Nhưng khi tôi đến đơn vị đăng kiểm để tiến hành đăng kiểm xe thì đơn vị lại từ chối đăng kiểm với lý do thông tin vi phạm chưa bị gỡ bỏ, mặc dù tôi đã nộp phạt. Vậy luật sư cho tôi hỏi, đơn vị đăng kiểm từ chối đăng kiểm xe với lý do nêu trên có đúng quy định pháp luật không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 123,
+      "content": "Xin hỏi LuatVietnam: Gia đình tôi có ngôi nhà cấp 4 xây tạm, hiện nay khi tôi ra ủy ban để làm thủ tục đăng ký thường trú thì cán bộ công an từ chối với lý do gia đình tôi chưa được cấp sổ đỏ. Tuy nhiên vấn đề phát sinh là diện tích đất nhà tôi đang sử dụng lại không đủ diện tích tối thiểu để cấp sổ đỏ. Vậy luật sư cho tôi hỏi, cán bộ trả lời lý do như vậy có đúng không, và trong trường hợp này tôi phải xử lý như thế nào để có thể đăng ký được nơi thường trú? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 124,
+      "content": "Xin hỏi LuatVietnam: Tôi kết hôn năm 2008, nhưng tại thời điểm đó tôi chưa đủ tuổi đăng ký kết hôn (17 tuổi), nên tôi đã cố tình khai gian là 19 tuổi để được đăng ký kết hôn. Nay, tôi muốn làm thủ tục để đính chính lại giấy đăng ký kết hôn thì lại bị cán bộ tư pháp hộ tịch từ chối. Vậy, luật sư cho tôi hỏi trong trường hợp này, tôi cần phải thực hiện thủ tục và cung cấp những giấy tờ gì để có thể đính chính giấy đăng ký kết hôn của tôi. Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 125,
+      "content": "Xin hỏi LuatVietnam: Tôi có đánh rơi túi xách, trong đó có giấy phép lái xe máy, hiện tại tôi đã làm đơn để thực hiện thủ tục xin cấp lại bằng lái xe theo quy định của pháp luật. Tôi có được nhân viên đưa cho phiếu hẹn, nhưng thời gian hẹn trả kết quả tận hơn 2 tháng. Vậy, luật sư cho tôi hỏi, khi tôi tham gia giao thông mà bị công an kiểm tra giấy tờ thì tôi có thể xuất trình giấy hẹn thay cho bằng lái xe được không? Xin cảm ơn",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 126,
+      "content": "Xin hỏi LuatVietnam: Tôi làm ở công ty A được 4 năm. Trước đây, công ty làm ăn được nên hàng tháng trả lương cho nhân viên rất đúng ngày. Tuy nhiên, từ năm 2021 đến nay công ty tôi thường xuyên trả lương chậm (có thể trả chậm từ 15 ngày đến 1 tháng) mà không có thông báo hay thỏa thuận trước với nhân viên. Khi chúng tôi lên gặp ban giám đốc, chỉ được trả lời công ty vẫn đang bị ảnh hưởng sau đại dịch Covid-19. Xin hỏi, việc chậm trả lương cho người lao động thì công ty có bị xử phạt hành chính không? Người lao động có được đền bù không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 127,
+      "content": "Xin hỏi Luatvietnam: Tôi là chủ sở hữu Công ty TNHH 1 thành viên A. Tôi có kiêm luôn chức vụ giám đốc của công ty. Vậy theo quy định pháp luật, tôi có được đóng bảo hiểm xã hội không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 128,
+      "content": "Xin hỏi LuatVietnam: Tôi nghe nói có một số đối tượng là người nước ngoài được miễn thị thực khi nhập cảnh vào Việt Nam. Vậy, đó là những đối tượng nào? Điều kiện, quy trình, thủ tục để được cấp giấy miễn thị thực được quy định như thế nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 129,
+      "content": "Xin hỏi LuatVietnam: Pháp luật quy định những trường hợp nào được miễn giấy phép lao động? Nếu được miễn giấy phép lao động thì trình tự, thủ tục, thành phần hồ sơ để được xác nhận miễn giấy phép lao động như thế nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 130,
+      "content": "Xin hỏi Luatvietnam: Tôi hiện tại đang là Chủ tịch UBND huyện X. Ngày 14/6/2022, tôi có tiếp nhận được thông báo từ cơ quan công an về việc tiếp nhận đơn tố cáo của anh A về việc tôi có thực hiện hanh vi tham nhũng. Tuy nhiên, anh A không cung cấp được những bằng chứng, chứng cứ về việc tôi tham nhũng. Vậy trong trường hợp này, tôi có thể đề nghị cơ quan công an xử lý anh A về tội vu khống được không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 131,
+      "content": "Xin hỏi LuatVietnam: Ngày 22/9/2021, tôi có vận chuyển một lô hàng thuốc chữa bệnh không có giấy tờ qua biên giới vào Việt Nam và bị cơ quan công an bắt giữ. Cơ quan công an ra quyết định xử phạt vi phạm hành chính và yêu cầu tiêu hủy số thuốc. Tuy nhiên, cơ quan công an còn yêu cầu tôi nộp một khoản phí để thực hiện tiêu hủy số thuốc trên. Vậy trong trường hợp trên, việc cơ quan công an yêu cầu như vậy có phù hợp với quy định pháp luật không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 132,
+      "content": "Xin hỏi LuatVietnam: Con tôi có sử dụng mạng xã hội Tiktok, thời gian gần đây cháu có phàn nàn với tôi là thường xuyên bị các bạn bè ở trường có ghi hình cháu nhưng không được sự đồng ý của cháu rồi đăng những clip này lên tiktok. Xin hỏi hành vi này của các bạn cháu có vi phạm pháp luật không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 133,
+      "content": "Xin hỏi LuatVietnam:Bên tôi là đơn vị sự nghiệp công lập, đơn vị có một dàn đèn led không sử dụng đến. Nếu để như vậy thì tài sản rất dễ hư hỏng. Vậy trong trường hợp này đơn vị của tôi có thể cho thuê lại dàn đèn led này không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 134,
+      "content": "Xin hỏi LuatVietnam: Tôi hiện đang kinh doanh nhà nghỉ ở quận Hoàng Mai. Do tôi có công việc nên sang Úc công tác,tôi có giao nhà nghỉ cho chồng quản lý một thời gian. Hôm qua tôi nhận được thông tin chồng tôi bị bắt vì lợi dụng kinh doanh nhà nghỉ của gia đình để môi giới mại dâm. Tôi rất sốc và chưa kịp tìm hiểu gì nhiều. Hiện tại tôi đang không biết với hành vi của chồng tôi như vậy thì sẽ bị xử lý như thế nào? Liệu tôi có phải chịu trách nhiệm gì không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 135,
+      "content": "Xin hỏi LuatVietnam: Ngày 5/10/2021, tôi có nhận được thẻ CCCD mới có gắn chip. Tuy nhiên, đến ngày 1/1/2022, trong lúc tôi đang cắt cỏ thì không may bị máy cắt cỏ chém đứt mất một ngón tay. Vậy trong trường hợp này, tôi có phải làm lại thẻ CCCD không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 136,
+      "content": "Xin hỏi LuatVietnam: Tôi hiện tại là Giám đốc trung tâm dịch vụ việc làm X. Ngày 29/10/2021, tôi có nhận hồ sơ xin giới thiệu việc làm của anh A. Tôi có yêu cầu anh A đưa tôi 200 triệu thì tôi sẽ lo cho anh A công việc theo ý muốn. Ngày 29/11/2021, tôi có hành vi bỏ trốn và không trả lại anh A số tiền 200 triệu. Anh A có làm đơn đề nghị lên cơ quan công an bắt giữ tôi về hành vi lừa đảo chiếm đoạt tài sản. Vậy trong trường hợp tôi phạm tội thì sẽ bị xử lý kỷ luật như thế nào theo quy định pháp luật? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 137,
+      "content": "Xin hỏi LuatVietnam: Hộ chiếu của tôi sắp hết hạn và sắp tới đây phải tiến hành cấp đổi lại. Trong hộ chiếu này vẫn còn Visa của Vương Quốc Anh có thời hạn tới 3 năm nữa. Vậy khi tôi cấp đổi hộ chiếu thì Visa được xử lý như thế nào để tôi có thể sử dụng được tiếp? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 138,
+      "content": "Xin hỏi LuatVietnam: Hiện tại, tôi vừa mới tốt nghiệp ngành Ngôn ngữ Anh và đang có dự định thi tuyển viên chức làm giáo viên dạy tiếng anh tại trường cấp 3 và các trường đại học khác. Theo như tôi được biết, tôi cần phải có chứng chỉ bồi dưỡng nghiệp vụ sư phạm thì mới có thể làm giáo viên. Vậy tôi có thể thay thế chứng chỉ này bằng chứng TKT hoặc TESOL được không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 139,
+      "content": "Xin hỏi Luatvietnam: Ngày 15/7/2021, thành phố Hồ Chí Minh có áp dụng biện pháp giãn cách xã hội theo Chỉ thị 16/CT-TTg. Tuy nhiên, theo tôi được biết chỉ thị này không phải văn bản quy phạm pháp luật. Vậy mọi người có bắt buộc phải chấp hành biện pháp giãn cách xã hội theo Chỉ thị 16/CT-TTg không? Nếu ai đó không thực hiện thì tôi có bị xử phạt không? Nếu có xử phạt thì theo căn cứ nào và có hợp pháp không khi nó không phải là văn bản quy phạm pháp luật? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 140,
+      "content": "Xin hỏi LuatVietnam: Ngày 06/12/2021, anh A do có mâu thuẫn với gia đình nhà chúng tôi nên đã có hành vi đập phá bàn thờ của gia đình tôi. Bàn thờ của gia đình tôi được bên Công ty X gia công với giá 1 triệu đồng. Vậy trong trường hợp này, tôi có thể yêu cầu cơ quan nhà nước có thẩm quyền xử lý hình sự đối với hành vi trên không? Nếu có thì mức xử phạt là như thế nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 141,
+      "content": "Xin hỏi LuatVietnam: Ngày 30/10/2021, trên đường đi làm về, tôi có bắt gặp anh A đang rao bán 5 con tê tê. Do tôi muốn giải cứu 5 con tê tê này để thả về tự nhiên nên có mua lại chúng với giá 20 triệu đồng. Ngay sau khi mua lại thì tôi bị cơ quan công an bắt giữ ngay tại chỗ. Vậy trong trường hợp này tôi có bị xử lý hình sự không nếu mục đích tôi mua động vật hoang dã chỉ để phóng sinh? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 142,
+      "content": "Xin hỏi LuatVietnam: Do công việc làm ăn của tôi phải tiếp xúc với nhiều mối nguy hiểm, trong xe máy của tôi luôn để 1 chiếc côn nhị khúc làm bằng gỗ. Cho tôi hỏi nếu bị công an kiểm tra và phát hiện ra hành vi này, tôi có bị xử lý gì không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 143,
+      "content": "Xin hỏi LuatVietNam: Tôi có quen một người bạn bán súng lục, tôi muốn mua một khẩu để phòng thân. Nếu tôi chỉ để trong nhà, không sử dụng thì khi công an phát hiện tôi có bị xử lý không? Nếu có thì mức xử phạt như thế nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 144,
+      "content": "Xin hỏi LuatVietnam: Việc cưỡng chế người dân xét nghiệm Covid-19 (phá khóa, tự động vào nơi cư trú...) có vi phạm pháp luật không, Thưa Luật sư? Nếu có thì ai là người chịu trách nhiệm và trách nhiệm ở đây như thế nào? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 145,
+      "content": "Xin hỏi LuatVietnam: Thời gian gần đây, cơ quan chức năng nhiều địa phương đã liên tục triệt phá nhiều đường dây làm giả giấy tờ của cơ quan, tổ chức như làm giả giấy đi đường, căn cước công dân… (Tội làm giả con dấu, tài liệu của cơ quan, tổ chức; tội sử dụng con dấu hoặc tài liệu giả của cơ quan, tổ chức). Cơ quan chức năng cũng đã xử lý không ít trường hợp sử dụng giấy tờ giả như Bằng đại học giả, chứng chỉ tiếng Anh giả. Vậy, pháp luật quy định như thế nào về những trường hợp này? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 146,
+      "content": "Xin hỏi LuatVietnam: Thời gian gần đây, cơ quan chức năng nhiều địa phương đã liên tục triệt phá nhiều đường dây làm giả giấy tờ của cơ quan, tổ chức như làm giả giấy đi đường, căn cước công dân… (Tội làm giả con dấu, tài liệu của cơ quan, tổ chức; tội sử dụng con dấu hoặc tài liệu giả của cơ quan, tổ chức). Cơ quan chức năng cũng đã xử lý không ít trường hợp sử dụng giấy tờ giả như Bằng đại học giả, chứng chỉ tiếng Anh giả. Vậy, pháp luật quy định như thế nào về những trường hợp này? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 147,
+      "content": "Xin hỏi LuatVietnam: Tôi bị cơ quan quản lý thị trường xử phạt về hành vi buôn bán hàng lậu và yêu cầu tôi phải tự tiêu hủy hàng hóa là lô bánh trung thu. Vậy xin hỏi, tại sao họ lại yêu cầu tôi tự tiêu hủy mà không tịch thu mang về tiêu hủy. Nếu tôi phải tiêu hủy thì có phải theo quy trình nào không hay cứ đào hố và vùi lấp hay đốt hay như thế nào? Cơ quan nào được quyền xử phạt và yêu cầu tôi tiêu hủy? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 148,
+      "content": "Xin hỏi LuatVietnam: Trước quy định về việc cấp giấy đi đường hiện nay tại Hà Nội, luật sư chưa được xếp vào nhóm nào? Vậy xin hỏi: cần phải điều chỉnh vấn đề này như thế nào? Dịch vụ luật sư có phải dịch vụ thiết yếu không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 149,
+      "content": "Xin hỏi LuatVietnam: Đợt dịch covid lần này, tôi qua nhà người hàng xóm và chơi bài tiến lên với số tiền mỗi người chỉ 500.000 đồng. Đang chơi thì công an xã đến lập biên bản và xử phạt mỗi người 1.500.000 đồng, họ cũng nói rằng hành vi của chúng tôi có thể bị đi tù. Cho tôi hỏi công an nói như vậy có đúng không? Chỉ chơi bài giải trí thôi mà cũng có thể bị đi tù sao? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 150,
+      "content": "Xin hỏi LuatVietnam: Việc buôn bán, sản xuất thuốc điều trị COVID giả bị xử lý thế nào theo quy định của pháp luật Việt Nam hiện hành ạ? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 151,
+      "content": "Xin hỏi LuatVietnam: Tại xã của tôi, có những tờ rơi vận động bầu cử ghi rõ các thông tin của 1 người ứng cử và chỉ có người đó mà thôi. Nội dung của tờ rơi đó ngoài thông tin nhân thân thì còn có hàm ý vận động người dân hãy bầu cho người này. Vậy, việc vận động ứng cử như thế này có vi phạm pháp luật hay không? Nếu xác định được người rải đơn này thì xử lý như thế nào ạ? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 152,
+      "content": "Xin hỏi LuatVietnam: Gia đình tôi đang có vụ việc tranh chấp quyền sử dụng đất với gia đình ông A. Tôi có làm đơn đề nghị cung cấp hồ sơ tài liệu về thửa đất đến Phòng Tài nguyên và Môi trường nhưng đã hơn 03 tháng không có phản hồi. Vậy cho tôi hỏi, hành vi im lặng không trả lời đơn thư của công dân có thể bị khiếu nại hay không? Xin cảm ơn",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 153,
+      "content": "Em hiện tại đang giữ ngạch kế toán viên trung cấp. Hiện nay em đã có bằng đại học kế toán và đã có chứng chỉ bồi dưỡng kế toán viên. Vậy em có cần học chứng chỉ bồi dưỡng kế toán viên trung cấp không ạ? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 154,
+      "content": "Xin hỏi Luật sư: Bạn tôi thực hiện hành vi buôn lậu (rượu XO) qua biên giới, nhưng sau khi bị phát hiện và bắt tại khu vực biên giới, đưa số rượu đi giám định lại là rượu giả. Vậy, bạn tôi phạm tội buôn lậu hay tội buôn bán hàng giả? Xin cảm ơn Luật sư.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 155,
+      "content": "Em có câu hỏi là sổ hộ khẩu em có số MCND cũ và gần đây em có làm thẻ CCCD và có số mới. Vậy, em có phải điều chỉnh chỉnh trong hộ khẩu sang số mới của thẻ CCCD không? Câu hỏi 2 : Em định làm lại passport vì sắp hết hạn nhưng đang gặp vấn đề ở câu hỏi 1 là CMND trong hộ khẩu và thẻ CCCD khác nhau thì làm lại passport có trục trặc gì không ?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 156,
+      "content": "Chào luật sư. Trước đây em từng làm mất chứng minh thư. Có đối tượng xấu nhặt được và dùng chứng minh thư đó đi đăng kí sim điện thoại chính chủ và nhắn tin làm nhục người khác. Quý luật sư cho em hỏi nếu bắt được hắn thì em có thể kiện hắn không, kiện với tội danh gì và hình phạt hắn phải nhận là gì? Em cảm ơn ạ.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 157,
+      "content": "Thưa Luật sư: Gia đình con bị rất nhiều lời đồn thổi liên quan đến covid- 19 nhưng con lại không biết cá nhân nào gây nên thì có thể đưa ra cơ quan Công an được không ạ? Vì họ thêu dệt ra hoàn toàn vô căn cứ khiến cả gia đình con rất khổ sở. Con mong nhận được sự hồi đáp. Con cám ơn rất nhiều.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 158,
+      "content": "Tôi có được app vay tiền gọi điện để mời vay app. Qua tìm hiểu kỹ lại thì đó là tín dụng đen của Trung Quốc với mức lãi quá cao, vay 1triệu 6 chỉ được cầm về 1triệu 2 và phí quá hạn sẽ là 2 đến 3 trăm 1 ngày. Do gia đình tôi đang gặp chút trục trặc chưa đi thanh toán được liền bị gọi với những lời nói thiếu văn hoá, đe doạ đến gia đình, con cái. Sự việc đẩy lên đỉnh điểm chính là họ đem hình tôi và gia đình đăng lên tất cả các trang và gửi cho bạn bè người thân với lời lẽ hỗn xược và bôi nhọ nhân phẩm gia đình tôi hết sức nặng nề. Khi tôi xin trả số tiền gốc thì họ không cho trả và bắt phải đóng cho họ phí phạt là 2 triệu 4 trong khi bản thân cầm về được 1 triệu 2. Xin cho tôi hỏi là đăng hình cá nhân chưa được sự cho phép của người khác và bôi nhọ nhân phẩm gia đình họ liệu khi tôi báo cơ quan công an thì họ sẽ bị như thế nào ạ. Xin cảm ơn.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 159,
+      "content": "Hiện nay, dịch tả lợn Châu Phi và sán lợn đang phổ biến tại các địa phương nuôi heo. Một số chủ trang tại và hộ dân có heo bị dịch nhưng vì ham lợi nên đã mổ và bán trên thị trường. Tôi muốn hỏi Luật sư trong trường hợp này người bán đã có hành vi gây hại cho sức khỏe xã hội như vậy thì sẽ bị xử lý như thế nào? Tôi xin chân thành cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 160,
+      "content": "Gia đình tôi nằm ở vị trí trung tâm của tổ dân phố nên các hoạt động liên hoan, cúng xóm, ... của thôn thường được tổ chức tại nhà tôi. Mỗi lần tổ chức đều che lều, trại và sử dụng một phần vỉa hè trước nhà để tổ chức ăn uống, vui chơi. Tuy nhiên, trong lúc tổ chức thì một phận an ninh trật tự đến và nhắc nhở về việc chúng tôi đã lấn chiếm lề đường, nếu lần sau tái phạm sẽ bị xử phạt hành chính. Tôi muốn luật sư tư vấn rõ hơn về trường hợp này theo quy định của pháp luật. Tôi xin cảm ơn",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 161,
+      "content": "Xin hỏi: Điều kiện, hồ sơ, trình tự thủ tục ứng cử đại biểu Quốc hội được quy định như thế nào?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 162,
+      "content": "Sắp tới là đám cưới của con gái tôi, nên gia đình tôi muốn con gái tôi vui vẻ, náo nhiệt hơn bình thường. Tuy nhiên, theo tôi được biết thì không được bật nhạc quá to làm ảnh hưởng đến mọi người sinh sống xung quanh, nếu không sẽ bị phạt tiền. Quý công ty cho tôi hỏi trường hợp của tôi có bị phạt tiền không? Xin cảm ơn!",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 163,
+      "content": "Xin chào LuatVietnam, tôi là mẹ đơn thân, cuối năm 2019 đầu 2020 tôi sinh đôi 2 bé. Mẹ tôi ra phường làm khai sinh cho bé. Nhưng người làm hộ tịch không làm với lý do phải có giấy kết hôn mới được làm khai sinh và con không được theo họ mẹ theo luật mới năm 2019. Trên phường đã từ chối không cho tôi làm khai sinh cho con. Tôi mong muốn nhận được thông tin từ LuatVietnam để sớm khai sinh cho cháu. Tôi xin cảm ơn.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 164,
+      "content": "Cho em hỏi, nếu vợ mượn xe của chồng mà gây tai nạn nghiêm trọng có bị xử lý xe không chính chủ không ạ?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 165,
+      "content": "Chào Luật sư, chúng tôi đang có nhu cầu sử dụng flycam vào công tác giám sát thi công công trường. Luật sư cho hỏi hồ sơ và thủ tục xin cấp phép bay flycam gồm những gì, có yêu cầu đòi hỏi gì đặc biệt không?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 166,
+      "content": "Chứng minh nhân dân (CMND) cũ của em ở Gia Lai, em lấy chồng ở Đồng Nai và mới đổi CMND được 02 ngày nhập vào Sổ hộ khẩu của gia đình nhà chồng. Trong Sổ hộ khẩu không có ghi số mới mà vẫn còn số cũ. Vậy liệu có ảnh hưởng đến các giấy tờ sau này không ạ. Em xin cảm ơn ạ.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 167,
+      "content": "Năm nay em 25 tuổi vì lúc xưa chiến tranh mẹ bỏ sang Campuchia sinh sống nên hiện nay em và mẹ không có giấy tờ gì hết. Em về Việt Nam sống từ năm 2000 đến nay mà vẫn không giấy tờ hiện em muốn làm Giấy khai sinh thì có cách nào làm được không ạ? Em muốn làm Giấy khai sinh để làm Chứng minh nhân dân (CMND) thì phải làm như thế nào ạ?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 168,
+      "content": "Cho em hỏi là em nhắn tin cho chồng của tình nhân bố em là “Chú bất lực để vợ chú đi ngủ với người khác mà không giải quyết được gì?”... Rồi chú đó đòi cầm tin nhắn đi kiện em nói vợ ông ngủ với người khác là xúc phạm danh dự! Cho em hỏi nếu kiện thì em có bị gì không?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 169,
+      "content": "Tôi là con lai Việt - Đài Loan. Mẹ tôi đưa tôi về Việt Nam được 12 năm. Trong khoảng thời gian về Việt Nam gia đình tôi có làm giấy tờ cho tôi và em gái của tôi để đi học bao gồm Hộ khẩu, giấy khai sinh. 02 năm gần đây Nhà nước có đợt xét lại thì bảo giấy tờ của chúng tôi không hợp lệ và cắt bỏ. Hiện tại em tôi đang học 11 nếu như vẫn không có giấy tờ Việt Nam và hơn hết là không có Chứng minh nhân dân (CMND) thì làm sao thi tốt nghiệp được ạ? Mẹ tôi đã bỏ bố 12 năm và mẹ đã tái hôn thì có thể đơn phương li hôn đúng không? Và chúng tôi liệu có thể nhập quốc tịch Việt Nam được không? Rất mong LuatVietnam có thể chỉ ra hướng giải quyết giúp ạ! Tôi năm nay đã 18 tuổi rồi ạ, không có giấy tờ tuỳ thân quả thực rất khó khăn.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 170,
+      "content": "Con muốn hỏi là tên của mẹ con trên Giấy khai sinh của con và Sổ hộ khẩu khác nhau nhưng giờ đi đính chính lại thì không được nữa. Việc đó có ảnh hưởng đến học bạ cấp 3 và quan trọng hơn là kì thi Trung học phổ thông quốc gia không ạ?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 171,
+      "content": "Năm nay em 24 tuổi muốn làm chứng sinh cha em mất sớm mẹ thì không biết chữ nên lúc xưa không biết làm giấy chứng sinh. Em muốn làm giấy khai sinh để làm chứng minh nhân dân (CMND) thì phải làm như thế nào ạ? Em đang sống cùng với mẹ.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 172,
+      "content": "Năm nay em 18 tuổi hiện tại em chỉ có mỗi giấy chứng sinh thôi ạ. Mẹ em bỏ đi, cha mất từ lúc còn nhỏ, gia đình cũng khá khó khăn nên cha em chỉ bận rộn kiếm tiền, không biết chữ chẳng làm được giấy tờ tuỳ thân cho em nên em chỉ có giấy chứng sinh. Em muốn làm giấy khai sinh để làm chứng minh nhân dân thì phải làm như thế nào ạ, em đang sống cùng với anh chị họ hàng ạ?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 173,
+      "content": "Tôi có câu hỏi mong được giải đáp: Trước đây, năm 2014 tôi còn hộ khẩu, chứng minh tại Hải Phòng. Sau đó, tôi mua 01 bất động sản có nhà ở tại tỉnh Đồng Nai và chuyển hộ khẩu vào đây. Cho hỏi, đến nay tôi vẫn sử dụng Chứng minh nhân dân (CMND) cũ, có ảnh hưởng gì đến việc dân sự hành chính không? Thêm nữa bất động sản tôi mua theo CMND cũ tại Hải Phòng có cần thiết phải đổi CMND sang tỉnh Đồng Nai không? Và nếu đổi có cần khai báo để thay đổi trên Sổ đỏ và các giấy tờ dân sự khác không? Xin cảm ơn.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 174,
+      "content": "Cách đây 1 năm tôi có làm hộ chiếu nhưng chưa sử dụng. Sau đó chuyển nhà làm mất; nghe nói có thể xin cấp lại nhưng từ lúc làm tôi đã cất vào tủ không còn nhớ số hộ chiếu. Giờ muốn làm lại phải làm thế nào? Xin được tư vấn.",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 175,
+      "content": "Cho tôi hỏi quy định mới nhất về đề nghị công nhận liệt sỹ và truy tặng liệt sỹ",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 176,
+      "content": "Mình muốn đổi chứng minh nhân dân (CMND) cho phụ huynh. Ông sinh năm 1938 (giấy khai sinh) nhưng trong CMND và hộ khẩu hiện tại ghi 1939 Có cách nào để xác minh và làm lại CMND?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 177,
+      "content": "Em chào Luật sư. Em có một câu hỏi muốn Luật sư cho em câu trả lời ạ! Em là sinh viên năm thứ 03, bạn trai của em là sinh viên năm cuối. Trước hôm đấy em có sang phòng bạn trai chơi và có ngủ lại qua 01 đêm và đã được sự đồng ý của chủ nhà. ​Nhưng sáng hôm qua công an phường đã vào nhà trọ bọn em và thu hết chứng minh nhân dân và thẻ sinh viên của 02 đứa rồi kêu là chưa làm giấy tạm trú ở đây. Em thì có trọ gần đấy và đã làm tạm trú rồi. Còn phòng bạn trai em thì chưa làm vì hẹn mấy anh công an ở phường mấy ngày liền các anh đều từ ngày này hẹn sang ngày khác. Bảo đến thì anh ấy lại nói là \"mày gọi tao bao giờ. Có tin tao đưa chúng mày báo về trường không?”. Ngay đến thái độ của anh công an ấy đã làm em rất bức xúc. Còn xưng hô thằng này con kia. Vậy việc em muốn hỏi ở đây là em và bạn trai em yêu nhau ngủ với nhau 1 đêm trong khi đã có sự đồng ý của chủ nhà rồi thì có gì sai ạ? Và việc các anh ấy làm việc không đến nơi đến chốn, hẹn từ ngày này qua ngày khác thì là sao ạ?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 178,
+      "content": "Tôi là Sĩ quan quân đội. Tối đi ngủ tôi có để ví tiền trên giường. Trong ví có thẻ đảng viên nhưng lúc sau đi có việc ra ngoài gặp cấp trên và để quên ví, lúc về tìm không thấy ví và thẻ đảng. Tôi có bị xử lý kỉ luật hay không? Nếu có thì xử lý như thế nào? Bao giờ thì hết hiệu lực của kỉ luật? Có ảnh hưởng đến việc lên quân hàm hay không?",
+      "source": "luatvietnam"
+    },
+    {
+      "id": 179,
+      "content": "Xin chào luatvietnam: Tôi đang gặp một trường hợp khá rắc rối và kính mong nhận được sự tư vấn từ luatvietnam. Hiện nay tôi đang viết đơn xin xác nhận hoàn cảnh khó khăn tại địa phương nơi tôi đang sinh sống. Nhưng lại không đăng kí tạm trú và nơi đăng kí thường trú lại ở nơi khác. Vậy thì tôi có thể nhờ trưởng tổ dân phố nơi tôi đang sinh sống chứng kiến và xác nhận hoàn cảnh của tôi để ủy ban thị trấn đồng ý xác nhận trường hợp của tôi được không?",
+      "source": "luatvietnam"
     }
   ]
 }
