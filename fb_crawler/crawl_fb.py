@@ -14,13 +14,13 @@ from playwright.async_api import async_playwright
 
 # ==================== CẤU HÌNH ====================
 URLS = [
-#    "https://www.facebook.com/groups/454353863660050/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
-#     "https://www.facebook.com/groups/1545991175927462/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh",
-    "https://www.facebook.com/groups/285542587245558/search/?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%A1nh",
-    "https://www.facebook.com/groups/1545991175927462/search?q=lu%E1%BA%ADt%20h%C3%A0nh%20ch%C3%ADnh&filters=eyJyZWNlbnRfcG9zdHM6MCI6IntcIm5hbWVcIjpcInJlY2VudF9wb3N0c1wiLFwiYXJnc1wiOlwiXCJ9In0%3D"
+    "https://www.facebook.com/groups/clvlaw",
+"https://www.facebook.com/groups/tuvanphapluatnhanh",
+"https://www.facebook.com/groups/tuvanphapluatvn",
+"https://www.facebook.com/groups/262228230998774/",
 ]
 
-TARGET_POSTS = 200
+TARGET_POSTS = 300
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "crawled_posts.json")
 SCROLL_PAUSE = 3          # Giây chờ sau mỗi lần scroll
@@ -163,7 +163,8 @@ async def extract_posts_from_page(page) -> list[str]:
 
 
 async def scroll_and_collect(page, target_count: int, collected: list) -> list:
-    """Cuộn trang và thu thập bài viết cho đến khi đủ số lượng."""
+    """Cuộn trang và thu thập bài viết cho đến khi đủ số lượng cho link hiện tại."""
+    start_count = len(collected)
     seen_fingerprints = set()
     for p in collected:
         fp = p["content"][:100]
@@ -172,7 +173,7 @@ async def scroll_and_collect(page, target_count: int, collected: list) -> list:
     no_new_count = 0
     scroll_count = 0
 
-    while len(collected) < target_count:
+    while len(collected) - start_count < target_count:
         scroll_count += 1
 
         # Bấm "Xem thêm" trên các bài viết bị cắt ngắn
@@ -189,7 +190,7 @@ async def scroll_and_collect(page, target_count: int, collected: list) -> list:
         for raw_text in raw_posts:
             preview_raw = raw_text[:40].replace("\n", " ").strip()
             fp = raw_text[:80]
-            
+
             if fp in seen_fingerprints:
                 skipped_dup += 1
                 continue
@@ -212,9 +213,9 @@ async def scroll_and_collect(page, target_count: int, collected: list) -> list:
 
             print(f"  ✅ THÊM MỚI [{len(collected)}/{target_count}] {preview_raw}...")
 
-            if len(collected) >= target_count:
+            if len(collected) - start_count >= target_count:
                 break
-        
+
         if skipped_dup > 0:
             print(f"  🔍 Quét DOM: Thấy {len(raw_posts)} thẻ bài viết, trong đó đã bỏ qua {skipped_dup} bài cũ trùng lặp.")
 
@@ -246,7 +247,8 @@ def save_results(posts: list):
     """Lưu kết quả ra file JSON."""
     output = {
         "total_posts": len(posts),
-        "target": TARGET_POSTS,
+        "target_per_link": TARGET_POSTS,
+        "target_total": TARGET_POSTS * len(URLS),
         "crawled_at": datetime.now().isoformat(),
         "search_query": "luật hành chính",
         "posts": posts,
@@ -257,7 +259,7 @@ def save_results(posts: list):
 
 async def main():
     print("🚀 Facebook Group Search Crawler")
-    print(f"🎯 Mục tiêu: {TARGET_POSTS} bài viết")
+    print(f"🎯 Mục tiêu: {TARGET_POSTS} bài viết mỗi link")
     print(f"📂 Output: {OUTPUT_FILE}")
     print(f"🔗 Số link: {len(URLS)}\n")
 
@@ -291,14 +293,9 @@ async def main():
         all_posts = []
 
         for i, url in enumerate(URLS):
-            if len(all_posts) >= TARGET_POSTS:
-                print(f"\n✅ Đã đủ {TARGET_POSTS} bài viết!")
-                break
-
-            remaining = TARGET_POSTS - len(all_posts)
             print(f"\n{'='*60}")
             print(f"📌 Link {i+1}/{len(URLS)}: {url[:80]}...")
-            print(f"   Cần thêm: {remaining} bài viết")
+            print(f"   Cần thêm: {TARGET_POSTS} bài viết cho link này")
             print(f"{'='*60}")
 
             try:
@@ -312,6 +309,7 @@ async def main():
                     continue
 
                 all_posts = await scroll_and_collect(page, TARGET_POSTS, all_posts)
+                print(f"  ✅ Hoàn tất link {i+1}: tổng cộng đã có {len(all_posts)} bài")
 
             except Exception as e:
                 print(f"  ❌ Lỗi khi crawl link {i+1}: {e}")
@@ -325,7 +323,7 @@ async def main():
 
     print(f"\n{'='*60}")
     print(f"✅ HOÀN TẤT!")
-    print(f"📊 Tổng số bài viết: {len(all_posts)}/{TARGET_POSTS}")
+    print(f"📊 Tổng số bài viết: {len(all_posts)}/{TARGET_POSTS * len(URLS)}")
     print(f"📁 File output: {OUTPUT_FILE}")
     print(f"{'='*60}")
 

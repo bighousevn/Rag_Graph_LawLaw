@@ -35,6 +35,7 @@ numpy==2.0.2
 openai==2.30.0
 packaging==26.0
 pillow==11.3.0
+playwright==1.54.0
 proto-plus==1.27.2
 protobuf==5.29.6
 pyasn1==0.6.3
