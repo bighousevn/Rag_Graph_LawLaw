@@ -19,14 +19,12 @@ Nhiệm vụ quan trọng nhất của bạn là TRỪU TƯỢNG HÓA TỘT Đ�
 
 QUY TRÌNH TƯ DUY BẮT BUỘC MỖI KHI TẠO NODE:
 1. Gặp một thực thể (VD: "Ủy ban nhân dân xã").
-2. Lấy nguyên gốc từ "Ủy ban nhân dân xã" nhét vào mảng "synonym".
-3. Tự hỏi: Thực thể này thuộc thể loại chung nào? -> Trả lời: "Cơ quan".
-4. Điền "Cơ quan" vào trường "name".
+2. Tự hỏi: Thực thể này thuộc thể loại chung nào? -> Trả lời: "Cơ quan".
+3. Điền "Cơ quan" vào trường "name".
 
 QUY TRÌNH TƯ DUY VỚI MỐI QUAN HỆ (RELATIONSHIP):
-1. Lấy từ/cụm từ hành động cụ thể (VD: "sẽ bị xử phạt", "đã ban hành") nhét vào "synonym".
-2. Rút gọn về động từ gốc, loại bỏ thì/trạng thái (VD: "Xử phạt", "Ban hành").
-3. Điền động từ gốc này vào trường "name" của Relationship.
+1. Rút gọn về động từ gốc, loại bỏ thì/trạng thái (VD: "Xử phạt", "Ban hành").
+2. Điền động từ gốc này vào trường "name" của Relationship.
 
 QUY TẮC KHÁC:
 - Khớp SID: Bắt buộc lấy mã [SID: s...] gán vào "listSectionId".
@@ -38,7 +36,6 @@ QUY TẮC KHÁC:
         {
             "id": "T01",
             "name": "Tên Siêu Lớp (VD: Cơ quan, Luật, Người, Tài sản... TUYỆT ĐỐI KHÔNG DÙNG TỪ CỤ THỂ)",
-            "synonym": ["các từ cụ thể thực tế xuất hiện trong câu"],
             "listSectionId": ["s123"]
         }
     ],
@@ -47,7 +44,6 @@ QUY TẮC KHÁC:
             "name": "Động từ gốc (VD: Ban hành, Xử phạt, Căn cứ...)",
             "source": "T01",
             "target": "T02",
-            "synonym": ["các cụm từ hành động nguyên bản trong câu"],
             "listSectionId": ["s123"]
         }
     ]
@@ -64,8 +60,8 @@ def chunk_data_with_ids(data, chunk_size=5):
         chunk_items = data[i:i + chunk_size]
         text_chunk = ""
         for item in chunk_items:
-            sid = item.get("section_id", "unknown")
-            text = item.get("original_text", "")
+            sid = item.get("id") or item.get("section_id") or "unknown"
+            text = item.get("text_content") or item.get("original_text") or ""
             text_chunk += f"[SID: {sid}] {text}\n"
         chunks.append(text_chunk)
     return chunks
@@ -104,18 +100,16 @@ def merge_to_data_for_graph(all_graphs):
             name_key = name.lower()
             old_id = node.get("id")
             sids = node.get("listSectionId", [])
-            syns = node.get("synonym", [])
 
             node_sids_in_chunk[old_id] = set(sids)
             all_sids_in_chunk.update(sids)
 
             if name_key not in master_nodes:
-                master_nodes[name_key] = {"id": f"N{node_counter:03d}", "name": name, "listSectionId": set(sids), "synonym": set(syns)}
+                master_nodes[name_key] = {"id": f"N{node_counter:03d}", "name": name, "listSectionId": set(sids)}
                 node_counter += 1
             else:
                 # Phép hợp tập hợp (Union) đảm bảo không sót sectionID nào
                 master_nodes[name_key]["listSectionId"].update(sids)
-                master_nodes[name_key]["synonym"].update(syns)
 
             id_map[old_id] = {"id": master_nodes[name_key]["id"], "name_key": name_key}
 
@@ -133,28 +127,27 @@ def merge_to_data_for_graph(all_graphs):
 
                 raw_edges.append({
                     "name": str(rel.get("name", "")).strip(), "source": src_info["id"],
-                    "target": tgt_info["id"], "synonym": rel.get("synonym", []), "listSectionId": list(valid_rel_sids)
+                    "target": tgt_info["id"], "listSectionId": list(valid_rel_sids)
                 })
 
     # 3. Gộp Edges và ĐẢM BẢO HỢP listSectionId
     for edge in raw_edges:
         key = (edge["source"], edge["target"], edge["name"].lower())
         if key not in master_edges:
-            master_edges[key] = {"id": f"E{edge_counter:03d}", "name": edge["name"], "source": edge["source"], "target": edge["target"], "listSectionId": set(edge["listSectionId"]), "synonym": set(edge["synonym"])}
+            master_edges[key] = {"id": f"E{edge_counter:03d}", "name": edge["name"], "source": edge["source"], "target": edge["target"], "listSectionId": set(edge["listSectionId"])}
             edge_counter += 1
         else:
             # Phép hợp tập hợp cho Relationships
             master_edges[key]["listSectionId"].update(edge["listSectionId"])
-            master_edges[key]["synonym"].update(edge["synonym"])
 
     return [{
-        "nodes": [{**n, "listSectionId": sorted(list(n["listSectionId"])), "synonym": sorted(list(n["synonym"]))} for n in master_nodes.values()],
-        "relationships": [{**e, "listSectionId": sorted(list(e["listSectionId"])), "synonym": sorted(list(e["synonym"]))} for e in master_edges.values()]
+        "nodes": [{**n, "listSectionId": sorted(list(n["listSectionId"]))} for n in master_nodes.values()],
+        "relationships": [{**e, "listSectionId": sorted(list(e["listSectionId"]))} for e in master_edges.values()]
     }]
 
 def main():
-    input_file = './version_3/1_sections.json'
-    output_file = './version_3/2_entities_per_chunk.json'
+    input_file = 'output/1_sections_dat_dai_1.json'
+    output_file = 'version_3/2_entities_per_chunk.json'
 
     if not os.path.exists(input_file):
         print(f"Lỗi: Không tìm thấy file {input_file}")

@@ -7,7 +7,7 @@ def parse_pdf(pdf_path, output_path):
     print(f"Reading {pdf_path}...")
     pdf = pdfplumber.open(pdf_path)
     lines = []
-    
+
     for page in pdf.pages:
         text = page.extract_text()
         if text:
@@ -18,16 +18,16 @@ def parse_pdf(pdf_path, output_path):
                     continue
                 if line:
                     lines.append(line)
-                    
+
     sections = []
-    
+
     current_phan = ""
     current_chuong = ""
     current_muc = ""
     current_dieu = ""
     current_khoan = ""
     current_diem = ""
-    
+
     # regexes
     re_phan = re.compile(r'^(PHẦN THỨ\s+[\w\s]+)(.*)$', re.IGNORECASE)
     re_chuong = re.compile(r'^(CHƯƠNG\s+[IVXLCDM]+)(.*)$', re.IGNORECASE)
@@ -35,15 +35,15 @@ def parse_pdf(pdf_path, output_path):
     re_dieu = re.compile(r'^(Điều\s+\d+[a-z]*)\.(.*)$', re.IGNORECASE)
     re_khoan = re.compile(r'^(\d+)\.(.*)$')
     re_diem = re.compile(r'^([a-zđ])\)(.*)$')
-    
+
     current_text = []
     section_id_counter = 1
-    
+
     def flush_section():
         nonlocal current_text, section_id_counter
         if not current_text:
             return
-            
+
         # Build breadcrumb
         breadcrumb = []
         if current_phan: breadcrumb.append(current_phan)
@@ -52,15 +52,14 @@ def parse_pdf(pdf_path, output_path):
         if current_dieu: breadcrumb.append(current_dieu)
         if current_khoan: breadcrumb.append(f"Khoản {current_khoan}")
         if current_diem: breadcrumb.append(f"Điểm {current_diem}")
-        
-        full_text = " - ".join(breadcrumb) + ". Nội dung: " + " ".join(current_text)
-        
+
         sec_level = "diem" if current_diem else ("khoan" if current_khoan else "dieu")
-        
+
         sections.append({
             "id": f"s{section_id_counter}",
             "level": sec_level,
-            "text_content": full_text
+            "text_content": " ".join(current_text),
+            "path": " - ".join(breadcrumb)
         })
         section_id_counter += 1
         current_text = []
@@ -72,7 +71,7 @@ def parse_pdf(pdf_path, output_path):
         m_dieu = re_dieu.match(line)
         m_khoan = re_khoan.match(line)
         m_diem = re_diem.match(line)
-        
+
         if m_phan:
             flush_section()
             current_phan = m_phan.group(1).strip()
@@ -111,15 +110,17 @@ def parse_pdf(pdf_path, output_path):
                 current_text.append(m_diem.group(2).strip())
         else:
             current_text.append(line)
-            
+
     flush_section()
-    
+
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(sections, f, ensure_ascii=False, indent=4)
-        
+
     print(f"Total sections extracted: {len(sections)}")
     print(f"Saved to {output_path}")
 
 if __name__ == "__main__":
-    parse_pdf('input/15_vphc.pdf', 'output/1_sections.json')
+    parse_pdf('input/15_vphc.pdf', 'output/1_sections_vphc.json')
+        # parse_pdf('input/dat_dai_1.pdf', 'output/1_sections_dat_dai_1.json')
+

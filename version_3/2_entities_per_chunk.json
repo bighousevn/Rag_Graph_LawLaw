@@ -6,420 +6,65 @@
                 "name": "Cơ quan",
                 "listSectionId": [
                     "s1",
-                    "s34",
-                    "s38",
-                    "s46",
-                    "s6"
-                ],
-                "synonym": [
-                    "Cơ quan tiến hành tố tụng",
-                    "QUỐC HỘI CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
-                    "cơ quan, đơn vị Công an nhân dân",
-                    "cơ quan, đơn vị Quân đội nhân dân",
-                    "người có thẩm quyền"
+                    "s5"
                 ]
             },
             {
                 "id": "N002",
                 "name": "Luật",
                 "listSectionId": [
-                    "s1",
-                    "s3",
-                    "s4"
-                ],
-                "synonym": [
-                    "LUẬT XỬ LÝ VI PHẠM HÀNH CHÍNH",
-                    "Luật số: 15/2012/QH13"
+                    "s1"
                 ]
             },
             {
                 "id": "N003",
-                "name": "Quy định",
+                "name": "Người",
                 "listSectionId": [
-                    "s2",
-                    "s3",
-                    "s42",
-                    "s43",
-                    "s44",
-                    "s46",
-                    "s52",
-                    "s54",
-                    "s56",
-                    "s57",
-                    "s58",
-                    "s59",
+                    "s10",
+                    "s13",
+                    "s14",
                     "s6",
-                    "s60",
-                    "s61",
-                    "s67"
-                ],
-                "synonym": [
-                    "Cách tính thời hạn, thời hiệu",
-                    "NHỮNG QUY ĐỊNH CHUNG",
-                    "Những tình tiết giảm nhẹ khác do Chính phủ quy định",
-                    "Thời gian ban đêm",
-                    "Thời hiệu xử lý vi phạm hành chính",
-                    "Thời hiệu xử phạt vi phạm hành chính",
-                    "Tình tiết giảm nhẹ",
-                    "quy định của pháp luật",
-                    "quy định tại khoản 1 Điều 96",
-                    "quy định xử phạt vi phạm hành chính"
+                    "s7",
+                    "s8",
+                    "s9"
                 ]
             },
             {
                 "id": "N004",
-                "name": "Điều",
+                "name": "Đối tượng",
                 "listSectionId": [
-                    "s3",
-                    "s4",
-                    "s5"
-                ],
-                "synonym": [
-                    "Điều 1",
-                    "Điều 2"
+                    "s7"
                 ]
             },
             {
                 "id": "N005",
-                "name": "Hành vi",
+                "name": "Giải thích",
                 "listSectionId": [
-                    "s10",
-                    "s24",
-                    "s25",
-                    "s26",
-                    "s27",
-                    "s28",
-                    "s29",
-                    "s30",
-                    "s31",
-                    "s33",
-                    "s35",
-                    "s44",
-                    "s47",
-                    "s49",
-                    "s5",
-                    "s50",
-                    "s51",
-                    "s52",
-                    "s57",
-                    "s6",
-                    "s60",
-                    "s61",
-                    "s62",
-                    "s63",
-                    "s65",
-                    "s66",
-                    "s69",
-                    "s7",
-                    "s70",
-                    "s71",
-                    "s72",
-                    "s73",
-                    "s74",
-                    "s75",
-                    "s76",
-                    "s8",
-                    "s9"
-                ],
-                "synonym": [
-                    "Gian lận thuế",
-                    "Hành vi trốn thuế",
-                    "Khai thiếu nghĩa vụ thuế",
-                    "Lăng mạ, phỉ báng người đang thi hành công vụ",
-                    "Lợi dụng chức vụ, quyền hạn để vi phạm hành chính",
-                    "Lợi dụng hoàn cảnh chiến tranh, thiên tai, thảm họa, dịch bệnh hoặc những khó khăn đặc biệt khác của xã hội để vi phạm hành chính",
-                    "Người vi phạm hành chính đã có hành vi ngăn chặn",
-                    "Người vi phạm hành chính đã tự nguyện khai báo",
-                    "Nộp chậm tiền thuế",
-                    "Sử dụng người biết rõ là đang bị tâm thần hoặc bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi để vi phạm hành chính",
-                    "Vi phạm hành chính",
-                    "Vi phạm hành chính có tổ chức",
-                    "Vi phạm hành chính do bị ép buộc hoặc bị lệ thuộc về vật chất hoặc tinh thần",
-                    "Vi phạm hành chính do trình độ lạc hậu",
-                    "Vi phạm hành chính nhiều lần; tái phạm",
-                    "Vi phạm hành chính trong tình trạng bị kích động về tinh thần do hành vi trái pháp luật của người khác gây ra",
-                    "Vi phạm hành chính vì hoàn cảnh đặc biệt khó khăn mà không do mình gây ra",
-                    "Xúi giục, lôi kéo, sử dụng người chưa thành niên vi phạm",
-                    "hành vi trốn tránh",
-                    "hành vi vi phạm hành chính",
-                    "hành vi vi phạm quy định",
-                    "vi phạm hành chính",
-                    "vi phạm hành chính có tính chất côn đồ",
-                    "vượt quá giới hạn phòng vệ chính đáng",
-                    "vượt quá yêu cầu của tình thế cấp thiết",
-                    "ép buộc người bị lệ thuộc vào mình về vật chất, tinh thần thực hiện hành vi vi phạm hành chính"
+                    "s8"
                 ]
             },
             {
                 "id": "N006",
-                "name": "Biện pháp",
+                "name": "Bản đồ",
                 "listSectionId": [
-                    "s41",
-                    "s48",
-                    "s49",
-                    "s50",
-                    "s51",
-                    "s52",
-                    "s54",
-                    "s55",
-                    "s7",
-                    "s8"
-                ],
-                "synonym": [
-                    "biện pháp giáo dục",
-                    "biện pháp khắc phục hậu quả",
-                    "biện pháp thay thế",
-                    "biện pháp thay thế xử lý vi phạm hành chính",
-                    "biện pháp xử lý hành chính",
-                    "biện pháp đưa vào cơ sở cai nghiện bắt buộc",
-                    "biện pháp đưa vào cơ sở giáo dục bắt buộc",
-                    "biện pháp đưa vào trường giáo dưỡng"
+                    "s10",
+                    "s11",
+                    "s9"
                 ]
             },
             {
                 "id": "N007",
-                "name": "Tổ chức",
+                "name": "Hành động",
                 "listSectionId": [
-                    "s10",
-                    "s29",
-                    "s39",
-                    "s6",
-                    "s7",
-                    "s9"
-                ],
-                "synonym": [
-                    "Tổ chức bị xử phạt vi phạm hành chính",
-                    "cá nhân",
-                    "tổ chức"
+                    "s12",
+                    "s13"
                 ]
             },
             {
                 "id": "N008",
-                "name": "Cá nhân",
+                "name": "Chi phí",
                 "listSectionId": [
-                    "s10",
-                    "s27",
-                    "s28",
-                    "s29",
-                    "s31",
-                    "s6",
-                    "s7",
-                    "s8",
-                    "s9"
-                ],
-                "synonym": [
-                    "cá nhân",
-                    "người"
-                ]
-            },
-            {
-                "id": "N009",
-                "name": "Hình thức",
-                "listSectionId": [
-                    "s6"
-                ],
-                "synonym": [
-                    "hình thức xử phạt"
-                ]
-            },
-            {
-                "id": "N010",
-                "name": "Nguyên tắc",
-                "listSectionId": [
-                    "s22",
-                    "s23",
-                    "s24",
-                    "s25"
-                ],
-                "synonym": [
-                    "Nguyên tắc xử lý vi phạm hành chính",
-                    "Nguyên tắc xử phạt vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "N011",
-                "name": "Hậu quả",
-                "listSectionId": [
-                    "s24"
-                ],
-                "synonym": [
-                    "hậu quả do vi phạm hành chính gây ra"
-                ]
-            },
-            {
-                "id": "N012",
-                "name": "Thủ tục",
-                "listSectionId": [
-                    "s25",
-                    "s26",
-                    "s32",
-                    "s33",
-                    "s34",
-                    "s35",
-                    "s36"
-                ],
-                "synonym": [
-                    "Việc xử phạt vi phạm hành chính",
-                    "biện pháp xử lý hành chính",
-                    "quy định",
-                    "thẩm quyền quy định"
-                ]
-            },
-            {
-                "id": "N013",
-                "name": "Căn cứ",
-                "listSectionId": [
-                    "s26"
-                ],
-                "synonym": [
-                    "căn cứ vào tính chất, mức độ, hậu quả vi phạm, đối tượng vi phạm và tình tiết giảm nhẹ, tình tiết tăng nặng"
-                ]
-            },
-            {
-                "id": "N014",
-                "name": "Cơ quan có thẩm quyền",
-                "listSectionId": [
-                    "s28"
-                ],
-                "synonym": [
-                    "người có thẩm quyền xử phạt"
-                ]
-            },
-            {
-                "id": "N015",
-                "name": "Biện pháp xử lý",
-                "listSectionId": [
-                    "s30",
-                    "s31"
-                ],
-                "synonym": [
-                    "biện pháp xử lý hành chính"
-                ]
-            },
-            {
-                "id": "N016",
-                "name": "Người",
-                "listSectionId": [
-                    "s34",
-                    "s38",
-                    "s40",
-                    "s41",
-                    "s64"
-                ],
-                "synonym": [
-                    "Người thuộc Công an nhân dân",
-                    "Người thuộc lực lượng Quân đội nhân dân",
-                    "Người từ đủ 14 tuổi đến dưới 16 tuổi",
-                    "Người từ đủ 16 tuổi trở lên",
-                    "Người vi phạm hành chính là phụ nữ mang thai",
-                    "cá nhân",
-                    "người có bệnh hoặc khuyết tật làm hạn chế khả năng nhận thức hoặc khả năng điều khiển hành vi của mình",
-                    "người già yếu",
-                    "người vi phạm"
-                ]
-            },
-            {
-                "id": "N017",
-                "name": "Thời gian",
-                "listSectionId": [
-                    "s42",
-                    "s43",
-                    "s44",
-                    "s52",
-                    "s53",
-                    "s54",
-                    "s55",
-                    "s56"
-                ],
-                "synonym": [
-                    "01 năm",
-                    "02 năm",
-                    "thời gian",
-                    "thời hiệu",
-                    "thời hạn"
-                ]
-            },
-            {
-                "id": "N018",
-                "name": "Thời hiệu",
-                "listSectionId": [
-                    "s47",
-                    "s48",
-                    "s49",
-                    "s50",
-                    "s51"
-                ],
-                "synonym": [
-                    "thời hiệu xử phạt vi phạm hành chính",
-                    "thời hiệu áp dụng biện pháp giáo dục",
-                    "thời hiệu áp dụng biện pháp xử lý hành chính",
-                    "thời hiệu áp dụng biện pháp đưa vào cơ sở giáo dục bắt buộc",
-                    "thời hiệu áp dụng biện pháp đưa vào trường giáo dưỡng"
-                ]
-            },
-            {
-                "id": "N019",
-                "name": "Tình tiết",
-                "listSectionId": [
-                    "s67",
-                    "s68",
-                    "s69"
-                ],
-                "synonym": [
-                    "Những tình tiết sau đây là tình tiết tăng nặng",
-                    "Tình tiết tăng nặng"
-                ]
-            },
-            {
-                "id": "N020",
-                "name": "Hình phạt",
-                "listSectionId": [
-                    "s77"
-                ],
-                "synonym": [
-                    "hình phạt của bản án hình sự",
-                    "quyết định áp dụng biện pháp xử lý vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "N021",
-                "name": "Hành vi vi phạm",
-                "listSectionId": [
-                    "s77",
-                    "s78",
-                    "s79",
-                    "s80",
-                    "s81"
-                ],
-                "synonym": [
-                    "hành vi che giấu vi phạm hành chính",
-                    "hành vi trốn tránh",
-                    "hành vi vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "N022",
-                "name": "Vi phạm quy mô lớn",
-                "listSectionId": [
-                    "s80"
-                ],
-                "synonym": [
-                    "số lượng hoặc trị giá hàng hóa lớn",
-                    "vi phạm hành chính có quy mô lớn"
-                ]
-            },
-            {
-                "id": "N023",
-                "name": "Vi phạm đối tượng đặc biệt",
-                "listSectionId": [
-                    "s81"
-                ],
-                "synonym": [
-                    "người già",
-                    "người khuyết tật",
-                    "phụ nữ mang thai",
-                    "trẻ em",
-                    "vi phạm hành chính đối với nhiều người"
+                    "s15"
                 ]
             }
         ],
@@ -431,527 +76,87 @@
                 "target": "N002",
                 "listSectionId": [
                     "s1"
-                ],
-                "synonym": [
-                    "Quốc hội ban hành Luật xử lý vi phạm hành chính"
                 ]
             },
             {
                 "id": "E002",
-                "name": "Quy định",
-                "source": "N002",
-                "target": "N003",
+                "name": "Liên quan",
+                "source": "N003",
+                "target": "N004",
                 "listSectionId": [
-                    "s3"
-                ],
-                "synonym": [
-                    "Luật này quy định về xử phạt vi phạm hành chính và các biện pháp xử lý hành chính"
+                    "s7"
                 ]
             },
             {
                 "id": "E003",
                 "name": "Giải thích",
-                "source": "N002",
-                "target": "N004",
+                "source": "N005",
+                "target": "N003",
                 "listSectionId": [
-                    "s4"
-                ],
-                "synonym": [
-                    "Giải thích từ ngữ trong Luật này"
+                    "s8"
                 ]
             },
             {
                 "id": "E004",
-                "name": "Thực hiện",
-                "source": "N005",
-                "target": "N004",
+                "name": "Xác nhận",
+                "source": "N006",
+                "target": "N003",
                 "listSectionId": [
-                    "s5"
-                ],
-                "synonym": [
-                    "hành vi có lỗi do cá nhân, tổ chức thực hiện"
+                    "s9"
                 ]
             },
             {
                 "id": "E005",
-                "name": "Xử phạt",
-                "source": "N001",
-                "target": "N005",
+                "name": "Thể hiện",
+                "source": "N006",
+                "target": "N003",
                 "listSectionId": [
-                    "s6"
-                ],
-                "synonym": [
-                    "Xử phạt vi phạm hành chính",
-                    "áp dụng hình thức xử phạt"
+                    "s10"
                 ]
             },
             {
                 "id": "E006",
-                "name": "Áp dụng",
+                "name": "Thể hiện",
                 "source": "N006",
-                "target": "N005",
+                "target": "N006",
                 "listSectionId": [
-                    "s7"
-                ],
-                "synonym": [
-                    "biện pháp được áp dụng"
+                    "s11"
                 ]
             },
             {
                 "id": "E007",
-                "name": "Thay thế",
-                "source": "N006",
-                "target": "N005",
+                "name": "Áp dụng",
+                "source": "N007",
+                "target": "N007",
                 "listSectionId": [
-                    "s8"
-                ],
-                "synonym": [
-                    "biện pháp thay thế xử lý vi phạm hành chính"
+                    "s12"
                 ]
             },
             {
                 "id": "E008",
-                "name": "Vi phạm",
+                "name": "Trả lại",
                 "source": "N007",
-                "target": "N005",
+                "target": "N003",
                 "listSectionId": [
-                    "s10",
-                    "s9"
-                ],
-                "synonym": [
-                    "Tái phạm",
-                    "Vi phạm hành chính nhiều lần"
+                    "s13"
                 ]
             },
             {
                 "id": "E009",
-                "name": "Xử phạt",
-                "source": "N005",
-                "target": "N008",
+                "name": "Giao",
+                "source": "N003",
+                "target": "N003",
                 "listSectionId": [
-                    "s27",
-                    "s6"
-                ],
-                "synonym": [
-                    "Xử phạt vi phạm hành chính",
-                    "người có thẩm quyền xử phạt",
-                    "xử phạt vi phạm hành chính"
+                    "s14"
                 ]
             },
             {
                 "id": "E010",
-                "name": "Áp dụng",
-                "source": "N006",
-                "target": "N008",
-                "listSectionId": [
-                    "s7"
-                ],
-                "synonym": [
-                    "biện pháp được áp dụng"
-                ]
-            },
-            {
-                "id": "E011",
-                "name": "Thực hiện",
+                "name": "Đầu tư",
                 "source": "N008",
-                "target": "N005",
-                "listSectionId": [
-                    "s10",
-                    "s9"
-                ],
-                "synonym": [
-                    "thực hiện hành vi vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "E012",
-                "name": "Xử lý",
-                "source": "N010",
-                "target": "N005",
-                "listSectionId": [
-                    "s24",
-                    "s25"
-                ],
-                "synonym": [
-                    "xử lý vi phạm hành chính",
-                    "xử phạt vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "E013",
-                "name": "Khắc phục",
-                "source": "N005",
-                "target": "N011",
-                "listSectionId": [
-                    "s24"
-                ],
-                "synonym": [
-                    "khắc phục hậu quả do vi phạm hành chính gây ra"
-                ]
-            },
-            {
-                "id": "E014",
-                "name": "Căn cứ",
-                "source": "N012",
-                "target": "N013",
-                "listSectionId": [
-                    "s26"
-                ],
-                "synonym": [
-                    "căn cứ vào tính chất, mức độ, hậu quả vi phạm, đối tượng vi phạm và tình tiết giảm nhẹ, tình tiết tăng nặng"
-                ]
-            },
-            {
-                "id": "E015",
-                "name": "Chứng minh",
-                "source": "N014",
-                "target": "N005",
-                "listSectionId": [
-                    "s28"
-                ],
-                "synonym": [
-                    "chứng minh vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "E016",
-                "name": "Áp dụng",
-                "source": "N015",
                 "target": "N008",
                 "listSectionId": [
-                    "s31"
-                ],
-                "synonym": [
-                    "áp dụng biện pháp xử lý hành chính"
-                ]
-            },
-            {
-                "id": "E017",
-                "name": "So sánh",
-                "source": "N007",
-                "target": "N008",
-                "listSectionId": [
-                    "s29"
-                ],
-                "synonym": [
-                    "mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân"
-                ]
-            },
-            {
-                "id": "E018",
-                "name": "Căn cứ",
-                "source": "N012",
-                "target": "N005",
-                "listSectionId": [
-                    "s33"
-                ],
-                "synonym": [
-                    "căn cứ vào tính chất, mức độ, hậu quả vi phạm"
-                ]
-            },
-            {
-                "id": "E019",
-                "name": "Chứng minh",
-                "source": "N001",
-                "target": "N012",
-                "listSectionId": [
-                    "s34"
-                ],
-                "synonym": [
-                    "chứng minh vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "E020",
-                "name": "Quy định",
-                "source": "N012",
-                "target": "N005",
-                "listSectionId": [
-                    "s35"
-                ],
-                "synonym": [
-                    "quy định về xử phạt vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "E021",
-                "name": "Xử phạt",
-                "source": "N016",
-                "target": "N016",
-                "listSectionId": [
-                    "s38",
-                    "s40"
-                ],
-                "synonym": [
-                    "bị xử phạt vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "E022",
-                "name": "Xử phạt",
-                "source": "N007",
-                "target": "N007",
-                "listSectionId": [
-                    "s39"
-                ],
-                "synonym": [
-                    "bị xử phạt vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "E023",
-                "name": "Đề nghị",
-                "source": "N016",
-                "target": "N001",
-                "listSectionId": [
-                    "s38"
-                ],
-                "synonym": [
-                    "đề nghị cơ quan, đơn vị Quân đội nhân dân, Công an nhân dân có thẩm quyền xử lý"
-                ]
-            },
-            {
-                "id": "E024",
-                "name": "Áp dụng",
-                "source": "N006",
-                "target": "N016",
-                "listSectionId": [
-                    "s41"
-                ],
-                "synonym": [
-                    "đối tượng bị áp dụng biện pháp xử lý hành chính"
-                ]
-            },
-            {
-                "id": "E025",
-                "name": "Quy định",
-                "source": "N003",
-                "target": "N017",
-                "listSectionId": [
-                    "s43"
-                ],
-                "synonym": [
-                    "được quy định như sau"
-                ]
-            },
-            {
-                "id": "E026",
-                "name": "Áp dụng",
-                "source": "N003",
-                "target": "N005",
-                "listSectionId": [
-                    "s44",
-                    "s57",
-                    "s60",
-                    "s61"
-                ],
-                "synonym": [
-                    "giúp đỡ cơ quan chức năng",
-                    "làm giảm bớt hậu quả",
-                    "thời hiệu xử phạt vi phạm hành chính là",
-                    "được áp dụng theo quy định"
-                ]
-            },
-            {
-                "id": "E027",
-                "name": "Tính toán",
-                "source": "N003",
-                "target": "N017",
-                "listSectionId": [
-                    "s42",
-                    "s43"
-                ],
-                "synonym": [
-                    "thời điểm để tính thời hiệu"
-                ]
-            },
-            {
-                "id": "E028",
-                "name": "Chuyển giao",
-                "source": "N001",
-                "target": "N003",
-                "listSectionId": [
-                    "s46"
-                ],
-                "synonym": [
-                    "xử phạt vi phạm hành chính đối với cá nhân do"
-                ]
-            },
-            {
-                "id": "E029",
-                "name": "Tính lại",
-                "source": "N018",
-                "target": "N005",
-                "listSectionId": [
-                    "s47"
-                ],
-                "synonym": [
-                    "thời hiệu xử phạt vi phạm hành chính được tính lại"
-                ]
-            },
-            {
-                "id": "E030",
-                "name": "Áp dụng",
-                "source": "N018",
-                "target": "N006",
-                "listSectionId": [
-                    "s48",
-                    "s49",
-                    "s50",
-                    "s51"
-                ],
-                "synonym": [
-                    "thời hiệu áp dụng biện pháp giáo dục",
-                    "thời hiệu áp dụng biện pháp xử lý hành chính",
-                    "thời hiệu áp dụng biện pháp đưa vào cơ sở giáo dục bắt buộc",
-                    "thời hiệu áp dụng biện pháp đưa vào trường giáo dưỡng"
-                ]
-            },
-            {
-                "id": "E031",
-                "name": "Áp dụng",
-                "source": "N006",
-                "target": "N017",
-                "listSectionId": [
-                    "s54",
-                    "s55"
-                ],
-                "synonym": [
-                    "áp dụng biện pháp",
-                    "được coi là chưa bị áp dụng"
-                ]
-            },
-            {
-                "id": "E032",
-                "name": "Thực hiện",
-                "source": "N005",
-                "target": "N017",
-                "listSectionId": [
-                    "s52"
-                ],
-                "synonym": [
-                    "thực hiện lần cuối hành vi vi phạm"
-                ]
-            },
-            {
-                "id": "E033",
-                "name": "Xử phạt",
-                "source": "N006",
-                "target": "N003",
-                "listSectionId": [
-                    "s54"
-                ],
-                "synonym": [
-                    "bị xử phạt vi phạm hành chính"
-                ]
-            },
-            {
-                "id": "E034",
-                "name": "Tính toán",
-                "source": "N017",
-                "target": "N003",
-                "listSectionId": [
-                    "s56"
-                ],
-                "synonym": [
-                    "cách tính thời gian, thời hạn, thời hiệu"
-                ]
-            },
-            {
-                "id": "E035",
-                "name": "Quy định",
-                "source": "N003",
-                "target": "N019",
-                "listSectionId": [
-                    "s67"
-                ],
-                "synonym": [
-                    "Những tình tiết giảm nhẹ khác do Chính phủ quy định"
-                ]
-            },
-            {
-                "id": "E036",
-                "name": "Liên quan",
-                "source": "N019",
-                "target": "N019",
-                "listSectionId": [
-                    "s68"
-                ],
-                "synonym": [
-                    "Tình tiết tăng nặng"
-                ]
-            },
-            {
-                "id": "E037",
-                "name": "Liệt kê",
-                "source": "N019",
-                "target": "N005",
-                "listSectionId": [
-                    "s69"
-                ],
-                "synonym": [
-                    "Những tình tiết sau đây là tình tiết tăng nặng"
-                ]
-            },
-            {
-                "id": "E038",
-                "name": "Chấp hành",
-                "source": "N020",
-                "target": "N021",
-                "listSectionId": [
-                    "s77"
-                ],
-                "synonym": [
-                    "đang chấp hành"
-                ]
-            },
-            {
-                "id": "E039",
-                "name": "Yêu cầu chấm dứt",
-                "source": "N021",
-                "target": "N021",
-                "listSectionId": [
-                    "s78"
-                ],
-                "synonym": [
-                    "đã yêu cầu chấm dứt hành vi đó"
-                ]
-            },
-            {
-                "id": "E040",
-                "name": "Trốn tránh",
-                "source": "N021",
-                "target": "N021",
-                "listSectionId": [
-                    "s79"
-                ],
-                "synonym": [
-                    "che giấu vi phạm hành chính",
-                    "đã có hành vi trốn tránh"
-                ]
-            },
-            {
-                "id": "E041",
-                "name": "Vi phạm",
-                "source": "N021",
-                "target": "N022",
-                "listSectionId": [
-                    "s80"
-                ],
-                "synonym": [
-                    "vi phạm hành chính có quy mô lớn"
-                ]
-            },
-            {
-                "id": "E042",
-                "name": "Vi phạm",
-                "source": "N021",
-                "target": "N023",
-                "listSectionId": [
-                    "s81"
-                ],
-                "synonym": [
-                    "vi phạm hành chính đối với nhiều người"
+                    "s15"
                 ]
             }
         ]
