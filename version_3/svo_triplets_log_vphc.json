@@ -1,0 +1,3757 @@
+[
+    {
+        "Subject": "QUỐC HỘI CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Predicate": "BAN_HANH",
+        "Object": "Luật xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Luật này",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Luật này",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "các biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Quy định của pháp luật"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hình thức xử phạt"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Biện pháp khắc phục hậu quả"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cá nhân vi phạm pháp luật"
+    },
+    {
+        "Subject": "Cá nhân vi phạm pháp luật",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Vi phạm pháp luật về an ninh, trật tự, an toàn xã hội"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Biện pháp giáo dục tại xã, phường, thị trấn"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Đưa vào trường giáo dưỡng"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Đưa vào cơ sở giáo dục bắt buộc"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Đưa vào cơ sở cai nghiện bắt buộc"
+    },
+    {
+        "Subject": "Biện pháp thay thế xử lý vi phạm hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Người chưa thành niên"
+    },
+    {
+        "Subject": "Biện pháp thay thế xử lý vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Biện pháp nhắc nhở"
+    },
+    {
+        "Subject": "Biện pháp thay thế xử lý vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Biện pháp quản lý tại gia đình"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tái phạm"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tái phạm"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Vi phạm hành chính nhiều lần"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Vi phạm hành chính nhiều lần"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "Vi phạm hành chính có tổ chức"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "Vi phạm hành chính có tổ chức"
+    },
+    {
+        "Subject": "Cơ quan nhà nước",
+        "Predicate": "CAP_PHAT",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Công dân",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "Chỗ ở"
+    },
+    {
+        "Subject": "Cơ quan",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Chỗ ở"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Chỗ ở"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tình thế cấp thiết"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tình thế cấp thiết"
+    },
+    {
+        "Subject": "Tình thế cấp thiết",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Nhà nước"
+    },
+    {
+        "Subject": "Tình thế cấp thiết",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Quyền lợi ích chính đáng"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Phòng vệ chính đáng"
+    },
+    {
+        "Subject": "Phòng vệ chính đáng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Nhà nước"
+    },
+    {
+        "Subject": "Phòng vệ chính đáng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tổ chức"
+    },
+    {
+        "Subject": "Người không có năng lực trách nhiệm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Người không có năng lực trách nhiệm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Bệnh tâm thần hoặc bệnh khác"
+    },
+    {
+        "Subject": "Người nghiện ma túy",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "Chất ma túy"
+    },
+    {
+        "Subject": "Người đại diện hợp pháp",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Cha mẹ"
+    },
+    {
+        "Subject": "Người đại diện hợp pháp",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Người giám hộ"
+    },
+    {
+        "Subject": "Người đại diện hợp pháp",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Luật sư"
+    },
+    {
+        "Subject": "Người đại diện hợp pháp",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Trợ giúp viên pháp lý"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quy định của pháp luật"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Xử phạt"
+    },
+    {
+        "Subject": "Xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tính chất, mức độ, hậu quả vi phạm"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Đối tượng vi phạm"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tình tiết giảm nhẹ"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tình tiết tăng nặng"
+    },
+    {
+        "Subject": "Nhiều người",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Một người",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cá nhân bị xử phạt"
+    },
+    {
+        "Subject": "Cá nhân bị xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Người có thẩm quyền xử phạt"
+    },
+    {
+        "Subject": "Tổ chức bị xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Người có thẩm quyền xử phạt"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "CO_QUYEN",
+        "Object": "Mức phạt tiền"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CO_QUYEN",
+        "Object": "Mức phạt tiền"
+    },
+    {
+        "Subject": "Hành vi vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Mức phạt tiền"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CHI_AP_DUNG_KHI",
+        "Object": "Điều 90, 92, 94 và 96"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều này"
+    },
+    {
+        "Subject": "Thời hạn áp dụng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tính chất, mức độ, hậu quả vi phạm"
+    },
+    {
+        "Subject": "Thời hạn áp dụng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Người vi phạm"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân bị áp dụng biện pháp xử lý hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CAP_PHAT",
+        "Object": "Thẩm quyền quy định về xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CAP_PHAT",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CAP_PHAT",
+        "Object": "Hình thức xử phạt"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CAP_PHAT",
+        "Object": "Mức xử phạt"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CAP_PHAT",
+        "Object": "Biện pháp khắc phục hậu quả"
+    },
+    {
+        "Subject": "Người từ đủ 14 tuổi đến dưới 16 tuổi",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hình thức phạt tước quyền sử dụng giấy phép"
+    },
+    {
+        "Subject": "Người từ đủ 16 tuổi trở lên",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hình thức phạt tước quyền sử dụng giấy phép"
+    },
+    {
+        "Subject": "Lực lượng Quân đội nhân dân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Người từ đủ 14 tuổi đến dưới 16 tuổi"
+    },
+    {
+        "Subject": "Công an nhân dân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Người từ đủ 14 tuổi đến dưới 16 tuổi"
+    },
+    {
+        "Subject": "Hình thức phạt tước quyền sử dụng giấy phép",
+        "Predicate": "YEU_CAU_CO",
+        "Object": "Lực lượng Quân đội nhân dân"
+    },
+    {
+        "Subject": "Hình thức đình chỉ hoạt động có thời hạn",
+        "Predicate": "YEU_CAU_CO",
+        "Object": "Công an nhân dân"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Tổ chức nước ngoài",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "Quy định của pháp luật Việt Nam"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "CHI_AP_DUNG_KHI",
+        "Object": "Người nước ngoài"
+    },
+    {
+        "Subject": "Thời hiệu xử phạt vi phạm hành chính",
+        "Predicate": "TRU_TRUONG_HOP",
+        "Object": "Trường hợp ngoại lệ"
+    },
+    {
+        "Subject": "Vi phạm hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "Trường hợp ngoại lệ"
+    },
+    {
+        "Subject": "Hành vi trốn thuế",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "Vi phạm hành chính"
+    },
+    {
+        "Subject": "Thời điểm tính thời hiệu xử phạt",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan tiến hành tố tụng",
+        "Predicate": "GIAI_QUYET",
+        "Object": "Cá nhân"
+    },
+    {
+        "Subject": "Cơ quan tiến hành tố tụng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Thời hiệu xử phạt"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Trốn tránh, cản trở xử phạt"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Trốn tránh, cản trở xử phạt"
+    },
+    {
+        "Subject": "Thời hiệu xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Trốn tránh, cản trở xử phạt"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thời hiệu áp dụng biện pháp giáo dục"
+    },
+    {
+        "Subject": "Thời hiệu áp dụng biện pháp giáo dục",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Quy định tại Điều 90"
+    },
+    {
+        "Subject": "Hành vi vi phạm",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Quy định tại Điều 90"
+    },
+    {
+        "Subject": "Thời hiệu áp dụng biện pháp đưa vào trường giáo dưỡng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hành vi vi phạm quy định tại khoản 1 và khoản 2 Điều 92"
+    },
+    {
+        "Subject": "Thời hiệu áp dụng biện pháp đưa vào trường giáo dưỡng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hành vi vi phạm quy định tại khoản 3 Điều 92"
+    },
+    {
+        "Subject": "Thời hiệu áp dụng biện pháp đưa vào trường giáo dưỡng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hành vi vi phạm quy định tại khoản 4 Điều 92"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thời hiệu áp dụng biện pháp đưa vào cơ sở giáo dục bắt buộc"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Thời hiệu áp dụng biện pháp đưa vào cơ sở cai nghiện bắt buộc"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hành vi vi phạm quy định tại khoản 1 Điều 96"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CO_QUYEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "CO_QUYEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CO_QUYEN",
+        "Object": "Biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Thời gian, thời hạn, thời hiệu",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Thời hạn, thời hiệu",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bộ luật dân sự"
+    },
+    {
+        "Subject": "Luật này",
+        "Predicate": "CHI_AP_DUNG_KHI",
+        "Object": "Thời hạn, thời hiệu"
+    },
+    {
+        "Subject": "Thời gian ban đêm",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thời gian tính"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hành vi ngăn chặn"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Khắc phục hậu quả"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Bồi thường thiệt hại"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Cơ quan chức năng"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tình trạng bị kích động về tinh thần"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hành vi trái pháp luật của người khác"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giới hạn phòng vệ chính đáng"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Yêu cầu của tình thế cấp thiết"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Bị ép buộc hoặc lệ thuộc"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Phụ nữ mang thai"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Người già yếu"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Người có bệnh"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Người khuyết tật"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hoàn cảnh đặc biệt khó khăn"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Trình độ lạc hậu"
+    },
+    {
+        "Subject": "Xúi giục, lôi kéo, sử dụng người chưa thành niên vi phạm",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Ép buộc người bị lệ thuộc thực hiện hành vi vi phạm"
+    },
+    {
+        "Subject": "Người biết rõ là đang bị tâm thần",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Hoàn cảnh chiến tranh, thiên tai, thảm họa, dịch bệnh",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Vi phạm",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "Hình phạt của bản án hình sự"
+    },
+    {
+        "Subject": "Vi phạm",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "Quyết định áp dụng biện pháp xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Trốn tránh, che giấu vi phạm"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Hàng hóa lớn"
+    },
+    {
+        "Subject": "Tình tiết quy định tại khoản 1",
+        "Predicate": "CHI_AP_DUNG_KHI",
+        "Object": "Tình tiết tăng nặng"
+    },
+    {
+        "Subject": "Hành vi vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Tình tiết tăng nặng"
+    },
+    {
+        "Subject": "Thực hiện hành vi vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tình thế cấp thiết"
+    },
+    {
+        "Subject": "Hành vi vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Phòng vệ chính đáng"
+    },
+    {
+        "Subject": "Hành vi vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Sự kiện bất ngờ"
+    },
+    {
+        "Subject": "Hành vi vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Sự kiện bất khả kháng"
+    },
+    {
+        "Subject": "Người thực hiện hành vi vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Năng lực trách nhiệm hành chính"
+    },
+    {
+        "Subject": "Người thực hiện hành vi vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Đủ tuổi bị xử phạt"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Vụ vi phạm có dấu hiệu tội phạm"
+    },
+    {
+        "Subject": "Lợi dụng chức vụ, quyền hạn",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Người vi phạm"
+    },
+    {
+        "Subject": "Sách nhiễu",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tiền, tài sản"
+    },
+    {
+        "Subject": "Dung túng, bao che",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Người vi phạm"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "BAN_HANH",
+        "Object": "Văn bản quy định"
+    },
+    {
+        "Subject": "Văn bản quy định",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Biện pháp khắc phục hậu quả",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biện pháp khắc phục hậu quả"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Biện pháp khắc phục hậu quả",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Thẩm quyền"
+    },
+    {
+        "Subject": "Biện pháp xử lý hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Thẩm quyền"
+    },
+    {
+        "Subject": "Thủ tục",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Thẩm quyền"
+    },
+    {
+        "Subject": "Đối tượng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Hình thức xử phạt",
+        "Predicate": "CHI_AP_DUNG_KHI",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Biện pháp khắc phục hậu quả",
+        "Predicate": "CHI_AP_DUNG_KHI",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Tiền thu được từ xử phạt vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Tang vật, phương tiện vi phạm hành chính"
+    },
+    {
+        "Subject": "Giả mạo hồ sơ xử phạt",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Làm sai lệch hồ sơ xử phạt"
+    },
+    {
+        "Subject": "Làm sai lệch hồ sơ xử phạt",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Hồ sơ áp dụng biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Chống đối, trốn tránh, trì hoãn hoặc cản trở chấp hành quyết định xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quyết định xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Chống đối, trốn tránh, trì hoãn hoặc cản trở chấp hành quyết định xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quyết định áp dụng biện pháp ngăn chặn"
+    },
+    {
+        "Subject": "Chống đối, trốn tránh, trì hoãn hoặc cản trở chấp hành quyết định xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quyết định cưỡng chế thi hành"
+    },
+    {
+        "Subject": "Chống đối, trốn tránh, trì hoãn hoặc cản trở chấp hành quyết định xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quyết định áp dụng biện pháp xử lý hành chính"
+    },
+    {
+        "Subject": "Người vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Bồi thường thiệt hại"
+    },
+    {
+        "Subject": "Bồi thường thiệt hại",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Quy định của pháp luật về dân sự"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử lý vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Bồi thường"
+    },
+    {
+        "Subject": "Cơ quan, tổ chức có liên quan",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Bồi thường"
+    },
+    {
+        "Subject": "Cá nhân có liên quan",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Bồi thường"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử lý vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan, tổ chức có liên quan",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân có liên quan",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quy định của pháp luật"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "CO_QUYEN",
+        "Object": "Quy định của pháp luật"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử lý vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CO_QUYEN",
+        "Object": "Quyền khiếu nại, khởi kiện"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "CO_QUYEN",
+        "Object": "Quyền khiếu nại, khởi kiện"
+    },
+    {
+        "Subject": "Quyết định xử lý vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "CO_QUYEN",
+        "Object": "Hành vi vi phạm pháp luật"
+    },
+    {
+        "Subject": "Hành vi vi phạm pháp luật",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Người giải quyết khiếu nại",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quyết định xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Quyết định xử lý vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Giải quyết khiếu nại"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử lý vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quy định của Luật này"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử lý vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quy định khác của pháp luật có liên quan"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "Xử lý kỷ luật"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "Truy cứu trách nhiệm hình sự"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "GIAI_QUYET",
+        "Object": "Xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Bộ Tư pháp",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Chính phủ"
+    },
+    {
+        "Subject": "Bộ Tư pháp",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "BAN_HANH",
+        "Object": "Văn bản quy phạm pháp luật"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan nhà nước",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Công tác thi hành pháp luật về xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan nhà nước",
+        "Predicate": "CAP_PHAT",
+        "Object": "Cơ sở dữ liệu quốc gia về xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Thanh tra việc thi hành pháp luật"
+    },
+    {
+        "Subject": "Thanh tra việc thi hành pháp luật",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "các bộ, ngành",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Bộ Tư pháp"
+    },
+    {
+        "Subject": "các bộ, ngành",
+        "Predicate": "CO_QUYEN",
+        "Object": "Bộ Tư pháp"
+    },
+    {
+        "Subject": "Tòa án nhân dân tối cao",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Bộ Tư pháp"
+    },
+    {
+        "Subject": "Tòa án nhân dân tối cao",
+        "Predicate": "CHUYEN_GIAO_CHO",
+        "Object": "Chính phủ"
+    },
+    {
+        "Subject": "Ủy ban nhân dân các cấp",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "Xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "GIAI_QUYET",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan nhà nước",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan nhà nước",
+        "Predicate": "GIAI_QUYET",
+        "Object": "Giải quyết khiếu nại, tố cáo"
+    },
+    {
+        "Subject": "Bộ Tư pháp",
+        "Predicate": "CAP_PHAT",
+        "Object": "Cơ sở dữ liệu quốc gia"
+    },
+    {
+        "Subject": "Bộ Tư pháp",
+        "Predicate": "YEU_CAU_CO",
+        "Object": "Xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan của người có thẩm quyền xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan quản lý cơ sở dữ liệu về xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Tòa án nhân dân",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cơ quan của người có thẩm quyền xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan thi hành quyết định xử phạt",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Cơ quan thi hành quyết định cưỡng chế"
+    },
+    {
+        "Subject": "Cơ quan thi hành quyết định cưỡng chế",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan tư pháp địa phương"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "BAN_HANH",
+        "Object": "Điều này"
+    },
+    {
+        "Subject": "Thủ trưởng cơ quan, đơn vị",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Trách nhiệm trong xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Thủ trưởng cơ quan, đơn vị",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Trách nhiệm xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi tham nhũng"
+    },
+    {
+        "Subject": "Cơ quan quản lý",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Người có sai phạm"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Khiếu nại, tố cáo"
+    },
+    {
+        "Subject": "Bộ trưởng",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "quyết định về xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Thủ trưởng cơ quan ngang bộ",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "quyết định về xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "Chủ tịch Ủy ban nhân dân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "quyết định về xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "thủ trưởng cơ quan, đơn vị có thẩm quyền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "quyết định về xử lý vi phạm hành chính"
+    },
+    {
+        "Subject": "mọi công dân",
+        "Predicate": "CO_QUYEN",
+        "Object": "cơ quan có thẩm quyền"
+    },
+    {
+        "Subject": "Quốc hội",
+        "Predicate": "GIAI_QUYET",
+        "Object": "cơ quan có thẩm quyền"
+    },
+    {
+        "Subject": "các cơ quan của Quốc hội",
+        "Predicate": "GIAI_QUYET",
+        "Object": "cơ quan có thẩm quyền"
+    },
+    {
+        "Subject": "Hội đồng nhân dân các cấp",
+        "Predicate": "GIAI_QUYET",
+        "Object": "cơ quan có thẩm quyền"
+    },
+    {
+        "Subject": "đại biểu Quốc hội",
+        "Predicate": "GIAI_QUYET",
+        "Object": "cơ quan có thẩm quyền"
+    },
+    {
+        "Subject": "đại biểu Hội đồng nhân dân",
+        "Predicate": "GIAI_QUYET",
+        "Object": "cơ quan có thẩm quyền"
+    },
+    {
+        "Subject": "Mặt trận Tổ quốc Việt Nam",
+        "Predicate": "GIAI_QUYET",
+        "Object": "cơ quan có thẩm quyền"
+    },
+    {
+        "Subject": "Công dân Việt Nam",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "cơ quan có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Tước quyền sử dụng",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Thời hạn"
+    },
+    {
+        "Subject": "Tang vật vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Phương tiện vi phạm hành chính"
+    },
+    {
+        "Subject": "Hình thức xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Điểm a và điểm b khoản 1"
+    },
+    {
+        "Subject": "Hình thức xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Điểm c, d và đ khoản 1"
+    },
+    {
+        "Subject": "Cá nhân vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hình thức xử phạt chính"
+    },
+    {
+        "Subject": "Cá nhân vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hình thức xử phạt bổ sung"
+    },
+    {
+        "Subject": "Hình thức xử phạt bổ sung",
+        "Predicate": "CO_QUYEN",
+        "Object": "Hình thức xử phạt chính"
+    },
+    {
+        "Subject": "Tổ chức vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hình thức xử phạt chính"
+    },
+    {
+        "Subject": "Tổ chức vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hình thức xử phạt bổ sung"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cảnh cáo"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cảnh cáo"
+    },
+    {
+        "Subject": "Người chưa thành niên",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cảnh cáo"
+    },
+    {
+        "Subject": "Mức phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Mức phạt tiền"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Mức phạt tiền"
+    },
+    {
+        "Subject": "Mức phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Trường hợp quy định tại khoản 3 Điều 24"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "BAN_HANH",
+        "Object": "Khung tiền phạt"
+    },
+    {
+        "Subject": "Khung tiền phạt",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Mức tiền phạt tối đa"
+    },
+    {
+        "Subject": "Khung tiền phạt",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Xác định số lần, tỷ lệ phần trăm",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hàng hóa, tang vật vi phạm"
+    },
+    {
+        "Subject": "Xác định số lần, tỷ lệ phần trăm",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Đối tượng bị vi phạm"
+    },
+    {
+        "Subject": "Xác định số lần, tỷ lệ phần trăm",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Doanh thu, số lợi thu được"
+    },
+    {
+        "Subject": "Hội đồng nhân dân thành phố trực thuộc trung ương",
+        "Predicate": "GIAI_QUYET",
+        "Object": "Khung tiền phạt"
+    },
+    {
+        "Subject": "Khung tiền phạt",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hành vi vi phạm"
+    },
+    {
+        "Subject": "Hành vi vi phạm hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "Tình tiết giảm nhẹ",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "Tình tiết tăng nặng",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Mức phạt tiền tối đa"
+    },
+    {
+        "Subject": "Mức phạt tiền tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quản lý nhà nước"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hôn nhân và gia đình"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bình đẳng giới"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bạo lực gia đình"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Lưu trữ"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Tôn giáo"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thi đua khen thưởng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hành chính tư pháp"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Dân số"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Vệ sinh môi trường"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thống kê"
+    },
+    {
+        "Subject": "Phạt tiền đến 40.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "An ninh trật tự"
+    },
+    {
+        "Subject": "Phạt tiền đến 40.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "An toàn xã hội"
+    },
+    {
+        "Subject": "Phạt tiền đến 40.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Phòng, chống tệ nạn xã hội"
+    },
+    {
+        "Subject": "Phạt tiền đến 40.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thi hành án dân sự"
+    },
+    {
+        "Subject": "Phạt tiền đến 40.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Phá sản doanh nghiệp, hợp tác xã"
+    },
+    {
+        "Subject": "Phạt tiền đến 40.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Giao thông đường bộ"
+    },
+    {
+        "Subject": "Phạt tiền đến 40.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Giao dịch điện tử"
+    },
+    {
+        "Subject": "Phạt tiền đến 40.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bưu chính"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Phòng cháy, chữa cháy"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Cơ yếu"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quản lý và bảo vệ biên giới quốc gia"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bổ trợ tư pháp"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Y tế dự phòng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Phòng, chống HIV/AIDS"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Giáo dục"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Văn hóa"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thể thao"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Du lịch"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quản lý khoa học, công nghệ"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Chuyển giao công nghệ"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bảo vệ, chăm sóc trẻ em"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bảo trợ, cứu trợ xã hội"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Phòng chống thiên tai"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bảo vệ và kiểm dịch thực vật"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quản lý và bảo tồn nguồn gen"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Sản xuất, kinh doanh giống vật nuôi, cây trồng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thú y"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Kế toán"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Kiểm toán độc lập"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Phí, lệ phí"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quản lý tài sản công"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hóa đơn"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Dự trữ quốc gia"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điện lực"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hóa chất"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Khí tượng thủy văn"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Đo đạc bản đồ"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Đăng ký kinh doanh"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quốc phòng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Lao động"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Dạy nghề"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Giao thông đường sắt"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Giao thông đường thủy nội địa"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bảo hiểm y tế"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Bảo hiểm xã hội"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "quản lý công trình thuỷ lợi"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "đê điều"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "khám bệnh, chữa bệnh"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "mỹ phẩm"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "dược"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "trang thiết bị y tế"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "sản xuất, kinh doanh thức ăn chăn nuôi"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "phân bón"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "quảng cáo"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "đặt cược và trò chơi có thưởng"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "quản lý lao động ngoài nước"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "giao thông hàng hải"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "giao thông hàng không dân dụng"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "quản lý và bảo vệ công trình giao thông"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "công nghệ thông tin"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "viễn thông"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "tần số vô tuyến điện"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "báo chí"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "xuất bản"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "thương mại"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "bảo vệ quyền lợi người tiêu dùng"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "hải quan, thủ tục thuế"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "kinh doanh xổ số"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "kinh doanh bảo hiểm"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "thực hành tiết kiệm, chống lãng phí"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "quản lý vật liệu nổ"
+    },
+    {
+        "Subject": "Phạt tiền đến 100.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "bảo vệ nguồn lợi thuỷ sản, hải sản"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quản lý giá"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Kinh doanh bất động sản"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Khai thác vật liệu xây dựng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quản lý công trình hạ tầng kỹ thuật"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Quản lý, phát triển nhà và công sở"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Đấu thầu"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Đầu tư"
+    },
+    {
+        "Subject": "Phạt tiền đến 200.000.000 đồng",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hàng cấm, hàng giả"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Nguồn tài nguyên nước"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "xây dựng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "quản lý rừng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "lâm sản"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "đất đai"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Vùng biển, đảo và thềm lục địa"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hạt nhân và chất phóng xạ"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Năng lượng nguyên tử"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Tiền tệ, kim loại quý, đá quý"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Ngân hàng và tín dụng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Dầu khí và khoáng sản"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Môi trường"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "TRU_TRUONG_HOP",
+        "Object": "Mức phạt tiền tối đa"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "TRU_TRUONG_HOP",
+        "Object": "Mức phạt tiền tối đa"
+    },
+    {
+        "Subject": "Mức phạt tiền tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "các lĩnh vực thuế"
+    },
+    {
+        "Subject": "Mức phạt tiền tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "đo lường"
+    },
+    {
+        "Subject": "Mức phạt tiền tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "sở hữu trí tuệ"
+    },
+    {
+        "Subject": "Mức phạt tiền tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "an toàn thực phẩm"
+    },
+    {
+        "Subject": "Mức phạt tiền tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "chất lượng sản phẩm, hàng hóa"
+    },
+    {
+        "Subject": "Mức phạt tiền tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "chứng khoán"
+    },
+    {
+        "Subject": "Mức phạt tiền tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "hạn chế cạnh tranh"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CAP_PHAT",
+        "Object": "Mức phạt tiền tối đa"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "YEU_CAU_CO",
+        "Object": "Ủy ban thường vụ Quốc hội"
+    },
+    {
+        "Subject": "Tước quyền sử dụng",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giấy phép"
+    },
+    {
+        "Subject": "Tước quyền sử dụng",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giấy phép"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Giấy phép, chứng chỉ hành nghề",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cá nhân"
+    },
+    {
+        "Subject": "Giấy phép, chứng chỉ hành nghề",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổ chức"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động có thời hạn",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cá nhân"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động có thời hạn",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tổ chức"
+    },
+    {
+        "Subject": "Cơ sở sản xuất, kinh doanh, dịch vụ",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Giấy phép"
+    },
+    {
+        "Subject": "Đình chỉ một phần hoạt động",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Cơ sở sản xuất, kinh doanh, dịch vụ"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động sản xuất, kinh doanh",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tính mạng, sức khỏe con người"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động sản xuất, kinh doanh",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Môi trường"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động sản xuất, kinh doanh",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Trật tự, an toàn xã hội"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "SO_HUU_SU_DUNG",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Thời hạn tước quyền sử dụng giấy phép, chứng chỉ hành nghề",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Ngân sách nhà nước"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tang vật, phương tiện vi phạm hành chính"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tang vật, phương tiện vi phạm hành chính"
+    },
+    {
+        "Subject": "Trục xuất",
+        "Predicate": "CO_QUYEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Trục xuất",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Lãnh thổ nước Cộng hoà xã hội chủ nghĩa Việt Nam"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "BAN_HANH",
+        "Object": "Hình thức xử phạt trục xuất"
+    },
+    {
+        "Subject": "Công trình xây dựng",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tháo dỡ công trình"
+    },
+    {
+        "Subject": "Biện pháp khắc phục tình trạng ô nhiễm môi trường",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biện pháp khắc phục lây lan dịch bệnh"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hàng hoá, vật phẩm, phương tiện"
+    },
+    {
+        "Subject": "Yếu tố vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hàng hoá"
+    },
+    {
+        "Subject": "Yếu tố vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Bao bì hàng hóa"
+    },
+    {
+        "Subject": "Yếu tố vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Phương tiện kinh doanh"
+    },
+    {
+        "Subject": "Yếu tố vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Vật phẩm"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Số lợi bất hợp pháp"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Số tiền trị giá tang vật"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "BAN_HANH",
+        "Object": "Các biện pháp khắc phục hậu quả"
+    },
+    {
+        "Subject": "Cá nhân vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hình thức xử phạt"
+    },
+    {
+        "Subject": "Cá nhân vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biện pháp khắc phục hậu quả"
+    },
+    {
+        "Subject": "Tổ chức vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hình thức xử phạt"
+    },
+    {
+        "Subject": "Tổ chức vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biện pháp khắc phục hậu quả"
+    },
+    {
+        "Subject": "Biện pháp khắc phục hậu quả",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Khoản 2 Điều 65"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Khôi phục lại tình trạng ban đầu"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Khôi phục lại tình trạng ban đầu"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Khôi phục lại tình trạng ban đầu"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Công trình xây dựng"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Công trình xây dựng"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Công trình xây dựng"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tình trạng ô nhiễm môi trường"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Lây lan dịch bệnh"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "Cưỡng chế thực hiện"
+    },
+    {
+        "Subject": "Cá nhân, tổ chức vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hàng hoá, vật phẩm, phương tiện"
+    },
+    {
+        "Subject": "Cơ quan nhà nước",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Cá nhân, tổ chức vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hàng hóa, vật phẩm gây hại"
+    },
+    {
+        "Subject": "Tổ chức vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hàng hóa, vật phẩm gây hại"
+    },
+    {
+        "Subject": "Cá nhân vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hàng hóa, vật phẩm gây hại"
+    },
+    {
+        "Subject": "Tổ chức vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hàng hóa, vật phẩm gây hại"
+    },
+    {
+        "Subject": "Cá nhân vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cải chính thông tin sai sự thật"
+    },
+    {
+        "Subject": "Tổ chức vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cải chính thông tin sai sự thật"
+    },
+    {
+        "Subject": "cơ quan có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Cải chính thông tin sai sự thật"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hàng hóa"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Bao bì hàng hóa"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Phương tiện kinh doanh"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hàng hóa"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Bao bì hàng hóa"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Phương tiện kinh doanh"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hàng hóa"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hàng hóa"
+    },
+    {
+        "Subject": "Cá nhân, tổ chức sản xuất, kinh doanh",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Sản phẩm, hàng hóa không bảo đảm chất lượng"
+    },
+    {
+        "Subject": "Cá nhân vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Số lợi bất hợp pháp"
+    },
+    {
+        "Subject": "Cá nhân vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tang vật, phương tiện vi phạm"
+    },
+    {
+        "Subject": "Số lợi bất hợp pháp",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Ngân sách nhà nước"
+    },
+    {
+        "Subject": "Cá nhân vi phạm",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Tổ chức vi phạm",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Thẩm quyền xử phạt vi phạm hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Thẩm quyền xử phạt vi phạm hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Biện pháp khắc phục hậu quả"
+    },
+    {
+        "Subject": "Chủ tịch Uỷ ban nhân dân cấp xã",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Điều 24 của Luật"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "CO_QUYEN",
+        "Object": "5.000.000 đồng"
+    },
+    {
+        "Subject": "Tịch thu tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Mức xử phạt tiền"
+    },
+    {
+        "Subject": "biện pháp khắc phục hậu quả",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 28 của Luật này"
+    },
+    {
+        "Subject": "Chủ tịch Uỷ ban nhân dân cấp huyện",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "50.000.000 đồng"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Thời hạn"
+    },
+    {
+        "Subject": "Tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "Biện pháp khắc phục hậu quả",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 28 của Luật này"
+    },
+    {
+        "Subject": "Chủ tịch Uỷ ban nhân dân cấp tỉnh",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 24 của Luật này"
+    },
+    {
+        "Subject": "Giấy phép, chứng chỉ hành nghề",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Thời hạn"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tang vật, phương tiện"
+    },
+    {
+        "Subject": "Biện pháp khắc phục hậu quả",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 28"
+    },
+    {
+        "Subject": "Chiến sĩ Công an nhân dân",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Mức tiền phạt tối đa"
+    },
+    {
+        "Subject": "Mức tiền phạt tối đa",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "500.000 đồng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Lĩnh vực tương ứng"
+    },
+    {
+        "Subject": "Trạm trưởng",
+        "Predicate": "CO_QUYEN",
+        "Object": "Người được quy định"
+    },
+    {
+        "Subject": "Đội trưởng",
+        "Predicate": "CO_QUYEN",
+        "Object": "Người được quy định"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 24 của Luật"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "CHI_AP_DUNG_KHI",
+        "Object": "1.500.000 đồng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Mức tiền phạt tối đa"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "2.500.000 đồng"
+    },
+    {
+        "Subject": "Mức tiền phạt tối đa",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Lĩnh vực tương ứng"
+    },
+    {
+        "Subject": "Tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "25.000.000 đồng"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Tước quyền sử dụng"
+    },
+    {
+        "Subject": "Tịch thu tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "CHI_AP_DUNG_KHI",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "Giám đốc Công an cấp tỉnh",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Hình thức xử phạt trục xuất"
+    },
+    {
+        "Subject": "Điều 28 của Luật này",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Biện pháp khắc phục hậu quả"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục An ninh kinh tế"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục An ninh văn hóa, tư tưởng"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục An ninh thông tin"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát quản lý hành chính về trật tự xã hội"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát điều tra tội phạm về trật tự xã hội"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát điều tra tội phạm về trật tự quản lý kinh tế và chức vụ"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát điều tra tội phạm về ma tuý"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát giao thông đường bộ, đường sắt"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát đường thủy"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát phòng cháy, chữa cháy và cứu hộ, cứu nạn"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát bảo vệ"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Theo dõi thi hành án hình sự và hỗ trợ tư pháp"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát phòng chống tội phạm về môi trường"
+    },
+    {
+        "Subject": "Cục An ninh chính trị nội bộ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát phòng, chống tội phạm sử dụng công nghệ cao"
+    },
+    {
+        "Subject": "Giấy phép, chứng chỉ hành nghề",
+        "Predicate": "TRU_TRUONG_HOP",
+        "Object": "Thời hạn"
+    },
+    {
+        "Subject": "Cục Quản lý xuất nhập cảnh",
+        "Predicate": "CO_QUYEN",
+        "Object": "Hình thức xử phạt trục xuất"
+    },
+    {
+        "Subject": "Chiến sĩ Bộ đội biên phòng",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền thi hành công vụ"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "500.000 đồng"
+    },
+    {
+        "Subject": "Mức tiền phạt tối đa",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "2.500.000 đồng"
+    },
+    {
+        "Subject": "Mức tiền phạt tối đa",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Lĩnh vực tương ứng"
+    },
+    {
+        "Subject": "Tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 24"
+    },
+    {
+        "Subject": "Tang vật",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Phương tiện vi phạm"
+    },
+    {
+        "Subject": "Cảnh sát viên Cảnh sát biển",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền thi hành công vụ"
+    },
+    {
+        "Subject": "Mức tiền phạt tối đa",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "1.500.000 đồng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Lĩnh vực tương ứng"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổ nghiệp vụ Cảnh sát biển"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "10.000.000 đồng"
+    },
+    {
+        "Subject": "Hải đội trưởng Hải đội Cảnh sát biển",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Hải đoàn trưởng Hải đoàn Cảnh sát biển",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "50.000.000 đồng"
+    },
+    {
+        "Subject": "Chỉ huy trưởng Vùng Cảnh sát biển",
+        "Predicate": "CO_QUYEN",
+        "Object": "[Cơ_quan_có_thẩm_quyền]"
+    },
+    {
+        "Subject": "Mức tiền phạt tối đa",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "100.000.000 đồng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 24 của Luật"
+    },
+    {
+        "Subject": "Tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Cảnh sát biển"
+    },
+    {
+        "Subject": "Công chức Hải quan",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền thi hành công vụ"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "500.000 đồng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "5.000.000 đồng"
+    },
+    {
+        "Subject": "Chi cục Hải quan",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Hải quan"
+    },
+    {
+        "Subject": "Đội kiểm soát thuộc Cục Hải quan",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Hải quan"
+    },
+    {
+        "Subject": "Đội kiểm soát chống buôn lậu",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Hải quan"
+    },
+    {
+        "Subject": "Đội thủ tục Hải quan",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Hải quan"
+    },
+    {
+        "Subject": "Hải đội kiểm soát trên biển",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Hải quan"
+    },
+    {
+        "Subject": "Đội kiểm soát bảo vệ quyền sở hữu trí tuệ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Hải quan"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "25.000.000 đồng"
+    },
+    {
+        "Subject": "Tịch thu tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "50.000.000 đồng"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Hải quan"
+    },
+    {
+        "Subject": "Kiểm lâm viên",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền thi hành công vụ"
+    },
+    {
+        "Subject": "Trạm trưởng Trạm Kiểm lâm",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "10.000.000 đồng"
+    },
+    {
+        "Subject": "Tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "Hạt trưởng Hạt Kiểm lâm",
+        "Predicate": "CO_QUYEN",
+        "Object": "Đội Kiểm lâm cơ động và phòng cháy, chữa cháy rừng"
+    },
+    {
+        "Subject": "Chi cục trưởng Chi cục Kiểm lâm",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Kiểm lâm"
+    },
+    {
+        "Subject": "Đội trưởng Đội Kiểm lâm đặc nhiệm",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Kiểm lâm"
+    },
+    {
+        "Subject": "Tước quyền sử dụng",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Đình chỉ hoạt động"
+    },
+    {
+        "Subject": "Cục Kiểm lâm",
+        "Predicate": "CO_QUYEN",
+        "Object": "[Chủ_thể_ngầm_định]"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Lĩnh vực quản lý rừng, lâm sản"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Điều 24 của Luật"
+    },
+    {
+        "Subject": "Công chức Thuế",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền thi hành công vụ"
+    },
+    {
+        "Subject": "Đội trưởng Đội Thuế",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "2.500.000 đồng"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chi cục Thuế"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Thuế"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "70.000.000 đồng"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Thuế"
+    },
+    {
+        "Subject": "Kiểm soát viên thị trường",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "Đội Quản lý thị trường"
+    },
+    {
+        "Subject": "Chi cục Quản lý thị trường",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Quản lý thị trường"
+    },
+    {
+        "Subject": "Trưởng phòng chống buôn lậu",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chi cục Quản lý thị trường"
+    },
+    {
+        "Subject": "Trưởng phòng chống hàng giả",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chi cục Quản lý thị trường"
+    },
+    {
+        "Subject": "Trưởng phòng kiểm soát chất lượng hàng hóa",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chi cục Quản lý thị trường"
+    },
+    {
+        "Subject": "Trưởng phòng chống buôn lậu",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Quản lý thị trường"
+    },
+    {
+        "Subject": "Trưởng phòng chống hàng giả",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Quản lý thị trường"
+    },
+    {
+        "Subject": "Trưởng phòng kiểm soát chất lượng hàng hóa",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Quản lý thị trường"
+    },
+    {
+        "Subject": "Tịch thu tang vật, phương tiện vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Giá trị không vượt quá mức tiền phạt"
+    },
+    {
+        "Subject": "Tước quyền sử dụng",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Giấy phép, chứng chỉ hành nghề"
+    },
+    {
+        "Subject": "Giấy phép, chứng chỉ hành nghề",
+        "Predicate": "THU_HOI",
+        "Object": "Thời hạn"
+    },
+    {
+        "Subject": "Cục Quản lý thị trường",
+        "Predicate": "CO_QUYEN",
+        "Object": "[Chủ_thể_ngầm_định]"
+    },
+    {
+        "Subject": "Biện pháp khắc phục hậu quả",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 28 của Luật"
+    },
+    {
+        "Subject": "Chánh Thanh tra sở",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chánh Thanh tra Cục Hàng không"
+    },
+    {
+        "Subject": "Chánh Thanh tra sở",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chánh Thanh tra Cục Hàng hải"
+    },
+    {
+        "Subject": "Chánh Thanh tra sở",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chánh thanh tra Cục An toàn bức xạ và hạt nhân"
+    },
+    {
+        "Subject": "Chánh Thanh tra sở",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chánh thanh tra Ủy ban chứng khoán Nhà nước"
+    },
+    {
+        "Subject": "Chánh Thanh tra sở",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chi cục trưởng Chi cục An toàn vệ sinh thực phẩm"
+    },
+    {
+        "Subject": "Chánh Thanh tra sở",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chi cục trưởng Chi cục Dân số - Kế hoạch hóa gia đình"
+    },
+    {
+        "Subject": "Chánh Thanh tra sở",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chi cục trưởng Chi cục bảo vệ thực vật"
+    },
+    {
+        "Subject": "Chánh Thanh tra sở",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giám đốc Trung tâm Tần số khu vực"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục trưởng Cục Dự trữ Nhà nước khu vực"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục trưởng Cục Thống kê"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục trưởng Cục kiểm soát ô nhiễm"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giám đốc Kho bạc Nhà nước tỉnh"
+    },
+    {
+        "Subject": "Chánh Thanh tra bộ",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Đường bộ Việt Nam",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Thống kê",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Tiêu chuẩn đo lường chất lượng",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Dạy nghề",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Thủy lợi",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Lâm nghiệp",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Thủy sản",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Địa chất và Khoáng sản",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Môi trường",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Quản lý đất đai",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Giám đốc Kho bạc Nhà nước",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Chủ tịch Ủy ban chứng khoán Nhà nước",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Dự trữ Nhà nước",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Tổng cục trưởng Tổng cục Dân số - Kế hoạch hóa gia đình",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Chủ nhiệm Ủy ban Nhà nước về người Việt Nam ở nước ngoài",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Trưởng Ban Thi đua - Khen thưởng Trung ương",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Trưởng Ban Tôn giáo Chính phủ",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Hóa chất",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Kỹ thuật an toàn và môi trường công nghiệp",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Đường sắt Việt Nam",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Đường thủy nội địa Việt Nam",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Hàng hải Việt Nam",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Hàng không Việt Nam",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục An toàn bức xạ và hạt nhân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Thú y",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Bảo vệ thực vật",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Trồng trọt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Chăn nuôi",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Quản lý chất lượng nông lâm sản và thủy sản",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Kinh tế hợp tác và phát triển nông thôn",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Chế biến, thương mại nông lâm thủy sản và nghề muối",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Quản lý, giám sát bảo hiểm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Tần số vô tuyến điện",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Viễn thông",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Quản lý phát thanh, truyền hình và thông tin điện tử",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Báo chí",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Xuất bản",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Quản lý dược",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Quản lý khám, chữa bệnh",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Quản lý môi trường y tế",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục Y tế dự phòng",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Cục trưởng Cục An toàn vệ sinh thực phẩm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan ngang bộ"
+    },
+    {
+        "Subject": "Trưởng đoàn thanh tra chuyên ngành cấp bộ",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan quản lý nhà nước"
+    },
+    {
+        "Subject": "Trưởng đoàn thanh tra chuyên ngành cấp sở",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan quản lý nhà nước"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "CAP_PHAT",
+        "Object": "10.000.000 đồng"
+    },
+    {
+        "Subject": "Giám đốc Cảng vụ hàng hải",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Đường thủy nội địa Việt Nam"
+    },
+    {
+        "Subject": "Giám đốc Cảng vụ hàng không",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Đường thủy nội địa Việt Nam"
+    },
+    {
+        "Subject": "Giám đốc Cảng vụ đường thuỷ nội địa",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cục Đường thủy nội địa Việt Nam"
+    },
+    {
+        "Subject": "Thẩm phán chủ tọa phiên toà",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "1.000.000 đồng"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "7.500.000 đồng"
+    },
+    {
+        "Subject": "Chấp hành viên",
+        "Predicate": "CO_QUYEN",
+        "Object": "Thi hành công vụ"
+    },
+    {
+        "Subject": "Chi Cục trưởng Chi cục Thi hành án dân sự",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền"
+    },
+    {
+        "Subject": "biện pháp khắc phục hậu quả",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 28 của Luật"
+    },
+    {
+        "Subject": "Cục Thi hành án dân sự",
+        "Predicate": "CO_QUYEN",
+        "Object": "Trưởng phòng Phòng Thi hành án cấp quân khu"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "CAP_PHAT",
+        "Object": "20.000.000 đồng"
+    },
+    {
+        "Subject": "[Chủ_thể_ngầm_định]",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổng cục Thi hành án dân sự"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Điều 24 của Luật thi hành án dân sự"
+    },
+    {
+        "Subject": "Phạt tiền",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "lĩnh vực quản lý lao động ngoài nước"
+    },
+    {
+        "Subject": "Tước quyền sử dụng",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giấy phép"
+    },
+    {
+        "Subject": "Đình chỉ hoạt động",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giấy phép"
+    },
+    {
+        "Subject": "Thẩm quyền xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cá nhân"
+    },
+    {
+        "Subject": "Thẩm quyền xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tổ chức"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "CAP_PHAT",
+        "Object": "Thẩm quyền xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Hội đồng nhân dân thành phố",
+        "Predicate": "CAP_PHAT",
+        "Object": "Thẩm quyền xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Thẩm quyền phạt tiền",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Mức tối đa của khung tiền phạt"
+    },
+    {
+        "Subject": "Mức tối đa của khung tiền phạt",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Hành vi vi phạm"
+    },
+    {
+        "Subject": "Chủ tịch Uỷ ban nhân dân các cấp",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Thẩm quyền xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Chủ tịch Uỷ ban nhân dân các cấp"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "TRU_TRUONG_HOP",
+        "Object": "Chủ tịch Uỷ ban nhân dân các cấp"
+    },
+    {
+        "Subject": "Thẩm quyền xử phạt vi phạm hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "Người thực hiện nhiều hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Người xử phạt vi phạm hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "Thẩm quyền xử phạt"
+    },
+    {
+        "Subject": "Hành vi vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cấp có thẩm quyền"
+    },
+    {
+        "Subject": "Chủ tịch Uỷ ban nhân dân",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "CHUYEN_GIAO_CHO",
+        "Object": "Cấp phó"
+    },
+    {
+        "Subject": "Thẩm quyền xử phạt",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Quyền xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giao quyền xử phạt"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quyền xử phạt"
+    },
+    {
+        "Subject": "Cấp phó",
+        "Predicate": "CO_QUYEN",
+        "Object": "Quyền xử phạt"
+    },
+    {
+        "Subject": "Cấp phó",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cấp trưởng"
+    },
+    {
+        "Subject": "Thủ tục xử phạt",
+        "Predicate": "GIAI_QUYET",
+        "Object": "Quyết định xử phạt"
+    },
+    {
+        "Subject": "Quyết định xử phạt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cưỡng chế thi hành quyết định xử phạt"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Xử phạt",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Xử phạt cảnh cáo hoặc phạt tiền"
+    },
+    {
+        "Subject": "Xử phạt cảnh cáo hoặc phạt tiền",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "250.000 đồng"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Biên bản"
+    },
+    {
+        "Subject": "Quyết định xử phạt vi phạm hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "Cá nhân vi phạm"
+    },
+    {
+        "Subject": "Quyết định xử phạt vi phạm hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "Tổ chức vi phạm"
+    },
+    {
+        "Subject": "Quyết định xử phạt vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hành vi vi phạm"
+    },
+    {
+        "Subject": "Quyết định xử phạt vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Chứng cứ"
+    },
+    {
+        "Subject": "Quyết định xử phạt vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Người ra quyết định xử phạt"
+    },
+    {
+        "Subject": "Quyết định xử phạt vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Điều khoản văn bản pháp luật"
+    },
+    {
+        "Subject": "Quyết định xử phạt vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Mức tiền phạt"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Biên bản xử phạt"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hồ sơ xử phạt"
+    },
+    {
+        "Subject": "Xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cá nhân vi phạm hành chính"
+    },
+    {
+        "Subject": "Xử phạt vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tổ chức vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hồ sơ xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Hồ sơ xử phạt vi phạm hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "Biên bản vi phạm hành chính"
+    },
+    {
+        "Subject": "Hồ sơ xử phạt vi phạm hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "Quyết định xử phạt hành chính"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Lập biên bản"
+    },
+    {
+        "Subject": "vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Tàu bay, tàu biển, tàu hỏa"
+    },
+    {
+        "Subject": "Tàu bay, tàu biển, tàu hỏa",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Lập biên bản"
+    },
+    {
+        "Subject": "Người vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biên bản vi phạm hành chính"
+    },
+    {
+        "Subject": "Tổ chức vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biên bản vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan tiếp nhận giải trình",
+        "Predicate": "YEU_CAU_CO",
+        "Object": "Biên bản vi phạm hành chính"
+    },
+    {
+        "Subject": "Người lập biên bản",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Người vi phạm"
+    },
+    {
+        "Subject": "Đại diện tổ chức vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biên bản vi phạm hành chính"
+    },
+    {
+        "Subject": "Người chứng kiến",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biên bản vi phạm hành chính"
+    },
+    {
+        "Subject": "Người bị thiệt hại",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biên bản vi phạm hành chính"
+    },
+    {
+        "Subject": "Đại diện tổ chức bị thiệt hại",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Biên bản vi phạm hành chính"
+    },
+    {
+        "Subject": "Biên bản vi phạm hành chính",
+        "Predicate": "CAP_PHAT",
+        "Object": "Người vi phạm"
+    },
+    {
+        "Subject": "Biên bản vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Người lập biên bản"
+    },
+    {
+        "Subject": "Biên bản vi phạm hành chính",
+        "Predicate": "CAP_PHAT",
+        "Object": "Cha mẹ hoặc người giám hộ"
+    },
+    {
+        "Subject": "Xác minh tình tiết",
+        "Predicate": "GIAI_QUYET",
+        "Object": "Vụ việc vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Tổ chức",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hành vi vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Trưng cầu giám định"
+    },
+    {
+        "Subject": "Vụ việc vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Văn bản"
+    },
+    {
+        "Subject": "Giá trị tang vật vi phạm hành chính",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "[Cơ_quan_có_thẩm_quyền]"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giá trị tang vật vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "BI_XU_LY_BANG",
+        "Object": "Giá trị tang vật vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan tài chính địa phương",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Giá thị trường"
+    },
+    {
+        "Subject": "Tang vật hàng giả",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hàng hoá thật"
+    },
+    {
+        "Subject": "Tang vật hàng giả",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "Hàng hoá cùng tính năng"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Tang vật vi phạm hành chính"
+    },
+    {
+        "Subject": "Hội đồng định giá",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Người có thẩm quyền"
+    },
+    {
+        "Subject": "Hội đồng định giá",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Cơ quan tài chính"
+    },
+    {
+        "Subject": "Hội đồng định giá",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Cơ quan chuyên môn"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "CAP_PHAT",
+        "Object": "Tang vật vi phạm hành chính"
+    },
+    {
+        "Subject": "Tang vật vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hồ sơ xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Cá nhân vi phạm",
+        "Predicate": "CO_QUYEN",
+        "Object": "Người có thẩm quyền xử phạt"
+    },
+    {
+        "Subject": "Tổ chức vi phạm",
+        "Predicate": "CO_QUYEN",
+        "Object": "Người có thẩm quyền xử phạt"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cá nhân vi phạm"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tổ chức vi phạm"
+    },
+    {
+        "Subject": "Cá nhân vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giải trình bằng văn bản"
+    },
+    {
+        "Subject": "Tổ chức vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Giải trình bằng văn bản"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giải trình bằng văn bản"
+    },
+    {
+        "Subject": "Cá nhân vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Giải trình bằng văn bản"
+    },
+    {
+        "Subject": "Tổ chức vi phạm hành chính",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Giải trình bằng văn bản"
+    },
+    {
+        "Subject": "Cá nhân vi phạm hành chính",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Người có thẩm quyền xử phạt"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giải trình trực tiếp"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Giải trình trực tiếp"
+    },
+    {
+        "Subject": "Cá nhân vi phạm hành chính",
+        "Predicate": "CO_QUYEN",
+        "Object": "Giải trình trực tiếp"
+    },
+    {
+        "Subject": "Giải trình trực tiếp",
+        "Predicate": "CAP_PHAT",
+        "Object": "Biên bản giải trình"
+    },
+    {
+        "Subject": "Chuyển hồ sơ vụ vi phạm",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Truy cứu trách nhiệm hình sự"
+    },
+    {
+        "Subject": "Vụ vi phạm có dấu hiệu tội phạm",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Chuyển hồ sơ vụ vi phạm"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan tiến hành tố tụng hình sự"
+    },
+    {
+        "Subject": "Người ra quyết định xử phạt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Quyết định xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Người ra quyết định xử phạt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cơ quan tiến hành tố tụng hình sự"
+    },
+    {
+        "Subject": "Cơ quan tiến hành tố tụng hình sự",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Hồ sơ vụ việc"
+    },
+    {
+        "Subject": "Cơ quan tiến hành tố tụng hình sự",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Người có thẩm quyền"
+    },
+    {
+        "Subject": "Người có thẩm quyền",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Tang vật, phương tiện vi phạm hành chính"
+    },
+    {
+        "Subject": "Cơ quan tiến hành tố tụng hình sự",
+        "Predicate": "CO_QUYEN",
+        "Object": "Người có thẩm quyền"
+    },
+    {
+        "Subject": "Chuyển hồ sơ vụ vi phạm",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Cá nhân vi phạm"
+    },
+    {
+        "Subject": "[Cơ_quan_có_thẩm_quyền]",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Hồ sơ vụ vi phạm"
+    },
+    {
+        "Subject": "Cơ quan tiến hành tố tụng hình sự",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Người có thẩm quyền xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Hành vi vi phạm hành chính",
+        "Predicate": "LIEN_QUAN_DEN",
+        "Object": "Cơ quan tiến hành tố tụng hình sự"
+    },
+    {
+        "Subject": "Cơ quan tiến hành tố tụng hình sự",
+        "Predicate": "CAN_CU_VAO",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Người có thẩm quyền xử phạt",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "Thời hạn ra quyết định xử phạt vi phạm hành chính",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "Thời hạn tối đa không quá 45 ngày"
+    },
+    {
+        "Subject": "Phương tiện, thiết bị kỹ thuật nghiệp vụ",
+        "Predicate": "AP_DUNG_CHO",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "cơ quan có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "vi phạm hành chính"
+    },
+    {
+        "Subject": "cơ quan có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Trật tự, an toàn giao thông"
+    },
+    {
+        "Subject": "cơ quan có thẩm quyền",
+        "Predicate": "THUC_HIEN_HANH_VI",
+        "Object": "Bảo vệ môi trường"
+    },
+    {
+        "Subject": "Công dân",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền tự do, danh dự, nhân phẩm, bí mật đời tư"
+    },
+    {
+        "Subject": "các tổ chức",
+        "Predicate": "CO_QUYEN",
+        "Object": "quyền tự do, danh dự, nhân phẩm, bí mật đời tư"
+    },
+    {
+        "Subject": "Phương tiện, thiết bị kỹ thuật nghiệp vụ",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "Văn bản ghi nhận"
+    },
+    {
+        "Subject": "Văn bản ghi nhận",
+        "Predicate": "CO_QUYEN",
+        "Object": "Xử phạt vi phạm hành chính"
+    },
+    {
+        "Subject": "Phương tiện, thiết bị kỹ thuật nghiệp vụ",
+        "Predicate": "PHAI_THUC_HIEN",
+        "Object": "cơ quan có thẩm quyền"
+    },
+    {
+        "Subject": "Chính phủ",
+        "Predicate": "BAN_HANH",
+        "Object": "Phương tiện, thiết bị kỹ thuật nghiệp vụ"
+    }
+]

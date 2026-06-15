@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 1. Load dữ liệu từ file JSON
-with open("./version_3/2_final_graph.json", "r", encoding="utf-8") as file:
+with open("./version_3/2_entities_per_chunk.json", "r", encoding="utf-8") as file:
     json_data = json.load(file)
 
 # --- XỬ LÝ DATA TRONG PYTHON TRƯỚC ---
@@ -24,15 +24,16 @@ print(f"Tổng số Rels cần import: {len(all_relationships)}")
 # 2. Câu lệnh Cypher tách biệt
 cypher_import_nodes = """
 UNWIND $batch_data AS node
-MERGE (n:Entity {id: node.id})
+MERGE (n:$(node.label) {id: node.id})
 SET n.name = node.name,
+    n.aliases = node.aliases,
     n.listSectionId = node.listSectionId
 """
 
 cypher_import_rels = """
 UNWIND $batch_data AS rel
-MATCH (src:Entity {id: rel.source})
-MATCH (tgt:Entity {id: rel.target})
+MATCH (src {id: rel.source})
+MATCH (tgt {id: rel.target})
 CALL apoc.merge.relationship(
   src,
   rel.name,
@@ -77,7 +78,9 @@ with GraphDatabase.driver(URI, auth=AUTH) as driver:
     with driver.session() as session:
         # Bước cực kỳ quan trọng: Tạo Constraint/Index để MATCH node siêu tốc
         print("Thiết lập Constraint/Index...")
-        session.run("CREATE CONSTRAINT IF NOT EXISTS FOR (n:Entity) REQUIRE n.id IS UNIQUE")
+        unique_labels = set(node.get("label") for node in all_nodes if node.get("label"))
+        for lbl in unique_labels:
+            session.run(f"CREATE CONSTRAINT IF NOT EXISTS FOR (n:{lbl}) REQUIRE n.id IS UNIQUE")
 
     print("\n--- BẮT ĐẦU IMPORT NODES ---")
     # Batch size cho Node có thể để lớn vì nó nhẹ (5000)
