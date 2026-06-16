@@ -121,6 +121,6 @@ def parse_pdf(pdf_path, output_path):
     print(f"Saved to {output_path}")
 
 if __name__ == "__main__":
-    parse_pdf('input/15_vphc.pdf', 'output/1_sections_vphc.json')
+    parse_pdf('input/dat_dai_2.pdf', 'output/1_sections_dat_dai_2.json')
         # parse_pdf('input/dat_dai_1.pdf', 'output/1_sections_dat_dai_1.json')
 
