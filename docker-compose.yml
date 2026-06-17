@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  mongodb-local:
+    image: mongodb/mongodb-atlas-local:latest
+    container_name: mongodb_knowledge_graph
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGODB_INITDB_ROOT_USERNAME=${MONGODB_INITDB_ROOT_USERNAME}
+      - MONGODB_INITDB_ROOT_PASSWORD=${MONGODB_INITDB_ROOT_PASSWORD}
+    volumes:
+      - mongo_data:/data/db
+      - mongo_search:/data/mongot
+    restart: unless-stopped
+
+volumes:
+  mongo_data:
+  mongo_search:

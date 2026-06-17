@@ -1,0 +1,1380 @@
+[
+    {
+        "nodes": [
+            {
+                "id": "N007",
+                "name": "nhà nước",
+                "listSectionId": [
+                    "s10",
+                    "s11",
+                    "s118",
+                    "s12",
+                    "s121",
+                    "s122",
+                    "s123",
+                    "s124",
+                    "s125",
+                    "s126",
+                    "s127",
+                    "s128",
+                    "s129",
+                    "s130",
+                    "s131",
+                    "s132",
+                    "s133",
+                    "s134",
+                    "s135",
+                    "s136",
+                    "s137",
+                    "s138",
+                    "s139",
+                    "s14",
+                    "s140",
+                    "s141",
+                    "s142",
+                    "s143",
+                    "s144",
+                    "s145",
+                    "s146",
+                    "s147",
+                    "s148",
+                    "s149",
+                    "s154",
+                    "s155",
+                    "s156",
+                    "s157",
+                    "s158",
+                    "s159",
+                    "s160",
+                    "s177",
+                    "s186",
+                    "s192",
+                    "s199",
+                    "s2",
+                    "s217",
+                    "s218",
+                    "s219",
+                    "s221",
+                    "s238",
+                    "s239",
+                    "s248",
+                    "s249",
+                    "s250",
+                    "s257",
+                    "s258",
+                    "s259",
+                    "s260",
+                    "s263",
+                    "s266",
+                    "s267",
+                    "s268",
+                    "s269",
+                    "s272",
+                    "s273",
+                    "s275",
+                    "s276",
+                    "s279",
+                    "s281",
+                    "s282",
+                    "s287",
+                    "s288",
+                    "s29",
+                    "s290",
+                    "s295",
+                    "s298",
+                    "s306",
+                    "s308",
+                    "s312",
+                    "s318",
+                    "s319",
+                    "s320",
+                    "s321",
+                    "s322",
+                    "s325",
+                    "s331",
+                    "s332",
+                    "s333",
+                    "s334",
+                    "s335",
+                    "s336",
+                    "s34",
+                    "s342",
+                    "s350",
+                    "s356",
+                    "s37",
+                    "s372",
+                    "s375",
+                    "s376",
+                    "s378",
+                    "s38",
+                    "s380",
+                    "s39",
+                    "s395",
+                    "s396",
+                    "s40",
+                    "s42",
+                    "s44",
+                    "s441",
+                    "s46",
+                    "s49",
+                    "s50",
+                    "s57",
+                    "s58",
+                    "s59",
+                    "s61",
+                    "s652",
+                    "s662",
+                    "s666",
+                    "s667",
+                    "s669",
+                    "s670",
+                    "s671",
+                    "s674",
+                    "s678",
+                    "s679",
+                    "s680",
+                    "s689",
+                    "s690",
+                    "s693",
+                    "s694",
+                    "s695",
+                    "s697",
+                    "s700",
+                    "s702",
+                    "s798"
+                ]
+            },
+            {
+                "id": "N018",
+                "name": "quản lý nhà nước",
+                "listSectionId": [
+                    "s111",
+                    "s172",
+                    "s176",
+                    "s178",
+                    "s180",
+                    "s183",
+                    "s187",
+                    "s189",
+                    "s3",
+                    "s402",
+                    "s445"
+                ]
+            },
+            {
+                "id": "N154",
+                "name": "người gốc Việt Nam định cư ở nước ngoài",
+                "listSectionId": [
+                    "s322",
+                    "s340",
+                    "s341",
+                    "s342",
+                    "s343",
+                    "s344",
+                    "s345",
+                    "s346",
+                    "s347",
+                    "s348",
+                    "s61"
+                ]
+            },
+            {
+                "id": "N139",
+                "name": "tranh chấp đất đai",
+                "listSectionId": [
+                    "s141",
+                    "s241",
+                    "s242",
+                    "s52"
+                ]
+            },
+            {
+                "id": "N071",
+                "name": "tranh chấp",
+                "listSectionId": [
+                    "s165",
+                    "s183",
+                    "s21"
+                ]
+            },
+            {
+                "id": "N045",
+                "name": "quyền sử dụng đất",
+                "listSectionId": [
+                    "s11",
+                    "s117",
+                    "s123",
+                    "s124",
+                    "s130",
+                    "s144",
+                    "s156",
+                    "s17",
+                    "s174",
+                    "s200",
+                    "s214",
+                    "s222",
+                    "s224",
+                    "s225",
+                    "s226",
+                    "s227",
+                    "s228",
+                    "s229",
+                    "s231",
+                    "s232",
+                    "s233",
+                    "s235",
+                    "s236",
+                    "s237",
+                    "s24",
+                    "s241",
+                    "s242",
+                    "s243",
+                    "s244",
+                    "s245",
+                    "s252",
+                    "s259",
+                    "s262",
+                    "s263",
+                    "s265",
+                    "s27",
+                    "s274",
+                    "s278",
+                    "s279",
+                    "s280",
+                    "s285",
+                    "s286",
+                    "s287",
+                    "s288",
+                    "s289",
+                    "s290",
+                    "s291",
+                    "s292",
+                    "s293",
+                    "s294",
+                    "s297",
+                    "s31",
+                    "s324",
+                    "s326",
+                    "s327",
+                    "s328",
+                    "s329",
+                    "s332",
+                    "s333",
+                    "s334",
+                    "s335",
+                    "s340",
+                    "s341",
+                    "s342",
+                    "s343",
+                    "s344",
+                    "s345",
+                    "s346",
+                    "s347",
+                    "s348",
+                    "s349",
+                    "s350",
+                    "s352",
+                    "s353",
+                    "s354",
+                    "s355",
+                    "s356",
+                    "s357",
+                    "s358",
+                    "s359",
+                    "s360",
+                    "s361",
+                    "s363",
+                    "s364",
+                    "s365",
+                    "s366",
+                    "s367",
+                    "s368",
+                    "s369",
+                    "s37",
+                    "s378",
+                    "s379",
+                    "s38",
+                    "s39",
+                    "s40",
+                    "s549",
+                    "s56",
+                    "s595",
+                    "s60",
+                    "s633",
+                    "s720",
+                    "s804"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "id": "E680",
+                "name": "giải quyết",
+                "source": "N018",
+                "target": "N071",
+                "listSectionId": [
+                    "s183"
+                ]
+            },
+            {
+                "id": "E1225",
+                "name": "giải quyết",
+                "source": "N154",
+                "target": "N045",
+                "listSectionId": [
+                    "s348"
+                ]
+            },
+            {
+                "id": "E502",
+                "name": "giải quyết",
+                "source": "N007",
+                "target": "N139",
+                "listSectionId": [
+                    "s141"
+                ]
+            }
+        ],
+        "relevant_section_ids": [
+            "s141",
+            "s183",
+            "s348"
+        ],
+        "matched_triplets": [
+            {
+                "query_triplet": {
+                    "s": "*",
+                    "v": "giải quyết",
+                    "o": "tranh chấp đất đai"
+                },
+                "matched_triplet": {
+                    "s": {
+                        "id": "N018",
+                        "name": "quản lý nhà nước"
+                    },
+                    "v": {
+                        "id": "E680",
+                        "name": "giải quyết",
+                        "source": "N018",
+                        "target": "N071",
+                        "listSectionId": [
+                            "s183"
+                        ]
+                    },
+                    "o": {
+                        "id": "N071",
+                        "name": "tranh chấp"
+                    }
+                },
+                "match_scores": {
+                    "s": 1.0,
+                    "v": 1.0,
+                    "o": 0.9281706809997559
+                },
+                "matched_by": {
+                    "s": {
+                        "id": "N018",
+                        "entityName": "quản lý nhà nước",
+                        "synonym": "",
+                        "score": 1.0,
+                        "graphName": "quản lý nhà nước"
+                    },
+                    "v": {
+                        "id": "E680",
+                        "entityName": "giải quyết",
+                        "synonym": "giải quyết",
+                        "score": 1.0,
+                        "graphName": "giải quyết"
+                    },
+                    "o": {
+                        "id": "N071",
+                        "entityName": "tranh chấp",
+                        "synonym": "tranh chấp",
+                        "score": 0.9281706809997559,
+                        "graphName": "tranh chấp"
+                    }
+                },
+                "edge": {
+                    "id": "E680",
+                    "name": "giải quyết",
+                    "source": "N018",
+                    "target": "N071",
+                    "listSectionId": [
+                        "s183"
+                    ]
+                },
+                "source_node": {
+                    "id": "N018",
+                    "name": "quản lý nhà nước",
+                    "listSectionId": [
+                        "s111",
+                        "s172",
+                        "s176",
+                        "s178",
+                        "s180",
+                        "s183",
+                        "s187",
+                        "s189",
+                        "s3",
+                        "s402",
+                        "s445"
+                    ]
+                },
+                "target_node": {
+                    "id": "N071",
+                    "name": "tranh chấp",
+                    "listSectionId": [
+                        "s165",
+                        "s183",
+                        "s21"
+                    ]
+                }
+            },
+            {
+                "query_triplet": {
+                    "s": "*",
+                    "v": "giải quyết",
+                    "o": "tranh chấp đất đai"
+                },
+                "matched_triplet": {
+                    "s": {
+                        "id": "N154",
+                        "name": "người gốc Việt Nam định cư ở nước ngoài"
+                    },
+                    "v": {
+                        "id": "E1225",
+                        "name": "giải quyết",
+                        "source": "N154",
+                        "target": "N045",
+                        "listSectionId": [
+                            "s348"
+                        ]
+                    },
+                    "o": {
+                        "id": "N045",
+                        "name": "quyền sử dụng đất"
+                    }
+                },
+                "match_scores": {
+                    "s": 1.0,
+                    "v": 1.0,
+                    "o": 0.8979681730270386
+                },
+                "matched_by": {
+                    "s": {
+                        "id": "N154",
+                        "entityName": "người gốc Việt Nam định cư ở nước ngoài",
+                        "synonym": "",
+                        "score": 1.0,
+                        "graphName": "người gốc Việt Nam định cư ở nước ngoài"
+                    },
+                    "v": {
+                        "id": "E1225",
+                        "entityName": "giải quyết",
+                        "synonym": "giải quyết",
+                        "score": 1.0,
+                        "graphName": "giải quyết"
+                    },
+                    "o": {
+                        "id": "N045",
+                        "entityName": "quyền sử dụng đất",
+                        "synonym": "quyền sử dụng đất",
+                        "score": 0.8979681730270386,
+                        "graphName": "quyền sử dụng đất"
+                    }
+                },
+                "edge": {
+                    "id": "E1225",
+                    "name": "giải quyết",
+                    "source": "N154",
+                    "target": "N045",
+                    "listSectionId": [
+                        "s348"
+                    ]
+                },
+                "source_node": {
+                    "id": "N154",
+                    "name": "người gốc Việt Nam định cư ở nước ngoài",
+                    "listSectionId": [
+                        "s322",
+                        "s340",
+                        "s341",
+                        "s342",
+                        "s343",
+                        "s344",
+                        "s345",
+                        "s346",
+                        "s347",
+                        "s348",
+                        "s61"
+                    ]
+                },
+                "target_node": {
+                    "id": "N045",
+                    "name": "quyền sử dụng đất",
+                    "listSectionId": [
+                        "s11",
+                        "s117",
+                        "s123",
+                        "s124",
+                        "s130",
+                        "s144",
+                        "s156",
+                        "s17",
+                        "s174",
+                        "s200",
+                        "s214",
+                        "s222",
+                        "s224",
+                        "s225",
+                        "s226",
+                        "s227",
+                        "s228",
+                        "s229",
+                        "s231",
+                        "s232",
+                        "s233",
+                        "s235",
+                        "s236",
+                        "s237",
+                        "s24",
+                        "s241",
+                        "s242",
+                        "s243",
+                        "s244",
+                        "s245",
+                        "s252",
+                        "s259",
+                        "s262",
+                        "s263",
+                        "s265",
+                        "s27",
+                        "s274",
+                        "s278",
+                        "s279",
+                        "s280",
+                        "s285",
+                        "s286",
+                        "s287",
+                        "s288",
+                        "s289",
+                        "s290",
+                        "s291",
+                        "s292",
+                        "s293",
+                        "s294",
+                        "s297",
+                        "s31",
+                        "s324",
+                        "s326",
+                        "s327",
+                        "s328",
+                        "s329",
+                        "s332",
+                        "s333",
+                        "s334",
+                        "s335",
+                        "s340",
+                        "s341",
+                        "s342",
+                        "s343",
+                        "s344",
+                        "s345",
+                        "s346",
+                        "s347",
+                        "s348",
+                        "s349",
+                        "s350",
+                        "s352",
+                        "s353",
+                        "s354",
+                        "s355",
+                        "s356",
+                        "s357",
+                        "s358",
+                        "s359",
+                        "s360",
+                        "s361",
+                        "s363",
+                        "s364",
+                        "s365",
+                        "s366",
+                        "s367",
+                        "s368",
+                        "s369",
+                        "s37",
+                        "s378",
+                        "s379",
+                        "s38",
+                        "s39",
+                        "s40",
+                        "s549",
+                        "s56",
+                        "s595",
+                        "s60",
+                        "s633",
+                        "s720",
+                        "s804"
+                    ]
+                }
+            },
+            {
+                "query_triplet": {
+                    "s": "*",
+                    "v": "giải quyết",
+                    "o": "tranh chấp đất đai"
+                },
+                "matched_triplet": {
+                    "s": {
+                        "id": "N007",
+                        "name": "nhà nước"
+                    },
+                    "v": {
+                        "id": "E502",
+                        "name": "giải quyết",
+                        "source": "N007",
+                        "target": "N139",
+                        "listSectionId": [
+                            "s141"
+                        ]
+                    },
+                    "o": {
+                        "id": "N139",
+                        "name": "tranh chấp đất đai"
+                    }
+                },
+                "match_scores": {
+                    "s": 1.0,
+                    "v": 1.0,
+                    "o": 1.0
+                },
+                "matched_by": {
+                    "s": {
+                        "id": "N007",
+                        "entityName": "nhà nước",
+                        "synonym": "",
+                        "score": 1.0,
+                        "graphName": "nhà nước"
+                    },
+                    "v": {
+                        "id": "E502",
+                        "entityName": "giải quyết",
+                        "synonym": "giải quyết",
+                        "score": 1.0,
+                        "graphName": "giải quyết"
+                    },
+                    "o": {
+                        "id": "N139",
+                        "entityName": "tranh chấp đất đai",
+                        "synonym": "tranh chấp đất đai",
+                        "score": 1.0,
+                        "graphName": "tranh chấp đất đai"
+                    }
+                },
+                "edge": {
+                    "id": "E502",
+                    "name": "giải quyết",
+                    "source": "N007",
+                    "target": "N139",
+                    "listSectionId": [
+                        "s141"
+                    ]
+                },
+                "source_node": {
+                    "id": "N007",
+                    "name": "nhà nước",
+                    "listSectionId": [
+                        "s10",
+                        "s11",
+                        "s118",
+                        "s12",
+                        "s121",
+                        "s122",
+                        "s123",
+                        "s124",
+                        "s125",
+                        "s126",
+                        "s127",
+                        "s128",
+                        "s129",
+                        "s130",
+                        "s131",
+                        "s132",
+                        "s133",
+                        "s134",
+                        "s135",
+                        "s136",
+                        "s137",
+                        "s138",
+                        "s139",
+                        "s14",
+                        "s140",
+                        "s141",
+                        "s142",
+                        "s143",
+                        "s144",
+                        "s145",
+                        "s146",
+                        "s147",
+                        "s148",
+                        "s149",
+                        "s154",
+                        "s155",
+                        "s156",
+                        "s157",
+                        "s158",
+                        "s159",
+                        "s160",
+                        "s177",
+                        "s186",
+                        "s192",
+                        "s199",
+                        "s2",
+                        "s217",
+                        "s218",
+                        "s219",
+                        "s221",
+                        "s238",
+                        "s239",
+                        "s248",
+                        "s249",
+                        "s250",
+                        "s257",
+                        "s258",
+                        "s259",
+                        "s260",
+                        "s263",
+                        "s266",
+                        "s267",
+                        "s268",
+                        "s269",
+                        "s272",
+                        "s273",
+                        "s275",
+                        "s276",
+                        "s279",
+                        "s281",
+                        "s282",
+                        "s287",
+                        "s288",
+                        "s29",
+                        "s290",
+                        "s295",
+                        "s298",
+                        "s306",
+                        "s308",
+                        "s312",
+                        "s318",
+                        "s319",
+                        "s320",
+                        "s321",
+                        "s322",
+                        "s325",
+                        "s331",
+                        "s332",
+                        "s333",
+                        "s334",
+                        "s335",
+                        "s336",
+                        "s34",
+                        "s342",
+                        "s350",
+                        "s356",
+                        "s37",
+                        "s372",
+                        "s375",
+                        "s376",
+                        "s378",
+                        "s38",
+                        "s380",
+                        "s39",
+                        "s395",
+                        "s396",
+                        "s40",
+                        "s42",
+                        "s44",
+                        "s441",
+                        "s46",
+                        "s49",
+                        "s50",
+                        "s57",
+                        "s58",
+                        "s59",
+                        "s61",
+                        "s652",
+                        "s662",
+                        "s666",
+                        "s667",
+                        "s669",
+                        "s670",
+                        "s671",
+                        "s674",
+                        "s678",
+                        "s679",
+                        "s680",
+                        "s689",
+                        "s690",
+                        "s693",
+                        "s694",
+                        "s695",
+                        "s697",
+                        "s700",
+                        "s702",
+                        "s798"
+                    ]
+                },
+                "target_node": {
+                    "id": "N139",
+                    "name": "tranh chấp đất đai",
+                    "listSectionId": [
+                        "s141",
+                        "s241",
+                        "s242",
+                        "s52"
+                    ]
+                }
+            }
+        ],
+        "matched_triplets_by_query": [
+            {
+                "query_index": 0,
+                "query_triplet": {
+                    "s": "người sử dụng đất",
+                    "v": "đo đạc",
+                    "o": "đất"
+                },
+                "matches": []
+            },
+            {
+                "query_index": 1,
+                "query_triplet": {
+                    "s": "giấy chứng nhận",
+                    "v": "ghi nhận",
+                    "o": "diện tích"
+                },
+                "matches": []
+            },
+            {
+                "query_index": 2,
+                "query_triplet": {
+                    "s": "diện tích",
+                    "v": "thiếu so với",
+                    "o": "ranh giới"
+                },
+                "matches": []
+            },
+            {
+                "query_index": 3,
+                "query_triplet": {
+                    "s": "người sử dụng đất",
+                    "v": "tranh chấp",
+                    "o": "ranh giới"
+                },
+                "matches": []
+            },
+            {
+                "query_index": 4,
+                "query_triplet": {
+                    "s": "*",
+                    "v": "giải quyết",
+                    "o": "tranh chấp đất đai"
+                },
+                "matches": [
+                    {
+                        "query_triplet": {
+                            "s": "*",
+                            "v": "giải quyết",
+                            "o": "tranh chấp đất đai"
+                        },
+                        "matched_triplet": {
+                            "s": {
+                                "id": "N018",
+                                "name": "quản lý nhà nước"
+                            },
+                            "v": {
+                                "id": "E680",
+                                "name": "giải quyết",
+                                "source": "N018",
+                                "target": "N071",
+                                "listSectionId": [
+                                    "s183"
+                                ]
+                            },
+                            "o": {
+                                "id": "N071",
+                                "name": "tranh chấp"
+                            }
+                        },
+                        "match_scores": {
+                            "s": 1.0,
+                            "v": 1.0,
+                            "o": 0.9281706809997559
+                        },
+                        "matched_by": {
+                            "s": {
+                                "id": "N018",
+                                "entityName": "quản lý nhà nước",
+                                "synonym": "",
+                                "score": 1.0,
+                                "graphName": "quản lý nhà nước"
+                            },
+                            "v": {
+                                "id": "E680",
+                                "entityName": "giải quyết",
+                                "synonym": "giải quyết",
+                                "score": 1.0,
+                                "graphName": "giải quyết"
+                            },
+                            "o": {
+                                "id": "N071",
+                                "entityName": "tranh chấp",
+                                "synonym": "tranh chấp",
+                                "score": 0.9281706809997559,
+                                "graphName": "tranh chấp"
+                            }
+                        },
+                        "edge": {
+                            "id": "E680",
+                            "name": "giải quyết",
+                            "source": "N018",
+                            "target": "N071",
+                            "listSectionId": [
+                                "s183"
+                            ]
+                        },
+                        "source_node": {
+                            "id": "N018",
+                            "name": "quản lý nhà nước",
+                            "listSectionId": [
+                                "s111",
+                                "s172",
+                                "s176",
+                                "s178",
+                                "s180",
+                                "s183",
+                                "s187",
+                                "s189",
+                                "s3",
+                                "s402",
+                                "s445"
+                            ]
+                        },
+                        "target_node": {
+                            "id": "N071",
+                            "name": "tranh chấp",
+                            "listSectionId": [
+                                "s165",
+                                "s183",
+                                "s21"
+                            ]
+                        }
+                    },
+                    {
+                        "query_triplet": {
+                            "s": "*",
+                            "v": "giải quyết",
+                            "o": "tranh chấp đất đai"
+                        },
+                        "matched_triplet": {
+                            "s": {
+                                "id": "N154",
+                                "name": "người gốc Việt Nam định cư ở nước ngoài"
+                            },
+                            "v": {
+                                "id": "E1225",
+                                "name": "giải quyết",
+                                "source": "N154",
+                                "target": "N045",
+                                "listSectionId": [
+                                    "s348"
+                                ]
+                            },
+                            "o": {
+                                "id": "N045",
+                                "name": "quyền sử dụng đất"
+                            }
+                        },
+                        "match_scores": {
+                            "s": 1.0,
+                            "v": 1.0,
+                            "o": 0.8979681730270386
+                        },
+                        "matched_by": {
+                            "s": {
+                                "id": "N154",
+                                "entityName": "người gốc Việt Nam định cư ở nước ngoài",
+                                "synonym": "",
+                                "score": 1.0,
+                                "graphName": "người gốc Việt Nam định cư ở nước ngoài"
+                            },
+                            "v": {
+                                "id": "E1225",
+                                "entityName": "giải quyết",
+                                "synonym": "giải quyết",
+                                "score": 1.0,
+                                "graphName": "giải quyết"
+                            },
+                            "o": {
+                                "id": "N045",
+                                "entityName": "quyền sử dụng đất",
+                                "synonym": "quyền sử dụng đất",
+                                "score": 0.8979681730270386,
+                                "graphName": "quyền sử dụng đất"
+                            }
+                        },
+                        "edge": {
+                            "id": "E1225",
+                            "name": "giải quyết",
+                            "source": "N154",
+                            "target": "N045",
+                            "listSectionId": [
+                                "s348"
+                            ]
+                        },
+                        "source_node": {
+                            "id": "N154",
+                            "name": "người gốc Việt Nam định cư ở nước ngoài",
+                            "listSectionId": [
+                                "s322",
+                                "s340",
+                                "s341",
+                                "s342",
+                                "s343",
+                                "s344",
+                                "s345",
+                                "s346",
+                                "s347",
+                                "s348",
+                                "s61"
+                            ]
+                        },
+                        "target_node": {
+                            "id": "N045",
+                            "name": "quyền sử dụng đất",
+                            "listSectionId": [
+                                "s11",
+                                "s117",
+                                "s123",
+                                "s124",
+                                "s130",
+                                "s144",
+                                "s156",
+                                "s17",
+                                "s174",
+                                "s200",
+                                "s214",
+                                "s222",
+                                "s224",
+                                "s225",
+                                "s226",
+                                "s227",
+                                "s228",
+                                "s229",
+                                "s231",
+                                "s232",
+                                "s233",
+                                "s235",
+                                "s236",
+                                "s237",
+                                "s24",
+                                "s241",
+                                "s242",
+                                "s243",
+                                "s244",
+                                "s245",
+                                "s252",
+                                "s259",
+                                "s262",
+                                "s263",
+                                "s265",
+                                "s27",
+                                "s274",
+                                "s278",
+                                "s279",
+                                "s280",
+                                "s285",
+                                "s286",
+                                "s287",
+                                "s288",
+                                "s289",
+                                "s290",
+                                "s291",
+                                "s292",
+                                "s293",
+                                "s294",
+                                "s297",
+                                "s31",
+                                "s324",
+                                "s326",
+                                "s327",
+                                "s328",
+                                "s329",
+                                "s332",
+                                "s333",
+                                "s334",
+                                "s335",
+                                "s340",
+                                "s341",
+                                "s342",
+                                "s343",
+                                "s344",
+                                "s345",
+                                "s346",
+                                "s347",
+                                "s348",
+                                "s349",
+                                "s350",
+                                "s352",
+                                "s353",
+                                "s354",
+                                "s355",
+                                "s356",
+                                "s357",
+                                "s358",
+                                "s359",
+                                "s360",
+                                "s361",
+                                "s363",
+                                "s364",
+                                "s365",
+                                "s366",
+                                "s367",
+                                "s368",
+                                "s369",
+                                "s37",
+                                "s378",
+                                "s379",
+                                "s38",
+                                "s39",
+                                "s40",
+                                "s549",
+                                "s56",
+                                "s595",
+                                "s60",
+                                "s633",
+                                "s720",
+                                "s804"
+                            ]
+                        }
+                    },
+                    {
+                        "query_triplet": {
+                            "s": "*",
+                            "v": "giải quyết",
+                            "o": "tranh chấp đất đai"
+                        },
+                        "matched_triplet": {
+                            "s": {
+                                "id": "N007",
+                                "name": "nhà nước"
+                            },
+                            "v": {
+                                "id": "E502",
+                                "name": "giải quyết",
+                                "source": "N007",
+                                "target": "N139",
+                                "listSectionId": [
+                                    "s141"
+                                ]
+                            },
+                            "o": {
+                                "id": "N139",
+                                "name": "tranh chấp đất đai"
+                            }
+                        },
+                        "match_scores": {
+                            "s": 1.0,
+                            "v": 1.0,
+                            "o": 1.0
+                        },
+                        "matched_by": {
+                            "s": {
+                                "id": "N007",
+                                "entityName": "nhà nước",
+                                "synonym": "",
+                                "score": 1.0,
+                                "graphName": "nhà nước"
+                            },
+                            "v": {
+                                "id": "E502",
+                                "entityName": "giải quyết",
+                                "synonym": "giải quyết",
+                                "score": 1.0,
+                                "graphName": "giải quyết"
+                            },
+                            "o": {
+                                "id": "N139",
+                                "entityName": "tranh chấp đất đai",
+                                "synonym": "tranh chấp đất đai",
+                                "score": 1.0,
+                                "graphName": "tranh chấp đất đai"
+                            }
+                        },
+                        "edge": {
+                            "id": "E502",
+                            "name": "giải quyết",
+                            "source": "N007",
+                            "target": "N139",
+                            "listSectionId": [
+                                "s141"
+                            ]
+                        },
+                        "source_node": {
+                            "id": "N007",
+                            "name": "nhà nước",
+                            "listSectionId": [
+                                "s10",
+                                "s11",
+                                "s118",
+                                "s12",
+                                "s121",
+                                "s122",
+                                "s123",
+                                "s124",
+                                "s125",
+                                "s126",
+                                "s127",
+                                "s128",
+                                "s129",
+                                "s130",
+                                "s131",
+                                "s132",
+                                "s133",
+                                "s134",
+                                "s135",
+                                "s136",
+                                "s137",
+                                "s138",
+                                "s139",
+                                "s14",
+                                "s140",
+                                "s141",
+                                "s142",
+                                "s143",
+                                "s144",
+                                "s145",
+                                "s146",
+                                "s147",
+                                "s148",
+                                "s149",
+                                "s154",
+                                "s155",
+                                "s156",
+                                "s157",
+                                "s158",
+                                "s159",
+                                "s160",
+                                "s177",
+                                "s186",
+                                "s192",
+                                "s199",
+                                "s2",
+                                "s217",
+                                "s218",
+                                "s219",
+                                "s221",
+                                "s238",
+                                "s239",
+                                "s248",
+                                "s249",
+                                "s250",
+                                "s257",
+                                "s258",
+                                "s259",
+                                "s260",
+                                "s263",
+                                "s266",
+                                "s267",
+                                "s268",
+                                "s269",
+                                "s272",
+                                "s273",
+                                "s275",
+                                "s276",
+                                "s279",
+                                "s281",
+                                "s282",
+                                "s287",
+                                "s288",
+                                "s29",
+                                "s290",
+                                "s295",
+                                "s298",
+                                "s306",
+                                "s308",
+                                "s312",
+                                "s318",
+                                "s319",
+                                "s320",
+                                "s321",
+                                "s322",
+                                "s325",
+                                "s331",
+                                "s332",
+                                "s333",
+                                "s334",
+                                "s335",
+                                "s336",
+                                "s34",
+                                "s342",
+                                "s350",
+                                "s356",
+                                "s37",
+                                "s372",
+                                "s375",
+                                "s376",
+                                "s378",
+                                "s38",
+                                "s380",
+                                "s39",
+                                "s395",
+                                "s396",
+                                "s40",
+                                "s42",
+                                "s44",
+                                "s441",
+                                "s46",
+                                "s49",
+                                "s50",
+                                "s57",
+                                "s58",
+                                "s59",
+                                "s61",
+                                "s652",
+                                "s662",
+                                "s666",
+                                "s667",
+                                "s669",
+                                "s670",
+                                "s671",
+                                "s674",
+                                "s678",
+                                "s679",
+                                "s680",
+                                "s689",
+                                "s690",
+                                "s693",
+                                "s694",
+                                "s695",
+                                "s697",
+                                "s700",
+                                "s702",
+                                "s798"
+                            ]
+                        },
+                        "target_node": {
+                            "id": "N139",
+                            "name": "tranh chấp đất đai",
+                            "listSectionId": [
+                                "s141",
+                                "s241",
+                                "s242",
+                                "s52"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
