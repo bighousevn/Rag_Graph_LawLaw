@@ -124,7 +124,7 @@ def get_path_and_full_text(node):
     path = " - ".join(path_parts)
     return path, full_text
 
-def parse_pdf(pdf_path, output_path):
+def parse_pdf(pdf_path, output_path, document_name="", prev_output_path=None):
     print(f"Reading {pdf_path}...")
     pdf = pdfplumber.open(pdf_path)
     lines = []
@@ -198,12 +198,28 @@ def parse_pdf(pdf_path, output_path):
 
     sections = []
     section_id_counter = 1
+    if prev_output_path and os.path.exists(prev_output_path):
+        try:
+            with open(prev_output_path, 'r', encoding='utf-8') as f:
+                prev_sections = json.load(f)
+                if isinstance(prev_sections, list):
+                    max_id_num = 0
+                    for sec in prev_sections:
+                        sec_id = sec.get("id", "")
+                        match = re.match(r'^s(\d+)$', sec_id)
+                        if match:
+                            max_id_num = max(max_id_num, int(match.group(1)))
+                    section_id_counter = max_id_num + 1
+                    print(f"Loaded previous output file: {prev_output_path}. Starting section ID from: s{section_id_counter}")
+        except Exception as e:
+            print(f"Warning: Could not read previous output file {prev_output_path}: {e}")
     for leaf in leaf_nodes:
         path, full_text = get_path_and_full_text(leaf)
         if not full_text:
             continue
         sections.append({
             "id": f"s{section_id_counter}",
+            "document_name": document_name,
             "level": leaf.node_type if leaf.node_type != 'root' else 'dieu',
             "text_content": full_text,
             "path": path
@@ -218,4 +234,9 @@ def parse_pdf(pdf_path, output_path):
     print(f"Saved to {output_path}")
 
 if __name__ == "__main__":
-    parse_pdf('version_4/Building_KG/law/dat_dai_2.pdf', 'version_4/Building_KG/material_for_triplets/sections_dat_dai_2.json')
+    parse_pdf(
+        'version_4/Building_KG/law/dat_dai_2.pdf',
+        'version_4/Building_KG/material_for_triplets/sections_dat_dai_2.json',
+        document_name="Luật Đất đai - Luật số: 31/2024/QH15",
+        prev_output_path='version_4/Building_KG/material_for_triplets/sections_dat_dai_1.json'
+    )

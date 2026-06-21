@@ -3,7 +3,7 @@ import re
 import json
 import os
 
-def parse_pdf(pdf_path, output_path):
+def parse_pdf(pdf_path, output_path, document_name="Luật Đất đai 2024"):
     print(f"Reading {pdf_path}...")
     pdf = pdfplumber.open(pdf_path)
     lines = []
@@ -57,6 +57,7 @@ def parse_pdf(pdf_path, output_path):
 
         sections.append({
             "id": f"s{section_id_counter}",
+            "document_name": document_name,
             "level": sec_level,
             "text_content": " ".join(current_text),
             "path": " - ".join(breadcrumb)
@@ -121,6 +122,6 @@ def parse_pdf(pdf_path, output_path):
     print(f"Saved to {output_path}")
 
 if __name__ == "__main__":
-    parse_pdf('input/dat_dai_2.pdf', 'output/1_sections_dat_dai_2.json')
-        # parse_pdf('input/dat_dai_1.pdf', 'output/1_sections_dat_dai_1.json')
+    parse_pdf('input/dat_dai_2.pdf', 'output/1_sections_dat_dai_2.json', document_name="Luật Đất đai 2024")
+    # parse_pdf('input/dat_dai_1.pdf', 'output/1_sections_dat_dai_1.json', document_name="Luật Đất đai 2024")
 

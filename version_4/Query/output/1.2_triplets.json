@@ -1,27 +1,22 @@
 [
     {
         "s": "người sử dụng đất",
-        "v": "đo đạc",
-        "o": "đất"
+        "v": "tặng cho",
+        "o": "người"
     },
     {
         "s": "giấy chứng nhận",
-        "v": "ghi nhận",
-        "o": "diện tích"
-    },
-    {
-        "s": "diện tích",
-        "v": "thiếu so với",
-        "o": "ranh giới"
-    },
-    {
-        "s": "người sử dụng đất",
-        "v": "tranh chấp",
-        "o": "ranh giới"
+        "v": "đứng tên",
+        "o": "người sử dụng đất"
     },
     {
         "s": "*",
-        "v": "giải quyết",
-        "o": "tranh chấp đất đai"
+        "v": "cần",
+        "o": "chữ ký"
+    },
+    {
+        "s": "*",
+        "v": "có",
+        "o": "rủi ro tranh chấp tài sản"
     }
 ]
