@@ -235,8 +235,8 @@ def parse_pdf(pdf_path, output_path, document_name="", prev_output_path=None):
 
 if __name__ == "__main__":
     parse_pdf(
-        'version_4/Building_KG/law/dat_dai_2.pdf',
-        'version_4/Building_KG/material_for_triplets/sections_dat_dai_2.json',
-        document_name="Luật Đất đai - Luật số: 31/2024/QH15",
-        prev_output_path='version_4/Building_KG/material_for_triplets/sections_dat_dai_1.json'
+        'version_4/Building_KG/law/168_2024_ND-CP_m_619502.pdf',
+        'version_4/Building_KG/material_for_triplets/sections_nghi_dinh_168_2024_1.json',
+        document_name="Nghị định 168:2024/NĐ-CP",
+        # prev_output_path='version_4/Building_KG/material_for_triplets/sections_nghi_dinh_168_2024_1.json'
     )
