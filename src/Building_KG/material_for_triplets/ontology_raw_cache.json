@@ -1,0 +1,458 @@
+{
+    "s6": {
+        "concepts": [
+            "Tổ chức",
+            "Cơ quan nhà nước",
+            "Hành vi vi phạm",
+            "Nhiệm vụ quản lý nhà nước"
+        ],
+        "relationships": [
+            {
+                "source": "Tổ chức",
+                "relation": "bao gồm",
+                "target": "Cơ quan nhà nước"
+            },
+            {
+                "source": "Cơ quan nhà nước",
+                "relation": "có",
+                "target": "Hành vi vi phạm"
+            },
+            {
+                "source": "Hành vi vi phạm",
+                "relation": "không thuộc",
+                "target": "Nhiệm vụ quản lý nhà nước"
+            }
+        ]
+    },
+    "s7": {
+        "concepts": [
+            "Tổ chức",
+            "Đơn vị sự nghiệp công lập"
+        ],
+        "relationships": [
+            {
+                "source": "Tổ chức",
+                "relation": "bao gồm",
+                "target": "Đơn vị sự nghiệp công lập"
+            }
+        ]
+    },
+    "s8": {
+        "concepts": [
+            "Tổ chức quy định tại khoản 1 Điều này",
+            "Tổ chức chính trị - xã hội",
+            "Tổ chức chính trị xã hội nghề nghiệp",
+            "Tổ chức xã hội",
+            "Tổ chức xã hội nghề nghiệp"
+        ],
+        "relationships": [
+            {
+                "source": "Tổ chức quy định tại khoản 1 Điều này",
+                "relation": "bao gồm",
+                "target": "Tổ chức chính trị - xã hội"
+            },
+            {
+                "source": "Tổ chức quy định tại khoản 1 Điều này",
+                "relation": "bao gồm",
+                "target": "Tổ chức chính trị xã hội nghề nghiệp"
+            },
+            {
+                "source": "Tổ chức quy định tại khoản 1 Điều này",
+                "relation": "bao gồm",
+                "target": "Tổ chức xã hội"
+            },
+            {
+                "source": "Tổ chức quy định tại khoản 1 Điều này",
+                "relation": "bao gồm",
+                "target": "Tổ chức xã hội nghề nghiệp"
+            }
+        ]
+    },
+    "s10": {
+        "concepts": [
+            "Tổ chức",
+            "Tổ chức kinh tế",
+            "Luật Hợp tác xã",
+            "Tổ hợp tác",
+            "Hợp tác xã",
+            "Liên hiệp hợp tác xã"
+        ],
+        "relationships": [
+            {
+                "source": "Tổ chức",
+                "relation": "bao gồm",
+                "target": "Tổ chức kinh tế"
+            },
+            {
+                "source": "Tổ chức kinh tế",
+                "relation": "được thành lập theo quy định của",
+                "target": "Luật Hợp tác xã"
+            },
+            {
+                "source": "Tổ chức kinh tế",
+                "relation": "bao gồm",
+                "target": "Tổ hợp tác"
+            },
+            {
+                "source": "Tổ chức kinh tế",
+                "relation": "bao gồm",
+                "target": "Hợp tác xã"
+            },
+            {
+                "source": "Tổ chức kinh tế",
+                "relation": "bao gồm",
+                "target": "Liên hiệp hợp tác xã"
+            }
+        ]
+    },
+    "s4": {
+        "concepts": [
+            "hành vi vi phạm hành chính",
+            "lĩnh vực quản lý nhà nước",
+            "trật tự",
+            "an toàn giao thông",
+            "giao thông đường bộ",
+            "Nghị định",
+            "xử phạt vi phạm hành chính"
+        ],
+        "relationships": [
+            {
+                "source": "hành vi vi phạm hành chính",
+                "relation": "liên quan đến",
+                "target": "lĩnh vực quản lý nhà nước"
+            },
+            {
+                "source": "lĩnh vực quản lý nhà nước",
+                "relation": "bao gồm",
+                "target": "trật tự"
+            },
+            {
+                "source": "lĩnh vực quản lý nhà nước",
+                "relation": "bao gồm",
+                "target": "an toàn giao thông"
+            },
+            {
+                "source": "an toàn giao thông",
+                "relation": "thuộc về",
+                "target": "giao thông đường bộ"
+            },
+            {
+                "source": "hành vi vi phạm hành chính",
+                "relation": "áp dụng quy định tại",
+                "target": "Nghị định"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định về",
+                "target": "xử phạt vi phạm hành chính"
+            }
+        ]
+    },
+    "s9": {
+        "concepts": [
+            "Tổ chức",
+            "Luật Doanh nghiệp",
+            "doanh nghiệp tư nhân",
+            "công ty cổ phần",
+            "công ty trách nhiệm hữu hạn",
+            "công ty hợp danh",
+            "đơn vị phụ thuộc doanh nghiệp",
+            "chi nhánh",
+            "văn phòng đại diện"
+        ],
+        "relationships": [
+            {
+                "source": "Tổ chức",
+                "relation": "bao gồm",
+                "target": "doanh nghiệp tư nhân"
+            },
+            {
+                "source": "Tổ chức",
+                "relation": "bao gồm",
+                "target": "công ty cổ phần"
+            },
+            {
+                "source": "Tổ chức",
+                "relation": "bao gồm",
+                "target": "công ty trách nhiệm hữu hạn"
+            },
+            {
+                "source": "Tổ chức",
+                "relation": "bao gồm",
+                "target": "công ty hợp danh"
+            },
+            {
+                "source": "Tổ chức",
+                "relation": "bao gồm",
+                "target": "đơn vị phụ thuộc doanh nghiệp"
+            },
+            {
+                "source": "đơn vị phụ thuộc doanh nghiệp",
+                "relation": "bao gồm",
+                "target": "chi nhánh"
+            },
+            {
+                "source": "đơn vị phụ thuộc doanh nghiệp",
+                "relation": "bao gồm",
+                "target": "văn phòng đại diện"
+            }
+        ]
+    },
+    "s3": {
+        "concepts": [
+            "Nghị định",
+            "Mức trừ điểm giấy phép lái xe",
+            "Hành vi vi phạm hành chính",
+            "Trình tự",
+            "Thủ tục",
+            "Thẩm quyền trừ điểm",
+            "Phục hồi điểm giấy phép lái xe",
+            "Quản lý việc chấp hành pháp luật",
+            "Trật tự",
+            "An toàn giao thông đường bộ",
+            "Người lái xe"
+        ],
+        "relationships": [
+            {
+                "source": "Nghị định",
+                "relation": "quy định về",
+                "target": "Mức trừ điểm giấy phép lái xe"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định về",
+                "target": "Hành vi vi phạm hành chính"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định về",
+                "target": "Trình tự"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định về",
+                "target": "Thủ tục"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định về",
+                "target": "Thẩm quyền trừ điểm"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định về",
+                "target": "Phục hồi điểm giấy phép lái xe"
+            },
+            {
+                "source": "Phục hồi điểm giấy phép lái xe",
+                "relation": "để",
+                "target": "Quản lý việc chấp hành pháp luật"
+            },
+            {
+                "source": "Quản lý việc chấp hành pháp luật",
+                "relation": "về",
+                "target": "Trật tự"
+            },
+            {
+                "source": "Quản lý việc chấp hành pháp luật",
+                "relation": "về",
+                "target": "An toàn giao thông đường bộ"
+            },
+            {
+                "source": "Quản lý việc chấp hành pháp luật",
+                "relation": "đối với",
+                "target": "Người lái xe"
+            }
+        ]
+    },
+    "s5": {
+        "concepts": [
+            "Cá nhân Việt Nam",
+            "Tổ chức Việt Nam",
+            "Cá nhân nước ngoài",
+            "Tổ chức nước ngoài",
+            "Hành vi vi phạm hành chính",
+            "Trật tự an toàn giao thông",
+            "Lĩnh vực giao thông đường bộ",
+            "Lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam"
+        ],
+        "relationships": [
+            {
+                "source": "Cá nhân Việt Nam",
+                "relation": "có",
+                "target": "Hành vi vi phạm hành chính"
+            },
+            {
+                "source": "Tổ chức Việt Nam",
+                "relation": "có",
+                "target": "Hành vi vi phạm hành chính"
+            },
+            {
+                "source": "Cá nhân nước ngoài",
+                "relation": "có",
+                "target": "Hành vi vi phạm hành chính"
+            },
+            {
+                "source": "Tổ chức nước ngoài",
+                "relation": "có",
+                "target": "Hành vi vi phạm hành chính"
+            },
+            {
+                "source": "Hành vi vi phạm hành chính",
+                "relation": "liên quan đến",
+                "target": "Trật tự an toàn giao thông"
+            },
+            {
+                "source": "Hành vi vi phạm hành chính",
+                "relation": "xảy ra trong",
+                "target": "Lĩnh vực giao thông đường bộ"
+            },
+            {
+                "source": "Lĩnh vực giao thông đường bộ",
+                "relation": "thuộc về",
+                "target": "Lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam"
+            }
+        ]
+    },
+    "s1": {
+        "concepts": [
+            "Chính phủ",
+            "Cộng hòa xã hội chủ nghĩa Việt Nam",
+            "Nghị định",
+            "Xử phạt vi phạm hành chính",
+            "Trật tự",
+            "An toàn giao thông",
+            "Lĩnh vực giao thông đường bộ",
+            "Điểm giấy phép lái xe",
+            "Luật Tổ chức Chính phủ",
+            "Luật Xử lý vi phạm hành chính",
+            "Luật Trật tự, an toàn giao thông đường bộ"
+        ],
+        "relationships": [
+            {
+                "source": "Chính phủ",
+                "relation": "ban hành",
+                "target": "Nghị định"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định",
+                "target": "Xử phạt vi phạm hành chính"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định",
+                "target": "Trật tự"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định",
+                "target": "An toàn giao thông"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định",
+                "target": "Lĩnh vực giao thông đường bộ"
+            },
+            {
+                "source": "Nghị định",
+                "relation": "quy định",
+                "target": "Điểm giấy phép lái xe"
+            },
+            {
+                "source": "Luật Tổ chức Chính phủ",
+                "relation": "căn cứ",
+                "target": "Nghị định"
+            },
+            {
+                "source": "Luật Xử lý vi phạm hành chính",
+                "relation": "căn cứ",
+                "target": "Nghị định"
+            },
+            {
+                "source": "Luật Trật tự, an toàn giao thông đường bộ",
+                "relation": "căn cứ",
+                "target": "Nghị định"
+            }
+        ]
+    },
+    "s2": {
+        "concepts": [
+            "Nghị định",
+            "Xử phạt vi phạm hành chính",
+            "Trật tự",
+            "An toàn giao thông",
+            "Lĩnh vực giao thông đường bộ",
+            "Hành vi vi phạm hành chính",
+            "Hình thức xử phạt",
+            "Mức xử phạt",
+            "Biện pháp khắc phục hậu quả",
+            "Thẩm quyền lập biên bản",
+            "Thẩm quyền xử phạt",
+            "Mức phạt tiền",
+            "Chức danh"
+        ],
+        "relationships": [
+            {
+                "source": "Nghị định",
+                "relation": "quy định về",
+                "target": "Xử phạt vi phạm hành chính"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "bao gồm",
+                "target": "Hành vi vi phạm hành chính"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "bao gồm",
+                "target": "Hình thức xử phạt"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "bao gồm",
+                "target": "Mức xử phạt"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "bao gồm",
+                "target": "Biện pháp khắc phục hậu quả"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "bao gồm",
+                "target": "Thẩm quyền lập biên bản"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "bao gồm",
+                "target": "Thẩm quyền xử phạt"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "bao gồm",
+                "target": "Mức phạt tiền"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "theo",
+                "target": "Chức danh"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "đối với",
+                "target": "Trật tự"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "đối với",
+                "target": "An toàn giao thông"
+            },
+            {
+                "source": "Xử phạt vi phạm hành chính",
+                "relation": "trong",
+                "target": "Lĩnh vực giao thông đường bộ"
+            }
+        ]
+    }
+}
