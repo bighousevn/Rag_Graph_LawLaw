@@ -33,6 +33,34 @@ Mục tiêu là giữ lại đúng phần nội dung mô tả CHỦ THỂ - HÀN
 4. CHỈ tách thành nhiều câu khi text_content chứa các quy định/hành vi THỰC SỰ độc lập, không thể gộp tự nhiên thành một câu liệt kê (vd 2 hình thức xử phạt bổ sung khác nhau áp dụng cho 2 nhóm hành vi khác nhau). Trong đa số trường hợp, kết quả chỉ nên có 1 câu duy nhất.
 5. Giải quyết các trường hợp ẩn chủ ngữ/hành động/đối tượng bằng cách làm rõ chủ thể chính, không suy diễn thêm nội dung ngoài văn bản gốc.
 6. Diễn đạt bằng tiếng Việt chuẩn xác, mạch lạc, tự nhiên.
+7. KHÔNG viết hai hành vi nối tiếp theo kiểu mệnh đề rút gọn dùng CHUNG chủ ngữ ngầm nếu chủ ngữ thực sự của chúng khác nhau (vd "A làm X gây Y" — chủ ngữ ngầm của "gây" rất dễ bị công cụ xử lý ngôn ngữ phía sau hiểu lầm là A, trong khi ngữ nghĩa thật là X gây ra Y, không phải A trực tiếp gây ra). Phải viết RÕ chủ ngữ cho từng hành vi:
+   - Nếu cùng một chủ thể A thực hiện cả hai hành vi → lặp lại chủ ngữ, nối bằng "và": "A làm X và A gây Y".
+   - Nếu hành vi thứ hai (Y) là hậu quả do chính đối tượng/sự việc X gây ra (không phải A trực tiếp) → tách thành mệnh đề/câu riêng có chủ ngữ là X, hoặc dùng cụm danh từ hoá "việc A làm X" làm chủ ngữ cho "gây", để chủ ngữ của "gây" không lẫn với A.
+   Tránh dùng đại từ/cụm chỉ định mơ hồ ("hành vi này", "việc đó", "điều trên") làm chủ ngữ — luôn dùng cụm danh từ cụ thể.
+8. Khi CHỦ THỂ của câu là một danh sách liệt kê nhiều thực thể (vd "cá nhân, tổ chức", "cá nhân, tổ chức, hộ gia đình"), PHẢI nối vế CUỐI CÙNG của danh sách bằng "và" (không dùng dấu phẩy thuần cho tới hết danh sách), NGAY CẢ KHI văn bản gốc chỉ dùng dấu phẩy. Lý do: công cụ xử lý ngôn ngữ phía sau (VnCoreNLP) hay hiểu lầm vế cuối của danh sách CHỦ THỂ — nếu nối bằng dấu phẩy và từ đó vốn đa nghĩa danh từ/động từ (vd "tổ chức", "quản lý", "đào tạo", "kinh doanh") đứng ngay trước động từ chính — thành chính động từ đó, làm sai toàn bộ cấu trúc câu (vd "Cá nhân, tổ chức vi phạm..." bị hiểu lầm "tổ chức" là động từ thay vì 1 chủ thể). Chỉ cần nối "và" trước vế cuối là tránh được lỗi này. Quy tắc này CHỈ áp dụng cho danh sách CHỦ THỂ (đứng ngay trước động từ chính của câu) — KHÔNG áp dụng cho danh sách ĐỐI TƯỢNG (xem mục 3, giữ nguyên cấu trúc liệt kê gốc cho đối tượng).
+9. text_content thường gồm nhiều cấp lồng nhau (vd câu mở đầu của Điều/Khoản, rồi mới tới câu chứa hành vi cụ thể ở Khoản/Điểm). Nếu câu mở đầu (Điều/Khoản) đã NÊU RÕ một chủ thể CỤ THỂ (vd một loại phương tiện/nhóm người cụ thể), còn câu chứa hành vi chính lại dùng một cụm CHUNG hơn để chỉ lại chủ thể đó (vd "người điều khiển phương tiện", "người vi phạm"), PHẢI dùng chủ thể CỤ THỂ đã nêu ở câu mở đầu cho proposition, KHÔNG dùng lại cụm chung. Lý do: cụm chung sẽ làm mất khả năng phân biệt với các Điều/Khoản khác áp dụng cho chủ thể khác (vd Điều này chỉ áp dụng cho "người điều khiển xe ô tô tải, máy kéo", nếu viết chung thành "người điều khiển phương tiện" sẽ lẫn với Điều khác áp dụng cho xe máy, xe ô tô con).
+
+Ví dụ minh họa (few-shot) cho việc nối "và" ở vế cuối danh sách chủ thể (mục 8):
+
+Input:
+"Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu hình thức xử phạt chính là phạt tiền."
+
+Output ĐÚNG (nối "và" trước vế cuối "tổ chức" trong danh sách chủ thể để tránh bị hiểu lầm thành động từ):
+{"propositions": ["Cá nhân và tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu hình thức xử phạt chính là phạt tiền."]}
+
+Output SAI (giữ dấu phẩy thuần giữa "Cá nhân" và "tổ chức" như văn bản gốc — dễ bị tagger hiểu lầm "tổ chức" thành động từ, làm sai cấu trúc câu):
+{"propositions": ["Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu hình thức xử phạt chính là phạt tiền."]}
+
+Ví dụ minh họa (few-shot) cho việc viết rõ chủ ngữ khi có hai hành vi nối tiếp (mục 7):
+
+Input:
+"Người điều khiển xe mở cửa xe gây tai nạn giao thông thì bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng."
+
+Output ĐÚNG (chủ ngữ của "gây" được viết rõ là "việc mở cửa xe", không lẫn với "Người điều khiển xe"):
+{"propositions": ["Người điều khiển xe mở cửa xe; việc mở cửa xe gây tai nạn giao thông thì bị phạt tiền."]}
+
+Output SAI (mệnh đề "gây tai nạn giao thông" nối ngay sau "mở cửa xe" không có chủ ngữ riêng, dễ bị hiểu lầm chủ ngữ là "Người điều khiển xe" thay vì "việc mở cửa xe"):
+{"propositions": ["Người điều khiển xe mở cửa xe gây tai nạn giao thông thì bị phạt tiền."]}
 
 Ví dụ minh họa (few-shot) cho việc lược bỏ danh sách liệt kê địa điểm/trường hợp (mục 1, ý cuối):
 
@@ -48,19 +76,41 @@ Output SAI #1 (liệt kê hết cả danh sách 10 địa điểm — không c�
 Output SAI #2 (xoá hẳn điều kiện địa điểm, biến hành vi có điều kiện thành hành vi luôn luôn vi phạm — SAI nội dung pháp lý vì quay đầu xe ở nơi cho phép không phải là vi phạm):
 {"propositions": ["Người điều khiển xe thực hiện hành vi quay đầu xe."]}
 
-Hãy trả về kết quả dưới định dạng JSON với cấu trúc sau:
-{
-  "propositions": [
-    "Câu diễn đạt lại thứ nhất",
-    "Câu diễn đạt lại thứ hai (chỉ khi thực sự cần tách)",
-    ...
-  ]
-}"""
+Ví dụ minh họa (few-shot) cho việc giữ chủ thể cụ thể từ câu mở đầu Điều, không dùng lại cụm chung (mục 9):
 
-def call_openai_with_retry(text_content, max_retries=5, initial_backoff=2):
+Input:
+"Điều 21. Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa. 5. Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển phương tiện chở hàng vượt quá khối lượng cho phép."
+
+Output ĐÚNG (dùng chủ thể cụ thể "người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa" đã nêu ở câu mở đầu Điều 21, thay vì cụm chung "người điều khiển phương tiện" trong câu chứa hành vi):
+{"propositions": ["Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa chở hàng vượt quá khối lượng cho phép bị phạt tiền."]}
+
+Output SAI (dùng lại cụm chung "người điều khiển phương tiện" từ câu chứa hành vi — mất khả năng phân biệt với các Điều khác áp dụng cho phương tiện khác như xe máy, xe ô tô con):
+{"propositions": ["Người điều khiển phương tiện chở hàng vượt quá khối lượng cho phép bị phạt tiền."]}
+
+Bạn sẽ nhận một DANH SÁCH NHIỀU đoạn văn bản trong một lượt, mỗi đoạn có một "id" riêng đi kèm. Hãy xử lý ĐỘC LẬP từng đoạn theo đúng các nguyên tắc ở trên (không lấy nội dung của đoạn này để diễn giải cho đoạn khác, dù chúng đứng cạnh nhau trong input).
+
+Hãy trả về kết quả dưới định dạng JSON DUY NHẤT với cấu trúc sau, trong đó mỗi khóa của "results" là đúng "id" của đoạn tương ứng (giữ nguyên id, không đổi định dạng) và giá trị là danh sách câu diễn đạt lại của riêng đoạn đó:
+{
+  "results": {
+    "<id_1>": ["Câu diễn đạt lại thứ nhất của đoạn id_1", "Câu diễn đạt lại thứ hai (chỉ khi thực sự cần tách)"],
+    "<id_2>": ["Câu diễn đạt lại thứ nhất của đoạn id_2"]
+  }
+}
+
+PHẢI trả về đầy đủ kết quả cho TẤT CẢ id có trong input, không được bỏ sót id nào."""
+
+def build_batch_user_content(batch):
     """
-    Call OpenAI API to rewrite text_content with retry logic and exponential backoff.
+    Build a single user message containing multiple sections, each tagged with its id.
     """
+    parts = [f'--- id: {sec["id"]} ---\n{sec["text_content"]}' for sec in batch]
+    return "Các đoạn văn bản cần xử lý (mỗi đoạn có id riêng, xử lý độc lập):\n\n" + "\n\n".join(parts)
+
+def call_openai_batch_with_retry(batch, max_retries=5, initial_backoff=2):
+    """
+    Call OpenAI API to rewrite a batch of sections in a single request, with retry logic and exponential backoff.
+    """
+    user_content = build_batch_user_content(batch)
     retries = 0
     backoff = initial_backoff
     while retries < max_retries:
@@ -69,7 +119,7 @@ def call_openai_with_retry(text_content, max_retries=5, initial_backoff=2):
                 model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": f"Văn bản cần xử lý:\n{text_content}"}
+                    {"role": "user", "content": user_content}
                 ],
                 response_format={"type": "json_object"},
                 temperature=0.0
@@ -77,7 +127,7 @@ def call_openai_with_retry(text_content, max_retries=5, initial_backoff=2):
             # Parse response
             content = response.choices[0].message.content
             result = json.loads(content)
-            return result.get("propositions", [])
+            return result.get("results", {})
         except Exception as e:
             retries += 1
             if retries >= max_retries:
@@ -86,25 +136,33 @@ def call_openai_with_retry(text_content, max_retries=5, initial_backoff=2):
             print(f"\nAPI call failed: {e}. Retrying in {backoff} seconds... (Attempt {retries}/{max_retries})")
             time.sleep(backoff)
             backoff *= 2
+    raise RuntimeError("max_retries exhausted without a successful response")
 
-def process_section(section):
+def process_batch(batch):
     """
-    Worker function to process a single section.
+    Worker function to process a batch of sections in one API call.
+    Returns a dict mapping section id -> propositions (or None on failure for that id).
     """
-    text_content = section.get("text_content", "")
-    if not text_content.strip():
-        return section["id"], []
     try:
-        propositions = call_openai_with_retry(text_content)
-        return section["id"], propositions
+        results = call_openai_batch_with_retry(batch)
     except Exception:
-        return section["id"], None
+        results = {}
+    output = {}
+    for sec in batch:
+        propositions = results.get(sec["id"])
+        output[sec["id"]] = propositions if isinstance(propositions, list) else None
+    return output
+
+def chunked(items, size):
+    for i in range(0, len(items), size):
+        yield items[i:i + size]
 
 def main():
     parser = argparse.ArgumentParser(description="Rewrite legal sections into atomic propositions using GPT-4o-mini.")
     parser.add_argument("--input", default="src/Building_KG/material_for_triplets/1_sections_nghi_dinh_168_2024_1.json", help="Path to input json file")
     parser.add_argument("--output", default="src/Building_KG/material_for_triplets/2_sections_rewritten_nghi_dinh_168_2024_1.json", help="Path to output json file")
     parser.add_argument("--threads", type=int, default=10, help="Number of concurrent threads")
+    parser.add_argument("--batch-size", type=int, default=20, help="Number of sections to send per API request")
     parser.add_argument("--limit", type=int, default=0, help="Limit number of sections to process (for testing)")
     args = parser.parse_args()
 
@@ -144,55 +202,62 @@ def main():
         print("All sections have already been processed.")
         return
 
+    # Sections with empty text_content don't need an API call
+    empty_sections = [s for s in to_process if not s.get("text_content", "").strip()]
+    for s in empty_sections:
+        enriched_sec = s.copy()
+        enriched_sec["rewritten_propositions"] = []
+        processed_results[s["id"]] = enriched_sec
+
+    nonempty_sections = [s for s in to_process if s.get("text_content", "").strip()]
+    batches = list(chunked(nonempty_sections, args.batch_size))
+
     # Track results
-    success_count = 0
+    success_count = len(empty_sections)
     fail_count = 0
     total_to_process = len(to_process)
+    processed_count = len(empty_sections)
 
-    # We will save progress periodically (every 10 items processed)
-    save_interval = 10
-
-    # Initialize the output list with already processed items
-    final_output = list(processed_results.values())
-
-    print(f"Starting processing using ThreadPoolExecutor with {args.threads} threads...")
+    print(f"Starting processing using ThreadPoolExecutor with {args.threads} threads, "
+          f"{len(batches)} batches of up to {args.batch_size} sections each...")
 
     with ThreadPoolExecutor(max_workers=args.threads) as executor:
         # Submit tasks
-        future_to_section = {executor.submit(process_section, sec): sec for sec in to_process}
+        future_to_batch = {executor.submit(process_batch, batch): batch for batch in batches}
 
-        for i, future in enumerate(as_completed(future_to_section)):
-            sec = future_to_section[future]
-            sec_id, propositions = future.result()
+        for future in as_completed(future_to_batch):
+            batch = future_to_batch[future]
+            results = future.result()
 
-            if propositions is not None:
-                success_count += 1
-                # Merge original section dict with rewritten propositions
-                enriched_sec = sec.copy()
-                enriched_sec["rewritten_propositions"] = propositions
-                processed_results[sec_id] = enriched_sec
-            else:
-                fail_count += 1
-                print(f"\nFailed to process section {sec_id}")
+            for sec in batch:
+                propositions = results.get(sec["id"])
+                processed_count += 1
+                if propositions is not None:
+                    success_count += 1
+                    # Merge original section dict with rewritten propositions
+                    enriched_sec = sec.copy()
+                    enriched_sec["rewritten_propositions"] = propositions
+                    processed_results[sec["id"]] = enriched_sec
+                else:
+                    fail_count += 1
+                    print(f"\nFailed to process section {sec['id']}")
 
             # Print status update
-            progress_percent = ((i + 1) / total_to_process) * 100
-            print(f"Progress: {i+1}/{total_to_process} ({progress_percent:.2f}%) | Success: {success_count} | Failed: {fail_count}", end="\r")
+            progress_percent = (processed_count / total_to_process) * 100
+            print(f"Progress: {processed_count}/{total_to_process} ({progress_percent:.2f}%) | Success: {success_count} | Failed: {fail_count}", end="\r")
 
-            # Periodically save progress
-            if (i + 1) % save_interval == 0 or (i + 1) == total_to_process:
-                # Build complete list in order of original sections
-                ordered_output = []
-                for s in sections:
-                    if s["id"] in processed_results:
-                        ordered_output.append(processed_results[s["id"]])
+            # Save progress after every batch
+            ordered_output = []
+            for s in sections:
+                if s["id"] in processed_results:
+                    ordered_output.append(processed_results[s["id"]])
 
-                # Write to temp file first to prevent corruption
-                temp_output_path = args.output + ".tmp"
-                with open(temp_output_path, "w", encoding="utf-8") as f:
-                    json.dump(ordered_output, f, ensure_ascii=False, indent=4)
-                os.replace(temp_output_path, args.output)
-                print(f"\nSaved progress. Total processed: {len(processed_results)}")
+            # Write to temp file first to prevent corruption
+            temp_output_path = args.output + ".tmp"
+            with open(temp_output_path, "w", encoding="utf-8") as f:
+                json.dump(ordered_output, f, ensure_ascii=False, indent=4)
+            os.replace(temp_output_path, args.output)
+            print(f"\nSaved progress. Total processed: {len(processed_results)}")
 
     print(f"\nDone processing. Success: {success_count}, Failed: {fail_count}.")
     print(f"Final results saved to {args.output}")

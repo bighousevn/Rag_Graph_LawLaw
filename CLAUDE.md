@@ -45,7 +45,7 @@ Concept:
 
 - Dùng mức đủ cụ thể để phân biệt các điều khoản khác nhau
 - Tách concept riêng khi không có object nào trong triplet giúp phân biệt được hai chủ thể
-- Mọi keyphrase trong văn bản phải ánh xạ được về đúng một concept (độ phủ 100%)
+- Không cần phủ hết mọi thực thể xuất hiện trong văn bản — chỉ tạo concept cho thực thể đóng vai trò CHỦ THỂ/ĐỐI TƯỢNG trong một Relation thể hiện đúng ý hành vi cốt lõi của Điều/Khoản/Điểm. Thực thể phụ không ảnh hưởng tới việc phân biệt điều khoản (vd chi tiết định lượng, liệt kê minh hoạ, thực thể chỉ xuất hiện thoáng qua) thì bỏ qua, không cần concept hóa
 - Nhất quán mức độ trừu tượng giữa ConceptS và ConceptO trong cùng một Relation
 
 **Ví dụ:**
@@ -66,7 +66,7 @@ Concept:
 
 ### Relation
 
-Mỗi relation là một quan hệ cốt lõi đủ phủ toàn bộ hành vi trong văn bản luật.
+Mỗi relation là một quan hệ cốt lõi, đủ để cùng Concept thể hiện đúng ý hành vi của một đơn vị luật — không cần phủ kín mọi biến thể hành vi nhỏ lẻ xuất hiện trong văn bản.
 
 ```python
 Relation:
@@ -138,43 +138,81 @@ Address:
 
 ---
 
+## Format lưu trữ Ontology
+
+Ontology được lưu dưới dạng JSON với hai danh sách `concepts` và `relations`:
+
+```json
+{
+  "concepts": [
+    {
+      "name": "Ô tô",
+      "keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "ô tô", "xe hơi"]
+    }
+  ],
+  "relations": [
+    {
+      "name": "điều_khiển",
+      "keyphrases": ["điều khiển", "lái", "cầm lái"],
+      "concept_s": "Người",
+      "concept_o": ["Ô tô", "Xe máy"]
+    }
+  ]
+}
+```
+
+---
+
 ## Quy trình xây dựng
 
 ### Bước 1: Đọc toàn bộ văn bản
 
 Đọc hết văn bản trước, liệt kê tất cả thực thể và hành vi xuất hiện.
 
-### Bước 2: Xây dựng Ontology (chuyên gia thực hiện)
+### Bước 2: Xây dựng Ontology (GPT-4o-mini + chuyên gia duyệt)
+
+Input: field `rewritten_propositions` từ file JSON (các mệnh đề đã chuẩn hoá Chủ thể–Hành vi–Đối tượng).
 
 ```
-2a. Xác định Concept
-    - Nhóm các thực thể đồng nghĩa về cùng một concept
-    - Kiểm tra độ phủ: mọi keyphrase trong văn bản đều ánh xạ được
+2a. Trích xuất entity và relation bằng GPT-4o-mini
+    - Gửi từng batch rewritten_propositions cho GPT-4o-mini
+    - LLM nhận diện entity (danh từ chủ thể/đối tượng) và relation (hành vi) từ mỗi mệnh đề
+    - Nhóm các entity đồng nghĩa về cùng một Concept; nhóm các relation đồng nghĩa về cùng một Relation
+    - Chỉ giữ Concept cho entity tham gia vào một Relation thể hiện ý hành vi cốt lõi của đơn vị luật
+    - Bỏ qua entity phụ không phục vụ việc phân biệt điều khoản và relation rác (lỗi parser, không rõ nghĩa)
 
-2b. Xác định Relation
-    - Liệt kê các quan hệ cốt lõi
-    - Xác định ConceptS, ConceptO cho từng relation
+2b. Xác định ConceptS, ConceptO cho từng Relation
+    - Dựa trên ví dụ subject/object đi kèm từng relation trong triplet thô
+    - Mỗi Relation có đúng một ConceptS
 
-2c. Kiểm tra độ phủ
-    - Không có keyphrase nào bị lơ lửng (không thuộc concept nào)
+2c. Kiểm tra mức đủ dùng (chuyên gia duyệt)
+    - Mỗi Điều/Khoản/Điểm có ít nhất một triplet (ConceptS, Relation, ConceptO) diễn tả đúng ý hành vi cốt lõi của nó
+    - Không cần ánh xạ mọi keyphrase trong văn bản về một concept — chỉ cần Concept + Relation đã đủ để phân biệt đơn vị luật này với các đơn vị luật khác
 ```
 
-**Công cụ hỗ trợ tìm concept và relation:**
+> **Lưu ý:** VnCoreNLP **không** dùng ở bước này — tách từ tự động hay phân tích cú pháp dependency sẽ tách thuật ngữ pháp lý quá nhỏ lẻ, không phù hợp để gom nhóm khái niệm ở mức miền. GPT-4o-mini xử lý trực tiếp `rewritten_propositions` hiệu quả hơn cho task này. VnCoreNLP chỉ dùng ở Bước 5 (xử lý câu hỏi người dùng).
 
-- VnCoreNLP / spaCy — NER, POS tagging để nhận diện danh từ và động từ
-- PhoBERT — đo độ tương đồng ngữ nghĩa để gợi ý nhóm đồng nghĩa
-- LLM (GPT-4, Gemini) — sinh draft để chuyên gia xét duyệt
-- OpenIE — trích xuất triplet thô (subject, relation, object)
+**Công cụ:**
 
-### Bước 3: Xây dựng Knowledge Graph (bán tự động)
+- GPT-4o-mini (OpenAI) — trích xuất entity/relation, gom nhóm thành Concept/Relation theo batch
+- PhoBERT — đo độ tương đồng ngữ nghĩa để gợi ý gom nhóm đồng nghĩa (tuỳ chọn, bổ trợ)
+
+### Bước 3: Xây dựng Knowledge Graph (GPT-4o-mini + bán tự động)
 
 ```
-3a. Trích xuất keyphrases từ từng điều khoản (VnCoreNLP)
-3b. Ánh xạ keyphrase → Concept (qua Keyphrases trong Onto)
-3c. Ánh xạ động từ → Relation (qua Keyphrases của Relation)
-3d. Tạo triplet (ConceptS, Relation, ConceptO)
-3e. Nếu triplet đã tồn tại → thêm address mới
+3a. Với mỗi rewritten_proposition, dùng GPT-4o-mini tạo triplet
+    - Input: proposition + ontology đã có (Concept list + Relation list)
+    - LLM ánh xạ entity → Concept, động từ → Relation
+    - Sinh một hoặc nhiều triplet (ConceptS, Relation, ConceptO) theo dạng mạng lưới nối tiếp:
+        không chỉ quan hệ trực tiếp giữa chủ thể và đối tượng, mà còn các quan hệ
+        tiếp theo giữa đối tượng với các concept khác nếu proposition diễn đạt chuỗi
+        Ví dụ: (Người, sử_dụng, Còi) → (Còi, bị_cấm_tại, Khu đông dân cư)
+
+3b. Nếu triplet đã tồn tại → thêm address mới vào danh sách
     Nếu triplet chưa tồn tại → tạo edge mới
+
+3c. Gắn address (Điều, Khoản, Điểm, Văn bản) cho mỗi triplet
+    từ metadata của section tương ứng trong file JSON
 ```
 
 ### Bước 4: Tối ưu đồ thị
@@ -195,12 +233,13 @@ Loại bỏ triplet trùng lặp, hợp nhất cạnh có cùng nghĩa.
 
 ## Công cụ và thư viện
 
-| Công việc                    | Công cụ                     |
-| ---------------------------- | --------------------------- |
-| Tách từ, NER, POS tiếng Việt | VnCoreNLP                   |
-| Embedding câu truy vấn       | PhoBERT                     |
-| Lưu trữ Knowledge Graph      | Neo4j hoặc RDFLib           |
-| Tính trọng số keyphrase      | TF-IDF (scikit-learn)       |
-| Parse cấu trúc văn bản       | Python + regex / pdfplumber |
+| Công việc                              | Công cụ                                                                     |
+| -------------------------------------- | --------------------------------------------------------------------------- |
+| Tách từ, NER, POS tiếng Việt           | VnCoreNLP                                                                   |
+| Embedding câu truy vấn                 | PhoBERT                                                                     |
+| Lưu trữ Knowledge Graph               | Neo4j hoặc RDFLib                                                           |
+| Tính trọng số keyphrase               | TF-IDF (scikit-learn)                                                       |
+| Parse cấu trúc văn bản                | Python + regex / pdfplumber                                                 |
+| Trích xuất entity/relation, tạo triplet | GPT-4o-mini (OpenAI) — $0.15/1M input tokens, $0.60/1M output tokens; rẻ hơn ~7× Claude Haiku, đủ mạnh cho task trích xuất có cấu trúc |
 
 ---
