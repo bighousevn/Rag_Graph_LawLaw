@@ -34,9 +34,10 @@ CATEGORY_BY_SECTION = {
     "5": "HA_TANG",           # A.5 Hạ tầng & báo hiệu
     "6": "CO_QUAN",           # A.6 Cơ quan, người có thẩm quyền
     "7": "HOAT_DONG",         # A.7 Hoạt động / lĩnh vực
+    "8": "BO_SUNG_ND168",     # A.8 Thiết bị, dữ liệu, giấy tờ, hành vi chi tiết
 }
 
-RE_SECTION = re.compile(r"^##\s+A\.(\d)\.")
+RE_SECTION = re.compile(r"^##\s+A\.(\d+)\.")
 RE_PART_B = re.compile(r"^#\s+PHẦN B")
 RE_CONCEPT = re.compile(r'^###\s+Bảng\s+C(\d+):\s*"(.+?)"')
 RE_RELATION = re.compile(r'^###\s+Bảng\s+R(\d+):\s*"(.+?)"')
