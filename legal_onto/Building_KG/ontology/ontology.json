@@ -149,7 +149,7 @@
     },
     {
       "id": "C7",
-      "name": "Rơ moóc, sơ mi rơ moóc",
+      "name": "Rơ moóc",
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "rơ moóc",
@@ -165,7 +165,7 @@
     },
     {
       "id": "C8",
-      "name": "Xe đạp, xe đạp máy",
+      "name": "Xe đạp",
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe đạp",
@@ -193,7 +193,7 @@
     },
     {
       "id": "C10",
-      "name": "Xe vật nuôi kéo",
+      "name": "Xe súc vật kéo",
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe vật nuôi kéo",
@@ -207,7 +207,7 @@
     },
     {
       "id": "C11",
-      "name": "Xe cứu hộ giao thông đường bộ",
+      "name": "Xe cứu hộ",
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe cứu hộ giao thông đường bộ",
@@ -231,7 +231,7 @@
     },
     {
       "id": "C13",
-      "name": "Xe vệ sinh môi trường, xe ô tô chở phế thải",
+      "name": "Xe vệ sinh môi trường",
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe vệ sinh môi trường",
@@ -245,7 +245,7 @@
     },
     {
       "id": "C14",
-      "name": "Xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích",
+      "name": "Xe quá khổ quá tải",
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe quá khổ giới hạn",
@@ -264,7 +264,7 @@
     },
     {
       "id": "C15",
-      "name": "Phương tiện gắn biển số nước ngoài",
+      "name": "Xe biển số nước ngoài",
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài",
@@ -278,7 +278,7 @@
     },
     {
       "id": "C16",
-      "name": "Người điều khiển phương tiện",
+      "name": "Người lái xe",
       "category": "CHU_THE",
       "keyphrases": [
         "người điều khiển",
@@ -343,7 +343,7 @@
     },
     {
       "id": "C21",
-      "name": "Cá nhân, tổ chức vi phạm",
+      "name": "Cá nhân tổ chức",
       "category": "CHU_THE",
       "keyphrases": [
         "cá nhân",
@@ -360,7 +360,7 @@
     },
     {
       "id": "C22",
-      "name": "Người đua xe, tổ chức đua xe",
+      "name": "Người đua xe",
       "category": "CHU_THE",
       "keyphrases": [
         "đua xe",
@@ -389,7 +389,7 @@
     },
     {
       "id": "C24",
-      "name": "Xử phạt vi phạm hành chính",
+      "name": "Xử phạt hành chính",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "xử phạt",
@@ -439,7 +439,7 @@
     },
     {
       "id": "C28",
-      "name": "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn",
+      "name": "Tước giấy phép",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "tước quyền sử dụng",
@@ -454,7 +454,7 @@
     },
     {
       "id": "C29",
-      "name": "Đình chỉ hoạt động có thời hạn",
+      "name": "Đình chỉ hoạt động",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "đình chỉ hoạt động có thời hạn",
@@ -466,7 +466,7 @@
     },
     {
       "id": "C30",
-      "name": "Biện pháp khắc phục hậu quả",
+      "name": "Khắc phục hậu quả",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "biện pháp khắc phục hậu quả",
@@ -481,7 +481,7 @@
     },
     {
       "id": "C31",
-      "name": "Điểm giấy phép lái xe",
+      "name": "Điểm bằng lái",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "điểm giấy phép lái xe",
@@ -494,7 +494,7 @@
     },
     {
       "id": "C32",
-      "name": "Trừ điểm giấy phép lái xe",
+      "name": "Trừ điểm",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "trừ điểm giấy phép lái xe",
@@ -507,7 +507,7 @@
     },
     {
       "id": "C33",
-      "name": "Phục hồi điểm giấy phép lái xe",
+      "name": "Phục hồi điểm",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "phục hồi điểm",
@@ -518,7 +518,7 @@
     },
     {
       "id": "C34",
-      "name": "Thời hiệu xử phạt vi phạm hành chính",
+      "name": "Thời hiệu xử phạt",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "thời hiệu xử phạt",
@@ -541,7 +541,7 @@
     },
     {
       "id": "C36",
-      "name": "Biên bản vi phạm hành chính",
+      "name": "Biên bản vi phạm",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "biên bản vi phạm hành chính",
@@ -553,7 +553,7 @@
     },
     {
       "id": "C37",
-      "name": "Tạm giữ phương tiện, giấy tờ",
+      "name": "Tạm giữ",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "tạm giữ phương tiện",
@@ -594,7 +594,7 @@
     },
     {
       "id": "C40",
-      "name": "Giấy chứng nhận đăng ký xe",
+      "name": "Giấy đăng ký xe",
       "category": "GIAY_TO",
       "keyphrases": [
         "chứng nhận đăng ký xe",
@@ -624,7 +624,7 @@
     },
     {
       "id": "C42",
-      "name": "Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+      "name": "Giấy đăng kiểm",
       "category": "GIAY_TO",
       "keyphrases": [
         "giấy chứng nhận kiểm định",
@@ -652,7 +652,7 @@
     },
     {
       "id": "C44",
-      "name": "Giấy phép đào tạo, sát hạch lái xe",
+      "name": "Giấy phép đào tạo sát hạch",
       "category": "GIAY_TO",
       "keyphrases": [
         "giấy phép đào tạo lái xe",
@@ -663,7 +663,7 @@
     },
     {
       "id": "C45",
-      "name": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
+      "name": "Giấy phép đăng kiểm",
       "category": "GIAY_TO",
       "keyphrases": [
         "giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
@@ -698,7 +698,7 @@
     },
     {
       "id": "C48",
-      "name": "Lòng đường, vỉa hè",
+      "name": "Lòng đường",
       "category": "HA_TANG",
       "keyphrases": [
         "lòng đường",
@@ -711,7 +711,7 @@
     },
     {
       "id": "C49",
-      "name": "Biển báo hiệu đường bộ, đèn tín hiệu giao thông",
+      "name": "Biển báo đèn tín hiệu",
       "category": "HA_TANG",
       "keyphrases": [
         "biển báo hiệu",
@@ -729,7 +729,7 @@
     },
     {
       "id": "C50",
-      "name": "Quy tắc giao thông đường bộ",
+      "name": "Quy tắc giao thông",
       "category": "HA_TANG",
       "keyphrases": [
         "quy tắc giao thông đường bộ",
@@ -742,7 +742,7 @@
     },
     {
       "id": "C51",
-      "name": "Chủ tịch Ủy ban nhân dân các cấp",
+      "name": "Chủ tịch UBND",
       "category": "CO_QUAN",
       "keyphrases": [
         "Chủ tịch Ủy ban nhân dân",
@@ -771,7 +771,7 @@
     },
     {
       "id": "C53",
-      "name": "Thanh tra chuyên ngành",
+      "name": "Thanh tra giao thông",
       "category": "CO_QUAN",
       "keyphrases": [
         "Thanh tra chuyên ngành",
@@ -783,7 +783,7 @@
     },
     {
       "id": "C54",
-      "name": "Người có thẩm quyền lập biên bản",
+      "name": "Người lập biên bản",
       "category": "CO_QUAN",
       "keyphrases": [
         "người có thẩm quyền lập biên bản",
@@ -794,7 +794,7 @@
     },
     {
       "id": "C55",
-      "name": "Kinh doanh vận tải đường bộ",
+      "name": "Kinh doanh vận tải",
       "category": "HOAT_DONG",
       "keyphrases": [
         "kinh doanh vận tải",
@@ -808,7 +808,7 @@
     },
     {
       "id": "C56",
-      "name": "Vận chuyển hàng hóa nguy hiểm",
+      "name": "Vận chuyển hàng nguy hiểm",
       "category": "HOAT_DONG",
       "keyphrases": [
         "hàng hóa nguy hiểm",
@@ -821,7 +821,7 @@
     },
     {
       "id": "C57",
-      "name": "Vận chuyển hàng siêu trường, siêu trọng",
+      "name": "Vận chuyển hàng siêu trường",
       "category": "HOAT_DONG",
       "keyphrases": [
         "hàng siêu trường",
@@ -835,7 +835,7 @@
     },
     {
       "id": "C58",
-      "name": "Đào tạo, sát hạch lái xe",
+      "name": "Đào tạo sát hạch lái xe",
       "category": "HOAT_DONG",
       "keyphrases": [
         "đào tạo lái xe",
@@ -851,7 +851,7 @@
     },
     {
       "id": "C59",
-      "name": "Hoạt động đăng kiểm xe cơ giới",
+      "name": "Đăng kiểm xe",
       "category": "HOAT_DONG",
       "keyphrases": [
         "đăng kiểm",
@@ -879,7 +879,7 @@
     },
     {
       "id": "C61",
-      "name": "Sản xuất, lắp ráp trái phép phương tiện; mua, bán biển số xe trái phép",
+      "name": "Sản xuất lắp ráp trái phép",
       "category": "HOAT_DONG",
       "keyphrases": [
         "sản xuất lắp ráp trái phép phương tiện",
@@ -893,7 +893,7 @@
     },
     {
       "id": "C62",
-      "name": "Thiết bị, vật dụng trên phương tiện",
+      "name": "Thiết bị trên xe",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "thiết bị",
@@ -933,7 +933,7 @@
     },
     {
       "id": "C63",
-      "name": "Thiết bị giám sát, ghi nhận dữ liệu",
+      "name": "Thiết bị giám sát",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "thiết bị giám sát hành trình",
@@ -955,7 +955,7 @@
     },
     {
       "id": "C64",
-      "name": "Nồng độ cồn, chất ma túy",
+      "name": "Nồng độ cồn ma túy",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "nồng độ cồn",
@@ -973,7 +973,7 @@
     },
     {
       "id": "C65",
-      "name": "Hàng hóa, hành lý, vật liệu",
+      "name": "Hàng hóa hành lý",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "hàng hóa",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "C66",
-      "name": "Hậu quả, thiệt hại",
+      "name": "Hậu quả thiệt hại",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "hậu quả",
@@ -1023,7 +1023,7 @@
     },
     {
       "id": "C67",
-      "name": "Dữ liệu, thông tin điện tử",
+      "name": "Dữ liệu điện tử",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "dữ liệu",
@@ -1078,7 +1078,7 @@
     },
     {
       "id": "C69",
-      "name": "Điều kiện người điều khiển phương tiện",
+      "name": "Điều kiện người lái",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "điều kiện của người điều khiển",
@@ -1099,7 +1099,7 @@
     },
     {
       "id": "C70",
-      "name": "Hồ sơ, tài liệu",
+      "name": "Hồ sơ tài liệu",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "hồ sơ",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "C71",
-      "name": "Giấy phép lưu hành, vận chuyển",
+      "name": "Giấy phép lưu hành",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "giấy phép lưu hành",
@@ -1142,7 +1142,7 @@
     },
     {
       "id": "C72",
-      "name": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+      "name": "Bảo hiểm bắt buộc",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
@@ -1154,7 +1154,7 @@
     },
     {
       "id": "C73",
-      "name": "Giấy vận tải, lệnh vận chuyển, hợp đồng vận tải",
+      "name": "Giấy vận tải",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "giấy vận tải",
@@ -1186,7 +1186,7 @@
     },
     {
       "id": "C75",
-      "name": "Người phục vụ, quản lý, áp tải trên xe",
+      "name": "Nhân viên trên xe",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "nhân viên phục vụ trên xe",
@@ -1202,7 +1202,7 @@
     },
     {
       "id": "C76",
-      "name": "Cơ sở đào tạo, sát hạch lái xe",
+      "name": "Cơ sở đào tạo sát hạch",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "cơ sở đào tạo lái xe",
@@ -1221,7 +1221,7 @@
     },
     {
       "id": "C77",
-      "name": "Cơ sở đăng kiểm, thử nghiệm, sản xuất, nhập khẩu",
+      "name": "Cơ sở đăng kiểm",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "cơ sở đăng kiểm",
@@ -1243,7 +1243,7 @@
     },
     {
       "id": "C78",
-      "name": "Cơ quan đăng ký, đăng kiểm, cấp giấy phép",
+      "name": "Cơ quan cấp phép",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "cơ quan đăng ký xe",
@@ -1260,7 +1260,7 @@
     },
     {
       "id": "C79",
-      "name": "Đường, làn, khu vực giao thông",
+      "name": "Làn đường khu vực",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "phần đường",
@@ -1310,7 +1310,7 @@
     },
     {
       "id": "C81",
-      "name": "Người bị nạn, người yếu thế",
+      "name": "Người yếu thế",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "người bị nạn",
@@ -1331,7 +1331,7 @@
     },
     {
       "id": "C82",
-      "name": "Hành vi vi phạm quy tắc giao thông",
+      "name": "Vi phạm quy tắc giao thông",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "không chấp hành hiệu lệnh",
@@ -1370,7 +1370,7 @@
     },
     {
       "id": "C83",
-      "name": "Hành vi vi phạm giấy tờ, biển số, kiểm định",
+      "name": "Vi phạm giấy tờ biển số",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "không có giấy phép lái xe",
@@ -1396,7 +1396,7 @@
     },
     {
       "id": "C84",
-      "name": "Hành vi vi phạm vận tải hành khách",
+      "name": "Vi phạm vận tải hành khách",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "chở quá số người",
@@ -1419,7 +1419,7 @@
     },
     {
       "id": "C85",
-      "name": "Hành vi vi phạm vận tải hàng hóa",
+      "name": "Vi phạm vận tải hàng hóa",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "chở quá tải",
@@ -1441,7 +1441,7 @@
     },
     {
       "id": "C86",
-      "name": "Hành vi vi phạm môi trường",
+      "name": "Vi phạm môi trường",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "không đáp ứng yêu cầu vệ sinh lưu thông",
@@ -1459,7 +1459,7 @@
     },
     {
       "id": "C87",
-      "name": "Hành vi vi phạm đào tạo, sát hạch",
+      "name": "Vi phạm đào tạo sát hạch",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "đào tạo vượt lưu lượng",
@@ -1481,7 +1481,7 @@
     },
     {
       "id": "C88",
-      "name": "Hành vi vi phạm đăng kiểm, thử nghiệm",
+      "name": "Vi phạm đăng kiểm",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "kiểm định không đúng quy định",
@@ -1498,7 +1498,7 @@
     },
     {
       "id": "C89",
-      "name": "Hành vi vi phạm của chủ phương tiện",
+      "name": "Vi phạm chủ phương tiện",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "giao phương tiện cho người không đủ điều kiện",
@@ -1521,7 +1521,7 @@
     },
     {
       "id": "C90",
-      "name": "Hành vi vi phạm dữ liệu, thiết bị giám sát",
+      "name": "Vi phạm thiết bị giám sát",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "không cung cấp dữ liệu",
@@ -1540,7 +1540,7 @@
     },
     {
       "id": "C91",
-      "name": "Tình tiết, trạng thái vi phạm",
+      "name": "Tình tiết vi phạm",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "tái phạm",
@@ -1561,7 +1561,7 @@
     },
     {
       "id": "C92",
-      "name": "Thủ tục, quyết định xử phạt",
+      "name": "Quyết định xử phạt",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "thủ tục xử phạt",
@@ -1623,7 +1623,7 @@
     },
     {
       "id": "C95",
-      "name": "Hiệu lệnh, yêu cầu kiểm tra",
+      "name": "Hiệu lệnh kiểm tra",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "hiệu lệnh",
@@ -2001,7 +2001,7 @@
     },
     {
       "id": "R14",
-      "name": "Có",
+      "name": "Sở hữu",
       "keyphrases": [
         "có",
         "mang theo",
@@ -2031,7 +2031,7 @@
     },
     {
       "id": "R15",
-      "name": "Chở / Vận chuyển",
+      "name": "Vận chuyển",
       "keyphrases": [
         "chở",
         "vận chuyển",
@@ -2086,7 +2086,7 @@
     },
     {
       "id": "R17",
-      "name": "Có thẩm quyền xử phạt",
+      "name": "Có thẩm quyền",
       "keyphrases": [
         "có thẩm quyền",
         "thẩm quyền xử phạt",
@@ -2158,7 +2158,7 @@
     },
     {
       "id": "R20",
-      "name": "Yêu cầu / Bắt buộc",
+      "name": "Bắt buộc",
       "keyphrases": [
         "phải",
         "buộc",
@@ -2214,7 +2214,7 @@
     },
     {
       "id": "R22",
-      "name": "Buộc khắc phục hậu quả",
+      "name": "Khắc phục hậu quả",
       "keyphrases": [
         "buộc",
         "buộc khôi phục",
@@ -2298,7 +2298,7 @@
     },
     {
       "id": "R25",
-      "name": "Có mức xử phạt",
+      "name": "Có hình phạt",
       "keyphrases": [
         "bị phạt",
         "bị xử phạt",
@@ -2352,7 +2352,7 @@
     },
     {
       "id": "R27",
-      "name": "Bị tước quyền sử dụng",
+      "name": "Bị tước quyền",
       "keyphrases": [
         "bị tước quyền sử dụng",
         "tước quyền sử dụng",
@@ -2442,7 +2442,7 @@
     },
     {
       "id": "R30",
-      "name": "Buộc lắp đặt, thay thế",
+      "name": "Buộc lắp đặt",
       "keyphrases": [
         "buộc lắp đặt",
         "buộc lắp đầy đủ",
@@ -2471,7 +2471,7 @@
     },
     {
       "id": "R31",
-      "name": "Buộc tháo dỡ, dỡ hàng",
+      "name": "Buộc tháo dỡ",
       "keyphrases": [
         "buộc tháo dỡ",
         "buộc tháo bỏ",
@@ -2497,7 +2497,7 @@
     },
     {
       "id": "R32",
-      "name": "Buộc tái xuất, quay lại",
+      "name": "Buộc tái xuất",
       "keyphrases": [
         "buộc tái xuất",
         "tái xuất phương tiện khỏi Việt Nam",
@@ -2545,7 +2545,7 @@
     },
     {
       "id": "R34",
-      "name": "Cập nhật, truyền dữ liệu",
+      "name": "Cập nhật dữ liệu",
       "keyphrases": [
         "cung cấp",
         "cập nhật",
@@ -2574,7 +2574,7 @@
     },
     {
       "id": "R35",
-      "name": "Xuất trình, mang theo",
+      "name": "Xuất trình",
       "keyphrases": [
         "xuất trình",
         "mang theo",
@@ -2627,7 +2627,7 @@
     },
     {
       "id": "R37",
-      "name": "Lắp đặt, gắn",
+      "name": "Lắp đặt",
       "keyphrases": [
         "lắp đặt",
         "gắn",
@@ -2659,7 +2659,7 @@
     },
     {
       "id": "R38",
-      "name": "Chạy, lưu hành trên",
+      "name": "Di chuyển trên",
       "keyphrases": [
         "chạy trên",
         "đi vào",
@@ -2692,7 +2692,7 @@
     },
     {
       "id": "R39",
-      "name": "Dừng, đỗ tại",
+      "name": "Dừng đỗ",
       "keyphrases": [
         "dừng xe",
         "đỗ xe",
@@ -2784,7 +2784,7 @@
     },
     {
       "id": "R42",
-      "name": "Tổ chức đào tạo, sát hạch, đăng kiểm",
+      "name": "Đào tạo sát hạch",
       "keyphrases": [
         "tổ chức đào tạo",
         "tổ chức sát hạch",
@@ -2813,7 +2813,7 @@
     },
     {
       "id": "R43",
-      "name": "Kinh doanh, cung cấp dịch vụ",
+      "name": "Kinh doanh dịch vụ",
       "keyphrases": [
         "kinh doanh",
         "kinh doanh vận tải",
@@ -2841,7 +2841,7 @@
     },
     {
       "id": "R44",
-      "name": "Sửa đổi, bãi bỏ",
+      "name": "Sửa đổi bãi bỏ",
       "keyphrases": [
         "sửa đổi",
         "bổ sung",
