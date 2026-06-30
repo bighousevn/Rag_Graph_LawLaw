@@ -1,48 +1,39 @@
 {
-  "_note": "Chỉnh sửa thủ công (human-in-the-loop) áp lên ontology auto-parse. Giữ ontology_168.md sạch.",
-  "new_categories": ["THIET_BI", "CHAT_KICH_THICH", "HANG_HOA", "HAU_QUA"],
-  "new_concepts": [
-    {
-      "id": "C67",
-      "name": "Thiết bị điện tử, vật dụng",
-      "category": "THIET_BI",
-      "keyphrases": ["điện thoại", "điện thoại di động", "tai nghe", "thiết bị âm thanh", "thiết bị điện tử", "thiết bị", "ô", "dù"]
-    },
-    {
-      "id": "C68",
-      "name": "Nồng độ cồn, chất kích thích",
-      "category": "CHAT_KICH_THICH",
-      "keyphrases": ["nồng độ cồn", "rượu", "bia", "rượu bia", "cồn", "ma túy", "chất ma túy", "chất kích thích"]
-    },
-    {
-      "id": "C69",
-      "name": "Hàng hóa, động vật",
-      "category": "HANG_HOA",
-      "keyphrases": ["hàng hóa", "hàng", "động vật sống", "súc vật", "gia súc", "phế thải", "vật liệu", "đồ vật"]
-    },
-    {
-      "id": "C70",
-      "name": "Hậu quả, thiệt hại",
-      "category": "HAU_QUA",
-      "keyphrases": ["tai nạn giao thông", "tai nạn", "ô nhiễm môi trường", "ô nhiễm", "thiệt hại", "hậu quả", "ùn tắc giao thông"]
-    }
-  ],
-  "concept_keyphrase_additions": {
-    "C53": ["làn đường", "phần đường"],
-    "C55": ["quy định về điều kiện của phương tiện", "quy định về điều kiện của người điều khiển", "quy định về bảo vệ môi trường", "điều kiện của phương tiện", "điều kiện của người điều khiển"],
-    "C35": ["khôi phục tình trạng ban đầu", "nộp lại số lợi bất hợp pháp", "tháo dỡ thiết bị lắp thêm", "khắc phục ô nhiễm môi trường"]
-  },
+  "_note": "Override nhe cho chu ky nhom sau khi ontology_168.md da duoc bo sung truc tiep. Khong them concept/keyphrase o day de tranh lech ID khi renumber.",
+  "new_categories": [],
+  "new_concepts": [],
+  "concept_keyphrase_additions": {},
   "signature_overrides": {
-    "R2":  {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["THIET_BI", "CHAT_KICH_THICH", "HA_TANG"]},
-    "R3":  {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["HA_TANG"]},
+    "R2":  {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["BO_SUNG_ND168", "HA_TANG"]},
+    "R3":  {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["BO_SUNG_ND168", "HA_TANG"]},
     "R4":  {"ConcKeyS_cat": ["CHU_THE"]},
     "R5":  {"ConcKeyS_cat": ["CO_QUAN"]},
     "R6":  {"ConcKeyS_cat": ["HANH_VI_CHE_TAI"]},
     "R13": {"ConcKeyS_cat": ["PHUONG_TIEN"], "ConcKeyO_cat": ["PHUONG_TIEN"]},
-    "R15": {"ConcKeyS_cat": ["PHUONG_TIEN"], "ConcKeyO_cat": ["CHU_THE", "HANG_HOA"]},
+    "R15": {"ConcKeyS_cat": ["PHUONG_TIEN"], "ConcKeyO_cat": ["BO_SUNG_ND168", "CHU_THE", "HOAT_DONG"]},
     "R18": {"ConcKeyS_cat": ["CO_QUAN"]},
-    "R20": {"ConcKeyO_cat": ["GIAY_TO", "HA_TANG"]},
-    "R21": {"ConcKeyO_cat": ["HAU_QUA"]},
-    "R22": {"ConcKeyS_cat": ["CHU_THE"]}
+    "R20": {"ConcKeyO_cat": ["BO_SUNG_ND168", "GIAY_TO", "HA_TANG"]},
+    "R21": {"ConcKeyO_cat": ["BO_SUNG_ND168"]},
+    "R22": {"ConcKeyS_cat": ["CHU_THE"]},
+    "R25": {"ConcKeyS_cat": ["HANH_VI_CHE_TAI"], "ConcKeyO_cat": ["HANH_VI_CHE_TAI"]},
+    "R26": {"ConcKeyS_cat": ["ANY"], "ConcKeyO_cat": ["HANH_VI_CHE_TAI", "GIAY_TO"]},
+    "R27": {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["GIAY_TO", "BO_SUNG_ND168"]},
+    "R28": {"ConcKeyS_cat": ["CO_QUAN"], "ConcKeyO_cat": ["GIAY_TO", "BO_SUNG_ND168"]},
+    "R29": {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["GIAY_TO", "BO_SUNG_ND168"]},
+    "R30": {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["BO_SUNG_ND168"]},
+    "R31": {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["BO_SUNG_ND168", "PHUONG_TIEN"]},
+    "R32": {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["PHUONG_TIEN"]},
+    "R33": {"ConcKeyS_cat": ["HANH_VI_CHE_TAI"], "ConcKeyO_cat": ["BO_SUNG_ND168"]},
+    "R34": {"ConcKeyS_cat": ["ANY"], "ConcKeyO_cat": ["BO_SUNG_ND168", "HANH_VI_CHE_TAI"]},
+    "R35": {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["GIAY_TO", "BO_SUNG_ND168"]},
+    "R36": {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["CHU_THE", "PHUONG_TIEN"]},
+    "R37": {"ConcKeyS_cat": ["ANY"], "ConcKeyO_cat": ["GIAY_TO", "BO_SUNG_ND168"]},
+    "R38": {"ConcKeyS_cat": ["ANY"], "ConcKeyO_cat": ["HA_TANG", "PHUONG_TIEN"]},
+    "R39": {"ConcKeyS_cat": ["ANY"], "ConcKeyO_cat": ["HA_TANG", "BO_SUNG_ND168"]},
+    "R40": {"ConcKeyS_cat": ["ANY"], "ConcKeyO_cat": ["BO_SUNG_ND168"]},
+    "R41": {"ConcKeyS_cat": ["CHU_THE"], "ConcKeyO_cat": ["HA_TANG", "BO_SUNG_ND168"]},
+    "R42": {"ConcKeyS_cat": ["BO_SUNG_ND168"], "ConcKeyO_cat": ["GIAY_TO", "HOAT_DONG"]},
+    "R43": {"ConcKeyS_cat": ["ANY"], "ConcKeyO_cat": ["HOAT_DONG", "BO_SUNG_ND168"]},
+    "R44": {"ConcKeyS_cat": ["BO_SUNG_ND168"], "ConcKeyO_cat": ["BO_SUNG_ND168", "HANH_VI_CHE_TAI"]}
   }
 }
