@@ -22,11 +22,7 @@
       "keyphrases": [
         "xe cơ giới",
         "phương tiện giao thông cơ giới đường bộ",
-        "phương tiện giao thông cơ giới",
-        "phương tiện cơ giới",
-        "xe có động cơ",
-        "xe gắn động cơ",
-        "xe máy móc"
+        "phương tiện giao thông cơ giới"
       ]
     },
     {
@@ -36,53 +32,20 @@
       "keyphrases": [
         "xe ô tô",
         "ô tô",
-        "ôtô",
-        "xe hơi",
-        "ô tô con",
-        "xe bốn bánh",
-        "xe 4 bánh",
-        "xe ô tô và các loại xe tương tự",
         "ô tô tải",
         "xe ô tô tải",
-        "xe tải",
-        "xe ben",
-        "xe thùng",
         "xe chở hàng",
-        "xe tải nặng",
-        "xe tải nhẹ",
         "ô tô chở người",
         "ô tô chở hành khách",
         "xe ô tô chở người",
         "xe ô tô chở hành khách",
-        "xe ô tô chở người và các loại xe tương tự",
         "xe khách",
         "xe buýt",
-        "xe bus",
-        "xe đò",
-        "xe giường nằm",
-        "xe limousine",
-        "xe 16 chỗ",
-        "xe 45 chỗ",
         "xe chở người bốn bánh có gắn động cơ",
-        "xe bốn bánh chở người",
-        "xe điện chở khách",
-        "xe điện du lịch",
-        "xe điện 4 bánh",
         "xe chở hàng bốn bánh có gắn động cơ",
-        "xe bốn bánh chở hàng",
-        "xe tải nhỏ 4 bánh",
         "ô tô đầu kéo",
-        "xe container",
         "xe ô tô kinh doanh vận tải",
-        "xe ô tô kinh doanh vận tải chở trẻ em mầm non học sinh",
-        "xe kinh doanh vận tải",
-        "xe hợp đồng",
-        "xe taxi",
-        "xe công nghệ",
-        "xe đưa đón học sinh",
-        "xe tuyến cố định",
-        "xe dịch vụ",
-        "auto"
+        "xe kinh doanh vận tải"
       ]
     },
     {
@@ -96,12 +59,7 @@
         "xe mô tô ba bánh",
         "xe mô tô và các loại xe tương tự xe mô tô",
         "xe máy",
-        "mô-tô",
-        "môtô",
-        "xe phân khối lớn",
-        "xe hai bánh",
-        "xe ba gác máy",
-        "xe pkl"
+        "xe hai bánh"
       ]
     },
     {
@@ -110,27 +68,15 @@
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe gắn máy",
-        "các loại xe tương tự xe gắn máy",
-        "xe gắn máy dưới 50cc",
-        "xe dưới 50 phân khối",
-        "xe máy điện công suất nhỏ",
-        "xe số dưới 50cc"
+        "các loại xe tương tự xe gắn máy"
       ]
     },
     {
       "id": "C5",
-      "name": "Xe chuyên dùng",
+      "name": "xe máy chuyên dùng",
       "category": "PHUONG_TIEN",
       "keyphrases": [
-        "xe máy chuyên dùng",
-        "máy thi công",
-        "xe công trình",
-        "máy nông nghiệp",
-        "máy lâm nghiệp",
-        "xe chuyên dùng",
-        "máy ủi",
-        "máy xúc",
-        "xe lu"
+        "xe máy chuyên dùng"
       ]
     },
     {
@@ -141,10 +87,7 @@
         "máy kéo",
         "đầu kéo",
         "ô tô đầu kéo",
-        "xe đầu kéo",
-        "xe kéo",
-        "xe container",
-        "tractor"
+        "xe kéo"
       ]
     },
     {
@@ -155,12 +98,7 @@
         "rơ moóc",
         "sơ mi rơ moóc",
         "được kéo theo",
-        "moóc",
-        "mooc",
-        "rờ moóc",
-        "sơ-mi rơ-moóc",
-        "thùng moóc",
-        "trailer"
+        "moóc"
       ]
     },
     {
@@ -169,11 +107,7 @@
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe đạp",
-        "xe đạp máy",
-        "xe đạp điện",
-        "xe đạp thường",
-        "xe đạp trợ lực điện",
-        "xe đạp trẻ em"
+        "xe đạp máy"
       ]
     },
     {
@@ -183,24 +117,16 @@
       "keyphrases": [
         "xe thô sơ",
         "xe thô sơ khác",
-        "xe ba gác",
-        "xe xích lô",
-        "xe lôi",
-        "xe kéo tay",
-        "xe đẩy tay"
+        "xe xích lô"
       ]
     },
     {
       "id": "C10",
-      "name": "Xe súc vật kéo",
+      "name": "xe vật nuôi kéo",
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe vật nuôi kéo",
-        "vật nuôi",
-        "súc vật",
-        "xe trâu kéo",
-        "xe bò kéo",
-        "xe ngựa kéo"
+        "vật nuôi"
       ]
     },
     {
@@ -209,10 +135,7 @@
       "category": "PHUONG_TIEN",
       "keyphrases": [
         "xe cứu hộ giao thông đường bộ",
-        "xe cứu hộ",
-        "xe ô tô cứu hộ giao thông",
-        "xe kéo cứu hộ",
-        "xe cẩu kéo"
+        "xe cứu hộ"
       ]
     },
     {
@@ -220,11 +143,7 @@
       "name": "Xe cứu thương",
       "category": "PHUONG_TIEN",
       "keyphrases": [
-        "xe cứu thương",
-        "xe cấp cứu",
-        "xe y tế",
-        "xe 115",
-        "xe ambulance"
+        "xe cứu thương"
       ]
     },
     {
@@ -232,46 +151,30 @@
       "name": "Xe vệ sinh môi trường",
       "category": "PHUONG_TIEN",
       "keyphrases": [
-        "xe vệ sinh môi trường",
-        "xe ô tô chở phế thải",
-        "xe chở rác",
-        "xe ép rác",
-        "xe hút bể phốt",
-        "xe quét đường",
-        "xe môi trường"
+        "xe vệ sinh môi trường"
       ]
     },
     {
       "id": "C14",
-      "name": "Xe quá khổ quá tải",
+      "name": "quá tải trọng",
       "category": "PHUONG_TIEN",
       "keyphrases": [
-        "xe quá khổ giới hạn",
         "quá khổ giới hạn",
-        "xe quá tải trọng",
         "quá tải trọng",
         "quá tải",
         "quá khổ",
         "quá trọng tải",
         "xe bánh xích",
-        "xe vượt tải",
-        "xe cơi nới thành thùng",
         "xe chở quá tải",
         "xe xích"
       ]
     },
     {
       "id": "C15",
-      "name": "Xe biển số nước ngoài",
+      "name": "biển số nước ngoài",
       "category": "PHUONG_TIEN",
       "keyphrases": [
-        "phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài",
-        "phương tiện đăng ký hoạt động trong Khu kinh tế thương mại đặc biệt",
-        "Khu kinh tế cửa khẩu quốc tế",
-        "xe gắn biển số nước ngoài",
-        "xe nước ngoài",
-        "xe mang biển số nước ngoài",
-        "xe tạm nhập tái xuất"
+        "Khu kinh tế cửa khẩu quốc tế"
       ]
     },
     {
@@ -283,10 +186,7 @@
         "người điều khiển phương tiện",
         "người lái xe",
         "người điều khiển xe",
-        "tài xế",
         "lái xe",
-        "người cầm lái",
-        "bác tài",
         "người lái"
       ]
     },
@@ -295,23 +195,16 @@
       "name": "Người đi bộ",
       "category": "CHU_THE",
       "keyphrases": [
-        "người đi bộ",
-        "bộ hành",
-        "khách bộ hành",
-        "người đi đường"
+        "người đi bộ"
       ]
     },
     {
       "id": "C18",
-      "name": "Người dẫn dắt vật nuôi",
+      "name": "dẫn dắt vật nuôi",
       "category": "CHU_THE",
       "keyphrases": [
-        "người điều khiển dẫn dắt vật nuôi",
         "dẫn dắt vật nuôi",
-        "điều khiển xe vật nuôi kéo",
-        "người dắt súc vật",
-        "người chăn dắt gia súc",
-        "người dẫn súc vật"
+        "điều khiển xe vật nuôi kéo"
       ]
     },
     {
@@ -322,7 +215,6 @@
         "hành khách",
         "hành khách đi xe",
         "khách đi xe",
-        "người đi xe",
         "khách",
         "hành khách trên xe"
       ]
@@ -333,20 +225,16 @@
       "category": "CHU_THE",
       "keyphrases": [
         "chủ phương tiện",
-        "chủ xe",
-        "chủ sở hữu xe",
-        "người đứng tên xe",
-        "chủ sở hữu phương tiện"
+        "chủ xe"
       ]
     },
     {
       "id": "C21",
-      "name": "Cá nhân tổ chức",
+      "name": "cá nhân",
       "category": "CHU_THE",
       "keyphrases": [
         "cá nhân",
         "tổ chức",
-        "cá nhân tổ chức",
         "hộ kinh doanh",
         "hộ gia đình",
         "người vi phạm",
@@ -363,11 +251,7 @@
       "keyphrases": [
         "đua xe",
         "tổ chức đua xe",
-        "xúi giục đua xe",
-        "cổ vũ đua xe",
-        "quái xế",
-        "người tổ chức đua xe",
-        "người cổ vũ đua xe"
+        "cổ vũ đua xe"
       ]
     },
     {
@@ -379,23 +263,18 @@
         "hành vi vi phạm hành chính",
         "hành vi vi phạm",
         "vi phạm",
-        "lỗi vi phạm",
-        "vi phạm giao thông",
-        "hành vi trái pháp luật",
-        "VPHC"
+        "lỗi vi phạm"
       ]
     },
     {
       "id": "C24",
-      "name": "Xử phạt hành chính",
+      "name": "xử phạt vi phạm hành chính",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "xử phạt",
         "xử phạt vi phạm hành chính",
         "phạt",
-        "xử lý vi phạm",
-        "chế tài xử phạt",
-        "xử lý hành chính"
+        "xử lý vi phạm"
       ]
     },
     {
@@ -404,8 +283,7 @@
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "cảnh cáo",
-        "phạt cảnh cáo",
-        "nhắc nhở"
+        "phạt cảnh cáo"
       ]
     },
     {
@@ -415,11 +293,7 @@
       "keyphrases": [
         "phạt tiền",
         "mức phạt tiền",
-        "phạt từ ... đến",
-        "nộp phạt",
-        "tiền phạt",
-        "đóng phạt",
-        "phạt hành chính"
+        "tiền phạt"
       ]
     },
     {
@@ -429,25 +303,17 @@
       "keyphrases": [
         "tịch thu phương tiện",
         "tịch thu tang vật",
-        "tịch thu",
-        "sung công",
-        "thu giữ phương tiện",
-        "tịch thu xe"
+        "tịch thu"
       ]
     },
     {
       "id": "C28",
-      "name": "Tước giấy phép",
+      "name": "tước quyền sử dụng giấy phép",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "tước quyền sử dụng",
         "tước quyền sử dụng giấy phép",
-        "tước quyền sử dụng giấy phép chứng chỉ hành nghề",
-        "tước",
-        "tước bằng lái",
-        "treo bằng",
-        "thu bằng",
-        "tước giấy phép lái xe"
+        "tước"
       ]
     },
     {
@@ -456,10 +322,7 @@
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "đình chỉ hoạt động có thời hạn",
-        "đình chỉ hoạt động",
-        "tạm đình chỉ",
-        "ngừng hoạt động",
-        "đình chỉ kinh doanh"
+        "đình chỉ hoạt động"
       ]
     },
     {
@@ -472,22 +335,17 @@
         "buộc nộp lại",
         "buộc tháo dỡ",
         "khắc phục hậu quả",
-        "khắc phục",
-        "biện pháp bổ sung",
-        "buộc khắc phục"
+        "khắc phục"
       ]
     },
     {
       "id": "C31",
-      "name": "Điểm bằng lái",
+      "name": "điểm giấy phép lái xe",
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "điểm giấy phép lái xe",
         "điểm",
-        "điểm bằng lái",
-        "điểm GPLX",
-        "12 điểm",
-        "điểm trên bằng lái"
+        "12 điểm"
       ]
     },
     {
@@ -498,9 +356,7 @@
         "trừ điểm giấy phép lái xe",
         "trừ điểm",
         "mức trừ điểm",
-        "bị trừ điểm",
-        "trừ điểm bằng lái",
-        "trừ điểm GPLX"
+        "bị trừ điểm"
       ]
     },
     {
@@ -510,7 +366,6 @@
       "keyphrases": [
         "phục hồi điểm",
         "phục hồi điểm giấy phép lái xe",
-        "khôi phục điểm",
         "hồi điểm"
       ]
     },
@@ -520,9 +375,7 @@
       "category": "HANH_VI_CHE_TAI",
       "keyphrases": [
         "thời hiệu xử phạt",
-        "thời hiệu",
-        "thời hạn xử phạt",
-        "thời hiệu xử lý"
+        "thời hiệu"
       ]
     },
     {
@@ -533,8 +386,7 @@
         "thẩm quyền xử phạt",
         "thẩm quyền",
         "phân định thẩm quyền",
-        "quyền xử phạt",
-        "thẩm quyền xử lý"
+        "quyền xử phạt"
       ]
     },
     {
@@ -545,8 +397,7 @@
         "biên bản vi phạm hành chính",
         "lập biên bản",
         "biên bản",
-        "lập biên bản vi phạm",
-        "biên bản phạt"
+        "lập biên bản vi phạm"
       ]
     },
     {
@@ -558,7 +409,6 @@
         "tạm giữ",
         "giấy tờ có liên quan",
         "giữ xe",
-        "tạm giữ xe",
         "giữ giấy tờ",
         "tạm giữ giấy tờ"
       ]
@@ -572,9 +422,6 @@
         "giấy phép lái",
         "giấy phép lái xe quốc tế",
         "giấy phép lái xe quốc gia",
-        "GPLX",
-        "bằng lái",
-        "bằng lái xe",
         "bằng",
         "giấy phép"
       ]
@@ -585,25 +432,18 @@
       "category": "GIAY_TO",
       "keyphrases": [
         "chứng chỉ hành nghề",
-        "chứng chỉ đăng kiểm viên",
-        "chứng chỉ nghề",
-        "chứng chỉ chuyên môn"
+        "chứng chỉ đăng kiểm viên"
       ]
     },
     {
       "id": "C40",
-      "name": "Giấy đăng ký xe",
+      "name": "chứng nhận đăng ký xe",
       "category": "GIAY_TO",
       "keyphrases": [
         "chứng nhận đăng ký xe",
-        "giấy chứng nhận đăng ký xe",
         "chứng nhận đăng ký xe tạm thời",
         "chứng nhận nguồn gốc xe",
-        "cà vẹt",
-        "cà vẹt xe",
-        "cavet",
-        "đăng ký xe",
-        "giấy đăng ký xe"
+        "đăng ký xe"
       ]
     },
     {
@@ -613,26 +453,18 @@
       "keyphrases": [
         "biển số xe",
         "biển số",
-        "số biển số",
-        "biển kiểm soát",
-        "BKS",
-        "bảng số xe",
-        "biển kiểm soát xe"
+        "số biển số"
       ]
     },
     {
       "id": "C42",
-      "name": "Giấy đăng kiểm",
+      "name": "giấy chứng nhận kiểm định",
       "category": "GIAY_TO",
       "keyphrases": [
         "giấy chứng nhận kiểm định",
         "chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
         "tem kiểm định",
-        "giấy chứng nhận hoặc tem kiểm định",
-        "giấy đăng kiểm",
-        "tem đăng kiểm",
-        "sổ kiểm định",
-        "giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường"
+        "giấy chứng nhận hoặc tem kiểm định"
       ]
     },
     {
@@ -641,32 +473,24 @@
       "category": "GIAY_TO",
       "keyphrases": [
         "phù hiệu",
-        "phù hiệu xe",
-        "tem phù hiệu",
-        "phù hiệu xe tải",
-        "phù hiệu xe hợp đồng",
         "biển hiệu"
       ]
     },
     {
       "id": "C44",
-      "name": "Giấy phép đào tạo sát hạch",
+      "name": "giấy phép đào tạo lái xe",
       "category": "GIAY_TO",
       "keyphrases": [
         "giấy phép đào tạo lái xe",
-        "giấy phép sát hạch",
-        "giấy phép cơ sở đào tạo lái xe",
-        "giấy phép trung tâm sát hạch"
+        "giấy phép sát hạch"
       ]
     },
     {
       "id": "C45",
-      "name": "Giấy phép đăng kiểm",
+      "name": "giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
       "category": "GIAY_TO",
       "keyphrases": [
-        "giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
-        "giấy chứng nhận đăng kiểm",
-        "giấy phép trung tâm đăng kiểm"
+        "giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới"
       ]
     },
     {
@@ -678,8 +502,6 @@
         "giao thông đường bộ",
         "lĩnh vực giao thông đường bộ",
         "đường giao thông",
-        "đường sá",
-        "mạng lưới đường bộ",
         "tuyến đường"
       ]
     },
@@ -689,9 +511,7 @@
       "category": "HA_TANG",
       "keyphrases": [
         "đường cao tốc",
-        "cao tốc",
-        "tuyến cao tốc",
-        "xa lộ"
+        "cao tốc"
       ]
     },
     {
@@ -709,20 +529,14 @@
     },
     {
       "id": "C49",
-      "name": "Biển báo đèn tín hiệu",
+      "name": "biển báo hiệu",
       "category": "HA_TANG",
       "keyphrases": [
         "biển báo hiệu",
         "đèn tín hiệu giao thông",
         "vạch kẻ đường",
         "dải phân cách",
-        "biển báo",
-        "đèn giao thông",
-        "đèn đỏ",
-        "cọc tiêu",
-        "biển chỉ dẫn",
-        "hệ thống báo hiệu đường bộ",
-        "vạch sơn"
+        "biển báo"
       ]
     },
     {
@@ -731,24 +545,16 @@
       "category": "HA_TANG",
       "keyphrases": [
         "quy tắc giao thông đường bộ",
-        "quy tắc giao thông",
-        "luật giao thông",
-        "quy định giao thông",
-        "luật lệ giao thông",
-        "quy tắc đường bộ"
+        "quy tắc giao thông"
       ]
     },
     {
       "id": "C51",
-      "name": "Chủ tịch UBND",
+      "name": "Chủ tịch Ủy ban nhân dân",
       "category": "CO_QUAN",
       "keyphrases": [
         "Chủ tịch Ủy ban nhân dân",
         "Chủ tịch Ủy ban nhân dân các cấp",
-        "Chủ tịch UBND",
-        "Chủ tịch tỉnh",
-        "Chủ tịch huyện",
-        "Chủ tịch xã",
         "UBND"
       ]
     },
@@ -759,34 +565,28 @@
       "keyphrases": [
         "Công an nhân dân",
         "Cảnh sát giao thông",
-        "CSGT",
         "công an",
         "cảnh sát",
-        "công an giao thông",
-        "CAND",
         "cảnh sát cơ động"
       ]
     },
     {
       "id": "C53",
-      "name": "Thanh tra giao thông",
+      "name": "Thanh tra chuyên ngành",
       "category": "CO_QUAN",
       "keyphrases": [
         "Thanh tra chuyên ngành",
         "Thanh tra",
-        "thanh tra giao thông",
-        "TTGT",
         "thanh tra đường bộ"
       ]
     },
     {
       "id": "C54",
-      "name": "Người lập biên bản",
+      "name": "người có thẩm quyền lập biên bản",
       "category": "CO_QUAN",
       "keyphrases": [
         "người có thẩm quyền lập biên bản",
         "thẩm quyền lập biên bản",
-        "người lập biên bản",
         "người thi hành công vụ"
       ]
     },
@@ -798,8 +598,6 @@
         "kinh doanh vận tải",
         "vận tải đường bộ",
         "dịch vụ hỗ trợ vận tải đường bộ",
-        "kinh doanh vận tải đường bộ",
-        "doanh nghiệp vận tải",
         "đơn vị kinh doanh vận tải",
         "hoạt động vận tải"
       ]
@@ -811,10 +609,7 @@
       "keyphrases": [
         "hàng hóa nguy hiểm",
         "vận chuyển hàng hóa nguy hiểm",
-        "hàng nguy hiểm",
-        "chở hàng nguy hiểm",
-        "vận chuyển chất nguy hiểm",
-        "hóa chất nguy hiểm"
+        "hàng nguy hiểm"
       ]
     },
     {
@@ -823,17 +618,12 @@
       "category": "HOAT_DONG",
       "keyphrases": [
         "hàng siêu trường",
-        "hàng siêu trọng",
-        "vận chuyển hàng siêu trường siêu trọng",
-        "giấy phép lưu hành",
-        "hàng quá khổ quá tải",
-        "hàng cồng kềnh",
-        "chở hàng siêu trường siêu trọng"
+        "giấy phép lưu hành"
       ]
     },
     {
       "id": "C58",
-      "name": "Đào tạo sát hạch lái xe",
+      "name": "đào tạo lái xe",
       "category": "HOAT_DONG",
       "keyphrases": [
         "đào tạo lái xe",
@@ -841,10 +631,7 @@
         "sát hạch lái xe",
         "cơ sở đào tạo lái xe",
         "trung tâm sát hạch",
-        "trường dạy lái xe",
-        "học lái xe",
-        "thi bằng lái",
-        "thi sát hạch"
+        "học lái xe"
       ]
     },
     {
@@ -856,7 +643,6 @@
         "hoạt động đăng kiểm",
         "kiểm định xe cơ giới",
         "hoạt động đăng kiểm xe cơ giới",
-        "trung tâm đăng kiểm",
         "kiểm định xe",
         "đăng kiểm xe",
         "kiểm tra kỹ thuật xe"
@@ -868,37 +654,23 @@
       "category": "HOAT_DONG",
       "keyphrases": [
         "đua xe",
-        "tổ chức đua xe",
-        "lạng lách đánh võng",
-        "đua tốc độ",
-        "độ xe đua",
-        "bốc đầu"
+        "tổ chức đua xe"
       ]
     },
     {
       "id": "C61",
-      "name": "Sản xuất lắp ráp trái phép",
+      "name": "lắp ráp trái phép",
       "category": "HOAT_DONG",
-      "keyphrases": [
-        "sản xuất lắp ráp trái phép phương tiện",
-        "mua bán biển số xe trái phép",
-        "sản xuất mua bán biển số xe trái phép",
-        "sản xuất xe lậu",
-        "lắp ráp xe trái phép",
-        "làm giả biển số",
-        "mua bán biển số giả"
-      ]
+      "keyphrases": []
     },
     {
       "id": "C62",
-      "name": "Thiết bị trên xe",
+      "name": "thiết bị",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "thiết bị",
-        "vật dụng",
         "điện thoại",
         "điện thoại di động",
-        "tai nghe",
         "thiết bị điện tử",
         "thiết bị âm thanh",
         "ô",
@@ -914,7 +686,6 @@
         "hệ thống hãm",
         "phanh",
         "bộ phận giảm thanh",
-        "bộ phận giảm khói",
         "kính an toàn",
         "dây đai an toàn",
         "ghế ngồi",
@@ -922,8 +693,6 @@
         "biển báo dấu hiệu nhận biết",
         "thiết bị phát tín hiệu ưu tiên",
         "thiết bị thay đổi biển số",
-        "dụng cụ cứu hộ",
-        "thiết bị chuyên dùng cứu hộ",
         "cơ cấu khóa hãm công-ten-nơ",
         "đồng hồ báo quãng đường",
         "thẻ đầu cuối"
@@ -936,42 +705,30 @@
       "keyphrases": [
         "thiết bị giám sát hành trình",
         "thiết bị ghi nhận hình ảnh người lái xe",
-        "thiết bị ghi nhận hình ảnh trẻ em mầm non học sinh",
-        "thiết bị cảnh báo chống bỏ quên trẻ em",
         "camera",
         "camera giám sát",
         "thiết bị chấm điểm",
         "máy tính sát hạch",
         "màn hình",
-        "hệ thống âm thanh thông báo lỗi",
-        "thiết bị giám sát thời gian học lý thuyết",
-        "thiết bị giám sát thời gian học thực hành",
-        "thiết bị ghi nhận dữ liệu",
-        "dữ liệu thiết bị",
-        "phương tiện thiết bị kỹ thuật nghiệp vụ"
+        "thiết bị giám sát thời gian học lý thuyết"
       ]
     },
     {
       "id": "C64",
-      "name": "Nồng độ cồn ma túy",
+      "name": "nồng độ cồn",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "nồng độ cồn",
         "cồn",
-        "rượu",
-        "bia",
-        "rượu bia",
         "hơi thở có nồng độ cồn",
-        "trong máu có nồng độ cồn",
         "ma túy",
         "chất ma túy",
-        "chất kích thích",
-        "chất kích thích khác mà pháp luật cấm sử dụng"
+        "chất kích thích"
       ]
     },
     {
       "id": "C65",
-      "name": "Hàng hóa hành lý",
+      "name": "hàng hóa",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "hàng hóa",
@@ -979,19 +736,14 @@
         "hàng rời",
         "hành lý",
         "công-ten-nơ",
-        "container",
         "hàng cấm",
         "hàng độc hại",
-        "hàng dễ cháy",
-        "hàng dễ nổ",
         "hóa chất độc hại",
-        "chất dễ cháy nổ",
         "chất thải",
         "chất phế thải",
         "phế thải",
         "vật liệu xây dựng",
         "đất đá",
-        "bùn đất",
         "cát",
         "đá",
         "rác",
@@ -1003,32 +755,28 @@
     },
     {
       "id": "C66",
-      "name": "Hậu quả thiệt hại",
+      "name": "tai nạn giao thông",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "hậu quả",
-        "thiệt hại",
         "tai nạn giao thông",
         "vụ tai nạn giao thông",
         "gây tai nạn giao thông",
         "ùn tắc giao thông",
         "cản trở giao thông",
         "ô nhiễm môi trường",
-        "hư hại cầu đường",
-        "mất an toàn giao thông",
-        "gây hậu quả nghiêm trọng"
+        "mất an toàn giao thông"
       ]
     },
     {
       "id": "C67",
-      "name": "Dữ liệu điện tử",
+      "name": "dữ liệu",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "dữ liệu",
         "thông tin",
         "cơ sở dữ liệu",
         "Cơ sở dữ liệu về xử lý vi phạm hành chính",
-        "Cơ sở dữ liệu về trật tự an toàn giao thông đường bộ",
         "dữ liệu điểm giấy phép lái xe",
         "thông điệp dữ liệu",
         "thông tin điện tử",
@@ -1036,18 +784,15 @@
         "căn cước điện tử",
         "Cổng dịch vụ công",
         "Ứng dụng giao thông trên thiết bị di động",
-        "Trang thông tin điện tử của Cục Cảnh sát giao thông",
-        "thông báo điện tử",
-        "kết nối chia sẻ dữ liệu"
+        "Trang thông tin điện tử của Cục Cảnh sát giao thông"
       ]
     },
     {
       "id": "C68",
-      "name": "Điều kiện phương tiện",
+      "name": "điều kiện của phương tiện",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "điều kiện của phương tiện",
-        "điều kiện phương tiện",
         "an toàn kỹ thuật",
         "bảo vệ môi trường",
         "vệ sinh lưu thông",
@@ -1056,7 +801,6 @@
         "niên hạn sử dụng",
         "kích thước thùng xe",
         "khoang chở hành lý",
-        "khối lượng chuyên chở",
         "tải trọng",
         "tải trọng trục",
         "trọng tải",
@@ -1076,28 +820,21 @@
     },
     {
       "id": "C69",
-      "name": "Điều kiện người lái",
+      "name": "điều kiện của người điều khiển",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "điều kiện của người điều khiển",
-        "điều kiện người điều khiển",
-        "độ tuổi",
-        "tuổi lái xe",
         "sức khỏe",
-        "đủ điều kiện điều khiển",
-        "giấy phép lái xe phù hợp",
         "chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
-        "bằng điều khiển xe máy chuyên dùng",
         "thời gian lái xe",
         "thời gian nghỉ giữa hai lần lái xe",
         "số năm kinh nghiệm",
-        "tập huấn nghiệp vụ",
         "quy trình bảo đảm an toàn"
       ]
     },
     {
       "id": "C70",
-      "name": "Hồ sơ tài liệu",
+      "name": "hồ sơ",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "hồ sơ",
@@ -1105,19 +842,11 @@
         "giấy tờ",
         "hồ sơ đăng ký xe",
         "hồ sơ phương tiện",
-        "hồ sơ kiểm định",
         "hồ sơ vận chuyển hàng hóa nguy hiểm",
         "tài liệu giả",
-        "giấy tờ giả",
-        "giấy tờ bị tẩy xóa",
-        "giấy tờ bị sửa chữa",
         "bản dịch",
-        "bản sao chứng thực",
         "giấy biên nhận của tổ chức tín dụng",
-        "giấy biên nhận ngân hàng",
-        "tờ khai phương tiện vận tải đường bộ tạm nhập tái xuất",
         "văn bản chấp thuận",
-        "văn bản cấp phép",
         "giấy chứng nhận hoàn thành chương trình tập huấn"
       ]
     },
@@ -1132,7 +861,6 @@
         "giấy phép vận tải đường bộ quốc tế",
         "giấy phép xe tập lái",
         "giấy phép kinh doanh vận tải",
-        "giấy phép chấp thuận cho phương tiện nước ngoài",
         "phù hiệu kiểm soát",
         "ký hiệu phân biệt quốc gia",
         "biển số tạm thời"
@@ -1145,8 +873,6 @@
       "keyphrases": [
         "chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
         "bảo hiểm bắt buộc trách nhiệm dân sự",
-        "bảo hiểm trách nhiệm dân sự của chủ xe cơ giới",
-        "giấy chứng nhận bảo hiểm",
         "bảo hiểm bắt buộc"
       ]
     },
@@ -1163,11 +889,8 @@
         "hợp đồng đào tạo",
         "thanh lý hợp đồng đào tạo",
         "danh sách hành khách",
-        "thiết bị truy cập hợp đồng điện tử",
-        "sổ nhật trình",
         "hành trình chạy xe",
-        "lịch trình",
-        "tuyến đường vận tải"
+        "lịch trình"
       ]
     },
     {
@@ -1177,22 +900,18 @@
       "keyphrases": [
         "thẻ nhận dạng lái xe",
         "thẻ nhận dạng",
-        "thẻ đăng nhập lái xe",
-        "đăng nhập thông tin lái xe",
         "sử dụng thẻ nhận dạng lái xe"
       ]
     },
     {
       "id": "C75",
-      "name": "Nhân viên trên xe",
+      "name": "nhân viên phục vụ trên xe",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "nhân viên phục vụ trên xe",
-        "người phục vụ trên xe",
         "người quản lý trên xe",
         "người áp tải",
         "người áp tải vận chuyển hàng hóa nguy hiểm",
-        "lái xe kinh doanh vận tải",
         "giáo viên dạy thực hành",
         "người làm công",
         "người đại diện"
@@ -1200,21 +919,18 @@
     },
     {
       "id": "C76",
-      "name": "Cơ sở đào tạo sát hạch",
+      "name": "cơ sở đào tạo lái xe",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "cơ sở đào tạo lái xe",
         "trung tâm sát hạch lái xe",
         "giáo viên dạy lái xe",
-        "học viên lái xe",
         "người dự sát hạch",
         "xe tập lái",
         "xe sát hạch",
         "sân tập lái",
         "phòng sát hạch",
-        "phần mềm sát hạch",
-        "phù hiệu học viên tập lái xe",
-        "phù hiệu giáo viên dạy lái xe"
+        "phần mềm sát hạch"
       ]
     },
     {
@@ -1224,31 +940,24 @@
       "keyphrases": [
         "cơ sở đăng kiểm",
         "đăng kiểm viên",
-        "nhân viên nghiệp vụ đăng kiểm",
         "cơ sở thử nghiệm",
-        "cơ sở chứng nhận",
         "cơ sở sản xuất",
-        "cơ sở lắp ráp",
-        "cơ sở nhập khẩu",
         "cơ sở bảo hành",
-        "cơ sở bảo dưỡng",
         "phụ tùng xe cơ giới",
         "chứng nhận cải tạo",
         "kiểm định khí thải",
-        "dịch vụ kiểm định",
-        "kiểm tra chất lượng xuất xưởng"
+        "dịch vụ kiểm định"
       ]
     },
     {
       "id": "C78",
-      "name": "Cơ quan cấp phép",
+      "name": "cơ quan đăng ký xe",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "cơ quan đăng ký xe",
         "cơ quan đăng kiểm",
         "cơ quan cấp giấy phép lái xe",
         "cơ quan cấp giấy phép",
-        "cơ quan cấp phù hiệu",
         "cơ quan quản lý nhà nước có thẩm quyền",
         "cơ quan chức năng",
         "Cục Cảnh sát giao thông",
@@ -1258,7 +967,7 @@
     },
     {
       "id": "C79",
-      "name": "Làn đường khu vực",
+      "name": "làn đường",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "phần đường",
@@ -1270,13 +979,10 @@
         "đường ưu tiên",
         "đường nhánh",
         "đường chính",
-        "đường có biển cấm đi vào",
         "khu vực cấm",
         "đường dành riêng cho xe buýt",
-        "làn dừng xe khẩn cấp",
         "lề đường",
         "dải phân cách",
-        "điểm đón trả khách",
         "bến xe",
         "bãi đỗ xe",
         "trạm dừng nghỉ",
@@ -1285,20 +991,15 @@
     },
     {
       "id": "C80",
-      "name": "Công trình giao thông",
+      "name": "hầm đường bộ",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
-        "công trình giao thông",
         "cầu",
         "đường sắt",
-        "đường ngang",
         "đường bộ giao nhau cùng mức với đường sắt",
         "công trình đường sắt",
-        "phạm vi an toàn đường sắt",
         "hầm đường bộ",
         "trạm thu phí",
-        "thu phí điện tử tự động không dừng",
-        "làn thu phí không dừng",
         "gầm cầu vượt",
         "đường dốc",
         "đoạn đường cong",
@@ -1308,7 +1009,7 @@
     },
     {
       "id": "C81",
-      "name": "Người yếu thế",
+      "name": "người khuyết tật",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "người bị nạn",
@@ -1333,17 +1034,12 @@
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "không chấp hành hiệu lệnh",
-        "không chấp hành chỉ dẫn",
         "chạy quá tốc độ",
         "chạy dưới tốc độ tối thiểu",
-        "chuyển làn không đúng quy định",
-        "chuyển hướng không đúng quy định",
         "quay đầu xe",
         "lùi xe",
         "vượt xe",
         "đi ngược chiều",
-        "đi sai phần đường",
-        "đi sai làn đường",
         "không nhường đường",
         "không giữ khoảng cách an toàn",
         "dừng xe",
@@ -1360,20 +1056,17 @@
         "dùng chân điều khiển vô lăng",
         "buông cả hai tay",
         "chạy bằng một bánh",
-        "không đội mũ bảo hiểm",
         "không thắt dây đai an toàn",
-        "sử dụng điện thoại khi lái xe",
         "không chấp hành yêu cầu kiểm tra"
       ]
     },
     {
       "id": "C83",
-      "name": "Vi phạm giấy tờ biển số",
+      "name": "không có giấy phép lái xe",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "không có giấy phép lái xe",
         "không mang theo giấy phép lái xe",
-        "giấy phép lái xe hết hạn",
         "giấy phép lái xe không phù hợp",
         "giấy phép lái xe không hợp lệ",
         "giấy phép lái xe bị tẩy xóa",
@@ -1381,171 +1074,94 @@
         "không mang theo chứng nhận đăng ký xe",
         "không gắn biển số",
         "gắn biển số không đúng",
-        "biển số bị che lấp",
-        "biển số giả",
-        "chứng nhận kiểm định hết hạn",
-        "không có chứng nhận kiểm định",
         "không có phù hiệu",
-        "phù hiệu hết giá trị sử dụng",
-        "giấy tờ không do cơ quan có thẩm quyền cấp",
-        "không đúng số khung",
-        "không đúng số động cơ"
+        "không đúng số khung"
       ]
     },
     {
       "id": "C84",
-      "name": "Vi phạm vận tải hành khách",
+      "name": "chở quá số người",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "chở quá số người",
-        "đón trả khách không đúng nơi",
-        "đón trả khách trên đường cao tốc",
-        "chuyển tải hành khách",
-        "tranh giành hành khách",
         "lôi kéo hành khách",
-        "đe dọa hành khách",
         "cưỡng ép hành khách",
-        "không hướng dẫn hành khách",
         "không niêm yết hành trình",
         "không có nhân viên phục vụ",
         "không có danh sách hành khách",
         "vận chuyển không đúng đối tượng",
         "chở người trên mui xe",
-        "để người lên xuống xe khi xe đang chạy",
         "không đóng cửa lên xuống"
       ]
     },
     {
       "id": "C85",
-      "name": "Vi phạm vận tải hàng hóa",
+      "name": "chở quá tải",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "chở quá tải",
-        "xếp hàng vượt tải",
         "chở hàng vượt trọng tải",
         "chở hàng vượt khổ",
-        "chở hàng vượt kích thước",
         "chở hàng vượt quá chiều cao",
-        "vận chuyển hàng không chằng buộc",
         "chằng buộc hàng hóa không bảo đảm",
         "để rơi hàng hóa",
-        "chở công-ten-nơ không bảo đảm",
-        "nhận hàng trên đường cao tốc",
         "trả hàng trên đường cao tốc",
         "hạ phần hàng quá tải",
-        "dỡ phần hàng quá khổ",
-        "không sử dụng cơ cấu khóa hãm công-ten-nơ"
+        "dỡ phần hàng quá khổ"
       ]
     },
     {
       "id": "C86",
-      "name": "Vi phạm môi trường",
+      "name": "gây ô nhiễm môi trường",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
-        "không đáp ứng yêu cầu vệ sinh lưu thông",
-        "để rơi vãi hàng hóa",
         "làm rơi vãi hàng hóa",
-        "để nước chảy xuống mặt đường",
-        "lôi kéo bùn đất ra đường",
-        "đổ rác trái phép",
-        "đổ phế thải trái phép",
-        "đổ đất đá trái phép",
-        "gây ô nhiễm môi trường",
-        "không bảo đảm khí thải",
-        "không bảo đảm tiếng ồn"
+        "gây ô nhiễm môi trường"
       ]
     },
     {
       "id": "C87",
-      "name": "Vi phạm đào tạo sát hạch",
+      "name": "đào tạo không đúng hạng",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
-        "đào tạo vượt lưu lượng",
-        "đào tạo ngoài địa điểm",
-        "đào tạo không đúng hạng",
-        "đào tạo không đúng chương trình",
-        "tuyển sinh không đủ điều kiện",
-        "không lưu trữ hồ sơ đào tạo",
-        "không lưu trữ hồ sơ sát hạch",
-        "sử dụng xe tập lái không đúng quy định",
-        "không đủ giáo viên",
-        "không đủ sân tập lái",
-        "gian dối sát hạch",
-        "can thiệp làm sai lệch dữ liệu",
-        "tự ý thay đổi phần mềm sát hạch",
-        "không đủ camera giám sát",
-        "không đủ thiết bị chấm điểm"
+        "đào tạo không đúng hạng"
       ]
     },
     {
       "id": "C88",
-      "name": "Vi phạm đăng kiểm",
+      "name": "kiểm định không đúng quy định",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "kiểm định không đúng quy định",
-        "cấp giấy chứng nhận kiểm định không đúng quy định",
-        "cấp chứng nhận cải tạo không đúng quy định",
-        "từ chối kiểm định không đúng quy định",
-        "không lưu trữ hồ sơ kiểm định",
-        "thử nghiệm không đúng quy định",
-        "chứng nhận không đúng quy định",
-        "không duy trì điều kiện đăng kiểm",
-        "sử dụng thiết bị đo lường không bảo đảm",
-        "phân công người không đủ điều kiện đăng kiểm"
+        "chứng nhận không đúng quy định"
       ]
     },
     {
       "id": "C89",
-      "name": "Vi phạm chủ phương tiện",
+      "name": "tự ý thay đổi nhãn hiệu",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
-        "giao phương tiện cho người không đủ điều kiện",
-        "đưa phương tiện không đủ điều kiện tham gia giao thông",
         "tự ý thay đổi nhãn hiệu",
         "tự ý thay đổi màu sơn",
-        "tự ý thay đổi khung máy",
-        "cải tạo xe trái quy định",
-        "lắp thêm ghế",
-        "tháo bớt ghế",
-        "lắp thêm giường nằm",
-        "tháo bớt giường nằm",
-        "cơi nới thùng xe",
-        "thay đổi kích thước thùng xe",
-        "can thiệp đồng hồ quãng đường",
-        "không làm thủ tục đăng ký xe",
-        "không làm thủ tục thu hồi đăng ký xe",
-        "không làm thủ tục đổi đăng ký xe"
+        "tháo bớt ghế"
       ]
     },
     {
       "id": "C90",
-      "name": "Vi phạm thiết bị giám sát",
+      "name": "làm sai lệch dữ liệu",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
-        "không cung cấp dữ liệu",
-        "không cập nhật dữ liệu",
-        "không truyền dữ liệu",
-        "không lưu trữ dữ liệu",
-        "không quản lý dữ liệu",
         "làm sai lệch dữ liệu",
         "không lắp thiết bị giám sát hành trình",
-        "không lắp thiết bị ghi nhận hình ảnh",
-        "thiết bị giám sát hành trình không hoạt động",
-        "thiết bị ghi nhận hình ảnh không hoạt động",
-        "không có thiết bị cảnh báo chống bỏ quên trẻ em",
-        "không đăng nhập thẻ nhận dạng lái xe"
+        "không lắp thiết bị ghi nhận hình ảnh"
       ]
     },
     {
       "id": "C91",
-      "name": "Tình tiết vi phạm",
+      "name": "tái phạm",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "tái phạm",
-        "vi phạm nhiều lần",
-        "hành vi vi phạm đã kết thúc",
-        "hành vi vi phạm đang thực hiện",
-        "cố tình trốn tránh",
         "cản trở việc xử phạt",
         "không hợp tác",
         "không chứng minh",
@@ -1553,7 +1169,6 @@
         "trực tiếp điều khiển phương tiện",
         "vượt trên 50%",
         "vượt trên 100%",
-        "vượt trên 150%",
         "vượt quá quy định"
       ]
     },
@@ -1566,13 +1181,11 @@
         "nguyên tắc xử phạt",
         "quyết định xử phạt",
         "quyết định tạm giữ",
-        "thời hạn ra quyết định xử phạt",
         "thông báo",
         "thông báo yêu cầu",
         "giải quyết vụ việc vi phạm",
         "thi hành quyết định xử phạt",
         "xác minh",
-        "căn cứ xử phạt",
         "lập biên bản",
         "gửi quyết định xử phạt",
         "chuyển kết quả thu thập",
@@ -1581,15 +1194,10 @@
     },
     {
       "id": "C93",
-      "name": "Văn bản pháp luật",
+      "name": "nghị định",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
-        "văn bản pháp luật",
         "nghị định",
-        "Nghị định 168/2024/NĐ-CP",
-        "Nghị định 100/2019/NĐ-CP",
-        "Nghị định 123/2021/NĐ-CP",
-        "Luật Trật tự an toàn giao thông đường bộ",
         "Luật Xử lý vi phạm hành chính",
         "điều khoản thi hành",
         "hiệu lực thi hành",
@@ -1599,11 +1207,10 @@
     },
     {
       "id": "C94",
-      "name": "Thông số giới hạn",
+      "name": "tốc độ",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "tốc độ",
-        "tốc độ tối đa",
         "tốc độ tối thiểu",
         "nồng độ cồn",
         "tải trọng",
@@ -1613,7 +1220,6 @@
         "kích thước giới hạn",
         "chiều cao xếp hàng",
         "số người quy định",
-        "số người được phép chở",
         "khối lượng hàng chuyên chở",
         "khối lượng toàn bộ",
         "tổng trọng lượng"
@@ -1621,7 +1227,7 @@
     },
     {
       "id": "C95",
-      "name": "Hiệu lệnh kiểm tra",
+      "name": "hiệu lệnh",
       "category": "BO_SUNG_ND168",
       "keyphrases": [
         "hiệu lệnh",
@@ -1629,11 +1235,7 @@
         "hiệu lệnh của đèn tín hiệu giao thông",
         "hướng dẫn của người điều khiển giao thông",
         "yêu cầu kiểm tra",
-        "yêu cầu kiểm tra nồng độ cồn",
-        "yêu cầu kiểm tra chất ma túy",
-        "yêu cầu kiểm tra trọng tải",
         "người điều khiển giao thông",
-        "người kiểm soát giao thông",
         "người thi hành công vụ"
       ]
     }
@@ -1647,10 +1249,8 @@
         "lái",
         "điều khiển xe",
         "vận hành",
-        "cầm lái",
         "lái xe",
-        "chạy xe",
-        "dắt xe"
+        "chạy xe"
       ],
       "ConcKeyO_concrete": [
         "Xe ô tô",
@@ -1677,10 +1277,7 @@
         "sử dụng",
         "dùng",
         "làm",
-        "thực hiện",
-        "xài",
-        "vận dụng",
-        "dùng đến"
+        "thực hiện"
       ],
       "ConcKeyO_concrete": [
         "Điện thoại",
@@ -1712,8 +1309,6 @@
         "không có",
         "không mang theo",
         "trái quy định",
-        "làm trái",
-        "phạm lỗi",
         "không thực hiện"
       ],
       "ConcKeyO_concrete": [
@@ -1739,8 +1334,7 @@
         "thực hiện",
         "có hành vi",
         "thực hiện một trong",
-        "tiến hành",
-        "gây ra hành vi"
+        "tiến hành"
       ],
       "ConcKeyO_concrete": [
         "Vi phạm hành chính",
@@ -1794,8 +1388,7 @@
         "áp dụng",
         "bị áp dụng",
         "áp dụng đối với",
-        "thi hành",
-        "áp đặt"
+        "thi hành"
       ],
       "ConcKeyO_concrete": [
         "Cá nhân",
@@ -1817,11 +1410,7 @@
       "name": "Phạt tiền",
       "keyphrases": [
         "phạt tiền",
-        "phạt từ ... đến",
-        "mức phạt",
-        "nộp phạt",
-        "đóng phạt",
-        "phạt hành chính"
+        "mức phạt"
       ],
       "ConcKeyO_concrete": [
         "Cá nhân",
@@ -1844,9 +1433,7 @@
       "keyphrases": [
         "tịch thu",
         "tịch thu phương tiện",
-        "tịch thu tang vật",
-        "sung công",
-        "thu giữ"
+        "tịch thu tang vật"
       ],
       "ConcKeyO_concrete": [
         "Xe ô tô",
@@ -1873,10 +1460,7 @@
       "name": "Tước quyền sử dụng",
       "keyphrases": [
         "tước quyền sử dụng",
-        "tước",
-        "tước bằng",
-        "treo bằng",
-        "thu bằng"
+        "tước"
       ],
       "ConcKeyO_concrete": [
         "Giấy phép lái xe",
@@ -1901,8 +1485,7 @@
       "keyphrases": [
         "trừ điểm",
         "trừ điểm giấy phép lái xe",
-        "bị trừ điểm",
-        "trừ điểm bằng lái"
+        "bị trừ điểm"
       ],
       "ConcKeyO_concrete": [
         "Giấy phép lái xe",
@@ -1924,7 +1507,6 @@
       "keyphrases": [
         "phục hồi điểm",
         "phục hồi điểm giấy phép lái xe",
-        "khôi phục điểm",
         "hồi điểm"
       ],
       "ConcKeyO_concrete": [
@@ -1972,15 +1554,13 @@
     },
     {
       "id": "R13",
-      "name": "Là loại của",
+      "name": "là loại",
       "keyphrases": [
         "và các loại xe tương tự",
         "bao gồm",
         "thuộc",
         "là loại",
-        "là một dạng",
-        "trực thuộc",
-        "phân loại"
+        "trực thuộc"
       ],
       "ConcKeyO_concrete": [
         "Xe cơ giới",
@@ -2008,8 +1588,7 @@
         "không có",
         "không mang theo",
         "sở hữu",
-        "trang bị",
-        "đem theo"
+        "trang bị"
       ],
       "ConcKeyO_concrete": [
         "Giấy phép lái xe",
@@ -2065,9 +1644,7 @@
       "keyphrases": [
         "kéo theo",
         "được kéo theo",
-        "kéo",
-        "móc kéo",
-        "lai dắt"
+        "kéo"
       ],
       "ConcKeyO_concrete": [
         "Rơ moóc",
@@ -2087,9 +1664,7 @@
       "name": "Có thẩm quyền",
       "keyphrases": [
         "có thẩm quyền",
-        "thẩm quyền xử phạt",
-        "có quyền xử phạt",
-        "được quyền xử lý"
+        "thẩm quyền xử phạt"
       ],
       "ConcKeyO_concrete": [
         "Vi phạm hành chính",
@@ -2111,9 +1686,7 @@
       "name": "Lập biên bản",
       "keyphrases": [
         "lập biên bản",
-        "lập biên bản vi phạm hành chính",
-        "ghi biên bản",
-        "viết biên bản"
+        "lập biên bản vi phạm hành chính"
       ],
       "ConcKeyO_concrete": [
         "Vi phạm hành chính",
@@ -2134,9 +1707,7 @@
       "keyphrases": [
         "cấm",
         "không được",
-        "không được phép",
-        "nghiêm cấm",
-        "ngăn cấm"
+        "không được phép"
       ],
       "ConcKeyO_concrete": [
         "Hành vi vi phạm",
@@ -2190,10 +1761,7 @@
         "gây tai nạn",
         "gây ra",
         "để xảy ra",
-        "làm",
-        "dẫn đến",
-        "gây nên",
-        "làm phát sinh"
+        "làm"
       ],
       "ConcKeyO_concrete": [
         "Tai nạn giao thông",
@@ -2217,9 +1785,7 @@
         "buộc",
         "buộc khôi phục",
         "buộc thực hiện",
-        "khắc phục hậu quả",
-        "phải khắc phục",
-        "sửa chữa hậu quả"
+        "khắc phục hậu quả"
       ],
       "ConcKeyO_concrete": [
         "Khôi phục tình trạng ban đầu",
@@ -2247,9 +1813,7 @@
         "cấp mới",
         "cấp lại",
         "do cơ quan có thẩm quyền cấp",
-        "ban hành",
-        "phát hành",
-        "cấp phát"
+        "ban hành"
       ],
       "ConcKeyO_concrete": [
         "Giấy phép lái xe",
@@ -2275,7 +1839,6 @@
         "lưu hành",
         "lưu thông",
         "di chuyển",
-        "đi lại",
         "chạy trên đường"
       ],
       "ConcKeyO_concrete": [
@@ -2296,7 +1859,7 @@
     },
     {
       "id": "R25",
-      "name": "Có hình phạt",
+      "name": "bị xử phạt",
       "keyphrases": [
         "bị phạt",
         "bị xử phạt",
@@ -2354,10 +1917,7 @@
       "keyphrases": [
         "bị tước quyền sử dụng",
         "tước quyền sử dụng",
-        "trong thời gian bị tước",
-        "tước phù hiệu",
-        "tước giấy phép sát hạch",
-        "tước chứng chỉ đăng kiểm viên"
+        "trong thời gian bị tước"
       ],
       "ConcKeyO_concrete": [
         "Giấy phép lái xe",
@@ -2382,11 +1942,8 @@
       "keyphrases": [
         "thu hồi",
         "bị thu hồi",
-        "tiến hành thu hồi",
-        "buộc làm thủ tục thu hồi",
         "thu hồi giấy phép",
         "thu hồi chứng nhận đăng ký xe",
-        "thu hồi biển số xe",
         "thu hồi phù hiệu"
       ],
       "ConcKeyO_concrete": [
@@ -2415,8 +1972,7 @@
         "buộc nộp lại",
         "nộp lại giấy phép",
         "nộp lại chứng nhận đăng ký xe",
-        "nộp lại số lợi bất hợp pháp",
-        "nộp lại giấy phép chứng chỉ hành nghề bị tẩy xóa"
+        "nộp lại số lợi bất hợp pháp"
       ],
       "ConcKeyO_concrete": [
         "Giấy phép lái xe",
@@ -2447,9 +2003,7 @@
         "buộc thay thế thiết bị",
         "khôi phục tính năng kỹ thuật",
         "lắp thiết bị giám sát hành trình",
-        "lắp thiết bị ghi nhận hình ảnh",
-        "lắp dây đai an toàn",
-        "lắp ghế ngồi"
+        "lắp thiết bị ghi nhận hình ảnh"
       ],
       "ConcKeyO_concrete": [
         "Thiết bị vật dụng trên phương tiện",
@@ -2472,11 +2026,8 @@
       "name": "Buộc tháo dỡ",
       "keyphrases": [
         "buộc tháo dỡ",
-        "buộc tháo bỏ",
         "buộc hạ phần hàng quá tải",
-        "buộc dỡ phần hàng quá khổ",
-        "buộc dỡ hàng hóa",
-        "buộc tháo dỡ thiết bị âm thanh ánh sáng"
+        "buộc dỡ hàng hóa"
       ],
       "ConcKeyO_concrete": [
         "Thiết bị vật dụng trên phương tiện",
@@ -2500,8 +2051,7 @@
         "buộc tái xuất",
         "tái xuất phương tiện khỏi Việt Nam",
         "buộc đưa phương tiện quay trở lại",
-        "quay trở lại Khu kinh tế thương mại đặc biệt",
-        "quay trở lại Khu kinh tế cửa khẩu quốc tế"
+        "quay trở lại Khu kinh tế thương mại đặc biệt"
       ],
       "ConcKeyO_concrete": [
         "Phương tiện gắn biển số nước ngoài",
@@ -2519,12 +2069,11 @@
     },
     {
       "id": "R33",
-      "name": "Phát hiện bằng",
+      "name": "phát hiện thông qua",
       "keyphrases": [
         "phát hiện thông qua",
         "ghi nhận hành vi vi phạm",
         "kết quả thu thập được bằng",
-        "sử dụng phương tiện thiết bị kỹ thuật nghiệp vụ",
         "dữ liệu thu được"
       ],
       "ConcKeyO_concrete": [
@@ -2549,11 +2098,8 @@
         "cập nhật",
         "truyền dẫn",
         "lưu trữ",
-        "quản lý thông tin dữ liệu",
         "cập nhật dữ liệu",
-        "cập nhật trạng thái",
-        "đồng bộ dữ liệu",
-        "kết nối chia sẻ dữ liệu"
+        "cập nhật trạng thái"
       ],
       "ConcKeyO_concrete": [
         "Dữ liệu thông tin điện tử",
@@ -2578,7 +2124,6 @@
         "mang theo",
         "không mang theo",
         "không xuất trình được",
-        "có nhưng không mang theo",
         "cung cấp cho lực lượng chức năng khi có yêu cầu"
       ],
       "ConcKeyO_concrete": [
@@ -2604,10 +2149,7 @@
       "name": "Giao phương tiện",
       "keyphrases": [
         "giao phương tiện",
-        "để cho người làm công điều khiển",
-        "để cho người đại diện điều khiển",
-        "giao xe",
-        "đưa phương tiện tham gia giao thông"
+        "giao xe"
       ],
       "ConcKeyO_concrete": [
         "Người điều khiển phương tiện",
@@ -2690,15 +2232,11 @@
     },
     {
       "id": "R39",
-      "name": "Dừng đỗ",
+      "name": "dừng xe",
       "keyphrases": [
         "dừng xe",
         "đỗ xe",
-        "dừng đỗ",
-        "để xe",
-        "dừng xe đỗ xe tại",
-        "dừng xe đỗ xe trên",
-        "dừng xe đỗ xe trong"
+        "để xe"
       ],
       "ConcKeyO_concrete": [
         "Lòng đường",
@@ -2726,13 +2264,10 @@
         "vượt quá",
         "quá tốc độ",
         "quá tải",
-        "vượt tải",
         "vượt trọng tải",
         "vượt khổ",
-        "vượt quá số người",
         "vượt quá kích thước",
-        "vượt quá chiều cao",
-        "vượt quá nồng độ"
+        "vượt quá chiều cao"
       ],
       "ConcKeyO_concrete": [
         "Tốc độ",
@@ -2782,10 +2317,9 @@
     },
     {
       "id": "R42",
-      "name": "Đào tạo sát hạch",
+      "name": "tổ chức đào tạo",
       "keyphrases": [
         "tổ chức đào tạo",
-        "tổ chức sát hạch",
         "thực hiện kiểm định",
         "chứng nhận",
         "thử nghiệm",
@@ -2817,8 +2351,6 @@
         "kinh doanh vận tải",
         "dịch vụ hỗ trợ vận tải",
         "cung cấp dịch vụ",
-        "sản xuất lắp ráp nhập khẩu",
-        "bảo hành bảo dưỡng",
         "cung ứng dịch vụ"
       ],
       "ConcKeyO_concrete": [
@@ -2839,7 +2371,7 @@
     },
     {
       "id": "R44",
-      "name": "Sửa đổi bãi bỏ",
+      "name": "sửa đổi",
       "keyphrases": [
         "sửa đổi",
         "bổ sung",
