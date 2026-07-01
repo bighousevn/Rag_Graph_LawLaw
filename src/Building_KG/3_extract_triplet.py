@@ -1,264 +1,279 @@
 """
-Bước 3: Trích xuất raw_entities + raw_triplets từ các mệnh đề đã chuẩn hoá.
-Dùng LLM theo mô hình mạng lưới. KHÔNG gom concept (làm ở 4_build_ontology.py).
-
-Tối ưu chi phí: gộp --batch-size sections thành 1 LLM call thay vì 1 call/section.
+Bước 3: Trích xuất raw entities + raw triplets từ các mệnh đề đã chuẩn hoá.
+Dùng VnCoreNLP (wseg + pos + ner + parse) — KHÔNG gọi LLM.
+Input:  material_for_triplets/2_sections_rewritten_*.json
+Output: material_for_triplets/3_triplets_extracted_*.json
 """
 
 import os
+import glob
 import json
 import time
 import argparse
-import threading
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from dotenv import load_dotenv
-from openai import OpenAI
 
-load_dotenv()
-
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    raise ValueError("OPENAI_API_KEY not found in env variables or .env file.")
-
-client = OpenAI(api_key=api_key)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "vncorenlp_model"))
+DEFAULT_INPUT  = os.path.join(BASE_DIR, "material_for_triplets/2_sections_rewritten_nghi_dinh_168_2024_1.json")
+DEFAULT_OUTPUT = os.path.join(BASE_DIR, "material_for_triplets/3_triplets_extracted_nghi_dinh_168_2024_1.json")
 
 
-EXTRACTION_PROMPT = """Bạn là chuyên gia phân tích văn bản pháp lý tiếng Việt.
+def _ensure_jvm():
+    cur = os.environ.get("JVM_PATH")
+    if cur and os.path.exists(cur):
+        return
+    home = os.path.expanduser("~")
+    cands = []
+    jh = os.environ.get("JAVA_HOME")
+    if jh:
+        cands += [
+            os.path.join(jh, "lib/server/libjvm.so"),
+            os.path.join(jh, "jre/lib/server/libjvm.so"),
+            os.path.join(jh, "lib/server/libjvm.dylib"),
+        ]
+    cands += glob.glob(os.path.join(home, ".local/share/mise/installs/java/*/lib/server/libjvm.so"))
+    cands += glob.glob(os.path.join(home, ".local/share/mise/installs/java/*/lib/server/libjvm.dylib"))
+    cands += glob.glob("/usr/lib/jvm/*/lib/server/libjvm.so")
+    cands += glob.glob("/Library/Java/JavaVirtualMachines/*/Contents/Home/lib/server/libjvm.dylib")
+    cands += glob.glob(os.path.join(home, ".vscode/extensions/redhat.java-*/jre/*/lib/server/libjvm.so"))
+    cands += glob.glob(os.path.join(home, ".vscode/extensions/redhat.java-*/jre/*/lib/server/libjvm.dylib"))
+    for c in sorted(cands, reverse=True):
+        if os.path.exists(c):
+            os.environ["JVM_PATH"] = c
+            print(f"[jvm] JVM_PATH = {c}")
+            return
+    print("⚠️  Không tự dò được libjvm — hãy export JVM_PATH thủ công.")
 
-Bạn sẽ nhận nhiều section pháp lý, mỗi section có danh sách mệnh đề đánh số.
-Với MỖI section và MỖI mệnh đề, hãy trích xuất THỰC THỂ và BỘ BA.
 
-─── QUY TẮC THỰC THỂ (entity) ───
-Entity CHỈ là danh từ / cụm danh từ THUẦN — KHÔNG chứa động từ, giới từ hoặc phó từ bên trong.
-  ✓ ĐÚNG: "người", "xe ô tô", "giấy phép lái xe", "buồng lái", "số lượng quy định"
-  ✗ SAI:  "người điều khiển ô tô"  (có động từ "điều khiển")
-           "người trên buồng lái"   (có giới từ "trên")
-           "quá số lượng quy định"  (có phó từ mức độ "quá")
+_ensure_jvm()
+import py_vncorenlp  # noqa: E402
 
-Khi gặp các cụm phức tạp, phải tách:
-  "người điều khiển ô tô"   → subject="người", relation="điều_khiển", object="ô tô"
-  "người trên buồng lái"    → entity="người" + entity="buồng lái", thêm triplet (người, ở_trong, buồng lái)
-  "chở quá số lượng"        → relation="chở_vượt_quá", object="số lượng quy định"
+print(f"Loading VnCoreNLP from: {MODEL_DIR}")
+model = py_vncorenlp.VnCoreNLP(annotators=["wseg", "pos", "ner", "parse"], save_dir=MODEL_DIR)
+print("VnCoreNLP loaded.")
 
-─── QUY TẮC BỘ BA (triplet) — MÔ HÌNH MẠNG LƯỚI ───
-PHẢI trích xuất TẤT CẢ quan hệ — kể cả quan hệ trong phần ngữ cảnh/tiêu đề của mệnh đề.
-KHÔNG được bỏ sót triplet với lý do "đây chỉ là background".
-
-Ví dụ: "người điều khiển xe ô tô không đảm bảo khoảng cách an toàn với xe phía sau"
-  entities: người | xe ô tô | khoảng cách an toàn | xe phía sau
-  triplets:
-    (người, điều_khiển, xe ô tô)               ← PHẢI có, dù là context
-    (người, không_đảm_bảo, khoảng cách an toàn)
-    (khoảng cách an toàn, với, xe phía sau)
-
-KIỂM TRA SAU KHI SINH TRIPLETS: Mỗi entity PHẢI xuất hiện ít nhất 1 lần trong triplets
-(làm subject hoặc object). Nếu có entity không xuất hiện trong bất kỳ triplet nào
-→ đã bỏ sót relation, phải bổ sung triplet còn thiếu.
-
-─── QUY TẮC RELATION ───
-- Viết thường, dùng dấu gạch dưới: "điều_khiển", "không_đảm_bảo", "bị_tước"
-- Phủ định PHẢI đưa vào relation: "không_có", "chưa_chấp_hành", "không_gắn"
-- Giới từ vị trí ("trên/trong/tại/ở") → tách thành relation: "ở_trong", "ở_tại"
-- Phó từ mức độ ("quá/vượt") → gộp vào relation: "chở_vượt_quá", "vượt_quá"
-
-Trả về JSON duy nhất (key ngoài là chỉ số section "0","1",... key trong là chỉ số mệnh đề):
-{
-  "sections": {
-    "0": {
-      "results": {
-        "0": {
-          "entities": [
-            {"text": "<danh từ thuần>", "role": "subject"},
-            {"text": "<danh từ thuần>", "role": "object"}
-          ],
-          "triplets": [
-            {"subject": "<danh từ thuần>", "relation": "<relation>", "object": "<danh từ thuần>"}
-          ]
-        }
-      }
-    },
-    "1": { "results": { ... } }
-  }
+SUBJECT_LABELS = {"sub", "nsubj"}
+DOBJ_LABELS    = {"dob", "dobj"}
+PREP_POS       = {"E", "I"}
+PASSIVE_MARKERS = {"bị", "được"}
+MODAL_VERBS = {
+    "muốn", "cần", "phải", "nên", "sẽ", "đang", "đã",
+    "có_thể", "không", "hãy", "đừng", "chớ",
 }
-Bỏ qua mệnh đề trống hoặc không có thực thể/quan hệ rõ ràng."""
 
 
-def call_with_retry(messages, max_retries=4, initial_backoff=2):
-    backoff = initial_backoff
-    last_err = None
-    for attempt in range(max_retries):
-        try:
-            response = client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=messages,
-                response_format={"type": "json_object"},
-                temperature=0.0,
-            )
-            content = response.choices[0].message.content
-            if content is None:
-                raise ValueError("LLM returned empty content")
-            return json.loads(content)
-        except Exception as e:
-            last_err = e
-            if attempt < max_retries - 1:
-                time.sleep(backoff)
-                backoff *= 2
-    raise RuntimeError(f"LLM call failed after {max_retries} attempts: {last_err}")
+def clean(w: str) -> str:
+    return w.replace("_", " ").strip()
 
 
-def extract_batch(sections_batch):
-    """One LLM call for a batch of sections. Returns dict keyed by section index str."""
-    input_parts = []
-    for i, section in enumerate(sections_batch):
-        props = [p for p in section.get("rewritten_propositions", []) if p and p.strip()]
-        if not props:
+def build_children(sentence: list) -> dict:
+    children: dict = {}
+    for tok in sentence:
+        children.setdefault(tok["head"], []).append(tok)
+    return children
+
+
+def subtree_tokens(idx: int, children: dict) -> list:
+    out, stack, seen = [], [idx], set()
+    while stack:
+        cur = stack.pop()
+        if cur in seen:
             continue
-        input_parts.append(f"[Section {i} — id={section['id']}]")
-        for j, prop in enumerate(props):
-            input_parts.append(f"  {j}. \"{prop}\"")
-
-    if not input_parts:
-        return {}
-
-    result = call_with_retry([
-        {"role": "system", "content": EXTRACTION_PROMPT},
-        {"role": "user", "content": "Các section cần phân tích:\n" + "\n".join(input_parts)},
-    ])
-    return result.get("sections", {})
+        seen.add(cur)
+        for ch in children.get(cur, []):
+            out.append(ch)
+            stack.append(ch["index"])
+    return out
 
 
-def build_section_result(section, prop_results):
-    """Reconstruct per-section output from batch LLM results."""
+def phrase_of(idx: int, children: dict, tokens_by_index: dict) -> str:
+    head_tok = tokens_by_index.get(idx)
+    if not head_tok:
+        return ""
+    toks = [head_tok] + subtree_tokens(idx, children)
+    unique = {t["index"]: t for t in toks}.values()
+    return clean(" ".join(t["wordForm"] for t in sorted(unique, key=lambda t: t["index"])))
+
+
+def find_subject(verb_idx: int, sentence: list, tokens_by_index: dict) -> int | None:
+    for tok in sentence:
+        if tok["head"] == verb_idx and tok["depLabel"] in SUBJECT_LABELS:
+            return tok["index"]
+    curr, visited = verb_idx, set()
+    while curr in tokens_by_index and curr not in visited:
+        visited.add(curr)
+        parent_idx = tokens_by_index[curr]["head"]
+        if parent_idx == 0:
+            break
+        for tok in sentence:
+            if tok["head"] == parent_idx and tok["depLabel"] in SUBJECT_LABELS:
+                return tok["index"]
+        curr = parent_idx
+    return None
+
+
+def find_object_idx(verb_idx: int, sentence: list) -> int | None:
+    for tok in sentence:
+        if tok["head"] == verb_idx and tok["depLabel"] in DOBJ_LABELS:
+            return tok["index"]
+    for prep in sentence:
+        if prep["head"] == verb_idx and prep["posTag"] in PREP_POS:
+            for pob in sentence:
+                if pob["head"] == prep["index"] and pob["depLabel"] == "pob":
+                    return pob["index"]
+    return None
+
+
+def extract_from_proposition(text: str) -> tuple[list[dict], list[dict]]:
+    """Return (entities, triplets) extracted by VnCoreNLP from a single proposition."""
+    annotated = model.annotate_text(text.replace("_", " "))
+
+    seen_entity_texts: set[str] = set()
+    entities: list[dict] = []
+    triplets: list[dict] = []
+
+    for _, sentence in annotated.items():
+        tokens_by_index = {t["index"]: t for t in sentence}
+        children = build_children(sentence)
+
+        # ── SVO from dependency tree ─────────────────────────────────────────
+        for tok in sentence:
+            word = clean(tok["wordForm"]).lower()
+            if tok["posTag"] != "V" or word in MODAL_VERBS:
+                continue
+
+            v_idx = tok["index"]
+            relation = clean(tok["wordForm"])
+
+            parent = tokens_by_index.get(tok["head"])
+            if parent and parent["wordForm"].lower() in PASSIVE_MARKERS:
+                relation = f"{clean(parent['wordForm'])} {relation}"
+
+            s_idx = find_subject(v_idx, sentence, tokens_by_index)
+            o_idx = find_object_idx(v_idx, sentence)
+            if s_idx is None or o_idx is None:
+                continue
+
+            s_phrase = phrase_of(s_idx, children, tokens_by_index)
+            o_phrase = phrase_of(o_idx, children, tokens_by_index)
+
+            triplets.append({
+                "subject":  s_phrase,
+                "relation": relation.lower().replace(" ", "_"),
+                "object":   o_phrase,
+            })
+
+            for phrase, role in [(s_phrase, "subject"), (o_phrase, "object")]:
+                if phrase and phrase not in seen_entity_texts:
+                    seen_entity_texts.add(phrase)
+                    entities.append({"text": phrase, "role": role})
+
+        # ── NER spans (bổ sung entity chưa được capture qua SVO) ────────────
+        ner_buf: list[dict] = []
+        def _flush_ner():
+            if not ner_buf:
+                return
+            phrase = clean(" ".join(t["wordForm"] for t in ner_buf))
+            if phrase and phrase not in seen_entity_texts:
+                seen_entity_texts.add(phrase)
+                entities.append({"text": phrase, "role": "entity"})
+            ner_buf.clear()
+
+        for tok in sentence:
+            label = tok.get("nerLabel", "O")
+            if label.startswith("B-"):
+                _flush_ner()
+                ner_buf.append(tok)
+            elif label.startswith("I-") and ner_buf:
+                ner_buf.append(tok)
+            else:
+                _flush_ner()
+        _flush_ner()
+
+    return entities, triplets
+
+
+def build_section_result(section: dict) -> dict:
     base = {
-        "id": section.get("id"),
-        "document_name": section.get("document_name"),
-        "level": section.get("level"),
-        "path": section.get("path"),
-        "original_text": section.get("text_content"),
+        "id":                    section["id"],
+        "document_name":         section.get("document_name"),
+        "level":                 section.get("level"),
+        "path":                  section.get("path"),
+        "original_text":         section.get("text_content"),
         "rewritten_propositions": section.get("rewritten_propositions", []),
     }
-
-    propositions = [p for p in section.get("rewritten_propositions", []) if p and p.strip()]
-    if not propositions or not prop_results:
+    props = [p for p in section.get("rewritten_propositions", []) if p and p.strip()]
+    if not props:
         return {**base, "raw_entities": [], "raw_triplets": []}
 
-    entity_set = set()
-    raw_entities = []
-    all_raw_triplets = []
+    seen_entities: set[str] = set()
+    raw_entities: list[dict] = []
+    raw_triplets: list[dict] = []
 
-    for j in range(len(propositions)):
-        prop_result = prop_results.get(str(j), {})
-        for e in prop_result.get("entities", []):
-            text = e.get("text", "").strip()
-            if text and text not in entity_set:
-                entity_set.add(text)
-                raw_entities.append({"text": text, "role": e.get("role", "")})
-        all_raw_triplets.extend(prop_result.get("triplets", []))
+    for prop in props:
+        try:
+            ents, trips = extract_from_proposition(prop)
+        except Exception as e:
+            print(f"  ⚠  [{section['id']}] lỗi prop: {e}")
+            ents, trips = [], []
 
-    return {
-        **base,
-        "raw_entities": raw_entities,
-        "raw_triplets": all_raw_triplets,
-    }
+        for e in ents:
+            if e["text"] not in seen_entities:
+                seen_entities.add(e["text"])
+                raw_entities.append(e)
+        raw_triplets.extend(trips)
+
+    return {**base, "raw_entities": raw_entities, "raw_triplets": raw_triplets}
 
 
-def process_batch(sections_batch):
-    """Process a batch of sections with one LLM call. Returns list of results."""
-    batch_llm_results = extract_batch(sections_batch)
-    results = []
-    for i, section in enumerate(sections_batch):
-        prop_results = batch_llm_results.get(str(i), {}).get("results", {})
-        results.append(build_section_result(section, prop_results))
-    return results
+def save(path: str, data: list) -> None:
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+    os.replace(tmp, path)
 
 
 def main():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-
-    parser = argparse.ArgumentParser(description="Extract triplets via LLM (batched, network model).")
-    parser.add_argument(
-        "--input",
-        default=os.path.join(base_dir, "material_for_triplets/2_sections_rewritten_nghi_dinh_168_2024_1.json"),
-    )
-    parser.add_argument(
-        "--output",
-        default=os.path.join(base_dir, "material_for_triplets/3_triplets_extracted_nghi_dinh_168_2024_1.json"),
-    )
-    parser.add_argument("--threads", type=int, default=5, help="Parallel batch workers")
-    parser.add_argument("--batch-size", type=int, default=10, help="Sections per LLM call")
-    parser.add_argument("--limit", type=int, default=0, help="Limit sections (for testing)")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input",  default=DEFAULT_INPUT)
+    parser.add_argument("--output", default=DEFAULT_OUTPUT)
+    parser.add_argument("--limit",  type=int, default=0, help="Giới hạn số section (0 = tất cả)")
     args = parser.parse_args()
 
-    if not os.path.exists(args.input):
-        print(f"Input file not found: {args.input}")
-        return
-
-    with open(args.input, "r", encoding="utf-8") as f:
+    with open(args.input, encoding="utf-8") as f:
         sections = json.load(f)
+    if args.limit:
+        sections = sections[:args.limit]
 
-    if args.limit > 0:
-        sections = sections[: args.limit]
-        print(f"Limiting to first {args.limit} sections.")
-
-    print(f"Total sections: {len(sections)}")
-
-    # Resume: load already-processed sections
-    processed = {}
+    done: dict[str, dict] = {}
     if os.path.exists(args.output):
-        try:
-            with open(args.output, "r", encoding="utf-8") as f:
-                for item in json.load(f):
-                    if "raw_triplets" in item:
-                        processed[item["id"]] = item
-            print(f"Resuming: {len(processed)} sections already done.")
-        except Exception as e:
-            print(f"Could not read existing output ({e}). Starting fresh.")
+        with open(args.output, encoding="utf-8") as f:
+            for item in json.load(f):
+                if "raw_triplets" in item:
+                    done[item["id"]] = item
 
-    to_process = [s for s in sections if s["id"] not in processed]
-    print(f"Remaining: {len(to_process)} sections to process.")
-
+    to_process = [s for s in sections if s["id"] not in done]
+    print(f"Total: {len(sections)} | Done: {len(done)} | Remaining: {len(to_process)}")
     if not to_process:
-        print("All sections already processed.")
         return
 
-    batches = [
-        to_process[i: i + args.batch_size]
-        for i in range(0, len(to_process), args.batch_size)
-    ]
-    print(f"Batches: {len(batches)} × up to {args.batch_size} sections/call  |  threads={args.threads}")
+    t0 = time.time()
+    for i, section in enumerate(to_process, 1):
+        result = build_section_result(section)
+        done[result["id"]] = result
 
-    save_lock = threading.Lock()
-    counts = {"success": len(processed), "fail": 0, "done": 0}
+        n_trip = len(result["raw_triplets"])
+        n_ent  = len(result["raw_entities"])
+        print(f"[{i}/{len(to_process)}] {section['id']} — {n_ent} entities, {n_trip} triplets"
+              f"  ({time.time()-t0:.1f}s)")
 
-    def save_progress():
-        ordered = [processed[s["id"]] for s in sections if s["id"] in processed]
-        tmp = args.output + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as f:
-            json.dump(ordered, f, ensure_ascii=False, indent=4)
-        os.replace(tmp, args.output)
+        if i % 10 == 0 or i == len(to_process):
+            ordered = [done[s["id"]] for s in sections if s["id"] in done]
+            save(args.output, ordered)
 
-    with ThreadPoolExecutor(max_workers=args.threads) as executor:
-        future_to_batch = {executor.submit(process_batch, batch): batch for batch in batches}
-        for future in as_completed(future_to_batch):
-            batch = future_to_batch[future]
-            counts["done"] += 1
-            try:
-                results = future.result()
-                with save_lock:
-                    for result in results:
-                        processed[result["id"]] = result
-                        counts["success"] += 1
-                    save_progress()
-                ids = [r["id"] for r in results]
-                n_triplets = sum(len(r.get("raw_triplets", [])) for r in results)
-                print(f"[{counts['done']}/{len(batches)}] ✓ {ids} — {n_triplets} raw_triplets")
-            except Exception as e:
-                counts["fail"] += len(batch)
-                ids = [s["id"] for s in batch]
-                print(f"[{counts['done']}/{len(batches)}] ✗ {ids}: {e}")
-
-    print(f"\nDone. Success: {counts['success']}, Failed: {counts['fail']}")
-    print(f"Output saved to {args.output}")
+    ordered = [done[s["id"]] for s in sections if s["id"] in done]
+    save(args.output, ordered)
+    total_trips = sum(len(v.get("raw_triplets", [])) for v in done.values())
+    print(f"\nDone. {len(done)} sections, {total_trips} triplets → {args.output}")
 
 
 if __name__ == "__main__":
