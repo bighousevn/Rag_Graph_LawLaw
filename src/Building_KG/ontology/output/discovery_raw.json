@@ -1,0 +1,4028 @@
+{
+  "props_done": 990,
+  "total_props": 1085,
+  "entities": [
+    {
+      "canonical": "Nghị định",
+      "keyphrases": [
+        "Nghị định",
+        "Nghị định quy định",
+        "Nghị định này"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành vi vi phạm hành chính",
+      "keyphrases": [
+        "hành vi vi phạm hành chính",
+        "hành vi vi phạm",
+        "vi phạm hành chính"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người",
+        "cá nhân vi phạm"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "cơ quan",
+        "đơn vị",
+        "tổ chức vi phạm"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Người có thẩm quyền",
+      "keyphrases": [
+        "người có thẩm quyền",
+        "cán bộ có thẩm quyền",
+        "người có quyền"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "bằng lái xe",
+        "giấy phép"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Biện pháp khắc phục hậu quả",
+      "keyphrases": [
+        "biện pháp khắc phục hậu quả",
+        "biện pháp khắc phục",
+        "các biện pháp khắc phục"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hình thức xử phạt",
+      "keyphrases": [
+        "hình thức xử phạt",
+        "hình thức xử phạt chính",
+        "hình thức xử phạt bổ sung"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Biện pháp khắc phục hậu quả",
+      "keyphrases": [
+        "biện pháp khắc phục hậu quả",
+        "các biện pháp khắc phục hậu quả"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép, chứng chỉ hành nghề",
+      "keyphrases": [
+        "giấy phép",
+        "chứng chỉ hành nghề",
+        "giấy chứng nhận",
+        "giấy phép lái xe",
+        "giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người có thẩm quyền",
+      "keyphrases": [
+        "người có thẩm quyền",
+        "cơ quan có thẩm quyền"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Phương tiện",
+      "keyphrases": [
+        "phương tiện",
+        "xe ô tô",
+        "xe cơ giới"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thời hiệu xử phạt",
+      "keyphrases": [
+        "thời hiệu xử phạt",
+        "thời hạn xử phạt"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành vi vi phạm hành chính",
+      "keyphrases": [
+        "hành vi vi phạm hành chính",
+        "hành vi vi phạm"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Khu kinh tế",
+      "keyphrases": [
+        "Khu kinh tế thương mại đặc biệt",
+        "Khu kinh tế cửa khẩu quốc tế"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "xe tương tự xe ô tô",
+        "xe bốn bánh"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "giấy phép lái xe có thời hạn",
+        "giấy phép lái xe không thời hạn"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành vi vi phạm",
+      "keyphrases": [
+        "hành vi vi phạm",
+        "vi phạm quy tắc giao thông đường bộ",
+        "hành vi vi phạm hành chính"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cơ quan có thẩm quyền",
+      "keyphrases": [
+        "cơ quan có thẩm quyền",
+        "người có thẩm quyền"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Điều kiện về cơ sở hạ tầng",
+      "keyphrases": [
+        "điều kiện về cơ sở hạ tầng",
+        "điều kiện về kỹ thuật",
+        "điều kiện về thông tin"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "xe tương tự xe ô tô",
+        "xe bốn bánh",
+        "ô tô tải",
+        "xe khách"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "các loại xe tương tự xe ô tô",
+        "xe bốn bánh"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển xe ô tô",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe mô tô",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô",
+        "các loại xe tương tự xe gắn máy"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển xe mô tô",
+      "keyphrases": [
+        "người điều khiển xe mô tô",
+        "người điều khiển",
+        "tài xế",
+        "lái xe",
+        "người lái xe mô tô"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe mô tô",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô",
+        "các loại xe tương tự xe gắn máy"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Quy tắc giao thông đường bộ",
+      "keyphrases": [
+        "quy tắc giao thông đường bộ",
+        "quy định giao thông",
+        "luật giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành vi vi phạm",
+      "keyphrases": [
+        "hành vi vi phạm",
+        "hành vi sai phạm",
+        "hành vi không đúng quy định"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển xe mô tô",
+      "keyphrases": [
+        "người điều khiển xe mô tô",
+        "người điều khiển",
+        "tài xế",
+        "lái xe",
+        "người lái xe mô tô"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe mô tô",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Quy tắc giao thông đường bộ",
+      "keyphrases": [
+        "quy tắc giao thông đường bộ",
+        "quy định giao thông",
+        "luật giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Phương tiện",
+      "keyphrases": [
+        "phương tiện",
+        "xe",
+        "phương tiện giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Tai nạn giao thông",
+      "keyphrases": [
+        "tai nạn giao thông",
+        "sự cố giao thông",
+        "tai nạn"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Nồng độ cồn",
+      "keyphrases": [
+        "nồng độ cồn",
+        "nồng độ cồn trong máu",
+        "nồng độ cồn trong hơi thở"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chất ma túy",
+      "keyphrases": [
+        "chất ma túy",
+        "chất kích thích",
+        "chất cấm"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hình thức xử phạt",
+      "keyphrases": [
+        "hình thức xử phạt",
+        "hình phạt",
+        "biện pháp xử lý"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển xe mô tô",
+        "người điều khiển xe gắn máy",
+        "người điều khiển xe máy chuyên dùng",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe mô tô",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "bằng lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Quy tắc giao thông đường bộ",
+      "keyphrases": [
+        "quy tắc giao thông đường bộ",
+        "quy định giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hình thức xử phạt",
+      "keyphrases": [
+        "hình thức xử phạt",
+        "xử phạt",
+        "hình thức xử lý"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Điểm giấy phép lái xe",
+      "keyphrases": [
+        "điểm giấy phép lái xe",
+        "trừ điểm giấy phép lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Phạt tiền",
+      "keyphrases": [
+        "phạt tiền",
+        "xử phạt tiền"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển xe máy chuyên dùng",
+      "keyphrases": [
+        "người điều khiển xe máy chuyên dùng",
+        "tài xế xe máy chuyên dùng",
+        "lái xe máy chuyên dùng"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe máy chuyên dùng",
+      "keyphrases": [
+        "xe máy chuyên dùng",
+        "phương tiện chuyên dùng",
+        "xe máy"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển xe đạp, xe đạp máy và xe thô sơ khác",
+      "keyphrases": [
+        "người điều khiển xe đạp",
+        "người điều khiển xe đạp máy",
+        "người điều khiển xe thô sơ khác"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe đạp, xe đạp máy và xe thô sơ khác",
+      "keyphrases": [
+        "xe đạp",
+        "xe đạp máy",
+        "xe thô sơ khác"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển xe đạp",
+        "người điều khiển xe đạp máy",
+        "người điều khiển xe thô sơ",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe đạp",
+      "keyphrases": [
+        "xe đạp",
+        "xe đạp máy",
+        "xe thô sơ",
+        "phương tiện thô sơ"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người đi bộ",
+      "keyphrases": [
+        "người đi bộ",
+        "người đi bộ vi phạm",
+        "người đi bộ tham gia giao thông"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Vật nuôi",
+      "keyphrases": [
+        "vật nuôi",
+        "động vật",
+        "thú cưng"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Người điều khiển",
+      "keyphrases": [
+        "người điều khiển",
+        "tài xế",
+        "lái xe",
+        "người điều khiển phương tiện"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Vật nuôi",
+      "keyphrases": [
+        "vật nuôi",
+        "thú cưng"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe vật nuôi kéo",
+      "keyphrases": [
+        "xe vật nuôi kéo",
+        "xe kéo vật nuôi"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người được chở",
+      "keyphrases": [
+        "người được chở",
+        "hành khách",
+        "người ngồi trên xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "doanh nghiệp",
+        "cơ quan"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Phương tiện giao thông",
+      "keyphrases": [
+        "phương tiện giao thông",
+        "xe cộ",
+        "phương tiện"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Quy tắc giao thông đường bộ",
+      "keyphrases": [
+        "quy tắc giao thông đường bộ",
+        "luật giao thông",
+        "quy định giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Biển báo hiệu đường bộ",
+      "keyphrases": [
+        "biển báo hiệu đường bộ",
+        "biển báo giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Đèn tín hiệu giao thông",
+      "keyphrases": [
+        "đèn tín hiệu giao thông",
+        "đèn giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người",
+        "cá nhân vi phạm"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "doanh nghiệp",
+        "cơ sở"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "xe tương tự xe ô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Quy tắc giao thông đường bộ",
+      "keyphrases": [
+        "quy tắc giao thông đường bộ",
+        "quy định giao thông",
+        "luật giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thiết bị điều khiển giao thông",
+      "keyphrases": [
+        "thiết bị điều khiển giao thông",
+        "thiết bị giám sát giao thông",
+        "thiết bị thông minh hỗ trợ chỉ huy"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "bằng lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy chứng nhận đăng ký xe",
+      "keyphrases": [
+        "giấy chứng nhận đăng ký xe",
+        "sổ đăng ký xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Biện pháp khắc phục hậu quả",
+      "keyphrases": [
+        "biện pháp khắc phục hậu quả",
+        "biện pháp xử lý",
+        "biện pháp sửa chữa"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "các loại xe tương tự xe ô tô",
+        "xe bốn bánh"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe mô tô",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển xe mô tô",
+        "người điều khiển xe gắn máy",
+        "người điều khiển xe thô sơ",
+        "người điều khiển xe máy chuyên dùng",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe mô tô",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe thô sơ",
+      "keyphrases": [
+        "xe thô sơ"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe máy chuyên dùng",
+      "keyphrases": [
+        "xe máy chuyên dùng",
+        "xe máy chuyên dùng (kể cả rơ moóc được kéo theo)"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "máy kéo",
+        "các loại xe tương tự xe ô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển xe ô tô",
+        "người điều khiển xe mô tô",
+        "người điều khiển",
+        "tài xế",
+        "lái xe",
+        "người từ đủ 16 tuổi đến dưới 18 tuổi",
+        "người từ đủ 14 tuổi đến dưới 16 tuổi",
+        "người điều khiển xe cơ giới"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "xe cơ giới",
+        "xe tương tự xe ô tô",
+        "xe mô tô",
+        "xe gắn máy",
+        "xe mô tô hai bánh",
+        "xe mô tô ba bánh",
+        "xe có dung tích xi-lanh",
+        "xe có công suất động cơ điện"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "giấy phép lái xe quốc tế",
+        "giấy phép lái xe không hợp lệ",
+        "giấy phép lái xe đã hết hạn",
+        "giấy phép lái xe bị tẩy xóa",
+        "giấy phép lái xe không còn hiệu lực"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chứng nhận bảo hiểm",
+      "keyphrases": [
+        "chứng nhận bảo hiểm bắt buộc",
+        "chứng nhận bảo hiểm",
+        "chứng nhận bảo hiểm trách nhiệm dân sự"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chứng nhận đăng ký xe",
+      "keyphrases": [
+        "chứng nhận đăng ký xe",
+        "bản sao chứng nhận đăng ký xe",
+        "giấy biên nhận của tổ chức tín dụng"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chất thải",
+      "keyphrases": [
+        "chất thải",
+        "chất phế thải",
+        "hàng hóa",
+        "rác",
+        "đất",
+        "cát",
+        "đá",
+        "vật liệu"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở hành khách",
+        "ô tô chở người",
+        "xe tương tự xe ô tô chở hành khách"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe máy chuyên dùng",
+      "keyphrases": [
+        "xe máy chuyên dùng",
+        "phương tiện chuyên dùng"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "bằng lái xe",
+        "chứng chỉ lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành lý, hàng hóa",
+      "keyphrases": [
+        "hành lý",
+        "hàng hóa",
+        "hành lý, hàng hóa"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chứng nhận bảo hiểm",
+      "keyphrases": [
+        "chứng nhận bảo hiểm",
+        "bảo hiểm bắt buộc trách nhiệm dân sự"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe ô tô chở hành khách",
+      "keyphrases": [
+        "xe ô tô chở hành khách",
+        "ô tô chở người",
+        "các loại xe tương tự xe ô tô chở hành khách"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô tải",
+      "keyphrases": [
+        "xe ô tô tải",
+        "máy kéo",
+        "các loại xe tương tự xe ô tô vận chuyển hàng hóa"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô tải",
+      "keyphrases": [
+        "xe ô tô tải",
+        "ô tô tải",
+        "xe tải",
+        "xe chở hàng"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Máy kéo",
+      "keyphrases": [
+        "máy kéo",
+        "xe máy kéo"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe tương tự xe ô tô",
+      "keyphrases": [
+        "các loại xe tương tự xe ô tô",
+        "xe tương tự xe ô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hàng hóa",
+      "keyphrases": [
+        "hàng hóa",
+        "hàng",
+        "hàng vận chuyển"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép",
+      "keyphrases": [
+        "giấy phép",
+        "giấy phép lưu hành",
+        "giấy phép vận chuyển"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Công-ten-nơ",
+      "keyphrases": [
+        "công-ten-nơ",
+        "container"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Rơ moóc",
+      "keyphrases": [
+        "rơ moóc",
+        "sơ mi rơ moóc"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Tai nạn giao thông",
+      "keyphrases": [
+        "tai nạn giao thông",
+        "sự cố giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "bằng lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hàng siêu trường, siêu trọng",
+      "keyphrases": [
+        "hàng siêu trường, siêu trọng",
+        "hàng siêu trọng",
+        "hàng siêu trường"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Phù hiệu",
+      "keyphrases": [
+        "phù hiệu",
+        "biển hiệu"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe hơi",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe bốn bánh",
+        "xe khách",
+        "xe vệ sinh môi trường",
+        "xe ô tô chở phế thải"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người vi phạm"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "doanh nghiệp",
+        "công ty"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức kinh doanh vận tải",
+      "keyphrases": [
+        "tổ chức kinh doanh vận tải",
+        "doanh nghiệp vận tải",
+        "công ty vận tải"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Dịch vụ hỗ trợ vận tải",
+      "keyphrases": [
+        "dịch vụ hỗ trợ vận tải",
+        "dịch vụ vận tải"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hàng hóa nguy hiểm",
+      "keyphrases": [
+        "hàng hóa nguy hiểm",
+        "hàng hóa độc hại"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "bằng lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Điểm giấy phép lái xe",
+      "keyphrases": [
+        "điểm giấy phép lái xe",
+        "điểm phạt"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Quy định về trật tự, an toàn giao thông",
+      "keyphrases": [
+        "quy định về trật tự, an toàn giao thông",
+        "quy định giao thông",
+        "quy định an toàn giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Quy định về vận chuyển",
+      "keyphrases": [
+        "quy định về vận chuyển",
+        "quy định vận chuyển hàng hóa"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Tổ chức kinh doanh vận tải",
+      "keyphrases": [
+        "tổ chức kinh doanh vận tải",
+        "doanh nghiệp vận tải",
+        "công ty vận tải"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Dịch vụ hỗ trợ vận tải",
+      "keyphrases": [
+        "dịch vụ hỗ trợ vận tải",
+        "dịch vụ vận tải",
+        "dịch vụ liên quan đến vận tải"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe bốn bánh",
+        "xe khách",
+        "xe tải"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người vi phạm",
+        "người điều khiển"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Thiết bị giám sát hành trình",
+      "keyphrases": [
+        "thiết bị giám sát hành trình",
+        "thiết bị theo dõi hành trình",
+        "thiết bị giám sát"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thiết bị ghi nhận hình ảnh",
+      "keyphrases": [
+        "thiết bị ghi nhận hình ảnh",
+        "camera giám sát",
+        "thiết bị ghi hình"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Trật tự, an toàn giao thông đường bộ",
+      "keyphrases": [
+        "trật tự, an toàn giao thông đường bộ",
+        "an toàn giao thông",
+        "trật tự giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành vi vi phạm",
+      "keyphrases": [
+        "hành vi vi phạm",
+        "vi phạm quy định",
+        "hành vi sai trái"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người",
+        "cá nhân thực hiện"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "doanh nghiệp",
+        "cơ sở",
+        "tổ chức thực hiện"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "xe cứu hộ giao thông",
+        "xe cứu thương"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "bằng lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thiết bị giám sát hành trình",
+      "keyphrases": [
+        "thiết bị giám sát hành trình",
+        "thiết bị theo dõi hành trình"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thiết bị ghi nhận hình ảnh",
+      "keyphrases": [
+        "thiết bị ghi nhận hình ảnh",
+        "camera ghi hình",
+        "thiết bị ghi hình"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Dữ liệu",
+      "keyphrases": [
+        "dữ liệu",
+        "thông tin",
+        "dữ liệu thu thập"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Biển số xe",
+      "keyphrases": [
+        "biển số xe",
+        "biển số",
+        "biển số không hợp lệ"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Màu sơn",
+      "keyphrases": [
+        "màu sơn",
+        "màu sơn theo quy định"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Phù hiệu",
+      "keyphrases": [
+        "phù hiệu",
+        "biểu tượng nhận diện"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Trật tự, an toàn giao thông đường bộ",
+      "keyphrases": [
+        "trật tự, an toàn giao thông đường bộ",
+        "quy định về trật tự giao thông"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người",
+        "người điều khiển"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "doanh nghiệp",
+        "cơ quan"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Phương tiện giao thông cơ giới đường bộ",
+      "keyphrases": [
+        "phương tiện giao thông cơ giới đường bộ",
+        "phương tiện",
+        "xe cơ giới"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Biển số xe",
+      "keyphrases": [
+        "biển số xe",
+        "biển số",
+        "biển số đăng ký"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chủ phương tiện",
+      "keyphrases": [
+        "chủ phương tiện",
+        "người sở hữu phương tiện",
+        "người chủ xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "bằng lái",
+        "giấy phép điều khiển phương tiện"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "xe máy chuyên dùng",
+        "các loại xe tương tự xe ô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe mô tô",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "cơ quan",
+        "đơn vị"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người",
+        "tài xế"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Chủ phương tiện",
+      "keyphrases": [
+        "chủ phương tiện",
+        "người sở hữu phương tiện",
+        "người chủ xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "xe máy chuyên dùng",
+        "xe tương tự xe ô tô",
+        "xe ô tô tải",
+        "xe khách"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chủ phương tiện",
+      "keyphrases": [
+        "chủ xe ô tô",
+        "chủ phương tiện",
+        "tổ chức là chủ xe",
+        "cá nhân và tổ chức"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người làm công",
+        "người đại diện",
+        "người không đủ điều kiện"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Chủ phương tiện",
+      "keyphrases": [
+        "chủ phương tiện",
+        "người sở hữu phương tiện",
+        "người điều khiển phương tiện"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Phương tiện",
+      "keyphrases": [
+        "phương tiện",
+        "xe",
+        "xe ô tô",
+        "xe gắn máy",
+        "xe khách",
+        "xe tải"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành khách",
+      "keyphrases": [
+        "hành khách",
+        "người đi xe",
+        "người ngồi trên xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy chứng nhận",
+      "keyphrases": [
+        "giấy chứng nhận",
+        "giấy chứng nhận đăng ký xe",
+        "giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Biển số",
+      "keyphrases": [
+        "biển số",
+        "biển số xe",
+        "biển số đăng ký"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thiết bị",
+      "keyphrases": [
+        "thiết bị",
+        "thiết bị âm thanh",
+        "thiết bị ánh sáng",
+        "dụng cụ"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Điểm giấy phép lái xe",
+      "keyphrases": [
+        "điểm giấy phép lái xe",
+        "điểm trên giấy phép lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe quá khổ, quá tải",
+      "keyphrases": [
+        "xe quá khổ giới hạn",
+        "xe quá tải trọng",
+        "xe bánh xích",
+        "xe chở khách"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người đua xe trái phép",
+      "keyphrases": [
+        "người đua xe trái phép",
+        "tổ chức đua xe",
+        "xúi giục đua xe",
+        "cổ vũ đua xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe mô tô, xe gắn máy, xe thô sơ",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "xe thô sơ"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hình thức xử phạt",
+      "keyphrases": [
+        "hình thức xử phạt",
+        "phạt tiền",
+        "tịch thu phương tiện",
+        "tước quyền sử dụng giấy phép lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện giao thông",
+      "keyphrases": [
+        "người điều khiển phương tiện giao thông",
+        "người điều khiển",
+        "tài xế",
+        "lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Xe ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "ô tô",
+        "xe chở hành khách",
+        "xe ô tô có tay lái bên phải",
+        "xe ô tô và các loại xe tương tự xe ô tô"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe mô tô",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô",
+        "các loại xe tương tự xe gắn máy"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giáo viên dạy lái xe",
+      "keyphrases": [
+        "giáo viên dạy lái xe",
+        "giáo viên",
+        "giáo viên dạy thực hành"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cơ sở đào tạo lái xe",
+      "keyphrases": [
+        "cơ sở đào tạo lái xe",
+        "trung tâm đào tạo lái xe",
+        "trường dạy lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cơ sở đào tạo lái xe",
+      "keyphrases": [
+        "cơ sở đào tạo lái xe",
+        "trung tâm đào tạo lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Trung tâm sát hạch lái xe",
+      "keyphrases": [
+        "trung tâm sát hạch lái xe",
+        "trung tâm sát hạch"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Người dự sát hạch",
+      "keyphrases": [
+        "người dự sát hạch",
+        "thí sinh sát hạch"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe",
+        "giấy phép",
+        "giấy phép đào tạo lái xe"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hồ sơ",
+      "keyphrases": [
+        "hồ sơ",
+        "tài liệu",
+        "giấy tờ"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Xe tập lái",
+      "keyphrases": [
+        "xe tập lái",
+        "xe sát hạch",
+        "xe ô tô tập lái"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thiết bị giám sát",
+      "keyphrases": [
+        "thiết bị giám sát",
+        "camera giám sát",
+        "thiết bị ngoại vi"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giáo viên dạy lái xe",
+      "keyphrases": [
+        "giáo viên dạy lái xe",
+        "giáo viên",
+        "giảng viên"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Học viên",
+      "keyphrases": [
+        "học viên",
+        "người học",
+        "học sinh"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Kỳ sát hạch lái xe",
+      "keyphrases": [
+        "kỳ sát hạch lái xe",
+        "kỳ sát hạch"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Trung tâm sát hạch lái xe",
+      "keyphrases": [
+        "trung tâm sát hạch lái xe",
+        "trung tâm sát hạch",
+        "trung tâm đào tạo lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Giáo viên dạy thực hành",
+      "keyphrases": [
+        "giáo viên dạy thực hành",
+        "giáo viên",
+        "giáo viên lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người",
+        "cá nhân thực hiện"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "cơ quan",
+        "đơn vị"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cơ sở đào tạo lái xe",
+      "keyphrases": [
+        "cơ sở đào tạo lái xe",
+        "cơ sở đào tạo",
+        "trường dạy lái xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cơ sở đăng kiểm",
+      "keyphrases": [
+        "cơ sở đăng kiểm",
+        "trung tâm đăng kiểm",
+        "đơn vị đăng kiểm"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cơ sở thử nghiệm, chứng nhận",
+      "keyphrases": [
+        "cơ sở thử nghiệm, chứng nhận",
+        "cơ sở thử nghiệm",
+        "cơ sở chứng nhận"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Phương tiện",
+      "keyphrases": [
+        "phương tiện",
+        "xe cơ giới",
+        "xe máy chuyên dùng"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy phép sát hạch",
+      "keyphrases": [
+        "giấy phép sát hạch",
+        "giấy phép",
+        "giấy chứng nhận sát hạch"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy tờ, tài liệu giả mạo",
+      "keyphrases": [
+        "giấy tờ giả mạo",
+        "tài liệu giả mạo",
+        "giấy tờ không hợp lệ"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chứng chỉ đăng kiểm viên",
+      "keyphrases": [
+        "chứng chỉ đăng kiểm viên",
+        "giấy chứng nhận đăng kiểm viên",
+        "chứng chỉ"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định",
+      "keyphrases": [
+        "giấy chứng nhận đủ điều kiện",
+        "giấy chứng nhận hoạt động kiểm định",
+        "giấy chứng nhận"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Chủ tịch Ủy ban nhân dân",
+      "keyphrases": [
+        "Chủ tịch Ủy ban nhân dân",
+        "Chủ tịch UBND",
+        "Chủ tịch Ủy ban"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cảnh sát giao thông",
+      "keyphrases": [
+        "Cảnh sát giao thông",
+        "CSGT",
+        "cảnh sát giao thông đường bộ"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cảnh sát trật tự",
+      "keyphrases": [
+        "Cảnh sát trật tự",
+        "cảnh sát trật tự",
+        "cảnh sát bảo vệ trật tự"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cảnh sát phản ứng nhanh",
+      "keyphrases": [
+        "Cảnh sát phản ứng nhanh",
+        "cảnh sát phản ứng nhanh"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cảnh sát cơ động",
+      "keyphrases": [
+        "Cảnh sát cơ động",
+        "cảnh sát cơ động"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cảnh sát quản lý hành chính về trật tự xã hội",
+      "keyphrases": [
+        "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "cảnh sát quản lý hành chính"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Trưởng Công an",
+      "keyphrases": [
+        "Trưởng Công an cấp xã",
+        "Trưởng đồn Công an",
+        "Trưởng trạm Công an cửa khẩu",
+        "Trưởng Công an khu chế xuất"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Hành vi vi phạm",
+      "keyphrases": [
+        "hành vi vi phạm",
+        "hành vi vi phạm quy định",
+        "hành vi vi phạm pháp luật"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Nghị định",
+      "keyphrases": [
+        "Nghị định",
+        "Nghị định này"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thanh tra đường bộ",
+      "keyphrases": [
+        "Thanh tra đường bộ",
+        "người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Chủ tịch Ủy ban nhân dân",
+      "keyphrases": [
+        "Chủ tịch Ủy ban nhân dân cấp xã",
+        "Chủ tịch Ủy ban nhân dân cấp huyện",
+        "Chủ tịch Ủy ban nhân dân cấp tỉnh"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Chiến sĩ Công an nhân dân",
+      "keyphrases": [
+        "Chiến sĩ Công an nhân dân",
+        "Công an nhân dân đang thi hành công vụ"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Thủ trưởng đơn vị Cảnh sát cơ động",
+      "keyphrases": [
+        "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội",
+        "Trưởng trạm",
+        "Đội trưởng"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Trưởng Công an",
+      "keyphrases": [
+        "Trưởng Công an cấp xã",
+        "Trưởng đồn Công an",
+        "Trưởng trạm Công an cửa khẩu",
+        "khu chế xuất",
+        "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Trưởng phòng nghiệp vụ",
+      "keyphrases": [
+        "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "Trưởng phòng Công an cấp tỉnh"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tang vật, phương tiện",
+      "keyphrases": [
+        "tang vật",
+        "phương tiện"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Giám đốc Công an cấp tỉnh",
+      "keyphrases": [
+        "Giám đốc Công an cấp tỉnh"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cục trưởng Cục Cảnh sát giao thông",
+      "keyphrases": [
+        "Cục trưởng Cục Cảnh sát giao thông",
+        "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "Tư lệnh Cảnh sát cơ động"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Thanh tra viên",
+      "keyphrases": [
+        "Thanh tra viên",
+        "người được giao thực hiện nhiệm vụ thanh tra chuyên ngành"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Chánh Thanh tra Sở Giao thông vận tải",
+      "keyphrases": [
+        "Chánh Thanh tra Sở Giao thông vận tải"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương",
+      "keyphrases": [
+        "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Chánh Thanh tra Bộ Giao thông vận tải",
+      "keyphrases": [
+        "Chánh Thanh tra Bộ Giao thông vận tải"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cục trưởng Cục Đường bộ Việt Nam",
+      "keyphrases": [
+        "Cục trưởng Cục Đường bộ Việt Nam"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Cục trưởng Cục Đăng kiểm Việt Nam",
+      "keyphrases": [
+        "Cục trưởng Cục Đăng kiểm Việt Nam"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Giấy phép, chứng chỉ hành nghề",
+      "keyphrases": [
+        "giấy phép",
+        "chứng chỉ hành nghề"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Tang vật, phương tiện",
+      "keyphrases": [
+        "tang vật",
+        "phương tiện"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Biện pháp khắc phục hậu quả",
+      "keyphrases": [
+        "biện pháp khắc phục hậu quả"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành vi vi phạm hành chính",
+      "keyphrases": [
+        "hành vi vi phạm hành chính"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Thẩm quyền xử phạt",
+      "keyphrases": [
+        "thẩm quyền xử phạt"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cá nhân",
+      "keyphrases": [
+        "cá nhân",
+        "người",
+        "cá nhân vi phạm"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "doanh nghiệp",
+        "đơn vị"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Người điều khiển phương tiện",
+      "keyphrases": [
+        "người điều khiển phương tiện",
+        "tài xế",
+        "lái xe",
+        "người lái"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Chủ phương tiện",
+      "keyphrases": [
+        "chủ phương tiện",
+        "người sở hữu phương tiện",
+        "người đứng tên trong chứng nhận đăng ký xe"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Phương tiện",
+      "keyphrases": [
+        "phương tiện",
+        "xe",
+        "xe ô tô",
+        "xe gắn máy"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Hành vi vi phạm",
+      "keyphrases": [
+        "hành vi vi phạm",
+        "vi phạm",
+        "hành vi vi phạm quy định"
+      ],
+      "role": "object"
+    },
+    {
+      "canonical": "Cơ quan có thẩm quyền",
+      "keyphrases": [
+        "cơ quan có thẩm quyền",
+        "người có thẩm quyền",
+        "cơ quan xử phạt"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Đơn vị kinh doanh vận tải",
+      "keyphrases": [
+        "đơn vị kinh doanh vận tải",
+        "doanh nghiệp vận tải",
+        "công ty vận tải"
+      ],
+      "role": "subject"
+    },
+    {
+      "canonical": "Dịch vụ hỗ trợ vận tải",
+      "keyphrases": [
+        "dịch vụ hỗ trợ vận tải",
+        "dịch vụ vận tải",
+        "dịch vụ liên quan đến vận tải"
+      ],
+      "role": "subject"
+    }
+  ],
+  "relations": [
+    {
+      "canonical": "Xử_phạt",
+      "keyphrases": [
+        "xử phạt",
+        "xử lý",
+        "áp dụng hình thức xử phạt"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức",
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "hành vi vi phạm hành chính",
+        "hình thức xử phạt"
+      ]
+    },
+    {
+      "canonical": "Trừ_điểm",
+      "keyphrases": [
+        "trừ điểm",
+        "trừ điểm giấy phép lái xe",
+        "phục hồi điểm"
+      ],
+      "subject_examples": [
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Khắc_phục_hậu_quả",
+      "keyphrases": [
+        "khắc phục hậu quả",
+        "biện pháp khắc phục",
+        "buộc khôi phục"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "canonical": "Khắc_phục",
+      "keyphrases": [
+        "khắc phục",
+        "thực hiện biện pháp khắc phục",
+        "buộc khắc phục"
+      ],
+      "subject_examples": [
+        "người có thẩm quyền",
+        "cá nhân và tổ chức vi phạm"
+      ],
+      "object_examples": [
+        "biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "canonical": "Tạm_giữ",
+      "keyphrases": [
+        "tạm giữ",
+        "thu hồi",
+        "lưu giữ"
+      ],
+      "subject_examples": [
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "giấy phép",
+        "chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "canonical": "Tước_quyền_sử_dụng",
+      "keyphrases": [
+        "tước quyền sử dụng",
+        "bị tước quyền sử dụng"
+      ],
+      "subject_examples": [
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "giấy phép",
+        "chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "canonical": "Xử_phạt",
+      "keyphrases": [
+        "xử phạt",
+        "quyết định xử phạt"
+      ],
+      "subject_examples": [
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "hành vi vi phạm hành chính"
+      ]
+    },
+    {
+      "canonical": "Đưa_phương_tiện",
+      "keyphrases": [
+        "đưa phương tiện",
+        "quay trở lại phương tiện"
+      ],
+      "subject_examples": [
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "phương tiện"
+      ]
+    },
+    {
+      "canonical": "Xử phạt",
+      "keyphrases": [
+        "xử phạt",
+        "phạt tiền",
+        "tước quyền sử dụng"
+      ],
+      "subject_examples": [
+        "cơ quan có thẩm quyền",
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "người điều khiển phương tiện",
+        "xe ô tô",
+        "giấy phép lái xe",
+        "hành vi vi phạm"
+      ]
+    },
+    {
+      "canonical": "Thực hiện",
+      "keyphrases": [
+        "thực hiện",
+        "tiến hành",
+        "thực thi"
+      ],
+      "subject_examples": [
+        "cơ quan có thẩm quyền"
+      ],
+      "object_examples": [
+        "tạm giữ",
+        "tước quyền sử dụng giấy phép",
+        "chứng chỉ hành nghề điện tử"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không chấp hành",
+        "không tuân thủ"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "quy tắc giao thông đường bộ",
+        "biển báo hiệu",
+        "vạch kẻ đường"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không tuân thủ",
+        "không thực hiện",
+        "không giữ",
+        "không nhường",
+        "không giảm tốc độ"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt",
+        "bị trừ điểm"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không chấp hành",
+        "không tuân thủ",
+        "gây tai nạn giao thông"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe mô tô"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt tiền",
+        "bị xử phạt",
+        "bị tịch thu phương tiện",
+        "bị tước quyền sử dụng giấy phép lái xe",
+        "bị trừ điểm giấy phép lái xe"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe mô tô"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "sai phạm",
+        "không tuân thủ",
+        "không đúng quy định"
+      ],
+      "subject_examples": [
+        "người điều khiển xe mô tô"
+      ],
+      "object_examples": [
+        "quy tắc giao thông đường bộ",
+        "hành vi vi phạm"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển xe mô tô"
+      ],
+      "object_examples": [
+        "hành vi vi phạm"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không tuân thủ",
+        "không chấp hành"
+      ],
+      "subject_examples": [
+        "người điều khiển xe mô tô"
+      ],
+      "object_examples": [
+        "quy tắc giao thông đường bộ",
+        "quy định giao thông"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển xe mô tô"
+      ],
+      "object_examples": [
+        "tiền",
+        "hình thức xử phạt"
+      ]
+    },
+    {
+      "canonical": "Tịch thu",
+      "keyphrases": [
+        "tịch thu",
+        "thu giữ",
+        "cấm sử dụng"
+      ],
+      "subject_examples": [
+        "người điều khiển xe mô tô"
+      ],
+      "object_examples": [
+        "phương tiện"
+      ]
+    },
+    {
+      "canonical": "Gây tai nạn",
+      "keyphrases": [
+        "gây tai nạn",
+        "gây sự cố",
+        "gây ra tai nạn"
+      ],
+      "subject_examples": [
+        "người điều khiển xe mô tô"
+      ],
+      "object_examples": [
+        "tai nạn giao thông"
+      ]
+    },
+    {
+      "canonical": "Kiểm tra",
+      "keyphrases": [
+        "kiểm tra",
+        "kiểm soát",
+        "thẩm tra"
+      ],
+      "subject_examples": [
+        "người thi hành công vụ"
+      ],
+      "object_examples": [
+        "nồng độ cồn",
+        "chất ma túy"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "xâm phạm",
+        "không tuân thủ"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "quy tắc giao thông đường bộ"
+      ]
+    },
+    {
+      "canonical": "Xử phạt",
+      "keyphrases": [
+        "xử phạt",
+        "áp dụng hình thức xử phạt",
+        "bị phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "hình thức xử phạt",
+        "phạt tiền"
+      ]
+    },
+    {
+      "canonical": "Trừ điểm",
+      "keyphrases": [
+        "trừ điểm",
+        "bị trừ điểm",
+        "giảm điểm"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "điểm giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Tước quyền sử dụng",
+      "keyphrases": [
+        "tước quyền sử dụng",
+        "bị tước quyền sử dụng"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Vi phạm quy tắc giao thông",
+      "keyphrases": [
+        "vi phạm",
+        "bị phạt tiền",
+        "không tuân thủ",
+        "không chấp hành"
+      ],
+      "subject_examples": [
+        "người điều khiển xe máy chuyên dùng",
+        "người điều khiển xe đạp, xe đạp máy và xe thô sơ khác"
+      ],
+      "object_examples": [
+        "xe máy chuyên dùng",
+        "xe đạp, xe đạp máy và xe thô sơ khác"
+      ]
+    },
+    {
+      "canonical": "Dừng xe",
+      "keyphrases": [
+        "dừng xe",
+        "đỗ xe",
+        "dừng lại"
+      ],
+      "subject_examples": [
+        "người điều khiển xe máy chuyên dùng",
+        "người điều khiển xe đạp, xe đạp máy và xe thô sơ khác"
+      ],
+      "object_examples": [
+        "xe máy chuyên dùng",
+        "xe đạp, xe đạp máy và xe thô sơ khác"
+      ]
+    },
+    {
+      "canonical": "Điều khiển phương tiện",
+      "keyphrases": [
+        "điều khiển",
+        "lái",
+        "vận hành"
+      ],
+      "subject_examples": [
+        "người điều khiển xe máy chuyên dùng",
+        "người điều khiển xe đạp, xe đạp máy và xe thô sơ khác"
+      ],
+      "object_examples": [
+        "xe máy chuyên dùng",
+        "xe đạp, xe đạp máy và xe thô sơ khác"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không tuân thủ",
+        "không chấp hành",
+        "không thực hiện"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "người đi bộ",
+        "người điều khiển, dẫn dắt vật nuôi"
+      ],
+      "object_examples": [
+        "quy tắc giao thông đường bộ",
+        "các quy định về dừng xe",
+        "hiệu lệnh của người điều khiển giao thông"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "người đi bộ"
+      ],
+      "object_examples": [
+        "tiền",
+        "hình thức xử phạt"
+      ]
+    },
+    {
+      "canonical": "Chấp hành",
+      "keyphrases": [
+        "chấp hành",
+        "tuân thủ",
+        "thực hiện"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "người đi bộ"
+      ],
+      "object_examples": [
+        "quy tắc giao thông",
+        "hiệu lệnh",
+        "biển báo hiệu"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không tuân thủ",
+        "không chấp hành"
+      ],
+      "subject_examples": [
+        "Người điều khiển",
+        "Cá nhân",
+        "Tổ chức"
+      ],
+      "object_examples": [
+        "quy tắc giao thông đường bộ",
+        "biển báo hiệu đường bộ",
+        "đèn tín hiệu giao thông"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "Người điều khiển",
+        "Cá nhân",
+        "Tổ chức"
+      ],
+      "object_examples": [
+        "tiền",
+        "hình phạt"
+      ]
+    },
+    {
+      "canonical": "Cản trở",
+      "keyphrases": [
+        "cản trở",
+        "gây cản trở",
+        "ngăn chặn"
+      ],
+      "subject_examples": [
+        "Tổ chức",
+        "Cá nhân"
+      ],
+      "object_examples": [
+        "người tham gia giao thông",
+        "phương tiện giao thông"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "xâm phạm",
+        "không chấp hành",
+        "thực hiện hành vi vi phạm"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức",
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "quy tắc giao thông đường bộ",
+        "quy định giao thông",
+        "luật giao thông"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức",
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "tiền",
+        "hình thức xử phạt"
+      ]
+    },
+    {
+      "canonical": "Thực hiện hành vi",
+      "keyphrases": [
+        "thực hiện hành vi",
+        "tiến hành hành vi",
+        "thực hiện"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "hành vi vi phạm",
+        "hành vi trái phép"
+      ]
+    },
+    {
+      "canonical": "Tước quyền",
+      "keyphrases": [
+        "tước quyền",
+        "thu hồi",
+        "hủy bỏ"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Khắc phục",
+      "keyphrases": [
+        "khắc phục",
+        "sửa chữa",
+        "phục hồi"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "tình trạng ban đầu",
+        "biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không tuân thủ",
+        "không đáp ứng",
+        "không đủ điều kiện"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe mô tô"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe mô tô"
+      ]
+    },
+    {
+      "canonical": "Bị trừ điểm",
+      "keyphrases": [
+        "bị trừ điểm",
+        "trừ điểm giấy phép lái xe"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Bị tịch thu",
+      "keyphrases": [
+        "bị tịch thu",
+        "tịch thu phương tiện"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe mô tô"
+      ]
+    },
+    {
+      "canonical": "Áp dụng biện pháp khắc phục",
+      "keyphrases": [
+        "áp dụng biện pháp khắc phục",
+        "thực hiện biện pháp khắc phục"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe mô tô"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "vi phạm quy định",
+        "vi phạm quy định về điều kiện của phương tiện"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe mô tô",
+        "xe gắn máy",
+        "xe thô sơ",
+        "xe máy chuyên dùng",
+        "xe ô tô"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt tiền",
+        "bị xử phạt",
+        "bị áp dụng hình thức xử phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": []
+    },
+    {
+      "canonical": "Bị tịch thu",
+      "keyphrases": [
+        "bị tịch thu phương tiện",
+        "bị tịch thu biển số xe"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": []
+    },
+    {
+      "canonical": "Bị trừ điểm",
+      "keyphrases": [
+        "bị trừ điểm giấy phép lái xe"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": []
+    },
+    {
+      "canonical": "Buộc thay thế",
+      "keyphrases": [
+        "bị buộc thay thế thiết bị",
+        "bị buộc khôi phục tính năng kỹ thuật"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": []
+    },
+    {
+      "canonical": "Thu hồi",
+      "keyphrases": [
+        "bị thu hồi chứng nhận đăng ký xe"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": []
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "bị phạt",
+        "bị xử phạt",
+        "bị tước điểm",
+        "bị buộc nộp lại"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "quy định",
+        "hành vi vi phạm"
+      ]
+    },
+    {
+      "canonical": "Chở",
+      "keyphrases": [
+        "chở",
+        "vận chuyển",
+        "lôi kéo",
+        "đổ",
+        "làm rơi vãi"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "chất thải",
+        "hàng hóa"
+      ]
+    },
+    {
+      "canonical": "Mang theo",
+      "keyphrases": [
+        "mang theo",
+        "có",
+        "đem theo"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe",
+        "chứng nhận bảo hiểm",
+        "chứng nhận đăng ký xe"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "thực hiện hành vi vi phạm",
+        "không tuân thủ",
+        "không thực hiện đúng"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "quy định",
+        "giấy phép lái xe",
+        "chứng nhận bảo hiểm",
+        "hành lý, hàng hóa"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "tiền",
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Thu hồi",
+      "keyphrases": [
+        "thu hồi",
+        "hủy bỏ",
+        "tước quyền"
+      ],
+      "subject_examples": [
+        "cơ quan có thẩm quyền"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Trừ điểm",
+      "keyphrases": [
+        "trừ điểm",
+        "giảm điểm",
+        "cắt điểm"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "bị phạt tiền",
+        "thực hiện hành vi vi phạm"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô chở hành khách",
+        "xe ô tô tải"
+      ]
+    },
+    {
+      "canonical": "Điều khiển",
+      "keyphrases": [
+        "điều khiển",
+        "lái",
+        "vận hành"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô chở hành khách",
+        "xe ô tô tải"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không tuân thủ",
+        "không thực hiện đúng"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "quy định",
+        "luật lệ"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "tiền",
+        "hình phạt"
+      ]
+    },
+    {
+      "canonical": "Chở",
+      "keyphrases": [
+        "chở",
+        "vận chuyển",
+        "chuyên chở"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "hàng hóa",
+        "hàng",
+        "công-ten-nơ"
+      ]
+    },
+    {
+      "canonical": "Trừ điểm",
+      "keyphrases": [
+        "trừ điểm",
+        "bị trừ điểm"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Gây tai nạn",
+      "keyphrases": [
+        "gây tai nạn",
+        "gây sự cố"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "tai nạn giao thông"
+      ]
+    },
+    {
+      "canonical": "Thu hồi",
+      "keyphrases": [
+        "thu hồi",
+        "hủy bỏ",
+        "tịch thu"
+      ],
+      "subject_examples": [
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "giấy phép",
+        "phù hiệu"
+      ]
+    },
+    {
+      "canonical": "Khôi phục",
+      "keyphrases": [
+        "khôi phục",
+        "đưa về trạng thái ban đầu"
+      ],
+      "subject_examples": [
+        "người thực hiện hành vi vi phạm"
+      ],
+      "object_examples": [
+        "tình trạng cầu, đường"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "xâm phạm",
+        "không tuân thủ"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "cá nhân",
+        "tổ chức",
+        "tổ chức kinh doanh vận tải"
+      ],
+      "object_examples": [
+        "quy định về trật tự, an toàn giao thông",
+        "quy định về vận chuyển"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "cá nhân",
+        "tổ chức",
+        "tổ chức kinh doanh vận tải"
+      ],
+      "object_examples": [
+        "tiền",
+        "điểm giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Trừ điểm",
+      "keyphrases": [
+        "trừ điểm",
+        "cắt điểm",
+        "giảm điểm"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe",
+        "điểm giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Áp dụng biện pháp khắc phục",
+      "keyphrases": [
+        "áp dụng biện pháp khắc phục",
+        "thực hiện biện pháp khắc phục"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "hậu quả",
+        "ô nhiễm môi trường"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không tuân thủ",
+        "không thực hiện",
+        "sai phạm"
+      ],
+      "subject_examples": [
+        "tổ chức kinh doanh vận tải",
+        "cá nhân",
+        "dịch vụ hỗ trợ vận tải"
+      ],
+      "object_examples": [
+        "trật tự, an toàn giao thông đường bộ",
+        "quy định",
+        "hành vi vi phạm"
+      ]
+    },
+    {
+      "canonical": "Sử dụng",
+      "keyphrases": [
+        "sử dụng",
+        "dùng",
+        "áp dụng"
+      ],
+      "subject_examples": [
+        "tổ chức kinh doanh vận tải",
+        "cá nhân"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "thiết bị giám sát hành trình",
+        "thiết bị ghi nhận hình ảnh"
+      ]
+    },
+    {
+      "canonical": "Cung cấp",
+      "keyphrases": [
+        "cung cấp",
+        "cung ứng",
+        "cung cấp thông tin"
+      ],
+      "subject_examples": [
+        "tổ chức kinh doanh vận tải",
+        "đơn vị sản xuất"
+      ],
+      "object_examples": [
+        "thông tin",
+        "dữ liệu",
+        "dịch vụ"
+      ]
+    },
+    {
+      "canonical": "Niêm yết",
+      "keyphrases": [
+        "niêm yết",
+        "công khai",
+        "đăng tải"
+      ],
+      "subject_examples": [
+        "tổ chức kinh doanh vận tải"
+      ],
+      "object_examples": [
+        "thông tin",
+        "quy định"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "thực hiện hành vi vi phạm",
+        "không tuân thủ"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức",
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "quy định về trật tự, an toàn giao thông đường bộ"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức",
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "tiền",
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Cấp",
+      "keyphrases": [
+        "cấp",
+        "cung cấp",
+        "cấp thẻ"
+      ],
+      "subject_examples": [
+        "tổ chức"
+      ],
+      "object_examples": [
+        "thẻ nhận dạng lái xe"
+      ]
+    },
+    {
+      "canonical": "Lắp đặt",
+      "keyphrases": [
+        "lắp đặt",
+        "gắn",
+        "thiết lập"
+      ],
+      "subject_examples": [
+        "tổ chức",
+        "cá nhân"
+      ],
+      "object_examples": [
+        "thiết bị giám sát hành trình",
+        "thiết bị ghi nhận hình ảnh"
+      ]
+    },
+    {
+      "canonical": "Trừ điểm",
+      "keyphrases": [
+        "trừ điểm",
+        "giảm điểm"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Cung cấp thông tin",
+      "keyphrases": [
+        "cung cấp thông tin",
+        "cập nhật thông tin",
+        "quản lý thông tin"
+      ],
+      "subject_examples": [
+        "tổ chức",
+        "cá nhân"
+      ],
+      "object_examples": [
+        "dữ liệu",
+        "thông tin"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "thực hiện hành vi vi phạm",
+        "không tuân thủ quy định"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức",
+        "chủ phương tiện"
+      ],
+      "object_examples": [
+        "quy định",
+        "luật",
+        "điều luật"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu hình phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức",
+        "chủ phương tiện"
+      ],
+      "object_examples": [
+        "tiền",
+        "hình thức xử phạt"
+      ]
+    },
+    {
+      "canonical": "Trừ điểm",
+      "keyphrases": [
+        "bị trừ điểm",
+        "trừ điểm giấy phép lái xe",
+        "giảm điểm"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "chủ phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Tịch thu",
+      "keyphrases": [
+        "tịch thu",
+        "thu hồi",
+        "cưỡng chế"
+      ],
+      "subject_examples": [
+        "cơ quan chức năng"
+      ],
+      "object_examples": [
+        "biển số",
+        "phương tiện"
+      ]
+    },
+    {
+      "canonical": "Buộc nộp lại",
+      "keyphrases": [
+        "buộc nộp lại",
+        "phải nộp lại",
+        "trả lại"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "số lợi bất hợp pháp"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không tuân thủ",
+        "mắc lỗi",
+        "sai phạm"
+      ],
+      "subject_examples": [
+        "tổ chức",
+        "cá nhân",
+        "chủ phương tiện"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe mô tô",
+        "các loại xe tương tự"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt",
+        "bị xử lý"
+      ],
+      "subject_examples": [
+        "tổ chức",
+        "cá nhân",
+        "chủ phương tiện"
+      ],
+      "object_examples": [
+        "vi phạm",
+        "quy định"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "bị phạt tiền",
+        "bị trừ điểm giấy phép lái xe",
+        "bị tịch thu phương tiện"
+      ],
+      "subject_examples": [
+        "chủ phương tiện",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe máy chuyên dùng",
+        "phương tiện giao thông"
+      ]
+    },
+    {
+      "canonical": "Giao phương tiện",
+      "keyphrases": [
+        "giao phương tiện",
+        "cho người khác điều khiển",
+        "để cho người làm công điều khiển"
+      ],
+      "subject_examples": [
+        "chủ phương tiện",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe máy chuyên dùng"
+      ]
+    },
+    {
+      "canonical": "Thay đổi",
+      "keyphrases": [
+        "thay đổi",
+        "cải tạo",
+        "tự ý thay đổi",
+        "không đúng thiết kế"
+      ],
+      "subject_examples": [
+        "chủ phương tiện",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe máy chuyên dùng"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không chấp hành",
+        "không tuân thủ"
+      ],
+      "subject_examples": [
+        "chủ phương tiện",
+        "hành khách"
+      ],
+      "object_examples": [
+        "quy định giao thông",
+        "quy định về trật tự, an toàn giao thông"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "chủ phương tiện",
+        "hành khách"
+      ],
+      "object_examples": [
+        "tiền",
+        "hình phạt"
+      ]
+    },
+    {
+      "canonical": "Buộc",
+      "keyphrases": [
+        "buộc",
+        "yêu cầu",
+        "phải"
+      ],
+      "subject_examples": [
+        "chủ phương tiện"
+      ],
+      "object_examples": [
+        "thực hiện quy định",
+        "khôi phục",
+        "thay thế thiết bị",
+        "làm thủ tục"
+      ]
+    },
+    {
+      "canonical": "Tịch thu",
+      "keyphrases": [
+        "tịch thu",
+        "thu hồi",
+        "cấm sử dụng"
+      ],
+      "subject_examples": [
+        "cơ quan có thẩm quyền"
+      ],
+      "object_examples": [
+        "biển số",
+        "phương tiện",
+        "giấy chứng nhận"
+      ]
+    },
+    {
+      "canonical": "Trừ điểm",
+      "keyphrases": [
+        "trừ điểm",
+        "giảm điểm",
+        "cắt điểm"
+      ],
+      "subject_examples": [
+        "chủ phương tiện"
+      ],
+      "object_examples": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "thực hiện hành vi vi phạm",
+        "không thực hiện đúng quy định",
+        "gây hư hại"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "người đua xe trái phép",
+        "tổ chức thực hiện hành vi vi phạm"
+      ],
+      "object_examples": [
+        "quy định",
+        "giấy phép lưu hành",
+        "hình thức xử phạt"
+      ]
+    },
+    {
+      "canonical": "Bị phạt",
+      "keyphrases": [
+        "bị phạt tiền",
+        "bị áp dụng hình thức xử phạt",
+        "bị tịch thu phương tiện",
+        "bị trừ điểm giấy phép lái xe"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "người đua xe trái phép"
+      ],
+      "object_examples": [
+        "hình thức xử phạt"
+      ]
+    },
+    {
+      "canonical": "Chở hàng",
+      "keyphrases": [
+        "chở hàng",
+        "vận chuyển hàng hóa",
+        "chở hành lý"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "hàng hóa",
+        "hành lý"
+      ]
+    },
+    {
+      "canonical": "Phạt tiền",
+      "keyphrases": [
+        "bị phạt tiền",
+        "phạt",
+        "chịu phạt"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện giao thông",
+        "giáo viên dạy lái xe",
+        "cơ sở đào tạo lái xe"
+      ],
+      "object_examples": [
+        "xe ô tô",
+        "xe mô tô",
+        "xe gắn máy"
+      ]
+    },
+    {
+      "canonical": "Tịch thu",
+      "keyphrases": [
+        "bị tịch thu",
+        "thu hồi",
+        "tịch thu phương tiện"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "phương tiện"
+      ]
+    },
+    {
+      "canonical": "Thực hiện hành vi vi phạm",
+      "keyphrases": [
+        "thực hiện hành vi vi phạm",
+        "vi phạm quy định",
+        "hành vi vi phạm"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện",
+        "giáo viên dạy lái xe",
+        "cơ sở đào tạo lái xe"
+      ],
+      "object_examples": [
+        "quy định",
+        "điều khoản"
+      ]
+    },
+    {
+      "canonical": "Áp dụng biện pháp khắc phục hậu quả",
+      "keyphrases": [
+        "áp dụng biện pháp khắc phục hậu quả",
+        "khắc phục hậu quả",
+        "buộc tái xuất"
+      ],
+      "subject_examples": [
+        "người điều khiển phương tiện"
+      ],
+      "object_examples": [
+        "phương tiện"
+      ]
+    },
+    {
+      "canonical": "Phạt tiền",
+      "keyphrases": [
+        "bị phạt tiền",
+        "phạt",
+        "chịu phạt"
+      ],
+      "subject_examples": [
+        "cơ sở đào tạo lái xe",
+        "trung tâm sát hạch lái xe",
+        "người dự sát hạch",
+        "cá nhân",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "giấy phép lái xe",
+        "hồ sơ",
+        "xe tập lái",
+        "thiết bị giám sát"
+      ]
+    },
+    {
+      "canonical": "Lưu trữ",
+      "keyphrases": [
+        "lưu trữ",
+        "bảo quản",
+        "quản lý hồ sơ"
+      ],
+      "subject_examples": [
+        "cơ sở đào tạo lái xe",
+        "trung tâm sát hạch lái xe"
+      ],
+      "object_examples": [
+        "hồ sơ",
+        "tài liệu"
+      ]
+    },
+    {
+      "canonical": "Tổ chức",
+      "keyphrases": [
+        "tổ chức",
+        "thực hiện",
+        "triển khai"
+      ],
+      "subject_examples": [
+        "cơ sở đào tạo lái xe",
+        "trung tâm sát hạch lái xe"
+      ],
+      "object_examples": [
+        "tuyển sinh",
+        "đào tạo lái xe"
+      ]
+    },
+    {
+      "canonical": "Sử dụng",
+      "keyphrases": [
+        "sử dụng",
+        "áp dụng",
+        "thực hiện"
+      ],
+      "subject_examples": [
+        "cơ sở đào tạo lái xe",
+        "trung tâm sát hạch lái xe"
+      ],
+      "object_examples": [
+        "thiết bị giám sát",
+        "phần mềm sát hạch"
+      ]
+    },
+    {
+      "canonical": "Thực hiện_hành_vi",
+      "keyphrases": [
+        "thực hiện hành vi",
+        "tiến hành hành vi",
+        "thực hiện",
+        "thực hiện quy định"
+      ],
+      "subject_examples": [
+        "trung tâm sát hạch lái xe",
+        "giáo viên dạy thực hành",
+        "cá nhân",
+        "tổ chức",
+        "cơ sở đào tạo lái xe",
+        "cơ sở đăng kiểm",
+        "cơ sở thử nghiệm, chứng nhận"
+      ],
+      "object_examples": [
+        "phương tiện",
+        "giấy phép sát hạch",
+        "giấy tờ, tài liệu giả mạo",
+        "chứng chỉ đăng kiểm viên",
+        "giấy chứng nhận đủ điều kiện hoạt động kiểm định"
+      ]
+    },
+    {
+      "canonical": "Bị_phạt_tiền",
+      "keyphrases": [
+        "bị phạt tiền",
+        "chịu phạt tiền",
+        "bị xử phạt"
+      ],
+      "subject_examples": [
+        "trung tâm sát hạch lái xe",
+        "giáo viên dạy thực hành",
+        "cá nhân",
+        "tổ chức",
+        "cơ sở đào tạo lái xe",
+        "cơ sở đăng kiểm",
+        "cơ sở thử nghiệm, chứng nhận"
+      ],
+      "object_examples": []
+    },
+    {
+      "canonical": "Bị_tước_quyền_sử_dụng",
+      "keyphrases": [
+        "bị tước quyền sử dụng",
+        "bị thu hồi quyền sử dụng",
+        "bị đình chỉ quyền sử dụng"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức"
+      ],
+      "object_examples": [
+        "chứng chỉ đăng kiểm viên",
+        "giấy chứng nhận đủ điều kiện hoạt động kiểm định"
+      ]
+    },
+    {
+      "canonical": "Xử phạt",
+      "keyphrases": [
+        "xử phạt",
+        "có thẩm quyền xử phạt",
+        "thực hiện xử phạt"
+      ],
+      "subject_examples": [
+        "Chủ tịch Ủy ban nhân dân",
+        "Cảnh sát giao thông",
+        "Cảnh sát trật tự",
+        "Cảnh sát phản ứng nhanh",
+        "Cảnh sát cơ động",
+        "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "Trưởng Công an"
+      ],
+      "object_examples": [
+        "hành vi vi phạm",
+        "Nghị định"
+      ]
+    },
+    {
+      "canonical": "Xử phạt",
+      "keyphrases": [
+        "xử phạt",
+        "phạt cảnh cáo",
+        "phạt tiền",
+        "tịch thu",
+        "tước quyền sử dụng",
+        "đình chỉ hoạt động",
+        "áp dụng biện pháp khắc phục hậu quả"
+      ],
+      "subject_examples": [
+        "Thanh tra đường bộ",
+        "Chủ tịch Ủy ban nhân dân",
+        "Chiến sĩ Công an nhân dân",
+        "Thủ trưởng đơn vị Cảnh sát cơ động",
+        "Trưởng Công an",
+        "Trưởng phòng nghiệp vụ"
+      ],
+      "object_examples": [
+        "Tang vật, phương tiện"
+      ]
+    },
+    {
+      "canonical": "Phạt",
+      "keyphrases": [
+        "phạt",
+        "phạt tiền",
+        "phạt cảnh cáo"
+      ],
+      "subject_examples": [
+        "Giám đốc Công an cấp tỉnh",
+        "Cục trưởng Cục Cảnh sát giao thông",
+        "Thanh tra viên",
+        "Chánh Thanh tra Sở Giao thông vận tải",
+        "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương",
+        "Chánh Thanh tra Bộ Giao thông vận tải",
+        "Cục trưởng Cục Đường bộ Việt Nam",
+        "Cục trưởng Cục Đăng kiểm Việt Nam"
+      ],
+      "object_examples": [
+        "Hành vi vi phạm hành chính"
+      ]
+    },
+    {
+      "canonical": "Tước quyền sử dụng",
+      "keyphrases": [
+        "tước quyền sử dụng",
+        "tước quyền sử dụng giấy phép",
+        "tước quyền sử dụng chứng chỉ hành nghề"
+      ],
+      "subject_examples": [
+        "Giám đốc Công an cấp tỉnh",
+        "Cục trưởng Cục Cảnh sát giao thông",
+        "Thanh tra viên",
+        "Chánh Thanh tra Sở Giao thông vận tải",
+        "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương",
+        "Chánh Thanh tra Bộ Giao thông vận tải",
+        "Cục trưởng Cục Đường bộ Việt Nam",
+        "Cục trưởng Cục Đăng kiểm Việt Nam"
+      ],
+      "object_examples": [
+        "Giấy phép, chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "canonical": "Tịch thu",
+      "keyphrases": [
+        "tịch thu",
+        "tịch thu tang vật",
+        "tịch thu phương tiện"
+      ],
+      "subject_examples": [
+        "Giám đốc Công an cấp tỉnh",
+        "Cục trưởng Cục Cảnh sát giao thông",
+        "Thanh tra viên",
+        "Chánh Thanh tra Sở Giao thông vận tải",
+        "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương",
+        "Chánh Thanh tra Bộ Giao thông vận tải",
+        "Cục trưởng Cục Đường bộ Việt Nam",
+        "Cục trưởng Cục Đăng kiểm Việt Nam"
+      ],
+      "object_examples": [
+        "Tang vật, phương tiện"
+      ]
+    },
+    {
+      "canonical": "Áp dụng biện pháp khắc phục",
+      "keyphrases": [
+        "áp dụng biện pháp khắc phục",
+        "áp dụng các biện pháp khắc phục hậu quả"
+      ],
+      "subject_examples": [
+        "Giám đốc Công an cấp tỉnh",
+        "Cục trưởng Cục Cảnh sát giao thông",
+        "Thanh tra viên",
+        "Chánh Thanh tra Sở Giao thông vận tải",
+        "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương",
+        "Chánh Thanh tra Bộ Giao thông vận tải",
+        "Cục trưởng Cục Đường bộ Việt Nam",
+        "Cục trưởng Cục Đăng kiểm Việt Nam"
+      ],
+      "object_examples": [
+        "Biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "canonical": "Xử phạt",
+      "keyphrases": [
+        "xử phạt",
+        "căn cứ xử phạt",
+        "áp dụng hình phạt",
+        "thực hiện xử phạt"
+      ],
+      "subject_examples": [
+        "cơ quan có thẩm quyền",
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "hành vi vi phạm",
+        "cá nhân",
+        "tổ chức",
+        "người điều khiển phương tiện",
+        "chủ phương tiện"
+      ]
+    },
+    {
+      "canonical": "Lập biên bản",
+      "keyphrases": [
+        "lập biên bản",
+        "ghi biên bản",
+        "soạn thảo biên bản"
+      ],
+      "subject_examples": [
+        "cơ quan có thẩm quyền",
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "hành vi vi phạm",
+        "biên bản vi phạm hành chính"
+      ]
+    },
+    {
+      "canonical": "Thực hiện",
+      "keyphrases": [
+        "thực hiện",
+        "tiến hành",
+        "thực thi"
+      ],
+      "subject_examples": [
+        "cơ quan có thẩm quyền",
+        "người có thẩm quyền"
+      ],
+      "object_examples": [
+        "hành vi vi phạm",
+        "quy định",
+        "biện pháp xử lý"
+      ]
+    },
+    {
+      "canonical": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "thực hiện hành vi vi phạm",
+        "không tuân thủ quy định"
+      ],
+      "subject_examples": [
+        "cá nhân",
+        "tổ chức",
+        "người điều khiển phương tiện",
+        "chủ phương tiện"
+      ],
+      "object_examples": [
+        "quy định",
+        "hành vi vi phạm"
+      ]
+    }
+  ]
+}
