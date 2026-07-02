@@ -32,7 +32,7 @@ client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
 MATERIALS_DIR  = os.path.join(BASE_DIR, "..", "material_for_triplets")
-DEFAULT_ONTO   = os.path.join(BASE_DIR, "..", "ontology_168.json")
+DEFAULT_ONTO   = os.path.join(BASE_DIR, "output", "ontology_draft.json")
 OUTPUT_DIR     = os.path.join(BASE_DIR, "output")
 
 BATCH_SIZE = 15   # sections per LLM call (each section may have multiple propositions)
@@ -45,31 +45,51 @@ def load_ontology(path: str) -> dict:
         return json.load(f)
 
 
-def build_ontology_context(ontology: dict) -> tuple[str, set, set]:
+def build_ontology_context(ontology: dict) -> tuple[str, set, set, dict, dict, dict]:
     """
-    Returns (context_string, concept_name_set, relation_name_set).
-    Context string is embedded in every LLM system prompt.
+    Returns:
+      context_string       — embedded in every LLM system prompt
+      concept_names        — set of canonical concept names
+      relation_names       — set of canonical relation names
+      concept_kp_map       — keyphrase (lowercase) → canonical concept name
+      relation_kp_map      — keyphrase (lowercase) → canonical relation name
+      relation_struct      — relation name → {"concept_s": str, "concept_o": [str]}
     """
     lines = ["=== ONTOLOGY — chỉ dùng tên CHÍNH XÁC từ danh sách này ===", "", "CONCEPTS:"]
-    concept_names = set()
+    concept_names: set = set()
+    concept_kp_map: dict = {}
+
     for c in ontology["concepts"]:
         name = c["name"]
         concept_names.add(name)
+        concept_kp_map[name.lower().strip()] = name
+        for kp in c.get("keyphrases", []):
+            concept_kp_map[kp.lower().strip()] = name
         kps = ", ".join(f'"{k}"' for k in c.get("keyphrases", [])[:8])
         lines.append(f'  [{name}]: {kps}')
 
     lines.append("")
     lines.append("RELATIONS:")
-    relation_names = set()
+    relation_names: set = set()
+    relation_kp_map: dict = {}
+    relation_struct: dict = {}
+
     for r in ontology["relations"]:
         name = r["name"]
         relation_names.add(name)
-        kps  = ", ".join(f'"{k}"' for k in r.get("keyphrases", [])[:6])
-        cs   = r.get("concept_s", "")
-        co   = ", ".join(r.get("concept_o", [])[:6])
+        relation_kp_map[name.lower().strip()] = name
+        for kp in r.get("keyphrases", []):
+            relation_kp_map[kp.lower().strip()] = name
+        relation_struct[name] = {
+            "concept_s": r.get("concept_s", ""),
+            "concept_o": r.get("concept_o", []),
+        }
+        kps = ", ".join(f'"{k}"' for k in r.get("keyphrases", [])[:6])
+        cs  = r.get("concept_s", "")
+        co  = ", ".join(r.get("concept_o", [])[:6])
         lines.append(f'  [{name}] keyphrases: {kps} | S: {cs} | O: {co}')
 
-    return "\n".join(lines), concept_names, relation_names
+    return "\n".join(lines), concept_names, relation_names, concept_kp_map, relation_kp_map, relation_struct
 
 
 # ── Address parsing ───────────────────────────────────────────────────────────
@@ -107,8 +127,8 @@ Trả về JSON:
     {{
       "section_id": "s117",
       "triplets": [
-        {{"concept_s": "Người điều khiển phương tiện", "relation": "Điều_khiển", "concept_o": "Xe ô tô"}},
-        {{"concept_s": "Người điều khiển phương tiện", "relation": "Sử_dụng", "concept_o": "Cồn"}}
+        {{"concept_s": "Người", "relation": "Điều_khiển", "concept_o": "Ô tô"}},
+        {{"concept_s": "Người", "relation": "Sử_dụng", "concept_o": "Cồn"}}
       ]
     }},
     {{
@@ -138,17 +158,30 @@ def llm_call(messages: list, max_retries: int = 4) -> dict:
             backoff *= 2
 
 
+def _normalize(text: str, exact_set: set, kp_map: dict) -> str | None:
+    """Return canonical name for text: try exact match first, then keyphrase lookup."""
+    if text in exact_set:
+        return text
+    return kp_map.get(text.lower().strip())
+
+
 def extract_batch(
     sections: list[dict],
     system_prompt: str,
     concept_names: set,
     relation_names: set,
+    concept_kp_map: dict,
+    relation_kp_map: dict,
+    relation_struct: dict,
 ) -> list[dict]:
     """
     sections: list of {id, path, document_name, rewritten_propositions}
     Returns validated triplet records with address attached.
+
+    Validation:
+      1. Normalize cs/rel/co via keyphrase maps (handles LLM using keyphrase instead of name)
+      2. Structural check: cs == relation.concept_s  AND  co in relation.concept_o
     """
-    # Build user message
     parts = []
     for sec in sections:
         props = sec.get("rewritten_propositions") or []
@@ -164,7 +197,6 @@ def extract_batch(
         {"role": "user",   "content": "Các phần cần trích xuất:\n\n" + "\n\n".join(parts)},
     ])
 
-    # Index sections by id for address lookup
     sec_by_id = {s["id"]: s for s in sections}
     output = []
 
@@ -176,19 +208,32 @@ def extract_batch(
         address = parse_address(sec.get("path", ""), sec.get("document_name", ""))
 
         for t in item.get("triplets", []):
-            cs  = (t.get("concept_s") or "").strip()
-            rel = (t.get("relation")  or "").strip()
-            co  = (t.get("concept_o") or "").strip()
+            cs_raw  = (t.get("concept_s") or "").strip()
+            rel_raw = (t.get("relation")  or "").strip()
+            co_raw  = (t.get("concept_o") or "").strip()
 
-            # Hard validation: all three must be exact ontology names
-            if cs in concept_names and rel in relation_names and co in concept_names:
-                output.append({
-                    "section_id": sid,
-                    "address":    address,
-                    "concept_s":  cs,
-                    "relation":   rel,
-                    "concept_o":  co,
-                })
+            # Step 1: normalize to canonical names via keyphrase maps
+            cs  = _normalize(cs_raw,  concept_names,  concept_kp_map)
+            rel = _normalize(rel_raw, relation_names, relation_kp_map)
+            co  = _normalize(co_raw,  concept_names,  concept_kp_map)
+
+            if not (cs and rel and co):
+                continue
+
+            # Step 2: structural check — cs and co must match the relation's defined roles
+            struct = relation_struct.get(rel, {})
+            if cs != struct.get("concept_s"):
+                continue
+            if co not in struct.get("concept_o", []):
+                continue
+
+            output.append({
+                "section_id": sid,
+                "address":    address,
+                "concept_s":  cs,
+                "relation":   rel,
+                "concept_o":  co,
+            })
 
     return output
 
@@ -257,7 +302,7 @@ def main():
 
     print(f"Loading ontology: {args.ontology}")
     ontology = load_ontology(args.ontology)
-    onto_ctx, concept_names, relation_names = build_ontology_context(ontology)
+    onto_ctx, concept_names, relation_names, concept_kp_map, relation_kp_map, relation_struct = build_ontology_context(ontology)
     system_prompt = SYSTEM_TEMPLATE.format(onto_context=onto_ctx)
     print(f"  {len(concept_names)} concepts, {len(relation_names)} relations")
 
@@ -288,7 +333,8 @@ def main():
         counts  = {"done": 0, "triplets": 0, "fail": 0}
 
         def process(batch: list[dict]) -> list[dict]:
-            return extract_batch(batch, system_prompt, concept_names, relation_names)
+            return extract_batch(batch, system_prompt, concept_names, relation_names,
+                                 concept_kp_map, relation_kp_map, relation_struct)
 
         with ThreadPoolExecutor(max_workers=args.threads) as ex:
             futures = {ex.submit(process, b): b for b in batches}

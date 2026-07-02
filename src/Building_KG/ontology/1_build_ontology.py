@@ -48,8 +48,15 @@ Từ các mệnh đề pháp lý dưới đây, hãy xác định:
 1. ENTITIES — Danh từ/cụm danh từ đóng vai trò CHỦ THỂ hoặc ĐỐI TƯỢNG trong hành vi pháp lý.
    Nhóm các cách diễn đạt ĐỒNG NGHĨA về cùng một loại thực thể → một entry duy nhất.
    Ví dụ: "xe ô tô", "ô tô", "xe chở người bốn bánh có gắn động cơ", "xe bốn bánh", "xe hơi"
-           → TẤT CẢ là keyphrases của entity canonical "Xe ô tô"
+           → TẤT CẢ là keyphrases của entity canonical "Ô tô"
    Bỏ qua: con số tiền phạt, số ngày, số lần cụ thể (không phải loại thực thể).
+
+   QUAN TRỌNG — Subject entity phải là danh từ NGUYÊN TỬ, không chứa động từ:
+   - "Người điều khiển xe ô tô" → KHÔNG phải 1 entity. Tách thành:
+       entity "Người" (subject) + relation "Điều_khiển" + entity "Ô tô" (object)
+   - "Người điều khiển xe mô tô" → tương tự: "Người" + "Điều_khiển" + "Xe máy"
+   - Subject đúng: "Người", "Người đi bộ", "Cá nhân", "Tổ chức"
+   - "tài xế", "lái xe", "người điều khiển" là keyphrases của entity "Người", KHÔNG phải tên entity riêng
 
 2. RELATIONS — Động từ/cụm động từ thể hiện HÀNH VI cốt lõi.
    Nhóm các động từ đồng nghĩa vào cùng một relation.
@@ -64,14 +71,16 @@ Trả về JSON:
 {
   "entities": [
     {
-      "canonical": "Xe ô tô",
+      "canonical": "Ô tô",
       "keyphrases": ["xe ô tô", "ô tô", "xe hơi", "xe chở người bốn bánh có gắn động cơ",
                      "xe chở hàng bốn bánh có gắn động cơ", "xe bốn bánh", "ô tô tải", "xe khách"],
       "role": "object"
     },
     {
-      "canonical": "Người điều khiển phương tiện",
-      "keyphrases": ["người điều khiển phương tiện", "người điều khiển", "tài xế", "lái xe"],
+      "canonical": "Người",
+      "keyphrases": ["người", "người tham gia giao thông", "tài xế", "lái xe", "người điều khiển",
+                     "người điều khiển phương tiện", "người điều khiển xe ô tô",
+                     "người điều khiển xe mô tô"],
       "role": "subject"
     }
   ],
@@ -79,7 +88,7 @@ Trả về JSON:
     {
       "canonical": "Điều_khiển",
       "keyphrases": ["điều khiển", "lái", "vận hành", "cầm lái", "lái xe", "chạy xe"],
-      "subject_examples": ["người điều khiển phương tiện"],
+      "subject_examples": ["người"],
       "object_examples": ["xe ô tô", "xe mô tô", "xe gắn máy"]
     }
   ]
@@ -103,14 +112,26 @@ Nguyên tắc:
 - Tên canonical entity: danh từ chuẩn tiếng Việt, KHÔNG dùng dấu gạch dưới
 - Tên canonical relation: dùng dấu gạch dưới (ví dụ "Điều_khiển", "Sử_dụng")
 
+QUAN TRỌNG — Subject concept phải là danh từ NGUYÊN TỬ, không chứa động từ:
+- Sai: "Người điều khiển phương tiện"  →  Đúng: "Người"
+- Sai: "Người điều khiển xe mô tô"     →  Đúng: "Người"
+- Sai: "Người lái xe ô tô"             →  Đúng: "Người"
+- "tài xế", "lái xe", "người điều khiển", "người điều khiển phương tiện",
+  "người điều khiển xe ô tô", "người điều khiển xe mô tô" đều là keyphrases của concept "Người"
+- Khi thấy entity subject dạng "Người điều khiển [loại xe]" trong raw:
+    → concept_s = "Người", loại xe trở thành concept_o của relation Điều_khiển
+
 Trả về JSON đầy đủ (BẮT BUỘC có đủ 2 key: "concepts" và "relations"):
 {
   "concepts": [
-    {"name": "Người điều khiển phương tiện", "keyphrases": ["người điều khiển", "tài xế", "lái xe"]}
+    {"name": "Người", "keyphrases": ["người", "tài xế", "lái xe", "người điều khiển",
+                                     "người điều khiển phương tiện", "người tham gia giao thông"]},
+    {"name": "Ô tô",  "keyphrases": ["xe ô tô", "ô tô", "xe hơi", "xe bốn bánh"]},
+    {"name": "Xe máy","keyphrases": ["xe mô tô", "xe gắn máy", "xe máy", "mô tô"]}
   ],
   "relations": [
-    {"name": "Điều_khiển", "keyphrases": ["điều khiển", "lái", "vận hành"],
-     "concept_s": "Người điều khiển phương tiện", "concept_o": ["Xe ô tô", "Xe mô tô"]}
+    {"name": "Điều_khiển", "keyphrases": ["điều khiển", "lái", "vận hành", "cầm lái"],
+     "concept_s": "Người", "concept_o": ["Ô tô", "Xe máy"]}
   ]
 }"""
 
@@ -118,7 +139,14 @@ MERGE_CHUNK_SYSTEM = """\
 Bạn là chuyên gia xây dựng ontology pháp lý.
 Hợp nhất các entries đồng nghĩa/trùng ý trong danh sách entities hoặc relations.
 Gộp keyphrases, giữ canonical tốt nhất.
-Trả về JSON với key "entities" hoặc "relations" tương ứng."""
+Trả về JSON với key "entities" hoặc "relations" tương ứng.
+
+QUAN TRỌNG — Subject entity phải là danh từ NGUYÊN TỬ, không chứa động từ:
+- Sai: "Người điều khiển phương tiện"  →  Đúng: "Người"
+- Sai: "Người điều khiển xe ô tô"      →  Đúng: "Người"
+- Sai: "Người lái xe mô tô"            →  Đúng: "Người"
+- "tài xế", "lái xe", "người điều khiển", "người điều khiển phương tiện" đều là keyphrases của "Người"
+- Khi gặp entity dạng "Người điều khiển [loại xe]": gộp vào entity "Người", loại xe giữ riêng."""
 
 
 # ── LLM helpers ───────────────────────────────────────────────────────────────
