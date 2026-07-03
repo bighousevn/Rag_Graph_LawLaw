@@ -9,11 +9,20 @@ Output:
   output/ontology_draft.json  ← final merged ontology
 
 Two-pass strategy:
-  Pass 1 (discovery): Each batch of propositions → LLM extracts candidate entities + relations
-                      Results saved after EVERY batch → resumable on crash
-  Pass 2 (merge):     All candidates → LLM merges synonyms, assigns concept_s/concept_o
+  Pass 1 (discovery): For EACH batch of propositions, two grounded LLM calls:
+                        1a. Extract entities and group them into concepts, reusing exact
+                            names from the concept list accumulated so far (injected into
+                            the prompt) instead of creating duplicate concepts with new names.
+                        1b. Extract relations, constrained so concept_s/concept_o MUST be
+                            names that exist in the just-updated concept list.
+                      Results saved after EVERY batch → resumable on crash.
+  Pass 2 (merge):     Concepts/relations are already grounded per-batch; this pass only
+                      mops up leftover cross-batch duplicates (same concept named
+                      differently in different batches) and re-applies the rename map to
+                      relations before a final relation-synonym merge.
 
-Grounding: LLM is asked to group synonyms and name canonically — expert reviews before use.
+Grounding: concept_s/concept_o can never reference a name outside the known concept set —
+enforced both by prompt injection and by code-level post-validation.
 """
 
 import os
@@ -40,138 +49,167 @@ MERGE_CHUNK_SIZE  = 150   # if candidates > this, merge in chunks first
 
 # ── Prompts ───────────────────────────────────────────────────────────────────
 
-DISCOVERY_SYSTEM = """\
+_ATOMIC_NOUN_RULES = """\
+QUAN TRỌNG — Tên concept phải là danh từ NGUYÊN TỬ, không chứa động từ:
+- "Người điều khiển xe ô tô" → KHÔNG phải 1 concept. Tách thành:
+    concept "Người" (subject) + relation "Điều_khiển" + concept "Ô tô" (object)
+- "Người điều khiển xe mô tô" → tương tự: "Người" + "Điều_khiển" + "Xe máy"
+- Tên concept đúng: "Người", "Người đi bộ", "Cá nhân", "Tổ chức"
+- "tài xế", "lái xe", "người điều khiển", "người điều khiển phương tiện" là keyphrases
+  của concept "Người", KHÔNG phải tên concept riêng"""
+
+
+def _format_concepts_for_prompt(concepts: list[dict], max_keyphrases: int = 4) -> str:
+    if not concepts:
+        return "  (chưa có concept nào)"
+    lines = []
+    for c in sorted(concepts, key=lambda x: x["name"]):
+        kps = c.get("keyphrases", [])[:max_keyphrases]
+        lines.append(f"  - {c['name']}: {', '.join(kps)}")
+    return "\n".join(lines)
+
+
+def _build_entity_discovery_system(existing_concepts: list[dict]) -> str:
+    """Entity/concept extraction for one batch, grounded against concepts accumulated so far."""
+    concepts_str = _format_concepts_for_prompt(existing_concepts)
+    return f"""\
 Bạn là chuyên gia xây dựng ontology cho lĩnh vực pháp lý giao thông đường bộ Việt Nam.
 
-Từ các mệnh đề pháp lý dưới đây, hãy xác định:
+CONCEPTS đã xác định từ các batch trước (nếu entity bạn tìm thấy trùng nghĩa với một concept
+dưới đây, BẮT BUỘC dùng lại CHÍNH XÁC tên "name" đó, chỉ bổ sung keyphrase mới nếu có.
+CHỈ tạo tên concept mới khi thực sự không khớp concept nào có sẵn):
+{concepts_str}
 
-1. ENTITIES — Danh từ/cụm danh từ đóng vai trò CHỦ THỂ hoặc ĐỐI TƯỢNG trong hành vi pháp lý.
-   Nhóm các cách diễn đạt ĐỒNG NGHĨA về cùng một loại thực thể → một entry duy nhất.
-   Ví dụ: "xe ô tô", "ô tô", "xe chở người bốn bánh có gắn động cơ", "xe bốn bánh", "xe hơi"
-           → TẤT CẢ là keyphrases của entity canonical "Ô tô"
-   Bỏ qua: con số tiền phạt, số ngày, số lần cụ thể (không phải loại thực thể).
+Từ các mệnh đề pháp lý dưới đây, hãy xác định và GOM NHÓM thành CONCEPTS — danh từ/cụm danh từ
+đóng vai trò CHỦ THỂ hoặc ĐỐI TƯỢNG trong hành vi pháp lý.
+Nhóm các cách diễn đạt ĐỒNG NGHĨA về cùng một loại thực thể → một entry duy nhất.
+Ví dụ: "xe ô tô", "ô tô", "xe chở người bốn bánh có gắn động cơ", "xe bốn bánh", "xe hơi"
+        → TẤT CẢ là keyphrases của concept canonical "Ô tô"
+Bỏ qua: con số tiền phạt, số ngày, số lần cụ thể (không phải loại thực thể).
 
-   QUAN TRỌNG — Subject entity phải là danh từ NGUYÊN TỬ, không chứa động từ:
-   - "Người điều khiển xe ô tô" → KHÔNG phải 1 entity. Tách thành:
-       entity "Người" (subject) + relation "Điều_khiển" + entity "Ô tô" (object)
-   - "Người điều khiển xe mô tô" → tương tự: "Người" + "Điều_khiển" + "Xe máy"
-   - Subject đúng: "Người", "Người đi bộ", "Cá nhân", "Tổ chức"
-   - "tài xế", "lái xe", "người điều khiển" là keyphrases của entity "Người", KHÔNG phải tên entity riêng
-
-2. RELATIONS — Động từ/cụm động từ thể hiện HÀNH VI cốt lõi.
-   Nhóm các động từ đồng nghĩa vào cùng một relation.
-   Bỏ qua: trạng từ điều kiện, mức độ cụ thể.
+{_ATOMIC_NOUN_RULES}
 
 Quy tắc về keyphrases:
 - Thu thập ĐẦY ĐỦ mọi cách viết xuất hiện trong văn bản, dù dài hay ngắn
 - KHÔNG lọc bỏ keyphrase vì "dài dòng" — keyphrase dài vẫn cần để nhận diện văn bản luật
-- Mỗi entity/relation phải có ít nhất 2-3 keyphrases nếu có nhiều cách gọi trong đoạn văn
+- Mỗi concept phải có ít nhất 2-3 keyphrases nếu có nhiều cách gọi trong đoạn văn
 
 Trả về JSON:
-{
-  "entities": [
-    {
-      "canonical": "Ô tô",
-      "keyphrases": ["xe ô tô", "ô tô", "xe hơi", "xe chở người bốn bánh có gắn động cơ",
-                     "xe chở hàng bốn bánh có gắn động cơ", "xe bốn bánh", "ô tô tải", "xe khách"],
-      "role": "object"
-    },
-    {
-      "canonical": "Người",
-      "keyphrases": ["người", "người tham gia giao thông", "tài xế", "lái xe", "người điều khiển",
-                     "người điều khiển phương tiện", "người điều khiển xe ô tô",
-                     "người điều khiển xe mô tô"],
-      "role": "subject"
-    }
-  ],
-  "relations": [
-    {
-      "canonical": "Điều_khiển",
-      "keyphrases": ["điều khiển", "lái", "vận hành", "cầm lái", "lái xe", "chạy xe"],
-      "subject_examples": ["người"],
-      "object_examples": ["xe ô tô", "xe mô tô", "xe gắn máy"]
-    }
-  ]
-}"""
+{{"concepts": [
+  {{"name": "Ô tô", "keyphrases": ["xe ô tô", "ô tô", "xe hơi", "xe chở người bốn bánh có gắn động cơ",
+                                  "xe chở hàng bốn bánh có gắn động cơ", "xe bốn bánh", "ô tô tải", "xe khách"]}},
+  {{"name": "Người", "keyphrases": ["người", "người tham gia giao thông", "tài xế", "lái xe",
+                                    "người điều khiển", "người điều khiển phương tiện"]}}
+]}}"""
 
-MERGE_ENTITY_SYSTEM = """\
+
+def _build_relation_discovery_system(concept_names: list[str]) -> str:
+    """Relation extraction for one batch, constrained to the just-updated concept list."""
+    names_str = "\n".join(f"  - {n}" for n in sorted(concept_names))
+    return f"""\
+Bạn là chuyên gia xây dựng ontology pháp lý cho lĩnh vực giao thông đường bộ Việt Nam.
+
+CONCEPTS đã xác định (CHỈ được dùng tên CHÍNH XÁC từ danh sách này làm concept_s/concept_o,
+KHÔNG được bịa tên ngoài danh sách):
+{names_str}
+
+Từ các mệnh đề pháp lý dưới đây, hãy xác định RELATIONS — động từ/cụm động từ thể hiện HÀNH VI
+cốt lõi giữa hai concept.
+
+Với mỗi relation, trả về:
+- name: tên chuẩn dùng dấu gạch dưới (vd "Điều_khiển", "Sử_dụng")
+- keyphrases: các cách diễn đạt động từ đồng nghĩa xuất hiện trong văn bản
+- concept_s: MỘT tên từ danh sách CONCEPTS ở trên (chủ thể thực hiện hành vi)
+- concept_o: DANH SÁCH tên từ danh sách CONCEPTS ở trên (đối tượng của hành vi)
+
+Nguyên tắc:
+- Mỗi relation có ĐÚNG MỘT concept_s
+- Nếu chủ thể hoặc đối tượng của mệnh đề KHÔNG khớp concept nào trong danh sách trên
+  → BỎ QUA mệnh đề đó, KHÔNG tự tạo tên concept mới ở bước này
+- Nếu cùng hành vi có nhiều chủ thể rất khác nhau → tạo 2 relations riêng (tên khác nhau)
+
+Trả về JSON:
+{{"relations": [
+  {{"name": "Điều_khiển", "keyphrases": ["điều khiển", "lái", "cầm lái"],
+    "concept_s": "Người", "concept_o": ["Ô tô", "Xe máy"]}}
+]}}"""
+
+
+def _build_recovery_concept_system(existing_concepts: list[dict], missing_phrases: list[str]) -> str:
+    """
+    Relation extraction surfaced concept_s/concept_o phrases that don't resolve to any known
+    concept — likely because the entity-discovery step missed them. Ask the LLM to place each
+    phrase into an existing concept (reused by exact name) or, if genuinely new, name a proper
+    atomic-noun concept for it, instead of silently dropping the relation that referenced it.
+    """
+    concepts_str = _format_concepts_for_prompt(existing_concepts)
+    phrases_str = "\n".join(f"  - {p}" for p in missing_phrases)
+    return f"""\
+Bạn là chuyên gia xây dựng ontology cho lĩnh vực pháp lý giao thông đường bộ Việt Nam.
+
+CONCEPTS đã xác định (nếu cụm từ dưới đây trùng nghĩa với concept nào ở đây, BẮT BUỘC dùng lại
+CHÍNH XÁC tên "name" đó):
+{concepts_str}
+
+Các cụm từ sau được trích ra khi phân tích relation nhưng CHƯA khớp được concept nào ở trên
+(nhiều khả năng do bước trích concept trước đó bỏ sót):
+{phrases_str}
+
+Với MỖI cụm từ, hãy xác định nó thuộc CONCEPT nào — tái sử dụng tên đã có nếu trùng nghĩa,
+chỉ đặt tên mới khi thực sự là một loại thực thể chưa có trong danh sách.
+
+{_ATOMIC_NOUN_RULES}
+
+Nếu một cụm từ KHÔNG phải là loại thực thể hợp lệ (ví dụ chỉ là số tiền, số lượng, mức độ,
+trạng từ...) thì BỎ QUA cụm đó, không tạo concept cho nó.
+
+Trả về JSON:
+{{"concepts": [
+  {{"name": "...", "keyphrases": ["...", "..."]}}
+]}}"""
+
+
+CONCEPT_MERGE_SYSTEM = """\
 Bạn là chuyên gia xây dựng ontology pháp lý.
 
-Dưới đây là entity candidates từ nhiều batch phân tích, có thể có trùng lặp và đồng nghĩa.
+Dưới đây là danh sách concepts đã được xác định từ nhiều batch riêng lẻ. Phần lớn đã là tên
+chuẩn, nhưng có thể còn sót một số concept ĐỒNG NGHĨA bị tách thành nhiều entry khác tên
+(ví dụ "Ô tô" và "Xe hơi" cùng một loại thực thể, do được đặt tên ở các batch khác nhau).
 
-Nhiệm vụ: Hợp nhất các entities đồng nghĩa/trùng ý → một entry với tên chuẩn.
-Gộp TẤT CẢ keyphrases từ mọi entry đồng nghĩa vào một danh sách, loại trùng lặp.
-Tên canonical: danh từ chuẩn tiếng Việt, KHÔNG dùng dấu gạch dưới.
+Nhiệm vụ: hợp nhất các concept đồng nghĩa còn sót lại thành 1 entry — gộp toàn bộ keyphrases
+và source_names (loại trùng lặp). Concept nào đã rõ ràng không trùng ai thì giữ nguyên
+(source_names chỉ chứa chính tên nó).
 
-QUAN TRỌNG — Tên entity phải là danh từ NGUYÊN TỬ, không chứa động từ:
-- Sai: "Người điều khiển phương tiện"  →  Đúng: "Người"
-- Sai: "Người điều khiển xe ô tô"      →  Đúng: "Người"
-- Sai: "Người lái xe mô tô"            →  Đúng: "Người"
-- "tài xế", "lái xe", "người điều khiển", "người điều khiển phương tiện",
-  "người điều khiển xe ô tô", "người điều khiển xe mô tô" đều là keyphrases của "Người"
-- Khi gặp entity dạng "Người điều khiển [loại xe]": gộp vào "Người", loại xe giữ riêng.
+""" + _ATOMIC_NOUN_RULES + """
 
 Trả về JSON:
 {"concepts": [
-  {"name": "Người", "keyphrases": ["người", "tài xế", "lái xe", "người điều khiển",
-                                   "người điều khiển phương tiện", "người tham gia giao thông"]},
-  {"name": "Xe ô tô", "keyphrases": ["xe ô tô", "ô tô", "xe hơi", "xe bốn bánh"]},
-  {"name": "Xe máy",  "keyphrases": ["xe mô tô", "xe gắn máy", "xe máy", "mô tô"]}
+  {"name": "Ô tô", "keyphrases": ["xe ô tô", "ô tô", "xe hơi"], "source_names": ["Ô tô", "Xe hơi"]},
+  {"name": "Người", "keyphrases": ["người", "tài xế"], "source_names": ["Người"]}
 ]}"""
 
-MERGE_CHUNK_ENTITY_SYSTEM = """\
-Bạn là chuyên gia xây dựng ontology pháp lý.
-Hợp nhất các entity entries đồng nghĩa/trùng ý. Gộp keyphrases, giữ canonical tốt nhất.
 
-QUAN TRỌNG — Tên entity phải là danh từ NGUYÊN TỬ, không chứa động từ:
-- Sai: "Người điều khiển phương tiện"  →  Đúng: "Người"
-- Sai: "Người điều khiển xe ô tô"      →  Đúng: "Người"
-- "tài xế", "lái xe", "người điều khiển" đều là keyphrases của "Người"
-- Khi gặp entity dạng "Người điều khiển [loại xe]": gộp vào "Người", loại xe giữ riêng.
-
-Trả về JSON: {"entities": [{"canonical": "...", "keyphrases": [...], "role": "..."}, ...]}"""
-
-MERGE_CHUNK_RELATION_SYSTEM = """\
-Bạn là chuyên gia xây dựng ontology pháp lý.
-Hợp nhất các relation entries đồng nghĩa/trùng ý. Gộp keyphrases, subject_examples, object_examples.
-CHƯA cần xác định concept_s/concept_o — chỉ gộp synonyms và keyphrases.
-
-Trả về JSON: {"relations": [{"canonical": "...", "keyphrases": [...], "subject_examples": [...], "object_examples": [...]}, ...]}"""
-
-
-def _build_relation_merge_system(concept_names: list[str]) -> str:
-    """Build relation merge prompt with injected concept names so LLM picks from real list."""
+def _build_relation_final_merge_system(concept_names: list[str]) -> str:
+    """Final relation merge: concept_s/concept_o are already assigned, just consolidate synonyms."""
     names_str = "\n".join(f"  - {n}" for n in sorted(concept_names))
     return f"""\
 Bạn là chuyên gia xây dựng ontology pháp lý.
 
-CONCEPTS đã hợp nhất (chỉ dùng tên CHÍNH XÁC từ danh sách này làm concept_s/concept_o):
+CONCEPTS hợp lệ (concept_s/concept_o CHỈ được dùng tên chính xác từ danh sách này):
 {names_str}
 
-Dưới đây là relation candidates từ nhiều batch, có thể có trùng lặp và đồng nghĩa.
+Dưới đây là relations đã được gán concept_s/concept_o từ nhiều batch riêng lẻ. Có thể có
+relation ĐỒNG NGHĨA bị tách thành nhiều entry khác tên (cùng bản chất hành vi, concept_s
+giống nhau, concept_o trùng hoặc gần trùng nhau).
 
-Nhiệm vụ:
-1. Hợp nhất các relations đồng nghĩa/trùng ý → một entry với tên chuẩn.
-   Gộp keyphrases, subject_examples, object_examples.
-2. Với mỗi relation đã hợp nhất, xác định:
-   - concept_s: MỘT TÊN từ danh sách CONCEPTS ở trên (dựa vào subject_examples)
-   - concept_o: DANH SÁCH TÊN từ danh sách CONCEPTS ở trên (dựa vào object_examples)
-   → CHỈ dùng tên trong danh sách CONCEPTS, KHÔNG đặt tên ngoài danh sách
-
-Nguyên tắc:
-- Mỗi relation có ĐÚNG MỘT concept_s
-- Nếu cùng hành vi có nhiều chủ thể rất khác nhau → tạo 2 relations riêng (tên khác nhau)
-- Tên canonical relation: dùng dấu gạch dưới (ví dụ "Điều_khiển", "Sử_dụng")
-
-QUAN TRỌNG — concept_s phải là danh từ NGUYÊN TỬ từ danh sách CONCEPTS:
-- subject_examples "người điều khiển xe ô tô", "tài xế", "lái xe" → concept_s = "Người"
-- "người điều khiển phương tiện" → concept_s = "Người"
-- KHÔNG dùng tên không có trong danh sách CONCEPTS ở trên
+Nhiệm vụ: hợp nhất các relation đồng nghĩa còn sót lại thành 1 entry — gộp keyphrases,
+hợp nhất concept_o (loại trùng). Relation có ý nghĩa khác nhau dù chung concept_s/concept_o
+thì GIỮ RIÊNG, không gộp.
 
 Trả về JSON:
 {{"relations": [
-  {{"name": "Điều_khiển", "keyphrases": ["điều khiển", "lái", "vận hành", "cầm lái"],
-    "concept_s": "Người", "concept_o": ["Xe ô tô", "Xe máy"]}}
+  {{"name": "Điều_khiển", "keyphrases": ["điều khiển", "lái", "cầm lái"],
+    "concept_s": "Người", "concept_o": ["Ô tô", "Xe máy"]}}
 ]}}"""
 
 
@@ -207,28 +245,151 @@ def save_json(path: str, data) -> None:
 
 # ── Pass 1: Discovery ─────────────────────────────────────────────────────────
 
+def _build_concept_lookup(concepts: list[dict]) -> dict[str, list[str]]:
+    """
+    Map both canonical names and every keyphrase (lowercased) → ALL concept names that
+    claim it. A keyphrase can legitimately belong to more than one concept (e.g. a generic
+    word shared by two sibling concepts) — every caller must handle multiple matches instead
+    of assuming the first one found is the only one.
+    """
+    lookup: dict[str, list[str]] = {}
+    for c in concepts:
+        name = c["name"]
+        keys = [name.strip().lower()] + [kp.strip().lower() for kp in c.get("keyphrases", []) if kp]
+        for key in keys:
+            names = lookup.setdefault(key, [])
+            if name not in names:
+                names.append(name)
+    return lookup
+
+
+def _merge_into_concept_index(concept_index: dict[str, dict], new_concepts: list[dict]) -> int:
+    """Fold {name, keyphrases} entries into the accumulated index; returns count of brand-new concepts."""
+    new_count = 0
+    for c in new_concepts:
+        name = (c.get("name") or "").strip()
+        if not name:
+            continue
+        kps = [k for k in c.get("keyphrases", []) if k]
+        if name in concept_index:
+            existing_kps = concept_index[name]["keyphrases"]
+            for k in kps:
+                if k not in existing_kps:
+                    existing_kps.append(k)
+        else:
+            concept_index[name] = {"name": name, "keyphrases": list(dict.fromkeys(kps))}
+            new_count += 1
+    return new_count
+
+
+def _find_unresolved_phrases(relations: list[dict], concepts: list[dict]) -> list[str]:
+    """Collect distinct concept_s/concept_o phrases in raw relations that match no known concept."""
+    lookup = _build_concept_lookup(concepts)
+    missing: list[str] = []
+    seen: set[str] = set()
+    for r in relations:
+        candidates = [r.get("concept_s", "")] + list(r.get("concept_o", []) or [])
+        for phrase in candidates:
+            phrase = (phrase or "").strip()
+            key = phrase.lower()
+            if phrase and key not in seen and not lookup.get(key):
+                missing.append(phrase)
+                seen.add(key)
+    return missing
+
+
+def _referenced_concept_names(relations: list[dict]) -> set[str]:
+    """Names actually used as concept_s or concept_o by at least one relation."""
+    used: set[str] = set()
+    for r in relations:
+        cs = r.get("concept_s")
+        if cs:
+            used.add(cs)
+        used.update(r.get("concept_o", []) or [])
+    return used
+
+
+def _post_validate_relations(relations: list[dict], concepts: list[dict]) -> list[dict]:
+    """
+    concept_s/concept_o from the LLM may be a keyphrase ("xe mô tô", "tài xế") rather than
+    the canonical concept name ("Xe máy", "Người") — resolve through the keyphrase lookup
+    before deciding validity, instead of requiring an exact canonical-name match.
+
+    A keyphrase can match more than one concept. concept_o already accepts multiple concepts,
+    so every match is kept. concept_s must stay singular per relation (ontology rule: one
+    ConceptS per relation), so an ambiguous concept_s phrase duplicates the relation once per
+    matching concept instead of arbitrarily keeping only one.
+
+    - concept_s not resolvable to any known concept → drop relation
+    - concept_o items not resolvable → remove invalid entries
+    - concept_o ends up empty (no valid object left, or none was ever provided) → drop relation
+    """
+    lookup = _build_concept_lookup(concepts)
+    validated = []
+    for r in relations:
+        cs_raw = (r.get("concept_s") or "").strip()
+        cs_names = lookup.get(cs_raw.lower()) or []
+        if not cs_names:
+            print(f"    [drop] '{r.get('name')}': concept_s '{cs_raw}' not in concepts")
+            continue
+        if len(cs_names) > 1:
+            print(f"    [split] '{r.get('name')}': concept_s '{cs_raw}' matches {cs_names} → duplicating relation")
+
+        co_raw, co_valid, co_bad = r.get("concept_o", []), [], []
+        for o in co_raw:
+            resolved = lookup.get((o or "").strip().lower()) or []
+            if not resolved:
+                co_bad.append(o)
+            for name in resolved:
+                if name not in co_valid:
+                    co_valid.append(name)
+        if co_bad:
+            print(f"    [warn] '{r.get('name')}': removed invalid concept_o: {co_bad}")
+        if not co_valid:
+            print(f"    [drop] '{r.get('name')}' (S={cs_names}): no valid concept_o left")
+            continue
+
+        for cs in cs_names:
+            validated.append(dict(r, concept_s=cs, concept_o=list(co_valid)))
+    return validated
+
+
 def discovery_pass(
     propositions: list[str],
     batch_size: int = DISCOVERY_BATCH,
     raw_path: str = DISCOVERY_RAW,
 ) -> tuple[list, list]:
     """
-    Feed propositions in batches → collect candidate entities + relations.
+    For each batch: (1) extract entities, grounding them against the concept list
+    accumulated so far so synonyms reuse the same name instead of forking a new concept;
+    (2) extract relations, constrained so concept_s/concept_o must be names that exist in
+    that just-updated concept list; (3) if the relation step still surfaces a concept_s/
+    concept_o phrase that resolves to nothing — a sign Step 1 missed an entity — recover it
+    with one extra LLM call instead of silently dropping the triplet.
     Saves progress after each batch → resumable on crash.
+
+    A concept can be discovered (Step 1) in one batch but only get referenced by a relation
+    several batches later, once grounding lets a later batch's relation step reuse its name.
+    So the full concept set (incl. not-yet-referenced ones) is kept internally in
+    `concept_index` for grounding continuity across batches/resumes, while the "concepts"
+    that get saved/returned are filtered down to only those actually used by some relation
+    so far — orphan concepts never leak into the exported ontology.
     """
-    # Load existing progress
-    all_entities: list[dict] = []
-    all_relations: list[dict] = []
+    relations: list[dict] = []
     props_done = 0
+    concept_index: dict[str, dict] = {}
 
     if os.path.exists(raw_path):
         with open(raw_path, encoding="utf-8") as f:
             saved = json.load(f)
-        all_entities  = saved.get("entities", [])
-        all_relations = saved.get("relations", [])
+        full_concepts = saved.get("concept_index_all") or saved.get("concepts", [])
+        relations     = saved.get("relations", [])
         props_done    = saved.get("props_done", 0)
-        print(f"  [resume] loaded {len(all_entities)} entities, {len(all_relations)} relations"
-              f" ({props_done}/{len(propositions)} props already done)")
+        for c in full_concepts:
+            c["keyphrases"] = list(dict.fromkeys(c.get("keyphrases", [])))
+            concept_index[c["name"]] = c
+        print(f"  [resume] loaded {len(concept_index)} concepts ({len(saved.get('concepts', []))} used), "
+              f"{len(relations)} relations ({props_done}/{len(propositions)} props already done)")
 
     remaining   = propositions[props_done:]
     batches     = [remaining[i:i+batch_size] for i in range(0, len(remaining), batch_size)]
@@ -242,70 +403,123 @@ def discovery_pass(
         batch_num = done_batches + i
         numbered  = "\n".join(f"{j+1}. {p}" for j, p in enumerate(batch))
 
+        # ── Step A: extract entities, grounded against concepts accumulated so far ──
         try:
-            result = llm_call([
-                {"role": "system", "content": DISCOVERY_SYSTEM},
+            entity_system = _build_entity_discovery_system(list(concept_index.values()))
+            entity_result = llm_call([
+                {"role": "system", "content": entity_system},
                 {"role": "user",   "content": f"Mệnh đề pháp lý:\n{numbered}"},
             ])
         except Exception as e:
-            print(f"  [batch {batch_num}/{total_batches}] LLM FAIL: {e} — skipping")
+            print(f"  [batch {batch_num}/{total_batches}] entity LLM FAIL: {e} — skipping batch")
             continue
 
-        batch_entities  = result.get("entities",  []) or []
-        batch_relations = result.get("relations", []) or []
-        all_entities.extend(batch_entities)
-        all_relations.extend(batch_relations)
+        batch_concepts = entity_result.get("concepts", []) or []
+        new_count = _merge_into_concept_index(concept_index, batch_concepts)
+
+        # ── Step B: extract relations, constrained to the updated concept list ──────
+        concept_names = list(concept_index.keys())
+        try:
+            relation_system = _build_relation_discovery_system(concept_names)
+            relation_result = llm_call([
+                {"role": "system", "content": relation_system},
+                {"role": "user",   "content": f"Mệnh đề pháp lý:\n{numbered}"},
+            ])
+        except Exception as e:
+            print(f"  [batch {batch_num}/{total_batches}] relation LLM FAIL: {e} — keeping concepts, skipping relations")
+            relation_result = {}
+
+        batch_relations = relation_result.get("relations", []) or []
+
+        # ── Step C: recover concepts for any concept_s/concept_o phrase Step A missed ──
+        missing_phrases = _find_unresolved_phrases(batch_relations, list(concept_index.values()))
+        recovered_count = 0
+        if missing_phrases:
+            try:
+                recovery_system = _build_recovery_concept_system(list(concept_index.values()), missing_phrases)
+                recovery_result = llm_call([
+                    {"role": "system", "content": recovery_system},
+                    {"role": "user",   "content": "Cụm từ cần xác định concept:\n" + "\n".join(missing_phrases)},
+                ])
+                recovered_count = _merge_into_concept_index(concept_index, recovery_result.get("concepts", []) or [])
+                print(f"    [recover] {len(missing_phrases)} missing phrase(s) → +{recovered_count} concepts")
+            except Exception as e:
+                print(f"    [recover] LLM FAIL: {e} — unresolved phrases will be dropped")
+            new_count += recovered_count
+
+        batch_relations = _post_validate_relations(batch_relations, list(concept_index.values()))
+        relations.extend(batch_relations)
         props_done += len(batch)
 
-        # Print batch detail
+        used_names = _referenced_concept_names(relations)
+        used_concepts = [c for c in concept_index.values() if c["name"] in used_names]
+
         print(f"  [{batch_num}/{total_batches}] "
-              f"+{len(batch_entities)} entities, +{len(batch_relations)} relations  "
-              f"(cumulative: {len(all_entities)}, {len(all_relations)})")
-        if batch_entities:
-            names = [e.get("canonical", "?") for e in batch_entities]
-            print(f"    entities : {', '.join(names)}")
+              f"+{new_count} new concepts (discovered {len(concept_index)}, used {len(used_concepts)}), "
+              f"+{len(batch_relations)} relations (total {len(relations)})")
+        if batch_concepts:
+            names = [c.get("name", "?") for c in batch_concepts]
+            print(f"    concepts touched: {', '.join(names)}")
         if batch_relations:
-            names = [r.get("canonical", "?") for r in batch_relations]
+            names = [r.get("name", "?") for r in batch_relations]
             print(f"    relations: {', '.join(names)}")
 
         # Save after every batch
         save_json(raw_path, {
             "props_done": props_done,
             "total_props": len(propositions),
-            "entities":   all_entities,
-            "relations":  all_relations,
+            "concepts":   used_concepts,               # exported: only concepts used by a relation
+            "concept_index_all": list(concept_index.values()),  # internal: full state, for grounding continuity
+            "relations":  relations,
         })
 
-    return all_entities, all_relations
+    used_names = _referenced_concept_names(relations)
+    return [c for c in concept_index.values() if c["name"] in used_names], relations
 
 
-# ── Pass 2: Merge ─────────────────────────────────────────────────────────────
+# ── Pass 2: Merge (mop up cross-batch duplicates left over from Pass 1) ───────
 
-def _pre_merge_entities(items: list[dict]) -> list[dict]:
-    """Pre-merge entity candidates in chunks (no concept_s/concept_o at this stage)."""
+def _prep_concepts_for_merge(concepts: list[dict]) -> list[dict]:
+    return [
+        {
+            "name": c["name"],
+            "keyphrases": c.get("keyphrases", []),
+            "source_names": c.get("source_names", [c["name"]]),
+        }
+        for c in concepts
+    ]
+
+
+def _merge_concepts_call(items: list[dict]) -> list[dict]:
+    payload = json.dumps({"concepts": items}, ensure_ascii=False)
+    result = llm_call([
+        {"role": "system", "content": CONCEPT_MERGE_SYSTEM},
+        {"role": "user",   "content": f"Concepts:\n{payload}"},
+    ])
+    return result.get("concepts", []) or []
+
+
+def _pre_merge_concepts(items: list[dict]) -> list[dict]:
+    """Pre-merge concepts in chunks to stay within token budget before the final pass."""
     chunks = [items[i:i+MERGE_CHUNK_SIZE] for i in range(0, len(items), MERGE_CHUNK_SIZE)]
     merged = []
     for ci, chunk in enumerate(chunks, 1):
-        payload = json.dumps({"entities": chunk}, ensure_ascii=False)
-        result = llm_call([
-            {"role": "system", "content": MERGE_CHUNK_ENTITY_SYSTEM},
-            {"role": "user",   "content": f"Hợp nhất entities:\n{payload}"},
-        ])
-        chunk_out = result.get("entities", []) or []
+        chunk_out = _merge_concepts_call(chunk)
         merged.extend(chunk_out)
-        print(f"    entity chunk [{ci}/{len(chunks)}]: {len(chunk)} → {len(chunk_out)}")
+        print(f"    concept chunk [{ci}/{len(chunks)}]: {len(chunk)} → {len(chunk_out)}")
     return merged
 
 
-def _pre_merge_relations(items: list[dict]) -> list[dict]:
-    """Pre-merge relation candidates in chunks (no concept_s/concept_o assignment yet)."""
+def _pre_merge_relations_final(items: list[dict], concept_names: list[str]) -> list[dict]:
+    """Pre-merge already-grounded relations in chunks before the final synonym-merge pass."""
+    system = _build_relation_final_merge_system(concept_names)
     chunks = [items[i:i+MERGE_CHUNK_SIZE] for i in range(0, len(items), MERGE_CHUNK_SIZE)]
     merged = []
     for ci, chunk in enumerate(chunks, 1):
         payload = json.dumps({"relations": chunk}, ensure_ascii=False)
         result = llm_call([
-            {"role": "system", "content": MERGE_CHUNK_RELATION_SYSTEM},
-            {"role": "user",   "content": f"Hợp nhất relations:\n{payload}"},
+            {"role": "system", "content": system},
+            {"role": "user",   "content": f"Relations:\n{payload}"},
         ])
         chunk_out = result.get("relations", []) or []
         merged.extend(chunk_out)
@@ -313,95 +527,86 @@ def _pre_merge_relations(items: list[dict]) -> list[dict]:
     return merged
 
 
-def _post_validate_relations(relations: list[dict], concept_set: set) -> list[dict]:
+def merge_pass(concepts: list[dict], relations: list[dict]) -> dict:
     """
-    Post-validate after relation merge:
-    - concept_s not in concept_set → auto-fix compound NP to "Người", else drop
-    - concept_o items not in concept_set → remove invalid entries
-    """
-    _NP_PREFIXES = ("người điều khiển", "người lái", "tài xế")
-    validated = []
-    for r in relations:
-        cs = r.get("concept_s", "")
-        if cs not in concept_set:
-            if any(cs.lower().startswith(p) for p in _NP_PREFIXES):
-                print(f"    [auto-fix] '{r.get('name')}': concept_s '{cs}' → 'Người'")
-                r = dict(r, concept_s="Người")
-            else:
-                print(f"    [drop] '{r.get('name')}': concept_s '{cs}' not in concepts")
-                continue
-        co_raw   = r.get("concept_o", [])
-        co_valid = [c for c in co_raw if c in concept_set]
-        co_bad   = [c for c in co_raw if c not in concept_set]
-        if co_bad:
-            print(f"    [warn] '{r.get('name')}': removed invalid concept_o: {co_bad}")
-        validated.append(dict(r, concept_o=co_valid))
-    return validated
-
-
-def merge_pass(entities: list[dict], relations: list[dict]) -> dict:
-    """
-    Two-step merge following Hướng 2 (atomic noun ConceptS):
-      Step 1: Merge entities independently → final concepts list
-      Step 2: Merge relations with injected concept names → concept_s/concept_o from real names
-      Step 3: Post-validate relations (auto-fix compound NPs, remove invalid references)
+    Concepts and relations are already grounded per-batch from Pass 1, so this pass only
+    mops up leftovers:
+      Step 1: merge concepts still duplicated across batches (same thing, different name)
+              → build a rename map from source_names back to the final chosen name
+      Step 2: apply the rename map to relations' concept_s/concept_o
+      Step 3: merge relations that are still synonymous after renaming
+      Step 4: post-validate (safety net against any residual bad reference)
     """
     print(f"\n{'─'*60}")
-    print(f"Merge pass: {len(entities)} entity candidates, {len(relations)} relation candidates")
+    print(f"Merge pass: {len(concepts)} concept candidates, {len(relations)} relation candidates")
 
-    # ── Step 1: Merge entities ────────────────────────────────────────────────
-    if len(entities) > MERGE_CHUNK_SIZE:
-        print(f"\n  [Step 1a] pre-merging {len(entities)} entities in chunks...")
-        entities = _pre_merge_entities(entities)
-        print(f"  after pre-merge: {len(entities)} entity candidates")
+    # ── Step 1: final concept dedup ───────────────────────────────────────────
+    prepped = _prep_concepts_for_merge(concepts)
+    if len(prepped) > MERGE_CHUNK_SIZE:
+        print(f"\n  [Step 1a] pre-merging {len(prepped)} concepts in chunks...")
+        prepped = _pre_merge_concepts(prepped)
+        print(f"  after pre-merge: {len(prepped)} concept candidates")
 
-    if len(entities) > MAX_CANDIDATES:
-        print(f"  ⚠ truncating entities {len(entities)} → {MAX_CANDIDATES}")
-        entities = entities[:MAX_CANDIDATES]
+    if len(prepped) > MAX_CANDIDATES:
+        print(f"  ⚠ truncating concepts {len(prepped)} → {MAX_CANDIDATES}")
+        prepped = prepped[:MAX_CANDIDATES]
 
-    entity_payload = json.dumps({"entities": entities}, ensure_ascii=False)
-    print(f"\n  [Step 1] merging {len(entities)} entities ({len(entity_payload.encode())/1024:.1f} KB)...")
+    print(f"\n  [Step 1] final concept merge on {len(prepped)} candidates...")
+    final_concepts = _merge_concepts_call(prepped)
+    if not final_concepts:
+        print("  ⚠ WARNING: concept merge returned 0 concepts")
 
-    entity_result = llm_call([
-        {"role": "system", "content": MERGE_ENTITY_SYSTEM},
-        {"role": "user",   "content": f"Entity candidates:\n{entity_payload}"},
-    ])
-    concepts = entity_result.get("concepts", []) or []
-    if not concepts:
-        print("  ⚠ WARNING: entity merge returned 0 concepts")
-    concept_set = {c["name"] for c in concepts}
-    print(f"  ✓ {len(concepts)} concepts: {', '.join(sorted(concept_set))}")
+    rename_map: dict[str, str] = {}
+    for c in final_concepts:
+        for src in c.get("source_names", [c["name"]]):
+            rename_map[src] = c["name"]
+    concept_set = {c["name"] for c in final_concepts}
+    # safety net: any original name the LLM forgot to echo back in source_names maps to itself
+    for c in concepts:
+        rename_map.setdefault(c["name"], c["name"])
+        concept_set.add(rename_map[c["name"]])
 
-    # ── Step 2: Merge relations with concept context ──────────────────────────
-    if len(relations) > MERGE_CHUNK_SIZE:
-        print(f"\n  [Step 2a] pre-merging {len(relations)} relations in chunks...")
-        relations = _pre_merge_relations(relations)
-        print(f"  after pre-merge: {len(relations)} relation candidates")
+    print(f"  ✓ {len(final_concepts)} concepts: {', '.join(sorted(concept_set))}")
 
-    if len(relations) > MAX_CANDIDATES:
-        print(f"  ⚠ truncating relations {len(relations)} → {MAX_CANDIDATES}")
-        relations = relations[:MAX_CANDIDATES]
+    # ── Step 2: apply rename map to relations ─────────────────────────────────
+    renamed_relations = []
+    for r in relations:
+        cs = rename_map.get(r.get("concept_s", ""), r.get("concept_s", ""))
+        co = list(dict.fromkeys(rename_map.get(o, o) for o in r.get("concept_o", [])))
+        renamed_relations.append(dict(r, concept_s=cs, concept_o=co))
 
-    relation_system  = _build_relation_merge_system(list(concept_set))
-    relation_payload = json.dumps({"relations": relations}, ensure_ascii=False)
-    print(f"\n  [Step 2] merging {len(relations)} relations ({len(relation_payload.encode())/1024:.1f} KB)...")
+    # ── Step 3: final relation synonym merge ──────────────────────────────────
+    if len(renamed_relations) > MERGE_CHUNK_SIZE:
+        print(f"\n  [Step 3a] pre-merging {len(renamed_relations)} relations in chunks...")
+        renamed_relations = _pre_merge_relations_final(renamed_relations, list(concept_set))
+        print(f"  after pre-merge: {len(renamed_relations)} relation candidates")
+
+    if len(renamed_relations) > MAX_CANDIDATES:
+        print(f"  ⚠ truncating relations {len(renamed_relations)} → {MAX_CANDIDATES}")
+        renamed_relations = renamed_relations[:MAX_CANDIDATES]
+
+    relation_system  = _build_relation_final_merge_system(list(concept_set))
+    relation_payload = json.dumps({"relations": renamed_relations}, ensure_ascii=False)
+    print(f"\n  [Step 3] final relation merge on {len(renamed_relations)} candidates "
+          f"({len(relation_payload.encode())/1024:.1f} KB)...")
 
     relation_result = llm_call([
         {"role": "system", "content": relation_system},
-        {"role": "user",   "content": f"Relation candidates:\n{relation_payload}"},
+        {"role": "user",   "content": f"Relations:\n{relation_payload}"},
     ])
     rels_out = relation_result.get("relations", []) or []
     if not rels_out:
         print("  ⚠ WARNING: relation merge returned 0 relations")
 
-    # ── Step 3: Post-validate ─────────────────────────────────────────────────
-    print(f"\n  [Step 3] validating {len(rels_out)} relations against {len(concept_set)} concepts...")
-    rels_out = _post_validate_relations(rels_out, concept_set)
+    # ── Step 4: post-validate ─────────────────────────────────────────────────
+    print(f"\n  [Step 4] validating {len(rels_out)} relations against {len(concept_set)} concepts...")
+    rels_out = _post_validate_relations(rels_out, final_concepts)
 
     # Print results
-    print(f"\n  ✓ Final: {len(concepts)} concepts, {len(rels_out)} relations")
+    final_concepts_out = [{"name": c["name"], "keyphrases": c.get("keyphrases", [])} for c in final_concepts]
+    print(f"\n  ✓ Final: {len(final_concepts_out)} concepts, {len(rels_out)} relations")
     print(f"\n  CONCEPTS:")
-    for c in concepts:
+    for c in final_concepts_out:
         kps = c.get("keyphrases", [])
         print(f"    [{c.get('name', '?')}]  ({len(kps)} keyphrases)")
         print(f"      {', '.join(kps[:6])}{'...' if len(kps) > 6 else ''}")
@@ -414,7 +619,7 @@ def merge_pass(entities: list[dict], relations: list[dict]) -> dict:
         print(f"    [{r.get('name', '?')}]  S={cs}  O=[{', '.join(co[:4])}{'...' if len(co)>4 else ''}]")
         print(f"      keyphrases: {', '.join(kps[:5])}{'...' if len(kps)>5 else ''}")
 
-    return {"concepts": concepts, "relations": rels_out}
+    return {"concepts": final_concepts_out, "relations": rels_out}
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -457,9 +662,9 @@ def main():
             return
         with open(args.raw, encoding="utf-8") as f:
             saved = json.load(f)
-        entities  = saved.get("entities",  [])
+        concepts  = saved.get("concepts",  [])
         relations = saved.get("relations", [])
-        print(f"Loaded from {args.raw}: {len(entities)} entities, {len(relations)} relations")
+        print(f"Loaded from {args.raw}: {len(concepts)} concepts, {len(relations)} relations")
     else:
         print(f"Collecting propositions from: {args.input}")
         propositions = collect_propositions(args.input)
@@ -468,13 +673,13 @@ def main():
         print(f"Total propositions: {len(propositions)}")
         print(f"Discovery raw cache: {args.raw}\n")
 
-        entities, relations = discovery_pass(
+        concepts, relations = discovery_pass(
             propositions, batch_size=args.batch_size, raw_path=args.raw
         )
 
     print(f"\n{'─'*60}")
     print("Running merge pass...")
-    ontology = merge_pass(entities, relations)
+    ontology = merge_pass(concepts, relations)
 
     save_json(args.output, ontology)
     n_c = len(ontology.get("concepts", []))
