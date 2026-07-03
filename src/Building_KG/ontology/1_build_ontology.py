@@ -189,27 +189,33 @@ Trả về JSON:
 ]}"""
 
 
-def _build_relation_final_merge_system(concept_names: list[str]) -> str:
-    """Final relation merge: concept_s/concept_o are already assigned, just consolidate synonyms."""
+def _build_relation_final_merge_system(concept_names: list[str], concept_s: str) -> str:
+    """
+    Final relation merge for ONE concept_s group at a time (caller partitions relations by
+    concept_s before calling this — see merge_pass Step 3). This lets the prompt state as fact
+    that every input relation shares the same subject, instead of relying on the LLM to notice
+    and never cross-merge subjects on its own.
+    """
     names_str = "\n".join(f"  - {n}" for n in sorted(concept_names))
     return f"""\
 Bạn là chuyên gia xây dựng ontology pháp lý.
 
-CONCEPTS hợp lệ (concept_s/concept_o CHỈ được dùng tên chính xác từ danh sách này):
+CONCEPTS hợp lệ (concept_o CHỈ được dùng tên chính xác từ danh sách này):
 {names_str}
 
-Dưới đây là relations đã được gán concept_s/concept_o từ nhiều batch riêng lẻ. Có thể có
-relation ĐỒNG NGHĨA bị tách thành nhiều entry khác tên (cùng bản chất hành vi, concept_s
-giống nhau, concept_o trùng hoặc gần trùng nhau).
+Dưới đây là các relation đã gán concept_s/concept_o từ nhiều batch riêng lẻ. TẤT CẢ đều có
+CÙNG concept_s = "{concept_s}" — không có relation nào của concept_s khác lẫn vào đây.
+Có thể có relation ĐỒNG NGHĨA bị tách thành nhiều entry khác tên (cùng bản chất hành vi,
+concept_o trùng hoặc gần trùng nhau).
 
 Nhiệm vụ: hợp nhất các relation đồng nghĩa còn sót lại thành 1 entry — gộp keyphrases,
-hợp nhất concept_o (loại trùng). Relation có ý nghĩa khác nhau dù chung concept_s/concept_o
-thì GIỮ RIÊNG, không gộp.
+hợp nhất concept_o (loại trùng). Relation có ý nghĩa khác nhau dù chung concept_o thì
+GIỮ RIÊNG, không gộp. concept_s của mọi entry trả về PHẢI giữ nguyên là "{concept_s}".
 
 Trả về JSON:
 {{"relations": [
   {{"name": "Điều_khiển", "keyphrases": ["điều khiển", "lái", "cầm lái"],
-    "concept_s": "Người", "concept_o": ["Ô tô", "Xe máy"]}}
+    "concept_s": "{concept_s}", "concept_o": ["Ô tô", "Xe máy"]}}
 ]}}"""
 
 
@@ -510,21 +516,46 @@ def _pre_merge_concepts(items: list[dict]) -> list[dict]:
     return merged
 
 
-def _pre_merge_relations_final(items: list[dict], concept_names: list[str]) -> list[dict]:
-    """Pre-merge already-grounded relations in chunks before the final synonym-merge pass."""
-    system = _build_relation_final_merge_system(concept_names)
-    chunks = [items[i:i+MERGE_CHUNK_SIZE] for i in range(0, len(items), MERGE_CHUNK_SIZE)]
-    merged = []
-    for ci, chunk in enumerate(chunks, 1):
-        payload = json.dumps({"relations": chunk}, ensure_ascii=False)
-        result = llm_call([
-            {"role": "system", "content": system},
-            {"role": "user",   "content": f"Relations:\n{payload}"},
-        ])
-        chunk_out = result.get("relations", []) or []
-        merged.extend(chunk_out)
-        print(f"    relation chunk [{ci}/{len(chunks)}]: {len(chunk)} → {len(chunk_out)}")
-    return merged
+def _merge_relation_group(concept_s: str, group: list[dict], concept_names: list[str]) -> list[dict]:
+    """
+    Merge synonymous relations that all share the same concept_s (caller guarantees this by
+    partitioning before calling — see merge_pass Step 3). Chunks first if the group is large,
+    then does one final merge call. concept_s is force-set back on the output regardless of
+    what the LLM returns, so this can never smuggle in a different subject.
+    """
+    if len(group) <= 1:
+        return group
+
+    system = _build_relation_final_merge_system(concept_names, concept_s)
+
+    if len(group) > MERGE_CHUNK_SIZE:
+        chunks = [group[i:i+MERGE_CHUNK_SIZE] for i in range(0, len(group), MERGE_CHUNK_SIZE)]
+        pre_merged = []
+        for ci, chunk in enumerate(chunks, 1):
+            payload = json.dumps({"relations": chunk}, ensure_ascii=False)
+            result = llm_call([
+                {"role": "system", "content": system},
+                {"role": "user",   "content": f"Relations:\n{payload}"},
+            ])
+            chunk_out = result.get("relations", []) or []
+            pre_merged.extend(chunk_out)
+            print(f"    [{concept_s}] chunk [{ci}/{len(chunks)}]: {len(chunk)} → {len(chunk_out)}")
+        group = pre_merged
+
+    if len(group) > MAX_CANDIDATES:
+        print(f"  ⚠ truncating '{concept_s}' relations {len(group)} → {MAX_CANDIDATES}")
+        group = group[:MAX_CANDIDATES]
+
+    if len(group) <= 1:
+        return [dict(r, concept_s=concept_s) for r in group]
+
+    payload = json.dumps({"relations": group}, ensure_ascii=False)
+    result = llm_call([
+        {"role": "system", "content": system},
+        {"role": "user",   "content": f"Relations:\n{payload}"},
+    ])
+    merged = result.get("relations", []) or group
+    return [dict(r, concept_s=concept_s) for r in merged]
 
 
 def merge_pass(concepts: list[dict], relations: list[dict]) -> dict:
@@ -575,26 +606,24 @@ def merge_pass(concepts: list[dict], relations: list[dict]) -> dict:
         co = list(dict.fromkeys(rename_map.get(o, o) for o in r.get("concept_o", [])))
         renamed_relations.append(dict(r, concept_s=cs, concept_o=co))
 
-    # ── Step 3: final relation synonym merge ──────────────────────────────────
-    if len(renamed_relations) > MERGE_CHUNK_SIZE:
-        print(f"\n  [Step 3a] pre-merging {len(renamed_relations)} relations in chunks...")
-        renamed_relations = _pre_merge_relations_final(renamed_relations, list(concept_set))
-        print(f"  after pre-merge: {len(renamed_relations)} relation candidates")
+    # ── Step 3: final relation synonym merge, partitioned by concept_s ────────
+    # Merging across different concept_s must never happen — even when told not to, an LLM
+    # can still conflate same-named relations belonging to different subjects (this caused
+    # real data loss before: "Không_có" for "Người" vs for "Cơ sở đào tạo lái xe" got merged
+    # into one, silently dropping the latter's concept_o). Partitioning by concept_s before
+    # the call makes cross-subject merging structurally impossible instead of just discouraged.
+    subject_groups: dict[str, list[dict]] = {}
+    for r in renamed_relations:
+        cs_key = str(r.get("concept_s", ""))
+        subject_groups.setdefault(cs_key, []).append(r)
 
-    if len(renamed_relations) > MAX_CANDIDATES:
-        print(f"  ⚠ truncating relations {len(renamed_relations)} → {MAX_CANDIDATES}")
-        renamed_relations = renamed_relations[:MAX_CANDIDATES]
-
-    relation_system  = _build_relation_final_merge_system(list(concept_set))
-    relation_payload = json.dumps({"relations": renamed_relations}, ensure_ascii=False)
-    print(f"\n  [Step 3] final relation merge on {len(renamed_relations)} candidates "
-          f"({len(relation_payload.encode())/1024:.1f} KB)...")
-
-    relation_result = llm_call([
-        {"role": "system", "content": relation_system},
-        {"role": "user",   "content": f"Relations:\n{relation_payload}"},
-    ])
-    rels_out = relation_result.get("relations", []) or []
+    print(f"\n  [Step 3] final relation merge, partitioned into {len(subject_groups)} concept_s group(s)...")
+    rels_out: list[dict] = []
+    for cs, group in subject_groups.items():
+        merged_group = _merge_relation_group(cs, group, list(concept_set))
+        rels_out.extend(merged_group)
+        if len(merged_group) != len(group):
+            print(f"    [{cs}] {len(group)} → {len(merged_group)} relations")
     if not rels_out:
         print("  ⚠ WARNING: relation merge returned 0 relations")
 

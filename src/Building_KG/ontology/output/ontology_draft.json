@@ -712,6 +712,207 @@
       ]
     },
     {
+      "name": "Vi phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không chấp hành",
+        "thực hiện hành vi vi phạm",
+        "vi phạm quy định"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm"
+      ]
+    },
+    {
+      "name": "Chịu_xử_phạt",
+      "keyphrases": [
+        "chịu hình thức xử phạt"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp xử phạt"
+      ]
+    },
+    {
+      "name": "Áp_dụng",
+      "keyphrases": [
+        "áp dụng"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp xử phạt",
+        "Biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "name": "Khắc_phục_hậu_quả",
+      "keyphrases": [
+        "khắc phục hậu quả"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "name": "Tạm_giữ",
+      "keyphrases": [
+        "tạm giữ"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Giấy phép, chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "name": "Phạt",
+      "keyphrases": [
+        "bị phạt",
+        "chịu phạt"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Biện pháp khắc phục hậu quả",
+        "Biện pháp xử phạt"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "bị phạt tiền",
+        "xử phạt",
+        "phạt cảnh cáo"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm"
+      ]
+    },
+    {
+      "name": "Cấp",
+      "keyphrases": [
+        "cấp"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép",
+        "Giấy phép lái xe"
+      ]
+    },
+    {
+      "name": "Không_cấp",
+      "keyphrases": [
+        "không cấp"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép",
+        "Giấy phép lái xe"
+      ]
+    },
+    {
+      "name": "Không_tập_huấn",
+      "keyphrases": [
+        "không tập huấn"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Giấy phép, chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "name": "Sử_dụng",
+      "keyphrases": [
+        "sử dụng"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Phương tiện",
+        "Ô tô",
+        "Trẻ em"
+      ]
+    },
+    {
+      "name": "Xếp_hàng_hóa",
+      "keyphrases": [
+        "xếp hàng hóa"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Phương tiện",
+        "Ô tô"
+      ]
+    },
+    {
+      "name": "Mua_bán_biển_số_trái_phép",
+      "keyphrases": [
+        "mua, bán biển số xe trái phép"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Giao",
+      "keyphrases": [
+        "giao",
+        "cho người khác điều khiển"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Ô tô",
+        "Phương tiện",
+        "Xe máy",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "name": "Trừ_điểm",
+      "keyphrases": [
+        "bị trừ điểm",
+        "trừ điểm giấy phép lái xe"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Tổ_chức",
+      "keyphrases": [
+        "thực hiện hành vi vi phạm tổ chức"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm"
+      ]
+    },
+    {
+      "name": "Thực_hiện",
+      "keyphrases": [
+        "thực hiện",
+        "tiến hành"
+      ],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Tổ chức",
+        "Đào tạo"
+      ]
+    },
+    {
       "name": "Quy định",
       "keyphrases": [
         "quy định"
@@ -729,11 +930,9 @@
     {
       "name": "Trừ_điểm",
       "keyphrases": [
-        "trừ điểm",
-        "bị trừ điểm",
-        "bị trừ điểm giấy phép lái xe"
+        "trừ điểm"
       ],
-      "concept_s": "Người",
+      "concept_s": "Thẩm quyền",
       "concept_o": [
         "Giấy phép lái xe",
         "Giấy phép, chứng chỉ hành nghề",
@@ -753,87 +952,709 @@
       ]
     },
     {
-      "name": "Vi phạm",
+      "name": "Tạm_giữ",
+      "keyphrases": [
+        "tạm giữ",
+        "giữ lại"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Giấy phép, chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "name": "Ra_quyết_định",
+      "keyphrases": [
+        "ra quyết định xử phạt"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Giấy phép, chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "name": "Lập_biên_bản",
+      "keyphrases": [
+        "lập biên bản",
+        "căn cứ vào hành vi vi phạm để lập biên bản"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm",
+        "Người",
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "tiến hành xử phạt",
+        "xử phạt theo quy định",
+        "bị xử phạt"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm",
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Phải_thu_dọn",
+      "keyphrases": [
+        "phải thu dọn",
+        "phải dọn dẹp"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Phải_hạ",
+      "keyphrases": [
+        "phải hạ",
+        "phải dỡ"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Sử_dụng_thông_tin",
+      "keyphrases": [
+        "sử dụng thông tin trong Cơ sở dữ liệu"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Cá nhân",
+        "Người",
+        "Tổ chức"
+      ]
+    },
+    {
+      "name": "Gửi_thông_báo",
+      "keyphrases": [
+        "gửi thông báo cho cơ quan đăng kiểm"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Cơ sở đăng kiểm"
+      ]
+    },
+    {
+      "name": "Tạm_giữ_phương_tiện",
+      "keyphrases": [
+        "tạm giữ phương tiện"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Ra_quyết_định_xử_phạt",
+      "keyphrases": [
+        "ra quyết định xử phạt"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "name": "Thực_hiện_trừ_điểm",
+      "keyphrases": [
+        "trừ điểm"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Phục_hồi",
+      "keyphrases": [
+        "phục hồi"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Thông_báo",
+      "keyphrases": [
+        "thông báo"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Vi_phạm",
       "keyphrases": [
         "vi phạm",
-        "không chấp hành"
+        "không chấp hành",
+        "không tuân thủ",
+        "bị phạt",
+        "bị phạt tiền",
+        "thực hiện hành vi vi phạm",
+        "vi phạm quy định"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm",
+        "Giao thông đường bộ"
+      ]
+    },
+    {
+      "name": "Vi_phạm",
+      "keyphrases": [
+        "vi phạm",
+        "không chấp hành",
+        "không tuân thủ",
+        "bị phạt",
+        "bị phạt tiền",
+        "thực hiện hành vi vi phạm",
+        "vi phạm quy định"
       ],
       "concept_s": "Người",
       "concept_o": [
         "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm"
+        "Hành vi vi phạm",
+        "Giao thông đường bộ"
       ]
     },
     {
-      "name": "Chịu_xử_phạt",
+      "name": "Xử_phạt",
       "keyphrases": [
-        "chịu hình thức xử phạt"
+        "bị phạt",
+        "bị phạt tiền",
+        "bị xử phạt"
       ],
       "concept_s": "Cá nhân",
       "concept_o": [
         "Hình thức xử phạt",
-        "Biện pháp xử phạt"
+        "Biện pháp xử phạt",
+        "Biện pháp khắc phục hậu quả",
+        "Phương tiện"
       ]
     },
     {
-      "name": "Chịu_xử_phạt",
+      "name": "Xử_phạt",
       "keyphrases": [
-        "chịu hình thức xử phạt"
+        "bị phạt",
+        "bị phạt tiền",
+        "bị xử phạt"
       ],
       "concept_s": "Người",
       "concept_o": [
         "Hình thức xử phạt",
-        "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Chịu_xử_phạt",
-      "keyphrases": [
-        "chịu hình thức xử phạt"
-      ],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Hình thức xử phạt",
-        "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Áp_dụng",
-      "keyphrases": [
-        "áp dụng"
-      ],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Hình thức xử phạt",
-        "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Áp_dụng",
-      "keyphrases": [
-        "áp dụng"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hình thức xử phạt",
-        "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Áp_dụng",
-      "keyphrases": [
-        "áp dụng"
-      ],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Hình thức xử phạt",
-        "Biện pháp xử phạt"
+        "Biện pháp xử phạt",
+        "Biện pháp khắc phục hậu quả",
+        "Phương tiện"
       ]
     },
     {
       "name": "Khắc_phục_hậu_quả",
       "keyphrases": [
-        "khắc phục hậu quả",
+        "khắc phục hậu quả"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "name": "Khắc_phục_hậu_quả",
+      "keyphrases": [
+        "khắc phục hậu quả"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "name": "Cấp_thẻ_nhận_dạng_lái_xe",
+      "keyphrases": [
+        "cấp thẻ nhận dạng lái xe",
+        "buộc cấp thẻ nhận dạng lái xe"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Cấp_thẻ_nhận_dạng_lái_xe",
+      "keyphrases": [
+        "cấp thẻ nhận dạng lái xe",
+        "buộc cấp thẻ nhận dạng lái xe"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Tổ_chức_tập_huấn",
+      "keyphrases": [
+        "tổ chức tập huấn",
+        "hướng dẫn nghiệp vụ",
+        "tổ chức khám sức khỏe"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "name": "Tổ_chức_tập_huấn",
+      "keyphrases": [
+        "tổ chức tập huấn",
+        "hướng dẫn nghiệp vụ",
+        "tổ chức khám sức khỏe"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "name": "Lắp_đặt_thiết_bị_giám_sát",
+      "keyphrases": [
+        "lắp đặt thiết bị giám sát hành trình",
+        "lắp đặt thiết bị ghi nhận hình ảnh"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Thiết bị giám sát hành trình"
+      ]
+    },
+    {
+      "name": "Lắp_đặt_thiết_bị_giám_sát",
+      "keyphrases": [
+        "lắp đặt thiết bị giám sát hành trình",
+        "lắp đặt thiết bị ghi nhận hình ảnh"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Thiết bị giám sát hành trình"
+      ]
+    },
+    {
+      "name": "Cung_cấp_dữ_liệu",
+      "keyphrases": [
+        "cung cấp thông tin",
+        "cập nhật dữ liệu",
+        "truyền dẫn dữ liệu",
+        "quản lý thông tin"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "name": "Cung_cấp_dữ_liệu",
+      "keyphrases": [
+        "cung cấp thông tin",
+        "cập nhật dữ liệu",
+        "truyền dẫn dữ liệu",
+        "quản lý thông tin"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "name": "Thực_hiện_quy_định_màu_sơn",
+      "keyphrases": [
+        "thực hiện đúng quy định về màu sơn"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Thực_hiện_quy_định_màu_sơn",
+      "keyphrases": [
+        "thực hiện đúng quy định về màu sơn"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Sản_xuất_lắp_ráp_trái_phép",
+      "keyphrases": [
+        "sản xuất, lắp ráp trái phép phương tiện giao thông"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Sản_xuất_lắp_ráp_trái_phép",
+      "keyphrases": [
+        "sản xuất, lắp ráp trái phép phương tiện giao thông"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Sản_xuất",
+      "keyphrases": [
+        "sản xuất",
+        "lắp ráp",
+        "mua",
+        "bán"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Phương tiện",
+        "Biển số"
+      ]
+    },
+    {
+      "name": "Sản_xuất",
+      "keyphrases": [
+        "sản xuất",
+        "lắp ráp",
+        "mua",
+        "bán"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phương tiện",
+        "Biển số"
+      ]
+    },
+    {
+      "name": "Áp_dụng",
+      "keyphrases": [
+        "áp dụng"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp xử phạt",
+        "Biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "name": "Áp_dụng",
+      "keyphrases": [
+        "áp dụng"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp xử phạt",
+        "Biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "name": "Trừ_điểm",
+      "keyphrases": [
+        "bị trừ điểm"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Trừ_điểm",
+      "keyphrases": [
+        "bị trừ điểm"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Giao",
+      "keyphrases": [
+        "giao"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Giao",
+      "keyphrases": [
+        "giao"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Sử_dụng",
+      "keyphrases": [
+        "sử dụng",
+        "dùng"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép",
+        "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+        "Thiết bị giám sát hành trình"
+      ]
+    },
+    {
+      "name": "Sử_dụng",
+      "keyphrases": [
+        "sử dụng",
+        "dùng"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép",
+        "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+        "Thiết bị giám sát hành trình"
+      ]
+    },
+    {
+      "name": "Khai_báo",
+      "keyphrases": [
+        "khai báo"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "name": "Khai_báo",
+      "keyphrases": [
+        "khai báo"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "name": "Thay_đổi",
+      "keyphrases": [
+        "thay đổi"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Chứng nhận đăng ký xe",
+        "Biển số"
+      ]
+    },
+    {
+      "name": "Thay_đổi",
+      "keyphrases": [
+        "thay đổi"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Chứng nhận đăng ký xe",
+        "Biển số"
+      ]
+    },
+    {
+      "name": "Tịch_thu",
+      "keyphrases": [
+        "bị tịch thu",
+        "tịch thu phương tiện"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Ô tô",
+        "Phương tiện",
+        "Xe máy",
+        "Xe máy chuyên dùng",
+        "Xe mô tô"
+      ]
+    },
+    {
+      "name": "Tịch_thu",
+      "keyphrases": [
+        "bị tịch thu",
+        "tịch thu phương tiện"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Phương tiện",
+        "Xe máy",
+        "Xe máy chuyên dùng",
+        "Xe mô tô"
+      ]
+    },
+    {
+      "name": "Tước_quyền_sử_dụng",
+      "keyphrases": [
+        "bị tước quyền sử dụng"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Giấy chứng nhận kiểm định"
+      ]
+    },
+    {
+      "name": "Tước_quyền_sử_dụng",
+      "keyphrases": [
+        "bị tước quyền sử dụng"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Giấy chứng nhận kiểm định"
+      ]
+    },
+    {
+      "name": "Buộc_thực_hiện",
+      "keyphrases": [
+        "buộc thực hiện đúng quy định"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Biển số"
+      ]
+    },
+    {
+      "name": "Buộc_thực_hiện",
+      "keyphrases": [
+        "buộc thực hiện đúng quy định"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Biển số"
+      ]
+    },
+    {
+      "name": "Buộc_làm_thủ_tục",
+      "keyphrases": [
+        "buộc làm thủ tục"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Chứng nhận đăng ký xe",
+        "Biển số",
+        "Giấy chứng nhận kiểm định"
+      ]
+    },
+    {
+      "name": "Buộc_làm_thủ_tục",
+      "keyphrases": [
+        "buộc làm thủ tục"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Chứng nhận đăng ký xe",
+        "Biển số",
+        "Giấy chứng nhận kiểm định"
+      ]
+    },
+    {
+      "name": "Buộc_nộp_lại",
+      "keyphrases": [
+        "buộc nộp lại"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Chứng nhận đăng ký xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy chứng nhận kiểm định"
+      ]
+    },
+    {
+      "name": "Buộc_nộp_lại",
+      "keyphrases": [
+        "buộc nộp lại"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Chứng nhận đăng ký xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy chứng nhận kiểm định"
+      ]
+    },
+    {
+      "name": "Hợp_tác",
+      "keyphrases": [
+        "hợp tác với cơ quan chức năng"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Cơ quan chức năng"
+      ]
+    },
+    {
+      "name": "Hợp_tác",
+      "keyphrases": [
+        "hợp tác với cơ quan chức năng"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Cơ quan chức năng"
+      ]
+    },
+    {
+      "name": "Chịu_chi_phí",
+      "keyphrases": [
+        "chịu mọi chi phí"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Chịu_chi_phí",
+      "keyphrases": [
+        "chịu mọi chi phí"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Khắc_phục_hậu_quả",
+      "keyphrases": [
         "buộc lắp đặt",
         "buộc tháo dỡ",
         "buộc cung cấp",
@@ -852,7 +1673,6 @@
     {
       "name": "Khắc_phục_hậu_quả",
       "keyphrases": [
-        "khắc phục hậu quả",
         "buộc lắp đặt",
         "buộc tháo dỡ",
         "buộc cung cấp",
@@ -869,46 +1689,6 @@
       ]
     },
     {
-      "name": "Thi_hành",
-      "keyphrases": [
-        "có trách nhiệm thi hành"
-      ],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Giấy phép, chứng chỉ hành nghề"
-      ]
-    },
-    {
-      "name": "Thi_hành",
-      "keyphrases": [
-        "có trách nhiệm thi hành"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép, chứng chỉ hành nghề"
-      ]
-    },
-    {
-      "name": "Tạm_giữ",
-      "keyphrases": [
-        "tạm giữ"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Giấy phép, chứng chỉ hành nghề"
-      ]
-    },
-    {
-      "name": "Thu_hồi",
-      "keyphrases": [
-        "tiến hành thu hồi"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Giấy phép, chứng chỉ hành nghề"
-      ]
-    },
-    {
       "name": "Xác_định",
       "keyphrases": [
         "xác định hành vi"
@@ -922,8 +1702,7 @@
     {
       "name": "Tước_quyền_sử_dụng",
       "keyphrases": [
-        "bị tước quyền sử dụng",
-        "bị tước quyền sử dụng giấy phép lái xe"
+        "bị tước quyền sử dụng"
       ],
       "concept_s": "Giấy phép, chứng chỉ hành nghề",
       "concept_o": [
@@ -931,23 +1710,15 @@
       ]
     },
     {
-      "name": "Ra_quyết_định",
+      "name": "Tước_quyền_sử_dụng",
       "keyphrases": [
-        "ra quyết định xử phạt"
+        "tước quyền sử dụng"
       ],
-      "concept_s": "Thẩm quyền",
+      "concept_s": "Người",
       "concept_o": [
-        "Giấy phép, chứng chỉ hành nghề"
-      ]
-    },
-    {
-      "name": "Tạm_giữ",
-      "keyphrases": [
-        "tạm giữ"
-      ],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Giấy phép, chứng chỉ hành nghề"
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
       ]
     },
     {
@@ -963,7 +1734,8 @@
         "Giấy phép, chứng chỉ hành nghề",
         "Giấy phép",
         "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm"
+        "Hành vi vi phạm",
+        "Ô tô"
       ]
     },
     {
@@ -974,9 +1746,6 @@
       ],
       "concept_s": "Người",
       "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép",
         "Ô tô",
         "Phương tiện",
         "Xe máy",
@@ -996,6 +1765,18 @@
       ]
     },
     {
+      "name": "Trừ_điểm_giấy_phép_lái_xe",
+      "keyphrases": [
+        "bị trừ điểm giấy phép lái xe"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
       "name": "Vi_phạm_quy_tắc",
       "keyphrases": [
         "vi phạm quy tắc giao thông",
@@ -1009,24 +1790,8 @@
       ]
     },
     {
-      "name": "Sử_dụng",
-      "keyphrases": [
-        "sử dụng đèn chiếu xa",
-        "sử dụng còi"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phương tiện",
-        "Xe máy",
-        "Ô tô"
-      ]
-    },
-    {
       "name": "Điều_khiển",
       "keyphrases": [
-        "điều khiển xe chạy dưới tốc độ tối thiểu",
-        "điều khiển xe chạy quá tốc độ quy định",
-        "điều khiển xe chạy tốc độ thấp",
         "điều khiển",
         "lái",
         "cầm lái"
@@ -1035,7 +1800,8 @@
       "concept_o": [
         "Phương tiện",
         "Xe máy",
-        "Ô tô"
+        "Ô tô",
+        "Xe tải"
       ]
     },
     {
@@ -1152,23 +1918,10 @@
       ]
     },
     {
-      "name": "Xử_phạt",
-      "keyphrases": [
-        "bị phạt tiền"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Phương tiện",
-        "Xe máy"
-      ]
-    },
-    {
-      "name": "Vi_phạm",
+      "name": "Vi phạm",
       "keyphrases": [
         "vi phạm",
-        "phạm luật",
-        "bị phạt"
+        "không chấp hành"
       ],
       "concept_s": "Người",
       "concept_o": [
@@ -1177,65 +1930,14 @@
       ]
     },
     {
-      "name": "Phạt_tiền",
-      "keyphrases": [
-        "bị phạt tiền",
-        "phạt"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Biện pháp khắc phục hậu quả",
-        "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Tịch_thu_phương_tiện",
+      "name": "Tịch_thu",
       "keyphrases": [
         "bị tịch thu phương tiện",
-        "bị tịch thu"
+        "bị tịch thu biển số xe"
       ],
       "concept_s": "Người",
       "concept_o": [
-        "Ô tô",
-        "Phương tiện",
-        "Xe máy",
-        "Xe máy chuyên dùng",
-        "Xe mô tô"
-      ]
-    },
-    {
-      "name": "Áp_dụng_hình_thức_xử_phạt_bổ_sung",
-      "keyphrases": [
-        "bị áp dụng hình thức xử phạt bổ sung"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Phương tiện",
-        "Xe máy"
-      ]
-    },
-    {
-      "name": "Áp_dụng_biện_pháp_khắc_phục_hậu_quả",
-      "keyphrases": [
-        "bị áp dụng biện pháp khắc phục hậu quả"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hình thức xử phạt",
-        "Biện pháp khắc phục hậu quả"
-      ]
-    },
-    {
-      "name": "Trừ_điểm_giấy_phép_lái_xe",
-      "keyphrases": [
-        "bị trừ điểm giấy phép lái xe"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
+        "Phương tiện"
       ]
     },
     {
@@ -1259,19 +1961,25 @@
       ]
     },
     {
-      "name": "Điều_khiển",
+      "name": "Áp_dụng_hình_thức_xử_phạt",
       "keyphrases": [
-        "điều khiển",
-        "lái",
-        "cầm lái"
+        "bị áp dụng hình thức xử phạt"
       ],
       "concept_s": "Người",
       "concept_o": [
-        "Ô tô",
-        "Phương tiện",
-        "Xe máy",
-        "Xe máy chuyên dùng",
-        "Xe thô sơ"
+        "Biện pháp khắc phục hậu quả",
+        "Biện pháp xử phạt"
+      ]
+    },
+    {
+      "name": "Áp_dụng_biện_pháp_khắc_phục_hậu_quả",
+      "keyphrases": [
+        "bị áp dụng biện pháp khắc phục hậu quả"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp khắc phục hậu quả"
       ]
     },
     {
@@ -1349,6 +2057,31 @@
       "concept_o": [
         "Hành vi vi phạm hành chính",
         "Hành vi vi phạm",
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Bị_phạt_tiền",
+      "keyphrases": [
+        "bị phạt tiền"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phương tiện",
+        "Xe máy",
+        "Xe máy chuyên dùng",
+        "Ô tô"
+      ]
+    },
+    {
+      "name": "Bị_trừ_điểm",
+      "keyphrases": [
+        "bị trừ điểm"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
         "Giấy phép lái xe",
         "Giấy phép, chứng chỉ hành nghề",
         "Giấy phép"
@@ -1579,25 +2312,50 @@
       ]
     },
     {
-      "name": "Vi_phạm",
+      "name": "Chở",
       "keyphrases": [
-        "vi phạm"
+        "vận chuyển",
+        "chở hàng"
       ],
-      "concept_s": "Cá nhân",
+      "concept_s": "Người",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm",
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Gây_tai_nạn",
+      "keyphrases": [
+        "gây tai nạn"
+      ],
+      "concept_s": "Người",
       "concept_o": [
         "Hành vi vi phạm hành chính",
         "Hành vi vi phạm"
       ]
     },
     {
-      "name": "Vi_phạm",
+      "name": "Khắc_phục_hậu_quả",
       "keyphrases": [
-        "vi phạm"
+        "khắc phục hậu quả"
       ],
       "concept_s": "Người",
       "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm"
+        "Hình thức xử phạt",
+        "Biện pháp khắc phục hậu quả"
+      ]
+    },
+    {
+      "name": "Áp_dụng",
+      "keyphrases": [
+        "áp dụng",
+        "bị áp dụng"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hình thức xử phạt",
+        "Biện pháp khắc phục hậu quả"
       ]
     },
     {
@@ -1660,108 +2418,184 @@
       ]
     },
     {
-      "name": "Vi_phạm",
+      "name": "Phạt_cảnh_cáo",
       "keyphrases": [
-        "vi phạm"
+        "phạt cảnh cáo"
       ],
-      "concept_s": "Tổ chức",
+      "concept_s": "Người",
       "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm"
+        "Cá nhân",
+        "Người"
       ]
     },
     {
-      "name": "Mua_bán_biển_số_trái_phép",
+      "name": "Tạm_giữ",
       "keyphrases": [
-        "mua, bán biển số xe trái phép"
+        "tạm giữ",
+        "giữ lại"
       ],
-      "concept_s": "Tổ chức",
+      "concept_s": "Người",
       "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Ra_quyết_định_xử_phạt",
+      "keyphrases": [
+        "ra quyết định xử phạt"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "name": "Thực_hiện_trừ_điểm",
+      "keyphrases": [
+        "trừ điểm"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Giấy phép lái xe",
         "Giấy phép, chứng chỉ hành nghề",
         "Giấy phép"
       ]
     },
     {
-      "name": "Sản_xuất_lắp_ráp_trái_phép",
+      "name": "Phục_hồi",
       "keyphrases": [
-        "sản xuất, lắp ráp trái phép phương tiện giao thông"
+        "phục hồi"
       ],
       "concept_s": "Người",
       "concept_o": [
-        "Phương tiện"
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
       ]
     },
     {
-      "name": "Sản_xuất",
+      "name": "Thông_báo",
       "keyphrases": [
-        "sản xuất",
-        "lắp ráp",
-        "mua",
-        "bán"
+        "thông báo"
       ],
       "concept_s": "Người",
       "concept_o": [
-        "Phương tiện",
-        "Biển số"
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "xử phạt",
+        "có thẩm quyền xử phạt"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm",
+        "Nghị định"
       ]
     },
     {
       "name": "Vi_phạm",
       "keyphrases": [
-        "vi phạm"
+        "vi phạm",
+        "không tuân thủ"
       ],
-      "concept_s": "Tổ chức",
+      "concept_s": "Người",
+      "concept_o": [
+        "Đào tạo"
+      ]
+    },
+    {
+      "name": "Lập_biên_bản",
+      "keyphrases": [
+        "lập biên bản",
+        "căn cứ vào hành vi vi phạm để lập biên bản"
+      ],
+      "concept_s": "Người",
       "concept_o": [
         "Hành vi vi phạm hành chính",
         "Hành vi vi phạm"
       ]
     },
     {
-      "name": "Áp_dụng",
+      "name": "Phải_thu_dọn",
       "keyphrases": [
-        "áp dụng"
+        "phải thu dọn",
+        "phải dọn dẹp"
       ],
       "concept_s": "Người",
       "concept_o": [
-        "Hình thức xử phạt",
-        "Biện pháp xử phạt",
-        "Biện pháp khắc phục hậu quả"
+        "Hàng hóa"
       ]
     },
     {
-      "name": "Phạt",
+      "name": "Phải_hạ",
       "keyphrases": [
-        "bị phạt"
+        "phải hạ",
+        "phải dỡ"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Hạ_hàng_quá_tải",
+      "keyphrases": [
+        "hạ phần hàng quá tải",
+        "dỡ phần hàng quá khổ"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Bố_trí_phương_tiện",
+      "keyphrases": [
+        "bố trí phương tiện khác để chở số hành khách vượt quá quy định"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hành khách"
+      ]
+    },
+    {
+      "name": "Chằng_buộc_hàng_hóa",
+      "keyphrases": [
+        "chằng buộc hàng hóa",
+        "buộc dỡ hàng hóa",
+        "buộc chốt, đóng cửa"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Phạt_tiền",
+      "keyphrases": [
+        "bị phạt tiền"
       ],
       "concept_s": "Cá nhân",
       "concept_o": [
-        "Hình thức xử phạt",
+        "Biện pháp khắc phục hậu quả",
         "Biện pháp xử phạt"
       ]
     },
     {
-      "name": "Phạt",
+      "name": "Phạt_tiền",
       "keyphrases": [
-        "bị phạt"
+        "bị phạt tiền"
       ],
-      "concept_s": "Người",
+      "concept_s": "Chủ phương tiện",
       "concept_o": [
-        "Hình thức xử phạt",
+        "Biện pháp khắc phục hậu quả",
         "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Giao",
-      "keyphrases": [
-        "giao",
-        "cho người khác điều khiển"
-      ],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Ô tô",
-        "Phương tiện",
-        "Xe máy",
-        "Xe máy chuyên dùng"
       ]
     },
     {
@@ -1781,7 +2615,7 @@
       "keyphrases": [
         "bị tịch thu"
       ],
-      "concept_s": "Người",
+      "concept_s": "Chủ phương tiện",
       "concept_o": [
         "Biển số",
         "Thiết bị giám sát hành trình",
@@ -1803,7 +2637,7 @@
       "keyphrases": [
         "bị tước quyền sử dụng"
       ],
-      "concept_s": "Người",
+      "concept_s": "Chủ phương tiện",
       "concept_o": [
         "Giấy chứng nhận kiểm định"
       ]
@@ -1823,7 +2657,7 @@
       "keyphrases": [
         "buộc thực hiện đúng quy định"
       ],
-      "concept_s": "Người",
+      "concept_s": "Chủ phương tiện",
       "concept_o": [
         "Biển số"
       ]
@@ -1845,34 +2679,10 @@
       "keyphrases": [
         "buộc làm thủ tục"
       ],
-      "concept_s": "Người",
+      "concept_s": "Chủ phương tiện",
       "concept_o": [
         "Chứng nhận đăng ký xe",
         "Biển số",
-        "Giấy chứng nhận kiểm định"
-      ]
-    },
-    {
-      "name": "Buộc_nộp_lại",
-      "keyphrases": [
-        "buộc nộp lại"
-      ],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Chứng nhận đăng ký xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy chứng nhận kiểm định"
-      ]
-    },
-    {
-      "name": "Buộc_nộp_lại",
-      "keyphrases": [
-        "buộc nộp lại"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Chứng nhận đăng ký xe",
-        "Giấy phép, chứng chỉ hành nghề",
         "Giấy chứng nhận kiểm định"
       ]
     },
@@ -1903,14 +2713,129 @@
     {
       "name": "Trừ_điểm",
       "keyphrases": [
-        "bị trừ điểm",
-        "bị trừ điểm giấy phép lái xe"
+        "bị trừ điểm"
       ],
-      "concept_s": "Người",
+      "concept_s": "Cá nhân",
       "concept_o": [
         "Giấy phép lái xe",
         "Giấy phép, chứng chỉ hành nghề",
         "Giấy phép"
+      ]
+    },
+    {
+      "name": "Trừ_điểm",
+      "keyphrases": [
+        "bị trừ điểm"
+      ],
+      "concept_s": "Chủ phương tiện",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "bị xử phạt"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "bị xử phạt"
+      ],
+      "concept_s": "Chủ phương tiện",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Phải_thu_dọn",
+      "keyphrases": [
+        "phải thu dọn",
+        "phải dọn dẹp"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Phải_thu_dọn",
+      "keyphrases": [
+        "phải thu dọn",
+        "phải dọn dẹp"
+      ],
+      "concept_s": "Chủ phương tiện",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Phải_hạ",
+      "keyphrases": [
+        "phải hạ",
+        "phải dỡ"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Phải_hạ",
+      "keyphrases": [
+        "phải hạ",
+        "phải dỡ"
+      ],
+      "concept_s": "Chủ phương tiện",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Hợp_tác",
+      "keyphrases": [
+        "hợp tác với cơ quan chức năng"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Cơ quan chức năng"
+      ]
+    },
+    {
+      "name": "Hợp_tác",
+      "keyphrases": [
+        "hợp tác với cơ quan chức năng"
+      ],
+      "concept_s": "Chủ phương tiện",
+      "concept_o": [
+        "Cơ quan chức năng"
+      ]
+    },
+    {
+      "name": "Chịu_chi_phí",
+      "keyphrases": [
+        "chịu mọi chi phí"
+      ],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Chịu_chi_phí",
+      "keyphrases": [
+        "chịu mọi chi phí"
+      ],
+      "concept_s": "Chủ phương tiện",
+      "concept_o": [
+        "Phương tiện"
       ]
     },
     {
@@ -1922,124 +2847,6 @@
       "concept_o": [
         "Biện pháp khắc phục hậu quả",
         "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Vi_phạm",
-      "keyphrases": [
-        "thực hiện hành vi vi phạm",
-        "vi phạm quy định"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm",
-        "Hình thức xử phạt",
-        "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Điều_khiển",
-      "keyphrases": [
-        "điều khiển",
-        "lái"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Phạt_tiền",
-      "keyphrases": [
-        "bị phạt tiền"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm",
-        "Hành khách",
-        "Hàng hóa",
-        "Phương tiện",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép",
-        "Giấy phép lái xe",
-        "Giấy chứng nhận kiểm định",
-        "Chứng nhận đăng ký xe",
-        "Phù hiệu"
-      ]
-    },
-    {
-      "name": "Tịch_thu",
-      "keyphrases": [
-        "bị tịch thu phương tiện",
-        "tịch thu"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phương tiện",
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm"
-      ]
-    },
-    {
-      "name": "Tổ_chức",
-      "keyphrases": [
-        "thực hiện hành vi vi phạm tổ chức",
-        "tổ chức",
-        "thực hiện"
-      ],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm",
-        "Đào tạo"
-      ]
-    },
-    {
-      "name": "Cổ_vũ",
-      "keyphrases": [
-        "cổ vũ",
-        "xúi giục"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm"
-      ]
-    },
-    {
-      "name": "Vận_chuyển",
-      "keyphrases": [
-        "vận chuyển hàng hóa"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hàng hóa",
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Kiểm_tra",
-      "keyphrases": [
-        "không chấp hành yêu cầu kiểm tra"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Áp_dụng_biện_pháp_khắc_phục_hậu_quả",
-      "keyphrases": [
-        "áp dụng biện pháp khắc phục hậu quả",
-        "áp dụng các biện pháp khắc phục hậu quả"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hình thức xử phạt",
-        "Biện pháp xử phạt",
-        "Biện pháp khắc phục hậu quả"
       ]
     },
     {
@@ -2121,7 +2928,7 @@
       ]
     },
     {
-      "name": "Sử_dụng",
+      "name": "Sử_dụng_xe_tập_lái",
       "keyphrases": [
         "sử dụng",
         "dùng"
@@ -2143,6 +2950,65 @@
       ]
     },
     {
+      "name": "Tổ_chức",
+      "keyphrases": [
+        "tổ chức",
+        "thực hiện"
+      ],
+      "concept_s": "Cơ sở đào tạo lái xe",
+      "concept_o": [
+        "Đào tạo"
+      ]
+    },
+    {
+      "name": "Bố_trí",
+      "keyphrases": [
+        "bố trí",
+        "sắp xếp"
+      ],
+      "concept_s": "Cơ sở đào tạo lái xe",
+      "concept_o": [
+        "Cá nhân",
+        "Người",
+        "Học viên",
+        "Xe tập lái"
+      ]
+    },
+    {
+      "name": "Không_có",
+      "keyphrases": [
+        "không có",
+        "thiếu"
+      ],
+      "concept_s": "Cơ sở đào tạo lái xe",
+      "concept_o": [
+        "Hệ thống phòng học",
+        "Sân tập lái"
+      ]
+    },
+    {
+      "name": "Sử_dụng",
+      "keyphrases": [
+        "sử dụng",
+        "dùng"
+      ],
+      "concept_s": "Cơ sở đào tạo lái xe",
+      "concept_o": [
+        "Trang thiết bị ngoại vi"
+      ]
+    },
+    {
+      "name": "Thực_hiện",
+      "keyphrases": [
+        "thực hiện"
+      ],
+      "concept_s": "Cơ sở đào tạo lái xe",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm"
+      ]
+    },
+    {
       "name": "Lưu_trữ",
       "keyphrases": [
         "lưu trữ",
@@ -2154,57 +3020,25 @@
       ]
     },
     {
-      "name": "Sử_dụng",
+      "name": "Tổ_chức",
       "keyphrases": [
-        "sử dụng",
-        "dùng"
+        "tổ chức",
+        "thực hiện"
       ],
-      "concept_s": "Cá nhân",
+      "concept_s": "Trung tâm sát hạch lái xe",
       "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép",
-        "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ"
-      ]
-    },
-    {
-      "name": "Sử_dụng",
-      "keyphrases": [
-        "sử dụng",
-        "dùng"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép",
-        "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ"
-      ]
-    },
-    {
-      "name": "Sử_dụng",
-      "keyphrases": [
-        "sử dụng",
-        "dùng"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép",
-        "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ"
-      ]
-    },
-    {
-      "name": "Thực_hiện",
-      "keyphrases": [
-        "thực hiện",
-        "tiến hành"
-      ],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Tổ chức",
         "Đào tạo"
+      ]
+    },
+    {
+      "name": "Không_có",
+      "keyphrases": [
+        "không có",
+        "thiếu"
+      ],
+      "concept_s": "Trung tâm sát hạch lái xe",
+      "concept_o": [
+        "Hệ thống âm thanh"
       ]
     },
     {
@@ -2233,6 +3067,17 @@
       ]
     },
     {
+      "name": "Thực_hiện",
+      "keyphrases": [
+        "thực hiện"
+      ],
+      "concept_s": "Trung tâm sát hạch lái xe",
+      "concept_o": [
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm"
+      ]
+    },
+    {
       "name": "Dạy",
       "keyphrases": [
         "dạy",
@@ -2250,206 +3095,10 @@
       "keyphrases": [
         "thực hiện"
       ],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm",
-        "Giấy tờ"
-      ]
-    },
-    {
-      "name": "Thực_hiện",
-      "keyphrases": [
-        "thực hiện"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm",
-        "Giấy tờ"
-      ]
-    },
-    {
-      "name": "Thực_hiện",
-      "keyphrases": [
-        "thực hiện"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm",
-        "Giấy tờ"
-      ]
-    },
-    {
-      "name": "Thực_hiện",
-      "keyphrases": [
-        "thực hiện"
-      ],
-      "concept_s": "Tổ chức",
+      "concept_s": "Cơ sở đăng kiểm",
       "concept_o": [
         "Hành vi vi phạm hành chính",
         "Hành vi vi phạm"
-      ]
-    },
-    {
-      "name": "Thực_hiện",
-      "keyphrases": [
-        "thực hiện"
-      ],
-      "concept_s": "Cơ sở đào tạo lái xe",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm"
-      ]
-    },
-    {
-      "name": "Thực_hiện",
-      "keyphrases": [
-        "thực hiện"
-      ],
-      "concept_s": "Trung tâm sát hạch lái xe",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm"
-      ]
-    },
-    {
-      "name": "Xử_phạt",
-      "keyphrases": [
-        "xử phạt",
-        "có thẩm quyền xử phạt",
-        "tiến hành xử phạt",
-        "xử phạt theo quy định"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hành vi vi phạm hành chính",
-        "Hành vi vi phạm",
-        "Nghị định"
-      ]
-    },
-    {
-      "name": "Tịch_thu_tang_vật",
-      "keyphrases": [
-        "tịch thu tang vật",
-        "tịch thu phương tiện"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Phạt_cảnh_cáo",
-      "keyphrases": [
-        "phạt cảnh cáo"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Cá nhân",
-        "Người"
-      ]
-    },
-    {
-      "name": "Phải_thu_dọn",
-      "keyphrases": [
-        "phải thu dọn",
-        "phải dọn dẹp"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hàng hóa"
-      ]
-    },
-    {
-      "name": "Phải_hạ",
-      "keyphrases": [
-        "phải hạ",
-        "phải dỡ"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hàng hóa"
-      ]
-    },
-    {
-      "name": "Hạ_hàng_quá_tải",
-      "keyphrases": [
-        "hạ phần hàng quá tải",
-        "dỡ phần hàng quá khổ"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Bố_trí_phương_tiện",
-      "keyphrases": [
-        "bố trí phương tiện khác để chở số hành khách vượt quá quy định"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hành khách"
-      ]
-    },
-    {
-      "name": "Chằng_buộc_hàng_hóa",
-      "keyphrases": [
-        "chằng buộc hàng hóa",
-        "buộc dỡ hàng hóa",
-        "buộc chốt, đóng cửa"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hàng hóa"
-      ]
-    },
-    {
-      "name": "Hợp_tác",
-      "keyphrases": [
-        "hợp tác với cơ quan chức năng"
-      ],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Cơ quan chức năng"
-      ]
-    },
-    {
-      "name": "Hợp_tác",
-      "keyphrases": [
-        "hợp tác với cơ quan chức năng"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Cơ quan chức năng"
-      ]
-    },
-    {
-      "name": "Gửi_thông_báo",
-      "keyphrases": [
-        "gửi thông báo yêu cầu",
-        "gửi thông báo cho cơ quan đăng kiểm"
-      ],
-      "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Cá nhân",
-        "Người",
-        "Chủ phương tiện",
-        "Tổ chức"
-      ]
-    },
-    {
-      "name": "Sử_dụng_thông_tin",
-      "keyphrases": [
-        "sử dụng thông tin trong Cơ sở dữ liệu"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Cá nhân",
-        "Người",
-        "Tổ chức"
       ]
     },
     {
@@ -2463,35 +3112,76 @@
       ]
     },
     {
-      "name": "Tạm_giữ_phương_tiện",
+      "name": "Thực_hiện",
       "keyphrases": [
-        "tạm giữ phương tiện"
+        "thực hiện"
       ],
-      "concept_s": "Thẩm quyền",
+      "concept_s": "Cơ sở thử nghiệm",
       "concept_o": [
-        "Phương tiện"
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm"
       ]
     },
     {
-      "name": "Tạm_giữ",
+      "name": "Thực_hiện",
       "keyphrases": [
-        "tạm giữ",
-        "giữ lại"
+        "thực hiện"
       ],
-      "concept_s": "Thẩm quyền",
+      "concept_s": "Cơ sở sản xuất",
       "concept_o": [
-        "Phương tiện"
+        "Hành vi vi phạm hành chính",
+        "Hành vi vi phạm"
       ]
     },
     {
-      "name": "Tạm_giữ",
+      "name": "Phải_thu_dọn",
       "keyphrases": [
-        "tạm giữ",
-        "giữ lại"
+        "phải thu dọn",
+        "phải dọn dẹp",
+        "phải hạ",
+        "phải dỡ"
       ],
-      "concept_s": "Người",
+      "concept_s": "Đơn vị kinh doanh vận tải",
       "concept_o": [
-        "Phương tiện"
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Phải_thu_dọn",
+      "keyphrases": [
+        "phải thu dọn",
+        "phải dọn dẹp",
+        "phải hạ",
+        "phải dỡ"
+      ],
+      "concept_s": "Dịch vụ hỗ trợ vận tải",
+      "concept_o": [
+        "Hàng hóa"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "bị xử phạt"
+      ],
+      "concept_s": "Cơ quan chức năng",
+      "concept_o": [
+        "Cá nhân",
+        "Người",
+        "Chủ phương tiện"
+      ]
+    },
+    {
+      "name": "Gửi_thông_báo",
+      "keyphrases": [
+        "gửi thông báo yêu cầu"
+      ],
+      "concept_s": "Cơ quan chức năng",
+      "concept_o": [
+        "Cá nhân",
+        "Người",
+        "Chủ phương tiện",
+        "Tổ chức"
       ]
     },
     {
@@ -2502,72 +3192,6 @@
       ],
       "concept_s": "Cơ quan chức năng",
       "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Tạm_giữ",
-      "keyphrases": [
-        "tạm giữ",
-        "giữ lại"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Tạm_giữ",
-      "keyphrases": [
-        "tạm giữ",
-        "giữ lại"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Tạm_giữ",
-      "keyphrases": [
-        "tạm giữ",
-        "giữ lại"
-      ],
-      "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Tạm_giữ",
-      "keyphrases": [
-        "tạm giữ",
-        "giữ lại"
-      ],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Lập_biên_bản",
-      "keyphrases": [
-        "lập biên bản"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Người",
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Lập_biên_bản",
-      "keyphrases": [
-        "lập biên bản"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Người",
         "Phương tiện"
       ]
     },
@@ -2583,70 +3207,6 @@
       ]
     },
     {
-      "name": "Lập_biên_bản",
-      "keyphrases": [
-        "lập biên bản"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Người",
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Lập_biên_bản",
-      "keyphrases": [
-        "lập biên bản"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Người",
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Lập_biên_bản",
-      "keyphrases": [
-        "lập biên bản"
-      ],
-      "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Người",
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Lập_biên_bản",
-      "keyphrases": [
-        "lập biên bản"
-      ],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Người",
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Ra_quyết_định_xử_phạt",
-      "keyphrases": [
-        "ra quyết định xử phạt"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Người"
-      ]
-    },
-    {
-      "name": "Ra_quyết_định_xử_phạt",
-      "keyphrases": [
-        "ra quyết định xử phạt"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Người"
-      ]
-    },
-    {
       "name": "Ra_quyết_định_xử_phạt",
       "keyphrases": [
         "ra quyết định xử phạt"
@@ -2657,221 +3217,11 @@
       ]
     },
     {
-      "name": "Ra_quyết_định_xử_phạt",
-      "keyphrases": [
-        "ra quyết định xử phạt"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Người"
-      ]
-    },
-    {
-      "name": "Ra_quyết_định_xử_phạt",
-      "keyphrases": [
-        "ra quyết định xử phạt"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Người"
-      ]
-    },
-    {
-      "name": "Ra_quyết_định_xử_phạt",
-      "keyphrases": [
-        "ra quyết định xử phạt"
-      ],
-      "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Người"
-      ]
-    },
-    {
-      "name": "Ra_quyết_định_xử_phạt",
-      "keyphrases": [
-        "ra quyết định xử phạt"
-      ],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Người"
-      ]
-    },
-    {
-      "name": "Chấp_hành",
-      "keyphrases": [
-        "phải chấp hành"
-      ],
-      "concept_s": "Người vi phạm",
-      "concept_o": [
-        "Biện pháp khắc phục hậu quả",
-        "Biện pháp xử phạt"
-      ]
-    },
-    {
-      "name": "Chịu_chi_phí",
-      "keyphrases": [
-        "chịu mọi chi phí"
-      ],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Chịu_chi_phí",
-      "keyphrases": [
-        "chịu mọi chi phí"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Chịu_chi_phí",
-      "keyphrases": [
-        "chịu mọi chi phí"
-      ],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Chịu_chi_phí",
-      "keyphrases": [
-        "chịu mọi chi phí"
-      ],
-      "concept_s": "Chủ phương tiện",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Quản_lý",
-      "keyphrases": [
-        "quản lý",
-        "lưu trữ"
-      ],
-      "concept_s": "Dữ liệu",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thực_hiện_trừ_điểm",
-      "keyphrases": [
-        "trừ điểm"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thực_hiện_trừ_điểm",
-      "keyphrases": [
-        "trừ điểm"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
       "name": "Thực_hiện_trừ_điểm",
       "keyphrases": [
         "trừ điểm"
       ],
       "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thực_hiện_trừ_điểm",
-      "keyphrases": [
-        "trừ điểm"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thực_hiện_trừ_điểm",
-      "keyphrases": [
-        "trừ điểm"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thực_hiện_trừ_điểm",
-      "keyphrases": [
-        "trừ điểm"
-      ],
-      "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thực_hiện_trừ_điểm",
-      "keyphrases": [
-        "trừ điểm"
-      ],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Cập_nhật",
-      "keyphrases": [
-        "cập nhật"
-      ],
-      "concept_s": "Dữ liệu",
-      "concept_o": [
-        "Cơ sở dữ liệu"
-      ]
-    },
-    {
-      "name": "Phục_hồi",
-      "keyphrases": [
-        "phục hồi"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Phục_hồi",
-      "keyphrases": [
-        "phục hồi"
-      ],
-      "concept_s": "Người",
       "concept_o": [
         "Giấy phép lái xe",
         "Giấy phép, chứng chỉ hành nghề",
@@ -2891,131 +3241,11 @@
       ]
     },
     {
-      "name": "Phục_hồi",
-      "keyphrases": [
-        "phục hồi"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Phục_hồi",
-      "keyphrases": [
-        "phục hồi"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Phục_hồi",
-      "keyphrases": [
-        "phục hồi"
-      ],
-      "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Phục_hồi",
-      "keyphrases": [
-        "phục hồi"
-      ],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thông_báo",
-      "keyphrases": [
-        "thông báo"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thông_báo",
-      "keyphrases": [
-        "thông báo"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
       "name": "Thông_báo",
       "keyphrases": [
         "thông báo"
       ],
       "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thông_báo",
-      "keyphrases": [
-        "thông báo"
-      ],
-      "concept_s": "Thẩm quyền",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thông_báo",
-      "keyphrases": [
-        "thông báo"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thông_báo",
-      "keyphrases": [
-        "thông báo"
-      ],
-      "concept_s": "Cơ quan chức năng",
-      "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép, chứng chỉ hành nghề",
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Thông_báo",
-      "keyphrases": [
-        "thông báo"
-      ],
-      "concept_s": "Người có thẩm quyền",
       "concept_o": [
         "Giấy phép lái xe",
         "Giấy phép, chứng chỉ hành nghề",
@@ -3042,6 +3272,224 @@
       "concept_s": "Cơ quan chức năng",
       "concept_o": [
         "Nghị định"
+      ]
+    },
+    {
+      "name": "Tạm_giữ",
+      "keyphrases": [
+        "tạm giữ",
+        "giữ lại"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Tạm_giữ",
+      "keyphrases": [
+        "tạm giữ",
+        "giữ lại"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Tạm_giữ",
+      "keyphrases": [
+        "tạm giữ",
+        "giữ lại"
+      ],
+      "concept_s": "Cơ quan chức năng",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Tạm_giữ",
+      "keyphrases": [
+        "tạm giữ",
+        "giữ lại"
+      ],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Lập_biên_bản",
+      "keyphrases": [
+        "lập biên bản"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Người",
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Lập_biên_bản",
+      "keyphrases": [
+        "lập biên bản"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người",
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Lập_biên_bản",
+      "keyphrases": [
+        "lập biên bản"
+      ],
+      "concept_s": "Cơ quan chức năng",
+      "concept_o": [
+        "Người",
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Lập_biên_bản",
+      "keyphrases": [
+        "lập biên bản"
+      ],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Người",
+        "Phương tiện"
+      ]
+    },
+    {
+      "name": "Ra_quyết_định_xử_phạt",
+      "keyphrases": [
+        "ra quyết định xử phạt"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "name": "Ra_quyết_định_xử_phạt",
+      "keyphrases": [
+        "ra quyết định xử phạt"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "name": "Ra_quyết_định_xử_phạt",
+      "keyphrases": [
+        "ra quyết định xử phạt"
+      ],
+      "concept_s": "Cơ quan chức năng",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "name": "Ra_quyết_định_xử_phạt",
+      "keyphrases": [
+        "ra quyết định xử phạt"
+      ],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "trừ điểm",
+        "phục hồi",
+        "thông báo"
+      ],
+      "concept_s": "Thẩm quyền",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "trừ điểm",
+        "phục hồi",
+        "thông báo"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "trừ điểm",
+        "phục hồi",
+        "thông báo"
+      ],
+      "concept_s": "Cơ quan chức năng",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Xử_phạt",
+      "keyphrases": [
+        "trừ điểm",
+        "phục hồi",
+        "thông báo"
+      ],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Chấp_hành",
+      "keyphrases": [
+        "phải chấp hành"
+      ],
+      "concept_s": "Người vi phạm",
+      "concept_o": [
+        "Biện pháp khắc phục hậu quả",
+        "Biện pháp xử phạt"
+      ]
+    },
+    {
+      "name": "Quản_lý",
+      "keyphrases": [
+        "quản lý",
+        "lưu trữ"
+      ],
+      "concept_s": "Dữ liệu",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép, chứng chỉ hành nghề",
+        "Giấy phép"
+      ]
+    },
+    {
+      "name": "Cập_nhật",
+      "keyphrases": [
+        "cập nhật"
+      ],
+      "concept_s": "Dữ liệu",
+      "concept_o": [
+        "Cơ sở dữ liệu"
       ]
     }
   ]
