@@ -1,7 +1,12 @@
 """
-Bước 1: Tách từ (word segmentation) các mệnh đề bằng VnCoreNLP.
+Bước 1: Tách từ (word segmentation) các section bằng VnCoreNLP.
 CHỈ tách từ (nối từ ghép bằng "_"), KHÔNG pos/ner/parse, KHÔNG xoá bất kỳ token nào.
-Input:  ../material_for_triplets/2_sections_rewritten_*.json
+
+Khác với ontology_2: input là text_content GỐC (chưa rewrite) từ
+material_for_triplets/1_sections_*.json — giữ nguyên cấu trúc liệt kê tường minh của luật
+(vd "thực hiện một trong các hành vi vi phạm sau đây:") mà bước rewrite đã làm mất.
+
+Input:  ../material_for_triplets/1_sections_*.json
 Output: output/segmented.json
 """
 
@@ -13,7 +18,7 @@ import argparse
 
 BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "..", "vncorenlp_model"))
-DEFAULT_INPUT  = os.path.join(BASE_DIR, "..", "material_for_triplets/2_sections_rewritten_nghi_dinh_168_2024_1.json")
+DEFAULT_INPUT  = os.path.join(BASE_DIR, "..", "material_for_triplets/1_sections_nghi_dinh_168_2024_1.json")
 DEFAULT_OUTPUT = os.path.join(BASE_DIR, "output/segmented.json")
 
 
@@ -51,21 +56,21 @@ print("VnCoreNLP loaded.\n")
 
 
 def segment_proposition(text: str) -> str:
-    """Tách từ 1 proposition. Trả về câu đã tách từ (nối từ ghép bằng '_'), không xoá gì."""
+    """Tách từ 1 đoạn text. Trả về câu đã tách từ (nối từ ghép bằng '_'), không xoá gì."""
     sentences = model.word_segment(text)
     return " ".join(sentences)
 
 
 def build_section_result(section: dict) -> dict:
-    props = [p for p in section.get("rewritten_propositions", []) if p and p.strip()]
+    text = (section.get("text_content") or "").strip()
     propositions = []
-    for prop in props:
+    if text:
         try:
-            segmented = segment_proposition(prop)
+            segmented = segment_proposition(text)
         except Exception as e:
             print(f"  ⚠  [{section['id']}] lỗi: {e}")
-            segmented = prop
-        propositions.append({"text": prop, "segmented": segmented})
+            segmented = text
+        propositions.append({"text": text, "segmented": segmented})
     return {
         "id": section["id"],
         "path": section.get("path"),
