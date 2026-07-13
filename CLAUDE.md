@@ -231,6 +231,59 @@ Loại bỏ triplet trùng lặp, hợp nhất cạnh có cùng nghĩa.
 
 ---
 
+## Quy trình tách triplet atomic (đúc kết qua thực nghiệm tay trên Điều 6)
+
+> **Bối cảnh:** Sau nhiều lần thử tự động hoá Bước 2/3 bằng GPT-4o-mini và gặp vấn đề "dilution" (LLM áp quy tắc không nhất quán khi batch nhiều pattern khác nhau), đã quyết định **xây Concept/Relation/Triplet cho Điều 6 hoàn toàn thủ công** (Claude tự đọc `rewritten_propositions` và suy luận trực tiếp, không gọi LLM API). Quy trình dưới đây là kết quả đúc kết từ quá trình đó.
+>
+> **Ràng buộc bắt buộc:** Việc xây ontology mới (Điều 6 trở đi) **không được tham chiếu, đối chiếu, hay kế thừa** từ `ontology_168.json` / `ontology_168.md` (bộ ontology cũ, phạm vi Điều 5-7, xây theo tiêu chí khác — ví dụ tách "Xe ô tô", "Xe chở người bốn bánh có gắn động cơ" thành các Concept riêng thay vì gộp) — Concept, Relation, Keyphrase đều phải xây mới, tối đa hoá tính atomic.
+
+### Quy trình 9 bước (tổng quát, áp dụng cho mọi điều khoản, không riêng giao thông)
+
+1. **Xác định chủ thể xuyên suốt** — không đổi ConceptS sang loại xe/thực thể cụ thể ngay cả sau khi đã biết loại; loại cụ thể chỉ xuất hiện làm ConceptO của quan hệ đầu tiên, việc phân biệt loại xe dựa vào giao địa chỉ lúc truy vấn (Bước 5e).
+2. **Tách vị ngữ "điều khiển + loại xe" thành triplet riêng** — danh sách liệt kê các tên đồng nhóm (vd "xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô") gộp thành **1 Concept + keyphrases**, không tách Concept riêng cho từng tên trong nhóm.
+3. **Chẻ câu theo mệnh đề độc lập** (nối bằng `;`, "hoặc") — mỗi mệnh đề xử lý riêng, không gộp thành một relation ghép.
+4. **Xác định relation + object cốt lõi của mỗi mệnh đề:**
+   - Verb **nội tại** (tự thân thay đổi trạng thái, vd quay đầu, chuyển hướng, rẽ trái/phải, dừng, đỗ, lùi, tránh) → ConceptO = chính chủ thể/xe đang thực hiện.
+   - Verb **ngoại tác** (tác động lên đối tượng khác, vd chuyển làn, không nhường, vượt) → ConceptO = thực thể bên ngoài chịu tác động.
+   - **Luôn giữ phủ định trong tên relation** ("Không nhường" ≠ "Nhường") — không chuẩn hoá về dạng khẳng định để tăng recall, vì sẽ làm hai điều khoản đối lập trộn lẫn triplet (xem ví dụ điểm l/m bên dưới).
+5. **Xử lý cụm phụ theo mẫu cố định:**
+   - `"X dành cho/của/thuộc Y"` → luôn tách `(X, Dành_cho, Y)`, **trừ khi** cả cụm nằm dưới phủ định-tồn-tại (`"không có X..."`) → bỏ hẳn, không tạo triplet, không placeholder.
+   - `"tại nơi có/không có Z"` → chỉ tạo triplet khi Z thật sự tồn tại; ConceptS của relation "Tại" luôn phải là thực thể vật lý (Người/xe/biển báo), không bao giờ là một Concept-hành-động trừu tượng.
+   - `"biển báo hiệu có nội dung cấm X"` → tách `(S, Tại, Biển báo hiệu)` + `(Biển báo hiệu, Cấm, X)`, dùng chung 1 Concept "Biển báo hiệu" cho mọi loại biển, X tái dùng đúng tên relation hành vi đã dùng ở nhánh chính.
+   - Ngưỡng số liệu (nồng độ cồn, khung giờ, tốc độ...) → **giữ nguyên giá trị** nếu là yếu tố phân biệt với điều/khoản khác (verify bằng đối chiếu corpus), bỏ nếu chỉ là chi tiết minh hoạ không ảnh hưởng phân biệt.
+6. **Lọc bỏ:** cụm tham chiếu/loại trừ điều khoản khác ("trừ trường hợp...", "theo quy định tại Điều..."); định ngữ lặp không mang thông tin phân biệt riêng ("trái quy định" đứng một mình); đồng nghĩa miền gần nghĩa với Concept đã có → gộp vào Concept đó thay vì tạo mới (vd "xe lăn của người khuyết tật" gộp vào "Người đi bộ").
+7. **Đối chiếu bắt buộc với các điểm anh em cùng Khoản** trước khi chốt triplet — nếu hai điểm gần giống hệt nhau nhưng khác đúng một chi tiết, chi tiết đó phải tạo ra khác biệt rõ trong bộ triplet.
+8. **Tái dùng Concept/Relation đã tạo** ở các Điều/Khoản trước đó trước khi đặt tên mới.
+9. **Keyphrase chỉ ghi danh từ thuần** — không bao giờ gán kèm động từ/tính từ vào để thành cụm (vd không được ghi "người điều khiển" làm keyphrase của Concept "Người").
+
+> **Lưu ý về tính tổng quát:** Bước 1-9 ở dạng trên là thuật toán decomposition tổng quát. Các minh hoạ cụ thể trong bước 4-5 (danh sách verb nội tại/ngoại tác, pattern "Biển báo + Cấm", pattern ngưỡng nồng độ cồn) là ví dụ áp dụng cho miền giao thông (vì Điều 6 quy định hành vi lái xe) — khi xử lý điều khoản thuộc miền nội dung khác, các bước 1-9 vẫn áp dụng nhưng danh sách verb/pattern cụ thể sẽ khác.
+
+### Ba ví dụ vàng (dùng làm regression-check)
+
+**1. Cặp điểm l/m — Khoản 5, Điều 6 (minh hoạ rule phủ định-tồn-tại của "dành cho"):**
+
+- `s109` (Khoản 5 - Điểm l): "...chuyển hướng không nhường quyền đi trước cho người đi bộ, xe lăn của người khuyết tật qua đường tại nơi **có vạch kẻ đường** dành cho người đi bộ; xe thô sơ đang đi trên phần đường dành cho xe thô sơ." → 8 triplet:
+  (Người, Điều khiển, Ô tô), (Người, Chuyển hướng, Ô tô), (Người, Không nhường, Người đi bộ), (Người đi bộ, Tại, Vạch kẻ đường), (Vạch kẻ đường, Dành cho, Người đi bộ), (Người, Không nhường, Xe thô sơ), (Xe thô sơ, Tại, Phần đường), (Phần đường, Dành cho, Xe thô sơ).
+- `s110` (Khoản 5 - Điểm m): "...chuyển hướng không nhường đường cho các xe đi ngược chiều; người đi bộ, xe thô sơ đang qua đường tại nơi **không có vạch kẻ đường** cho người đi bộ." → 5 triplet (không có triplet nào về vạch kẻ đường, vì cụm nằm dưới phủ định-tồn-tại nên bỏ hẳn):
+  (Người, Điều khiển, Ô tô), (Người, Chuyển hướng, Ô tô), (Người, Không nhường, Xe đi ngược chiều), (Người, Không nhường, Người đi bộ), (Người, Không nhường, Xe thô sơ).
+
+**2. s97 — Khoản 4, Điểm k (minh hoạ pattern Biển báo + Cấm):**
+
+"...quay đầu xe tại nơi có biển báo hiệu có nội dung cấm quay đầu...; điều khiển xe rẽ trái tại nơi có biển báo hiệu có nội dung cấm rẽ trái...; điều khiển xe rẽ phải tại nơi có biển báo hiệu có nội dung cấm rẽ phải..." → 8 triplet:
+(Người, Điều khiển, Ô tô), (Người, Quay đầu, Ô tô), (Người, Tại, Biển báo hiệu), (Biển báo hiệu, Cấm, Quay đầu), (Người, Rẽ trái, Ô tô), (Biển báo hiệu, Cấm, Rẽ trái), (Người, Rẽ phải, Ô tô), (Biển báo hiệu, Cấm, Rẽ phải).
+
+**3. s117/s123/s129 — 3 mốc nồng độ cồn (minh hoạ giữ ngưỡng số liệu vì phân biệt địa chỉ):**
+
+| Section | Khoản | Triplet |
+| --- | --- | --- |
+| s117 | 6-c | (Người, Sử dụng, Cồn), (Cồn, Chưa vượt quá, 50mg/100ml máu), (Cồn, Chưa vượt quá, 0,25mg/1L khí thở) |
+| s123 | 9-a | (Người, Sử dụng, Cồn), (Cồn, Vượt quá, 50-80mg/100ml máu), (Cồn, Vượt quá, 0,25-0,4mg/1L khí thở) |
+| s129 | 11-a | (Người, Sử dụng, Cồn), (Cồn, Vượt quá, 80mg/100ml máu), (Cồn, Vượt quá, 0,4mg/1L khí thở) |
+
+(mỗi mốc còn kèm `(Người, Điều khiển, Ô tô)` như mọi section khác trong Điều 6)
+
+---
+
 ## Công cụ và thư viện
 
 | Công việc                              | Công cụ                                                                     |

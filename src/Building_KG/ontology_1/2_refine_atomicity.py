@@ -1,15 +1,15 @@
 """
-Bước 3 (pass 2/3): Rà soát tính NGUYÊN TỬ (atomic) của các triplet đã trích ở pass 1.
+Bước 2 (pass 2/4): Rà soát tính NGUYÊN TỬ (atomic) của các triplet đã trích ở Bước 1.
 
 Nhiệm vụ DUY NHẤT của LLM ở bước này: với mỗi triplet {s, v, o} đã có sẵn, kiểm tra subject/
 object có còn chứa QUAN HỆ ẨN bên trong không (một động từ hoặc giới từ/quan hệ từ nối 2 khái
 niệm, ví dụ "Đường có Biển báo cấm", "Người có Thẩm quyền"). Nếu có → tách thành chuỗi 2+ triplet
 nối tiếp. Nếu đã atomic → giữ nguyên, không đổi.
 
-Input là danh sách triplet ngắn (không phải câu luật dài) — nhiệm vụ hẹp hơn nhiều so với pass 1,
+Input là danh sách triplet ngắn (không phải câu luật dài) — nhiệm vụ hẹp hơn nhiều so với Bước 1,
 nên batch được nhiều section/lượt gọi hơn mà không bị dilution.
 
-Input:  output/triplets_raw.json       (từ 2_extract_triplets.py)
+Input:  output/triplets_raw.json       (từ 1_extract_triplets.py)
 Output: output/triplets_refined.json
 """
 
@@ -22,8 +22,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from _normalize import strip_negation_passive
-
 load_dotenv()
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
@@ -31,8 +29,8 @@ BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_INPUT  = os.path.join(BASE_DIR, "output", "triplets_raw.json")
 DEFAULT_OUTPUT = os.path.join(BASE_DIR, "output", "triplets_refined.json")
 
-BATCH_SIZE = 25   # input ngắn hơn nhiều so với pass 1 (chỉ triplet, không phải câu dài) nên
-                  # batch được lớn hơn mà không bị dilution như pass 1
+BATCH_SIZE = 25   # input ngắn hơn nhiều so với Bước 1 (chỉ triplet, không phải câu dài) nên
+                  # batch được lớn hơn mà không bị dilution như Bước 1
 
 
 SYSTEM_PROMPT = """\
@@ -43,7 +41,9 @@ NHIỆM VỤ DUY NHẤT: với mỗi triplet {s, v, o} cho sẵn, kiểm tra sub
 hai còn chứa QUAN HỆ ẨN bên trong (một động từ hoặc giới từ/quan hệ từ nối 2 khái niệm khác
 nhau), hãy TÁCH triplet đó thành chuỗi 2 (hoặc nhiều) triplet nối tiếp. Nếu subject/object ĐÃ
 atomic (là một khái niệm/vật cụ thể, không thể phân rã thêm mà không mất nghĩa), GIỮ NGUYÊN
-không đổi — không viết lại, không đổi tên, không tự suy diễn thêm nội dung mới.
+không đổi — không viết lại, không đổi tên, không tự suy diễn thêm nội dung mới. KHÔNG được đổi
+verb (v) của triplet — kể cả khi v mang phủ định (vd "Không nhường") — chỉ được TÁCH subject/object,
+verb luôn giữ nguyên y hệt input.
 
 PHÉP THỬ atomic: tự hỏi "cụm này có thể viết lại thành chính nó = (X, quan hệ, Y) mà không mất
 nghĩa không?". Nếu CÓ → chưa atomic, phải tách. Nếu KHÔNG → giữ nguyên.
@@ -58,14 +58,13 @@ VÍ DỤ CẦN TÁCH (sai → đúng):
       tạo thêm quan hệ mới — không phải lúc nào cụm dài cũng cần tách, chỉ tách khi có quan hệ ẩn
       thật sự, xem quy tắc 1]
 
-VÍ DỤ ĐÃ ATOMIC — GIỮ NGUYÊN, KHÔNG được tách thêm dù cụm có 2-3 từ:
+VÍ DỤ ĐÃ ATOMIC — GIỮ NGUYÊN, KHÔNG được tách thêm dù cụm có 2-3 từ (kể cả khi verb mang phủ định):
 (Người, Điều khiển, Ô tô)
-(Người, Vi phạm, Quy tắc giao thông đường bộ)
-(Người, Giảm, Tốc độ)
-(Người, Chạy quá, Tốc độ quy định)
+(Người, Không nhường, Người đi bộ)
+(Vạch kẻ đường, Dành cho, Người đi bộ)
+(Biển báo hiệu, Cấm, Rẽ trái)
 (Người, Sử dụng, Cồn)
-(Người, Trừ, Điểm giấy phép lái xe)
-(Người, Phạt, Tiền)
+(Cồn, Vượt quá, 50-80mg/100ml máu)
 (Người, Thực hiện, Quan sát)
 (Người, Gây, Tai nạn giao thông)
 (Đường, Có, Biển báo cấm)
@@ -73,8 +72,8 @@ VÍ DỤ ĐÃ ATOMIC — GIỮ NGUYÊN, KHÔNG được tách thêm dù cụm c�
 QUY TẮC:
 1. Chỉ tách khi THỰC SỰ có quan hệ ẩn (verb hoặc giới từ/quan hệ từ) bên trong subject/object.
    KHÔNG tách chỉ vì cụm có nhiều hơn 1-2 từ — cụm danh từ ghép thuần tuý (không chứa quan hệ,
-   như "Ô tô", "Tốc độ quy định", "Quy tắc giao thông đường bộ", "Điểm giấy phép lái xe", "Tai
-   nạn giao thông") KHÔNG được tách.
+   như "Ô tô", "Tốc độ quy định", "Quy tắc giao thông đường bộ", "Vạch kẻ đường", "50-80mg/100ml
+   máu") KHÔNG được tách.
 2. Giữ nguyên các triplet ĐÃ atomic — copy y nguyên, không viết lại/đổi tên/đổi thứ tự.
 3. Không tự thêm hành vi/triplet mới ngoài nội dung đã có sẵn trong input — chỉ được TÁCH LẠI
    cấu trúc của triplet đã cho, không suy diễn thêm nội dung không có trong input.
@@ -119,7 +118,7 @@ def llm_call(messages: list, max_retries: int = 4) -> dict:
 
 
 def refine_batch(sections: list[dict]) -> list[dict]:
-    """sections: list of {id, path, propositions, triplets:[{s,v,o}]}."""
+    """sections: list of {id, path, document_name, propositions, triplets:[{s,v,o}]}."""
     parts = []
     for sec in sections:
         triplets = sec.get("triplets", [])
@@ -129,8 +128,7 @@ def refine_batch(sections: list[dict]) -> list[dict]:
         parts.append(f"[{sec['id']}]\n{lines}")
 
     if not parts:
-        return [{"id": s["id"], "path": s.get("path"), "propositions": s.get("propositions", []),
-                  "triplets": s.get("triplets", [])} for s in sections]
+        return [dict(sec) for sec in sections]
 
     result = llm_call([
         {"role": "system", "content": SYSTEM_PROMPT},
@@ -149,8 +147,8 @@ def refine_batch(sections: list[dict]) -> list[dict]:
         for t in item.get("triplets", []):
             if not isinstance(t, dict):
                 continue
-            s = strip_negation_passive(t.get("s") or "")
-            v = strip_negation_passive(t.get("v") or "")
+            s = (t.get("s") or "").strip()
+            v = (t.get("v") or "").strip()
             o = (t.get("o") or "").strip()
             if s and v and o:
                 triplets.append({"s": s, "v": v, "o": o})
@@ -164,6 +162,7 @@ def refine_batch(sections: list[dict]) -> list[dict]:
         output.append({
             "id": sid,
             "path": sec.get("path"),
+            "document_name": sec.get("document_name"),
             "propositions": sec.get("propositions", []),
             "triplets": triplets,
         })
@@ -178,13 +177,15 @@ def save(path: str, data: list) -> None:
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Bước 2: rà soát và tách tiếp quan hệ ẩn còn sót")
     parser.add_argument("--input",      default=DEFAULT_INPUT)
     parser.add_argument("--output",     default=DEFAULT_OUTPUT)
     parser.add_argument("--threads",    type=int, default=4)
     parser.add_argument("--batch-size", type=int, default=BATCH_SIZE)
     parser.add_argument("--limit",      type=int, default=0, help="0 = xử lý tất cả")
     args = parser.parse_args()
+
+    os.makedirs(os.path.dirname(args.output), exist_ok=True)
 
     with open(args.input, encoding="utf-8") as f:
         sections = json.load(f)
