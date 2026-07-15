@@ -1,12 +1,47 @@
 [
   {
+    "concept": "Nhiệm vụ quản lý nhà nước",
+    "flagged_text": "Nhiệm vụ quản lý nhà nước",
+    "matched_relation_keyphrase": "quản lý"
+  },
+  {
+    "concept": "Tổ chức kinh tế",
+    "flagged_text": "Tổ chức kinh tế",
+    "matched_relation_keyphrase": "tổ chức"
+  },
+  {
+    "concept": "Đơn vị phụ thuộc doanh nghiệp",
+    "flagged_text": "Đơn vị phụ thuộc doanh nghiệp",
+    "matched_relation_keyphrase": "thuộc"
+  },
+  {
+    "concept": "Cấp có thẩm quyền của Việt Nam",
+    "flagged_text": "Cấp có thẩm quyền của Việt Nam",
+    "matched_relation_keyphrase": "cấp"
+  },
+  {
+    "concept": "Cấp có thẩm quyền của Việt Nam",
+    "flagged_text": "Cấp có thẩm quyền của Việt Nam",
+    "matched_relation_keyphrase": "có"
+  },
+  {
+    "concept": "Cấp có thẩm quyền của Việt Nam",
+    "flagged_text": "Cấp có thẩm quyền của Việt Nam",
+    "matched_relation_keyphrase": "của"
+  },
+  {
+    "concept": "Tổ chức nước ngoài",
+    "flagged_text": "Tổ chức nước ngoài",
+    "matched_relation_keyphrase": "tổ chức"
+  },
+  {
     "concept": "Hành vi vi phạm hành chính",
     "flagged_text": "Hành vi vi phạm hành chính",
     "matched_relation_keyphrase": "vi phạm"
   },
   {
     "concept": "Hành vi vi phạm hành chính",
-    "flagged_text": "hành vi vi phạm hành chính",
+    "flagged_text": "vi phạm hành chính",
     "matched_relation_keyphrase": "vi phạm"
   },
   {
@@ -16,18 +51,278 @@
   },
   {
     "concept": "Người có thẩm quyền",
-    "flagged_text": "người có thẩm quyền",
+    "flagged_text": "người có thẩm quyền xử phạt",
+    "matched_relation_keyphrase": "xử phạt"
+  },
+  {
+    "concept": "Người có thẩm quyền",
+    "flagged_text": "người có thẩm quyền xử phạt",
     "matched_relation_keyphrase": "có"
   },
   {
-    "concept": "Người",
-    "flagged_text": "người trên buồng lái",
+    "concept": "Biên bản vi phạm hành chính",
+    "flagged_text": "Biên bản vi phạm hành chính",
+    "matched_relation_keyphrase": "vi phạm"
+  },
+  {
+    "concept": "Xử phạt vi phạm hành chính",
+    "flagged_text": "Xử phạt vi phạm hành chính",
+    "matched_relation_keyphrase": "xử phạt"
+  },
+  {
+    "concept": "Xử phạt vi phạm hành chính",
+    "flagged_text": "Xử phạt vi phạm hành chính",
+    "matched_relation_keyphrase": "vi phạm"
+  },
+  {
+    "concept": "Giấy phép lái xe",
+    "flagged_text": "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp",
+    "matched_relation_keyphrase": "tham gia"
+  },
+  {
+    "concept": "Giấy phép lái xe",
+    "flagged_text": "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp",
+    "matched_relation_keyphrase": "cấp"
+  },
+  {
+    "concept": "Giấy phép lái xe",
+    "flagged_text": "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp",
+    "matched_relation_keyphrase": "về"
+  },
+  {
+    "concept": "Giấy phép lái xe",
+    "flagged_text": "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp",
+    "matched_relation_keyphrase": "của"
+  },
+  {
+    "concept": "Quyền sử dụng",
+    "flagged_text": "Quyền sử dụng",
+    "matched_relation_keyphrase": "sử dụng"
+  },
+  {
+    "concept": "Tang vật vi phạm hành chính",
+    "flagged_text": "Tang vật vi phạm hành chính",
+    "matched_relation_keyphrase": "vi phạm"
+  },
+  {
+    "concept": "Phương tiện vi phạm hành chính",
+    "flagged_text": "Phương tiện vi phạm hành chính",
+    "matched_relation_keyphrase": "vi phạm"
+  },
+  {
+    "concept": "Biện pháp khắc phục hậu quả",
+    "flagged_text": "Biện pháp khắc phục hậu quả",
+    "matched_relation_keyphrase": "khắc phục"
+  },
+  {
+    "concept": "Vật che khuất",
+    "flagged_text": "Vật che khuất",
+    "matched_relation_keyphrase": "che khuất"
+  },
+  {
+    "concept": "Biển báo hiệu",
+    "flagged_text": "Biển báo hiệu",
+    "matched_relation_keyphrase": "báo"
+  },
+  {
+    "concept": "Biển báo hiệu",
+    "flagged_text": "Biển báo hiệu",
+    "matched_relation_keyphrase": "báo hiệu"
+  },
+  {
+    "concept": "Biển báo hiệu",
+    "flagged_text": "biển báo hiệu đường bộ",
+    "matched_relation_keyphrase": "báo"
+  },
+  {
+    "concept": "Biển báo hiệu",
+    "flagged_text": "biển báo hiệu đường bộ",
+    "matched_relation_keyphrase": "báo hiệu"
+  },
+  {
+    "concept": "Biển báo hiệu",
+    "flagged_text": "biển cảnh báo",
+    "matched_relation_keyphrase": "báo"
+  },
+  {
+    "concept": "Nhân viên phục vụ trên xe",
+    "flagged_text": "Nhân viên phục vụ trên xe",
     "matched_relation_keyphrase": "trên"
   },
   {
     "concept": "Người",
     "flagged_text": "người điều khiển",
     "matched_relation_keyphrase": "điều khiển"
+  },
+  {
+    "concept": "Thiết bị giám sát hành trình",
+    "flagged_text": "Thiết bị giám sát hành trình",
+    "matched_relation_keyphrase": "sát"
+  },
+  {
+    "concept": "Thiết bị ghi nhận hình ảnh người lái xe",
+    "flagged_text": "Thiết bị ghi nhận hình ảnh người lái xe",
+    "matched_relation_keyphrase": "ghi nhận"
+  },
+  {
+    "concept": "Ghế ngồi",
+    "flagged_text": "Ghế ngồi",
+    "matched_relation_keyphrase": "ngồi"
+  },
+  {
+    "concept": "Thiết bị cứu hộ",
+    "flagged_text": "dụng cụ chuyên dùng để cứu hộ",
+    "matched_relation_keyphrase": "dùng"
+  },
+  {
+    "concept": "Thiết bị cứu hộ",
+    "flagged_text": "dụng cụ chuyên dùng để cứu hộ",
+    "matched_relation_keyphrase": "để"
+  },
+  {
+    "concept": "Thiết bị cứu hộ",
+    "flagged_text": "thiết bị chuyên dùng để cứu hộ",
+    "matched_relation_keyphrase": "dùng"
+  },
+  {
+    "concept": "Thiết bị cứu hộ",
+    "flagged_text": "thiết bị chuyên dùng để cứu hộ",
+    "matched_relation_keyphrase": "để"
+  },
+  {
+    "concept": "Ô tô",
+    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "gắn"
+  },
+  {
+    "concept": "Ô tô",
+    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "chở"
+  },
+  {
+    "concept": "Ô tô",
+    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "có"
+  },
+  {
+    "concept": "Ô tô",
+    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "gắn"
+  },
+  {
+    "concept": "Ô tô",
+    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "chở"
+  },
+  {
+    "concept": "Ô tô",
+    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "có"
+  },
+  {
+    "concept": "Chỉ số đồng hồ báo quãng đường",
+    "flagged_text": "Chỉ số đồng hồ báo quãng đường",
+    "matched_relation_keyphrase": "báo"
+  },
+  {
+    "concept": "Quy định về biển số xe",
+    "flagged_text": "Quy định về biển số xe",
+    "matched_relation_keyphrase": "về"
+  },
+  {
+    "concept": "Quy định về biển số xe",
+    "flagged_text": "Quy định về biển số xe",
+    "matched_relation_keyphrase": "quy định"
+  },
+  {
+    "concept": "Quy định về thông tin trên xe",
+    "flagged_text": "Quy định về thông tin trên xe",
+    "matched_relation_keyphrase": "về"
+  },
+  {
+    "concept": "Quy định về thông tin trên xe",
+    "flagged_text": "Quy định về thông tin trên xe",
+    "matched_relation_keyphrase": "trên"
+  },
+  {
+    "concept": "Quy định về thông tin trên xe",
+    "flagged_text": "Quy định về thông tin trên xe",
+    "matched_relation_keyphrase": "quy định"
+  },
+  {
+    "concept": "Quy định về màu sơn",
+    "flagged_text": "Quy định về màu sơn",
+    "matched_relation_keyphrase": "về"
+  },
+  {
+    "concept": "Quy định về màu sơn",
+    "flagged_text": "Quy định về màu sơn",
+    "matched_relation_keyphrase": "quy định"
+  },
+  {
+    "concept": "Quy định về biển báo dấu hiệu nhận biết",
+    "flagged_text": "Quy định về biển báo dấu hiệu nhận biết",
+    "matched_relation_keyphrase": "báo"
+  },
+  {
+    "concept": "Quy định về biển báo dấu hiệu nhận biết",
+    "flagged_text": "Quy định về biển báo dấu hiệu nhận biết",
+    "matched_relation_keyphrase": "về"
+  },
+  {
+    "concept": "Quy định về biển báo dấu hiệu nhận biết",
+    "flagged_text": "Quy định về biển báo dấu hiệu nhận biết",
+    "matched_relation_keyphrase": "quy định"
+  },
+  {
+    "concept": "Quy định về biển báo dấu hiệu nhận biết",
+    "flagged_text": "Quy định về biển báo dấu hiệu nhận biết",
+    "matched_relation_keyphrase": "báo hiệu"
+  },
+  {
+    "concept": "Khối lượng hàng hóa cho phép chuyên chở",
+    "flagged_text": "Khối lượng hàng hóa cho phép chuyên chở",
+    "matched_relation_keyphrase": "cho phép"
+  },
+  {
+    "concept": "Khối lượng hàng hóa cho phép chuyên chở",
+    "flagged_text": "Khối lượng hàng hóa cho phép chuyên chở",
+    "matched_relation_keyphrase": "chở"
+  },
+  {
+    "concept": "Giá trị sử dụng",
+    "flagged_text": "Giá trị sử dụng",
+    "matched_relation_keyphrase": "sử dụng"
+  },
+  {
+    "concept": "Cơ quan có thẩm quyền",
+    "flagged_text": "Cơ quan có thẩm quyền",
+    "matched_relation_keyphrase": "có"
+  },
+  {
+    "concept": "Hành vi vi phạm",
+    "flagged_text": "Hành vi vi phạm",
+    "matched_relation_keyphrase": "vi phạm"
+  },
+  {
+    "concept": "Giấy phép sát hạch",
+    "flagged_text": "Giấy phép sát hạch",
+    "matched_relation_keyphrase": "sát"
+  },
+  {
+    "concept": "Chứng chỉ đăng kiểm viên",
+    "flagged_text": "Chứng chỉ đăng kiểm viên",
+    "matched_relation_keyphrase": "đăng kiểm"
+  },
+  {
+    "concept": "Người có thẩm quyền xử phạt",
+    "flagged_text": "Người có thẩm quyền xử phạt",
+    "matched_relation_keyphrase": "xử phạt"
+  },
+  {
+    "concept": "Người có thẩm quyền xử phạt",
+    "flagged_text": "Người có thẩm quyền xử phạt",
+    "matched_relation_keyphrase": "có"
   },
   {
     "concept": "Xe mô tô",
@@ -40,214 +335,14 @@
     "matched_relation_keyphrase": "gắn"
   },
   {
-    "concept": "Ô tô",
-    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
-    "matched_relation_keyphrase": "chở"
-  },
-  {
-    "concept": "Ô tô",
-    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
-    "matched_relation_keyphrase": "gắn"
-  },
-  {
-    "concept": "Ô tô",
-    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
-    "matched_relation_keyphrase": "chở người"
-  },
-  {
-    "concept": "Ô tô",
-    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
-    "matched_relation_keyphrase": "có"
-  },
-  {
-    "concept": "Ô tô",
-    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
-    "matched_relation_keyphrase": "chở"
-  },
-  {
-    "concept": "Ô tô",
-    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
-    "matched_relation_keyphrase": "gắn"
-  },
-  {
-    "concept": "Ô tô",
-    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
-    "matched_relation_keyphrase": "có"
-  },
-  {
-    "concept": "Ô tô",
-    "flagged_text": "xe kéo",
-    "matched_relation_keyphrase": "kéo"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "Biển báo hiệu",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "Biển báo hiệu",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển báo hiệu",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển báo hiệu",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm đi ngược chiều\"",
-    "matched_relation_keyphrase": "cấm"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm đi ngược chiều\"",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm đi ngược chiều\"",
-    "matched_relation_keyphrase": "đi ngược chiều"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "báo hiệu",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "hiệu lệnh của biển báo hiệu",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "hiệu lệnh của biển báo hiệu",
-    "matched_relation_keyphrase": "của"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "hiệu lệnh của biển báo hiệu",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "chỉ dẫn của biển báo hiệu",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "chỉ dẫn của biển báo hiệu",
-    "matched_relation_keyphrase": "của"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "chỉ dẫn của biển báo hiệu",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "chỉ dẫn của biển báo hiệu",
-    "matched_relation_keyphrase": "chỉ dẫn"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm dừng xe và đỗ xe\"",
-    "matched_relation_keyphrase": "dừng xe"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm dừng xe và đỗ xe\"",
-    "matched_relation_keyphrase": "đỗ xe"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm dừng xe và đỗ xe\"",
-    "matched_relation_keyphrase": "cấm"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm dừng xe và đỗ xe\"",
-    "matched_relation_keyphrase": "dừng"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm dừng xe và đỗ xe\"",
-    "matched_relation_keyphrase": "đỗ"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm đỗ xe\"",
-    "matched_relation_keyphrase": "đỗ xe"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm đỗ xe\"",
-    "matched_relation_keyphrase": "cấm"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển \"cấm đỗ xe\"",
-    "matched_relation_keyphrase": "đỗ"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển cảnh báo",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển báo hiệu đường bộ",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Biển báo hiệu",
-    "flagged_text": "biển báo hiệu đường bộ",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Vạch kẻ đường",
-    "flagged_text": "chỉ dẫn của vạch kẻ đường",
-    "matched_relation_keyphrase": "của"
-  },
-  {
-    "concept": "Vạch kẻ đường",
-    "flagged_text": "chỉ dẫn của vạch kẻ đường",
-    "matched_relation_keyphrase": "chỉ dẫn"
-  },
-  {
-    "concept": "Tín hiệu",
-    "flagged_text": "tín hiệu báo trước",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
     "concept": "Tín hiệu",
     "flagged_text": "tín hiệu báo trước",
     "matched_relation_keyphrase": "báo"
   },
   {
     "concept": "Tín hiệu",
-    "flagged_text": "tín hiệu vượt xe",
-    "matched_relation_keyphrase": "vượt xe"
-  },
-  {
-    "concept": "Tín hiệu",
-    "flagged_text": "tín hiệu vượt xe",
-    "matched_relation_keyphrase": "vượt"
-  },
-  {
-    "concept": "Tín hiệu",
-    "flagged_text": "tín hiệu lùi xe",
-    "matched_relation_keyphrase": "lùi xe"
-  },
-  {
-    "concept": "Tín hiệu",
-    "flagged_text": "tín hiệu lùi xe",
-    "matched_relation_keyphrase": "lùi"
+    "flagged_text": "tín hiệu báo trước",
+    "matched_relation_keyphrase": "báo hiệu"
   },
   {
     "concept": "Đèn khẩn cấp",
@@ -255,63 +350,8 @@
     "matched_relation_keyphrase": "cấp"
   },
   {
-    "concept": "Đèn khẩn cấp",
-    "flagged_text": "đèn khẩn cấp",
-    "matched_relation_keyphrase": "cấp"
-  },
-  {
-    "concept": "Đèn khẩn cấp",
-    "flagged_text": "báo hiệu bằng đèn khẩn cấp",
-    "matched_relation_keyphrase": "cấp"
-  },
-  {
-    "concept": "Đèn khẩn cấp",
-    "flagged_text": "báo hiệu bằng đèn khẩn cấp",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Đèn khẩn cấp",
-    "flagged_text": "báo hiệu bằng đèn khẩn cấp",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
     "concept": "Biển cảnh báo",
     "flagged_text": "Biển cảnh báo",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển cảnh báo",
-    "flagged_text": "biển cảnh báo",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển cảnh báo",
-    "flagged_text": "chú ý xe đỗ",
-    "matched_relation_keyphrase": "đỗ xe"
-  },
-  {
-    "concept": "Biển cảnh báo",
-    "flagged_text": "chú ý xe đỗ",
-    "matched_relation_keyphrase": "đỗ"
-  },
-  {
-    "concept": "Biển cảnh báo",
-    "flagged_text": "biển cảnh báo \"chú ý xe đỗ\"",
-    "matched_relation_keyphrase": "đỗ xe"
-  },
-  {
-    "concept": "Biển cảnh báo",
-    "flagged_text": "biển cảnh báo \"chú ý xe đỗ\"",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Biển cảnh báo",
-    "flagged_text": "biển cảnh báo \"chú ý xe đỗ\"",
-    "matched_relation_keyphrase": "đỗ"
-  },
-  {
-    "concept": "Biển cảnh báo",
-    "flagged_text": "đèn cảnh báo",
     "matched_relation_keyphrase": "báo"
   },
   {
@@ -321,68 +361,13 @@
   },
   {
     "concept": "Xe được kéo",
-    "flagged_text": "xe được kéo",
-    "matched_relation_keyphrase": "kéo"
+    "flagged_text": "Xe được kéo",
+    "matched_relation_keyphrase": "được"
   },
   {
-    "concept": "Làn đường",
-    "flagged_text": "làn đường quy định",
-    "matched_relation_keyphrase": "quy định"
-  },
-  {
-    "concept": "Quy định nhường đường",
-    "flagged_text": "Quy định nhường đường",
+    "concept": "Nhường đường",
+    "flagged_text": "Nhường đường",
     "matched_relation_keyphrase": "nhường"
-  },
-  {
-    "concept": "Quy định nhường đường",
-    "flagged_text": "Quy định nhường đường",
-    "matched_relation_keyphrase": "quy định"
-  },
-  {
-    "concept": "Quy định nhường đường",
-    "flagged_text": "quy định về nhường đường",
-    "matched_relation_keyphrase": "nhường"
-  },
-  {
-    "concept": "Quy định nhường đường",
-    "flagged_text": "quy định về nhường đường",
-    "matched_relation_keyphrase": "quy định"
-  },
-  {
-    "concept": "Quy định nhường đường",
-    "flagged_text": "quy định về nhường đường",
-    "matched_relation_keyphrase": "về"
-  },
-  {
-    "concept": "Giao lộ",
-    "flagged_text": "nơi đường bộ giao nhau",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Giao lộ",
-    "flagged_text": "vị trí nơi đường bộ giao nhau",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Phần đường xe chạy",
-    "flagged_text": "Phần đường xe chạy",
-    "matched_relation_keyphrase": "chạy"
-  },
-  {
-    "concept": "Phần đường xe chạy",
-    "flagged_text": "phần đường xe chạy",
-    "matched_relation_keyphrase": "chạy"
-  },
-  {
-    "concept": "Tốc độ quy định",
-    "flagged_text": "Tốc độ quy định",
-    "matched_relation_keyphrase": "quy định"
-  },
-  {
-    "concept": "Tốc độ quy định",
-    "flagged_text": "tốc độ quy định",
-    "matched_relation_keyphrase": "quy định"
   },
   {
     "concept": "Người đi bộ",
@@ -390,194 +375,24 @@
     "matched_relation_keyphrase": "đi"
   },
   {
-    "concept": "Người đi bộ",
-    "flagged_text": "người đi bộ",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Người đi bộ",
-    "flagged_text": "người đi bộ qua đường",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Người đi bộ",
-    "flagged_text": "người đi bộ qua đường",
-    "matched_relation_keyphrase": "đi qua"
-  },
-  {
-    "concept": "Người đi bộ",
-    "flagged_text": "xe lăn của người khuyết tật",
-    "matched_relation_keyphrase": "của"
-  },
-  {
     "concept": "Quan sát",
     "flagged_text": "Quan sát",
     "matched_relation_keyphrase": "sát"
   },
   {
-    "concept": "Quan sát",
-    "flagged_text": "quan sát",
-    "matched_relation_keyphrase": "sát"
-  },
-  {
-    "concept": "Khoảng cách an toàn",
-    "flagged_text": "khoảng cách an toàn đối với xe chạy liền trước",
-    "matched_relation_keyphrase": "chạy"
-  },
-  {
-    "concept": "Khoảng cách an toàn",
-    "flagged_text": "khoảng cách an toàn đối với xe chạy liền trước",
-    "matched_relation_keyphrase": "với"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "Quy định dừng đỗ xe",
-    "matched_relation_keyphrase": "dừng xe"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "Quy định dừng đỗ xe",
-    "matched_relation_keyphrase": "đỗ xe"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "Quy định dừng đỗ xe",
+    "concept": "Thu phí điện tử tự động không dừng",
+    "flagged_text": "Thu phí điện tử tự động không dừng",
     "matched_relation_keyphrase": "dừng"
   },
   {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "Quy định dừng đỗ xe",
-    "matched_relation_keyphrase": "quy định"
+    "concept": "Thu phí điện tử tự động không dừng",
+    "flagged_text": "thu phí theo hình thức điện tử tự động không dừng",
+    "matched_relation_keyphrase": "theo"
   },
   {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "Quy định dừng đỗ xe",
-    "matched_relation_keyphrase": "đỗ"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "quy định về dừng xe",
-    "matched_relation_keyphrase": "dừng xe"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "quy định về dừng xe",
-    "matched_relation_keyphrase": "dừng"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "quy định về dừng xe",
-    "matched_relation_keyphrase": "quy định"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "quy định về dừng xe",
-    "matched_relation_keyphrase": "về"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "quy định về đỗ xe",
-    "matched_relation_keyphrase": "đỗ xe"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "quy định về đỗ xe",
-    "matched_relation_keyphrase": "quy định"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "quy định về đỗ xe",
-    "matched_relation_keyphrase": "về"
-  },
-  {
-    "concept": "Quy định dừng đỗ xe",
-    "flagged_text": "quy định về đỗ xe",
-    "matched_relation_keyphrase": "đỗ"
-  },
-  {
-    "concept": "Giao lộ đường sắt",
-    "flagged_text": "nơi đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "với"
-  },
-  {
-    "concept": "Giao lộ đường sắt",
-    "flagged_text": "nơi đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Giao lộ đường sắt",
-    "flagged_text": "đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "với"
-  },
-  {
-    "concept": "Xe khác",
-    "flagged_text": "xe được kéo",
-    "matched_relation_keyphrase": "kéo"
-  },
-  {
-    "concept": "Xe khác",
-    "flagged_text": "các xe khác đi cùng chiều",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Hành khách",
-    "flagged_text": "người ngồi trên xe",
-    "matched_relation_keyphrase": "trên"
-  },
-  {
-    "concept": "Hành khách",
-    "flagged_text": "người ngồi trên xe",
-    "matched_relation_keyphrase": "ngồi"
-  },
-  {
-    "concept": "Hàng ghế lái xe",
-    "flagged_text": "hàng ghế với người lái xe",
-    "matched_relation_keyphrase": "với"
-  },
-  {
-    "concept": "Làn đường bên phải",
-    "flagged_text": "làn đường bên phải chiều đi của mình",
-    "matched_relation_keyphrase": "của"
-  },
-  {
-    "concept": "Làn đường bên phải",
-    "flagged_text": "làn đường bên phải chiều đi của mình",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Làn đường bên phải",
-    "flagged_text": "làn đường bên phải chiều đi của mình",
-    "matched_relation_keyphrase": "đi bên phải"
-  },
-  {
-    "concept": "Thu phí điện tử không dừng",
-    "flagged_text": "Thu phí điện tử không dừng",
-    "matched_relation_keyphrase": "dừng"
-  },
-  {
-    "concept": "Thu phí điện tử không dừng",
+    "concept": "Thu phí điện tử tự động không dừng",
     "flagged_text": "thu phí theo hình thức điện tử tự động không dừng",
     "matched_relation_keyphrase": "dừng"
-  },
-  {
-    "concept": "Bên trái đường đôi",
-    "flagged_text": "bên trái (theo hướng lưu thông) của đường đôi",
-    "matched_relation_keyphrase": "của"
-  },
-  {
-    "concept": "Khu vực tầm nhìn bị che khuất",
-    "flagged_text": "Khu vực tầm nhìn bị che khuất",
-    "matched_relation_keyphrase": "che khuất"
-  },
-  {
-    "concept": "Khu vực tầm nhìn bị che khuất",
-    "flagged_text": "gần đầu dốc nơi tầm nhìn bị che khuất",
-    "matched_relation_keyphrase": "che khuất"
-  },
-  {
-    "concept": "Khu vực tầm nhìn bị che khuất",
-    "flagged_text": "gần đầu dốc nơi tầm nhìn bị che khuất",
-    "matched_relation_keyphrase": "nơi"
   },
   {
     "concept": "Gầm cầu vượt",
@@ -585,18 +400,8 @@
     "matched_relation_keyphrase": "vượt"
   },
   {
-    "concept": "Gầm cầu vượt",
-    "flagged_text": "gầm cầu vượt",
-    "matched_relation_keyphrase": "vượt"
-  },
-  {
     "concept": "Biện pháp bảo đảm an toàn",
     "flagged_text": "Biện pháp bảo đảm an toàn",
-    "matched_relation_keyphrase": "bảo đảm"
-  },
-  {
-    "concept": "Biện pháp bảo đảm an toàn",
-    "flagged_text": "biện pháp bảo đảm an toàn",
     "matched_relation_keyphrase": "bảo đảm"
   },
   {
@@ -606,18 +411,8 @@
   },
   {
     "concept": "Đường bộ giao nhau cùng mức với đường sắt",
-    "flagged_text": "nơi đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "với"
-  },
-  {
-    "concept": "Đường bộ giao nhau cùng mức với đường sắt",
-    "flagged_text": "nơi đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Xe xin vượt",
-    "flagged_text": "Xe xin vượt",
-    "matched_relation_keyphrase": "vượt xe"
+    "flagged_text": "Đường bộ giao nhau cùng mức với đường sắt",
+    "matched_relation_keyphrase": "giao nhau cùng mức"
   },
   {
     "concept": "Xe xin vượt",
@@ -625,43 +420,8 @@
     "matched_relation_keyphrase": "vượt"
   },
   {
-    "concept": "Xe xin vượt",
-    "flagged_text": "xe xin vượt",
-    "matched_relation_keyphrase": "vượt xe"
-  },
-  {
-    "concept": "Xe xin vượt",
-    "flagged_text": "xe xin vượt",
-    "matched_relation_keyphrase": "vượt"
-  },
-  {
-    "concept": "Báo hiệu bằng đèn khẩn cấp",
-    "flagged_text": "Báo hiệu bằng đèn khẩn cấp",
-    "matched_relation_keyphrase": "cấp"
-  },
-  {
-    "concept": "Báo hiệu bằng đèn khẩn cấp",
-    "flagged_text": "Báo hiệu bằng đèn khẩn cấp",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Báo hiệu bằng đèn khẩn cấp",
-    "flagged_text": "Báo hiệu bằng đèn khẩn cấp",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Báo hiệu bằng đèn khẩn cấp",
-    "flagged_text": "báo hiệu bằng đèn khẩn cấp",
-    "matched_relation_keyphrase": "cấp"
-  },
-  {
-    "concept": "Báo hiệu bằng đèn khẩn cấp",
-    "flagged_text": "báo hiệu bằng đèn khẩn cấp",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Báo hiệu bằng đèn khẩn cấp",
-    "flagged_text": "báo hiệu bằng đèn khẩn cấp",
+    "concept": "Đèn cảnh báo",
+    "flagged_text": "Đèn cảnh báo",
     "matched_relation_keyphrase": "báo"
   },
   {
@@ -670,39 +430,14 @@
     "matched_relation_keyphrase": "đi"
   },
   {
-    "concept": "Đi ngược chiều",
-    "flagged_text": "đi ngược chiều",
-    "matched_relation_keyphrase": "đi"
+    "concept": "Nơi đường bộ giao nhau cùng mức với đường sắt",
+    "flagged_text": "Nơi đường bộ giao nhau cùng mức với đường sắt",
+    "matched_relation_keyphrase": "với"
   },
   {
-    "concept": "Khu vực cấm dừng",
-    "flagged_text": "Khu vực cấm dừng",
-    "matched_relation_keyphrase": "cấm"
-  },
-  {
-    "concept": "Khu vực cấm dừng",
-    "flagged_text": "Khu vực cấm dừng",
-    "matched_relation_keyphrase": "dừng"
-  },
-  {
-    "concept": "Khu vực cấm dừng",
-    "flagged_text": "khu vực cấm dừng",
-    "matched_relation_keyphrase": "cấm"
-  },
-  {
-    "concept": "Khu vực cấm dừng",
-    "flagged_text": "khu vực cấm dừng",
-    "matched_relation_keyphrase": "dừng"
-  },
-  {
-    "concept": "Nơi đường bộ giao nhau",
-    "flagged_text": "Nơi đường bộ giao nhau",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Nơi đường bộ giao nhau",
-    "flagged_text": "nơi đường bộ giao nhau",
-    "matched_relation_keyphrase": "nơi"
+    "concept": "Nơi đường bộ giao nhau cùng mức với đường sắt",
+    "flagged_text": "Nơi đường bộ giao nhau cùng mức với đường sắt",
+    "matched_relation_keyphrase": "giao nhau cùng mức"
   },
   {
     "concept": "Nơi tầm nhìn bị che khuất",
@@ -710,54 +445,19 @@
     "matched_relation_keyphrase": "che khuất"
   },
   {
-    "concept": "Nơi tầm nhìn bị che khuất",
-    "flagged_text": "Nơi tầm nhìn bị che khuất",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Nơi tầm nhìn bị che khuất",
-    "flagged_text": "nơi tầm nhìn bị che khuất",
-    "matched_relation_keyphrase": "che khuất"
-  },
-  {
-    "concept": "Nơi tầm nhìn bị che khuất",
-    "flagged_text": "nơi tầm nhìn bị che khuất",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Nơi tầm nhìn bị che khuất",
-    "flagged_text": "đoạn đường cong tầm nhìn bị che khuất",
-    "matched_relation_keyphrase": "che khuất"
-  },
-  {
-    "concept": "Tín hiệu lùi xe",
-    "flagged_text": "Tín hiệu lùi xe",
-    "matched_relation_keyphrase": "lùi xe"
-  },
-  {
     "concept": "Tín hiệu lùi xe",
     "flagged_text": "Tín hiệu lùi xe",
     "matched_relation_keyphrase": "lùi"
   },
   {
-    "concept": "Tín hiệu lùi xe",
-    "flagged_text": "tín hiệu lùi xe",
-    "matched_relation_keyphrase": "lùi xe"
-  },
-  {
-    "concept": "Tín hiệu lùi xe",
-    "flagged_text": "tín hiệu lùi xe",
-    "matched_relation_keyphrase": "lùi"
-  },
-  {
-    "concept": "Xe được quyền ưu tiên",
-    "flagged_text": "Xe được quyền ưu tiên",
-    "matched_relation_keyphrase": "được quyền"
-  },
-  {
-    "concept": "Xe được quyền ưu tiên",
+    "concept": "Xe ưu tiên",
     "flagged_text": "xe được quyền ưu tiên",
     "matched_relation_keyphrase": "được quyền"
+  },
+  {
+    "concept": "Xe ưu tiên",
+    "flagged_text": "xe được quyền ưu tiên",
+    "matched_relation_keyphrase": "được"
   },
   {
     "concept": "Thiết bị phát tín hiệu ưu tiên",
@@ -765,69 +465,19 @@
     "matched_relation_keyphrase": "phát"
   },
   {
-    "concept": "Thiết bị phát tín hiệu ưu tiên",
-    "flagged_text": "thiết bị phát tín hiệu ưu tiên",
-    "matched_relation_keyphrase": "phát"
+    "concept": "Đoạn đường cong tầm nhìn bị che khuất",
+    "flagged_text": "Đoạn đường cong tầm nhìn bị che khuất",
+    "matched_relation_keyphrase": "che khuất"
   },
   {
-    "concept": "Cơ quan có thẩm quyền",
-    "flagged_text": "Cơ quan có thẩm quyền",
-    "matched_relation_keyphrase": "có"
-  },
-  {
-    "concept": "Cơ quan có thẩm quyền",
-    "flagged_text": "cơ quan có thẩm quyền cấp",
-    "matched_relation_keyphrase": "cấp"
-  },
-  {
-    "concept": "Cơ quan có thẩm quyền",
-    "flagged_text": "cơ quan có thẩm quyền cấp",
-    "matched_relation_keyphrase": "có"
-  },
-  {
-    "concept": "Giá trị sử dụng",
-    "flagged_text": "Giá trị sử dụng",
-    "matched_relation_keyphrase": "sử dụng"
-  },
-  {
-    "concept": "Giá trị sử dụng",
-    "flagged_text": "giá trị sử dụng",
-    "matched_relation_keyphrase": "sử dụng"
-  },
-  {
-    "concept": "Xe chạy liền trước",
-    "flagged_text": "Xe chạy liền trước",
-    "matched_relation_keyphrase": "chạy"
-  },
-  {
-    "concept": "Xe chạy liền trước",
-    "flagged_text": "xe chạy liền trước",
-    "matched_relation_keyphrase": "chạy"
-  },
-  {
-    "concept": "Tín hiệu vượt xe",
-    "flagged_text": "Tín hiệu vượt xe",
-    "matched_relation_keyphrase": "vượt xe"
+    "concept": "Vượt xe",
+    "flagged_text": "Vượt xe",
+    "matched_relation_keyphrase": "vượt"
   },
   {
     "concept": "Tín hiệu vượt xe",
     "flagged_text": "Tín hiệu vượt xe",
     "matched_relation_keyphrase": "vượt"
-  },
-  {
-    "concept": "Tín hiệu vượt xe",
-    "flagged_text": "tín hiệu vượt xe",
-    "matched_relation_keyphrase": "vượt xe"
-  },
-  {
-    "concept": "Tín hiệu vượt xe",
-    "flagged_text": "tín hiệu vượt xe",
-    "matched_relation_keyphrase": "vượt"
-  },
-  {
-    "concept": "Xe đi ngược chiều",
-    "flagged_text": "Xe đi ngược chiều",
-    "matched_relation_keyphrase": "đi"
   },
   {
     "concept": "Xe đi ngược chiều",
@@ -836,15 +486,10 @@
   },
   {
     "concept": "Xe đi ngược chiều",
-    "flagged_text": "xe đi ngược chiều",
+    "flagged_text": "Xe đi ngược chiều",
     "matched_relation_keyphrase": "đi"
   },
   {
-    "concept": "Xe đi ngược chiều",
-    "flagged_text": "xe đi ngược chiều",
-    "matched_relation_keyphrase": "đi ngược chiều"
-  },
-  {
     "concept": "Làn dừng xe khẩn cấp",
     "flagged_text": "Làn dừng xe khẩn cấp",
     "matched_relation_keyphrase": "cấp"
@@ -852,31 +497,11 @@
   {
     "concept": "Làn dừng xe khẩn cấp",
     "flagged_text": "Làn dừng xe khẩn cấp",
-    "matched_relation_keyphrase": "dừng xe"
-  },
-  {
-    "concept": "Làn dừng xe khẩn cấp",
-    "flagged_text": "Làn dừng xe khẩn cấp",
     "matched_relation_keyphrase": "dừng"
   },
   {
-    "concept": "Làn dừng xe khẩn cấp",
-    "flagged_text": "làn dừng xe khẩn cấp",
-    "matched_relation_keyphrase": "cấp"
-  },
-  {
-    "concept": "Làn dừng xe khẩn cấp",
-    "flagged_text": "làn dừng xe khẩn cấp",
-    "matched_relation_keyphrase": "dừng xe"
-  },
-  {
-    "concept": "Làn dừng xe khẩn cấp",
-    "flagged_text": "làn dừng xe khẩn cấp",
-    "matched_relation_keyphrase": "dừng"
-  },
-  {
-    "concept": "Tốc độ",
-    "flagged_text": "tốc độ quy định",
+    "concept": "Tốc độ quy định",
+    "flagged_text": "Tốc độ quy định",
     "matched_relation_keyphrase": "quy định"
   },
   {
@@ -885,34 +510,14 @@
     "matched_relation_keyphrase": "phát"
   },
   {
-    "concept": "Thiết bị phát tín hiệu",
-    "flagged_text": "thiết bị phát tín hiệu",
-    "matched_relation_keyphrase": "phát"
-  },
-  {
-    "concept": "Xe ưu tiên",
-    "flagged_text": "xe được quyền ưu tiên",
-    "matched_relation_keyphrase": "được quyền"
-  },
-  {
-    "concept": "Tín hiệu báo trước",
-    "flagged_text": "Tín hiệu báo trước",
-    "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
     "concept": "Tín hiệu báo trước",
     "flagged_text": "Tín hiệu báo trước",
     "matched_relation_keyphrase": "báo"
   },
   {
     "concept": "Tín hiệu báo trước",
-    "flagged_text": "tín hiệu báo trước",
+    "flagged_text": "Tín hiệu báo trước",
     "matched_relation_keyphrase": "báo hiệu"
-  },
-  {
-    "concept": "Tín hiệu báo trước",
-    "flagged_text": "tín hiệu báo trước",
-    "matched_relation_keyphrase": "báo"
   },
   {
     "concept": "Khu vực cấm",
@@ -920,11 +525,6 @@
     "matched_relation_keyphrase": "cấm"
   },
   {
-    "concept": "Khu vực cấm",
-    "flagged_text": "khu vực cấm",
-    "matched_relation_keyphrase": "cấm"
-  },
-  {
     "concept": "Đi vào",
     "flagged_text": "Đi vào",
     "matched_relation_keyphrase": "vào"
@@ -935,39 +535,94 @@
     "matched_relation_keyphrase": "đi"
   },
   {
-    "concept": "Đi vào",
-    "flagged_text": "đi vào",
-    "matched_relation_keyphrase": "vào"
+    "concept": "Xe đi đến từ bên phải",
+    "flagged_text": "Xe đi đến từ bên phải",
+    "matched_relation_keyphrase": "từ"
   },
   {
-    "concept": "Đi vào",
-    "flagged_text": "đi vào",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Nhường đường",
-    "flagged_text": "Nhường đường",
-    "matched_relation_keyphrase": "nhường"
-  },
-  {
-    "concept": "Nhường đường",
-    "flagged_text": "nhường đường",
-    "matched_relation_keyphrase": "nhường"
-  },
-  {
-    "concept": "Xe đến từ bên phải",
-    "flagged_text": "xe đi đến từ bên phải",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Xe đến từ bên phải",
-    "flagged_text": "xe đi đến từ bên phải",
+    "concept": "Xe đi đến từ bên phải",
+    "flagged_text": "Xe đi đến từ bên phải",
     "matched_relation_keyphrase": "đi bên phải"
   },
   {
-    "concept": "Xe đến từ bên trái",
-    "flagged_text": "xe đi đến từ bên trái",
+    "concept": "Xe đi đến từ bên phải",
+    "flagged_text": "Xe đi đến từ bên phải",
     "matched_relation_keyphrase": "đi"
+  },
+  {
+    "concept": "Xe đi đến từ bên trái",
+    "flagged_text": "Xe đi đến từ bên trái",
+    "matched_relation_keyphrase": "từ"
+  },
+  {
+    "concept": "Xe đi đến từ bên trái",
+    "flagged_text": "Xe đi đến từ bên trái",
+    "matched_relation_keyphrase": "đi"
+  },
+  {
+    "concept": "Báo hiệu đi theo vòng xuyến",
+    "flagged_text": "Báo hiệu đi theo vòng xuyến",
+    "matched_relation_keyphrase": "báo"
+  },
+  {
+    "concept": "Báo hiệu đi theo vòng xuyến",
+    "flagged_text": "Báo hiệu đi theo vòng xuyến",
+    "matched_relation_keyphrase": "đi"
+  },
+  {
+    "concept": "Báo hiệu đi theo vòng xuyến",
+    "flagged_text": "Báo hiệu đi theo vòng xuyến",
+    "matched_relation_keyphrase": "theo"
+  },
+  {
+    "concept": "Báo hiệu đi theo vòng xuyến",
+    "flagged_text": "Báo hiệu đi theo vòng xuyến",
+    "matched_relation_keyphrase": "báo hiệu"
+  },
+  {
+    "concept": "Xe bốn bánh có gắn động cơ",
+    "flagged_text": "Xe bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "gắn"
+  },
+  {
+    "concept": "Xe bốn bánh có gắn động cơ",
+    "flagged_text": "Xe bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "có"
+  },
+  {
+    "concept": "Xe bốn bánh có gắn động cơ",
+    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "gắn"
+  },
+  {
+    "concept": "Xe bốn bánh có gắn động cơ",
+    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "chở"
+  },
+  {
+    "concept": "Xe bốn bánh có gắn động cơ",
+    "flagged_text": "xe chở người bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "có"
+  },
+  {
+    "concept": "Xe bốn bánh có gắn động cơ",
+    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "gắn"
+  },
+  {
+    "concept": "Xe bốn bánh có gắn động cơ",
+    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "chở"
+  },
+  {
+    "concept": "Xe bốn bánh có gắn động cơ",
+    "flagged_text": "xe chở hàng bốn bánh có gắn động cơ",
+    "matched_relation_keyphrase": "có"
+  },
+  {
+    "concept": "Báo hiệu",
+    "flagged_text": "Báo hiệu",
+    "matched_relation_keyphrase": "báo"
   },
   {
     "concept": "Người điều khiển giao thông",
@@ -975,49 +630,9 @@
     "matched_relation_keyphrase": "điều khiển"
   },
   {
-    "concept": "Người điều khiển giao thông",
-    "flagged_text": "người điều khiển giao thông",
-    "matched_relation_keyphrase": "điều khiển"
-  },
-  {
-    "concept": "Kiểm tra nồng độ cồn",
-    "flagged_text": "yêu cầu kiểm tra về nồng độ cồn",
-    "matched_relation_keyphrase": "về"
-  },
-  {
-    "concept": "Kiểm tra ma túy",
-    "flagged_text": "yêu cầu kiểm tra về chất ma túy",
-    "matched_relation_keyphrase": "về"
-  },
-  {
-    "concept": "Kiểm tra chất kích thích",
-    "flagged_text": "yêu cầu kiểm tra về chất kích thích khác",
-    "matched_relation_keyphrase": "về"
-  },
-  {
-    "concept": "Hành vi vi phạm",
-    "flagged_text": "Hành vi vi phạm",
-    "matched_relation_keyphrase": "vi phạm"
-  },
-  {
-    "concept": "Hành vi vi phạm",
-    "flagged_text": "hành vi vi phạm",
-    "matched_relation_keyphrase": "vi phạm"
-  },
-  {
-    "concept": "Hành vi vi phạm",
-    "flagged_text": "hành vi điều khiển xe lạng lách",
-    "matched_relation_keyphrase": "điều khiển"
-  },
-  {
-    "concept": "Hành vi vi phạm",
-    "flagged_text": "hành vi điều khiển xe lạng lách",
-    "matched_relation_keyphrase": "lạng lách"
-  },
-  {
-    "concept": "Hành vi vi phạm",
-    "flagged_text": "hành vi đánh võng",
-    "matched_relation_keyphrase": "đánh võng"
+    "concept": "Hình thức xử phạt bổ sung",
+    "flagged_text": "Hình thức xử phạt bổ sung",
+    "matched_relation_keyphrase": "xử phạt"
   },
   {
     "concept": "Xe máy",
@@ -1030,49 +645,24 @@
     "matched_relation_keyphrase": "gắn"
   },
   {
-    "concept": "Vượt xe",
-    "flagged_text": "Vượt xe",
-    "matched_relation_keyphrase": "vượt"
+    "concept": "Hành khách",
+    "flagged_text": "người ngồi trên xe",
+    "matched_relation_keyphrase": "ngồi"
   },
   {
-    "concept": "Vượt xe",
-    "flagged_text": "vượt xe",
-    "matched_relation_keyphrase": "vượt"
-  },
-  {
-    "concept": "Dừng",
-    "flagged_text": "dừng xe",
-    "matched_relation_keyphrase": "dừng"
-  },
-  {
-    "concept": "Đỗ",
-    "flagged_text": "đỗ xe",
-    "matched_relation_keyphrase": "đỗ"
-  },
-  {
-    "concept": "Nơi đường bộ giao nhau cùng mức với đường sắt",
-    "flagged_text": "Nơi đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "với"
-  },
-  {
-    "concept": "Nơi đường bộ giao nhau cùng mức với đường sắt",
-    "flagged_text": "Nơi đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Nơi đường bộ giao nhau cùng mức với đường sắt",
-    "flagged_text": "nơi đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "với"
-  },
-  {
-    "concept": "Nơi đường bộ giao nhau cùng mức với đường sắt",
-    "flagged_text": "nơi đường bộ giao nhau cùng mức với đường sắt",
-    "matched_relation_keyphrase": "nơi"
-  },
-  {
-    "concept": "Người ngồi trên xe",
-    "flagged_text": "Người ngồi trên xe",
+    "concept": "Hành khách",
+    "flagged_text": "người ngồi trên xe",
     "matched_relation_keyphrase": "trên"
+  },
+  {
+    "concept": "Đường giao nhau cùng mức với đường sắt",
+    "flagged_text": "Đường giao nhau cùng mức với đường sắt",
+    "matched_relation_keyphrase": "với"
+  },
+  {
+    "concept": "Đường giao nhau cùng mức với đường sắt",
+    "flagged_text": "Đường giao nhau cùng mức với đường sắt",
+    "matched_relation_keyphrase": "giao nhau cùng mức"
   },
   {
     "concept": "Người ngồi trên xe",
@@ -1080,9 +670,9 @@
     "matched_relation_keyphrase": "ngồi"
   },
   {
-    "concept": "Tín hiệu báo hướng rẽ",
-    "flagged_text": "Tín hiệu báo hướng rẽ",
-    "matched_relation_keyphrase": "báo hiệu"
+    "concept": "Người ngồi trên xe",
+    "flagged_text": "Người ngồi trên xe",
+    "matched_relation_keyphrase": "trên"
   },
   {
     "concept": "Tín hiệu báo hướng rẽ",
@@ -1090,39 +680,14 @@
     "matched_relation_keyphrase": "báo"
   },
   {
-    "concept": "Xe đi đến từ bên phải",
-    "flagged_text": "Xe đi đến từ bên phải",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Xe đi đến từ bên phải",
-    "flagged_text": "Xe đi đến từ bên phải",
-    "matched_relation_keyphrase": "đi bên phải"
-  },
-  {
-    "concept": "Xe đi đến từ bên trái",
-    "flagged_text": "Xe đi đến từ bên trái",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Báo hiệu đi theo vòng xuyến",
-    "flagged_text": "Báo hiệu đi theo vòng xuyến",
+    "concept": "Tín hiệu báo hướng rẽ",
+    "flagged_text": "Tín hiệu báo hướng rẽ",
     "matched_relation_keyphrase": "báo hiệu"
   },
   {
-    "concept": "Báo hiệu đi theo vòng xuyến",
-    "flagged_text": "Báo hiệu đi theo vòng xuyến",
-    "matched_relation_keyphrase": "đi"
-  },
-  {
-    "concept": "Báo hiệu đi theo vòng xuyến",
-    "flagged_text": "Báo hiệu đi theo vòng xuyến",
-    "matched_relation_keyphrase": "báo"
-  },
-  {
-    "concept": "Báo hiệu đi theo vòng xuyến",
-    "flagged_text": "Báo hiệu đi theo vòng xuyến",
-    "matched_relation_keyphrase": "đi theo"
+    "concept": "Kiểm tra nồng độ cồn",
+    "flagged_text": "yêu cầu kiểm tra về nồng độ cồn",
+    "matched_relation_keyphrase": "về"
   },
   {
     "concept": "Người ngồi trước",
@@ -1135,24 +700,9 @@
     "matched_relation_keyphrase": "cản trở"
   },
   {
-    "concept": "Rú ga",
-    "flagged_text": "Rú ga",
-    "matched_relation_keyphrase": "rú"
-  },
-  {
-    "concept": "Quyền sử dụng",
-    "flagged_text": "Quyền sử dụng",
-    "matched_relation_keyphrase": "sử dụng"
-  },
-  {
     "concept": "Xe máy chuyên dùng",
     "flagged_text": "Xe máy chuyên dùng",
     "matched_relation_keyphrase": "dùng"
-  },
-  {
-    "concept": "Phanh đỗ xe",
-    "flagged_text": "Phanh đỗ xe",
-    "matched_relation_keyphrase": "đỗ xe"
   },
   {
     "concept": "Phanh đỗ xe",
@@ -1167,21 +717,41 @@
   {
     "concept": "Phạm vi an toàn của đường sắt",
     "flagged_text": "Phạm vi an toàn của đường sắt",
-    "matched_relation_keyphrase": "của"
+    "matched_relation_keyphrase": "vi phạm"
   },
   {
     "concept": "Phạm vi an toàn của đường sắt",
     "flagged_text": "Phạm vi an toàn của đường sắt",
-    "matched_relation_keyphrase": "vi phạm"
+    "matched_relation_keyphrase": "của"
   },
   {
-    "concept": "Đoạn đường cong tầm nhìn bị che khuất",
-    "flagged_text": "Đoạn đường cong tầm nhìn bị che khuất",
-    "matched_relation_keyphrase": "che khuất"
+    "concept": "Khu vực cấm dừng",
+    "flagged_text": "Khu vực cấm dừng",
+    "matched_relation_keyphrase": "cấm"
   },
   {
-    "concept": "Đèn cảnh báo",
-    "flagged_text": "Đèn cảnh báo",
+    "concept": "Khu vực cấm dừng",
+    "flagged_text": "Khu vực cấm dừng",
+    "matched_relation_keyphrase": "dừng"
+  },
+  {
+    "concept": "Báo hiệu bằng đèn khẩn cấp",
+    "flagged_text": "Báo hiệu bằng đèn khẩn cấp",
     "matched_relation_keyphrase": "báo"
+  },
+  {
+    "concept": "Báo hiệu bằng đèn khẩn cấp",
+    "flagged_text": "Báo hiệu bằng đèn khẩn cấp",
+    "matched_relation_keyphrase": "bằng"
+  },
+  {
+    "concept": "Báo hiệu bằng đèn khẩn cấp",
+    "flagged_text": "Báo hiệu bằng đèn khẩn cấp",
+    "matched_relation_keyphrase": "cấp"
+  },
+  {
+    "concept": "Báo hiệu bằng đèn khẩn cấp",
+    "flagged_text": "Báo hiệu bằng đèn khẩn cấp",
+    "matched_relation_keyphrase": "báo hiệu"
   }
 ]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "s141",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 16 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô thực hiện hành vi quy định tại điểm h khoản 5; khoản 6; điểm b khoản 7; điểm b, điểm c, điểm d khoản 9."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]}
+    ]
+  },
+  {
+    "id": "s142",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 16 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô thực hiện hành vi quy định tại điểm p khoản 5; điểm a, điểm c khoản 7; khoản 8."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]}
+    ]
+  },
+  {
+    "id": "s143",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 16 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô thực hiện hành vi quy định tại điểm a khoản 9, khoản 10, điểm đ khoản 11."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]}
+    ]
+  },
+  {
+    "id": "s144",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Vạch kẻ đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s145",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không có tín hiệu trước khi vượt hoặc có tín hiệu vượt xe nhưng không sử dụng trong suốt quá trình vượt xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Vượt", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s146",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy lùi xe mô tô ba bánh không quan sát hai bên, phía sau xe hoặc không có tín hiệu lùi xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Lùi", "o": "Xe mô tô ba bánh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Quan sát", "o": "Hai bên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Quan sát", "o": "Phía sau xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s147",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy chở người ngồi trên xe sử dụng ô (dù)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Chở", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["người ngồi trên xe"]},
+      {"s": "Hành khách", "v": "Sử dụng", "o": "Ô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["dù"]}
+    ]
+  },
+  {
+    "id": "s148",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không tuân thủ các quy định về nhường đường tại nơi đường giao nhau."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Nhường", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường giao nhau",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s149",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước hoặc chuyển làn đường không đúng quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Chuyển làn", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s150",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không sử dụng đèn chiếu sáng trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Đèn chiếu sáng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

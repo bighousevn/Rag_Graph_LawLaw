@@ -1,0 +1,162 @@
+[
+  {
+    "id": "s21",
+    "path": "Chương I - Điều 3 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thể bị đình chỉ hoạt động có thời hạn."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Đình chỉ", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Đình chỉ", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s22",
+    "path": "Chương I - Điều 3 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thể bị tịch thu tang vật vi phạm hành chính, phương tiện được sử dụng để vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s23",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra."
+    ],
+    "triplets": [
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Khôi phục", "o": "Tình trạng ban đầu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s24",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc thực hiện biện pháp khắc phục tình trạng ô nhiễm môi trường do vi phạm hành chính gây ra."
+    ],
+    "triplets": [
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Khắc phục", "o": "Ô nhiễm môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s25",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc tái xuất phương tiện khỏi Việt Nam."
+    ],
+    "triplets": [
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Tái xuất", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s26",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Nộp", "o": "Số lợi bất hợp pháp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s27",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc phá dỡ các vật che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông."
+    ],
+    "triplets": [
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Phá dỡ", "o": "Vật che khuất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật che khuất", "v": "Che khuất", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường bộ"]},
+      {"s": "Vật che khuất", "v": "Che khuất", "o": "Đèn tín hiệu giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s28",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn, quy chuẩn an toàn kỹ thuật hoặc khôi phục lại tính năng kỹ thuật của phương tiện, thiết bị."
+    ],
+    "triplets": [
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Lắp", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Thay thế", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Khôi phục", "o": "Tính năng kỹ thuật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính năng kỹ thuật", "v": "Thuộc", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính năng kỹ thuật", "v": "Thuộc", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s29",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc cấp thẻ nhận dạng lái xe cho lái xe."
+    ],
+    "triplets": [
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Cấp", "o": "Thẻ nhận dạng lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thẻ nhận dạng lái xe", "v": "Dành cho", "o": "Lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s30",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc tổ chức tập huấn, hướng dẫn nghiệp vụ, quy trình hoặc tổ chức khám sức khỏe định kỳ cho lái xe và nhân viên phục vụ trên xe."
+    ],
+    "triplets": [
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Tổ chức", "o": "Tập huấn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tập huấn", "v": "Dành cho", "o": "Lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tập huấn", "v": "Dành cho", "o": "Nhân viên phục vụ trên xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biện pháp khắc phục hậu quả", "v": "Tổ chức", "o": "Khám sức khỏe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khám sức khỏe", "v": "Dành cho", "o": "Lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khám sức khỏe", "v": "Dành cho", "o": "Nhân viên phục vụ trên xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

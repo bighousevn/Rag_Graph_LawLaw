@@ -1,0 +1,217 @@
+[
+  {
+    "id": "s61",
+    "path": "Chương I - Điều 5 - Khoản 6",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt tước quyền sử dụng giấy phép lái xe không thời hạn đối với người điều khiển xe mô tô, xe tương tự xe mô tô hoặc tước quyền sử dụng giấy phép lái xe có thời hạn đối với người điều khiển xe ô tô, xe tương tự xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ khi thực hiện hành vi vi phạm hành chính có quy định bị tước quyền sử dụng giấy phép lái xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe tương tự xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ"]},
+      {"s": "Người có thẩm quyền", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": ["người có thẩm quyền xử phạt"], "v_keyphrases": [],
+       "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s62",
+    "path": "Chương I - Điều 5 - Khoản 7",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ quan, người có thẩm quyền thực hiện tạm giữ, tước quyền sử dụng giấy phép, chứng chỉ hành nghề được cấp dưới dạng điện tử hoặc thể hiện dưới hình thức thông điệp dữ liệu nếu đáp ứng điều kiện về cơ sở hạ tầng, kỹ thuật, thông tin."
+    ],
+    "triplets": [
+      {"s": "Cơ quan", "v": "Tạm giữ", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan", "v": "Tạm giữ", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Là", "o": "Điện tử",
+       "s_keyphrases": [], "v_keyphrases": ["được cấp dưới dạng", "thể hiện dưới hình thức"],
+       "o_keyphrases": ["thông điệp dữ liệu"]},
+      {"s": "Chứng chỉ hành nghề", "v": "Là", "o": "Điện tử",
+       "s_keyphrases": [], "v_keyphrases": ["được cấp dưới dạng", "thể hiện dưới hình thức"],
+       "o_keyphrases": ["thông điệp dữ liệu"]},
+      {"s": "Người", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s63",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Vạch kẻ đường",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Chỉ dẫn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Vạch kẻ đường",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s64",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không báo tín hiệu khi ra, vào vị trí dừng xe, đỗ xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Báo", "o": "Tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s65",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không báo hiệu bằng đèn khẩn cấp hoặc không đặt biển cảnh báo “Chú ý xe đỗ” trong trường hợp gặp sự cố kỹ thuật buộc phải đỗ xe chiếm một phần đường xe chạy hoặc tại nơi không được phép đỗ xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Báo", "o": "Đèn khẩn cấp",
+       "s_keyphrases": [], "v_keyphrases": ["báo hiệu"], "o_keyphrases": []},
+      {"s": "Người", "v": "Đặt", "o": "Biển cảnh báo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chiếm", "o": "Phần đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s66",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 1 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không gắn biển báo hiệu ở phía trước xe kéo, phía sau xe được kéo hoặc điều khiển xe kéo rơ moóc không có biển báo hiệu."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Gắn", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kéo", "o": "Xe được kéo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kéo", "o": "Rơ moóc",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Rơ moóc", "v": "Có", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s67",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 1 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô sử dụng còi trong thời gian từ 22 giờ đến 05 giờ trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Còi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Khu đông dân cư",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Cơ sở khám bệnh, chữa bệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s68",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Chuyển làn", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Báo", "o": "Tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tín hiệu báo trước"]}
+    ]
+  },
+  {
+    "id": "s69",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô chở người trên buồng lái quá số lượng quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Chở", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Buồng lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s70",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không tuân thủ các quy định về nhường đường tại nơi đường bộ giao nhau."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Nhường đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Nơi giao nhau",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

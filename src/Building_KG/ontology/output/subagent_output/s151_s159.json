@@ -1,0 +1,199 @@
+[
+  {
+    "id": "s151",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy tránh xe không đúng quy định; sử dụng đèn chiếu xa khi gặp người đi bộ qua đường hoặc khi đi trên đoạn đường qua khu dân cư có hệ thống chiếu sáng đang hoạt động hoặc khi gặp xe đi ngược chiều."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Tránh", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Đèn chiếu xa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s152",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Còi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Khu đông dân cư",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Cơ sở khám bệnh, chữa bệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s153",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe chạy dưới tốc độ tối thiểu trên đoạn đường bộ có quy định tốc độ tối thiểu cho phép."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Chạy dưới tốc độ tối thiểu", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đoạn đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đoạn đường bộ", "v": "Có", "o": "Tốc độ tối thiểu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s154",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Dừng", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Phần đường xe chạy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phần đường xe chạy", "v": "Có", "o": "Lề đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s155",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Chạy quá tốc độ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s156",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe chạy tốc độ thấp mà không đi bên phải phần đường xe chạy gây cản trở giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Chạy tốc độ thấp", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi bên phải", "o": "Phần đường xe chạy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Cản trở", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s157",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy dừng xe, đỗ xe ở lòng đường gây cản trở giao thông; tụ tập từ 03 xe trở lên ở lòng đường, trong hầm đường bộ; đỗ, để xe ở lòng đường, vỉa hè trái phép."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Dừng", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Cản trở", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tụ tập", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Để", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s158",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 2 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy xe không được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu của xe được quyền ưu tiên."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Xe máy", "v": "Có", "o": "Quyền ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị phát tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị phát tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị phát tín hiệu", "v": "Dành cho", "o": "Xe ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe ưu tiên", "v": "Có", "o": "Quyền ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": ["được"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s159",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 2 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy dừng xe, đỗ xe trên điểm đón, trả khách, nơi đường bộ giao nhau, trên phần đường dành cho người đi bộ qua đường; dừng xe nơi có biển “Cấm dừng xe và đỗ xe”; đỗ xe tại nơi có biển “Cấm đỗ xe” hoặc biển “Cấm dừng xe và đỗ xe”; không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt; dừng xe, đỗ xe trong phạm vi hành lang an toàn giao thông đường sắt."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Dừng", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Điểm đón, trả khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường giao nhau",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Phần đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phần đường", "v": "Dành cho", "o": "Người đi bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Dừng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Đỗ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường giao nhau cùng mức với đường sắt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Hành lang an toàn giao thông đường sắt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "s91",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 4 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Nhường", "o": "Xe xin vượt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s92",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 4 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô lùi xe, quay đầu xe trong hầm đường bộ; dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định; không có báo hiệu bằng đèn khẩn cấp, không đặt biển cảnh báo “Chú ý xe đỗ” (hoặc đèn cảnh báo) về phía sau xe khoảng cách đảm bảo an toàn khi dừng xe, đỗ xe trong hầm đường bộ trong trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Lùi", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Quay đầu", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Đèn khẩn cấp", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đặt", "o": "Biển cảnh báo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đặt", "o": "Đèn cảnh báo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s93",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 4 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô lùi xe ở đường một chiều, đường có biển “Cấm đi ngược chiều”, khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, nơi đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất; lùi xe không quan sát hai bên, phía sau xe hoặc không có tín hiệu lùi xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Lùi", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường một chiều", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đường", "v": "Có", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Đi ngược chiều", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Khu vực", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khu vực", "v": "Cấm", "o": "Dừng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phần đường", "v": "Dành cho", "o": "Người đi bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Nơi đường bộ giao nhau", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Nơi đường bộ giao nhau cùng mức với đường sắt", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Nơi tầm nhìn bị che khuất", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Quan sát", "o": "Hai bên", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Quan sát", "o": "Phía sau xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Tín hiệu lùi xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s94",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 4 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe có liên quan trực tiếp đến vụ tai nạn giao thông mà không dừng ngay phương tiện, không giữ nguyên hiện trường, không trợ giúp người bị nạn."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Liên quan", "o": "Tai nạn giao thông", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Giữ nguyên", "o": "Hiện trường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trợ giúp", "o": "Người bị nạn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s95",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 4 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô xe được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu ưu tiên không đúng quy định hoặc sử dụng thiết bị phát tín hiệu ưu tiên mà không có giấy phép của cơ quan có thẩm quyền cấp hoặc có giấy phép của cơ quan có thẩm quyền cấp nhưng không còn giá trị sử dụng theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe được quyền ưu tiên"]},
+      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị phát tín hiệu ưu tiên", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị phát tín hiệu ưu tiên", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Giấy phép", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Có", "o": "Giá trị sử dụng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s96",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 4 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô quay đầu xe ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, gầm cầu vượt, ngầm, tại nơi đường bộ giao nhau cùng mức với đường sắt, đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, trên đường một chiều, trừ khi có hiệu lệnh của người điều khiển giao thông hoặc chỉ dẫn của biển báo hiệu tạm thời hoặc tổ chức giao thông tại những khu vực này có bố trí nơi quay đầu xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Quay đầu", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phần đường", "v": "Dành cho", "o": "Người đi bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Cầu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đầu cầu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Gầm cầu vượt", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Ngầm", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Nơi đường bộ giao nhau cùng mức với đường sắt", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường hẹp", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường dốc", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đoạn đường cong tầm nhìn bị che khuất", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường một chiều", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s97",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 4 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô quay đầu xe tại nơi có biển báo hiệu có nội dung cấm quay đầu đối với loại phương tiện đang điều khiển; điều khiển xe rẽ trái tại nơi có biển báo hiệu có nội dung cấm rẽ trái đối với loại phương tiện đang điều khiển; điều khiển xe rẽ phải tại nơi có biển báo hiệu có nội dung cấm rẽ phải đối với loại phương tiện đang điều khiển."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Quay đầu", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Quay đầu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Rẽ trái", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Rẽ trái", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Rẽ phải", "o": "Ô tô", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Rẽ phải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s98",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 4 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước hoặc không giữ khoảng cách theo quy định của biển báo hiệu “Cự ly tối thiểu giữa hai xe.”"
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Giữ", "o": "Khoảng cách", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Va chạm", "o": "Xe chạy liền trước", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s99",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt (đối với loại phương tiện đang điều khiển); không có tín hiệu trước khi vượt hoặc có tín hiệu vượt xe nhưng không sử dụng trong suốt quá trình vượt xe; vượt bên phải xe khác trong trường hợp không được phép."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Vượt xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Vượt xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Tín hiệu vượt xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Tín hiệu vượt xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Vượt", "o": "Xe khác", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s100",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe không đi bên phải theo chiều đi của mình; đi không đúng phần đường hoặc làn đường quy định (làn cùng chiều hoặc làn ngược chiều)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Đi", "o": "Bên phải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi đúng", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi đúng", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["làn cùng chiều", "làn ngược chiều"]}
+    ]
+  }
+]

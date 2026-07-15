@@ -1,0 +1,190 @@
+[
+  {
+    "id": "s71",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường rộng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Dừng", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Lề đường rộng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s72",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 2 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô dừng xe không sát theo lề đường, vỉa hè phía bên phải theo chiều đi."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Dừng", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sát", "o": "Lề đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sát", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s73",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Chạy quá tốc độ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s74",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô sử dụng còi, rú ga liên tục hoặc sử dụng còi hơi, sử dụng đèn chiếu xa khi gặp người đi bộ qua đường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Còi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Rú ga", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Còi hơi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Đèn chiếu xa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Gặp", "o": "Người đi bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s75",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô chuyển hướng không quan sát hoặc không bảo đảm khoảng cách an toàn với xe phía sau."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Chuyển hướng", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Bảo đảm khoảng cách an toàn", "o": "Xe phía sau",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s76",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Dừng", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đường bộ", "v": "Giao nhau cùng mức", "o": "Đường sắt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s77",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô dừng xe, đỗ xe tại vị trí nơi đường bộ giao nhau hoặc trong phạm vi 05 mét tính từ mép đường giao nhau."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Dừng", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Nơi đường bộ giao nhau",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s78",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô đỗ xe không sát theo lề đường, vỉa hè phía bên phải theo chiều đi."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sát", "o": "Lề đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sát", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s79",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không sử dụng hoặc sử dụng không đủ đèn chiếu sáng trong thời gian từ 18 giờ đến 06 giờ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Đèn chiếu sáng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s80",
+    "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe ô tô kéo theo xe khác, vật khác hoặc không nối chắc chắn, an toàn giữa xe kéo và xe được kéo khi kéo nhau."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Kéo", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kéo", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Nối", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

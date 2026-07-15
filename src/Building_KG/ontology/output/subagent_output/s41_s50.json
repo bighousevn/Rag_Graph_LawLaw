@@ -1,0 +1,182 @@
+[
+  {
+    "id": "s41",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm t",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Buộc đưa phương tiện quay trở lại Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế."
+    ],
+    "triplets": [
+      {"s": "Phương tiện", "v": "Quay trở lại", "o": "Khu kinh tế thương mại đặc biệt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phương tiện", "v": "Quay trở lại", "o": "Khu kinh tế cửa khẩu quốc tế",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s42",
+    "path": "Chương I - Điều 3 - Khoản 4 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức vi phạm có trách nhiệm thi hành biện pháp khắc phục hậu quả buộc nộp lại giấy phép, chứng chỉ hành nghề bị tẩy xóa, sửa chữa làm sai lệch nội dung, bao gồm giấy phép lái xe, chứng nhận đăng ký xe, bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của phương tiện bị tẩy xóa, sửa chữa làm sai lệch nội dung."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Nộp lại", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["giấy phép lái xe"]},
+      {"s": "Tổ chức", "v": "Nộp lại", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["giấy phép lái xe"]},
+      {"s": "Cá nhân", "v": "Nộp lại", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Nộp lại", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Nộp lại", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Nộp lại", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Nộp lại", "o": "Giấy chứng nhận",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Nộp lại", "o": "Giấy chứng nhận",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Nộp lại", "o": "Tem kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"]},
+      {"s": "Tổ chức", "v": "Nộp lại", "o": "Tem kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"]},
+      {"s": "Giấy phép", "v": "Làm sai lệch", "o": "Nội dung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ hành nghề", "v": "Làm sai lệch", "o": "Nội dung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Làm sai lệch", "o": "Nội dung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy chứng nhận", "v": "Làm sai lệch", "o": "Nội dung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tem kiểm định", "v": "Làm sai lệch", "o": "Nội dung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s43",
+    "path": "Chương I - Điều 3 - Khoản 4 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Đối với giấy phép, chứng chỉ hành nghề đã hết giá trị sử dụng hoặc không do cơ quan có thẩm quyền cấp, người có thẩm quyền tạm giữ phải tiến hành thu hồi theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Thu hồi", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Thu hồi", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Hết", "o": "Giá trị sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ hành nghề", "v": "Hết", "o": "Giá trị sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ hành nghề", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s44",
+    "path": "Chương I - Điều 4 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là 01 năm."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s45",
+    "path": "Chương I - Điều 4 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Thời hạn sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tổ chức cung cấp để xác định cá nhân, tổ chức vi phạm được tính từ thời điểm phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật của cá nhân, tổ chức ghi nhận được kết quả cho đến hết ngày cuối cùng của thời hiệu xử phạt vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Cung cấp", "o": "Thiết bị kỹ thuật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thiết bị kỹ thuật nghiệp vụ", "phương tiện"]},
+      {"s": "Tổ chức", "v": "Cung cấp", "o": "Thiết bị kỹ thuật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thiết bị kỹ thuật nghiệp vụ", "phương tiện"]},
+      {"s": "Thiết bị kỹ thuật", "v": "Ghi nhận", "o": "Kết quả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s46",
+    "path": "Chương I - Điều 4 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc xác định hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện để tính thời hiệu xử phạt vi phạm hành chính được thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s47",
+    "path": "Chương I - Điều 4 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Đối với các hành vi vi phạm được phát hiện thông qua phương tiện, thiết bị kỹ thuật nghiệp vụ, thời điểm chấm dứt hành vi vi phạm được tính từ thời điểm phương tiện, thiết bị kỹ thuật ghi nhận hành vi vi phạm."
+    ],
+    "triplets": [
+      {"s": "Phương tiện", "v": "Phát hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": ["thiết bị kỹ thuật nghiệp vụ", "thiết bị kỹ thuật"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phương tiện", "v": "Ghi nhận", "o": "Hành vi vi phạm",
+       "s_keyphrases": ["thiết bị kỹ thuật"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s48",
+    "path": "Chương I - Điều 5 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm phù hiệu cấp cho xe ô tô tham gia kinh doanh vận tải."
+    ],
+    "triplets": [
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phù hiệu", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phù hiệu", "v": "Cấp cho", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Ô tô", "v": "Tham gia", "o": "Kinh doanh vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s49",
+    "path": "Chương I - Điều 5 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường."
+    ],
+    "triplets": [
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy chứng nhận", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tem kiểm định", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": ["tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s50",
+    "path": "Chương I - Điều 5 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy phép đào tạo lái xe."
+    ],
+    "triplets": [
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép đào tạo lái xe", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

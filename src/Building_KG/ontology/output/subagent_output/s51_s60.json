@@ -1,0 +1,146 @@
+[
+  {
+    "id": "s51",
+    "path": "Chương I - Điều 5 - Khoản 1 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy phép sát hạch."
+    ],
+    "triplets": [
+      {"s": "Giấy phép sát hạch", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s52",
+    "path": "Chương I - Điều 5 - Khoản 1 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới."
+    ],
+    "triplets": [
+      {"s": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s53",
+    "path": "Chương I - Điều 5 - Khoản 1 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm chứng chỉ đăng kiểm viên."
+    ],
+    "triplets": [
+      {"s": "Chứng chỉ đăng kiểm viên", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s54",
+    "path": "Chương I - Điều 5 - Khoản 1 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy phép lái xe quốc gia, giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp."
+    ],
+    "triplets": [
+      {"s": "Giấy phép lái xe", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": ["giấy phép lái xe quốc gia", "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp"],
+       "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s55",
+    "path": "Chương I - Điều 5 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ được thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s56",
+    "path": "Chương I - Điều 5 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền xử phạt đã tạm giữ được giấy phép, chứng chỉ hành nghề của cá nhân, tổ chức vi phạm thì thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép, chứng chỉ hành nghề là thời điểm quyết định xử phạt vi phạm hành chính có hiệu lực thi hành."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền xử phạt", "v": "Tạm giữ", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Dành cho", "o": "Cá nhân",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Dành cho", "o": "Tổ chức",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s57",
+    "path": "Chương I - Điều 5 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền xử phạt chưa tạm giữ được giấy phép, chứng chỉ hành nghề của cá nhân, tổ chức vi phạm thì người có thẩm quyền xử phạt vẫn ra quyết định xử phạt vi phạm hành chính theo quy định đối với hành vi vi phạm."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền xử phạt", "v": "Tạm giữ", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Dành cho", "o": "Cá nhân",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Dành cho", "o": "Tổ chức",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s58",
+    "path": "Chương I - Điều 5 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Khi giữ và trả lại giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng, người có thẩm quyền xử phạt phải lập biên bản và lưu hồ sơ xử phạt vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền xử phạt", "v": "Giữ", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền xử phạt", "v": "Trả lại", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền xử phạt", "v": "Lập", "o": "Biên bản",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền xử phạt", "v": "Lưu", "o": "Hồ sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s59",
+    "path": "Chương I - Điều 5 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trong thời gian bị tước quyền sử dụng giấy phép, chứng chỉ hành nghề, nếu cá nhân, tổ chức vẫn tiến hành các hoạt động ghi trong giấy phép, chứng chỉ hành nghề thì bị xử phạt như hành vi không có giấy phép, chứng chỉ hành nghề."
+    ],
+    "triplets": [
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Tiến hành", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Tiến hành", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hoạt động", "v": "Ghi trong", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Có", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Có", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s60",
+    "path": "Chương I - Điều 5 - Khoản 5",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trường hợp cá nhân, tổ chức vi phạm hành chính bị áp dụng hình thức xử phạt tước quyền sử dụng giấy phép, chứng chỉ hành nghề nhưng thời hạn sử dụng còn lại của giấy phép, chứng chỉ hành nghề đó ít hơn thời hạn bị tước thì người có thẩm quyền vẫn ra quyết định xử phạt có áp dụng hình thức tước quyền sử dụng giấy phép, chứng chỉ hành nghề theo quy định đối với hành vi vi phạm."
+    ],
+    "triplets": [
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

@@ -1,20 +1,356 @@
 [
   {
-    "section_id": "s60",
+    "section_id": "s5",
     "address": {
-      "article": 5,
-      "clause": 5,
+      "article": 2,
+      "clause": 1,
       "point": null,
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Cá nhân",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s5",
+    "address": {
+      "article": 2,
+      "clause": 1,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Tại",
+    "concept_o": "Lãnh thổ Việt Nam"
+  },
+  {
+    "section_id": "s5",
+    "address": {
+      "article": 2,
+      "clause": 1,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s5",
+    "address": {
+      "article": 2,
+      "clause": 1,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Tại",
+    "concept_o": "Lãnh thổ Việt Nam"
+  },
+  {
+    "section_id": "s6",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cơ quan nhà nước",
+    "relation": "Thuộc",
+    "concept_o": "Nhiệm vụ quản lý nhà nước"
+  },
+  {
+    "section_id": "s9",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Theo",
+    "concept_o": "Luật Doanh nghiệp"
+  },
+  {
+    "section_id": "s9",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Gồm",
+    "concept_o": "Doanh nghiệp tư nhân"
+  },
+  {
+    "section_id": "s9",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Gồm",
+    "concept_o": "Công ty cổ phần"
+  },
+  {
+    "section_id": "s9",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Gồm",
+    "concept_o": "Công ty trách nhiệm hữu hạn"
+  },
+  {
+    "section_id": "s9",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Gồm",
+    "concept_o": "Công ty hợp danh"
+  },
+  {
+    "section_id": "s9",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Gồm",
+    "concept_o": "Đơn vị phụ thuộc doanh nghiệp"
+  },
+  {
+    "section_id": "s10",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Theo",
+    "concept_o": "Luật Hợp tác xã"
+  },
+  {
+    "section_id": "s10",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Gồm",
+    "concept_o": "Tổ hợp tác"
+  },
+  {
+    "section_id": "s10",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Gồm",
+    "concept_o": "Hợp tác xã"
+  },
+  {
+    "section_id": "s10",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức kinh tế",
+    "relation": "Gồm",
+    "concept_o": "Liên hiệp hợp tác xã"
+  },
+  {
+    "section_id": "s13",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cấp có thẩm quyền của Việt Nam",
+    "relation": "Có",
+    "concept_o": "Thẩm quyền"
+  },
+  {
+    "section_id": "s13",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cấp có thẩm quyền của Việt Nam",
+    "relation": "Cho phép",
+    "concept_o": "Cơ quan nước ngoài"
+  },
+  {
+    "section_id": "s13",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cấp có thẩm quyền của Việt Nam",
+    "relation": "Cho phép",
+    "concept_o": "Tổ chức nước ngoài"
+  },
+  {
+    "section_id": "s13",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cơ quan nước ngoài",
+    "relation": "Thực hiện",
+    "concept_o": "Hoạt động"
+  },
+  {
+    "section_id": "s13",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức nước ngoài",
+    "relation": "Thực hiện",
+    "concept_o": "Hoạt động"
+  },
+  {
+    "section_id": "s13",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cơ quan nước ngoài",
+    "relation": "Tại",
+    "concept_o": "Lãnh thổ Việt Nam"
+  },
+  {
+    "section_id": "s13",
+    "address": {
+      "article": 2,
+      "clause": 2,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức nước ngoài",
+    "relation": "Tại",
+    "concept_o": "Lãnh thổ Việt Nam"
+  },
+  {
+    "section_id": "s14",
+    "address": {
+      "article": 2,
+      "clause": 3,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Hộ kinh doanh",
     "relation": "Thực hiện",
     "concept_o": "Hành vi vi phạm hành chính"
   },
   {
-    "section_id": "s60",
+    "section_id": "s14",
     "address": {
-      "article": 5,
+      "article": 2,
+      "clause": 3,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Hộ gia đình",
+    "relation": "Thực hiện",
+    "concept_o": "Hành vi vi phạm hành chính"
+  },
+  {
+    "section_id": "s15",
+    "address": {
+      "article": 2,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền",
+    "relation": "Có",
+    "concept_o": "Thẩm quyền"
+  },
+  {
+    "section_id": "s15",
+    "address": {
+      "article": 2,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền",
+    "relation": "Lập",
+    "concept_o": "Biên bản vi phạm hành chính"
+  },
+  {
+    "section_id": "s15",
+    "address": {
+      "article": 2,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền",
+    "relation": "Xử phạt",
+    "concept_o": "Hành vi vi phạm hành chính"
+  },
+  {
+    "section_id": "s15",
+    "address": {
+      "article": 2,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Liên quan",
+    "concept_o": "Xử phạt vi phạm hành chính"
+  },
+  {
+    "section_id": "s15",
+    "address": {
+      "article": 2,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Liên quan",
+    "concept_o": "Xử phạt vi phạm hành chính"
+  },
+  {
+    "section_id": "s16",
+    "address": {
+      "article": 2,
       "clause": 5,
       "point": null,
       "document": "Nghị định 168:2024/NĐ-CP"
@@ -24,15 +360,1875 @@
     "concept_o": "Thẩm quyền"
   },
   {
-    "section_id": "s60",
+    "section_id": "s16",
     "address": {
-      "article": 5,
+      "article": 2,
       "clause": 5,
       "point": null,
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người có thẩm quyền",
+    "relation": "Trừ",
+    "concept_o": "Điểm"
+  },
+  {
+    "section_id": "s16",
+    "address": {
+      "article": 2,
+      "clause": 5,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Điểm",
+    "relation": "Dành cho",
+    "concept_o": "Giấy phép lái xe"
+  },
+  {
+    "section_id": "s16",
+    "address": {
+      "article": 2,
+      "clause": 5,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền",
+    "relation": "Phục hồi",
+    "concept_o": "Điểm"
+  },
+  {
+    "section_id": "s17",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s17",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s17",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Chịu",
+    "concept_o": "Cảnh cáo"
+  },
+  {
+    "section_id": "s17",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Chịu",
+    "concept_o": "Cảnh cáo"
+  },
+  {
+    "section_id": "s18",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s18",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s18",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Chịu",
+    "concept_o": "Phạt tiền"
+  },
+  {
+    "section_id": "s18",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Chịu",
+    "concept_o": "Phạt tiền"
+  },
+  {
+    "section_id": "s19",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s19",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s19",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Tịch thu",
+    "concept_o": "Phương tiện"
+  },
+  {
+    "section_id": "s19",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Tịch thu",
+    "concept_o": "Phương tiện"
+  },
+  {
+    "section_id": "s19",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Sử dụng",
+    "concept_o": "Phương tiện"
+  },
+  {
+    "section_id": "s19",
+    "address": {
+      "article": 3,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Sử dụng",
+    "concept_o": "Phương tiện"
+  },
+  {
+    "section_id": "s20",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s20",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự, an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s20",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
     "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s20",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng chỉ hành nghề",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s21",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s21",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s21",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Đình chỉ",
+    "concept_o": "Hoạt động"
+  },
+  {
+    "section_id": "s21",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Đình chỉ",
+    "concept_o": "Hoạt động"
+  },
+  {
+    "section_id": "s22",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s22",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Vi phạm",
+    "concept_o": "Trật tự an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s22",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Tịch thu",
+    "concept_o": "Tang vật vi phạm hành chính"
+  },
+  {
+    "section_id": "s22",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Tịch thu",
+    "concept_o": "Tang vật vi phạm hành chính"
+  },
+  {
+    "section_id": "s22",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Tịch thu",
+    "concept_o": "Phương tiện vi phạm hành chính"
+  },
+  {
+    "section_id": "s22",
+    "address": {
+      "article": 3,
+      "clause": 2,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Tịch thu",
+    "concept_o": "Phương tiện vi phạm hành chính"
+  },
+  {
+    "section_id": "s23",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Khôi phục",
+    "concept_o": "Tình trạng ban đầu"
+  },
+  {
+    "section_id": "s24",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Khắc phục",
+    "concept_o": "Ô nhiễm môi trường"
+  },
+  {
+    "section_id": "s25",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Tái xuất",
+    "concept_o": "Phương tiện"
+  },
+  {
+    "section_id": "s26",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Nộp",
+    "concept_o": "Số lợi bất hợp pháp"
+  },
+  {
+    "section_id": "s27",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Phá dỡ",
+    "concept_o": "Vật che khuất"
+  },
+  {
+    "section_id": "s27",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Vật che khuất",
+    "relation": "Che khuất",
+    "concept_o": "Biển báo hiệu"
+  },
+  {
+    "section_id": "s27",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Vật che khuất",
+    "relation": "Che khuất",
+    "concept_o": "Đèn tín hiệu giao thông"
+  },
+  {
+    "section_id": "s28",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Lắp",
+    "concept_o": "Thiết bị"
+  },
+  {
+    "section_id": "s28",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Thay thế",
+    "concept_o": "Thiết bị"
+  },
+  {
+    "section_id": "s28",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Khôi phục",
+    "concept_o": "Tính năng kỹ thuật"
+  },
+  {
+    "section_id": "s28",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tính năng kỹ thuật",
+    "relation": "Thuộc",
+    "concept_o": "Phương tiện"
+  },
+  {
+    "section_id": "s28",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tính năng kỹ thuật",
+    "relation": "Thuộc",
+    "concept_o": "Thiết bị"
+  },
+  {
+    "section_id": "s29",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "g",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Cấp",
+    "concept_o": "Thẻ nhận dạng lái xe"
+  },
+  {
+    "section_id": "s29",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "g",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Thẻ nhận dạng lái xe",
+    "relation": "Dành cho",
+    "concept_o": "Lái xe"
+  },
+  {
+    "section_id": "s30",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Tổ chức",
+    "concept_o": "Tập huấn"
+  },
+  {
+    "section_id": "s30",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tập huấn",
+    "relation": "Dành cho",
+    "concept_o": "Lái xe"
+  },
+  {
+    "section_id": "s30",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tập huấn",
+    "relation": "Dành cho",
+    "concept_o": "Nhân viên phục vụ trên xe"
+  },
+  {
+    "section_id": "s30",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Biện pháp khắc phục hậu quả",
+    "relation": "Tổ chức",
+    "concept_o": "Khám sức khỏe"
+  },
+  {
+    "section_id": "s30",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Khám sức khỏe",
+    "relation": "Dành cho",
+    "concept_o": "Lái xe"
+  },
+  {
+    "section_id": "s30",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Khám sức khỏe",
+    "relation": "Dành cho",
+    "concept_o": "Nhân viên phục vụ trên xe"
+  },
+  {
+    "section_id": "s31",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "i",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Lắp đặt",
+    "concept_o": "Thiết bị giám sát hành trình"
+  },
+  {
+    "section_id": "s31",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "i",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Lắp đặt",
+    "concept_o": "Thiết bị ghi nhận hình ảnh người lái xe"
+  },
+  {
+    "section_id": "s31",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "i",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Lắp đặt",
+    "concept_o": "Dây đai an toàn"
+  },
+  {
+    "section_id": "s31",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "i",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Lắp đặt",
+    "concept_o": "Ghế ngồi"
+  },
+  {
+    "section_id": "s31",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "i",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Ghế ngồi",
+    "relation": "Dành cho",
+    "concept_o": "Trẻ em mầm non"
+  },
+  {
+    "section_id": "s31",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "i",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Ghế ngồi",
+    "relation": "Dành cho",
+    "concept_o": "Học sinh tiểu học"
+  },
+  {
+    "section_id": "s31",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "i",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Lắp đặt",
+    "concept_o": "Thiết bị cứu hộ"
+  },
+  {
+    "section_id": "s32",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "k",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Tháo dỡ",
+    "concept_o": "Thiết bị âm thanh"
+  },
+  {
+    "section_id": "s32",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "k",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Tháo dỡ",
+    "concept_o": "Thiết bị ánh sáng"
+  },
+  {
+    "section_id": "s32",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "k",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Thiết bị âm thanh",
+    "relation": "Gây mất",
+    "concept_o": "Trật tự an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s32",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "k",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Thiết bị ánh sáng",
+    "relation": "Gây mất",
+    "concept_o": "Trật tự an toàn giao thông đường bộ"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Cung cấp",
+    "concept_o": "Dữ liệu"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Cập nhật",
+    "concept_o": "Dữ liệu"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Truyền dẫn",
+    "concept_o": "Dữ liệu"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Lưu trữ",
+    "concept_o": "Dữ liệu"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Quản lý",
+    "concept_o": "Dữ liệu"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Dữ liệu",
+    "relation": "Từ",
+    "concept_o": "Thiết bị giám sát hành trình"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Dữ liệu",
+    "relation": "Từ",
+    "concept_o": "Thiết bị ghi nhận hình ảnh người lái xe"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Thiết bị giám sát hành trình",
+    "relation": "Lắp trên",
+    "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s33",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "l",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Thiết bị ghi nhận hình ảnh người lái xe",
+    "relation": "Lắp trên",
+    "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s34",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "m",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Điều chỉnh",
+    "concept_o": "Chỉ số đồng hồ báo quãng đường"
+  },
+  {
+    "section_id": "s34",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "m",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chỉ số đồng hồ báo quãng đường",
+    "relation": "Dành cho",
+    "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s35",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "n",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Khôi phục",
+    "concept_o": "Nhãn hiệu"
+  },
+  {
+    "section_id": "s35",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "n",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Khôi phục",
+    "concept_o": "Màu sơn"
+  },
+  {
+    "section_id": "s35",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "n",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Nhãn hiệu",
+    "relation": "Ghi trong",
+    "concept_o": "Chứng nhận đăng ký xe"
+  },
+  {
+    "section_id": "s35",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "n",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Màu sơn",
+    "relation": "Ghi trong",
+    "concept_o": "Chứng nhận đăng ký xe"
+  },
+  {
+    "section_id": "s36",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "o",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Thực hiện",
+    "concept_o": "Quy định về biển số xe"
+  },
+  {
+    "section_id": "s36",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "o",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Thực hiện",
+    "concept_o": "Quy định về thông tin trên xe"
+  },
+  {
+    "section_id": "s36",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "o",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Thực hiện",
+    "concept_o": "Quy định về màu sơn"
+  },
+  {
+    "section_id": "s36",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "o",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Thực hiện",
+    "concept_o": "Quy định về biển báo dấu hiệu nhận biết"
+  },
+  {
+    "section_id": "s37",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "p",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Khôi phục",
+    "concept_o": "Hình dáng"
+  },
+  {
+    "section_id": "s37",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "p",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Khôi phục",
+    "concept_o": "Kích thước"
+  },
+  {
+    "section_id": "s37",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "p",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Khôi phục",
+    "concept_o": "Tình trạng an toàn kỹ thuật"
+  },
+  {
+    "section_id": "s37",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "p",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Đăng kiểm",
+    "concept_o": "Xe"
+  },
+  {
+    "section_id": "s38",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "q",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Điều chỉnh",
+    "concept_o": "Thùng xe"
+  },
+  {
+    "section_id": "s38",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "q",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Đăng kiểm",
+    "concept_o": "Xe"
+  },
+  {
+    "section_id": "s38",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "q",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Điều chỉnh",
+    "concept_o": "Khối lượng hàng hóa cho phép chuyên chở"
+  },
+  {
+    "section_id": "s38",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "q",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Khối lượng hàng hóa cho phép chuyên chở",
+    "relation": "Ghi trong",
+    "concept_o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+  },
+  {
+    "section_id": "s39",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "r",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Làm thủ tục",
+    "concept_o": "Chứng nhận đăng ký xe"
+  },
+  {
+    "section_id": "s39",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "r",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Làm thủ tục",
+    "concept_o": "Biển số xe"
+  },
+  {
+    "section_id": "s39",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "r",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Làm thủ tục",
+    "concept_o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+  },
+  {
+    "section_id": "s40",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "s",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Nộp",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s40",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "s",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Nộp",
+    "concept_o": "Chứng chỉ hành nghề"
+  },
+  {
+    "section_id": "s41",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "t",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Phương tiện",
+    "relation": "Quay trở lại",
+    "concept_o": "Khu kinh tế thương mại đặc biệt"
+  },
+  {
+    "section_id": "s41",
+    "address": {
+      "article": 3,
+      "clause": 3,
+      "point": "t",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Phương tiện",
+    "relation": "Quay trở lại",
+    "concept_o": "Khu kinh tế cửa khẩu quốc tế"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Nộp lại",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Nộp lại",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Nộp lại",
+    "concept_o": "Chứng chỉ hành nghề"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Nộp lại",
+    "concept_o": "Chứng chỉ hành nghề"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Nộp lại",
+    "concept_o": "Chứng nhận đăng ký xe"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Nộp lại",
+    "concept_o": "Chứng nhận đăng ký xe"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Nộp lại",
+    "concept_o": "Giấy chứng nhận"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Nộp lại",
+    "concept_o": "Giấy chứng nhận"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Nộp lại",
+    "concept_o": "Tem kiểm định"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Nộp lại",
+    "concept_o": "Tem kiểm định"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Làm sai lệch",
+    "concept_o": "Nội dung"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng chỉ hành nghề",
+    "relation": "Làm sai lệch",
+    "concept_o": "Nội dung"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng nhận đăng ký xe",
+    "relation": "Làm sai lệch",
+    "concept_o": "Nội dung"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy chứng nhận",
+    "relation": "Làm sai lệch",
+    "concept_o": "Nội dung"
+  },
+  {
+    "section_id": "s42",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tem kiểm định",
+    "relation": "Làm sai lệch",
+    "concept_o": "Nội dung"
+  },
+  {
+    "section_id": "s43",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền",
+    "relation": "Có",
+    "concept_o": "Thẩm quyền"
+  },
+  {
+    "section_id": "s43",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền",
+    "relation": "Thu hồi",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s43",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền",
+    "relation": "Thu hồi",
+    "concept_o": "Chứng chỉ hành nghề"
+  },
+  {
+    "section_id": "s43",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Hết",
+    "concept_o": "Giá trị sử dụng"
+  },
+  {
+    "section_id": "s43",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng chỉ hành nghề",
+    "relation": "Hết",
+    "concept_o": "Giá trị sử dụng"
+  },
+  {
+    "section_id": "s43",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Cấp",
+    "concept_o": "Cơ quan có thẩm quyền"
+  },
+  {
+    "section_id": "s43",
+    "address": {
+      "article": 3,
+      "clause": 4,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng chỉ hành nghề",
+    "relation": "Cấp",
+    "concept_o": "Cơ quan có thẩm quyền"
+  },
+  {
+    "section_id": "s45",
+    "address": {
+      "article": 4,
+      "clause": 2,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Cung cấp",
+    "concept_o": "Thiết bị kỹ thuật"
+  },
+  {
+    "section_id": "s45",
+    "address": {
+      "article": 4,
+      "clause": 2,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Cung cấp",
+    "concept_o": "Thiết bị kỹ thuật"
+  },
+  {
+    "section_id": "s45",
+    "address": {
+      "article": 4,
+      "clause": 2,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Thiết bị kỹ thuật",
+    "relation": "Ghi nhận",
+    "concept_o": "Kết quả"
+  },
+  {
+    "section_id": "s47",
+    "address": {
+      "article": 4,
+      "clause": 3,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Phương tiện",
+    "relation": "Phát hiện",
+    "concept_o": "Hành vi vi phạm"
+  },
+  {
+    "section_id": "s47",
+    "address": {
+      "article": 4,
+      "clause": 3,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Phương tiện",
+    "relation": "Ghi nhận",
+    "concept_o": "Hành vi vi phạm"
+  },
+  {
+    "section_id": "s48",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s48",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng chỉ hành nghề",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s48",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Phù hiệu",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s48",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Phù hiệu",
+    "relation": "Cấp cho",
+    "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s48",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Ô tô",
+    "relation": "Tham gia",
+    "concept_o": "Kinh doanh vận tải"
+  },
+  {
+    "section_id": "s49",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s49",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng chỉ hành nghề",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s49",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy chứng nhận",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s49",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tem kiểm định",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s50",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s50",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng chỉ hành nghề",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s50",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép đào tạo lái xe",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s51",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép sát hạch",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s52",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s53",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chứng chỉ đăng kiểm viên",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s54",
+    "address": {
+      "article": 5,
+      "clause": 1,
+      "point": "g",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép lái xe",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s56",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền xử phạt",
+    "relation": "Tạm giữ",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s56",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Dành cho",
+    "concept_o": "Cá nhân"
+  },
+  {
+    "section_id": "s56",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Dành cho",
+    "concept_o": "Tổ chức"
+  },
+  {
+    "section_id": "s57",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền xử phạt",
+    "relation": "Tạm giữ",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s57",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Dành cho",
+    "concept_o": "Cá nhân"
+  },
+  {
+    "section_id": "s57",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Dành cho",
+    "concept_o": "Tổ chức"
+  },
+  {
+    "section_id": "s58",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền xử phạt",
+    "relation": "Giữ",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s58",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền xử phạt",
+    "relation": "Trả lại",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s58",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s58",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền xử phạt",
+    "relation": "Lập",
+    "concept_o": "Biên bản"
+  },
+  {
+    "section_id": "s58",
+    "address": {
+      "article": 5,
+      "clause": 3,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người có thẩm quyền xử phạt",
+    "relation": "Lưu",
+    "concept_o": "Hồ sơ"
+  },
+  {
+    "section_id": "s59",
+    "address": {
+      "article": 5,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Giấy phép",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s59",
+    "address": {
+      "article": 5,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Tiến hành",
+    "concept_o": "Hoạt động"
+  },
+  {
+    "section_id": "s59",
+    "address": {
+      "article": 5,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Tiến hành",
+    "concept_o": "Hoạt động"
+  },
+  {
+    "section_id": "s59",
+    "address": {
+      "article": 5,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Hoạt động",
+    "relation": "Ghi trong",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s59",
+    "address": {
+      "article": 5,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cá nhân",
+    "relation": "Có",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s59",
+    "address": {
+      "article": 5,
+      "clause": 4,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Tổ chức",
+    "relation": "Có",
     "concept_o": "Giấy phép"
   },
   {
@@ -43,33 +2239,9 @@
       "point": null,
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Người có thẩm quyền",
+    "concept_s": "Giấy phép",
     "relation": "Tước",
-    "concept_o": "Chứng chỉ hành nghề"
-  },
-  {
-    "section_id": "s61",
-    "address": {
-      "article": 5,
-      "clause": 6,
-      "point": null,
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người có thẩm quyền",
-    "relation": "Có",
-    "concept_o": "Thẩm quyền"
-  },
-  {
-    "section_id": "s61",
-    "address": {
-      "article": 5,
-      "clause": 6,
-      "point": null,
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người có thẩm quyền",
-    "relation": "Tước",
-    "concept_o": "Giấy phép lái xe"
+    "concept_o": "Quyền sử dụng"
   },
   {
     "section_id": "s61",
@@ -103,9 +2275,57 @@
       "point": null,
       "document": "Nghị định 168:2024/NĐ-CP"
     },
+    "concept_s": "Người có thẩm quyền",
+    "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s61",
+    "address": {
+      "article": 5,
+      "clause": 6,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Quyền sử dụng",
+    "relation": "Dành cho",
+    "concept_o": "Giấy phép lái xe"
+  },
+  {
+    "section_id": "s61",
+    "address": {
+      "article": 5,
+      "clause": 6,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
     "concept_s": "Người",
-    "relation": "Thực hiện",
-    "concept_o": "Hành vi vi phạm hành chính"
+    "relation": "Có",
+    "concept_o": "Thẩm quyền"
+  },
+  {
+    "section_id": "s62",
+    "address": {
+      "article": 5,
+      "clause": 7,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cơ quan",
+    "relation": "Tạm giữ",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s62",
+    "address": {
+      "article": 5,
+      "clause": 7,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Cơ quan",
+    "relation": "Tạm giữ",
+    "concept_o": "Chứng chỉ hành nghề"
   },
   {
     "section_id": "s62",
@@ -139,9 +2359,9 @@
       "point": null,
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Người có thẩm quyền",
+    "concept_s": "Cơ quan",
     "relation": "Tước",
-    "concept_o": "Giấy phép"
+    "concept_o": "Quyền sử dụng"
   },
   {
     "section_id": "s62",
@@ -153,6 +2373,30 @@
     },
     "concept_s": "Người có thẩm quyền",
     "relation": "Tước",
+    "concept_o": "Quyền sử dụng"
+  },
+  {
+    "section_id": "s62",
+    "address": {
+      "article": 5,
+      "clause": 7,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Quyền sử dụng",
+    "relation": "Dành cho",
+    "concept_o": "Giấy phép"
+  },
+  {
+    "section_id": "s62",
+    "address": {
+      "article": 5,
+      "clause": 7,
+      "point": null,
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Quyền sử dụng",
+    "relation": "Dành cho",
     "concept_o": "Chứng chỉ hành nghề"
   },
   {
@@ -164,20 +2408,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Giấy phép",
-    "relation": "Thể hiện",
-    "concept_o": "Dạng điện tử"
-  },
-  {
-    "section_id": "s62",
-    "address": {
-      "article": 5,
-      "clause": 7,
-      "point": null,
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Giấy phép",
-    "relation": "Thể hiện",
-    "concept_o": "Thông điệp dữ liệu"
+    "relation": "Là",
+    "concept_o": "Điện tử"
   },
   {
     "section_id": "s62",
@@ -188,8 +2420,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Chứng chỉ hành nghề",
-    "relation": "Thể hiện",
-    "concept_o": "Dạng điện tử"
+    "relation": "Là",
+    "concept_o": "Điện tử"
   },
   {
     "section_id": "s62",
@@ -199,9 +2431,9 @@
       "point": null,
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Chứng chỉ hành nghề",
-    "relation": "Thể hiện",
-    "concept_o": "Thông điệp dữ liệu"
+    "concept_s": "Người",
+    "relation": "Có",
+    "concept_o": "Thẩm quyền"
   },
   {
     "section_id": "s63",
@@ -225,7 +2457,31 @@
     },
     "concept_s": "Người",
     "relation": "Chấp hành",
+    "concept_o": "Hiệu lệnh"
+  },
+  {
+    "section_id": "s63",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Hiệu lệnh",
+    "relation": "Dành cho",
     "concept_o": "Biển báo hiệu"
+  },
+  {
+    "section_id": "s63",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Hiệu lệnh",
+    "relation": "Dành cho",
+    "concept_o": "Vạch kẻ đường"
   },
   {
     "section_id": "s63",
@@ -237,6 +2493,30 @@
     },
     "concept_s": "Người",
     "relation": "Chấp hành",
+    "concept_o": "Chỉ dẫn"
+  },
+  {
+    "section_id": "s63",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chỉ dẫn",
+    "relation": "Dành cho",
+    "concept_o": "Biển báo hiệu"
+  },
+  {
+    "section_id": "s63",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Chỉ dẫn",
+    "relation": "Dành cho",
     "concept_o": "Vạch kẻ đường"
   },
   {
@@ -250,6 +2530,18 @@
     "concept_s": "Người",
     "relation": "Điều khiển",
     "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s64",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Báo",
+    "concept_o": "Tín hiệu"
   },
   {
     "section_id": "s64",
@@ -276,18 +2568,6 @@
     "concept_o": "Ô tô"
   },
   {
-    "section_id": "s64",
-    "address": {
-      "article": 6,
-      "clause": 1,
-      "point": "b",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người",
-    "relation": "Báo",
-    "concept_o": "Tín hiệu"
-  },
-  {
     "section_id": "s65",
     "address": {
       "article": 6,
@@ -298,6 +2578,30 @@
     "concept_s": "Người",
     "relation": "Điều khiển",
     "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s65",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Báo",
+    "concept_o": "Đèn khẩn cấp"
+  },
+  {
+    "section_id": "s65",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Đặt",
+    "concept_o": "Biển cảnh báo"
   },
   {
     "section_id": "s65",
@@ -320,20 +2624,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Báo hiệu",
-    "concept_o": "Đèn khẩn cấp"
-  },
-  {
-    "section_id": "s65",
-    "address": {
-      "article": 6,
-      "clause": 1,
-      "point": "c",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người",
-    "relation": "Đặt",
-    "concept_o": "Biển cảnh báo"
+    "relation": "Chiếm",
+    "concept_o": "Phần đường"
   },
   {
     "section_id": "s66",
@@ -355,18 +2647,6 @@
       "point": "d",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
-    "relation": "Kéo",
-    "concept_o": "Xe được kéo"
-  },
-  {
-    "section_id": "s66",
-    "address": {
-      "article": 6,
-      "clause": 1,
-      "point": "d",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
     "concept_s": "Người",
     "relation": "Gắn",
     "concept_o": "Biển báo hiệu"
@@ -379,9 +2659,33 @@
       "point": "d",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
+    "relation": "Kéo",
+    "concept_o": "Xe được kéo"
+  },
+  {
+    "section_id": "s66",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
     "relation": "Kéo",
     "concept_o": "Rơ moóc"
+  },
+  {
+    "section_id": "s66",
+    "address": {
+      "article": 6,
+      "clause": 1,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Rơ moóc",
+    "relation": "Có",
+    "concept_o": "Biển báo hiệu"
   },
   {
     "section_id": "s67",
@@ -492,6 +2796,18 @@
     "concept_o": "Người"
   },
   {
+    "section_id": "s69",
+    "address": {
+      "article": 6,
+      "clause": 2,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Tại",
+    "concept_o": "Buồng lái"
+  },
+  {
     "section_id": "s70",
     "address": {
       "article": 6,
@@ -512,8 +2828,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Tuân thủ",
-    "concept_o": "Quy định nhường đường"
+    "relation": "Thực hiện",
+    "concept_o": "Nhường đường"
   },
   {
     "section_id": "s70",
@@ -525,7 +2841,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Giao lộ"
+    "concept_o": "Nơi giao nhau"
   },
   {
     "section_id": "s71",
@@ -573,19 +2889,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Phần đường xe chạy"
-  },
-  {
-    "section_id": "s71",
-    "address": {
-      "article": 6,
-      "clause": 2,
-      "point": "d",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người",
-    "relation": "Tại",
-    "concept_o": "Lề đường"
+    "concept_o": "Lề đường rộng"
   },
   {
     "section_id": "s72",
@@ -656,8 +2960,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Vượt quá",
-    "concept_o": "Tốc độ quy định"
+    "relation": "Chạy quá tốc độ",
+    "concept_o": "Ô tô"
   },
   {
     "section_id": "s74",
@@ -692,8 +2996,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Rú",
-    "concept_o": "Ga"
+    "relation": "Rú ga",
+    "concept_o": "Ô tô"
   },
   {
     "section_id": "s74",
@@ -776,19 +3080,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Bảo đảm",
-    "concept_o": "Khoảng cách an toàn"
-  },
-  {
-    "section_id": "s75",
-    "address": {
-      "article": 6,
-      "clause": 3,
-      "point": "c",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Khoảng cách an toàn",
-    "relation": "Với",
+    "relation": "Bảo đảm khoảng cách an toàn",
     "concept_o": "Xe phía sau"
   },
   {
@@ -812,8 +3104,20 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Tuân thủ",
-    "concept_o": "Quy định dừng đỗ xe"
+    "relation": "Dừng",
+    "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s76",
+    "address": {
+      "article": 6,
+      "clause": 3,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Đỗ",
+    "concept_o": "Ô tô"
   },
   {
     "section_id": "s76",
@@ -825,7 +3129,19 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Giao lộ đường sắt"
+    "concept_o": "Đường bộ"
+  },
+  {
+    "section_id": "s76",
+    "address": {
+      "article": 6,
+      "clause": 3,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Đường bộ",
+    "relation": "Giao nhau cùng mức",
+    "concept_o": "Đường sắt"
   },
   {
     "section_id": "s77",
@@ -873,7 +3189,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Giao lộ"
+    "concept_o": "Nơi đường bộ giao nhau"
   },
   {
     "section_id": "s78",
@@ -991,7 +3307,7 @@
       "point": "h",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Nối",
     "concept_o": "Xe khác"
   },
@@ -1017,7 +3333,7 @@
     },
     "concept_s": "Người",
     "relation": "Chở",
-    "concept_o": "Hành khách"
+    "concept_o": "Người"
   },
   {
     "section_id": "s81",
@@ -1027,9 +3343,9 @@
       "point": "i",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Hành khách",
+    "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Xe khác"
+    "concept_o": "Xe được kéo"
   },
   {
     "section_id": "s82",
@@ -1077,7 +3393,7 @@
     },
     "concept_s": "Người",
     "relation": "Chở",
-    "concept_o": "Hành khách"
+    "concept_o": "Người"
   },
   {
     "section_id": "s83",
@@ -1087,7 +3403,7 @@
       "point": "l",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Hành khách",
+    "concept_s": "Người",
     "relation": "Thắt",
     "concept_o": "Dây đai an toàn"
   },
@@ -1124,8 +3440,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Trẻ em",
-    "relation": "Tại",
-    "concept_o": "Hàng ghế lái xe"
+    "relation": "Ngồi cùng",
+    "concept_o": "Người"
   },
   {
     "section_id": "s84",
@@ -1137,7 +3453,19 @@
     },
     "concept_s": "Người",
     "relation": "Sử dụng",
-    "concept_o": "Thiết bị an toàn cho trẻ em"
+    "concept_o": "Thiết bị an toàn"
+  },
+  {
+    "section_id": "s84",
+    "address": {
+      "article": 6,
+      "clause": 3,
+      "point": "m",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Thiết bị an toàn",
+    "relation": "Dành cho",
+    "concept_o": "Trẻ em"
   },
   {
     "section_id": "s85",
@@ -1159,7 +3487,7 @@
       "point": "n",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Hầm đường bộ"
   },
@@ -1195,8 +3523,8 @@
       "point": "o",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
-    "relation": "Đạt",
+    "concept_s": "Người",
+    "relation": "Chạy dưới",
     "concept_o": "Tốc độ tối thiểu"
   },
   {
@@ -1207,7 +3535,7 @@
       "point": "o",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Đoạn đường bộ"
   },
@@ -1244,7 +3572,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Chậm hơn",
+    "relation": "Chạy chậm hơn",
     "concept_o": "Xe khác"
   },
   {
@@ -1256,7 +3584,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Đi",
+    "relation": "Đi về",
     "concept_o": "Làn đường bên phải"
   },
   {
@@ -1280,7 +3608,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Ô tô",
-    "relation": "Có",
+    "relation": "Gắn",
     "concept_o": "Thẻ đầu cuối"
   },
   {
@@ -1305,7 +3633,7 @@
     },
     "concept_s": "Làn đường",
     "relation": "Dành cho",
-    "concept_o": "Thu phí điện tử không dừng"
+    "concept_o": "Thu phí điện tử tự động không dừng"
   },
   {
     "section_id": "s88",
@@ -1363,7 +3691,7 @@
       "point": "b",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Bên trái đường một chiều"
   },
@@ -1375,7 +3703,7 @@
       "point": "b",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Bên trái đường đôi"
   },
@@ -1387,7 +3715,7 @@
       "point": "b",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Đoạn đường cong"
   },
@@ -1399,9 +3727,9 @@
       "point": "b",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Khu vực tầm nhìn bị che khuất"
+    "concept_o": "Đầu dốc"
   },
   {
     "section_id": "s89",
@@ -1411,7 +3739,7 @@
       "point": "b",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Cầu"
   },
@@ -1423,7 +3751,7 @@
       "point": "b",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Gầm cầu vượt"
   },
@@ -1435,7 +3763,7 @@
       "point": "b",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Song song",
     "concept_o": "Xe khác"
   },
@@ -1471,7 +3799,19 @@
       "point": "c",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
+    "relation": "Hư hỏng",
+    "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s90",
+    "address": {
+      "article": 6,
+      "clause": 4,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Đường bộ giao nhau cùng mức với đường sắt"
   },
@@ -1581,7 +3921,7 @@
     },
     "concept_s": "Người",
     "relation": "Có",
-    "concept_o": "Báo hiệu bằng đèn khẩn cấp"
+    "concept_o": "Đèn khẩn cấp"
   },
   {
     "section_id": "s92",
@@ -1594,6 +3934,18 @@
     "concept_s": "Người",
     "relation": "Đặt",
     "concept_o": "Biển cảnh báo"
+  },
+  {
+    "section_id": "s92",
+    "address": {
+      "article": 6,
+      "clause": 4,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Đặt",
+    "concept_o": "Đèn cảnh báo"
   },
   {
     "section_id": "s93",
@@ -1677,7 +4029,19 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Khu vực cấm dừng"
+    "concept_o": "Khu vực"
+  },
+  {
+    "section_id": "s93",
+    "address": {
+      "article": 6,
+      "clause": 4,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Khu vực",
+    "relation": "Cấm",
+    "concept_o": "Dừng"
   },
   {
     "section_id": "s93",
@@ -1725,7 +4089,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Đường bộ giao nhau cùng mức với đường sắt"
+    "concept_o": "Nơi đường bộ giao nhau cùng mức với đường sắt"
   },
   {
     "section_id": "s93",
@@ -1748,8 +4112,20 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Thực hiện",
-    "concept_o": "Quan sát"
+    "relation": "Quan sát",
+    "concept_o": "Hai bên"
+  },
+  {
+    "section_id": "s93",
+    "address": {
+      "article": 6,
+      "clause": 4,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Quan sát",
+    "concept_o": "Phía sau xe"
   },
   {
     "section_id": "s93",
@@ -1783,8 +4159,8 @@
       "point": "g",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
-    "relation": "Liên quan đến",
+    "concept_s": "Người",
+    "relation": "Liên quan",
     "concept_o": "Tai nạn giao thông"
   },
   {
@@ -1845,7 +4221,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe được quyền ưu tiên"
+    "concept_o": "Xe ưu tiên"
   },
   {
     "section_id": "s95",
@@ -1882,18 +4258,6 @@
     "concept_s": "Người",
     "relation": "Có",
     "concept_o": "Giấy phép"
-  },
-  {
-    "section_id": "s95",
-    "address": {
-      "article": 6,
-      "clause": 4,
-      "point": "h",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Giấy phép",
-    "relation": "Của",
-    "concept_o": "Cơ quan có thẩm quyền"
   },
   {
     "section_id": "s95",
@@ -2013,7 +4377,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Đường bộ giao nhau cùng mức với đường sắt"
+    "concept_o": "Nơi đường bộ giao nhau cùng mức với đường sắt"
   },
   {
     "section_id": "s96",
@@ -2049,7 +4413,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Nơi tầm nhìn bị che khuất"
+    "concept_o": "Đoạn đường cong tầm nhìn bị che khuất"
   },
   {
     "section_id": "s96",
@@ -2181,7 +4545,7 @@
     },
     "concept_s": "Người",
     "relation": "Giữ",
-    "concept_o": "Khoảng cách an toàn"
+    "concept_o": "Khoảng cách"
   },
   {
     "section_id": "s98",
@@ -2191,21 +4555,9 @@
       "point": "l",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Ô tô",
+    "concept_s": "Người",
     "relation": "Va chạm",
     "concept_o": "Xe chạy liền trước"
-  },
-  {
-    "section_id": "s98",
-    "address": {
-      "article": 6,
-      "clause": 4,
-      "point": "l",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Biển báo hiệu",
-    "relation": "Quy định",
-    "concept_o": "Khoảng cách an toàn"
   },
   {
     "section_id": "s99",
@@ -2228,8 +4580,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Vượt",
-    "concept_o": "Xe khác"
+    "relation": "Thực hiện",
+    "concept_o": "Vượt xe"
   },
   {
     "section_id": "s99",
@@ -2253,7 +4605,7 @@
     },
     "concept_s": "Biển báo hiệu",
     "relation": "Cấm",
-    "concept_o": "Vượt"
+    "concept_o": "Vượt xe"
   },
   {
     "section_id": "s99",
@@ -2288,7 +4640,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Vượt bên phải",
+    "relation": "Vượt",
     "concept_o": "Xe khác"
   },
   {
@@ -2312,8 +4664,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Đi bên phải",
-    "concept_o": "Ô tô"
+    "relation": "Đi",
+    "concept_o": "Bên phải"
   },
   {
     "section_id": "s100",
@@ -2479,9 +4831,9 @@
       "point": "d",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Phần lề đường",
-    "relation": "Dành cho",
-    "concept_o": "Đường cao tốc"
+    "concept_s": "Người",
+    "relation": "Giữ",
+    "concept_o": "Khoảng cách an toàn"
   },
   {
     "section_id": "s102",
@@ -2491,9 +4843,9 @@
       "point": "d",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Người",
-    "relation": "Giữ",
-    "concept_o": "Khoảng cách an toàn"
+    "concept_s": "Khoảng cách an toàn",
+    "relation": "Với",
+    "concept_o": "Xe chạy liền trước"
   },
   {
     "section_id": "s102",
@@ -2529,7 +4881,7 @@
     },
     "concept_s": "Người",
     "relation": "Vượt quá",
-    "concept_o": "Tốc độ"
+    "concept_o": "Tốc độ quy định"
   },
   {
     "section_id": "s104",
@@ -2590,6 +4942,18 @@
     "concept_s": "Thiết bị phát tín hiệu",
     "relation": "Dành cho",
     "concept_o": "Xe ưu tiên"
+  },
+  {
+    "section_id": "s104",
+    "address": {
+      "article": 6,
+      "clause": 5,
+      "point": "e",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Xe ưu tiên",
+    "relation": "Có",
+    "concept_o": "Quyền ưu tiên"
   },
   {
     "section_id": "s105",
@@ -2660,8 +5024,32 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
+    "relation": "Cầm",
+    "concept_o": "Điện thoại"
+  },
+  {
+    "section_id": "s106",
+    "address": {
+      "article": 6,
+      "clause": 5,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
     "relation": "Sử dụng",
     "concept_o": "Điện thoại"
+  },
+  {
+    "section_id": "s106",
+    "address": {
+      "article": 6,
+      "clause": 5,
+      "point": "h",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Cầm",
+    "concept_o": "Thiết bị điện tử"
   },
   {
     "section_id": "s106",
@@ -2960,8 +5348,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Giảm",
-    "concept_o": "Tốc độ"
+    "relation": "Giảm tốc độ",
+    "concept_o": "Ô tô"
   },
   {
     "section_id": "s111",
@@ -2984,19 +5372,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Thực hiện",
-    "concept_o": "Nhường đường"
-  },
-  {
-    "section_id": "s111",
-    "address": {
-      "article": 6,
-      "clause": 5,
-      "point": "n",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người",
-    "relation": "Đi vào",
+    "relation": "Nhường",
     "concept_o": "Đường ưu tiên"
   },
   {
@@ -3008,7 +5384,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Đi vào",
+    "relation": "Nhường",
     "concept_o": "Đường chính"
   },
   {
@@ -3032,8 +5408,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Giảm",
-    "concept_o": "Tốc độ"
+    "relation": "Giảm tốc độ",
+    "concept_o": "Ô tô"
   },
   {
     "section_id": "s112",
@@ -3045,7 +5421,7 @@
     },
     "concept_s": "Người",
     "relation": "Nhường",
-    "concept_o": "Xe đến từ bên phải"
+    "concept_o": "Xe đi đến từ bên phải"
   },
   {
     "section_id": "s112",
@@ -3057,7 +5433,7 @@
     },
     "concept_s": "Người",
     "relation": "Nhường",
-    "concept_o": "Xe đến từ bên trái"
+    "concept_o": "Xe đi đến từ bên trái"
   },
   {
     "section_id": "s112",
@@ -3081,19 +5457,7 @@
     },
     "concept_s": "Đường giao nhau",
     "relation": "Có",
-    "concept_o": "Biển báo hiệu"
-  },
-  {
-    "section_id": "s112",
-    "address": {
-      "article": 6,
-      "clause": 5,
-      "point": "o",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Biển báo hiệu",
-    "relation": "Chỉ dẫn",
-    "concept_o": "Vòng xuyến"
+    "concept_o": "Báo hiệu đi theo vòng xuyến"
   },
   {
     "section_id": "s113",
@@ -3142,6 +5506,18 @@
     "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Nóc xe"
+  },
+  {
+    "section_id": "s113",
+    "address": {
+      "article": 6,
+      "clause": 5,
+      "point": "p",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Để",
+    "concept_o": "Người"
   },
   {
     "section_id": "s113",
@@ -3224,7 +5600,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Chạy quá",
+    "relation": "Vượt quá",
     "concept_o": "Tốc độ quy định"
   },
   {
@@ -3274,6 +5650,18 @@
     "concept_s": "Xe ưu tiên",
     "relation": "Có",
     "concept_o": "Quyền ưu tiên"
+  },
+  {
+    "section_id": "s116",
+    "address": {
+      "article": 6,
+      "clause": 6,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Xe ưu tiên",
+    "relation": "Phát",
+    "concept_o": "Tín hiệu ưu tiên"
   },
   {
     "section_id": "s117",
@@ -3344,7 +5732,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Chạy quá",
+    "relation": "Vượt quá",
     "concept_o": "Tốc độ quy định"
   },
   {
@@ -3358,6 +5746,18 @@
     "concept_s": "Người",
     "relation": "Điều khiển",
     "concept_o": "Ô tô"
+  },
+  {
+    "section_id": "s120",
+    "address": {
+      "article": 6,
+      "clause": 7,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Điều khiển",
+    "concept_o": "Xe bốn bánh có gắn động cơ"
   },
   {
     "section_id": "s120",
@@ -3429,7 +5829,7 @@
     },
     "concept_s": "Người",
     "relation": "Có",
-    "concept_o": "Đèn khẩn cấp"
+    "concept_o": "Báo hiệu"
   },
   {
     "section_id": "s121",
@@ -3439,9 +5839,9 @@
       "point": "c",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Người",
-    "relation": "Tại",
-    "concept_o": "Làn dừng xe khẩn cấp"
+    "concept_s": "Báo hiệu",
+    "relation": "Bằng",
+    "concept_o": "Đèn khẩn cấp"
   },
   {
     "section_id": "s121",
@@ -3454,6 +5854,18 @@
     "concept_s": "Người",
     "relation": "Đặt",
     "concept_o": "Biển cảnh báo"
+  },
+  {
+    "section_id": "s121",
+    "address": {
+      "article": 6,
+      "clause": 7,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Đặt",
+    "concept_o": "Đèn cảnh báo"
   },
   {
     "section_id": "s122",
@@ -3608,7 +6020,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Hiệu lệnh",
-    "relation": "Thuộc",
+    "relation": "Dành cho",
     "concept_o": "Đèn tín hiệu giao thông"
   },
   {
@@ -3656,7 +6068,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Hiệu lệnh",
-    "relation": "Thuộc",
+    "relation": "Dành cho",
     "concept_o": "Người điều khiển giao thông"
   },
   {
@@ -3668,7 +6080,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Hiệu lệnh",
-    "relation": "Thuộc",
+    "relation": "Dành cho",
     "concept_o": "Người kiểm soát giao thông"
   },
   {
@@ -3680,7 +6092,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Hướng dẫn",
-    "relation": "Thuộc",
+    "relation": "Dành cho",
     "concept_o": "Người điều khiển giao thông"
   },
   {
@@ -3692,7 +6104,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Hướng dẫn",
-    "relation": "Thuộc",
+    "relation": "Dành cho",
     "concept_o": "Người kiểm soát giao thông"
   },
   {
@@ -3812,8 +6224,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Vượt quá",
-    "concept_o": "Tốc độ"
+    "relation": "Gây",
+    "concept_o": "Tai nạn giao thông"
   },
   {
     "section_id": "s127",
@@ -3824,8 +6236,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Gây",
-    "concept_o": "Tai nạn giao thông"
+    "relation": "Vượt quá",
+    "concept_o": "Tốc độ"
   },
   {
     "section_id": "s127",
@@ -3885,7 +6297,7 @@
     },
     "concept_s": "Người",
     "relation": "Vượt",
-    "concept_o": "Xe khác"
+    "concept_o": "Ô tô"
   },
   {
     "section_id": "s127",
@@ -3920,7 +6332,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Đi",
+    "relation": "Đi đúng",
     "concept_o": "Phần đường"
   },
   {
@@ -3932,7 +6344,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Đi",
+    "relation": "Đi đúng",
     "concept_o": "Làn đường"
   },
   {
@@ -3946,6 +6358,18 @@
     "concept_s": "Người",
     "relation": "Giữ",
     "concept_o": "Khoảng cách an toàn"
+  },
+  {
+    "section_id": "s127",
+    "address": {
+      "article": 6,
+      "clause": 10,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Đi vào",
+    "concept_o": "Đường"
   },
   {
     "section_id": "s127",
@@ -4041,7 +6465,31 @@
     },
     "concept_s": "Người",
     "relation": "Chấp hành",
-    "concept_o": "Kiểm tra nồng độ cồn"
+    "concept_o": "Yêu cầu kiểm tra"
+  },
+  {
+    "section_id": "s130",
+    "address": {
+      "article": 6,
+      "clause": 11,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Yêu cầu kiểm tra",
+    "relation": "Về",
+    "concept_o": "Nồng độ cồn"
+  },
+  {
+    "section_id": "s130",
+    "address": {
+      "article": 6,
+      "clause": 11,
+      "point": "b",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Yêu cầu kiểm tra",
+    "relation": "Dành cho",
+    "concept_o": "Người thi hành công vụ"
   },
   {
     "section_id": "s131",
@@ -4065,7 +6513,7 @@
     },
     "concept_s": "Người",
     "relation": "Sử dụng",
-    "concept_o": "Ma túy"
+    "concept_o": "Chất ma túy"
   },
   {
     "section_id": "s131",
@@ -4101,7 +6549,7 @@
     },
     "concept_s": "Người",
     "relation": "Chấp hành",
-    "concept_o": "Kiểm tra ma túy"
+    "concept_o": "Yêu cầu kiểm tra"
   },
   {
     "section_id": "s132",
@@ -4111,9 +6559,33 @@
       "point": "d",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Người",
-    "relation": "Chấp hành",
-    "concept_o": "Kiểm tra chất kích thích"
+    "concept_s": "Yêu cầu kiểm tra",
+    "relation": "Về",
+    "concept_o": "Chất ma túy"
+  },
+  {
+    "section_id": "s132",
+    "address": {
+      "article": 6,
+      "clause": 11,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Yêu cầu kiểm tra",
+    "relation": "Về",
+    "concept_o": "Chất kích thích"
+  },
+  {
+    "section_id": "s132",
+    "address": {
+      "article": 6,
+      "clause": 11,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Yêu cầu kiểm tra",
+    "relation": "Thuộc",
+    "concept_o": "Người thi hành công vụ"
   },
   {
     "section_id": "s133",
@@ -4232,8 +6704,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Thực hiện",
-    "concept_o": "Đuổi xe"
+    "relation": "Đuổi nhau",
+    "concept_o": "Ô tô"
   },
   {
     "section_id": "s134",
@@ -4244,7 +6716,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Sử dụng",
+    "relation": "Dùng",
     "concept_o": "Chân"
   },
   {
@@ -4316,20 +6788,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Lạng lách",
-    "concept_o": "Ô tô"
-  },
-  {
-    "section_id": "s136",
-    "address": {
-      "article": 6,
-      "clause": 14,
-      "point": null,
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người",
-    "relation": "Đánh võng",
-    "concept_o": "Ô tô"
+    "relation": "Tái phạm",
+    "concept_o": "Lạng lách"
   },
   {
     "section_id": "s136",
@@ -4341,7 +6801,7 @@
     },
     "concept_s": "Người",
     "relation": "Tái phạm",
-    "concept_o": "Hành vi vi phạm"
+    "concept_o": "Đánh võng"
   },
   {
     "section_id": "s137",
@@ -4483,9 +6943,21 @@
       "point": "a",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Giấy phép lái xe",
+    "concept_s": "Người",
     "relation": "Trừ",
     "concept_o": "Điểm"
+  },
+  {
+    "section_id": "s140",
+    "address": {
+      "article": 6,
+      "clause": 16,
+      "point": "a",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Điểm",
+    "relation": "Thuộc",
+    "concept_o": "Giấy phép lái xe"
   },
   {
     "section_id": "s141",
@@ -4580,8 +7052,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Thực hiện",
-    "concept_o": "Vượt xe"
+    "relation": "Vượt",
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s145",
@@ -4640,8 +7112,20 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Thực hiện",
-    "concept_o": "Quan sát"
+    "relation": "Quan sát",
+    "concept_o": "Hai bên"
+  },
+  {
+    "section_id": "s146",
+    "address": {
+      "article": 7,
+      "clause": 1,
+      "point": "c",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Quan sát",
+    "concept_o": "Phía sau xe"
   },
   {
     "section_id": "s146",
@@ -4712,8 +7196,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Thực hiện",
-    "concept_o": "Nhường đường"
+    "relation": "Nhường",
+    "concept_o": "Đường"
   },
   {
     "section_id": "s148",
@@ -4773,7 +7257,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s150",
@@ -4797,7 +7281,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s151",
@@ -4809,7 +7293,7 @@
     },
     "concept_s": "Người",
     "relation": "Tránh",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s151",
@@ -4824,54 +7308,6 @@
     "concept_o": "Đèn chiếu xa"
   },
   {
-    "section_id": "s151",
-    "address": {
-      "article": 7,
-      "clause": 1,
-      "point": "h",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người",
-    "relation": "Gặp",
-    "concept_o": "Người đi bộ"
-  },
-  {
-    "section_id": "s151",
-    "address": {
-      "article": 7,
-      "clause": 1,
-      "point": "h",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người",
-    "relation": "Tại",
-    "concept_o": "Khu dân cư"
-  },
-  {
-    "section_id": "s151",
-    "address": {
-      "article": 7,
-      "clause": 1,
-      "point": "h",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Khu dân cư",
-    "relation": "Có",
-    "concept_o": "Hệ thống chiếu sáng"
-  },
-  {
-    "section_id": "s151",
-    "address": {
-      "article": 7,
-      "clause": 1,
-      "point": "h",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Người",
-    "relation": "Gặp",
-    "concept_o": "Xe đi ngược chiều"
-  },
-  {
     "section_id": "s152",
     "address": {
       "article": 7,
@@ -4881,7 +7317,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s152",
@@ -4917,7 +7353,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Cơ sở khám chữa bệnh"
+    "concept_o": "Cơ sở khám bệnh, chữa bệnh"
   },
   {
     "section_id": "s153",
@@ -4929,7 +7365,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s153",
@@ -4940,7 +7376,31 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Chạy dưới",
+    "relation": "Chạy dưới tốc độ tối thiểu",
+    "concept_o": "Xe máy"
+  },
+  {
+    "section_id": "s153",
+    "address": {
+      "article": 7,
+      "clause": 1,
+      "point": "k",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Tại",
+    "concept_o": "Đoạn đường bộ"
+  },
+  {
+    "section_id": "s153",
+    "address": {
+      "article": 7,
+      "clause": 1,
+      "point": "k",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Đoạn đường bộ",
+    "relation": "Có",
     "concept_o": "Tốc độ tối thiểu"
   },
   {
@@ -4953,7 +7413,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s154",
@@ -4965,7 +7425,7 @@
     },
     "concept_s": "Người",
     "relation": "Dừng",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s154",
@@ -4977,7 +7437,7 @@
     },
     "concept_s": "Người",
     "relation": "Đỗ",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s154",
@@ -4999,19 +7459,7 @@
       "point": "a",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Người",
-    "relation": "Tại",
-    "concept_o": "Đoạn đường ngoài đô thị"
-  },
-  {
-    "section_id": "s154",
-    "address": {
-      "article": 7,
-      "clause": 2,
-      "point": "a",
-      "document": "Nghị định 168:2024/NĐ-CP"
-    },
-    "concept_s": "Đoạn đường ngoài đô thị",
+    "concept_s": "Phần đường xe chạy",
     "relation": "Có",
     "concept_o": "Lề đường"
   },
@@ -5025,7 +7473,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s155",
@@ -5036,8 +7484,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Chạy quá",
-    "concept_o": "Tốc độ quy định"
+    "relation": "Chạy quá tốc độ",
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s156",
@@ -5049,7 +7497,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s156",
@@ -5060,8 +7508,8 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Chạy",
-    "concept_o": "Tốc độ thấp"
+    "relation": "Chạy tốc độ thấp",
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s156",
@@ -5084,7 +7532,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Gây cản trở",
+    "relation": "Cản trở",
     "concept_o": "Giao thông"
   },
   {
@@ -5097,7 +7545,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s157",
@@ -5109,7 +7557,7 @@
     },
     "concept_s": "Người",
     "relation": "Dừng",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s157",
@@ -5121,7 +7569,7 @@
     },
     "concept_s": "Người",
     "relation": "Đỗ",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s157",
@@ -5144,7 +7592,7 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Người",
-    "relation": "Gây cản trở",
+    "relation": "Cản trở",
     "concept_o": "Giao thông"
   },
   {
@@ -5157,7 +7605,7 @@
     },
     "concept_s": "Người",
     "relation": "Tụ tập",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s157",
@@ -5170,6 +7618,18 @@
     "concept_s": "Người",
     "relation": "Tại",
     "concept_o": "Hầm đường bộ"
+  },
+  {
+    "section_id": "s157",
+    "address": {
+      "article": 7,
+      "clause": 2,
+      "point": "d",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Người",
+    "relation": "Để",
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s157",
@@ -5193,7 +7653,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s158",
@@ -5203,7 +7663,7 @@
       "point": "đ",
       "document": "Nghị định 168:2024/NĐ-CP"
     },
-    "concept_s": "Xe mô tô",
+    "concept_s": "Xe máy",
     "relation": "Có",
     "concept_o": "Quyền ưu tiên"
   },
@@ -5240,8 +7700,20 @@
       "document": "Nghị định 168:2024/NĐ-CP"
     },
     "concept_s": "Thiết bị phát tín hiệu",
-    "relation": "Thuộc",
+    "relation": "Dành cho",
     "concept_o": "Xe ưu tiên"
+  },
+  {
+    "section_id": "s158",
+    "address": {
+      "article": 7,
+      "clause": 2,
+      "point": "đ",
+      "document": "Nghị định 168:2024/NĐ-CP"
+    },
+    "concept_s": "Xe ưu tiên",
+    "relation": "Có",
+    "concept_o": "Quyền ưu tiên"
   },
   {
     "section_id": "s159",
@@ -5253,7 +7725,7 @@
     },
     "concept_s": "Người",
     "relation": "Điều khiển",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s159",
@@ -5265,7 +7737,7 @@
     },
     "concept_s": "Người",
     "relation": "Dừng",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s159",
@@ -5277,7 +7749,7 @@
     },
     "concept_s": "Người",
     "relation": "Đỗ",
-    "concept_o": "Xe mô tô"
+    "concept_o": "Xe máy"
   },
   {
     "section_id": "s159",
@@ -5289,7 +7761,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Điểm đón trả khách"
+    "concept_o": "Điểm đón, trả khách"
   },
   {
     "section_id": "s159",
@@ -5301,7 +7773,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Nơi đường bộ giao nhau"
+    "concept_o": "Đường giao nhau"
   },
   {
     "section_id": "s159",
@@ -5373,7 +7845,7 @@
     },
     "concept_s": "Người",
     "relation": "Tại",
-    "concept_o": "Nơi đường bộ giao nhau cùng mức với đường sắt"
+    "concept_o": "Đường giao nhau cùng mức với đường sắt"
   },
   {
     "section_id": "s159",

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "s31",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc lắp đặt thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe, dây đai an toàn, ghế ngồi cho trẻ em mầm non, học sinh tiểu học, dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ trên xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lắp đặt", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lắp đặt", "o": "Ghế ngồi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Trẻ em mầm non",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Học sinh tiểu học",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị cứu hộ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["dụng cụ chuyên dùng để cứu hộ", "thiết bị chuyên dùng để cứu hộ", "thiết bị hỗ trợ cứu hộ"]}
+    ]
+  },
+  {
+    "id": "s32",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc tháo dỡ thiết bị âm thanh, ánh sáng lắp đặt trên xe gây mất trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Tháo dỡ", "o": "Thiết bị âm thanh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tháo dỡ", "o": "Thiết bị ánh sáng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị âm thanh", "v": "Gây mất", "o": "Trật tự an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị ánh sáng", "v": "Gây mất", "o": "Trật tự an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s33",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu từ thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Cung cấp", "o": "Dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
+      {"s": "Người", "v": "Cập nhật", "o": "Dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
+      {"s": "Người", "v": "Truyền dẫn", "o": "Dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
+      {"s": "Người", "v": "Lưu trữ", "o": "Dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
+      {"s": "Người", "v": "Quản lý", "o": "Dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
+      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị giám sát hành trình", "v": "Lắp trên", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s34",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm m",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc điều chỉnh lại chỉ số trên đồng hồ báo quãng đường của xe ô tô bị làm sai lệch."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều chỉnh", "o": "Chỉ số đồng hồ báo quãng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chỉ số đồng hồ báo quãng đường", "v": "Dành cho", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s35",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm n",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc khôi phục lại nhãn hiệu, màu sơn ghi trong chứng nhận đăng ký xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Khôi phục", "o": "Nhãn hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Khôi phục", "o": "Màu sơn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nhãn hiệu", "v": "Ghi trong", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Màu sơn", "v": "Ghi trong", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s36",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm o",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc thực hiện đúng quy định về biển số xe, quy định về kẻ hoặc dán chữ, số biển số, thông tin trên thành xe, cửa xe, quy định về màu sơn, biển báo dấu hiệu nhận biết của xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Thực hiện", "o": "Quy định về biển số xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Quy định về thông tin trên xe",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["quy định về kẻ hoặc dán chữ, số biển số, thông tin trên thành xe, cửa xe"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Quy định về màu sơn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Quy định về biển báo dấu hiệu nhận biết",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s37",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm p",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc khôi phục lại hình dáng, kích thước, tình trạng an toàn kỹ thuật ban đầu của xe và đăng kiểm lại trước khi đưa phương tiện ra tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Khôi phục", "o": "Hình dáng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Khôi phục", "o": "Kích thước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Khôi phục", "o": "Tình trạng an toàn kỹ thuật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đăng kiểm", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s38",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm q",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc thực hiện điều chỉnh thùng xe theo đúng quy định hiện hành, đăng kiểm lại và điều chỉnh lại khối lượng hàng hóa cho phép chuyên chở được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều chỉnh", "o": "Thùng xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đăng kiểm", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều chỉnh", "o": "Khối lượng hàng hóa cho phép chuyên chở",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khối lượng hàng hóa cho phép chuyên chở", "v": "Ghi trong", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s39",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm r",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc làm thủ tục đổi, thu hồi, cấp mới, cấp chứng nhận đăng ký xe, biển số xe, giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Làm thủ tục", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Làm thủ tục", "o": "Biển số xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Làm thủ tục", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s40",
+    "path": "Chương I - Điều 3 - Khoản 3 - Điểm s",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc nộp lại giấy phép, chứng chỉ hành nghề bị tẩy xóa, sửa chữa làm sai lệch nội dung."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Nộp", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Nộp", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

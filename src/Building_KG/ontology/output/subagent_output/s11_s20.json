@@ -1,0 +1,172 @@
+[
+  {
+    "id": "s11",
+    "path": "Chương I - Điều 2 - Khoản 2 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe, cơ sở đăng kiểm xe cơ giới, xe máy chuyên dùng, cơ sở thử nghiệm, sản xuất, lắp ráp, nhập khẩu, bảo hành, bảo dưỡng xe cơ giới, xe máy chuyên dùng."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s12",
+    "path": "Chương I - Điều 2 - Khoản 2 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các tổ chức khác được thành lập theo quy định của pháp luật."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s13",
+    "path": "Chương I - Điều 2 - Khoản 2 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ quan, tổ chức nước ngoài được cấp có thẩm quyền của Việt Nam cho phép hoạt động trên lãnh thổ Việt Nam."
+    ],
+    "triplets": [
+      {"s": "Cấp có thẩm quyền của Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cấp có thẩm quyền của Việt Nam", "v": "Cho phép", "o": "Cơ quan nước ngoài",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cấp có thẩm quyền của Việt Nam", "v": "Cho phép", "o": "Tổ chức nước ngoài",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan nước ngoài", "v": "Thực hiện", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức nước ngoài", "v": "Thực hiện", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan nước ngoài", "v": "Tại", "o": "Lãnh thổ Việt Nam",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức nước ngoài", "v": "Tại", "o": "Lãnh thổ Việt Nam",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s14",
+    "path": "Chương I - Điều 2 - Khoản 3",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Hộ kinh doanh, hộ gia đình thực hiện hành vi vi phạm hành chính quy định tại Nghị định này bị xử phạt như đối với cá nhân vi phạm."
+    ],
+    "triplets": [
+      {"s": "Hộ kinh doanh", "v": "Thực hiện", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hộ gia đình", "v": "Thực hiện", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s15",
+    "path": "Chương I - Điều 2 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính và tổ chức, cá nhân có liên quan đến việc xử phạt vi phạm hành chính theo quy định tại Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Lập", "o": "Biên bản vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vi phạm hành chính"]},
+      {"s": "Tổ chức", "v": "Liên quan", "o": "Xử phạt vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Liên quan", "o": "Xử phạt vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s16",
+    "path": "Chương I - Điều 2 - Khoản 5",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền trừ điểm, phục hồi điểm giấy phép lái xe."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Điểm", "v": "Dành cho", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Phục hồi", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s17",
+    "path": "Chương I - Điều 3 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu một trong các hình thức xử phạt chính là cảnh cáo."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Chịu", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Chịu", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s18",
+    "path": "Chương I - Điều 3 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu một trong các hình thức xử phạt chính là phạt tiền."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Chịu", "o": "Phạt tiền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Chịu", "o": "Phạt tiền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s19",
+    "path": "Chương I - Điều 3 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu một trong các hình thức xử phạt chính là tịch thu phương tiện được sử dụng để vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Tịch thu", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Tịch thu", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Sử dụng", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s20",
+    "path": "Chương I - Điều 3 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thể bị áp dụng một hoặc nhiều hình thức xử phạt bổ sung là tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]
