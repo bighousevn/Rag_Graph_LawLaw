@@ -1,199 +1,22 @@
 {
   "concepts": [
     {
-      "name": "Cá nhân",
+      "id": "C0001",
+      "name": "An toàn",
       "keyphrases": []
     },
     {
-      "name": "Trật tự, an toàn giao thông đường bộ",
+      "id": "C0002",
+      "name": "Biên bản",
       "keyphrases": []
     },
     {
-      "name": "Lãnh thổ Việt Nam",
-      "keyphrases": [
-        "lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam"
-      ]
-    },
-    {
-      "name": "Tổ chức",
-      "keyphrases": []
-    },
-    {
-      "name": "Cơ quan nhà nước",
-      "keyphrases": []
-    },
-    {
-      "name": "Nhiệm vụ quản lý nhà nước",
-      "keyphrases": []
-    },
-    {
-      "name": "Tổ chức kinh tế",
-      "keyphrases": []
-    },
-    {
-      "name": "Luật Doanh nghiệp",
-      "keyphrases": []
-    },
-    {
-      "name": "Doanh nghiệp tư nhân",
-      "keyphrases": []
-    },
-    {
-      "name": "Công ty cổ phần",
-      "keyphrases": []
-    },
-    {
-      "name": "Công ty trách nhiệm hữu hạn",
-      "keyphrases": []
-    },
-    {
-      "name": "Công ty hợp danh",
-      "keyphrases": []
-    },
-    {
-      "name": "Đơn vị phụ thuộc doanh nghiệp",
-      "keyphrases": [
-        "chi nhánh",
-        "văn phòng đại diện"
-      ]
-    },
-    {
-      "name": "Luật Hợp tác xã",
-      "keyphrases": []
-    },
-    {
-      "name": "Tổ hợp tác",
-      "keyphrases": []
-    },
-    {
-      "name": "Hợp tác xã",
-      "keyphrases": []
-    },
-    {
-      "name": "Liên hiệp hợp tác xã",
-      "keyphrases": []
-    },
-    {
-      "name": "Cấp có thẩm quyền của Việt Nam",
-      "keyphrases": []
-    },
-    {
-      "name": "Thẩm quyền",
-      "keyphrases": []
-    },
-    {
-      "name": "Cơ quan nước ngoài",
-      "keyphrases": []
-    },
-    {
-      "name": "Tổ chức nước ngoài",
-      "keyphrases": []
-    },
-    {
-      "name": "Hoạt động",
-      "keyphrases": []
-    },
-    {
-      "name": "Hộ kinh doanh",
-      "keyphrases": []
-    },
-    {
-      "name": "Hành vi vi phạm hành chính",
-      "keyphrases": [
-        "vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Hộ gia đình",
-      "keyphrases": []
-    },
-    {
-      "name": "Người có thẩm quyền",
-      "keyphrases": [
-        "người có thẩm quyền xử phạt"
-      ]
-    },
-    {
+      "id": "C0003",
       "name": "Biên bản vi phạm hành chính",
       "keyphrases": []
     },
     {
-      "name": "Xử phạt vi phạm hành chính",
-      "keyphrases": []
-    },
-    {
-      "name": "Điểm",
-      "keyphrases": []
-    },
-    {
-      "name": "Giấy phép lái xe",
-      "keyphrases": [
-        "giấy phép lái xe quốc gia",
-        "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp"
-      ]
-    },
-    {
-      "name": "Cảnh cáo",
-      "keyphrases": []
-    },
-    {
-      "name": "Phạt tiền",
-      "keyphrases": []
-    },
-    {
-      "name": "Phương tiện",
-      "keyphrases": [
-        "thiết bị kỹ thuật nghiệp vụ",
-        "thiết bị kỹ thuật"
-      ]
-    },
-    {
-      "name": "Giấy phép",
-      "keyphrases": [
-        "giấy phép lái xe"
-      ]
-    },
-    {
-      "name": "Quyền sử dụng",
-      "keyphrases": []
-    },
-    {
-      "name": "Chứng chỉ hành nghề",
-      "keyphrases": []
-    },
-    {
-      "name": "Trật tự an toàn giao thông đường bộ",
-      "keyphrases": []
-    },
-    {
-      "name": "Tang vật vi phạm hành chính",
-      "keyphrases": []
-    },
-    {
-      "name": "Phương tiện vi phạm hành chính",
-      "keyphrases": []
-    },
-    {
-      "name": "Biện pháp khắc phục hậu quả",
-      "keyphrases": []
-    },
-    {
-      "name": "Tình trạng ban đầu",
-      "keyphrases": []
-    },
-    {
-      "name": "Ô nhiễm môi trường",
-      "keyphrases": []
-    },
-    {
-      "name": "Số lợi bất hợp pháp",
-      "keyphrases": []
-    },
-    {
-      "name": "Vật che khuất",
-      "keyphrases": []
-    },
-    {
+      "id": "C0004",
       "name": "Biển báo hiệu",
       "keyphrases": [
         "biển báo hiệu đường bộ",
@@ -202,68 +25,883 @@
       ]
     },
     {
-      "name": "Đèn tín hiệu giao thông",
+      "id": "C0005",
+      "name": "Biển cảnh báo",
       "keyphrases": []
     },
     {
-      "name": "Thiết bị",
+      "id": "C0006",
+      "name": "Biển số xe",
       "keyphrases": []
     },
     {
-      "name": "Tính năng kỹ thuật",
+      "id": "C0007",
+      "name": "Biện pháp bảo đảm an toàn",
       "keyphrases": []
     },
     {
-      "name": "Thẻ nhận dạng lái xe",
+      "id": "C0008",
+      "name": "Biện pháp khắc phục hậu quả",
       "keyphrases": []
     },
     {
-      "name": "Lái xe",
+      "id": "C0009",
+      "name": "Buồng lái",
       "keyphrases": []
     },
     {
-      "name": "Tập huấn",
+      "id": "C0010",
+      "name": "Bánh xe",
+      "keyphrases": [
+        "bánh"
+      ]
+    },
+    {
+      "id": "C0011",
+      "name": "Báo hiệu",
       "keyphrases": []
     },
     {
-      "name": "Nhân viên phục vụ trên xe",
+      "id": "C0012",
+      "name": "Báo hiệu bằng đèn khẩn cấp",
       "keyphrases": []
     },
     {
+      "id": "C0013",
+      "name": "Báo hiệu đi theo vòng xuyến",
+      "keyphrases": []
+    },
+    {
+      "id": "C0014",
+      "name": "Bên phải",
+      "keyphrases": []
+    },
+    {
+      "id": "C0015",
+      "name": "Bên trái đường một chiều",
+      "keyphrases": []
+    },
+    {
+      "id": "C0016",
+      "name": "Bên trái đường đôi",
+      "keyphrases": []
+    },
+    {
+      "id": "C0017",
+      "name": "Chân",
+      "keyphrases": []
+    },
+    {
+      "id": "C0018",
+      "name": "Chân chống",
+      "keyphrases": []
+    },
+    {
+      "id": "C0019",
+      "name": "Chướng ngại vật",
+      "keyphrases": []
+    },
+    {
+      "id": "C0020",
+      "name": "Chất kích thích",
+      "keyphrases": [
+        "chất kích thích khác"
+      ]
+    },
+    {
+      "id": "C0021",
+      "name": "Chất ma túy",
+      "keyphrases": []
+    },
+    {
+      "id": "C0022",
+      "name": "Chỉ dẫn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0023",
+      "name": "Chỉ số đồng hồ báo quãng đường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0024",
+      "name": "Chỗ lấy nước",
+      "keyphrases": []
+    },
+    {
+      "id": "C0025",
+      "name": "Chứng chỉ hành nghề",
+      "keyphrases": []
+    },
+    {
+      "id": "C0026",
+      "name": "Chứng chỉ đăng kiểm viên",
+      "keyphrases": []
+    },
+    {
+      "id": "C0027",
+      "name": "Chứng nhận đăng ký xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0028",
+      "name": "Cá nhân",
+      "keyphrases": []
+    },
+    {
+      "id": "C0029",
+      "name": "Còi",
+      "keyphrases": []
+    },
+    {
+      "id": "C0030",
+      "name": "Còi hơi",
+      "keyphrases": []
+    },
+    {
+      "id": "C0031",
+      "name": "Công ty cổ phần",
+      "keyphrases": []
+    },
+    {
+      "id": "C0032",
+      "name": "Công ty hợp danh",
+      "keyphrases": []
+    },
+    {
+      "id": "C0033",
+      "name": "Công ty trách nhiệm hữu hạn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0034",
+      "name": "Cơ quan",
+      "keyphrases": []
+    },
+    {
+      "id": "C0035",
+      "name": "Cơ quan có thẩm quyền",
+      "keyphrases": []
+    },
+    {
+      "id": "C0036",
+      "name": "Cơ quan công an",
+      "keyphrases": []
+    },
+    {
+      "id": "C0037",
+      "name": "Cơ quan nhà nước",
+      "keyphrases": []
+    },
+    {
+      "id": "C0038",
+      "name": "Cơ quan nước ngoài",
+      "keyphrases": []
+    },
+    {
+      "id": "C0039",
+      "name": "Cơ sở khám bệnh, chữa bệnh",
+      "keyphrases": []
+    },
+    {
+      "id": "C0040",
+      "name": "Cản trở giao thông",
+      "keyphrases": []
+    },
+    {
+      "id": "C0041",
+      "name": "Cảnh cáo",
+      "keyphrases": []
+    },
+    {
+      "id": "C0042",
+      "name": "Cấp có thẩm quyền của Việt Nam",
+      "keyphrases": []
+    },
+    {
+      "id": "C0043",
+      "name": "Cầu",
+      "keyphrases": []
+    },
+    {
+      "id": "C0044",
+      "name": "Cồn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0045",
+      "name": "Cửa xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0046",
+      "name": "Doanh nghiệp tư nhân",
+      "keyphrases": []
+    },
+    {
+      "id": "C0047",
+      "name": "Dây đai an toàn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0048",
+      "name": "Dải phân cách",
+      "keyphrases": []
+    },
+    {
+      "id": "C0049",
+      "name": "Dải phân cách cố định",
+      "keyphrases": []
+    },
+    {
+      "id": "C0050",
+      "name": "Dốc",
+      "keyphrases": []
+    },
+    {
+      "id": "C0051",
+      "name": "Dừng",
+      "keyphrases": []
+    },
+    {
+      "id": "C0052",
+      "name": "Dữ liệu",
+      "keyphrases": [
+        "thông tin"
+      ]
+    },
+    {
+      "id": "C0053",
+      "name": "Ghế ngồi",
+      "keyphrases": []
+    },
+    {
+      "id": "C0054",
+      "name": "Giao thông",
+      "keyphrases": []
+    },
+    {
+      "id": "C0055",
+      "name": "Giá trị sử dụng",
+      "keyphrases": []
+    },
+    {
+      "id": "C0056",
+      "name": "Giá đèo hàng",
+      "keyphrases": []
+    },
+    {
+      "id": "C0057",
+      "name": "Giấy chứng nhận",
+      "keyphrases": []
+    },
+    {
+      "id": "C0058",
+      "name": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0059",
+      "name": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
+      "keyphrases": []
+    },
+    {
+      "id": "C0060",
+      "name": "Giấy phép",
+      "keyphrases": [
+        "giấy phép lái xe"
+      ]
+    },
+    {
+      "id": "C0061",
+      "name": "Giấy phép lái xe",
+      "keyphrases": [
+        "giấy phép lái xe quốc gia",
+        "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp"
+      ]
+    },
+    {
+      "id": "C0062",
+      "name": "Giấy phép sát hạch",
+      "keyphrases": []
+    },
+    {
+      "id": "C0063",
+      "name": "Giấy phép đào tạo lái xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0064",
+      "name": "Gầm cầu vượt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0065",
+      "name": "Hai bánh",
+      "keyphrases": []
+    },
+    {
+      "id": "C0066",
+      "name": "Hai bên",
+      "keyphrases": []
+    },
+    {
+      "id": "C0067",
+      "name": "Hiện trường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0068",
+      "name": "Hiệu lệnh",
+      "keyphrases": []
+    },
+    {
+      "id": "C0069",
+      "name": "Hoạt động",
+      "keyphrases": []
+    },
+    {
+      "id": "C0070",
+      "name": "Hành khách",
+      "keyphrases": [
+        "người ngồi trên xe"
+      ]
+    },
+    {
+      "id": "C0071",
+      "name": "Hành lang an toàn giao thông đường sắt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0072",
+      "name": "Hành vi vi phạm",
+      "keyphrases": []
+    },
+    {
+      "id": "C0073",
+      "name": "Hành vi vi phạm hành chính",
+      "keyphrases": [
+        "vi phạm hành chính"
+      ]
+    },
+    {
+      "id": "C0074",
+      "name": "Hình dáng",
+      "keyphrases": []
+    },
+    {
+      "id": "C0075",
+      "name": "Hình thức xử phạt bổ sung",
+      "keyphrases": []
+    },
+    {
+      "id": "C0076",
+      "name": "Hướng dẫn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0077",
+      "name": "Hầm đường bộ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0078",
+      "name": "Học sinh tiểu học",
+      "keyphrases": []
+    },
+    {
+      "id": "C0079",
+      "name": "Hồ sơ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0080",
+      "name": "Hộ gia đình",
+      "keyphrases": []
+    },
+    {
+      "id": "C0081",
+      "name": "Hộ kinh doanh",
+      "keyphrases": []
+    },
+    {
+      "id": "C0082",
+      "name": "Hợp tác xã",
+      "keyphrases": []
+    },
+    {
+      "id": "C0083",
+      "name": "Khoảng cách",
+      "keyphrases": []
+    },
+    {
+      "id": "C0084",
+      "name": "Khoảng cách an toàn",
+      "keyphrases": [
+        "Cự ly tối thiểu giữa hai xe"
+      ]
+    },
+    {
+      "id": "C0085",
+      "name": "Khu kinh tế cửa khẩu quốc tế",
+      "keyphrases": []
+    },
+    {
+      "id": "C0086",
+      "name": "Khu kinh tế thương mại đặc biệt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0087",
+      "name": "Khu vực",
+      "keyphrases": []
+    },
+    {
+      "id": "C0088",
+      "name": "Khu vực cấm",
+      "keyphrases": []
+    },
+    {
+      "id": "C0089",
+      "name": "Khu vực cấm dừng",
+      "keyphrases": []
+    },
+    {
+      "id": "C0090",
+      "name": "Khu đông dân cư",
+      "keyphrases": []
+    },
+    {
+      "id": "C0091",
       "name": "Khám sức khỏe",
       "keyphrases": []
     },
     {
+      "id": "C0092",
+      "name": "Khối lượng hàng hóa cho phép chuyên chở",
+      "keyphrases": []
+    },
+    {
+      "id": "C0093",
+      "name": "Kinh doanh vận tải",
+      "keyphrases": []
+    },
+    {
+      "id": "C0094",
+      "name": "Kiểm tra nồng độ cồn",
+      "keyphrases": [
+        "yêu cầu kiểm tra về nồng độ cồn"
+      ]
+    },
+    {
+      "id": "C0095",
+      "name": "Kích thước",
+      "keyphrases": []
+    },
+    {
+      "id": "C0096",
+      "name": "Kết quả",
+      "keyphrases": []
+    },
+    {
+      "id": "C0097",
+      "name": "Liên hiệp hợp tác xã",
+      "keyphrases": []
+    },
+    {
+      "id": "C0098",
+      "name": "Luật Doanh nghiệp",
+      "keyphrases": []
+    },
+    {
+      "id": "C0099",
+      "name": "Luật Hợp tác xã",
+      "keyphrases": []
+    },
+    {
+      "id": "C0100",
+      "name": "Làn dừng xe khẩn cấp",
+      "keyphrases": []
+    },
+    {
+      "id": "C0101",
+      "name": "Làn đường",
+      "keyphrases": [
+        "làn cùng chiều",
+        "làn ngược chiều"
+      ]
+    },
+    {
+      "id": "C0102",
+      "name": "Làn đường bên phải",
+      "keyphrases": []
+    },
+    {
+      "id": "C0103",
+      "name": "Lái xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0104",
+      "name": "Lãnh thổ Việt Nam",
+      "keyphrases": [
+        "lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam"
+      ]
+    },
+    {
+      "id": "C0105",
+      "name": "Lòng đường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0106",
+      "name": "Lạng lách",
+      "keyphrases": []
+    },
+    {
+      "id": "C0107",
+      "name": "Lề đường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0108",
+      "name": "Lề đường rộng",
+      "keyphrases": []
+    },
+    {
+      "id": "C0109",
+      "name": "Ma túy",
+      "keyphrases": [
+        "chất ma túy"
+      ]
+    },
+    {
+      "id": "C0110",
+      "name": "Miệng cống thoát nước",
+      "keyphrases": []
+    },
+    {
+      "id": "C0111",
+      "name": "Miệng hầm",
+      "keyphrases": []
+    },
+    {
+      "id": "C0112",
+      "name": "Màu sơn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0113",
+      "name": "Máy",
+      "keyphrases": []
+    },
+    {
+      "id": "C0114",
+      "name": "Mũ bảo hiểm",
+      "keyphrases": []
+    },
+    {
+      "id": "C0115",
+      "name": "Mắt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0116",
+      "name": "Một bánh",
+      "keyphrases": []
+    },
+    {
+      "id": "C0117",
+      "name": "Một bên",
+      "keyphrases": []
+    },
+    {
+      "id": "C0118",
       "name": "Người",
       "keyphrases": [
         "người điều khiển"
       ]
     },
     {
-      "name": "Thiết bị giám sát hành trình",
+      "id": "C0119",
+      "name": "Người bị nạn",
       "keyphrases": []
     },
     {
-      "name": "Thiết bị ghi nhận hình ảnh người lái xe",
+      "id": "C0120",
+      "name": "Người có thẩm quyền",
+      "keyphrases": [
+        "người có thẩm quyền xử phạt"
+      ]
+    },
+    {
+      "id": "C0121",
+      "name": "Người có thẩm quyền xử phạt",
       "keyphrases": []
     },
     {
-      "name": "Dây đai an toàn",
+      "id": "C0122",
+      "name": "Người kiểm soát giao thông",
       "keyphrases": []
     },
     {
-      "name": "Ghế ngồi",
+      "id": "C0123",
+      "name": "Người ngồi trên xe",
       "keyphrases": []
     },
     {
-      "name": "Trẻ em mầm non",
+      "id": "C0124",
+      "name": "Người ngồi trước",
       "keyphrases": []
     },
     {
-      "name": "Học sinh tiểu học",
+      "id": "C0125",
+      "name": "Người thi hành công vụ",
       "keyphrases": []
     },
     {
+      "id": "C0126",
+      "name": "Người đi bộ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0127",
+      "name": "Người điều khiển giao thông",
+      "keyphrases": []
+    },
+    {
+      "id": "C0128",
+      "name": "Ngầm",
+      "keyphrases": []
+    },
+    {
+      "id": "C0129",
+      "name": "Nhiệm vụ quản lý nhà nước",
+      "keyphrases": []
+    },
+    {
+      "id": "C0130",
+      "name": "Nhân viên phục vụ trên xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0131",
+      "name": "Nhãn hiệu",
+      "keyphrases": []
+    },
+    {
+      "id": "C0132",
+      "name": "Nhường đường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0133",
+      "name": "Nóc xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0134",
+      "name": "Nơi giao nhau",
+      "keyphrases": []
+    },
+    {
+      "id": "C0135",
+      "name": "Nơi tầm nhìn bị che khuất",
+      "keyphrases": []
+    },
+    {
+      "id": "C0136",
+      "name": "Nơi đường bộ giao nhau",
+      "keyphrases": []
+    },
+    {
+      "id": "C0137",
+      "name": "Nơi đường bộ giao nhau cùng mức với đường sắt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0138",
+      "name": "Nồng độ cồn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0139",
+      "name": "Nội dung",
+      "keyphrases": []
+    },
+    {
+      "id": "C0140",
+      "name": "Phanh đỗ xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0141",
+      "name": "Phía sau xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0142",
+      "name": "Phù hiệu",
+      "keyphrases": []
+    },
+    {
+      "id": "C0143",
+      "name": "Phương tiện",
+      "keyphrases": [
+        "thiết bị kỹ thuật nghiệp vụ",
+        "thiết bị kỹ thuật"
+      ]
+    },
+    {
+      "id": "C0144",
+      "name": "Phương tiện vi phạm hành chính",
+      "keyphrases": []
+    },
+    {
+      "id": "C0145",
+      "name": "Phạm vi an toàn của đường sắt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0146",
+      "name": "Phạm vi bảo vệ công trình đường sắt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0147",
+      "name": "Phạt tiền",
+      "keyphrases": []
+    },
+    {
+      "id": "C0148",
+      "name": "Phần lề đường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0149",
+      "name": "Phần đường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0150",
+      "name": "Phần đường xe chạy",
+      "keyphrases": []
+    },
+    {
+      "id": "C0151",
+      "name": "Quai mũ bảo hiểm",
+      "keyphrases": [
+        "quai"
+      ]
+    },
+    {
+      "id": "C0152",
+      "name": "Quan sát",
+      "keyphrases": []
+    },
+    {
+      "id": "C0153",
+      "name": "Quay đầu",
+      "keyphrases": []
+    },
+    {
+      "id": "C0154",
+      "name": "Quy định về biển báo dấu hiệu nhận biết",
+      "keyphrases": []
+    },
+    {
+      "id": "C0155",
+      "name": "Quy định về biển số xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0156",
+      "name": "Quy định về màu sơn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0157",
+      "name": "Quy định về thông tin trên xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0158",
+      "name": "Quyền sử dụng",
+      "keyphrases": []
+    },
+    {
+      "id": "C0159",
+      "name": "Quyền ưu tiên",
+      "keyphrases": []
+    },
+    {
+      "id": "C0160",
+      "name": "Rú ga",
+      "keyphrases": [
+        "nẹt pô"
+      ]
+    },
+    {
+      "id": "C0161",
+      "name": "Rơ moóc",
+      "keyphrases": []
+    },
+    {
+      "id": "C0162",
+      "name": "Rẽ phải",
+      "keyphrases": []
+    },
+    {
+      "id": "C0163",
+      "name": "Rẽ trái",
+      "keyphrases": []
+    },
+    {
+      "id": "C0164",
+      "name": "Số lợi bất hợp pháp",
+      "keyphrases": []
+    },
+    {
+      "id": "C0165",
+      "name": "Tai nạn giao thông",
+      "keyphrases": []
+    },
+    {
+      "id": "C0166",
+      "name": "Tang vật vi phạm hành chính",
+      "keyphrases": []
+    },
+    {
+      "id": "C0167",
+      "name": "Tay",
+      "keyphrases": [
+        "cả hai tay"
+      ]
+    },
+    {
+      "id": "C0168",
+      "name": "Tay lái",
+      "keyphrases": []
+    },
+    {
+      "id": "C0169",
+      "name": "Tem kiểm định",
+      "keyphrases": [
+        "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+      ]
+    },
+    {
+      "id": "C0170",
+      "name": "Thiết bị",
+      "keyphrases": []
+    },
+    {
+      "id": "C0171",
+      "name": "Thiết bị an toàn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0172",
       "name": "Thiết bị cứu hộ",
       "keyphrases": [
         "dụng cụ chuyên dùng để cứu hộ",
@@ -272,124 +910,17 @@
       ]
     },
     {
-      "name": "Thiết bị âm thanh",
+      "id": "C0173",
+      "name": "Thiết bị ghi nhận hình ảnh người lái xe",
       "keyphrases": []
     },
     {
-      "name": "Thiết bị ánh sáng",
+      "id": "C0174",
+      "name": "Thiết bị giám sát hành trình",
       "keyphrases": []
     },
     {
-      "name": "Dữ liệu",
-      "keyphrases": [
-        "thông tin"
-      ]
-    },
-    {
-      "name": "Ô tô",
-      "keyphrases": [
-        "xe ô tô",
-        "xe tương tự xe ô tô",
-        "xe chở người bốn bánh có gắn động cơ",
-        "xe chở hàng bốn bánh có gắn động cơ",
-        "các loại xe tương tự xe ô tô"
-      ]
-    },
-    {
-      "name": "Chỉ số đồng hồ báo quãng đường",
-      "keyphrases": []
-    },
-    {
-      "name": "Nhãn hiệu",
-      "keyphrases": []
-    },
-    {
-      "name": "Màu sơn",
-      "keyphrases": []
-    },
-    {
-      "name": "Chứng nhận đăng ký xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Quy định về biển số xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Quy định về thông tin trên xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Quy định về màu sơn",
-      "keyphrases": []
-    },
-    {
-      "name": "Quy định về biển báo dấu hiệu nhận biết",
-      "keyphrases": []
-    },
-    {
-      "name": "Hình dáng",
-      "keyphrases": []
-    },
-    {
-      "name": "Kích thước",
-      "keyphrases": []
-    },
-    {
-      "name": "Tình trạng an toàn kỹ thuật",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Thùng xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Khối lượng hàng hóa cho phép chuyên chở",
-      "keyphrases": []
-    },
-    {
-      "name": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-      "keyphrases": []
-    },
-    {
-      "name": "Biển số xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Khu kinh tế thương mại đặc biệt",
-      "keyphrases": []
-    },
-    {
-      "name": "Khu kinh tế cửa khẩu quốc tế",
-      "keyphrases": []
-    },
-    {
-      "name": "Giấy chứng nhận",
-      "keyphrases": []
-    },
-    {
-      "name": "Tem kiểm định",
-      "keyphrases": [
-        "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"
-      ]
-    },
-    {
-      "name": "Nội dung",
-      "keyphrases": []
-    },
-    {
-      "name": "Giá trị sử dụng",
-      "keyphrases": []
-    },
-    {
-      "name": "Cơ quan có thẩm quyền",
-      "keyphrases": []
-    },
-    {
+      "id": "C0175",
       "name": "Thiết bị kỹ thuật",
       "keyphrases": [
         "thiết bị kỹ thuật nghiệp vụ",
@@ -397,50 +928,291 @@
       ]
     },
     {
-      "name": "Kết quả",
+      "id": "C0176",
+      "name": "Thiết bị phát tín hiệu",
       "keyphrases": []
     },
     {
-      "name": "Hành vi vi phạm",
+      "id": "C0177",
+      "name": "Thiết bị phát tín hiệu ưu tiên",
       "keyphrases": []
     },
     {
-      "name": "Phù hiệu",
+      "id": "C0178",
+      "name": "Thiết bị ánh sáng",
       "keyphrases": []
     },
     {
-      "name": "Kinh doanh vận tải",
+      "id": "C0179",
+      "name": "Thiết bị âm thanh",
       "keyphrases": []
     },
     {
-      "name": "Giấy phép đào tạo lái xe",
+      "id": "C0180",
+      "name": "Thiết bị điện tử",
       "keyphrases": []
     },
     {
-      "name": "Giấy phép sát hạch",
+      "id": "C0181",
+      "name": "Thiết bị điện tử khác",
       "keyphrases": []
     },
     {
-      "name": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
+      "id": "C0182",
+      "name": "Thu phí điện tử tự động không dừng",
+      "keyphrases": [
+        "thu phí theo hình thức điện tử tự động không dừng"
+      ]
+    },
+    {
+      "id": "C0183",
+      "name": "Thành xe",
       "keyphrases": []
     },
     {
-      "name": "Chứng chỉ đăng kiểm viên",
+      "id": "C0184",
+      "name": "Thùng xe",
       "keyphrases": []
     },
     {
-      "name": "Người có thẩm quyền xử phạt",
+      "id": "C0185",
+      "name": "Thẩm quyền",
       "keyphrases": []
     },
     {
-      "name": "Biên bản",
+      "id": "C0186",
+      "name": "Thẻ nhận dạng lái xe",
       "keyphrases": []
     },
     {
-      "name": "Hồ sơ",
+      "id": "C0187",
+      "name": "Thẻ đầu cuối",
       "keyphrases": []
     },
     {
+      "id": "C0188",
+      "name": "Trạm thu phí",
+      "keyphrases": []
+    },
+    {
+      "id": "C0189",
+      "name": "Trật tự an toàn giao thông đường bộ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0190",
+      "name": "Trật tự, an toàn giao thông đường bộ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0191",
+      "name": "Trẻ em",
+      "keyphrases": []
+    },
+    {
+      "id": "C0192",
+      "name": "Trẻ em mầm non",
+      "keyphrases": []
+    },
+    {
+      "id": "C0193",
+      "name": "Tình trạng an toàn kỹ thuật",
+      "keyphrases": []
+    },
+    {
+      "id": "C0194",
+      "name": "Tình trạng ban đầu",
+      "keyphrases": []
+    },
+    {
+      "id": "C0195",
+      "name": "Tín hiệu",
+      "keyphrases": [
+        "tín hiệu báo trước"
+      ]
+    },
+    {
+      "id": "C0196",
+      "name": "Tín hiệu báo hướng rẽ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0197",
+      "name": "Tín hiệu báo trước",
+      "keyphrases": []
+    },
+    {
+      "id": "C0198",
+      "name": "Tín hiệu lùi xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0199",
+      "name": "Tín hiệu vượt xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0200",
+      "name": "Tín hiệu ưu tiên",
+      "keyphrases": []
+    },
+    {
+      "id": "C0201",
+      "name": "Tính năng kỹ thuật",
+      "keyphrases": []
+    },
+    {
+      "id": "C0202",
+      "name": "Tập huấn",
+      "keyphrases": []
+    },
+    {
+      "id": "C0203",
+      "name": "Tốc độ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0204",
+      "name": "Tốc độ quy định",
+      "keyphrases": []
+    },
+    {
+      "id": "C0205",
+      "name": "Tốc độ thiết kế",
+      "keyphrases": []
+    },
+    {
+      "id": "C0206",
+      "name": "Tốc độ tối thiểu",
+      "keyphrases": []
+    },
+    {
+      "id": "C0207",
+      "name": "Tổ chức",
+      "keyphrases": []
+    },
+    {
+      "id": "C0208",
+      "name": "Tổ chức kinh tế",
+      "keyphrases": []
+    },
+    {
+      "id": "C0209",
+      "name": "Tổ chức nước ngoài",
+      "keyphrases": []
+    },
+    {
+      "id": "C0210",
+      "name": "Tổ hợp tác",
+      "keyphrases": []
+    },
+    {
+      "id": "C0211",
+      "name": "Vô lăng",
+      "keyphrases": []
+    },
+    {
+      "id": "C0212",
+      "name": "Vượt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0213",
+      "name": "Vượt xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0214",
+      "name": "Vạch kẻ đường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0215",
+      "name": "Vật che khuất",
+      "keyphrases": []
+    },
+    {
+      "id": "C0216",
+      "name": "Vật cồng kềnh",
+      "keyphrases": []
+    },
+    {
+      "id": "C0217",
+      "name": "Vật khác",
+      "keyphrases": []
+    },
+    {
+      "id": "C0218",
+      "name": "Vật nuôi",
+      "keyphrases": []
+    },
+    {
+      "id": "C0219",
+      "name": "Vỉa hè",
+      "keyphrases": []
+    },
+    {
+      "id": "C0220",
+      "name": "Vị trí lái",
+      "keyphrases": []
+    },
+    {
+      "id": "C0221",
+      "name": "Vụ tai nạn giao thông",
+      "keyphrases": []
+    },
+    {
+      "id": "C0222",
+      "name": "Xe",
+      "keyphrases": []
+    },
+    {
+      "id": "C0223",
+      "name": "Xe buýt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0224",
+      "name": "Xe bốn bánh có gắn động cơ",
+      "keyphrases": [
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ"
+      ]
+    },
+    {
+      "id": "C0225",
+      "name": "Xe chạy liền trước",
+      "keyphrases": []
+    },
+    {
+      "id": "C0226",
+      "name": "Xe chữa cháy",
+      "keyphrases": []
+    },
+    {
+      "id": "C0227",
+      "name": "Xe khác",
+      "keyphrases": []
+    },
+    {
+      "id": "C0228",
+      "name": "Xe máy",
+      "keyphrases": [
+        "xe mô tô",
+        "xe gắn máy",
+        "các loại xe tương tự xe mô tô",
+        "các loại xe tương tự xe gắn máy"
+      ]
+    },
+    {
+      "id": "C0229",
+      "name": "Xe máy chuyên dùng",
+      "keyphrases": [
+        "phương tiện"
+      ]
+    },
+    {
+      "id": "C0230",
       "name": "Xe mô tô",
       "keyphrases": [
         "xe tương tự xe mô tô",
@@ -452,1058 +1224,333 @@
       ]
     },
     {
-      "name": "Cơ quan",
+      "id": "C0231",
+      "name": "Xe mô tô ba bánh",
       "keyphrases": []
     },
     {
-      "name": "Điện tử",
-      "keyphrases": [
-        "thông điệp dữ liệu"
-      ]
-    },
-    {
-      "name": "Hiệu lệnh",
-      "keyphrases": []
-    },
-    {
-      "name": "Vạch kẻ đường",
-      "keyphrases": []
-    },
-    {
-      "name": "Chỉ dẫn",
-      "keyphrases": []
-    },
-    {
-      "name": "Tín hiệu",
-      "keyphrases": [
-        "tín hiệu báo trước"
-      ]
-    },
-    {
-      "name": "Đèn khẩn cấp",
-      "keyphrases": []
-    },
-    {
-      "name": "Biển cảnh báo",
-      "keyphrases": []
-    },
-    {
-      "name": "Phần đường",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe được kéo",
-      "keyphrases": []
-    },
-    {
-      "name": "Rơ moóc",
-      "keyphrases": []
-    },
-    {
-      "name": "Còi",
-      "keyphrases": []
-    },
-    {
-      "name": "Khu đông dân cư",
-      "keyphrases": []
-    },
-    {
-      "name": "Cơ sở khám bệnh, chữa bệnh",
-      "keyphrases": []
-    },
-    {
-      "name": "Làn đường",
-      "keyphrases": [
-        "làn cùng chiều",
-        "làn ngược chiều"
-      ]
-    },
-    {
-      "name": "Buồng lái",
-      "keyphrases": []
-    },
-    {
-      "name": "Nhường đường",
-      "keyphrases": []
-    },
-    {
-      "name": "Nơi giao nhau",
-      "keyphrases": []
-    },
-    {
-      "name": "Lề đường rộng",
-      "keyphrases": []
-    },
-    {
-      "name": "Lề đường",
-      "keyphrases": []
-    },
-    {
-      "name": "Vỉa hè",
-      "keyphrases": []
-    },
-    {
-      "name": "Còi hơi",
-      "keyphrases": []
-    },
-    {
-      "name": "Đèn chiếu xa",
-      "keyphrases": []
-    },
-    {
-      "name": "Người đi bộ",
-      "keyphrases": []
-    },
-    {
-      "name": "Quan sát",
-      "keyphrases": []
-    },
-    {
+      "id": "C0232",
       "name": "Xe phía sau",
       "keyphrases": []
     },
     {
-      "name": "Đường bộ",
+      "id": "C0233",
+      "name": "Xe thô sơ",
       "keyphrases": []
     },
     {
-      "name": "Đường sắt",
-      "keyphrases": []
-    },
-    {
-      "name": "Nơi đường bộ giao nhau",
-      "keyphrases": []
-    },
-    {
-      "name": "Đèn chiếu sáng",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe khác",
-      "keyphrases": []
-    },
-    {
-      "name": "Vật khác",
-      "keyphrases": []
-    },
-    {
-      "name": "Trẻ em",
-      "keyphrases": []
-    },
-    {
-      "name": "Thiết bị an toàn",
-      "keyphrases": []
-    },
-    {
-      "name": "Hầm đường bộ",
-      "keyphrases": []
-    },
-    {
-      "name": "Đèn chiếu sáng gần",
-      "keyphrases": []
-    },
-    {
-      "name": "Tốc độ tối thiểu",
-      "keyphrases": []
-    },
-    {
-      "name": "Đoạn đường bộ",
-      "keyphrases": []
-    },
-    {
-      "name": "Làn đường bên phải",
-      "keyphrases": []
-    },
-    {
-      "name": "Thẻ đầu cuối",
-      "keyphrases": []
-    },
-    {
-      "name": "Thu phí điện tử tự động không dừng",
-      "keyphrases": [
-        "thu phí theo hình thức điện tử tự động không dừng"
-      ]
-    },
-    {
-      "name": "Trạm thu phí",
-      "keyphrases": []
-    },
-    {
-      "name": "Bên trái đường một chiều",
-      "keyphrases": []
-    },
-    {
-      "name": "Bên trái đường đôi",
-      "keyphrases": []
-    },
-    {
-      "name": "Đoạn đường cong",
-      "keyphrases": []
-    },
-    {
-      "name": "Đầu dốc",
-      "keyphrases": []
-    },
-    {
-      "name": "Cầu",
-      "keyphrases": []
-    },
-    {
-      "name": "Gầm cầu vượt",
-      "keyphrases": []
-    },
-    {
-      "name": "Biện pháp bảo đảm an toàn",
-      "keyphrases": []
-    },
-    {
-      "name": "Đường bộ giao nhau cùng mức với đường sắt",
-      "keyphrases": []
-    },
-    {
+      "id": "C0234",
       "name": "Xe xin vượt",
       "keyphrases": []
     },
     {
-      "name": "Đèn cảnh báo",
+      "id": "C0235",
+      "name": "Xe đi ngược chiều",
       "keyphrases": []
     },
     {
-      "name": "Đường một chiều",
+      "id": "C0236",
+      "name": "Xe đi đến từ bên phải",
       "keyphrases": []
     },
     {
-      "name": "Đường",
+      "id": "C0237",
+      "name": "Xe đi đến từ bên trái",
       "keyphrases": []
     },
     {
-      "name": "Đi ngược chiều",
+      "id": "C0238",
+      "name": "Xe được kéo",
       "keyphrases": []
     },
     {
-      "name": "Khu vực",
-      "keyphrases": []
-    },
-    {
-      "name": "Dừng",
-      "keyphrases": []
-    },
-    {
-      "name": "Nơi đường bộ giao nhau cùng mức với đường sắt",
-      "keyphrases": []
-    },
-    {
-      "name": "Nơi tầm nhìn bị che khuất",
-      "keyphrases": []
-    },
-    {
-      "name": "Hai bên",
-      "keyphrases": []
-    },
-    {
-      "name": "Phía sau xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Tín hiệu lùi xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Tai nạn giao thông",
-      "keyphrases": []
-    },
-    {
-      "name": "Hiện trường",
-      "keyphrases": []
-    },
-    {
-      "name": "Người bị nạn",
-      "keyphrases": []
-    },
-    {
+      "id": "C0239",
       "name": "Xe ưu tiên",
       "keyphrases": [
         "xe được quyền ưu tiên"
       ]
     },
     {
-      "name": "Thiết bị phát tín hiệu ưu tiên",
+      "id": "C0240",
+      "name": "Xử phạt vi phạm hành chính",
       "keyphrases": []
     },
     {
-      "name": "Đầu cầu",
+      "id": "C0241",
+      "name": "Yên",
       "keyphrases": []
     },
     {
-      "name": "Ngầm",
+      "id": "C0242",
+      "name": "Yên xe",
       "keyphrases": []
     },
     {
-      "name": "Đường hẹp",
-      "keyphrases": []
-    },
-    {
-      "name": "Đường dốc",
-      "keyphrases": []
-    },
-    {
-      "name": "Đoạn đường cong tầm nhìn bị che khuất",
-      "keyphrases": []
-    },
-    {
-      "name": "Quay đầu",
-      "keyphrases": []
-    },
-    {
-      "name": "Rẽ trái",
-      "keyphrases": []
-    },
-    {
-      "name": "Rẽ phải",
-      "keyphrases": []
-    },
-    {
-      "name": "Khoảng cách",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe chạy liền trước",
-      "keyphrases": []
-    },
-    {
-      "name": "Vượt xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Tín hiệu vượt xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Bên phải",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe đi ngược chiều",
-      "keyphrases": []
-    },
-    {
-      "name": "Chướng ngại vật",
-      "keyphrases": []
-    },
-    {
-      "name": "Đường cao tốc",
-      "keyphrases": []
-    },
-    {
-      "name": "Làn dừng xe khẩn cấp",
-      "keyphrases": []
-    },
-    {
-      "name": "Phần lề đường",
-      "keyphrases": []
-    },
-    {
-      "name": "Khoảng cách an toàn",
-      "keyphrases": [
-        "Cự ly tối thiểu giữa hai xe"
-      ]
-    },
-    {
-      "name": "Tốc độ quy định",
-      "keyphrases": []
-    },
-    {
-      "name": "Quyền ưu tiên",
-      "keyphrases": []
-    },
-    {
-      "name": "Thiết bị phát tín hiệu",
-      "keyphrases": []
-    },
-    {
-      "name": "Tín hiệu báo trước",
-      "keyphrases": []
-    },
-    {
-      "name": "Điện thoại",
-      "keyphrases": []
-    },
-    {
-      "name": "Thiết bị điện tử",
-      "keyphrases": []
-    },
-    {
-      "name": "Khu vực cấm",
-      "keyphrases": []
-    },
-    {
-      "name": "Đi vào",
-      "keyphrases": []
-    },
-    {
-      "name": "Ùn tắc giao thông",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe thô sơ",
-      "keyphrases": []
-    },
-    {
-      "name": "Đường ưu tiên",
-      "keyphrases": []
-    },
-    {
-      "name": "Đường chính",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe đi đến từ bên phải",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe đi đến từ bên trái",
-      "keyphrases": []
-    },
-    {
-      "name": "Đường giao nhau",
-      "keyphrases": []
-    },
-    {
-      "name": "Báo hiệu đi theo vòng xuyến",
-      "keyphrases": []
-    },
-    {
-      "name": "Nóc xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Cửa xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Thành xe",
-      "keyphrases": []
-    },
-    {
-      "name": "An toàn",
-      "keyphrases": []
-    },
-    {
-      "name": "Tín hiệu ưu tiên",
-      "keyphrases": []
-    },
-    {
-      "name": "Cồn",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe bốn bánh có gắn động cơ",
-      "keyphrases": [
-        "xe chở người bốn bánh có gắn động cơ",
-        "xe chở hàng bốn bánh có gắn động cơ"
-      ]
-    },
-    {
-      "name": "Báo hiệu",
-      "keyphrases": []
-    },
-    {
-      "name": "Cơ quan công an",
-      "keyphrases": []
-    },
-    {
-      "name": "Ủy ban nhân dân",
-      "keyphrases": []
-    },
-    {
-      "name": "Hướng dẫn",
-      "keyphrases": []
-    },
-    {
-      "name": "Người điều khiển giao thông",
-      "keyphrases": []
-    },
-    {
-      "name": "Người kiểm soát giao thông",
-      "keyphrases": []
-    },
-    {
-      "name": "Tốc độ",
-      "keyphrases": []
-    },
-    {
+      "id": "C0243",
       "name": "Yêu cầu kiểm tra",
       "keyphrases": []
     },
     {
-      "name": "Nồng độ cồn",
-      "keyphrases": []
-    },
-    {
-      "name": "Người thi hành công vụ",
-      "keyphrases": []
-    },
-    {
-      "name": "Chất ma túy",
-      "keyphrases": []
-    },
-    {
-      "name": "Chất kích thích",
-      "keyphrases": [
-        "chất kích thích khác"
-      ]
-    },
-    {
-      "name": "Chân",
-      "keyphrases": []
-    },
-    {
-      "name": "Vô lăng",
-      "keyphrases": []
-    },
-    {
-      "name": "Lạng lách",
-      "keyphrases": []
-    },
-    {
-      "name": "Đánh võng",
-      "keyphrases": []
-    },
-    {
-      "name": "Hình thức xử phạt bổ sung",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe máy",
-      "keyphrases": [
-        "xe mô tô",
-        "xe gắn máy",
-        "các loại xe tương tự xe mô tô",
-        "các loại xe tương tự xe gắn máy"
-      ]
-    },
-    {
-      "name": "Xe mô tô ba bánh",
-      "keyphrases": []
-    },
-    {
-      "name": "Hành khách",
-      "keyphrases": [
-        "người ngồi trên xe"
-      ]
-    },
-    {
+      "id": "C0244",
       "name": "Ô",
       "keyphrases": [
         "dù"
       ]
     },
     {
-      "name": "Phần đường xe chạy",
+      "id": "C0245",
+      "name": "Ô nhiễm môi trường",
       "keyphrases": []
     },
     {
-      "name": "Giao thông",
+      "id": "C0246",
+      "name": "Ô tô",
+      "keyphrases": [
+        "xe ô tô",
+        "xe tương tự xe ô tô",
+        "xe chở người bốn bánh có gắn động cơ",
+        "xe chở hàng bốn bánh có gắn động cơ",
+        "các loại xe tương tự xe ô tô"
+      ]
+    },
+    {
+      "id": "C0247",
+      "name": "Ùn tắc giao thông",
       "keyphrases": []
     },
     {
-      "name": "Lòng đường",
+      "id": "C0248",
+      "name": "Đi ngược chiều",
       "keyphrases": []
     },
     {
+      "id": "C0249",
+      "name": "Đi vào",
+      "keyphrases": []
+    },
+    {
+      "id": "C0250",
+      "name": "Điểm",
+      "keyphrases": []
+    },
+    {
+      "id": "C0251",
       "name": "Điểm đón, trả khách",
       "keyphrases": []
     },
     {
-      "name": "Đỗ",
-      "keyphrases": []
-    },
-    {
-      "name": "Đường giao nhau cùng mức với đường sắt",
-      "keyphrases": []
-    },
-    {
-      "name": "Hành lang an toàn giao thông đường sắt",
-      "keyphrases": []
-    },
-    {
-      "name": "Mũ bảo hiểm",
-      "keyphrases": []
-    },
-    {
-      "name": "Quai mũ bảo hiểm",
-      "keyphrases": [
-        "quai"
-      ]
-    },
-    {
-      "name": "Người ngồi trên xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Tín hiệu báo hướng rẽ",
-      "keyphrases": []
-    },
-    {
-      "name": "Dải phân cách",
-      "keyphrases": []
-    },
-    {
-      "name": "Vật nuôi",
-      "keyphrases": []
-    },
-    {
-      "name": "Vật cồng kềnh",
-      "keyphrases": []
-    },
-    {
-      "name": "Yên",
-      "keyphrases": []
-    },
-    {
-      "name": "Giá đèo hàng",
-      "keyphrases": []
-    },
-    {
-      "name": "Tay lái",
-      "keyphrases": []
-    },
-    {
-      "name": "Vượt",
-      "keyphrases": []
-    },
-    {
-      "name": "Thiết bị điện tử khác",
-      "keyphrases": []
-    },
-    {
-      "name": "Vụ tai nạn giao thông",
-      "keyphrases": []
-    },
-    {
-      "name": "Chân chống",
-      "keyphrases": []
-    },
-    {
-      "name": "Kiểm tra nồng độ cồn",
-      "keyphrases": [
-        "yêu cầu kiểm tra về nồng độ cồn"
-      ]
-    },
-    {
-      "name": "Ma túy",
-      "keyphrases": [
-        "chất ma túy"
-      ]
-    },
-    {
-      "name": "Người ngồi trước",
-      "keyphrases": []
-    },
-    {
-      "name": "Cản trở giao thông",
-      "keyphrases": []
-    },
-    {
-      "name": "Rú ga",
-      "keyphrases": [
-        "nẹt pô"
-      ]
-    },
-    {
-      "name": "Tay",
-      "keyphrases": [
-        "cả hai tay"
-      ]
-    },
-    {
-      "name": "Một bên",
-      "keyphrases": []
-    },
-    {
-      "name": "Yên xe",
-      "keyphrases": []
-    },
-    {
-      "name": "Mắt",
-      "keyphrases": []
-    },
-    {
-      "name": "Một bánh",
-      "keyphrases": []
-    },
-    {
-      "name": "Hai bánh",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe máy chuyên dùng",
-      "keyphrases": [
-        "phương tiện"
-      ]
-    },
-    {
-      "name": "Bánh xe",
-      "keyphrases": [
-        "bánh"
-      ]
-    },
-    {
-      "name": "Dốc",
-      "keyphrases": []
-    },
-    {
-      "name": "Xe buýt",
-      "keyphrases": []
-    },
-    {
-      "name": "Miệng cống thoát nước",
-      "keyphrases": []
-    },
-    {
-      "name": "Miệng hầm",
-      "keyphrases": []
-    },
-    {
-      "name": "Đường điện thoại",
-      "keyphrases": []
-    },
-    {
+      "id": "C0252",
       "name": "Điện cao thế",
       "keyphrases": []
     },
     {
-      "name": "Chỗ lấy nước",
+      "id": "C0253",
+      "name": "Điện thoại",
       "keyphrases": []
     },
     {
-      "name": "Xe chữa cháy",
+      "id": "C0254",
+      "name": "Điện tử",
+      "keyphrases": [
+        "thông điệp dữ liệu"
+      ]
+    },
+    {
+      "id": "C0255",
+      "name": "Đoạn đường bộ",
       "keyphrases": []
     },
     {
-      "name": "Vị trí lái",
+      "id": "C0256",
+      "name": "Đoạn đường cong",
       "keyphrases": []
     },
     {
-      "name": "Máy",
+      "id": "C0257",
+      "name": "Đoạn đường cong tầm nhìn bị che khuất",
       "keyphrases": []
     },
     {
-      "name": "Phanh đỗ xe",
+      "id": "C0258",
+      "name": "Đánh võng",
       "keyphrases": []
     },
     {
-      "name": "Phạm vi bảo vệ công trình đường sắt",
+      "id": "C0259",
+      "name": "Đèn chiếu sáng",
       "keyphrases": []
     },
     {
-      "name": "Phạm vi an toàn của đường sắt",
+      "id": "C0260",
+      "name": "Đèn chiếu sáng gần",
       "keyphrases": []
     },
     {
-      "name": "Khu vực cấm dừng",
+      "id": "C0261",
+      "name": "Đèn chiếu xa",
       "keyphrases": []
     },
     {
+      "id": "C0262",
+      "name": "Đèn cảnh báo",
+      "keyphrases": []
+    },
+    {
+      "id": "C0263",
+      "name": "Đèn khẩn cấp",
+      "keyphrases": []
+    },
+    {
+      "id": "C0264",
+      "name": "Đèn tín hiệu giao thông",
+      "keyphrases": []
+    },
+    {
+      "id": "C0265",
+      "name": "Đơn vị phụ thuộc doanh nghiệp",
+      "keyphrases": [
+        "chi nhánh",
+        "văn phòng đại diện"
+      ]
+    },
+    {
+      "id": "C0266",
+      "name": "Đường",
+      "keyphrases": []
+    },
+    {
+      "id": "C0267",
+      "name": "Đường bộ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0268",
       "name": "Đường bộ giao nhau",
       "keyphrases": []
     },
     {
-      "name": "Báo hiệu bằng đèn khẩn cấp",
+      "id": "C0269",
+      "name": "Đường bộ giao nhau cùng mức với đường sắt",
       "keyphrases": []
     },
     {
-      "name": "Dải phân cách cố định",
+      "id": "C0270",
+      "name": "Đường cao tốc",
       "keyphrases": []
     },
     {
-      "name": "Tốc độ thiết kế",
+      "id": "C0271",
+      "name": "Đường chính",
+      "keyphrases": []
+    },
+    {
+      "id": "C0272",
+      "name": "Đường dốc",
+      "keyphrases": []
+    },
+    {
+      "id": "C0273",
+      "name": "Đường giao nhau",
+      "keyphrases": []
+    },
+    {
+      "id": "C0274",
+      "name": "Đường giao nhau cùng mức với đường sắt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0275",
+      "name": "Đường hẹp",
+      "keyphrases": []
+    },
+    {
+      "id": "C0276",
+      "name": "Đường một chiều",
+      "keyphrases": []
+    },
+    {
+      "id": "C0277",
+      "name": "Đường sắt",
+      "keyphrases": []
+    },
+    {
+      "id": "C0278",
+      "name": "Đường điện thoại",
+      "keyphrases": []
+    },
+    {
+      "id": "C0279",
+      "name": "Đường ưu tiên",
+      "keyphrases": []
+    },
+    {
+      "id": "C0280",
+      "name": "Đầu cầu",
+      "keyphrases": []
+    },
+    {
+      "id": "C0281",
+      "name": "Đầu dốc",
+      "keyphrases": []
+    },
+    {
+      "id": "C0282",
+      "name": "Đỗ",
+      "keyphrases": []
+    },
+    {
+      "id": "C0283",
+      "name": "Ủy ban nhân dân",
       "keyphrases": []
     }
   ],
   "relations": [
     {
-      "name": "Vi phạm",
+      "id": "R0001",
+      "name": "Cấm",
       "keyphrases": [],
-      "concept_s": "Cá nhân",
+      "concept_s": "Biển báo hiệu",
       "concept_o": [
-        "Trật tự, an toàn giao thông đường bộ",
-        "Trật tự an toàn giao thông đường bộ"
+        "Đi ngược chiều",
+        "Quay đầu",
+        "Rẽ trái",
+        "Rẽ phải",
+        "Vượt xe",
+        "Đi vào",
+        "Dừng",
+        "Đỗ",
+        "Vượt"
       ]
     },
     {
+      "id": "R0002",
+      "name": "Quy định",
+      "keyphrases": [],
+      "concept_s": "Biển báo hiệu",
+      "concept_o": [
+        "Khoảng cách an toàn"
+      ]
+    },
+    {
+      "id": "R0003",
       "name": "Tại",
       "keyphrases": [],
-      "concept_s": "Cá nhân",
+      "concept_s": "Biển cảnh báo",
       "concept_o": [
-        "Lãnh thổ Việt Nam"
+        "Phía sau xe"
       ]
     },
     {
-      "name": "Vi phạm",
+      "id": "R0004",
+      "name": "Cấp",
       "keyphrases": [],
-      "concept_s": "Tổ chức",
+      "concept_s": "Biện pháp khắc phục hậu quả",
       "concept_o": [
-        "Trật tự, an toàn giao thông đường bộ",
-        "Trật tự an toàn giao thông đường bộ"
+        "Thẻ nhận dạng lái xe"
       ]
     },
     {
-      "name": "Tại",
-      "keyphrases": [],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Lãnh thổ Việt Nam"
-      ]
-    },
-    {
-      "name": "Thuộc",
-      "keyphrases": [],
-      "concept_s": "Cơ quan nhà nước",
-      "concept_o": [
-        "Nhiệm vụ quản lý nhà nước"
-      ]
-    },
-    {
-      "name": "Theo",
-      "keyphrases": [],
-      "concept_s": "Tổ chức kinh tế",
-      "concept_o": [
-        "Luật Doanh nghiệp",
-        "Luật Hợp tác xã"
-      ]
-    },
-    {
-      "name": "Gồm",
-      "keyphrases": [],
-      "concept_s": "Tổ chức kinh tế",
-      "concept_o": [
-        "Doanh nghiệp tư nhân",
-        "Công ty cổ phần",
-        "Công ty trách nhiệm hữu hạn",
-        "Công ty hợp danh",
-        "Đơn vị phụ thuộc doanh nghiệp",
-        "Tổ hợp tác",
-        "Hợp tác xã",
-        "Liên hiệp hợp tác xã"
-      ]
-    },
-    {
-      "name": "Có",
-      "keyphrases": [],
-      "concept_s": "Cấp có thẩm quyền của Việt Nam",
-      "concept_o": [
-        "Thẩm quyền"
-      ]
-    },
-    {
-      "name": "Cho phép",
-      "keyphrases": [],
-      "concept_s": "Cấp có thẩm quyền của Việt Nam",
-      "concept_o": [
-        "Cơ quan nước ngoài",
-        "Tổ chức nước ngoài"
-      ]
-    },
-    {
-      "name": "Thực hiện",
-      "keyphrases": [],
-      "concept_s": "Cơ quan nước ngoài",
-      "concept_o": [
-        "Hoạt động"
-      ]
-    },
-    {
-      "name": "Thực hiện",
-      "keyphrases": [],
-      "concept_s": "Tổ chức nước ngoài",
-      "concept_o": [
-        "Hoạt động"
-      ]
-    },
-    {
-      "name": "Tại",
-      "keyphrases": [],
-      "concept_s": "Cơ quan nước ngoài",
-      "concept_o": [
-        "Lãnh thổ Việt Nam"
-      ]
-    },
-    {
-      "name": "Tại",
-      "keyphrases": [],
-      "concept_s": "Tổ chức nước ngoài",
-      "concept_o": [
-        "Lãnh thổ Việt Nam"
-      ]
-    },
-    {
-      "name": "Thực hiện",
-      "keyphrases": [],
-      "concept_s": "Hộ kinh doanh",
-      "concept_o": [
-        "Hành vi vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Thực hiện",
-      "keyphrases": [],
-      "concept_s": "Hộ gia đình",
-      "concept_o": [
-        "Hành vi vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Có",
-      "keyphrases": [],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Thẩm quyền"
-      ]
-    },
-    {
-      "name": "Lập",
-      "keyphrases": [],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Biên bản vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Xử phạt",
-      "keyphrases": [],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Hành vi vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Liên quan",
-      "keyphrases": [],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Xử phạt vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Liên quan",
-      "keyphrases": [],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Xử phạt vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Trừ",
-      "keyphrases": [],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Điểm"
-      ]
-    },
-    {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Điểm",
-      "concept_o": [
-        "Giấy phép lái xe"
-      ]
-    },
-    {
-      "name": "Phục hồi",
-      "keyphrases": [],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Điểm"
-      ]
-    },
-    {
-      "name": "Chịu",
-      "keyphrases": [],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Cảnh cáo",
-        "Phạt tiền"
-      ]
-    },
-    {
-      "name": "Chịu",
-      "keyphrases": [],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Cảnh cáo",
-        "Phạt tiền"
-      ]
-    },
-    {
-      "name": "Tịch thu",
-      "keyphrases": [],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Phương tiện",
-        "Tang vật vi phạm hành chính",
-        "Phương tiện vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Tịch thu",
-      "keyphrases": [],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Phương tiện",
-        "Tang vật vi phạm hành chính",
-        "Phương tiện vi phạm hành chính"
-      ]
-    },
-    {
-      "name": "Sử dụng",
-      "keyphrases": [],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Sử dụng",
-      "keyphrases": [],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Tước",
-      "keyphrases": [],
-      "concept_s": "Giấy phép",
-      "concept_o": [
-        "Quyền sử dụng"
-      ]
-    },
-    {
-      "name": "Tước",
-      "keyphrases": [],
-      "concept_s": "Chứng chỉ hành nghề",
-      "concept_o": [
-        "Quyền sử dụng"
-      ]
-    },
-    {
-      "name": "Đình chỉ",
-      "keyphrases": [],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Hoạt động"
-      ]
-    },
-    {
-      "name": "Đình chỉ",
-      "keyphrases": [],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Hoạt động"
-      ]
-    },
-    {
+      "id": "R0005",
       "name": "Khôi phục",
       "keyphrases": [],
       "concept_s": "Biện pháp khắc phục hậu quả",
@@ -1513,6 +1560,7 @@
       ]
     },
     {
+      "id": "R0006",
       "name": "Khắc phục",
       "keyphrases": [],
       "concept_s": "Biện pháp khắc phục hậu quả",
@@ -1521,39 +1569,7 @@
       ]
     },
     {
-      "name": "Tái xuất",
-      "keyphrases": [],
-      "concept_s": "Biện pháp khắc phục hậu quả",
-      "concept_o": [
-        "Phương tiện"
-      ]
-    },
-    {
-      "name": "Nộp",
-      "keyphrases": [],
-      "concept_s": "Biện pháp khắc phục hậu quả",
-      "concept_o": [
-        "Số lợi bất hợp pháp"
-      ]
-    },
-    {
-      "name": "Phá dỡ",
-      "keyphrases": [],
-      "concept_s": "Biện pháp khắc phục hậu quả",
-      "concept_o": [
-        "Vật che khuất"
-      ]
-    },
-    {
-      "name": "Che khuất",
-      "keyphrases": [],
-      "concept_s": "Vật che khuất",
-      "concept_o": [
-        "Biển báo hiệu",
-        "Đèn tín hiệu giao thông"
-      ]
-    },
-    {
+      "id": "R0007",
       "name": "Lắp",
       "keyphrases": [],
       "concept_s": "Biện pháp khắc phục hậu quả",
@@ -1562,6 +1578,25 @@
       ]
     },
     {
+      "id": "R0008",
+      "name": "Nộp",
+      "keyphrases": [],
+      "concept_s": "Biện pháp khắc phục hậu quả",
+      "concept_o": [
+        "Số lợi bất hợp pháp"
+      ]
+    },
+    {
+      "id": "R0009",
+      "name": "Phá dỡ",
+      "keyphrases": [],
+      "concept_s": "Biện pháp khắc phục hậu quả",
+      "concept_o": [
+        "Vật che khuất"
+      ]
+    },
+    {
+      "id": "R0010",
       "name": "Thay thế",
       "keyphrases": [],
       "concept_s": "Biện pháp khắc phục hậu quả",
@@ -1570,31 +1605,16 @@
       ]
     },
     {
-      "name": "Thuộc",
-      "keyphrases": [],
-      "concept_s": "Tính năng kỹ thuật",
-      "concept_o": [
-        "Phương tiện",
-        "Thiết bị"
-      ]
-    },
-    {
-      "name": "Cấp",
+      "id": "R0011",
+      "name": "Tái xuất",
       "keyphrases": [],
       "concept_s": "Biện pháp khắc phục hậu quả",
       "concept_o": [
-        "Thẻ nhận dạng lái xe"
+        "Phương tiện"
       ]
     },
     {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Thẻ nhận dạng lái xe",
-      "concept_o": [
-        "Lái xe"
-      ]
-    },
-    {
+      "id": "R0012",
       "name": "Tổ chức",
       "keyphrases": [],
       "concept_s": "Biện pháp khắc phục hậu quả",
@@ -1604,112 +1624,320 @@
       ]
     },
     {
+      "id": "R0013",
+      "name": "Bằng",
+      "keyphrases": [],
+      "concept_s": "Báo hiệu",
+      "concept_o": [
+        "Đèn khẩn cấp"
+      ]
+    },
+    {
+      "id": "R0014",
+      "name": "Điều khiển",
+      "keyphrases": [],
+      "concept_s": "Chân",
+      "concept_o": [
+        "Vô lăng"
+      ]
+    },
+    {
+      "id": "R0015",
+      "name": "Quệt",
+      "keyphrases": [],
+      "concept_s": "Chân chống",
+      "concept_o": [
+        "Đường"
+      ]
+    },
+    {
+      "id": "R0016",
+      "name": "Dành cho",
+      "keyphrases": [
+        "của"
+      ],
+      "concept_s": "Chỉ dẫn",
+      "concept_o": [
+        "Biển báo hiệu",
+        "Vạch kẻ đường"
+      ]
+    },
+    {
+      "id": "R0017",
       "name": "Dành cho",
       "keyphrases": [],
-      "concept_s": "Tập huấn",
+      "concept_s": "Chỉ số đồng hồ báo quãng đường",
       "concept_o": [
-        "Lái xe",
-        "Nhân viên phục vụ trên xe"
+        "Ô tô"
       ]
     },
     {
+      "id": "R0018",
       "name": "Dành cho",
       "keyphrases": [],
-      "concept_s": "Khám sức khỏe",
+      "concept_s": "Chỗ lấy nước",
       "concept_o": [
-        "Lái xe",
-        "Nhân viên phục vụ trên xe"
+        "Xe chữa cháy"
       ]
     },
     {
-      "name": "Lắp đặt",
+      "id": "R0019",
+      "name": "Cấp",
       "keyphrases": [],
-      "concept_s": "Người",
+      "concept_s": "Chứng chỉ hành nghề",
       "concept_o": [
-        "Thiết bị giám sát hành trình",
-        "Thiết bị ghi nhận hình ảnh người lái xe",
-        "Dây đai an toàn",
-        "Ghế ngồi",
-        "Thiết bị cứu hộ",
-        "Thiết bị phát tín hiệu ưu tiên",
-        "Thiết bị phát tín hiệu"
+        "Cơ quan có thẩm quyền"
       ]
     },
     {
-      "name": "Dành cho",
+      "id": "R0020",
+      "name": "Hết",
       "keyphrases": [],
-      "concept_s": "Ghế ngồi",
+      "concept_s": "Chứng chỉ hành nghề",
       "concept_o": [
-        "Trẻ em mầm non",
-        "Học sinh tiểu học"
+        "Giá trị sử dụng"
       ]
     },
     {
-      "name": "Tháo dỡ",
+      "id": "R0021",
+      "name": "Là",
+      "keyphrases": [
+        "được cấp dưới dạng",
+        "thể hiện dưới hình thức"
+      ],
+      "concept_s": "Chứng chỉ hành nghề",
+      "concept_o": [
+        "Điện tử"
+      ]
+    },
+    {
+      "id": "R0022",
+      "name": "Làm sai lệch",
       "keyphrases": [],
-      "concept_s": "Người",
+      "concept_s": "Chứng chỉ hành nghề",
       "concept_o": [
-        "Thiết bị âm thanh",
-        "Thiết bị ánh sáng"
+        "Nội dung"
       ]
     },
     {
-      "name": "Gây mất",
+      "id": "R0023",
+      "name": "Tước",
       "keyphrases": [],
-      "concept_s": "Thiết bị âm thanh",
+      "concept_s": "Chứng chỉ hành nghề",
       "concept_o": [
-        "Trật tự an toàn giao thông đường bộ"
+        "Quyền sử dụng"
       ]
     },
     {
-      "name": "Gây mất",
+      "id": "R0024",
+      "name": "Tước",
       "keyphrases": [],
-      "concept_s": "Thiết bị ánh sáng",
+      "concept_s": "Chứng chỉ đăng kiểm viên",
       "concept_o": [
-        "Trật tự an toàn giao thông đường bộ"
+        "Quyền sử dụng"
       ]
     },
     {
+      "id": "R0025",
+      "name": "Làm sai lệch",
+      "keyphrases": [],
+      "concept_s": "Chứng nhận đăng ký xe",
+      "concept_o": [
+        "Nội dung"
+      ]
+    },
+    {
+      "id": "R0026",
+      "name": "Chịu",
+      "keyphrases": [],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Cảnh cáo",
+        "Phạt tiền"
+      ]
+    },
+    {
+      "id": "R0027",
       "name": "Cung cấp",
       "keyphrases": [],
-      "concept_s": "Người",
+      "concept_s": "Cá nhân",
       "concept_o": [
-        "Dữ liệu"
+        "Thiết bị kỹ thuật"
       ]
     },
     {
-      "name": "Cập nhật",
+      "id": "R0028",
+      "name": "Có",
       "keyphrases": [],
-      "concept_s": "Người",
+      "concept_s": "Cá nhân",
       "concept_o": [
-        "Dữ liệu"
+        "Giấy phép"
       ]
     },
     {
-      "name": "Truyền dẫn",
+      "id": "R0029",
+      "name": "Liên quan",
       "keyphrases": [],
-      "concept_s": "Người",
+      "concept_s": "Cá nhân",
       "concept_o": [
-        "Dữ liệu"
+        "Xử phạt vi phạm hành chính"
       ]
     },
     {
-      "name": "Lưu trữ",
+      "id": "R0030",
+      "name": "Nộp lại",
       "keyphrases": [],
-      "concept_s": "Người",
+      "concept_s": "Cá nhân",
       "concept_o": [
-        "Dữ liệu"
+        "Giấy phép",
+        "Chứng chỉ hành nghề",
+        "Chứng nhận đăng ký xe",
+        "Giấy chứng nhận",
+        "Tem kiểm định"
       ]
     },
     {
-      "name": "Quản lý",
+      "id": "R0031",
+      "name": "Sử dụng",
       "keyphrases": [],
-      "concept_s": "Người",
+      "concept_s": "Cá nhân",
       "concept_o": [
-        "Dữ liệu"
+        "Phương tiện"
       ]
     },
     {
+      "id": "R0032",
+      "name": "Tiến hành",
+      "keyphrases": [],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Hoạt động"
+      ]
+    },
+    {
+      "id": "R0033",
+      "name": "Tại",
+      "keyphrases": [],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Lãnh thổ Việt Nam"
+      ]
+    },
+    {
+      "id": "R0034",
+      "name": "Tịch thu",
+      "keyphrases": [],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Phương tiện",
+        "Tang vật vi phạm hành chính",
+        "Phương tiện vi phạm hành chính"
+      ]
+    },
+    {
+      "id": "R0035",
+      "name": "Vi phạm",
+      "keyphrases": [],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Trật tự, an toàn giao thông đường bộ",
+        "Trật tự an toàn giao thông đường bộ"
+      ]
+    },
+    {
+      "id": "R0036",
+      "name": "Đình chỉ",
+      "keyphrases": [],
+      "concept_s": "Cá nhân",
+      "concept_o": [
+        "Hoạt động"
+      ]
+    },
+    {
+      "id": "R0037",
+      "name": "Tước",
+      "keyphrases": [],
+      "concept_s": "Cơ quan",
+      "concept_o": [
+        "Quyền sử dụng"
+      ]
+    },
+    {
+      "id": "R0038",
+      "name": "Tạm giữ",
+      "keyphrases": [],
+      "concept_s": "Cơ quan",
+      "concept_o": [
+        "Giấy phép",
+        "Chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "id": "R0039",
+      "name": "Cấp",
+      "keyphrases": [],
+      "concept_s": "Cơ quan có thẩm quyền",
+      "concept_o": [
+        "Giấy phép"
+      ]
+    },
+    {
+      "id": "R0040",
+      "name": "Thuộc",
+      "keyphrases": [],
+      "concept_s": "Cơ quan nhà nước",
+      "concept_o": [
+        "Nhiệm vụ quản lý nhà nước"
+      ]
+    },
+    {
+      "id": "R0041",
+      "name": "Thực hiện",
+      "keyphrases": [],
+      "concept_s": "Cơ quan nước ngoài",
+      "concept_o": [
+        "Hoạt động"
+      ]
+    },
+    {
+      "id": "R0042",
+      "name": "Tại",
+      "keyphrases": [],
+      "concept_s": "Cơ quan nước ngoài",
+      "concept_o": [
+        "Lãnh thổ Việt Nam"
+      ]
+    },
+    {
+      "id": "R0043",
+      "name": "Cho phép",
+      "keyphrases": [],
+      "concept_s": "Cấp có thẩm quyền của Việt Nam",
+      "concept_o": [
+        "Cơ quan nước ngoài",
+        "Tổ chức nước ngoài"
+      ]
+    },
+    {
+      "id": "R0044",
+      "name": "Có",
+      "keyphrases": [],
+      "concept_s": "Cấp có thẩm quyền của Việt Nam",
+      "concept_o": [
+        "Thẩm quyền"
+      ]
+    },
+    {
+      "id": "R0045",
+      "name": "Bảo đảm",
+      "keyphrases": [],
+      "concept_s": "Cửa xe",
+      "concept_o": [
+        "An toàn"
+      ]
+    },
+    {
+      "id": "R0046",
       "name": "Từ",
       "keyphrases": [],
       "concept_s": "Dữ liệu",
@@ -1719,176 +1947,17 @@
       ]
     },
     {
-      "name": "Lắp trên",
-      "keyphrases": [],
-      "concept_s": "Thiết bị giám sát hành trình",
-      "concept_o": [
-        "Ô tô"
-      ]
-    },
-    {
-      "name": "Lắp trên",
-      "keyphrases": [],
-      "concept_s": "Thiết bị ghi nhận hình ảnh người lái xe",
-      "concept_o": [
-        "Ô tô"
-      ]
-    },
-    {
-      "name": "Điều chỉnh",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Chỉ số đồng hồ báo quãng đường",
-        "Thùng xe",
-        "Khối lượng hàng hóa cho phép chuyên chở"
-      ]
-    },
-    {
+      "id": "R0047",
       "name": "Dành cho",
       "keyphrases": [],
-      "concept_s": "Chỉ số đồng hồ báo quãng đường",
+      "concept_s": "Ghế ngồi",
       "concept_o": [
-        "Ô tô"
+        "Trẻ em mầm non",
+        "Học sinh tiểu học"
       ]
     },
     {
-      "name": "Khôi phục",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Nhãn hiệu",
-        "Màu sơn",
-        "Hình dáng",
-        "Kích thước",
-        "Tình trạng an toàn kỹ thuật"
-      ]
-    },
-    {
-      "name": "Ghi trong",
-      "keyphrases": [],
-      "concept_s": "Nhãn hiệu",
-      "concept_o": [
-        "Chứng nhận đăng ký xe"
-      ]
-    },
-    {
-      "name": "Ghi trong",
-      "keyphrases": [],
-      "concept_s": "Màu sơn",
-      "concept_o": [
-        "Chứng nhận đăng ký xe"
-      ]
-    },
-    {
-      "name": "Thực hiện",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Quy định về biển số xe",
-        "Quy định về thông tin trên xe",
-        "Quy định về màu sơn",
-        "Quy định về biển báo dấu hiệu nhận biết",
-        "Nhường đường",
-        "Quan sát",
-        "Biện pháp bảo đảm an toàn",
-        "Vượt xe",
-        "Hành vi vi phạm"
-      ]
-    },
-    {
-      "name": "Đăng kiểm",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe"
-      ]
-    },
-    {
-      "name": "Ghi trong",
-      "keyphrases": [],
-      "concept_s": "Khối lượng hàng hóa cho phép chuyên chở",
-      "concept_o": [
-        "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường"
-      ]
-    },
-    {
-      "name": "Làm thủ tục",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Chứng nhận đăng ký xe",
-        "Biển số xe",
-        "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường"
-      ]
-    },
-    {
-      "name": "Nộp",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Giấy phép",
-        "Chứng chỉ hành nghề"
-      ]
-    },
-    {
-      "name": "Quay trở lại",
-      "keyphrases": [],
-      "concept_s": "Phương tiện",
-      "concept_o": [
-        "Khu kinh tế thương mại đặc biệt",
-        "Khu kinh tế cửa khẩu quốc tế"
-      ]
-    },
-    {
-      "name": "Nộp lại",
-      "keyphrases": [],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Giấy phép",
-        "Chứng chỉ hành nghề",
-        "Chứng nhận đăng ký xe",
-        "Giấy chứng nhận",
-        "Tem kiểm định"
-      ]
-    },
-    {
-      "name": "Nộp lại",
-      "keyphrases": [],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Giấy phép",
-        "Chứng chỉ hành nghề",
-        "Chứng nhận đăng ký xe",
-        "Giấy chứng nhận",
-        "Tem kiểm định"
-      ]
-    },
-    {
-      "name": "Làm sai lệch",
-      "keyphrases": [],
-      "concept_s": "Giấy phép",
-      "concept_o": [
-        "Nội dung"
-      ]
-    },
-    {
-      "name": "Làm sai lệch",
-      "keyphrases": [],
-      "concept_s": "Chứng chỉ hành nghề",
-      "concept_o": [
-        "Nội dung"
-      ]
-    },
-    {
-      "name": "Làm sai lệch",
-      "keyphrases": [],
-      "concept_s": "Chứng nhận đăng ký xe",
-      "concept_o": [
-        "Nội dung"
-      ]
-    },
-    {
+      "id": "R0048",
       "name": "Làm sai lệch",
       "keyphrases": [],
       "concept_s": "Giấy chứng nhận",
@@ -1897,119 +1966,7 @@
       ]
     },
     {
-      "name": "Làm sai lệch",
-      "keyphrases": [],
-      "concept_s": "Tem kiểm định",
-      "concept_o": [
-        "Nội dung"
-      ]
-    },
-    {
-      "name": "Thu hồi",
-      "keyphrases": [],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Giấy phép",
-        "Chứng chỉ hành nghề"
-      ]
-    },
-    {
-      "name": "Hết",
-      "keyphrases": [],
-      "concept_s": "Giấy phép",
-      "concept_o": [
-        "Giá trị sử dụng"
-      ]
-    },
-    {
-      "name": "Hết",
-      "keyphrases": [],
-      "concept_s": "Chứng chỉ hành nghề",
-      "concept_o": [
-        "Giá trị sử dụng"
-      ]
-    },
-    {
-      "name": "Cấp",
-      "keyphrases": [],
-      "concept_s": "Giấy phép",
-      "concept_o": [
-        "Cơ quan có thẩm quyền"
-      ]
-    },
-    {
-      "name": "Cấp",
-      "keyphrases": [],
-      "concept_s": "Chứng chỉ hành nghề",
-      "concept_o": [
-        "Cơ quan có thẩm quyền"
-      ]
-    },
-    {
-      "name": "Cung cấp",
-      "keyphrases": [],
-      "concept_s": "Cá nhân",
-      "concept_o": [
-        "Thiết bị kỹ thuật"
-      ]
-    },
-    {
-      "name": "Cung cấp",
-      "keyphrases": [],
-      "concept_s": "Tổ chức",
-      "concept_o": [
-        "Thiết bị kỹ thuật"
-      ]
-    },
-    {
-      "name": "Ghi nhận",
-      "keyphrases": [],
-      "concept_s": "Thiết bị kỹ thuật",
-      "concept_o": [
-        "Kết quả"
-      ]
-    },
-    {
-      "name": "Phát hiện",
-      "keyphrases": [],
-      "concept_s": "Phương tiện",
-      "concept_o": [
-        "Hành vi vi phạm"
-      ]
-    },
-    {
-      "name": "Ghi nhận",
-      "keyphrases": [],
-      "concept_s": "Phương tiện",
-      "concept_o": [
-        "Hành vi vi phạm"
-      ]
-    },
-    {
-      "name": "Tước",
-      "keyphrases": [],
-      "concept_s": "Phù hiệu",
-      "concept_o": [
-        "Quyền sử dụng"
-      ]
-    },
-    {
-      "name": "Cấp cho",
-      "keyphrases": [],
-      "concept_s": "Phù hiệu",
-      "concept_o": [
-        "Ô tô"
-      ]
-    },
-    {
-      "name": "Tham gia",
-      "keyphrases": [],
-      "concept_s": "Ô tô",
-      "concept_o": [
-        "Kinh doanh vận tải"
-      ]
-    },
-    {
+      "id": "R0049",
       "name": "Tước",
       "keyphrases": [],
       "concept_s": "Giấy chứng nhận",
@@ -2018,30 +1975,7 @@
       ]
     },
     {
-      "name": "Tước",
-      "keyphrases": [],
-      "concept_s": "Tem kiểm định",
-      "concept_o": [
-        "Quyền sử dụng"
-      ]
-    },
-    {
-      "name": "Tước",
-      "keyphrases": [],
-      "concept_s": "Giấy phép đào tạo lái xe",
-      "concept_o": [
-        "Quyền sử dụng"
-      ]
-    },
-    {
-      "name": "Tước",
-      "keyphrases": [],
-      "concept_s": "Giấy phép sát hạch",
-      "concept_o": [
-        "Quyền sử dụng"
-      ]
-    },
-    {
+      "id": "R0050",
       "name": "Tước",
       "keyphrases": [],
       "concept_s": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
@@ -2050,30 +1984,34 @@
       ]
     },
     {
-      "name": "Tước",
+      "id": "R0051",
+      "name": "Còn",
       "keyphrases": [],
-      "concept_s": "Chứng chỉ đăng kiểm viên",
+      "concept_s": "Giấy phép",
       "concept_o": [
-        "Quyền sử dụng"
+        "Giá trị sử dụng"
       ]
     },
     {
-      "name": "Tước",
+      "id": "R0052",
+      "name": "Có",
       "keyphrases": [],
-      "concept_s": "Giấy phép lái xe",
+      "concept_s": "Giấy phép",
       "concept_o": [
-        "Quyền sử dụng"
+        "Giá trị sử dụng"
       ]
     },
     {
-      "name": "Tạm giữ",
+      "id": "R0053",
+      "name": "Cấp",
       "keyphrases": [],
-      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_s": "Giấy phép",
       "concept_o": [
-        "Giấy phép"
+        "Cơ quan có thẩm quyền"
       ]
     },
     {
+      "id": "R0054",
       "name": "Dành cho",
       "keyphrases": [
         "của"
@@ -2085,54 +2023,109 @@
       ]
     },
     {
-      "name": "Giữ",
+      "id": "R0055",
+      "name": "Hết",
       "keyphrases": [],
-      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_s": "Giấy phép",
       "concept_o": [
-        "Giấy phép"
+        "Giá trị sử dụng"
       ]
     },
     {
-      "name": "Trả lại",
-      "keyphrases": [],
-      "concept_s": "Người có thẩm quyền xử phạt",
+      "id": "R0056",
+      "name": "Là",
+      "keyphrases": [
+        "được cấp dưới dạng",
+        "thể hiện dưới hình thức"
+      ],
+      "concept_s": "Giấy phép",
       "concept_o": [
-        "Giấy phép"
+        "Điện tử"
       ]
     },
     {
-      "name": "Lập",
+      "id": "R0057",
+      "name": "Làm sai lệch",
       "keyphrases": [],
-      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_s": "Giấy phép",
       "concept_o": [
-        "Biên bản"
+        "Nội dung"
       ]
     },
     {
-      "name": "Lưu",
+      "id": "R0058",
+      "name": "Tước",
       "keyphrases": [],
-      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_s": "Giấy phép",
       "concept_o": [
-        "Hồ sơ"
+        "Quyền sử dụng"
       ]
     },
     {
-      "name": "Tiến hành",
+      "id": "R0059",
+      "name": "Trừ",
       "keyphrases": [],
-      "concept_s": "Cá nhân",
+      "concept_s": "Giấy phép lái xe",
       "concept_o": [
-        "Hoạt động"
+        "Điểm"
       ]
     },
     {
-      "name": "Tiến hành",
+      "id": "R0060",
+      "name": "Tước",
       "keyphrases": [],
-      "concept_s": "Tổ chức",
+      "concept_s": "Giấy phép lái xe",
       "concept_o": [
-        "Hoạt động"
+        "Quyền sử dụng"
       ]
     },
     {
+      "id": "R0061",
+      "name": "Tước",
+      "keyphrases": [],
+      "concept_s": "Giấy phép sát hạch",
+      "concept_o": [
+        "Quyền sử dụng"
+      ]
+    },
+    {
+      "id": "R0062",
+      "name": "Tước",
+      "keyphrases": [],
+      "concept_s": "Giấy phép đào tạo lái xe",
+      "concept_o": [
+        "Quyền sử dụng"
+      ]
+    },
+    {
+      "id": "R0063",
+      "name": "Dành cho",
+      "keyphrases": [
+        "của"
+      ],
+      "concept_s": "Hiệu lệnh",
+      "concept_o": [
+        "Biển báo hiệu",
+        "Vạch kẻ đường",
+        "Đèn tín hiệu giao thông",
+        "Người điều khiển giao thông",
+        "Người kiểm soát giao thông"
+      ]
+    },
+    {
+      "id": "R0064",
+      "name": "Thuộc",
+      "keyphrases": [
+        "của"
+      ],
+      "concept_s": "Hiệu lệnh",
+      "concept_o": [
+        "Người điều khiển giao thông",
+        "Người kiểm soát giao thông"
+      ]
+    },
+    {
+      "id": "R0065",
       "name": "Ghi trong",
       "keyphrases": [],
       "concept_s": "Hoạt động",
@@ -2141,53 +2134,396 @@
       ]
     },
     {
-      "name": "Có",
+      "id": "R0066",
+      "name": "Sử dụng",
       "keyphrases": [],
-      "concept_s": "Cá nhân",
+      "concept_s": "Hành khách",
       "concept_o": [
-        "Giấy phép"
+        "Ô"
       ]
     },
     {
-      "name": "Có",
+      "id": "R0067",
+      "name": "Dành cho",
       "keyphrases": [],
-      "concept_s": "Tổ chức",
+      "concept_s": "Hướng dẫn",
       "concept_o": [
-        "Giấy phép"
+        "Người điều khiển giao thông",
+        "Người kiểm soát giao thông"
       ]
     },
     {
-      "name": "Điều khiển",
+      "id": "R0068",
+      "name": "Thuộc",
+      "keyphrases": [
+        "của"
+      ],
+      "concept_s": "Hướng dẫn",
+      "concept_o": [
+        "Người điều khiển giao thông",
+        "Người kiểm soát giao thông"
+      ]
+    },
+    {
+      "id": "R0069",
+      "name": "Thực hiện",
+      "keyphrases": [],
+      "concept_s": "Hộ gia đình",
+      "concept_o": [
+        "Hành vi vi phạm hành chính"
+      ]
+    },
+    {
+      "id": "R0070",
+      "name": "Thực hiện",
+      "keyphrases": [],
+      "concept_s": "Hộ kinh doanh",
+      "concept_o": [
+        "Hành vi vi phạm hành chính"
+      ]
+    },
+    {
+      "id": "R0071",
+      "name": "Với",
+      "keyphrases": [
+        "đối với"
+      ],
+      "concept_s": "Khoảng cách an toàn",
+      "concept_o": [
+        "Xe chạy liền trước"
+      ]
+    },
+    {
+      "id": "R0072",
+      "name": "Cấm",
+      "keyphrases": [],
+      "concept_s": "Khu vực",
+      "concept_o": [
+        "Dừng"
+      ]
+    },
+    {
+      "id": "R0073",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Khám sức khỏe",
+      "concept_o": [
+        "Lái xe",
+        "Nhân viên phục vụ trên xe"
+      ]
+    },
+    {
+      "id": "R0074",
+      "name": "Ghi trong",
+      "keyphrases": [],
+      "concept_s": "Khối lượng hàng hóa cho phép chuyên chở",
+      "concept_o": [
+        "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+      ]
+    },
+    {
+      "id": "R0075",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Kiểm tra nồng độ cồn",
+      "concept_o": [
+        "Người thi hành công vụ"
+      ]
+    },
+    {
+      "id": "R0076",
+      "name": "Thuộc",
+      "keyphrases": [
+        "của"
+      ],
+      "concept_s": "Kiểm tra nồng độ cồn",
+      "concept_o": [
+        "Người thi hành công vụ"
+      ]
+    },
+    {
+      "id": "R0077",
+      "name": "Tại",
+      "keyphrases": [],
+      "concept_s": "Làn dừng xe khẩn cấp",
+      "concept_o": [
+        "Đường cao tốc"
+      ]
+    },
+    {
+      "id": "R0078",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Làn đường",
+      "concept_o": [
+        "Thu phí điện tử tự động không dừng"
+      ]
+    },
+    {
+      "id": "R0079",
+      "name": "Tại",
+      "keyphrases": [],
+      "concept_s": "Làn đường",
+      "concept_o": [
+        "Trạm thu phí",
+        "Đường cao tốc"
+      ]
+    },
+    {
+      "id": "R0080",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Lề đường",
+      "concept_o": [
+        "Đường cao tốc"
+      ]
+    },
+    {
+      "id": "R0081",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Miệng hầm",
+      "concept_o": [
+        "Đường điện thoại",
+        "Điện cao thế"
+      ]
+    },
+    {
+      "id": "R0082",
+      "name": "Ghi trong",
+      "keyphrases": [],
+      "concept_s": "Màu sơn",
+      "concept_o": [
+        "Chứng nhận đăng ký xe"
+      ]
+    },
+    {
+      "id": "R0083",
+      "name": "Buông",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Xe mô tô",
+        "Tay"
+      ]
+    },
+    {
+      "id": "R0084",
+      "name": "Bám",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe khác",
+        "Vật khác"
+      ]
+    },
+    {
+      "id": "R0085",
+      "name": "Báo",
+      "keyphrases": [
+        "báo hiệu"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Tín hiệu",
+        "Đèn khẩn cấp"
+      ]
+    },
+    {
+      "id": "R0086",
+      "name": "Báo hiệu",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Đèn khẩn cấp"
+      ]
+    },
+    {
+      "id": "R0087",
+      "name": "Bảo đảm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Khoảng cách an toàn",
+        "An toàn"
+      ]
+    },
+    {
+      "id": "R0088",
+      "name": "Bảo đảm khoảng cách an toàn",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe phía sau"
+      ]
+    },
+    {
+      "id": "R0089",
+      "name": "Bịt",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Mắt"
+      ]
+    },
+    {
+      "id": "R0090",
+      "name": "Che khuất",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Biển báo hiệu",
+        "Đèn tín hiệu giao thông"
+      ]
+    },
+    {
+      "id": "R0091",
+      "name": "Chiếm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phần đường"
+      ]
+    },
+    {
+      "id": "R0092",
+      "name": "Chuyển",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Làn đường"
+      ]
+    },
+    {
+      "id": "R0093",
+      "name": "Chuyển hướng",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
         "Ô tô",
-        "Xe ưu tiên",
-        "Xe bốn bánh có gắn động cơ",
-        "Xe máy",
+        "Xe mô tô",
         "Xe máy chuyên dùng"
       ]
     },
     {
-      "name": "Tước",
+      "id": "R0094",
+      "name": "Chuyển làn",
       "keyphrases": [],
-      "concept_s": "Người có thẩm quyền",
+      "concept_s": "Người",
       "concept_o": [
-        "Quyền sử dụng"
+        "Làn đường"
       ]
     },
     {
-      "name": "Dành cho",
+      "id": "R0095",
+      "name": "Chèn",
       "keyphrases": [],
-      "concept_s": "Quyền sử dụng",
+      "concept_s": "Người",
       "concept_o": [
-        "Giấy phép lái xe",
-        "Giấy phép",
-        "Chứng chỉ hành nghề"
+        "Bánh xe"
       ]
     },
     {
+      "id": "R0096",
+      "name": "Chạy chậm hơn",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe khác"
+      ]
+    },
+    {
+      "id": "R0097",
+      "name": "Chạy dàn hàng ngang",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe máy"
+      ]
+    },
+    {
+      "id": "R0098",
+      "name": "Chạy dưới",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Tốc độ tối thiểu"
+      ]
+    },
+    {
+      "id": "R0099",
+      "name": "Chạy dưới tốc độ tối thiểu",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe máy"
+      ]
+    },
+    {
+      "id": "R0100",
+      "name": "Chạy quá tốc độ",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe máy"
+      ]
+    },
+    {
+      "id": "R0101",
+      "name": "Chạy tốc độ thấp",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe máy"
+      ]
+    },
+    {
+      "id": "R0102",
+      "name": "Chấp hành",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hiệu lệnh",
+        "Chỉ dẫn",
+        "Hướng dẫn",
+        "Yêu cầu kiểm tra",
+        "Biển báo hiệu",
+        "Vạch kẻ đường",
+        "Kiểm tra nồng độ cồn"
+      ]
+    },
+    {
+      "id": "R0103",
+      "name": "Chở",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người",
+        "Trẻ em",
+        "Hành khách",
+        "Người ngồi trên xe"
+      ]
+    },
+    {
+      "id": "R0104",
+      "name": "Cung cấp",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "id": "R0105",
+      "name": "Cài",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Quai mũ bảo hiểm"
+      ]
+    },
+    {
+      "id": "R0106",
       "name": "Có",
       "keyphrases": [],
       "concept_s": "Người",
@@ -2206,104 +2542,57 @@
       ]
     },
     {
-      "name": "Tạm giữ",
-      "keyphrases": [],
-      "concept_s": "Cơ quan",
-      "concept_o": [
-        "Giấy phép",
-        "Chứng chỉ hành nghề"
-      ]
-    },
-    {
-      "name": "Tạm giữ",
-      "keyphrases": [],
-      "concept_s": "Người có thẩm quyền",
-      "concept_o": [
-        "Giấy phép",
-        "Chứng chỉ hành nghề"
-      ]
-    },
-    {
-      "name": "Tước",
-      "keyphrases": [],
-      "concept_s": "Cơ quan",
-      "concept_o": [
-        "Quyền sử dụng"
-      ]
-    },
-    {
-      "name": "Là",
+      "id": "R0107",
+      "name": "Cản trở",
       "keyphrases": [
-        "được cấp dưới dạng",
-        "thể hiện dưới hình thức"
-      ],
-      "concept_s": "Giấy phép",
-      "concept_o": [
-        "Điện tử"
-      ]
-    },
-    {
-      "name": "Là",
-      "keyphrases": [
-        "được cấp dưới dạng",
-        "thể hiện dưới hình thức"
-      ],
-      "concept_s": "Chứng chỉ hành nghề",
-      "concept_o": [
-        "Điện tử"
-      ]
-    },
-    {
-      "name": "Chấp hành",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hiệu lệnh",
-        "Chỉ dẫn",
-        "Hướng dẫn",
-        "Yêu cầu kiểm tra",
-        "Biển báo hiệu",
-        "Vạch kẻ đường",
-        "Kiểm tra nồng độ cồn"
-      ]
-    },
-    {
-      "name": "Dành cho",
-      "keyphrases": [
-        "của"
-      ],
-      "concept_s": "Hiệu lệnh",
-      "concept_o": [
-        "Biển báo hiệu",
-        "Vạch kẻ đường",
-        "Đèn tín hiệu giao thông",
-        "Người điều khiển giao thông",
-        "Người kiểm soát giao thông"
-      ]
-    },
-    {
-      "name": "Dành cho",
-      "keyphrases": [
-        "của"
-      ],
-      "concept_s": "Chỉ dẫn",
-      "concept_o": [
-        "Biển báo hiệu",
-        "Vạch kẻ đường"
-      ]
-    },
-    {
-      "name": "Báo",
-      "keyphrases": [
-        "báo hiệu"
+        "gây cản trở"
       ],
       "concept_s": "Người",
       "concept_o": [
-        "Tín hiệu",
-        "Đèn khẩn cấp"
+        "Xe ưu tiên",
+        "Giao thông"
       ]
     },
     {
+      "id": "R0108",
+      "name": "Cầm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Điện thoại",
+        "Thiết bị điện tử",
+        "Thiết bị điện tử khác"
+      ]
+    },
+    {
+      "id": "R0109",
+      "name": "Cập nhật",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "id": "R0110",
+      "name": "Dùng",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Chân"
+      ]
+    },
+    {
+      "id": "R0111",
+      "name": "Dẫn dắt",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Vật nuôi"
+      ]
+    },
+    {
+      "id": "R0112",
       "name": "Dừng",
       "keyphrases": [
         "dừng lại"
@@ -2317,35 +2606,56 @@
       ]
     },
     {
-      "name": "Đỗ",
+      "id": "R0113",
+      "name": "Giảm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Tốc độ"
+      ]
+    },
+    {
+      "id": "R0114",
+      "name": "Giảm tốc độ",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
         "Ô tô",
-        "Xe máy",
-        "Xe mô tô",
-        "Xe máy chuyên dùng"
+        "Xe mô tô"
       ]
     },
     {
-      "name": "Đặt",
+      "id": "R0115",
+      "name": "Giữ",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Biển cảnh báo",
-        "Đèn cảnh báo",
-        "Biển báo hiệu"
+        "Khoảng cách",
+        "Khoảng cách an toàn"
       ]
     },
     {
-      "name": "Chiếm",
+      "id": "R0116",
+      "name": "Giữ nguyên",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Phần đường"
+        "Hiện trường"
       ]
     },
     {
+      "id": "R0117",
+      "name": "Gây",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ùn tắc giao thông",
+        "Tai nạn giao thông",
+        "Cản trở giao thông"
+      ]
+    },
+    {
+      "id": "R0118",
       "name": "Gắn",
       "keyphrases": [],
       "concept_s": "Người",
@@ -2354,6 +2664,38 @@
       ]
     },
     {
+      "id": "R0119",
+      "name": "Gặp",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người đi bộ"
+      ]
+    },
+    {
+      "id": "R0120",
+      "name": "Hư hỏng",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô"
+      ]
+    },
+    {
+      "id": "R0121",
+      "name": "Khôi phục",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Nhãn hiệu",
+        "Màu sơn",
+        "Hình dáng",
+        "Kích thước",
+        "Tình trạng an toàn kỹ thuật"
+      ]
+    },
+    {
+      "id": "R0122",
       "name": "Kéo",
       "keyphrases": [],
       "concept_s": "Người",
@@ -2365,14 +2707,268 @@
       ]
     },
     {
-      "name": "Có",
+      "id": "R0123",
+      "name": "Kéo theo",
       "keyphrases": [],
-      "concept_s": "Rơ moóc",
+      "concept_s": "Người",
       "concept_o": [
-        "Biển báo hiệu"
+        "Xe khác",
+        "Vật khác"
       ]
     },
     {
+      "id": "R0124",
+      "name": "Liên quan",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Tai nạn giao thông",
+        "Vụ tai nạn giao thông"
+      ]
+    },
+    {
+      "id": "R0125",
+      "name": "Làm thủ tục",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Chứng nhận đăng ký xe",
+        "Biển số xe",
+        "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+      ]
+    },
+    {
+      "id": "R0126",
+      "name": "Lùi",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe mô tô ba bánh",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "id": "R0127",
+      "name": "Lưu trữ",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "id": "R0128",
+      "name": "Lạng lách",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe mô tô",
+        "Xe máy"
+      ]
+    },
+    {
+      "id": "R0129",
+      "name": "Lắp đặt",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Thiết bị giám sát hành trình",
+        "Thiết bị ghi nhận hình ảnh người lái xe",
+        "Dây đai an toàn",
+        "Ghế ngồi",
+        "Thiết bị cứu hộ",
+        "Thiết bị phát tín hiệu ưu tiên",
+        "Thiết bị phát tín hiệu"
+      ]
+    },
+    {
+      "id": "R0130",
+      "name": "Mang vác",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Vật cồng kềnh"
+      ]
+    },
+    {
+      "id": "R0131",
+      "name": "Mở",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Cửa xe"
+      ]
+    },
+    {
+      "id": "R0132",
+      "name": "Ngồi",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Một bên"
+      ]
+    },
+    {
+      "id": "R0133",
+      "name": "Nhường",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe xin vượt",
+        "Xe đi ngược chiều",
+        "Người đi bộ",
+        "Xe thô sơ",
+        "Đường ưu tiên",
+        "Đường chính",
+        "Xe đi đến từ bên phải",
+        "Xe đi đến từ bên trái",
+        "Xe ưu tiên",
+        "Đường"
+      ]
+    },
+    {
+      "id": "R0134",
+      "name": "Nằm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Yên xe"
+      ]
+    },
+    {
+      "id": "R0135",
+      "name": "Nối",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe khác"
+      ]
+    },
+    {
+      "id": "R0136",
+      "name": "Nộp",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Giấy phép",
+        "Chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "id": "R0137",
+      "name": "Quan sát",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hai bên",
+        "Phía sau xe"
+      ]
+    },
+    {
+      "id": "R0138",
+      "name": "Quay người",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe máy"
+      ]
+    },
+    {
+      "id": "R0139",
+      "name": "Quay đầu",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe mô tô",
+        "Xe máy",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "id": "R0140",
+      "name": "Quản lý",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "id": "R0141",
+      "name": "Ra",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Đường cao tốc",
+        "Đường ưu tiên",
+        "Đường chính"
+      ]
+    },
+    {
+      "id": "R0142",
+      "name": "Rú ga",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "id": "R0143",
+      "name": "Rẽ phải",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe mô tô",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "id": "R0144",
+      "name": "Rẽ trái",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe mô tô",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "id": "R0145",
+      "name": "Rời",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Vị trí lái"
+      ]
+    },
+    {
+      "id": "R0146",
+      "name": "Song song",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe khác"
+      ]
+    },
+    {
+      "id": "R0147",
+      "name": "Sát",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Lề đường",
+        "Vỉa hè"
+      ]
+    },
+    {
+      "id": "R0148",
       "name": "Sử dụng",
       "keyphrases": [
         "dùng"
@@ -2407,6 +3003,128 @@
       ]
     },
     {
+      "id": "R0149",
+      "name": "Thay",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "id": "R0150",
+      "name": "Thành nhóm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe mô tô"
+      ]
+    },
+    {
+      "id": "R0151",
+      "name": "Tháo dỡ",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Thiết bị âm thanh",
+        "Thiết bị ánh sáng"
+      ]
+    },
+    {
+      "id": "R0152",
+      "name": "Thắt",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Dây đai an toàn"
+      ]
+    },
+    {
+      "id": "R0153",
+      "name": "Thực hiện",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Quy định về biển số xe",
+        "Quy định về thông tin trên xe",
+        "Quy định về màu sơn",
+        "Quy định về biển báo dấu hiệu nhận biết",
+        "Nhường đường",
+        "Quan sát",
+        "Biện pháp bảo đảm an toàn",
+        "Vượt xe",
+        "Hành vi vi phạm"
+      ]
+    },
+    {
+      "id": "R0154",
+      "name": "Truyền dẫn",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "id": "R0155",
+      "name": "Tránh",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe máy",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "id": "R0156",
+      "name": "Trình báo",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Cơ quan công an",
+        "Ủy ban nhân dân"
+      ]
+    },
+    {
+      "id": "R0157",
+      "name": "Trợ giúp",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người bị nạn"
+      ]
+    },
+    {
+      "id": "R0158",
+      "name": "Trừ",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Điểm"
+      ]
+    },
+    {
+      "id": "R0159",
+      "name": "Tuân thủ",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Khoảng cách an toàn"
+      ]
+    },
+    {
+      "id": "R0160",
+      "name": "Tái phạm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Lạng lách",
+        "Đánh võng"
+      ]
+    },
+    {
+      "id": "R0161",
       "name": "Tại",
       "keyphrases": [
         "trong",
@@ -2470,158 +3188,136 @@
       ]
     },
     {
-      "name": "Chuyển làn",
+      "id": "R0162",
+      "name": "Tắt",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Làn đường"
+        "Máy"
       ]
     },
     {
-      "name": "Chở",
+      "id": "R0163",
+      "name": "Tịch thu",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Người",
-        "Trẻ em",
-        "Hành khách",
-        "Người ngồi trên xe"
+        "Thiết bị phát tín hiệu ưu tiên"
       ]
     },
     {
-      "name": "Sát",
+      "id": "R0164",
+      "name": "Tụ tập",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Lề đường",
-        "Vỉa hè"
-      ]
-    },
-    {
-      "name": "Chạy quá tốc độ",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
         "Xe máy"
       ]
     },
     {
-      "name": "Rú ga",
+      "id": "R0165",
+      "name": "Va chạm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe chạy liền trước"
+      ]
+    },
+    {
+      "id": "R0166",
+      "name": "Vào",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Đường cao tốc"
+      ]
+    },
+    {
+      "id": "R0167",
+      "name": "Vòng tay",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người ngồi trước"
+      ]
+    },
+    {
+      "id": "R0168",
+      "name": "Vượt",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe khác",
+        "Ô tô",
+        "Xe máy",
+        "Bên phải"
+      ]
+    },
+    {
+      "id": "R0169",
+      "name": "Vượt quá",
+      "keyphrases": [
+        "chạy quá",
+        "chạy quá tốc độ quy định"
+      ],
+      "concept_s": "Người",
+      "concept_o": [
+        "Tốc độ quy định",
+        "Tốc độ"
+      ]
+    },
+    {
+      "id": "R0170",
+      "name": "Áp dụng",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hình thức xử phạt bổ sung"
+      ]
+    },
+    {
+      "id": "R0171",
+      "name": "Đi",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Bên phải",
+        "Phần đường",
+        "Làn đường",
+        "Vỉa hè"
+      ]
+    },
+    {
+      "id": "R0172",
+      "name": "Đi bên phải",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Phần đường xe chạy"
+      ]
+    },
+    {
+      "id": "R0173",
+      "name": "Đi ngược chiều",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
         "Ô tô",
-        "Xe máy chuyên dùng"
+        "Đường một chiều"
       ]
     },
     {
-      "name": "Gặp",
+      "id": "R0174",
+      "name": "Đi qua",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Người đi bộ"
+        "Dải phân cách",
+        "Dải phân cách cố định"
       ]
     },
     {
-      "name": "Chuyển hướng",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Xe mô tô",
-        "Xe máy chuyên dùng"
-      ]
-    },
-    {
-      "name": "Bảo đảm khoảng cách an toàn",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe phía sau"
-      ]
-    },
-    {
-      "name": "Giao nhau cùng mức",
-      "keyphrases": [],
-      "concept_s": "Đường bộ",
-      "concept_o": [
-        "Đường sắt"
-      ]
-    },
-    {
-      "name": "Nối",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe khác"
-      ]
-    },
-    {
-      "name": "Thắt",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Dây đai an toàn"
-      ]
-    },
-    {
-      "name": "Ngồi cùng",
-      "keyphrases": [],
-      "concept_s": "Trẻ em",
-      "concept_o": [
-        "Người"
-      ]
-    },
-    {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Thiết bị an toàn",
-      "concept_o": [
-        "Trẻ em"
-      ]
-    },
-    {
-      "name": "Chạy dưới",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Tốc độ tối thiểu"
-      ]
-    },
-    {
-      "name": "Có",
-      "keyphrases": [],
-      "concept_s": "Đoạn đường bộ",
-      "concept_o": [
-        "Tốc độ tối thiểu"
-      ]
-    },
-    {
-      "name": "Chạy chậm hơn",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe khác"
-      ]
-    },
-    {
-      "name": "Đi về",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Làn đường bên phải"
-      ]
-    },
-    {
-      "name": "Gắn",
-      "keyphrases": [],
-      "concept_s": "Ô tô",
-      "concept_o": [
-        "Thẻ đầu cuối"
-      ]
-    },
-    {
+      "id": "R0175",
       "name": "Đi vào",
       "keyphrases": [
         "đi trên"
@@ -2638,219 +3334,16 @@
       ]
     },
     {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Làn đường",
-      "concept_o": [
-        "Thu phí điện tử tự động không dừng"
-      ]
-    },
-    {
-      "name": "Tại",
-      "keyphrases": [],
-      "concept_s": "Làn đường",
-      "concept_o": [
-        "Trạm thu phí",
-        "Đường cao tốc"
-      ]
-    },
-    {
-      "name": "Song song",
+      "id": "R0176",
+      "name": "Đi về",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Xe khác"
+        "Làn đường bên phải"
       ]
     },
     {
-      "name": "Hư hỏng",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô"
-      ]
-    },
-    {
-      "name": "Nhường",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe xin vượt",
-        "Xe đi ngược chiều",
-        "Người đi bộ",
-        "Xe thô sơ",
-        "Đường ưu tiên",
-        "Đường chính",
-        "Xe đi đến từ bên phải",
-        "Xe đi đến từ bên trái",
-        "Xe ưu tiên",
-        "Đường"
-      ]
-    },
-    {
-      "name": "Lùi",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Xe mô tô ba bánh",
-        "Xe máy chuyên dùng"
-      ]
-    },
-    {
-      "name": "Quay đầu",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Xe mô tô",
-        "Xe máy",
-        "Xe máy chuyên dùng"
-      ]
-    },
-    {
-      "name": "Có",
-      "keyphrases": [],
-      "concept_s": "Đường",
-      "concept_o": [
-        "Biển báo hiệu"
-      ]
-    },
-    {
-      "name": "Cấm",
-      "keyphrases": [],
-      "concept_s": "Biển báo hiệu",
-      "concept_o": [
-        "Đi ngược chiều",
-        "Quay đầu",
-        "Rẽ trái",
-        "Rẽ phải",
-        "Vượt xe",
-        "Đi vào",
-        "Dừng",
-        "Đỗ",
-        "Vượt"
-      ]
-    },
-    {
-      "name": "Cấm",
-      "keyphrases": [],
-      "concept_s": "Khu vực",
-      "concept_o": [
-        "Dừng"
-      ]
-    },
-    {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Phần đường",
-      "concept_o": [
-        "Người đi bộ",
-        "Xe thô sơ"
-      ]
-    },
-    {
-      "name": "Quan sát",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hai bên",
-        "Phía sau xe"
-      ]
-    },
-    {
-      "name": "Liên quan",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Tai nạn giao thông",
-        "Vụ tai nạn giao thông"
-      ]
-    },
-    {
-      "name": "Giữ nguyên",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hiện trường"
-      ]
-    },
-    {
-      "name": "Trợ giúp",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Người bị nạn"
-      ]
-    },
-    {
-      "name": "Có",
-      "keyphrases": [],
-      "concept_s": "Giấy phép",
-      "concept_o": [
-        "Giá trị sử dụng"
-      ]
-    },
-    {
-      "name": "Rẽ trái",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Xe mô tô",
-        "Xe máy chuyên dùng"
-      ]
-    },
-    {
-      "name": "Rẽ phải",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Xe mô tô",
-        "Xe máy chuyên dùng"
-      ]
-    },
-    {
-      "name": "Giữ",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Khoảng cách",
-        "Khoảng cách an toàn"
-      ]
-    },
-    {
-      "name": "Va chạm",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe chạy liền trước"
-      ]
-    },
-    {
-      "name": "Vượt",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe khác",
-        "Ô tô",
-        "Xe máy",
-        "Bên phải"
-      ]
-    },
-    {
-      "name": "Đi",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Bên phải",
-        "Phần đường",
-        "Làn đường",
-        "Vỉa hè"
-      ]
-    },
-    {
+      "id": "R0177",
       "name": "Đi đúng",
       "keyphrases": [],
       "concept_s": "Người",
@@ -2860,56 +3353,503 @@
       ]
     },
     {
-      "name": "Tránh",
+      "id": "R0178",
+      "name": "Điều chỉnh",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
+        "Chỉ số đồng hồ báo quãng đường",
+        "Thùng xe",
+        "Khối lượng hàng hóa cho phép chuyên chở"
+      ]
+    },
+    {
+      "id": "R0179",
+      "name": "Điều khiển",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe mô tô",
         "Ô tô",
+        "Xe ưu tiên",
+        "Xe bốn bánh có gắn động cơ",
         "Xe máy",
         "Xe máy chuyên dùng"
       ]
     },
     {
-      "name": "Vào",
+      "id": "R0180",
+      "name": "Đu bám",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Đường cao tốc"
+        "Cửa xe",
+        "Thành xe"
       ]
     },
     {
-      "name": "Ra",
+      "id": "R0181",
+      "name": "Đuổi nhau",
       "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Đường cao tốc",
-        "Đường ưu tiên",
-        "Đường chính"
+        "Ô tô"
       ]
     },
     {
-      "name": "Với",
-      "keyphrases": [
-        "đối với"
-      ],
-      "concept_s": "Khoảng cách an toàn",
-      "concept_o": [
-        "Xe chạy liền trước"
-      ]
-    },
-    {
-      "name": "Vượt quá",
-      "keyphrases": [
-        "chạy quá",
-        "chạy quá tốc độ quy định"
-      ],
+      "id": "R0182",
+      "name": "Đánh võng",
+      "keyphrases": [],
       "concept_s": "Người",
       "concept_o": [
-        "Tốc độ quy định",
-        "Tốc độ"
+        "Ô tô",
+        "Xe mô tô",
+        "Xe máy"
       ]
     },
     {
+      "id": "R0183",
+      "name": "Đăng kiểm",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe"
+      ]
+    },
+    {
+      "id": "R0184",
+      "name": "Đẩy",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Xe khác",
+        "Vật khác"
+      ]
+    },
+    {
+      "id": "R0185",
+      "name": "Đặt",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Biển cảnh báo",
+        "Đèn cảnh báo",
+        "Biển báo hiệu"
+      ]
+    },
+    {
+      "id": "R0186",
+      "name": "Để",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Người",
+        "Xe máy",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "id": "R0187",
+      "name": "Đỗ",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Ô tô",
+        "Xe máy",
+        "Xe mô tô",
+        "Xe máy chuyên dùng"
+      ]
+    },
+    {
+      "id": "R0188",
+      "name": "Đội",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Mũ bảo hiểm"
+      ]
+    },
+    {
+      "id": "R0189",
+      "name": "Ở lại",
+      "keyphrases": [],
+      "concept_s": "Người",
+      "concept_o": [
+        "Hiện trường"
+      ]
+    },
+    {
+      "id": "R0190",
+      "name": "Có",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Thẩm quyền"
+      ]
+    },
+    {
+      "id": "R0191",
+      "name": "Lập",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Biên bản vi phạm hành chính"
+      ]
+    },
+    {
+      "id": "R0192",
+      "name": "Phục hồi",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Điểm"
+      ]
+    },
+    {
+      "id": "R0193",
+      "name": "Thu hồi",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Giấy phép",
+        "Chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "id": "R0194",
+      "name": "Trừ",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Điểm"
+      ]
+    },
+    {
+      "id": "R0195",
+      "name": "Tước",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Quyền sử dụng"
+      ]
+    },
+    {
+      "id": "R0196",
+      "name": "Tạm giữ",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Giấy phép",
+        "Chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "id": "R0197",
+      "name": "Xử phạt",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền",
+      "concept_o": [
+        "Hành vi vi phạm hành chính"
+      ]
+    },
+    {
+      "id": "R0198",
+      "name": "Giữ",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_o": [
+        "Giấy phép"
+      ]
+    },
+    {
+      "id": "R0199",
+      "name": "Lưu",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_o": [
+        "Hồ sơ"
+      ]
+    },
+    {
+      "id": "R0200",
+      "name": "Lập",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_o": [
+        "Biên bản"
+      ]
+    },
+    {
+      "id": "R0201",
+      "name": "Trả lại",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_o": [
+        "Giấy phép"
+      ]
+    },
+    {
+      "id": "R0202",
+      "name": "Tạm giữ",
+      "keyphrases": [],
+      "concept_s": "Người có thẩm quyền xử phạt",
+      "concept_o": [
+        "Giấy phép"
+      ]
+    },
+    {
+      "id": "R0203",
+      "name": "Bám",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Xe khác",
+        "Vật khác"
+      ]
+    },
+    {
+      "id": "R0204",
+      "name": "Cài",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Quai mũ bảo hiểm"
+      ]
+    },
+    {
+      "id": "R0205",
+      "name": "Dẫn dắt",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Vật nuôi"
+      ]
+    },
+    {
+      "id": "R0206",
+      "name": "Kéo",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Xe khác",
+        "Vật khác"
+      ]
+    },
+    {
+      "id": "R0207",
+      "name": "Mang vác",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Vật cồng kềnh"
+      ]
+    },
+    {
+      "id": "R0208",
+      "name": "Ngồi",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Tay lái"
+      ]
+    },
+    {
+      "id": "R0209",
+      "name": "Đẩy",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Xe khác",
+        "Vật khác"
+      ]
+    },
+    {
+      "id": "R0210",
+      "name": "Đội",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Mũ bảo hiểm"
+      ]
+    },
+    {
+      "id": "R0211",
+      "name": "Đứng",
+      "keyphrases": [],
+      "concept_s": "Người ngồi trên xe",
+      "concept_o": [
+        "Yên",
+        "Giá đèo hàng"
+      ]
+    },
+    {
+      "id": "R0212",
+      "name": "Tại",
+      "keyphrases": [],
+      "concept_s": "Người đi bộ",
+      "concept_o": [
+        "Vạch kẻ đường"
+      ]
+    },
+    {
+      "id": "R0213",
+      "name": "Ghi trong",
+      "keyphrases": [],
+      "concept_s": "Nhãn hiệu",
+      "concept_o": [
+        "Chứng nhận đăng ký xe"
+      ]
+    },
+    {
+      "id": "R0214",
+      "name": "Cấp cho",
+      "keyphrases": [],
+      "concept_s": "Phù hiệu",
+      "concept_o": [
+        "Ô tô"
+      ]
+    },
+    {
+      "id": "R0215",
+      "name": "Tước",
+      "keyphrases": [],
+      "concept_s": "Phù hiệu",
+      "concept_o": [
+        "Quyền sử dụng"
+      ]
+    },
+    {
+      "id": "R0216",
+      "name": "Ghi nhận",
+      "keyphrases": [],
+      "concept_s": "Phương tiện",
+      "concept_o": [
+        "Hành vi vi phạm"
+      ]
+    },
+    {
+      "id": "R0217",
+      "name": "Phát hiện",
+      "keyphrases": [],
+      "concept_s": "Phương tiện",
+      "concept_o": [
+        "Hành vi vi phạm"
+      ]
+    },
+    {
+      "id": "R0218",
+      "name": "Quay trở lại",
+      "keyphrases": [],
+      "concept_s": "Phương tiện",
+      "concept_o": [
+        "Khu kinh tế thương mại đặc biệt",
+        "Khu kinh tế cửa khẩu quốc tế"
+      ]
+    },
+    {
+      "id": "R0219",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Phần đường",
+      "concept_o": [
+        "Người đi bộ",
+        "Xe thô sơ"
+      ]
+    },
+    {
+      "id": "R0220",
+      "name": "Có",
+      "keyphrases": [],
+      "concept_s": "Phần đường xe chạy",
+      "concept_o": [
+        "Lề đường"
+      ]
+    },
+    {
+      "id": "R0221",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Quyền sử dụng",
+      "concept_o": [
+        "Giấy phép lái xe",
+        "Giấy phép",
+        "Chứng chỉ hành nghề"
+      ]
+    },
+    {
+      "id": "R0222",
+      "name": "Có",
+      "keyphrases": [],
+      "concept_s": "Rơ moóc",
+      "concept_o": [
+        "Biển báo hiệu"
+      ]
+    },
+    {
+      "id": "R0223",
+      "name": "Thuộc",
+      "keyphrases": [],
+      "concept_s": "Tay lái",
+      "concept_o": [
+        "Xe mô tô"
+      ]
+    },
+    {
+      "id": "R0224",
+      "name": "Làm sai lệch",
+      "keyphrases": [],
+      "concept_s": "Tem kiểm định",
+      "concept_o": [
+        "Nội dung"
+      ]
+    },
+    {
+      "id": "R0225",
+      "name": "Tước",
+      "keyphrases": [],
+      "concept_s": "Tem kiểm định",
+      "concept_o": [
+        "Quyền sử dụng"
+      ]
+    },
+    {
+      "id": "R0226",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Thiết bị an toàn",
+      "concept_o": [
+        "Trẻ em"
+      ]
+    },
+    {
+      "id": "R0227",
+      "name": "Lắp trên",
+      "keyphrases": [],
+      "concept_s": "Thiết bị ghi nhận hình ảnh người lái xe",
+      "concept_o": [
+        "Ô tô"
+      ]
+    },
+    {
+      "id": "R0228",
+      "name": "Lắp trên",
+      "keyphrases": [],
+      "concept_s": "Thiết bị giám sát hành trình",
+      "concept_o": [
+        "Ô tô"
+      ]
+    },
+    {
+      "id": "R0229",
+      "name": "Ghi nhận",
+      "keyphrases": [],
+      "concept_s": "Thiết bị kỹ thuật",
+      "concept_o": [
+        "Kết quả"
+      ]
+    },
+    {
+      "id": "R0230",
       "name": "Dành cho",
       "keyphrases": [
         "của"
@@ -2920,6 +3860,288 @@
       ]
     },
     {
+      "id": "R0231",
+      "name": "Gây mất",
+      "keyphrases": [],
+      "concept_s": "Thiết bị ánh sáng",
+      "concept_o": [
+        "Trật tự an toàn giao thông đường bộ"
+      ]
+    },
+    {
+      "id": "R0232",
+      "name": "Gây mất",
+      "keyphrases": [],
+      "concept_s": "Thiết bị âm thanh",
+      "concept_o": [
+        "Trật tự an toàn giao thông đường bộ"
+      ]
+    },
+    {
+      "id": "R0233",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Thẻ nhận dạng lái xe",
+      "concept_o": [
+        "Lái xe"
+      ]
+    },
+    {
+      "id": "R0234",
+      "name": "Ngồi cùng",
+      "keyphrases": [],
+      "concept_s": "Trẻ em",
+      "concept_o": [
+        "Người"
+      ]
+    },
+    {
+      "id": "R0235",
+      "name": "Thuộc",
+      "keyphrases": [],
+      "concept_s": "Tính năng kỹ thuật",
+      "concept_o": [
+        "Phương tiện",
+        "Thiết bị"
+      ]
+    },
+    {
+      "id": "R0236",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Tập huấn",
+      "concept_o": [
+        "Lái xe",
+        "Nhân viên phục vụ trên xe"
+      ]
+    },
+    {
+      "id": "R0237",
+      "name": "Nhỏ hơn",
+      "keyphrases": [],
+      "concept_s": "Tốc độ thiết kế",
+      "concept_o": [
+        "Tốc độ tối thiểu"
+      ]
+    },
+    {
+      "id": "R0238",
+      "name": "Chịu",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Cảnh cáo",
+        "Phạt tiền"
+      ]
+    },
+    {
+      "id": "R0239",
+      "name": "Cung cấp",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Thiết bị kỹ thuật"
+      ]
+    },
+    {
+      "id": "R0240",
+      "name": "Có",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Giấy phép"
+      ]
+    },
+    {
+      "id": "R0241",
+      "name": "Liên quan",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Xử phạt vi phạm hành chính"
+      ]
+    },
+    {
+      "id": "R0242",
+      "name": "Nộp lại",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Giấy phép",
+        "Chứng chỉ hành nghề",
+        "Chứng nhận đăng ký xe",
+        "Giấy chứng nhận",
+        "Tem kiểm định"
+      ]
+    },
+    {
+      "id": "R0243",
+      "name": "Sử dụng",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Phương tiện"
+      ]
+    },
+    {
+      "id": "R0244",
+      "name": "Tiến hành",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Hoạt động"
+      ]
+    },
+    {
+      "id": "R0245",
+      "name": "Tại",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Lãnh thổ Việt Nam"
+      ]
+    },
+    {
+      "id": "R0246",
+      "name": "Tịch thu",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Phương tiện",
+        "Tang vật vi phạm hành chính",
+        "Phương tiện vi phạm hành chính"
+      ]
+    },
+    {
+      "id": "R0247",
+      "name": "Vi phạm",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Trật tự, an toàn giao thông đường bộ",
+        "Trật tự an toàn giao thông đường bộ"
+      ]
+    },
+    {
+      "id": "R0248",
+      "name": "Đình chỉ",
+      "keyphrases": [],
+      "concept_s": "Tổ chức",
+      "concept_o": [
+        "Hoạt động"
+      ]
+    },
+    {
+      "id": "R0249",
+      "name": "Gồm",
+      "keyphrases": [],
+      "concept_s": "Tổ chức kinh tế",
+      "concept_o": [
+        "Doanh nghiệp tư nhân",
+        "Công ty cổ phần",
+        "Công ty trách nhiệm hữu hạn",
+        "Công ty hợp danh",
+        "Đơn vị phụ thuộc doanh nghiệp",
+        "Tổ hợp tác",
+        "Hợp tác xã",
+        "Liên hiệp hợp tác xã"
+      ]
+    },
+    {
+      "id": "R0250",
+      "name": "Theo",
+      "keyphrases": [],
+      "concept_s": "Tổ chức kinh tế",
+      "concept_o": [
+        "Luật Doanh nghiệp",
+        "Luật Hợp tác xã"
+      ]
+    },
+    {
+      "id": "R0251",
+      "name": "Thực hiện",
+      "keyphrases": [],
+      "concept_s": "Tổ chức nước ngoài",
+      "concept_o": [
+        "Hoạt động"
+      ]
+    },
+    {
+      "id": "R0252",
+      "name": "Tại",
+      "keyphrases": [],
+      "concept_s": "Tổ chức nước ngoài",
+      "concept_o": [
+        "Lãnh thổ Việt Nam"
+      ]
+    },
+    {
+      "id": "R0253",
+      "name": "Dành cho",
+      "keyphrases": [],
+      "concept_s": "Vạch kẻ đường",
+      "concept_o": [
+        "Người đi bộ"
+      ]
+    },
+    {
+      "id": "R0254",
+      "name": "Che khuất",
+      "keyphrases": [],
+      "concept_s": "Vật che khuất",
+      "concept_o": [
+        "Biển báo hiệu",
+        "Đèn tín hiệu giao thông"
+      ]
+    },
+    {
+      "id": "R0255",
+      "name": "Quệt",
+      "keyphrases": [],
+      "concept_s": "Vật khác",
+      "concept_o": [
+        "Đường"
+      ]
+    },
+    {
+      "id": "R0256",
+      "name": "Chạy bằng",
+      "keyphrases": [],
+      "concept_s": "Xe máy",
+      "concept_o": [
+        "Một bánh",
+        "Hai bánh"
+      ]
+    },
+    {
+      "id": "R0257",
+      "name": "Có",
+      "keyphrases": [],
+      "concept_s": "Xe máy",
+      "concept_o": [
+        "Quyền ưu tiên"
+      ]
+    },
+    {
+      "id": "R0258",
+      "name": "Có",
+      "keyphrases": [],
+      "concept_s": "Xe máy chuyên dùng",
+      "concept_o": [
+        "Tốc độ thiết kế"
+      ]
+    },
+    {
+      "id": "R0259",
+      "name": "Tại",
+      "keyphrases": [],
+      "concept_s": "Xe thô sơ",
+      "concept_o": [
+        "Phần đường"
+      ]
+    },
+    {
+      "id": "R0260",
       "name": "Có",
       "keyphrases": [
         "được",
@@ -2931,113 +4153,7 @@
       ]
     },
     {
-      "name": "Cầm",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Điện thoại",
-        "Thiết bị điện tử",
-        "Thiết bị điện tử khác"
-      ]
-    },
-    {
-      "name": "Gây",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ùn tắc giao thông",
-        "Tai nạn giao thông",
-        "Cản trở giao thông"
-      ]
-    },
-    {
-      "name": "Tại",
-      "keyphrases": [],
-      "concept_s": "Người đi bộ",
-      "concept_o": [
-        "Vạch kẻ đường"
-      ]
-    },
-    {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Vạch kẻ đường",
-      "concept_o": [
-        "Người đi bộ"
-      ]
-    },
-    {
-      "name": "Tại",
-      "keyphrases": [],
-      "concept_s": "Xe thô sơ",
-      "concept_o": [
-        "Phần đường"
-      ]
-    },
-    {
-      "name": "Giảm tốc độ",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Xe mô tô"
-      ]
-    },
-    {
-      "name": "Có",
-      "keyphrases": [],
-      "concept_s": "Đường giao nhau",
-      "concept_o": [
-        "Báo hiệu đi theo vòng xuyến"
-      ]
-    },
-    {
-      "name": "Để",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Người",
-        "Xe máy",
-        "Xe máy chuyên dùng"
-      ]
-    },
-    {
-      "name": "Đu bám",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Cửa xe",
-        "Thành xe"
-      ]
-    },
-    {
-      "name": "Mở",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Cửa xe"
-      ]
-    },
-    {
-      "name": "Bảo đảm",
-      "keyphrases": [],
-      "concept_s": "Cửa xe",
-      "concept_o": [
-        "An toàn"
-      ]
-    },
-    {
-      "name": "Cản trở",
-      "keyphrases": [
-        "gây cản trở"
-      ],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe ưu tiên",
-        "Giao thông"
-      ]
-    },
-    {
+      "id": "R0261",
       "name": "Phát",
       "keyphrases": [],
       "concept_s": "Xe ưu tiên",
@@ -3046,65 +4162,27 @@
       ]
     },
     {
-      "name": "Bằng",
-      "keyphrases": [],
-      "concept_s": "Báo hiệu",
-      "concept_o": [
-        "Đèn khẩn cấp"
-      ]
-    },
-    {
-      "name": "Ở lại",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hiện trường"
-      ]
-    },
-    {
-      "name": "Trình báo",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Cơ quan công an",
-        "Ủy ban nhân dân"
-      ]
-    },
-    {
+      "id": "R0262",
       "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Hướng dẫn",
+      "keyphrases": [
+        "của"
+      ],
+      "concept_s": "Yêu cầu kiểm tra",
       "concept_o": [
-        "Người điều khiển giao thông",
-        "Người kiểm soát giao thông"
+        "Người thi hành công vụ"
       ]
     },
     {
-      "name": "Đi ngược chiều",
+      "id": "R0263",
+      "name": "Thuộc",
       "keyphrases": [],
-      "concept_s": "Người",
+      "concept_s": "Yêu cầu kiểm tra",
       "concept_o": [
-        "Ô tô",
-        "Đường một chiều"
+        "Người thi hành công vụ"
       ]
     },
     {
-      "name": "Giảm",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Tốc độ"
-      ]
-    },
-    {
-      "name": "Chuyển",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Làn đường"
-      ]
-    },
-    {
+      "id": "R0264",
       "name": "Về",
       "keyphrases": [],
       "concept_s": "Yêu cầu kiểm tra",
@@ -3115,93 +4193,34 @@
       ]
     },
     {
+      "id": "R0265",
+      "name": "Gắn",
+      "keyphrases": [],
+      "concept_s": "Ô tô",
+      "concept_o": [
+        "Thẻ đầu cuối"
+      ]
+    },
+    {
+      "id": "R0266",
+      "name": "Tham gia",
+      "keyphrases": [],
+      "concept_s": "Ô tô",
+      "concept_o": [
+        "Kinh doanh vận tải"
+      ]
+    },
+    {
+      "id": "R0267",
       "name": "Dành cho",
-      "keyphrases": [
-        "của"
-      ],
-      "concept_s": "Yêu cầu kiểm tra",
-      "concept_o": [
-        "Người thi hành công vụ"
-      ]
-    },
-    {
-      "name": "Thuộc",
       "keyphrases": [],
-      "concept_s": "Yêu cầu kiểm tra",
+      "concept_s": "Điểm",
       "concept_o": [
-        "Người thi hành công vụ"
+        "Giấy phép lái xe"
       ]
     },
     {
-      "name": "Lạng lách",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Xe mô tô",
-        "Xe máy"
-      ]
-    },
-    {
-      "name": "Đánh võng",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô",
-        "Xe mô tô",
-        "Xe máy"
-      ]
-    },
-    {
-      "name": "Đuổi nhau",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Ô tô"
-      ]
-    },
-    {
-      "name": "Dùng",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Chân"
-      ]
-    },
-    {
-      "name": "Điều khiển",
-      "keyphrases": [],
-      "concept_s": "Chân",
-      "concept_o": [
-        "Vô lăng"
-      ]
-    },
-    {
-      "name": "Tái phạm",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Lạng lách",
-        "Đánh võng"
-      ]
-    },
-    {
-      "name": "Áp dụng",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Hình thức xử phạt bổ sung"
-      ]
-    },
-    {
-      "name": "Trừ",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Điểm"
-      ]
-    },
-    {
+      "id": "R0268",
       "name": "Thuộc",
       "keyphrases": [],
       "concept_s": "Điểm",
@@ -3210,417 +4229,25 @@
       ]
     },
     {
-      "name": "Sử dụng",
-      "keyphrases": [],
-      "concept_s": "Hành khách",
-      "concept_o": [
-        "Ô"
-      ]
-    },
-    {
-      "name": "Chạy dưới tốc độ tối thiểu",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe máy"
-      ]
-    },
-    {
+      "id": "R0269",
       "name": "Có",
       "keyphrases": [],
-      "concept_s": "Phần đường xe chạy",
+      "concept_s": "Đoạn đường bộ",
       "concept_o": [
-        "Lề đường"
+        "Tốc độ tối thiểu"
       ]
     },
     {
-      "name": "Chạy tốc độ thấp",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe máy"
-      ]
-    },
-    {
-      "name": "Đi bên phải",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Phần đường xe chạy"
-      ]
-    },
-    {
-      "name": "Tụ tập",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe máy"
-      ]
-    },
-    {
+      "id": "R0270",
       "name": "Có",
       "keyphrases": [],
-      "concept_s": "Xe máy",
+      "concept_s": "Đường",
       "concept_o": [
-        "Quyền ưu tiên"
+        "Biển báo hiệu"
       ]
     },
     {
-      "name": "Đội",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Mũ bảo hiểm"
-      ]
-    },
-    {
-      "name": "Cài",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Quai mũ bảo hiểm"
-      ]
-    },
-    {
-      "name": "Đội",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Mũ bảo hiểm"
-      ]
-    },
-    {
-      "name": "Cài",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Quai mũ bảo hiểm"
-      ]
-    },
-    {
-      "name": "Bảo đảm",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Khoảng cách an toàn",
-        "An toàn"
-      ]
-    },
-    {
-      "name": "Đi qua",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Dải phân cách",
-        "Dải phân cách cố định"
-      ]
-    },
-    {
-      "name": "Bám",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe khác",
-        "Vật khác"
-      ]
-    },
-    {
-      "name": "Đẩy",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe khác",
-        "Vật khác"
-      ]
-    },
-    {
-      "name": "Dẫn dắt",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Vật nuôi"
-      ]
-    },
-    {
-      "name": "Mang vác",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Vật cồng kềnh"
-      ]
-    },
-    {
-      "name": "Bám",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Xe khác",
-        "Vật khác"
-      ]
-    },
-    {
-      "name": "Kéo",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Xe khác",
-        "Vật khác"
-      ]
-    },
-    {
-      "name": "Đẩy",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Xe khác",
-        "Vật khác"
-      ]
-    },
-    {
-      "name": "Dẫn dắt",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Vật nuôi"
-      ]
-    },
-    {
-      "name": "Mang vác",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Vật cồng kềnh"
-      ]
-    },
-    {
-      "name": "Đứng",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Yên",
-        "Giá đèo hàng"
-      ]
-    },
-    {
-      "name": "Ngồi",
-      "keyphrases": [],
-      "concept_s": "Người ngồi trên xe",
-      "concept_o": [
-        "Tay lái"
-      ]
-    },
-    {
-      "name": "Thuộc",
-      "keyphrases": [],
-      "concept_s": "Tay lái",
-      "concept_o": [
-        "Xe mô tô"
-      ]
-    },
-    {
-      "name": "Kéo theo",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe khác",
-        "Vật khác"
-      ]
-    },
-    {
-      "name": "Quy định",
-      "keyphrases": [],
-      "concept_s": "Biển báo hiệu",
-      "concept_o": [
-        "Khoảng cách an toàn"
-      ]
-    },
-    {
-      "name": "Chạy dàn hàng ngang",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe máy"
-      ]
-    },
-    {
-      "name": "Cấp",
-      "keyphrases": [],
-      "concept_s": "Cơ quan có thẩm quyền",
-      "concept_o": [
-        "Giấy phép"
-      ]
-    },
-    {
-      "name": "Còn",
-      "keyphrases": [],
-      "concept_s": "Giấy phép",
-      "concept_o": [
-        "Giá trị sử dụng"
-      ]
-    },
-    {
-      "name": "Thuộc",
-      "keyphrases": [
-        "của"
-      ],
-      "concept_s": "Hiệu lệnh",
-      "concept_o": [
-        "Người điều khiển giao thông",
-        "Người kiểm soát giao thông"
-      ]
-    },
-    {
-      "name": "Thuộc",
-      "keyphrases": [
-        "của"
-      ],
-      "concept_s": "Hướng dẫn",
-      "concept_o": [
-        "Người điều khiển giao thông",
-        "Người kiểm soát giao thông"
-      ]
-    },
-    {
-      "name": "Quệt",
-      "keyphrases": [],
-      "concept_s": "Chân chống",
-      "concept_o": [
-        "Đường"
-      ]
-    },
-    {
-      "name": "Quệt",
-      "keyphrases": [],
-      "concept_s": "Vật khác",
-      "concept_o": [
-        "Đường"
-      ]
-    },
-    {
-      "name": "Thành nhóm",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe mô tô"
-      ]
-    },
-    {
-      "name": "Thuộc",
-      "keyphrases": [
-        "của"
-      ],
-      "concept_s": "Kiểm tra nồng độ cồn",
-      "concept_o": [
-        "Người thi hành công vụ"
-      ]
-    },
-    {
-      "name": "Vòng tay",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Người ngồi trước"
-      ]
-    },
-    {
-      "name": "Buông",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Tay"
-      ]
-    },
-    {
-      "name": "Ngồi",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Một bên"
-      ]
-    },
-    {
-      "name": "Nằm",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Yên xe"
-      ]
-    },
-    {
-      "name": "Thay",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Người"
-      ]
-    },
-    {
-      "name": "Quay người",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Xe máy"
-      ]
-    },
-    {
-      "name": "Bịt",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Mắt"
-      ]
-    },
-    {
-      "name": "Chạy bằng",
-      "keyphrases": [],
-      "concept_s": "Xe máy",
-      "concept_o": [
-        "Một bánh",
-        "Hai bánh"
-      ]
-    },
-    {
-      "name": "Tịch thu",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Thiết bị phát tín hiệu ưu tiên"
-      ]
-    },
-    {
-      "name": "Trừ",
-      "keyphrases": [],
-      "concept_s": "Giấy phép lái xe",
-      "concept_o": [
-        "Điểm"
-      ]
-    },
-    {
-      "name": "Báo hiệu",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Đèn khẩn cấp"
-      ]
-    },
-    {
-      "name": "Chèn",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Bánh xe"
-      ]
-    },
-    {
-      "name": "Che khuất",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Biển báo hiệu",
-        "Đèn tín hiệu giao thông"
-      ]
-    },
-    {
+      "id": "R0271",
       "name": "Dành cho",
       "keyphrases": [],
       "concept_s": "Đường",
@@ -3629,55 +4256,7 @@
       ]
     },
     {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Miệng hầm",
-      "concept_o": [
-        "Đường điện thoại",
-        "Điện cao thế"
-      ]
-    },
-    {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Chỗ lấy nước",
-      "concept_o": [
-        "Xe chữa cháy"
-      ]
-    },
-    {
-      "name": "Rời",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Vị trí lái"
-      ]
-    },
-    {
-      "name": "Tắt",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Máy"
-      ]
-    },
-    {
-      "name": "Tại",
-      "keyphrases": [],
-      "concept_s": "Biển cảnh báo",
-      "concept_o": [
-        "Phía sau xe"
-      ]
-    },
-    {
-      "name": "Tại",
-      "keyphrases": [],
-      "concept_s": "Làn dừng xe khẩn cấp",
-      "concept_o": [
-        "Đường cao tốc"
-      ]
-    },
-    {
+      "id": "R0272",
       "name": "Tại",
       "keyphrases": [],
       "concept_s": "Đường",
@@ -3686,43 +4265,21 @@
       ]
     },
     {
-      "name": "Dành cho",
+      "id": "R0273",
+      "name": "Giao nhau cùng mức",
       "keyphrases": [],
-      "concept_s": "Lề đường",
+      "concept_s": "Đường bộ",
       "concept_o": [
-        "Đường cao tốc"
+        "Đường sắt"
       ]
     },
     {
-      "name": "Tuân thủ",
-      "keyphrases": [],
-      "concept_s": "Người",
-      "concept_o": [
-        "Khoảng cách an toàn"
-      ]
-    },
-    {
+      "id": "R0274",
       "name": "Có",
       "keyphrases": [],
-      "concept_s": "Xe máy chuyên dùng",
+      "concept_s": "Đường giao nhau",
       "concept_o": [
-        "Tốc độ thiết kế"
-      ]
-    },
-    {
-      "name": "Nhỏ hơn",
-      "keyphrases": [],
-      "concept_s": "Tốc độ thiết kế",
-      "concept_o": [
-        "Tốc độ tối thiểu"
-      ]
-    },
-    {
-      "name": "Dành cho",
-      "keyphrases": [],
-      "concept_s": "Kiểm tra nồng độ cồn",
-      "concept_o": [
-        "Người thi hành công vụ"
+        "Báo hiệu đi theo vòng xuyến"
       ]
     }
   ]

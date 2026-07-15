@@ -18,12 +18,20 @@ Script này CHỈ làm 2 việc, thuần code, KHÔNG gọi LLM:
        không bao giờ gộp sai, đổi lại có thể còn sót concept trùng nghĩa bị đặt tên khác nhau ở
        batch khác nhau — chấp nhận được, rà tay dễ hơn nhiều so với gộp sai không kiểm soát.
 
+Concept và Relation trong ontology.json đều có "id" ổn định (C0001.., R0001..), gán 1 lần theo
+thứ tự tên đã sort — cùng 1 tên luôn ra cùng 1 id giữa các lần chạy, miễn tập concept/relation
+không đổi. KG (kg_triplets.json) là đồ thị thật: node = Concept (tham chiếu bằng "id" ở trên),
+edge tham chiếu node nguồn/đích qua "source"/"target" (id, không phải tên) + "relation_id" trỏ
+về Relation trong ontology.json.
+
 Input:  output/subagent_output/*.json   (mỗi file 1 batch do 1 subagent xử lý)
         output/triplets_raw.json        (nếu đã có từ lần chạy trước — merge cộng dồn theo id)
 Output: output/triplets_raw.json        (merged, ghi đè)
-        output/ontology.json            {"concepts": [...], "relations": [...]} — format CLAUDE.md
+        output/ontology.json            {"concepts": [{id, name, keyphrases}],
+                                          "relations": [{id, name, keyphrases, concept_s, concept_o}]}
         output/triplets.json            mỗi triplet kèm address (article/clause/point/document)
-        output/kg_triplets.json         dedup theo (concept_s, relation, concept_o), gộp addresses
+        output/kg_triplets.json         {"nodes": [{id, name}],
+                                          "edges": [{id, relation_id, relation, source, target, addresses}]}
         output/atomicity_warnings.json  cảnh báo (không tự sửa) nếu 1 concept nghi ngờ còn lẫn
                                          quan hệ ẩn — để chuyên gia rà tay
 """
@@ -154,13 +162,16 @@ def inject_missing_dieu_khien(sections: list[dict]) -> int:
 
 # ── Bước B: gom TOÀN BỘ triplet thành ontology, so khớp CHÍNH XÁC theo tên ────────────────────
 
-def build_ontology(sections: list[dict]) -> dict:
+def build_ontology(sections: list[dict]) -> tuple[dict, dict[str, str], dict[tuple[str, str], str]]:
     """
     Duyệt mọi triplet {s, v, o, s_keyphrases, v_keyphrases, o_keyphrases} trên toàn bộ section.
     - Concept: khoá = tên s/o CHÍNH XÁC. Gặp lại tên đã có → cộng dồn keyphrases (union), không
       tạo entry mới.
     - Relation: khoá = cặp (s, v) CHÍNH XÁC (1 relation chỉ có đúng 1 concept_s). Gặp lại đúng cặp
       → cộng dồn concept_o (union) + keyphrases (union), không tạo entry mới.
+
+    Trả về (ontology, concept_to_id, relation_to_id) — 2 map id dùng lại ở Bước D để dựng
+    node/edge của KG bằng id thay vì tên.
     """
     concept_kps: dict[str, list[str]] = {}
     relation_agg: dict[tuple[str, str], dict] = {}
@@ -191,12 +202,25 @@ def build_ontology(sections: list[dict]) -> dict:
                 entry["concept_o"].append(o)
             _union(entry["keyphrases"], t.get("v_keyphrases", []))
 
-    concepts = [{"name": n, "keyphrases": kps} for n, kps in concept_kps.items()]
-    relations = [
-        {"name": v, "keyphrases": e["keyphrases"], "concept_s": s, "concept_o": e["concept_o"]}
-        for (s, v), e in relation_agg.items()
+    concept_to_id = {n: f"C{i+1:04d}" for i, n in enumerate(sorted(concept_kps))}
+    relation_to_id = {key: f"R{i+1:04d}" for i, key in enumerate(sorted(relation_agg))}
+
+    concepts = [
+        {"id": concept_to_id[n], "name": n, "keyphrases": kps}
+        for n, kps in sorted(concept_kps.items(), key=lambda kv: concept_to_id[kv[0]])
     ]
-    return {"concepts": concepts, "relations": relations}
+    relations = [
+        {
+            "id": relation_to_id[(s, v)],
+            "name": v,
+            "keyphrases": e["keyphrases"],
+            "concept_s": s,
+            "concept_o": e["concept_o"],
+        }
+        for (s, v), e in sorted(relation_agg.items(), key=lambda kv: relation_to_id[kv[0]])
+    ]
+    ontology = {"concepts": concepts, "relations": relations}
+    return ontology, concept_to_id, relation_to_id
 
 
 # ── Bước C: rà atomicity của keyphrase cuối (cảnh báo, KHÔNG tự sửa) ──────────────────────────
@@ -263,20 +287,40 @@ def reconstruct_triplets(sections: list[dict]) -> list[dict]:
     return out
 
 
-def deduplicate_triplets(triplets: list[dict]) -> list[dict]:
+def build_kg(
+    triplets: list[dict],
+    concept_to_id: dict[str, str],
+    relation_to_id: dict[tuple[str, str], str],
+) -> dict:
+    """
+    Dedup theo (concept_s, relation, concept_o), gộp addresses, rồi dựng đồ thị thật:
+    - node = Concept, id lấy đúng từ concept_to_id (khớp 1-1 với id trong ontology.json).
+    - edge = Triplet, "source"/"target" là id node (không phải tên), "relation_id" trỏ về
+      Relation tương ứng trong ontology.json (khoá theo (concept_s, relation)).
+    """
     index: dict[tuple, dict] = {}
     for t in triplets:
         key = (t["concept_s"], t["relation"], t["concept_o"])
         if key not in index:
             index[key] = {
-                "concept_s": t["concept_s"],
-                "relation":  t["relation"],
-                "concept_o": t["concept_o"],
-                "addresses": [],
+                "relation_id": relation_to_id[(t["concept_s"], t["relation"])],
+                "relation":    t["relation"],
+                "source":      concept_to_id[t["concept_s"]],
+                "target":      concept_to_id[t["concept_o"]],
+                "addresses":   [],
             }
         if t["address"] not in index[key]["addresses"]:
             index[key]["addresses"].append(t["address"])
-    return list(index.values())
+
+    edges = [
+        {"id": f"E{i+1:04d}", **edge}
+        for i, edge in enumerate(index.values())
+    ]
+    nodes = [
+        {"id": cid, "name": name}
+        for name, cid in sorted(concept_to_id.items(), key=lambda kv: kv[1])
+    ]
+    return {"nodes": nodes, "edges": edges}
 
 
 # ── Main ────────────────────────────────────────────────────────────────────────────────────
@@ -301,7 +345,7 @@ def main():
     save_json(TRIPLETS_RAW, sections)
     log(f"Triplets raw (merged) → {TRIPLETS_RAW} ({len(sections)} section)")
 
-    ontology = build_ontology(sections)
+    ontology, concept_to_id, relation_to_id = build_ontology(sections)
     save_json(OUT_ONTOLOGY, ontology)
     log(f"Ontology → {OUT_ONTOLOGY} ({len(ontology['concepts'])} concepts, {len(ontology['relations'])} relations)")
 
@@ -313,12 +357,12 @@ def main():
     save_json(OUT_TRIPLETS, triplets)
     log(f"Triplets (per-section) → {OUT_TRIPLETS} ({len(triplets)} triplets)")
 
-    kg = deduplicate_triplets(triplets)
+    kg = build_kg(triplets, concept_to_id, relation_to_id)
     save_json(OUT_KG, kg)
-    log(f"KG edges (deduped) → {OUT_KG} ({len(kg)} edges)")
+    log(f"KG → {OUT_KG} ({len(kg['nodes'])} nodes, {len(kg['edges'])} edges)")
 
     from collections import Counter
-    rel_counts = Counter(t["relation"] for t in kg)
+    rel_counts = Counter(e["relation"] for e in kg["edges"])
     log("\nTop relations:")
     for rel, cnt in rel_counts.most_common(10):
         log(f"  {rel}: {cnt} edges")
