@@ -1,0 +1,206 @@
+[
+  {
+    "id": "s200",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không chấp hành yêu cầu kiểm tra về chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng của người thi hành công vụ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Yêu cầu kiểm tra",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu kiểm tra", "v": "Về", "o": "Chất ma túy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu kiểm tra", "v": "Về", "o": "Chất kích thích",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu kiểm tra", "v": "Dành cho", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s201",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không ngồi phía sau vòng tay qua người ngồi trước để điều khiển xe, trừ trường hợp chở trẻ em dưới 06 tuổi ngồi phía trước."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Vòng tay", "o": "Người ngồi trước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s202",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không điều khiển xe thành đoàn gây cản trở giao thông, trừ trường hợp được cơ quan có thẩm quyền cấp phép."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Gây", "o": "Cản trở giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s203",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không sử dụng còi, rú ga (nẹt pô) liên tục trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, trừ các xe ưu tiên đang đi làm nhiệm vụ theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Còi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Rú ga",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["nẹt pô"]},
+      {"s": "Người", "v": "Tại", "o": "Khu đông dân cư",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Cơ sở khám bệnh, chữa bệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s204",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 10 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn theo quy định mà gây tai nạn giao thông; không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông; đi vào đường có biển báo hiệu cấm đi vào đối với loại phương tiện đang điều khiển, đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều” gây tai nạn giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Giảm", "o": "Tốc độ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi đúng", "o": "Phần đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi đúng", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Giữ", "o": "Khoảng cách an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi vào", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đường", "v": "Có", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Đi vào",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi ngược chiều", "o": "Đường một chiều",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đường", "v": "Có", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển"]},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Đi ngược chiều",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Gây", "o": "Tai nạn giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s205",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 10 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô vi phạm quy định tại một trong các điểm, khoản của Điều này mà gây tai nạn giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Gây", "o": "Tai nạn giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s206",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 11 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô buông cả hai tay khi đang điều khiển xe; dùng chân điều khiển xe; ngồi về một bên điều khiển xe; nằm trên yên xe điều khiển xe; thay người điều khiển khi xe đang chạy; quay người về phía sau để điều khiển xe hoặc bịt mắt điều khiển xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Buông", "o": "Tay",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["cả hai tay"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Chân",
+       "s_keyphrases": [], "v_keyphrases": ["dùng"], "o_keyphrases": []},
+      {"s": "Người", "v": "Ngồi", "o": "Một bên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Nằm", "o": "Yên xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thay", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["người điều khiển"]},
+      {"s": "Người", "v": "Quay người", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Bịt", "o": "Mắt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s207",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 11 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe chạy bằng một bánh đối với xe hai bánh, chạy bằng hai bánh đối với xe ba bánh."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Xe máy", "v": "Chạy bằng", "o": "Một bánh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Chạy bằng", "o": "Hai bánh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s208",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 11 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô tái phạm hành vi điều khiển xe lạng lách, đánh võng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Lạng lách", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đánh võng", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s209",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 12 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô thực hiện hành vi quy định tại điểm đ khoản 2 Điều này còn bị tịch thu thiết bị phát tín hiệu ưu tiên lắp đặt, sử dụng trái quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Tịch thu", "o": "Thiết bị phát tín hiệu ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

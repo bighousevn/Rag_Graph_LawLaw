@@ -1,0 +1,188 @@
+[
+  {
+    "id": "s170",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 3 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe kéo theo xe khác, vật khác."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Kéo theo", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kéo theo", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s171",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 3 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Đèn chiếu sáng gần",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s172",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 3 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước hoặc không giữ khoảng cách theo quy định của biển báo hiệu “Cự ly tối thiểu giữa hai xe.”"
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Giữ", "o": "Khoảng cách an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Va chạm", "o": "Xe chạy liền trước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Quy định", "o": "Khoảng cách an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["Cự ly tối thiểu giữa hai xe"]}
+    ]
+  },
+  {
+    "id": "s173",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 3 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chạy dàn hàng ngang từ 03 xe trở lên."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Chạy dàn hàng ngang", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s174",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 3 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô sử dụng thiết bị phát tín hiệu ưu tiên không đúng quy định hoặc sử dụng thiết bị phát tín hiệu ưu tiên mà không có giấy phép của cơ quan có thẩm quyền cấp hoặc có giấy phép của cơ quan có thẩm quyền cấp nhưng không còn giá trị sử dụng theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị phát tín hiệu ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Còn", "o": "Giá trị sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s175",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 4 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chạy quá tốc độ quy định từ 10 km/h đến 20 km/h."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Vượt quá", "o": "Tốc độ quy định",
+       "s_keyphrases": [], "v_keyphrases": ["chạy quá"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s176",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 4 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Dừng", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s177",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 4 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu cấm vượt đối với loại phương tiện đang điều khiển."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Vượt", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Vượt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s178",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 4 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô quay đầu xe trong hầm đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Quay đầu", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s179",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 4 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô sử dụng ô (dù), thiết bị âm thanh (trừ thiết bị trợ thính), dùng tay cầm và sử dụng điện thoại hoặc các thiết bị điện tử khác."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Ô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["dù"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị âm thanh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Cầm", "o": "Điện thoại",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Điện thoại",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Cầm", "o": "Thiết bị điện tử khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị điện tử khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

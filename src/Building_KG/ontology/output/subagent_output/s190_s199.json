@@ -1,0 +1,194 @@
+[
+  {
+    "id": "s190",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 7 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Hướng dẫn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Thuộc", "o": "Người điều khiển giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Thuộc", "o": "Người kiểm soát giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hướng dẫn", "v": "Thuộc", "o": "Người điều khiển giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hướng dẫn", "v": "Thuộc", "o": "Người kiểm soát giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s191",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 7 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Nhường", "o": "Xe ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe được quyền ưu tiên"]},
+      {"s": "Người", "v": "Cản trở", "o": "Xe ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": ["gây cản trở"], "o_keyphrases": ["xe được quyền ưu tiên"]},
+      {"s": "Xe ưu tiên", "v": "Có", "o": "Quyền ưu tiên",
+       "s_keyphrases": ["xe được quyền ưu tiên"], "v_keyphrases": ["được quyền"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s192",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 8 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe chạy quá tốc độ quy định trên 20 km/h."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Vượt quá", "o": "Tốc độ quy định",
+       "s_keyphrases": [], "v_keyphrases": ["chạy quá tốc độ quy định"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s193",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 8 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Cồn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s194",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe lạng lách, đánh võng trên đường bộ; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Lạng lách", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đánh võng", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Chân chống",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chân chống", "v": "Quệt", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật khác", "v": "Quệt", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s195",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe thành nhóm từ 02 xe trở lên chạy quá tốc độ quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Thành nhóm", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Vượt quá", "o": "Tốc độ quy định",
+       "s_keyphrases": [], "v_keyphrases": ["chạy quá tốc độ quy định"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s196",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô gây tai nạn giao thông không dừng ngay phương tiện, không giữ nguyên hiện trường, không trợ giúp người bị nạn, không ở lại hiện trường hoặc không đến trình báo ngay với cơ quan công an, Ủy ban nhân dân nơi gần nhất."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Gây", "o": "Tai nạn giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
+      {"s": "Người", "v": "Giữ nguyên", "o": "Hiện trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trợ giúp", "o": "Người bị nạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Ở lại", "o": "Hiện trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trình báo", "o": "Cơ quan công an",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trình báo", "o": "Ủy ban nhân dân",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s197",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Cồn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s198",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Kiểm tra nồng độ cồn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["yêu cầu kiểm tra về nồng độ cồn"]},
+      {"s": "Kiểm tra nồng độ cồn", "v": "Thuộc", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s199",
+    "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe trên đường mà trong cơ thể có chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Ma túy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chất ma túy"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Chất kích thích",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chất kích thích khác"]}
+    ]
+  }
+]

@@ -1,0 +1,592 @@
+[
+  {
+    "id": "s250",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 7 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hướng dẫn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Người kiểm soát giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Người kiểm soát giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s251",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 7 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng không chấp hành hiệu lệnh của đèn tín hiệu giao thông."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Đèn tín hiệu giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s252",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 7 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều”."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đi ngược chiều",
+        "o": "Đường một chiều",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Đi ngược chiều",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s253",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 8 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng điều khiển xe không quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn theo quy định mà gây tai nạn giao thông; điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông; dừng xe, đỗ xe, quay đầu xe, lùi xe, tránh xe, vượt xe, chuyển hướng, chuyển làn đường không đúng quy định gây tai nạn giao thông; mở cửa xe, để cửa xe mở không bảo đảm an toàn gây tai nạn giao thông; không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông hoặc đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển, đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều” gây tai nạn giao thông."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm",
+        "o": "Tốc độ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Vượt quá",
+        "o": "Tốc độ quy định",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "chạy quá"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Gây",
+        "o": "Tai nạn giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Quay đầu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lùi",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tránh",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Vượt",
+        "o": "Xe khác",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển hướng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển làn",
+        "o": "Làn đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Mở",
+        "o": "Cửa xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Bảo đảm",
+        "o": "An toàn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đi đúng",
+        "o": "Phần đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đi đúng",
+        "o": "Làn đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giữ",
+        "o": "Khoảng cách an toàn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đi vào",
+        "o": "Đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Đường",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Đi vào",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đi ngược chiều",
+        "o": "Đường một chiều",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Đi ngược chiều",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s254",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 8 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng điều khiển xe máy chuyên dùng có tốc độ thiết kế nhỏ hơn tốc độ tối thiểu quy định đối với đường cao tốc đi vào đường cao tốc."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Tốc độ thiết kế",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tốc độ thiết kế",
+        "v": "Nhỏ hơn",
+        "o": "Tốc độ tối thiểu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đi vào",
+        "o": "Đường cao tốc",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s255",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 8 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng gây tai nạn giao thông không dừng ngay phương tiện, không giữ nguyên hiện trường, không trợ giúp người bị nạn, không ở lại hiện trường hoặc không đến trình báo ngay với cơ quan công an, Ủy ban nhân dân nơi gần nhất."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Gây",
+        "o": "Tai nạn giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Giữ nguyên",
+        "o": "Hiện trường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Trợ giúp",
+        "o": "Người bị nạn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Ở lại",
+        "o": "Hiện trường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Trình báo",
+        "o": "Cơ quan công an",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Trình báo",
+        "o": "Ủy ban nhân dân",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s256",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 8 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng vi phạm quy định tại một trong các điểm, khoản sau của Điều này mà gây tai nạn giao thông."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Gây",
+        "o": "Tai nạn giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s257",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 9 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Cồn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s258",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 9 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Kiểm tra nồng độ cồn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "yêu cầu kiểm tra về nồng độ cồn"
+        ]
+      },
+      {
+        "s": "Kiểm tra nồng độ cồn",
+        "v": "Dành cho",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s259",
+    "path": "Chương II - Mục 1 - Điều 8 - Khoản 9 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng điều khiển xe trên đường mà trong cơ thể có chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Ma túy",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "chất ma túy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chất kích thích",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "chất kích thích khác"
+        ]
+      }
+    ]
+  }
+]
