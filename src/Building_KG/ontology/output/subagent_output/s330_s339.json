@@ -1,0 +1,232 @@
+[
+  {
+    "id": "s330",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 8",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức cố ý thay đổi, xóa dấu vết hiện trường vụ tai nạn giao thông."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Thay đổi", "o": "Dấu vết hiện trường vụ tai nạn giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Xóa", "o": "Dấu vết hiện trường vụ tai nạn giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s331",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 9",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Về", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s332",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 10",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức bày, bán máy móc, thiết bị, vật tư hoặc sản xuất, gia công hàng hóa trên lòng đường, vỉa hè."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Bày", "o": "Máy móc",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bày", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bày", "o": "Vật tư",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bán", "o": "Máy móc",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bán", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bán", "o": "Vật tư",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Sản xuất", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Gia công", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Tại", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Tại", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s333",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 10",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Về", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s334",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 12",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức không chấp hành yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Chấp hành", "o": "Yêu cầu kiểm tra",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Chấp hành", "o": "Yêu cầu kiểm soát",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu kiểm tra", "v": "Dành cho", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu kiểm soát", "v": "Dành cho", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s335",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 11 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân đặt, để chướng ngại vật, vật cản khác trái phép trên đường bộ; đổ chất gây trơn trượt trên đường bộ; đổ, xả thải, làm rơi vãi hóa chất, chất thải gây mất an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Đặt", "o": "Chướng ngại vật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vật cản"]},
+      {"s": "Cá nhân", "v": "Để", "o": "Chướng ngại vật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vật cản"]},
+      {"s": "Chướng ngại vật", "v": "Tại", "o": "Đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Đổ", "o": "Chất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chất", "v": "Gây", "o": "Trơn trượt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chất", "v": "Tại", "o": "Đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Đổ", "o": "Hóa chất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Đổ", "o": "Chất thải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Xả thải", "o": "Hóa chất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Xả thải", "o": "Chất thải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Làm rơi vãi", "o": "Hóa chất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Làm rơi vãi", "o": "Chất thải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hóa chất", "v": "Gây", "o": "Mất an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chất thải", "v": "Gây", "o": "Mất an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s336",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 11 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân xâm phạm tính mạng, sức khỏe, tài sản của người bị nạn, người gây tai nạn giao thông đường bộ hoặc người giúp đỡ, cứu chữa, đưa người bị nạn đi cấp cứu."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Xâm phạm", "o": "Tính mạng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Xâm phạm", "o": "Sức khỏe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Xâm phạm", "o": "Tài sản",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính mạng", "v": "Dành cho", "o": "Người bị nạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính mạng", "v": "Dành cho", "o": "Người gây tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính mạng", "v": "Dành cho", "o": "Người giúp đỡ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Người bị nạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Người gây tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Người giúp đỡ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tài sản", "v": "Dành cho", "o": "Người bị nạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tài sản", "v": "Dành cho", "o": "Người gây tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tài sản", "v": "Dành cho", "o": "Người giúp đỡ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s337",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 11 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân hủy hoại, làm hư hỏng, làm mất tác dụng thiết bị điều khiển, giám sát giao thông đường bộ, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Hủy hoại", "o": "Thiết bị điều khiển, giám sát giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Hủy hoại", "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Làm hư hỏng", "o": "Thiết bị điều khiển, giám sát giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Làm hư hỏng", "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Làm mất tác dụng", "o": "Thiết bị điều khiển, giám sát giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Làm mất tác dụng", "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s338",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 12",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Về", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s339",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 30",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức sử dụng tạm thời lòng đường, vỉa hè vào mục đích khác mà không có giấy phép hoặc có giấy phép nhưng đã hết giá trị sử dụng hoặc thực hiện không đúng nội dung ghi trong giấy phép."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Có", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Hết", "o": "Giá trị sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Thực hiện đúng", "o": "Nội dung giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

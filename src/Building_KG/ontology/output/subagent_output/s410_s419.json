@@ -1,0 +1,212 @@
+[
+  {
+    "id": "s410",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng điều khiển xe không có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường hoặc có nhưng đã hết hiệu lực từ 01 tháng trở lên."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Giấy chứng nhận",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s411",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng điều khiển xe không có chứng nhận đăng ký xe hoặc sử dụng chứng nhận đăng ký xe đã hết hạn sử dụng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hạn sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s412",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng điều khiển xe gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Gắn", "o": "Biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển số", "v": "Đúng", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s413",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 2 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng sử dụng chứng nhận đăng ký xe không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa, không đúng số khung, số động cơ của xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Số khung", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Số động cơ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s414",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 3",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng điều khiển xe máy chuyên dùng sản xuất, lắp ráp hoặc cải tạo trái quy định tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Sản xuất", "o": "Trái quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Lắp ráp", "o": "Trái quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Cải tạo", "o": "Trái quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s415",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 4 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng thực hiện hành vi quy định tại điểm d khoản 2 bị tịch thu biển số xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tịch thu", "o": "Biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số xe"]}
+    ]
+  },
+  {
+    "id": "s416",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 4 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng thực hiện hành vi quy định tại điểm c, điểm đ khoản 2 trong trường hợp không có chứng nhận đăng ký xe hoặc sử dụng chứng nhận đăng ký xe không do cơ quan có thẩm quyền cấp, không đúng số khung, số động cơ của xe hoặc bị tẩy xóa mà không chứng minh được nguồn gốc xuất xứ của phương tiện thì bị tịch thu phương tiện."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Số khung", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Số động cơ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Người", "v": "Chứng minh", "o": "Nguồn gốc xuất xứ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguồn gốc xuất xứ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": ["phương tiện"]},
+      {"s": "Người", "v": "Tịch thu", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]}
+    ]
+  },
+  {
+    "id": "s417",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe thực hiện hành vi quy định tại điểm b, điểm c, điểm d khoản 1 buộc lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn, quy chuẩn an toàn kỹ thuật hoặc khôi phục lại tính năng kỹ thuật của thiết bị theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe"]},
+      {"s": "Người", "v": "Lắp", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thay thế", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Khôi phục", "o": "Tính năng kỹ thuật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính năng kỹ thuật", "v": "Dành cho", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s418",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe thực hiện hành vi quy định tại điểm đ khoản 2 buộc nộp lại chứng nhận đăng ký xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường bị tẩy xóa."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe"]},
+      {"s": "Người", "v": "Nộp", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": ["nộp lại"], "o_keyphrases": []},
+      {"s": "Người", "v": "Nộp", "o": "Giấy chứng nhận",
+       "s_keyphrases": [], "v_keyphrases": ["nộp lại"], "o_keyphrases": []},
+      {"s": "Người", "v": "Nộp", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": ["nộp lại"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s419",
+    "path": "Chương II - Mục 2 - Điều 16 - Khoản 6",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe thực hiện hành vi quy định tại điểm đ khoản 2 bị thu hồi chứng nhận đăng ký xe không do cơ quan có thẩm quyền cấp hoặc không đúng số khung, số động cơ của xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe"]},
+      {"s": "Người", "v": "Thu hồi", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thu hồi", "o": "Giấy chứng nhận",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thu hồi", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Số khung", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Số động cơ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy chứng nhận",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

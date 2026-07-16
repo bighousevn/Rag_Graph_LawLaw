@@ -1,0 +1,185 @@
+[
+  {
+    "id": "s540",
+    "path": "Chương II - Mục 4 - Điều 23 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng hóa nguy hiểm không làm sạch hoặc không bóc biểu trưng nguy hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Làm sạch", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
+      {"s": "Người", "v": "Bóc", "o": "Biểu trưng nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biểu trưng nguy hiểm", "v": "Tại", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]}
+    ]
+  },
+  {
+    "id": "s541",
+    "path": "Chương II - Mục 4 - Điều 23 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô vận chuyển hàng hóa nguy hiểm mà không mang theo hồ sơ vận chuyển hàng hóa nguy hiểm do người thuê vận tải cung cấp theo quy định, giấy chứng nhận hoàn thành chương trình tập huấn an toàn hàng hóa nguy hiểm phù hợp với loại, nhóm hàng hóa nguy hiểm đang vận chuyển."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Hồ sơ vận chuyển hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Giấy chứng nhận tập huấn an toàn hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s542",
+    "path": "Chương II - Mục 4 - Điều 23 - Khoản 3",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô vận chuyển hàng nguy hiểm mà xe ô tô không dán nhãn, biểu trưng nhận diện hàng hóa nguy hiểm; xe ô tô không lắp đèn hoặc tín hiệu cảnh báo theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hàng nguy hiểm"]},
+      {"s": "Ô tô", "v": "Dán", "o": "Nhãn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Dán", "o": "Biểu trưng nhận diện hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Lắp", "o": "Đèn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Lắp", "o": "Tín hiệu cảnh báo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s543",
+    "path": "Chương II - Mục 4 - Điều 23 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô vận chuyển hàng hóa nguy hiểm là thuốc nổ, khí đốt, xăng, dầu và các chất dễ cháy, nổ, chất rắn khử nhạy khác đi qua các công trình hầm có chiều dài từ 100 mét trở lên."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["thuốc nổ", "khí đốt", "xăng", "dầu", "chất dễ cháy nổ", "chất rắn khử nhạy"]},
+      {"s": "Người", "v": "Đi qua", "o": "Công trình hầm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s544",
+    "path": "Chương II - Mục 4 - Điều 23 - Khoản 5",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô vận chuyển hàng hóa nguy hiểm không có giấy phép vận chuyển hàng hóa nguy hiểm hoặc có nhưng hết hiệu lực hoặc không thực hiện đúng quy định trong giấy phép vận chuyển hàng hóa nguy hiểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Giấy phép vận chuyển hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép vận chuyển hàng hóa nguy hiểm", "v": "Hết", "o": "Hiệu lực",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Thuộc", "o": "Giấy phép vận chuyển hàng hóa nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s545",
+    "path": "Chương II - Mục 4 - Điều 23 - Khoản 6",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người thực hiện hành vi vi phạm quy định tại khoản 4, khoản 5 Điều này nếu gây ô nhiễm môi trường còn bị áp dụng các biện pháp khắc phục hậu quả buộc thực hiện các biện pháp khắc phục tình trạng ô nhiễm môi trường do vi phạm hành chính gây ra."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Gây", "o": "Ô nhiễm môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Khắc phục", "o": "Ô nhiễm môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s546",
+    "path": "Chương II - Mục 4 - Điều 23 - Khoản 7 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 3, khoản 4 Điều này bị trừ điểm giấy phép lái xe 02 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s547",
+    "path": "Chương II - Mục 4 - Điều 23 - Khoản 7 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 5 Điều này bị trừ điểm giấy phép lái xe 04 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s548",
+    "path": "Chương II - Mục 4 - Điều 24 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô vận chuyển động vật sống, thực phẩm tươi sống không mang đủ giấy tờ theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Động vật sống",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Vận chuyển", "o": "Thực phẩm tươi sống",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang", "o": "Giấy tờ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s549",
+    "path": "Chương II - Mục 4 - Điều 24 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô vận chuyển thực phẩm tươi sống không chấp hành quy định về an toàn thực phẩm, vệ sinh dịch tễ, phòng dịch và bảo đảm vệ sinh môi trường theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Thực phẩm tươi sống",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Về", "o": "An toàn thực phẩm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Về", "o": "Vệ sinh dịch tễ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Về", "o": "Phòng dịch",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Về", "o": "Vệ sinh môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

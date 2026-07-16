@@ -1,0 +1,159 @@
+[
+  {
+    "id": "s290",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 4 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp máy không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách khi tham gia giao thông trên đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đội", "o": "Mũ bảo hiểm",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["mũ bảo hiểm cho người đi mô tô, xe máy"]},
+      {"s": "Người", "v": "Cài", "o": "Quai mũ bảo hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s291",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 4 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp máy chở người ngồi trên xe không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chở", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["người ngồi trên xe"]},
+      {"s": "Hành khách", "v": "Đội", "o": "Mũ bảo hiểm",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["mũ bảo hiểm cho người đi mô tô, xe máy"]},
+      {"s": "Hành khách", "v": "Cài", "o": "Quai mũ bảo hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s292",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 5",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đi vào đường cao tốc, trừ phương tiện phục vụ việc quản lý, bảo trì đường cao tốc."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi vào", "o": "Đường cao tốc",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s293",
+    "path": "Chương II - Mục 1 - Điều 10 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người đi bộ không đi đúng phần đường quy định; vượt qua dải phân cách; đi qua đường không đúng nơi quy định; đi qua đường không có tín hiệu bằng tay theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người đi bộ", "v": "Đi", "o": "Phần đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đi bộ", "v": "Vượt qua", "o": "Dải phân cách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đi bộ", "v": "Đi qua", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đi bộ", "v": "Có", "o": "Tín hiệu bằng tay",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s294",
+    "path": "Chương II - Mục 1 - Điều 10 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người đi bộ không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường, trừ hành vi vi phạm quy định tại điểm a khoản 2 Điều này."
+    ],
+    "triplets": [
+      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Đèn tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Vạch kẻ đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s295",
+    "path": "Chương II - Mục 1 - Điều 10 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người đi bộ không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông."
+    ],
+    "triplets": [
+      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Người điều khiển giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Người kiểm soát giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s296",
+    "path": "Chương II - Mục 1 - Điều 10 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người đi bộ đi vào đường cao tốc, trừ người phục vụ việc quản lý, bảo trì đường cao tốc."
+    ],
+    "triplets": [
+      {"s": "Người đi bộ", "v": "Đi vào", "o": "Đường cao tốc",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s297",
+    "path": "Chương II - Mục 1 - Điều 10 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người đi bộ mang, vác vật cồng kềnh gây cản trở giao thông."
+    ],
+    "triplets": [
+      {"s": "Người đi bộ", "v": "Mang", "o": "Vật cồng kềnh",
+       "s_keyphrases": [], "v_keyphrases": ["vác"], "o_keyphrases": []},
+      {"s": "Vật cồng kềnh", "v": "Cản trở", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s298",
+    "path": "Chương II - Mục 1 - Điều 10 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người đi bộ đu, bám vào phương tiện giao thông đang chạy."
+    ],
+    "triplets": [
+      {"s": "Người đi bộ", "v": "Bám", "o": "Phương tiện giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["đu"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s299",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo không nhường đường theo quy định, không báo hiệu bằng tay khi chuyển hướng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi",
+       "s_keyphrases": [], "v_keyphrases": ["dẫn dắt"], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Nhường", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chuyển hướng", "o": "Xe vật nuôi kéo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Báo hiệu bằng tay",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

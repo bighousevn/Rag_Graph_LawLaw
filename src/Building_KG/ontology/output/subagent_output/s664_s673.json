@@ -1,0 +1,234 @@
+[
+  {
+    "id": "s664",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 8 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy tẩy xóa, sửa chữa hoặc giả mạo hồ sơ đăng ký xe nhưng chưa đến mức truy cứu trách nhiệm hình sự."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Tẩy xóa", "o": "Hồ sơ đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Sửa chữa", "o": "Hồ sơ đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Giả mạo", "o": "Hồ sơ đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s665",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 8 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy tự ý thay đổi khung, máy, hình dáng, kích thước, đặc tính của xe."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Thay đổi", "o": "Khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khung", "v": "Thuộc", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Thay đổi", "o": "Máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Máy", "v": "Thuộc", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Thay đổi", "o": "Hình dáng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hình dáng", "v": "Thuộc", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Thay đổi", "o": "Kích thước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kích thước", "v": "Thuộc", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Thay đổi", "o": "Đặc tính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đặc tính", "v": "Thuộc", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s666",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 8 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số xe, chứng nhận đăng ký xe nhưng chưa đến mức bị truy cứu trách nhiệm hình sự."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Thực hiện", "o": "Khai báo sai sự thật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Sử dụng", "o": "Giấy tờ giả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tài liệu giả"]},
+      {"s": "Chủ xe", "v": "Cấp lại", "o": "Biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số xe"]},
+      {"s": "Chủ xe", "v": "Cấp lại", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s667",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 8 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy không làm thủ tục thu hồi chứng nhận đăng ký xe, biển số xe theo quy định."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Thu hồi", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Thu hồi", "o": "Biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số xe"]}
+    ]
+  },
+  {
+    "id": "s668",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 8 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy đưa phương tiện không có chứng nhận đăng ký xe tham gia giao thông hoặc có nhưng đã hết hạn sử dụng, hết hiệu lực; đưa phương tiện có chứng nhận đăng ký xe tạm thời, phương tiện có phạm vi hoạt động hạn chế tham gia giao thông quá thời hạn, tuyến đường, phạm vi cho phép."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Đưa", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Tham gia", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Có", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hạn sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hiệu lực",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Có", "o": "Chứng nhận đăng ký xe tạm thời",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Có", "o": "Phạm vi hoạt động hạn chế",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Quá", "o": "Thời hạn cho phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Quá", "o": "Tuyến đường cho phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Quá", "o": "Phạm vi cho phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s669",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 8 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy đưa phương tiện có chứng nhận đăng ký xe nhưng không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa tham gia giao thông; đưa phương tiện có chứng nhận đăng ký xe nhưng không đúng với số khung, số động cơ của xe tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Đưa", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Tham gia", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Có", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s670",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 8 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy lắp đặt, sử dụng thiết bị thay đổi biển số trên xe trái quy định."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Lắp đặt", "o": "Thiết bị thay đổi biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Sử dụng", "o": "Thiết bị thay đổi biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s671",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 8 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy đưa phương tiện không gắn biển số tham gia giao thông; đưa phương tiện gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Đưa", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Tham gia", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy", "v": "Gắn", "o": "Biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển số", "v": "Đúng", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s672",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 9",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy vi phạm quy định liên quan đến giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ xe", "v": "Vi phạm", "o": "Quy định giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quy định liên quan đến giao thông đường bộ"]}
+    ]
+  },
+  {
+    "id": "s673",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 12 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô thuê, mượn linh kiện, phụ kiện của xe ô tô khi kiểm định."
+    ],
+    "triplets": [
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Thuê", "o": "Linh kiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Mượn", "o": "Linh kiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Linh kiện", "v": "Thuộc", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Thuê", "o": "Phụ kiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ xe", "v": "Mượn", "o": "Phụ kiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phụ kiện", "v": "Thuộc", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Thực hiện", "o": "Kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

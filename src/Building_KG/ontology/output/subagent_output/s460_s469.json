@@ -1,0 +1,192 @@
+[
+  {
+    "id": "s460",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách để người mắc võng nằm trên xe khi xe đang chạy."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Để", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Mắc", "o": "Võng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s461",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách sắp xếp, chằng buộc hành lý, hàng hóa không bảo đảm an toàn; để rơi hành lý, hàng hóa trên xe xuống đường; để hàng hóa trong khoang chở hành khách."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Sắp xếp", "o": "Hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sắp xếp", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chằng buộc", "o": "Hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chằng buộc", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Bảo đảm", "o": "An toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Để rơi", "o": "Hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Để rơi", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Để", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hàng hóa", "v": "Tại", "o": "Khoang chở hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s462",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách chở hành lý, hàng hóa vượt quá kích thước bao ngoài của xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Chở", "o": "Hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chở", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành lý", "v": "Vượt quá", "o": "Kích thước bao ngoài",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hàng hóa", "v": "Vượt quá", "o": "Kích thước bao ngoài",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kích thước bao ngoài", "v": "Thuộc", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s463",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe vận tải hành khách không có nhân viên phục vụ trên xe đối với những xe quy định phải có nhân viên phục vụ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách", "xe vận tải hành khách"]},
+      {"s": "Ô tô chở khách", "v": "Có", "o": "Nhân viên phục vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s464",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe ô tô kinh doanh vận tải không có dây đai an toàn tại các vị trí ghế ngồi, giường nằm theo quy định (trừ xe buýt nội tỉnh)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách", "xe ô tô kinh doanh vận tải"]},
+      {"s": "Ô tô chở khách", "v": "Có", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s465",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe ô tô kinh doanh vận tải không có hướng dẫn cho hành khách về an toàn giao thông và thoát hiểm khi xảy ra sự cố trên xe theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách", "xe ô tô kinh doanh vận tải"]},
+      {"s": "Ô tô chở khách", "v": "Có", "o": "Hướng dẫn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s466",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe không niêm yết hành trình chạy xe hoặc niêm yết hành trình chạy xe không đúng với hành trình đã được cơ quan có thẩm quyền cấp phép."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Ô tô chở khách", "v": "Niêm yết", "o": "Hành trình chạy xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành trình chạy xe", "v": "Cấp phép", "o": "Cơ quan có thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s467",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách chở quá số người quy định được phép chở của phương tiện trên tuyến có cự ly lớn hơn 300 km."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Chở quá", "o": "Số người quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["số người quy định được phép chở của phương tiện"]}
+    ]
+  },
+  {
+    "id": "s468",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách để người lên, xuống xe khi xe đang chạy."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Để", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Lên", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Xuống", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s469",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách xếp hành lý, hàng hóa trên xe làm lệch xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Xếp", "o": "Hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Xếp", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành lý", "v": "Làm lệch", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hàng hóa", "v": "Làm lệch", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

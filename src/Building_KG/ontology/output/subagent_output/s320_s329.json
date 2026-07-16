@@ -1,0 +1,225 @@
+[
+  {
+    "id": "s320",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người được chở trên xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy bám, kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang vác vật cồng kềnh, đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe."
+    ],
+    "triplets": [
+      {"s": "Người được chở", "v": "Trên", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người được chở", "v": "Bám", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Bám", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Kéo", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Kéo", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Đẩy", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Đẩy", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Dẫn dắt", "o": "Vật nuôi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Mang vác", "o": "Vật cồng kềnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Đứng trên", "o": "Yên xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["yên"]},
+      {"s": "Người được chở", "v": "Đứng trên", "o": "Giá đèo hàng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Ngồi trên", "o": "Tay lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tay lái", "v": "Thuộc", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s321",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người được chở trên xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách khi tham gia giao thông trên đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người được chở", "v": "Trên", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe gắn máy", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người được chở", "v": "Đội", "o": "Mũ bảo hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Cài", "o": "Quai mũ bảo hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s322",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 6",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s323",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức cố ý không cứu giúp người bị tai nạn giao thông đường bộ khi có điều kiện."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Cứu giúp", "o": "Người bị tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s324",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức lợi dụng việc xảy ra tai nạn giao thông đường bộ để hành hung, đe dọa, xúi giục, gây sức ép, làm mất trật tự, cản trở việc xử lý tai nạn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Lợi dụng", "o": "Tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Hành hung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Đe dọa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Xúi giục",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Gây sức ép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Làm mất trật tự",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Cản trở", "o": "Xử lý tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s325",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức cản trở người, phương tiện tham gia giao thông trên đường bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông trên đường bộ."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Cản trở", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Cản trở", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Ném", "o": "Vật thể",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["gạch", "đất", "đá", "cát"]},
+      {"s": "Vật thể", "v": "Vào", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể", "v": "Vào", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s326",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức chiếm dụng dải phân cách giữa của đường đôi làm nơi bày, bán hàng hóa; để vật liệu xây dựng; để xe, trông, giữ xe."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Chiếm dụng", "o": "Dải phân cách giữa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dải phân cách giữa", "v": "Thuộc", "o": "Đường đôi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bày", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bán", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Để", "o": "Vật liệu xây dựng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Để", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Trông", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Giữ", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s327",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 7",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s328",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 6",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức sử dụng trái phép lòng đường, vỉa hè để họp chợ; kinh doanh dịch vụ ăn uống; bày, bán hàng hóa; sửa chữa phương tiện, máy móc, thiết bị; rửa xe; đặt, treo biển hiệu, biển quảng cáo."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Họp", "o": "Chợ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ ăn uống",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bày", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Bán", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Sửa chữa", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Sửa chữa", "o": "Máy móc",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Sửa chữa", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Rửa", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Đặt", "o": "Biển hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Đặt", "o": "Biển quảng cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Treo", "o": "Biển hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Treo", "o": "Biển quảng cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s329",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 8",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

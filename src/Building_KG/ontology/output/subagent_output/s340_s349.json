@@ -1,0 +1,194 @@
+[
+  {
+    "id": "s340",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 13",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s341",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 64",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Tổ chức không khai báo, khai báo gian dối hoặc cung cấp thông tin, tài liệu không đúng sự thật để trốn tránh trách nhiệm khi bị phát hiện vi phạm pháp luật về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Khai báo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Khai báo gian dối",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Cung cấp", "o": "Thông tin sai sự thật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Cung cấp", "o": "Tài liệu sai sự thật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Trốn tránh", "o": "Trách nhiệm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s342",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 14 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân xúc phạm, đe dọa, cản trở, chống đối người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Xúc phạm", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Đe dọa", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Cản trở", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Chống đối", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s343",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 14 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân rải vật sắc nhọn trên đường bộ."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Rải", "o": "Vật sắc nhọn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Tại", "o": "Đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s344",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 15",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân thực hiện hành vi quy định tại khoản 14 Điều này nếu là người điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]},
+      {"s": "Cá nhân", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s345",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 16 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi quy định tại khoản 3 Điều này buộc phá dỡ các vật che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]},
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]},
+      {"s": "Cá nhân", "v": "Phá dỡ", "o": "Vật che khuất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Phá dỡ", "o": "Vật che khuất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật che khuất", "v": "Che khuất", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường bộ"]},
+      {"s": "Vật che khuất", "v": "Che khuất", "o": "Đèn tín hiệu giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s346",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 16 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi quy định tại khoản 12 Điều này buộc khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]},
+      {"s": "Tổ chức", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]},
+      {"s": "Cá nhân", "v": "Khôi phục", "o": "Tình trạng ban đầu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Khôi phục", "o": "Tình trạng ban đầu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s347",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 17",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân thực hiện hành vi quy định tại điểm a, điểm b khoản 11 Điều này nếu là người điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]},
+      {"s": "Cá nhân", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s348",
+    "path": "Chương II - Mục 2 - Điều 13 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe không có kính chắn gió hoặc có nhưng vỡ không có tác dụng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Ô tô", "v": "Có", "o": "Kính chắn gió",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kính chắn gió", "v": "Có", "o": "Tác dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s349",
+    "path": "Chương II - Mục 2 - Điều 13 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe không có đủ đèn chiếu sáng, đèn soi biển số, đèn báo hãm, đèn tín hiệu, cần gạt nước, gương chiếu hậu, dây đai an toàn, dụng cụ thoát hiểm, thiết bị chữa cháy, đồng hồ báo áp lực hơi, đồng hồ báo tốc độ của xe hoặc có những thiết bị đó nhưng không có tác dụng, không đúng tiêu chuẩn thiết kế."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Ô tô", "v": "Có", "o": "Đèn chiếu sáng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Đèn soi biển số",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Đèn báo hãm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Đèn tín hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Cần gạt nước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Gương chiếu hậu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Dụng cụ thoát hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Thiết bị chữa cháy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Đồng hồ báo áp lực hơi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Đồng hồ báo tốc độ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị", "v": "Có", "o": "Tác dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị", "v": "Đúng", "o": "Tiêu chuẩn thiết kế",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

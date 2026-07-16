@@ -1,0 +1,210 @@
+[
+  {
+    "id": "s270",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy sử dụng ô (dù), dùng tay cầm và sử dụng điện thoại hoặc các thiết bị điện tử khác, chở người ngồi trên xe đạp, xe đạp máy sử dụng ô (dù)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Ô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["dù"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Điện thoại",
+       "s_keyphrases": [], "v_keyphrases": ["cầm"], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị điện tử",
+       "s_keyphrases": [], "v_keyphrases": ["cầm"], "o_keyphrases": ["các thiết bị điện tử khác"]},
+      {"s": "Người", "v": "Chở", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Sử dụng", "o": "Ô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["dù"]}
+    ]
+  },
+  {
+    "id": "s271",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác điều khiển xe thô sơ trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau không sử dụng đèn hoặc không có báo hiệu ở phía trước và phía sau xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe thô sơ khác"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Đèn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s272",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác để xe ở lòng đường, vỉa hè trái phép, đỗ xe ở lòng đường gây cản trở giao thông, đỗ xe trên cầu gây cản trở giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe thô sơ khác"]},
+      {"s": "Người", "v": "Để", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Để", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s273",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe thô sơ khác"]},
+      {"s": "Người", "v": "Dừng", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đỗ", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Giao lộ đường sắt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s274",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm m",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác dùng xe đẩy làm quầy hàng lưu động trên đường gây cản trở giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe thô sơ khác"]},
+      {"s": "Người", "v": "Dùng", "o": "Xe đẩy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe đẩy", "v": "Làm", "o": "Quầy hàng lưu động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s275",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm n",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác không giảm tốc độ (hoặc dừng lại) và nhường đường khi điều khiển xe đi từ đường không ưu tiên ra đường ưu tiên, từ đường nhánh ra đường chính."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe thô sơ khác"]},
+      {"s": "Người", "v": "Giảm tốc độ", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Giảm tốc độ", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Nhường đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s276",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm o",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, xe xích lô chở quá số người quy định, trừ trường hợp chở người bệnh đi cấp cứu."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy", "xe xích lô"]},
+      {"s": "Người", "v": "Chở quá", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s277",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm p",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe thô sơ khác"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Cồn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s278",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác điều khiển xe đạp, xe đạp máy buông cả hai tay, chuyển hướng đột ngột trước đầu xe cơ giới đang chạy, dùng chân điều khiển xe đạp, xe đạp máy."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe thô sơ khác"]},
+      {"s": "Người", "v": "Buông", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chuyển hướng", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dùng", "o": "Chân",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s279",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác không chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe thô sơ khác"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người điều khiển giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người kiểm soát giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Chỉ dẫn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Người điều khiển giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Người kiểm soát giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kiểm soát", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

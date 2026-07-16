@@ -1,0 +1,183 @@
+[
+  {
+    "id": "s600",
+    "path": "Chương II - Mục 4 - Điều 26 - Khoản 12",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại điểm c khoản 2; điểm a, điểm b, điểm đ, điểm g khoản 4; điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g khoản 7; điểm c khoản 8 Điều này."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s601",
+    "path": "Chương II - Mục 4 - Điều 26 - Khoản 13 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc cấp thẻ nhận dạng lái xe cho lái xe theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cá nhân, tổ chức", "v": "Cấp", "o": "Thẻ nhận dạng lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thẻ nhận dạng lái xe", "v": "Dành cho", "o": "Lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s602",
+    "path": "Chương II - Mục 4 - Điều 26 - Khoản 13 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc tổ chức tập huấn, hướng dẫn nghiệp vụ, quy trình hoặc tổ chức khám sức khỏe định kỳ cho lái xe và nhân viên phục vụ trên xe theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cá nhân, tổ chức", "v": "Tổ chức", "o": "Tập huấn nghiệp vụ, quy trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Tổ chức", "o": "Khám sức khỏe định kỳ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tập huấn nghiệp vụ, quy trình", "v": "Dành cho", "o": "Lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tập huấn nghiệp vụ, quy trình", "v": "Dành cho", "o": "Nhân viên phục vụ trên xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khám sức khỏe định kỳ", "v": "Dành cho", "o": "Lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khám sức khỏe định kỳ", "v": "Dành cho", "o": "Nhân viên phục vụ trên xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s603",
+    "path": "Chương II - Mục 4 - Điều 26 - Khoản 13 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc lắp đặt thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe, dây đai an toàn, ghế ngồi cho trẻ em mầm non, học sinh tiểu học trên xe theo đúng quy định."
+    ],
+    "triplets": [
+      {"s": "Cá nhân, tổ chức", "v": "Lắp đặt", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Lắp đặt", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Lắp đặt", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Lắp đặt", "o": "Ghế ngồi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Trẻ em mầm non",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Học sinh tiểu học",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s604",
+    "path": "Chương II - Mục 4 - Điều 26 - Khoản 13 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu thu thập từ thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cá nhân, tổ chức", "v": "Cung cấp", "o": "Thông tin, dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Cập nhật", "o": "Thông tin, dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Truyền dẫn", "o": "Thông tin, dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Lưu trữ", "o": "Thông tin, dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Quản lý", "o": "Thông tin, dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thông tin, dữ liệu", "v": "Thu thập từ", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thông tin, dữ liệu", "v": "Thu thập từ", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị giám sát hành trình", "v": "Lắp", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]}
+    ]
+  },
+  {
+    "id": "s605",
+    "path": "Chương II - Mục 4 - Điều 26 - Khoản 13 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc thực hiện đúng quy định về màu sơn, biển báo dấu hiệu nhận biết của xe."
+    ],
+    "triplets": [
+      {"s": "Cá nhân, tổ chức", "v": "Thực hiện", "o": "Màu sơn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân, tổ chức", "v": "Thực hiện", "o": "Biển báo dấu hiệu nhận biết",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Màu sơn", "v": "Thuộc", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo dấu hiệu nhận biết", "v": "Thuộc", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s606",
+    "path": "Chương II - Mục 4 - Điều 26 - Khoản 14 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện còn bị trừ điểm giấy phép lái xe 02 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s607",
+    "path": "Chương II - Mục 4 - Điều 26 - Khoản 14 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện còn bị trừ điểm giấy phép lái xe 06 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s608",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi không hướng dẫn trẻ em mầm non, học sinh ngồi đúng vị trí quy định trong xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Chở", "o": "Trẻ em mầm non",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chở", "o": "Học sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Hướng dẫn", "o": "Trẻ em mầm non",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Hướng dẫn", "o": "Học sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s609",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học không có dây đai an toàn phù hợp với lứa tuổi hoặc không có ghế ngồi phù hợp với lứa tuổi theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Chở", "o": "Trẻ em mầm non",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chở", "o": "Học sinh tiểu học",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô", "v": "Có", "o": "Ghế ngồi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

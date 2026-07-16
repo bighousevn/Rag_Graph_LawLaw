@@ -1,0 +1,195 @@
+[
+  {
+    "id": "s310",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người được chở trên xe đạp, xe đạp máy sử dụng ô (dù)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chở", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Ô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["dù"]}
+    ]
+  },
+  {
+    "id": "s311",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân tập trung đông người trái phép, nằm, ngồi trên đường bộ gây cản trở giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Tập trung", "o": "Đám đông",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [], "o_keyphrases": ["đông người"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Nằm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Ngồi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Cản trở", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s312",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân đá bóng, đá cầu, chơi cầu lông hoặc các hoạt động thể thao khác trái phép trên đường bộ; sử dụng bàn trượt, pa-tanh, các thiết bị tương tự trên phần đường xe chạy."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Đá", "o": "Bóng",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đá", "o": "Cầu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chơi", "o": "Cầu lông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Hoạt động thể thao",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Bàn trượt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["pa-tanh", "các thiết bị tương tự"]},
+      {"s": "Người", "v": "Tại", "o": "Phần đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phần đường xe chạy"]}
+    ]
+  },
+  {
+    "id": "s313",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân điều khiển vật thể bay, tàu bay không người lái, phương tiện bay siêu nhẹ hoạt động trong phạm vi khổ giới hạn đường bộ gây cản trở hoặc nguy cơ mất an toàn cho người, phương tiện tham gia giao thông đường bộ, trừ tàu bay không người lái, phương tiện bay siêu nhẹ được cấp phép bay."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật thể bay",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [],
+       "o_keyphrases": ["tàu bay không người lái", "phương tiện bay siêu nhẹ"]},
+      {"s": "Vật thể bay", "v": "Tại", "o": "Khổ giới hạn đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể bay", "v": "Cản trở", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể bay", "v": "Cản trở", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể bay", "v": "Đe dọa", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể bay", "v": "Đe dọa", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s314",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân người được chở trên xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy sử dụng ô (dù)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chở", "o": "Xe máy",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Ô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["dù"]}
+    ]
+  },
+  {
+    "id": "s315",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân người được chở trên xe đạp, xe đạp máy bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chở", "o": "Xe đạp",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Bám", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Bám", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kéo", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kéo", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đẩy", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đẩy", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang vác", "o": "Vật cồng kềnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s316",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân bán hàng rong hoặc bán hàng hóa nhỏ lẻ khác trên lòng đường, trên vỉa hè các tuyến phố có quy định cấm bán hàng; trừ các hành vi vi phạm quy định tại khoản 7, khoản 9 Điều này."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Bán", "o": "Hàng hóa",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [], "o_keyphrases": ["hàng rong", "hàng hóa nhỏ lẻ"]},
+      {"s": "Người", "v": "Tại", "o": "Lòng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Vỉa hè",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vỉa hè", "v": "Cấm", "o": "Bán",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s317",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 2 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân phơi thóc, lúa, rơm, rạ, nông, lâm, hải sản trên đường bộ; đặt máy tuốt lúa trên đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Phơi", "o": "Nông sản",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [],
+       "o_keyphrases": ["thóc", "lúa", "rơm", "rạ", "lâm sản", "hải sản"]},
+      {"s": "Người", "v": "Tại", "o": "Đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đặt", "o": "Máy tuốt lúa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s318",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 3",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức để vật che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Để", "o": "Vật",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức", "v": "Để", "o": "Vật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật", "v": "Che khuất", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường bộ"]},
+      {"s": "Vật", "v": "Che khuất", "o": "Đèn tín hiệu giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s319",
+    "path": "Chương II - Mục 1 - Điều 12 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người được chở trên xe ô tô không thắt dây đai an toàn (tại vị trí có trang bị dây đai an toàn) khi xe đang chạy."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chở", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Thắt", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Vị trí",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vị trí", "v": "Trang bị", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "s430",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô và các loại xe tương tự xe mô tô kinh doanh vận tải không mang theo giấy phép lái xe trừ hành vi vi phạm quy định tại điểm b khoản 5, điểm c khoản 7 Điều này."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["các loại xe tương tự xe mô tô"]},
+      {"s": "Xe mô tô", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s431",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô kinh doanh vận tải không mang theo giấy phép lái xe, trừ hành vi vi phạm quy định tại điểm c khoản 8 Điều này."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Ô tô", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s432",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, rơ moóc, sơ mi rơ moóc và các loại xe tương tự xe ô tô kinh doanh vận tải không mang theo chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "rơ moóc", "sơ mi rơ moóc", "các loại xe tương tự xe ô tô"]},
+      {"s": "Ô tô", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s433",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, rơ moóc, sơ mi rơ moóc và các loại xe tương tự xe ô tô kinh doanh vận tải không mang theo giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với loại xe có quy định phải kiểm định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "rơ moóc", "sơ mi rơ moóc", "các loại xe tương tự xe ô tô"]},
+      {"s": "Ô tô", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s434",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 4 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô có dung tích xi-lanh từ 50 cm3 trở lên hoặc có công suất động cơ điện từ 04 kW trở lên."
+    ],
+    "triplets": [
+      {"s": "Người từ đủ 16 tuổi đến dưới 18 tuổi", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s435",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 4 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô kinh doanh vận tải không mang theo chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Ô tô", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Dành cho", "o": "Chủ xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Còn", "o": "Hiệu lực",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s436",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 4 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không có chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Người", "v": "Có", "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Dành cho", "o": "Chủ xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Còn", "o": "Hiệu lực",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s437",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW và các loại xe tương tự xe mô tô không có giấy phép lái xe hoặc sử dụng giấy phép lái xe đã bị trừ hết điểm hoặc sử dụng giấy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe bị tẩy xóa, giấy phép lái xe không còn hiệu lực, giấy phép lái xe không phù hợp với loại xe đang điều khiển."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô hai bánh", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Có", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Còn", "o": "Hiệu lực",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Phù hợp", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s438",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW và các loại xe tương tự xe mô tô có giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp (trừ giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo giấy phép lái xe quốc gia phù hợp với loại xe được phép điều khiển."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô hai bánh", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Có", "o": "Giấy phép lái xe quốc tế",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Giấy phép lái xe quốc gia",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe quốc gia", "v": "Phù hợp", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s439",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 5 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW và các loại xe tương tự xe mô tô sử dụng giấy phép lái xe không hợp lệ (giấy phép lái xe có số phôi ghi ở mặt sau không trùng với số phôi được cấp mới nhất trong hệ thống thông tin quản lý giấy phép lái xe)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe mô tô hai bánh", "các loại xe tương tự xe mô tô"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

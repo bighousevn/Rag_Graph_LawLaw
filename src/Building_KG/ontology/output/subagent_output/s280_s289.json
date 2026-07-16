@@ -1,0 +1,198 @@
+[
+  {
+    "id": "s280",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác đang điều khiển xe hoặc chở người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh, điều khiển xe kéo theo xe khác, vật khác."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Bám", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Bám", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kéo", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Kéo", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đẩy", "o": "Xe khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đẩy", "o": "Vật khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang vác", "o": "Vật cồng kềnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s281",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn hoặc gây cản trở đối với xe cơ giới xin vượt, gây cản trở xe ưu tiên."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Nhường", "o": "Xe xin vượt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Gây cản trở", "o": "Xe xin vượt",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe cơ giới xin vượt"]},
+      {"s": "Người", "v": "Gây cản trở", "o": "Xe ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s282",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 2 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác không chấp hành hiệu lệnh của đèn tín hiệu giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Đèn tín hiệu giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s283",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác điều khiển xe lạng lách, đánh võng; đuổi nhau trên đường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Lạng lách", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đánh võng", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đuổi", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s284",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác đi xe bằng một bánh đối với xe đạp, xe đạp máy; đi xe bằng hai bánh đối với xe xích lô."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Đi bằng một bánh", "o": "Xe đạp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe đạp máy"]},
+      {"s": "Người", "v": "Đi bằng hai bánh", "o": "Xe xích lô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s285",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác đi vào khu vực cấm, đường có biển báo hiệu nội dung cấm đi vào đối với loại phương tiện đang điều khiển; đi ngược chiều đường của đường một chiều, đường có biển “Cấm đi ngược chiều.”"
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Đi vào", "o": "Khu vực cấm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Đi vào",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi ngược chiều", "o": "Đường một chiều",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Đi ngược chiều",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s286",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Cồn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s287",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 4 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác gây tai nạn giao thông không dừng ngay phương tiện, không giữ nguyên hiện trường, không trợ giúp người bị nạn, không ở lại hiện trường hoặc không đến trình báo ngay với cơ quan công an, Ủy ban nhân dân nơi gần nhất."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Gây", "o": "Tai nạn giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
+      {"s": "Người", "v": "Giữ nguyên", "o": "Hiện trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trợ giúp", "o": "Người bị nạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Ở lại", "o": "Hiện trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trình báo", "o": "Cơ quan công an",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trình báo", "o": "Ủy ban nhân dân",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s288",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 4 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Cồn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s289",
+    "path": "Chương II - Mục 1 - Điều 9 - Khoản 4 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe đạp, xe đạp máy và người điều khiển xe thô sơ khác không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Yêu cầu kiểm tra",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu kiểm tra", "v": "Về", "o": "Cồn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["nồng độ cồn"]}
+    ]
+  }
+]

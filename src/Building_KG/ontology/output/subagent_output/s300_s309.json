@@ -1,0 +1,169 @@
+[
+  {
+    "id": "s300",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường, trừ hành vi vi phạm quy định tại khoản 3 Điều này."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Đèn tín hiệu", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Vạch kẻ đường", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Chỉ dẫn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Đèn tín hiệu", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Vạch kẻ đường", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s301",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo không đủ dụng cụ đựng chất thải của vật nuôi hoặc không dọn sạch chất thải của vật nuôi thải ra đường, vỉa hè."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đủ", "o": "Dụng cụ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dụng cụ", "v": "Đựng", "o": "Chất thải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chất thải", "v": "Dành cho", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Người", "v": "Dọn sạch", "o": "Chất thải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chất thải", "v": "Tại", "o": "Đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chất thải", "v": "Tại", "o": "Vỉa hè", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s302",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 1 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo để vật nuôi đi trên đường bộ không bảo đảm an toàn cho người, phương tiện đang tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật nuôi", "v": "Đi", "o": "Đường bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Bảo đảm", "o": "An toàn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "An toàn", "v": "Dành cho", "o": "Người", "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
+      {"s": "An toàn", "v": "Dành cho", "o": "Phương tiện", "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s303",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 1 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo đi dàn hàng ngang từ 02 xe trở lên."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi dàn hàng ngang", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s304",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 1 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo để vật nuôi kéo xe mà không có người điều khiển."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật nuôi", "v": "Kéo", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe vật nuôi kéo", "v": "Có", "o": "Người", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s305",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 1 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo điều khiển xe không có báo hiệu theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe vật nuôi kéo", "v": "Có", "o": "Báo hiệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s306",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người điều khiển giao thông", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người kiểm soát giao thông", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Hướng dẫn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Người điều khiển giao thông", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Người kiểm soát giao thông", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s307",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo dẫn dắt vật nuôi chạy theo khi đang điều khiển hoặc ngồi trên phương tiện giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật nuôi", "v": "Chạy theo", "o": "Phương tiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Ngồi trên", "o": "Phương tiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s308",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo điều khiển, dẫn dắt vật nuôi đi không đúng phần đường quy định, đi vào đường cấm, khu vực cấm, đi vào phần đường của xe cơ giới."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đúng", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi vào", "o": "Đường cấm", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi vào", "o": "Khu vực cấm", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi vào", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phần đường", "v": "Dành cho", "o": "Xe cơ giới", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s309",
+    "path": "Chương II - Mục 1 - Điều 11 - Khoản 3",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo đi vào đường cao tốc."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi vào", "o": "Đường cao tốc", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

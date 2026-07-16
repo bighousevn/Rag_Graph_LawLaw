@@ -1,0 +1,204 @@
+[
+  {
+    "id": "s470",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách đón, trả hành khách không đúng nơi quy định trên những tuyến đường đã xác định nơi đón, trả khách hoặc dừng đón, trả hành khách quá thời gian quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Đón", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trả", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Địa điểm đón trả hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tuyến đường", "v": "Xác định", "o": "Địa điểm đón trả hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s471",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách đón, trả hành khách tại nơi cấm dừng, cấm đỗ, nơi đường cong tầm nhìn bị che khuất."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Đón", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trả", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Nơi cấm dừng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Nơi cấm đỗ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Đường cong tầm nhìn bị che khuất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s472",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe vận tải hành khách theo hợp đồng không có hoặc không mang theo danh sách hành khách theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Theo", "o": "Hợp đồng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Danh sách hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Danh sách hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s473",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách vận chuyển hành khách theo tuyến cố định không có hoặc không mang theo lệnh vận chuyển hoặc có mang theo lệnh vận chuyển nhưng không ghi đầy đủ thông tin."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Theo", "o": "Tuyến cố định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Lệnh vận chuyển",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Lệnh vận chuyển",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Lệnh vận chuyển", "v": "Ghi", "o": "Thông tin",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s474",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách đón, trả hành khách không đúng địa điểm đón, trả hành khách được ghi trong hợp đồng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Đón", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trả", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Địa điểm đón trả hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Địa điểm đón trả hành khách", "v": "Ghi", "o": "Hợp đồng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s475",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách vận chuyển khách liên vận quốc tế theo tuyến cố định không có hoặc không mang theo lệnh vận chuyển, không có danh sách hành khách theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Vận chuyển", "o": "Khách liên vận quốc tế",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Theo", "o": "Tuyến cố định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Lệnh vận chuyển",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Lệnh vận chuyển",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Danh sách hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s476",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách chở hành lý, hàng hóa vượt quá trọng tải theo thiết kế của xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Chở quá", "o": "Trọng tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["trọng tải theo thiết kế của xe"]}
+    ]
+  },
+  {
+    "id": "s477",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách không sử dụng thẻ nhận dạng lái xe để đăng nhập thông tin theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Thẻ nhận dạng lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s478",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe ô tô chở người từ 08 chỗ trở lên kinh doanh vận tải hành khách không lắp thiết bị ghi nhận hình ảnh người lái xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Ô tô chở khách", "v": "Kinh doanh", "o": "Vận tải hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s479",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 5 - Điểm m",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách vận tải hành khách theo hợp đồng sử dụng hợp đồng điện tử không có thiết bị để truy cập được nội dung của hợp đồng điện tử và danh sách hành khách."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Sử dụng", "o": "Hợp đồng điện tử",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị", "v": "Truy cập", "o": "Nội dung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nội dung", "v": "Dành cho", "o": "Hợp đồng điện tử",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị", "v": "Truy cập", "o": "Danh sách hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "s450",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 10",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 5, điểm b khoản 7, điểm b khoản 9 Điều này bị buộc nộp lại giấy phép lái xe bị tẩy xóa."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Nộp", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s451",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 11",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm c khoản 5; điểm b, điểm d khoản 7; điểm c khoản 8; điểm b khoản 9 Điều này bị thu hồi giấy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe không hợp lệ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thu hồi", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s452",
+    "path": "Chương II - Mục 3 - Điều 18 - Khoản 12",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi quy định tại điểm c khoản 5, điểm d khoản 7, điểm c khoản 8 Điều này bị trừ điểm giấy phép lái xe được cấp mới nhất trong hệ thống thông tin quản lý giấy phép lái xe 02 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s453",
+    "path": "Chương II - Mục 3 - Điều 19 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng không có chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự theo quy định của pháp luật."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s454",
+    "path": "Chương II - Mục 3 - Điều 19 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe máy chuyên dùng không có bằng (hoặc chứng chỉ) điều khiển xe máy chuyên dùng, không có giấy phép lái xe (hoặc sử dụng giấy phép lái xe đã bị trừ hết điểm, giấy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe bị tẩy xóa, giấy phép lái xe không còn hiệu lực) hoặc không có chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Bằng điều khiển xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng chỉ điều khiển xe máy chuyên dùng"]},
+      {"s": "Người", "v": "Có", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Có", "o": "Hiệu lực",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s455",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách không hướng dẫn hành khách đứng, nằm, ngồi đúng vị trí quy định trong xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Hướng dẫn", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s456",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách chở quá số người quy định được phép chở của phương tiện."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Chở quá", "o": "Số người quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["số người quy định được phép chở của phương tiện"]}
+    ]
+  },
+  {
+    "id": "s457",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách không đóng cửa lên xuống khi xe đang chạy."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Đóng", "o": "Cửa lên xuống",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s458",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách để người ngồi trên xe khi xe xuống phà, đang trên phà và khi lên bến (trừ người lái xe, trẻ em, phụ nữ mang thai, người già yếu, người bệnh, người khuyết tật)."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Để", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô chở khách", "v": "Tại", "o": "Phà",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s459",
+    "path": "Chương II - Mục 4 - Điều 20 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách không chạy đúng tuyến đường, lịch trình, hành trình vận tải được phép hoạt động theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
+      {"s": "Người", "v": "Chạy đúng", "o": "Tuyến đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chạy đúng", "o": "Lịch trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chạy đúng", "o": "Hành trình vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

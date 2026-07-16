@@ -1,0 +1,179 @@
+[
+  {
+    "id": "s610",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
+      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Có", "o": "Tác dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Làm sai lệch", "o": "Dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s611",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học không có hoặc không đủ người quản lý trên mỗi xe ô tô theo quy định tại khoản 3 Điều 46 của Luật Trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh", "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học"]},
+      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Người quản lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Đủ", "o": "Người quản lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s612",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học không có thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh", "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học"]},
+      {"s": "Thiết bị giám sát hành trình", "v": "Lắp trên", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị giám sát hành trình", "v": "Có", "o": "Tác dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Làm sai lệch", "o": "Dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s613",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh không có thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh hoặc không có thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe hoặc không có thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh và thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
+      {"s": "Thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh", "v": "Lắp trên", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị cảnh báo chống bỏ quên trẻ em", "v": "Lắp trên", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em"]}
+    ]
+  },
+  {
+    "id": "s614",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh không có màu sơn theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
+      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Màu sơn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s615",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh không có biển báo dấu hiệu nhận biết là xe chở trẻ em mầm non, học sinh theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
+      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Biển báo dấu hiệu nhận biết",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s616",
+    "path": "Chương II - Mục 4 - Điều 27 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi quy định tại khoản 2, khoản 3 Điều này."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s617",
+    "path": "Chương II - Mục 4 - Điều 28 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ thực hiện hành vi chở quá số người quy định được phép chở của phương tiện."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe bốn bánh có gắn động cơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ"]},
+      {"s": "Người", "v": "Chở quá", "o": "Số người quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s618",
+    "path": "Chương II - Mục 4 - Điều 28 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ kinh doanh vận tải thực hiện hành vi không có hoặc không gắn phù hiệu theo quy định hoặc có nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ quan có thẩm quyền cấp."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe bốn bánh có gắn động cơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ kinh doanh vận tải"]},
+      {"s": "Người", "v": "Có", "o": "Phù hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Gắn", "o": "Phù hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phù hiệu", "v": "Hết", "o": "Giá trị sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Phù hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Phù hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s619",
+    "path": "Chương II - Mục 4 - Điều 28 - Khoản 3",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ thực hiện hành vi điều khiển xe hoạt động không đúng tuyến đường, lịch trình, thời gian được phép hoạt động hoặc phạm vi hoạt động theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe bốn bánh có gắn động cơ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ"]},
+      {"s": "Xe bốn bánh có gắn động cơ", "v": "Đúng", "o": "Tuyến đường cho phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tuyến đường"]},
+      {"s": "Xe bốn bánh có gắn động cơ", "v": "Đúng", "o": "Lịch trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe bốn bánh có gắn động cơ", "v": "Đúng", "o": "Thời gian",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe bốn bánh có gắn động cơ", "v": "Đúng", "o": "Phạm vi hoạt động cho phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phạm vi hoạt động"]}
+    ]
+  }
+]
