@@ -267,10 +267,13 @@ def build_kg(
                 "relation":    t["relation"],
                 "source":      concept_to_id[t["concept_s"]],
                 "target":      concept_to_id[t["concept_o"]],
-                "section_ids": [],
+                "addresses":   [],
+                "listSectionId": [],
             }
-        if t["section_id"] not in index[key]["section_ids"]:
-            index[key]["section_ids"].append(t["section_id"])
+        if t["address"] not in index[key]["addresses"]:
+            index[key]["addresses"].append(t["address"])
+        if t["section_id"] not in index[key]["listSectionId"]:
+            index[key]["listSectionId"].append(t["section_id"])
 
     edges = [
         {"id": f"E{i+1:04d}", **edge}
