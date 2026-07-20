@@ -1,88 +1,84 @@
-import json
+"""
+Bước 2: Vector hoá các sub-triplet đã tách từ câu hỏi người dùng.
+
+Bước 1 (tách câu hỏi tự do → sub-triplet (s, v, o)) CHƯA làm — file input hiện tại
+(`output/question_triplets.json`) là VÍ DỤ viết tay, đóng vai trò định nghĩa FORMAT mà Bước 1
+(sẽ làm sau, có thể bằng LLM) phải sinh ra.
+
+Format input — 1 JSON array, mỗi phần tử là 1 sub-triplet của câu hỏi:
+    [{"s": "người", "v": "uống", "o": "rượu bia"}, {"s": "người", "v": "lái", "o": "xe ô tô"}]
+- Một câu hỏi có thể tách ra NHIỀU sub-triplet độc lập (xem Bước 3 — kết quả các sub-triplet sẽ
+  được giao/hợp lại với nhau).
+- Thành phần nào bị khuyết (câu hỏi không nêu, hoặc chính là ẩn số cần tìm) → dùng "*" thay vì bỏ
+  trống. "*" nghĩa là "khớp với bất kỳ" ở đúng vị trí đó khi truy vấn (xử lý ở Bước 3).
+
+Input:  output/question_triplets.json
+Output: output/question_triplets_vectorized.json
+        [{"s": {"name":.., "vector":[...]|null}, "v": {...}, "o": {...}}, ...]
+        vector = null khi name == "*" (không embed thành phần khuyết).
+
+QUAN TRỌNG: LUÔN embed trên CPU (device="cpu"), TUYỆT ĐỐI không dùng MPS — đã kiểm chứng thực tế
+backend MPS của PyTorch trả SAI vector khi batch nhiều câu cùng lúc với model này (cùng 1 chữ
+encode riêng lẻ vs trong batch ra 2 vector khác hẳn nhau, cosine chỉ ~0.43 thay vì phải là 1.0).
+CPU cho kết quả đúng tuyệt đối bất kể batch, và ở quy mô vài triplet/câu hỏi thì cực nhanh.
+Model dùng CHUNG với bước build index (src/Building_KG/ontology/3_build_keyphrase_index.py) —
+bắt buộc trùng model, nếu không vector 2 bên không nằm chung không gian, so cosine vô nghĩa.
+"""
+
 import os
-import torch
+import json
 from sentence_transformers import SentenceTransformer
+
+BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(BASE_DIR, "output")
+IN_FILE    = os.path.join(OUTPUT_DIR, "question_triplets.json")
+OUT_FILE   = os.path.join(OUTPUT_DIR, "question_triplets_vectorized.json")
+
+EMBEDDING_MODEL = "AITeamVN/Vietnamese_Embedding_v2"
+
+
+def log(msg: str) -> None:
+    print(msg, flush=True)
 
 
 def main():
-    # 1. Khởi tạo model AITeamVN/Vietnamese_Embedding_v2
-    print("Đang kiểm tra thiết bị phần cứng...")
-    device = "mps" if torch.backends.mps.is_available() else ("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"Sử dụng thiết bị: {device}")
+    with open(IN_FILE, encoding="utf-8") as f:
+        triplets = json.load(f)
+    log(f"Đã tải {len(triplets)} sub-triplet từ {IN_FILE}")
 
-    print("Đang tải model từ Hugging Face...")
-    model = SentenceTransformer("AITeamVN/Vietnamese_Embedding_v2", device=device)
+    # Gom mọi text cần embed (bỏ qua "*" và rỗng), embed 1 lượt duy nhất cho nhanh, rồi rải
+    # ngược kết quả lại đúng vị trí s/v/o của từng triplet.
+    texts_to_embed: list[str] = []
+    for t in triplets:
+        for role in ("s", "v", "o"):
+            val = (t.get(role) or "").strip()
+            if val and val != "*":
+                texts_to_embed.append(val)
 
-    # Đường dẫn file
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    input_filepath = os.path.join(base_dir, "output", "1.2_triplets.json")
-    output_filepath = os.path.join(base_dir, "output", "1.3_triplets_with_nested_vectors.json")
+    log(f"Đang embed {len(texts_to_embed)} cụm từ (CPU)...")
+    model = SentenceTransformer(EMBEDDING_MODEL, device="cpu")
+    embeddings = model.encode(texts_to_embed, normalize_embeddings=True, show_progress_bar=True) \
+        if texts_to_embed else []
+    vector_by_text: dict[str, list[float]] = {
+        text: vec.tolist() for text, vec in zip(texts_to_embed, embeddings)
+    }
 
-    # Tạo thư mục output nếu chưa tồn tại
-    os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
-
-    # 2. Đọc file data đầu vào
-    try:
-        with open(input_filepath, "r", encoding="utf-8") as f:
-            data = json.load(f)
-    except FileNotFoundError:
-        print(f"Không tìm thấy file {input_filepath}. Vui lòng kiểm tra lại đường dẫn.")
-        return
-
-    if not isinstance(data, list):
-        print(f"File {input_filepath} không đúng định dạng danh sách triplet.")
-        return
-
-    print(f"Đã tải {len(data)} triplet. Đang tiến hành vector hóa...")
-
-    # 3. Trích xuất toàn bộ văn bản cần vector hóa theo thứ tự s, v, o
-    texts_to_encode = []
-    for item in data:
-        texts_to_encode.extend([
-            item.get("s", ""),
-            item.get("v", ""),
-            item.get("o", "")
-        ])
-
-    # 4. Dùng model để sinh vector (Embedding)
-    # Hàm encode hỗ trợ xử lý hàng loạt cực kỳ tối ưu, show_progress_bar giúp xem tiến độ
-    embeddings = model.encode(texts_to_encode, show_progress_bar=True)
-
-    # 5. Gắn vector trở lại vào từng triplet với cấu trúc lồng nhau
-    output_data = []
-    embedding_index = 0
-
-    for item in data:
-        s_name = item.get("s", "")
-        v_name = item.get("v", "")
-        o_name = item.get("o", "")
-
-        output_data.append({
-            "s": {
-                "name": s_name,
-                "vector": embeddings[embedding_index].tolist()
-            },
-            "v": {
-                "name": v_name,
-                "vector": embeddings[embedding_index + 1].tolist()
-            },
-            "o": {
-                "name": o_name,
-                "vector": embeddings[embedding_index + 2].tolist()
+    output = []
+    for t in triplets:
+        entry = {}
+        for role in ("s", "v", "o"):
+            val = (t.get(role) or "").strip()
+            entry[role] = {
+                "name": val,
+                "vector": vector_by_text.get(val),  # None nếu val == "*" hoặc rỗng
             }
-        })
-        embedding_index += 3
+        output.append(entry)
 
-    # 6. Lưu kết quả ra file mới
-    with open(output_filepath, "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=4)
-
-    print(f"\nHoàn tất! Đã lưu file có chứa vector tại: {output_filepath}")
-
-    # In thử chiều dài của vector để kiểm tra (thường model này trả về vector 768 chiều)
-    if output_data:
-        vector_dimension = len(output_data[0]["s"]["vector"])
-        print(f"Kích thước (số chiều) của mỗi vector là: {vector_dimension}")
+    tmp = OUT_FILE + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, OUT_FILE)
+    log(f"Đã lưu {len(output)} sub-triplet có vector → {OUT_FILE}")
 
 
 if __name__ == "__main__":
