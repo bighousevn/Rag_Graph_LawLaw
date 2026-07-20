@@ -26,14 +26,16 @@ về Relation trong ontology.json.
 
 Input:  output/subagent_output/*.json   (mỗi file 1 batch do 1 subagent xử lý)
         output/triplets_raw.json        (nếu đã có từ lần chạy trước — merge cộng dồn theo id)
-Output: output/triplets_raw.json        (merged, ghi đè)
+Output: output/triplets_raw.json        (merged, ghi đè) — dữ liệu gốc, cần để build lại/append
         output/ontology.json            {"concepts": [{id, name, keyphrases}],
                                           "relations": [{id, name, keyphrases, concept_s, concept_o}]}
-        output/triplets.json            mỗi triplet kèm address (article/clause/point/document)
+                                         — nguồn để vector hoá keyphrase (Bước tiếp theo)
         output/kg_triplets.json         {"nodes": [{id, name}],
-                                          "edges": [{id, relation_id, relation, source, target, addresses}]}
-        output/atomicity_warnings.json  cảnh báo (không tự sửa) nếu 1 concept nghi ngờ còn lẫn
-                                         quan hệ ẩn — để chuyên gia rà tay
+                                          "edges": [{id, relation_id, relation, source, target, section_ids}]}
+                                         — đồ thị thật, tra (concept_s_id, relation_id, concept_o_id)
+                                           ra "section_ids" khi truy vấn; muốn ra địa chỉ đọc được
+                                           (Điều/Khoản/Điểm) thì tra tiếp section_id đó trong
+                                           triplets_raw.json (field "path"/"document_name")
 """
 
 import os
@@ -47,9 +49,7 @@ OUTPUT_DIR          = os.path.join(BASE_DIR, "output")
 SUBAGENT_OUTPUT_DIR = os.path.join(OUTPUT_DIR, "subagent_output")
 TRIPLETS_RAW        = os.path.join(OUTPUT_DIR, "triplets_raw.json")
 OUT_ONTOLOGY        = os.path.join(OUTPUT_DIR, "ontology.json")
-OUT_TRIPLETS        = os.path.join(OUTPUT_DIR, "triplets.json")
 OUT_KG              = os.path.join(OUTPUT_DIR, "kg_triplets.json")
-OUT_WARNINGS        = os.path.join(OUTPUT_DIR, "atomicity_warnings.json")
 
 
 def log(msg: str) -> None:
@@ -223,63 +223,19 @@ def build_ontology(sections: list[dict]) -> tuple[dict, dict[str, str], dict[tup
     return ontology, concept_to_id, relation_to_id
 
 
-# ── Bước C: rà atomicity của keyphrase cuối (cảnh báo, KHÔNG tự sửa) ──────────────────────────
-
-_WORD_RE = re.compile(r"[\wÀ-ỹ]+", re.UNICODE)
-
-
-def check_atomicity(ontology: dict) -> list[dict]:
-    """
-    Cảnh báo nếu TÊN hoặc keyphrase của 1 Concept CHỨA (theo ranh giới từ) 1 keyphrase của Relation
-    bất kỳ — dấu hiệu subject/object đó còn lẫn quan hệ ẩn. Không tự sửa — chỉ ghi lại để rà tay.
-    """
-    relation_kps: set[str] = set()
-    for r in ontology.get("relations", []):
-        relation_kps.add(r["name"].strip().lower())
-        for kp in r.get("keyphrases", []):
-            relation_kps.add(kp.strip().lower())
-
-    warnings = []
-    for c in ontology.get("concepts", []):
-        candidates = [c["name"]] + c.get("keyphrases", [])
-        for cand in candidates:
-            cand_l = cand.strip().lower()
-            words = set(_WORD_RE.findall(cand_l))
-            for rel_kp in relation_kps:
-                rel_words = _WORD_RE.findall(rel_kp)
-                if rel_words and set(rel_words).issubset(words) and rel_kp != cand_l:
-                    warnings.append({
-                        "concept": c["name"], "flagged_text": cand,
-                        "matched_relation_keyphrase": rel_kp,
-                    })
-    return warnings
-
-
-# ── Bước D: dựng triplet cuối + address ───────────────────────────────────────────────────────
-
-def parse_address(path: str, document: str) -> dict:
-    art = re.search(r"Điều\s+(\d+)", path or "")
-    cl  = re.search(r"Khoản\s+(\d+)", path or "")
-    pt  = re.search(r"Điểm\s+([a-zđA-ZĐ])", path or "")
-    return {
-        "article":  int(art.group(1)) if art else None,
-        "clause":   int(cl.group(1))  if cl  else None,
-        "point":    pt.group(1).lower() if pt else None,
-        "document": document,
-    }
-
+# ── Bước C: dựng triplet cuối + address ───────────────────────────────────────────────────────
 
 def reconstruct_triplets(sections: list[dict]) -> list[dict]:
+    # Không parse địa chỉ (Điều/Khoản/Điểm) ở đây nữa — KG chỉ giữ section_id thô, việc tra ra
+    # địa chỉ đọc được (path/document_name) là việc của bước sau, dựa vào triplets_raw.json.
     out = []
     for sec in sections:
-        address = parse_address(sec.get("path", ""), sec.get("document_name", ""))
         for t in sec.get("triplets", []):
             s, v, o = (t.get("s") or "").strip(), (t.get("v") or "").strip(), (t.get("o") or "").strip()
             if not (s and v and o):
                 continue
             out.append({
                 "section_id": sec["id"],
-                "address":    address,
                 "concept_s":  s,
                 "relation":   v,
                 "concept_o":  o,
@@ -287,16 +243,20 @@ def reconstruct_triplets(sections: list[dict]) -> list[dict]:
     return out
 
 
+# ── Bước D: dedup + dựng đồ thị (nodes/edges) ─────────────────────────────────────────────────
+
 def build_kg(
     triplets: list[dict],
     concept_to_id: dict[str, str],
     relation_to_id: dict[tuple[str, str], str],
 ) -> dict:
     """
-    Dedup theo (concept_s, relation, concept_o), gộp addresses, rồi dựng đồ thị thật:
+    Dedup theo (concept_s, relation, concept_o), gộp section_id, rồi dựng đồ thị thật:
     - node = Concept, id lấy đúng từ concept_to_id (khớp 1-1 với id trong ontology.json).
     - edge = Triplet, "source"/"target" là id node (không phải tên), "relation_id" trỏ về
       Relation tương ứng trong ontology.json (khoá theo (concept_s, relation)).
+    - "section_ids": danh sách id section thô (vd "s61") đóng góp vào cạnh này — tra ngược
+      path/document_name/propositions của từng id qua triplets_raw.json khi cần hiển thị.
     """
     index: dict[tuple, dict] = {}
     for t in triplets:
@@ -307,10 +267,10 @@ def build_kg(
                 "relation":    t["relation"],
                 "source":      concept_to_id[t["concept_s"]],
                 "target":      concept_to_id[t["concept_o"]],
-                "addresses":   [],
+                "section_ids": [],
             }
-        if t["address"] not in index[key]["addresses"]:
-            index[key]["addresses"].append(t["address"])
+        if t["section_id"] not in index[key]["section_ids"]:
+            index[key]["section_ids"].append(t["section_id"])
 
     edges = [
         {"id": f"E{i+1:04d}", **edge}
@@ -349,14 +309,7 @@ def main():
     save_json(OUT_ONTOLOGY, ontology)
     log(f"Ontology → {OUT_ONTOLOGY} ({len(ontology['concepts'])} concepts, {len(ontology['relations'])} relations)")
 
-    warnings = check_atomicity(ontology)
-    save_json(OUT_WARNINGS, warnings)
-    log(f"Atomicity warnings: {len(warnings)} → {OUT_WARNINGS}")
-
     triplets = reconstruct_triplets(sections)
-    save_json(OUT_TRIPLETS, triplets)
-    log(f"Triplets (per-section) → {OUT_TRIPLETS} ({len(triplets)} triplets)")
-
     kg = build_kg(triplets, concept_to_id, relation_to_id)
     save_json(OUT_KG, kg)
     log(f"KG → {OUT_KG} ({len(kg['nodes'])} nodes, {len(kg['edges'])} edges)")
