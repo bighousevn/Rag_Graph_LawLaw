@@ -40,6 +40,7 @@ BUILD_OUTPUT_DIR  = os.path.join(os.path.dirname(BASE_DIR), "Building_KG", "onto
 KEYPHRASE_VECTORS = os.path.join(BUILD_OUTPUT_DIR, "keyphrase_vectors.npy")
 KEYPHRASE_ROWS    = os.path.join(BUILD_OUTPUT_DIR, "keyphrase_rows.json")
 KG_FILE           = os.path.join(BUILD_OUTPUT_DIR, "kg_triplets.json")
+TRIPLETS_RAW_FILE = os.path.join(BUILD_OUTPUT_DIR, "triplets_raw.json")
 
 TOP_K     = 5
 THRESHOLD = 0.5
@@ -66,6 +67,21 @@ def load_index():
     all_edge_ids = set(edges)
 
     return vectors, rows, edges, node_names, idxs_by_type, all_node_ids, all_edge_ids
+
+
+def load_section_texts() -> dict[str, dict]:
+    """section_id -> {path, document_name, propositions} — lấy từ triplets_raw.json (nguồn gốc
+    của cả pipeline build), để gắn văn bản đã viết lại (rewritten) vào kết quả truy vấn cuối."""
+    with open(TRIPLETS_RAW_FILE, encoding="utf-8") as f:
+        sections = json.load(f)
+    return {
+        s["id"]: {
+            "path": s.get("path"),
+            "document_name": s.get("document_name"),
+            "propositions": s.get("propositions", []),
+        }
+        for s in sections
+    }
 
 
 def search(vector, row_type: str, vectors, rows, idxs_by_type, all_ids: set,
@@ -153,8 +169,17 @@ def main():
         log(f"  section_ids: {r['section_ids']}")
 
     final = combine(per_triplet_results)
+    section_texts = load_section_texts()
+    final["sections"] = [
+        {"section_id": sid, **section_texts.get(sid, {"path": None, "document_name": None, "propositions": []})}
+        for sid in final["section_ids"]
+    ]
+
     log(f"\n=== KẾT QUẢ CUỐI ({final['strategy']}) ===")
-    log(f"section_ids: {final['section_ids']}")
+    for sec in final["sections"]:
+        log(f"  [{sec['section_id']}] {sec['path']}")
+        for p in sec["propositions"]:
+            log(f"      {p}")
 
     result = {"per_triplet": per_triplet_results, "final": final}
     tmp = OUT_RESULT + ".tmp"

@@ -1,4 +1,32 @@
 [
-  {"s": "người", "v": "uống", "o": "rượu bia"},
-  {"s": "người", "v": "lái", "o": "xe ô tô"}
+  {
+    "s": "Người",
+    "v": "Điều khiển",
+    "o": "Mô tô"
+  },
+  {
+    "s": "Người",
+    "v": "Điều khiển",
+    "o": "Xe gắn máy"
+  },
+  {
+    "s": "Người",
+    "v": "Điều khiển",
+    "o": "Xe tương tự"
+  },
+  {
+    "s": "Người",
+    "v": "Chấp hành",
+    "o": "Hiệu lệnh"
+  },
+  {
+    "s": "Người",
+    "v": "Chấp hành",
+    "o": "Chỉ dẫn của biển báo hiệu"
+  },
+  {
+    "s": "Người",
+    "v": "Chấp hành",
+    "o": "Vạch kẻ đường"
+  }
 ]
