@@ -17,8 +17,10 @@ Với MỖI sub-triplet (s, v, o):
 Sau khi có 1 tập section_ids cho MỖI sub-triplet, kết hợp giữa các sub-triplet:
     - Giao (intersection) trước — đúng khi câu hỏi mô tả 1 hành vi ghép (nhiều sub-triplet cùng
       nằm chung 1 điều khoản).
-    - Giao rỗng → fallback UNION (kèm nhãn sub-triplet nào góp phần) — tránh trả về rỗng khi câu
-      hỏi thực chất hỏi nhiều hành vi độc lập không chung điều khoản nào.
+    - Giao rỗng → fallback: đếm mỗi section_id được BAO NHIÊU sub-triplet (không rỗng) cùng trỏ
+      tới, chỉ giữ section có SỐ LƯỢNG PHỦ CAO NHẤT (đồng thuận nhiều nhất) — KHÔNG lấy toàn bộ
+      union, tránh trả về hàng trăm section không chọn lọc khi 1 sub-triplet lạc đề (vd relation
+      quá phổ biến như "Điều khiển" tự nó đã phủ gần hết corpus).
 
 Input:  output/question_triplets_vectorized.json
         ../Building_KG/ontology/output/keyphrase_vectors.npy
@@ -29,6 +31,7 @@ Output: in ra kết quả + ghi output/query_result.json
 
 import os
 import json
+from collections import Counter
 import numpy as np
 
 BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
@@ -144,8 +147,21 @@ def combine(per_triplet_results: list[dict]) -> dict:
     if inter:
         return {"strategy": "intersection", "section_ids": sorted(inter)}
 
-    union = set.union(*non_empty)
-    return {"strategy": "union_fallback", "section_ids": sorted(union)}
+    # Giao rỗng — KHÔNG lấy toàn bộ union. Đếm mỗi section_id được bao nhiêu sub-triplet (không
+    # rỗng) cùng trỏ tới, chỉ giữ section có số lượng phủ CAO NHẤT (đồng thuận nhiều nhất). Nếu
+    # max chỉ = 1 (không sub-triplet nào trùng nhau dù chỉ 1 section) thì vẫn trả kết quả này —
+    # đó là mức đồng thuận cao nhất thực tế có, không giả vờ có hơn.
+    coverage = Counter()
+    for s in non_empty:
+        coverage.update(s)
+    max_count = max(coverage.values())
+    best = {sid for sid, cnt in coverage.items() if cnt == max_count}
+    return {
+        "strategy": "best_coverage_fallback",
+        "section_ids": sorted(best),
+        "coverage": max_count,
+        "coverage_out_of": len(non_empty),
+    }
 
 
 def main():
@@ -176,6 +192,8 @@ def main():
     ]
 
     log(f"\n=== KẾT QUẢ CUỐI ({final['strategy']}) ===")
+    if final["strategy"] == "best_coverage_fallback":
+        log(f"  (đồng thuận {final['coverage']}/{final['coverage_out_of']} sub-triplet)")
     for sec in final["sections"]:
         log(f"  [{sec['section_id']}] {sec['path']}")
         for p in sec["propositions"]:
