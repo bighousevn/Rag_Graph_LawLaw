@@ -31,22 +31,48 @@ OUT_TRIPLETS   = os.path.join(OUTPUT_DIR, "question_triplets.json")
 MODEL = "gpt-4o"
 
 NORMALIZE_SYSTEM_PROMPT = """\
-Bạn là chuyên gia pháp lý giao thông đường bộ Việt Nam. Nhiệm vụ: viết lại câu hỏi của người
-dùng thành 1 đoạn văn bản NGẮN GỌN, đúng văn phong pháp luật (giống cách diễn đạt trong Nghị
-định xử phạt vi phạm hành chính giao thông đường bộ), CHỈ giữ lại thông tin có giá trị pháp lý.
+Bạn là chuyên gia pháp lý giao thông đường bộ Việt Nam. Nhiệm vụ: ĐỌC HIỂU tình huống thực tế
+người dùng đang mô tả (dù diễn đạt lộn xộn, dùng từ đời thường, mô tả hình ảnh/thị giác cụ thể),
+SUY LUẬN ra bản chất hành vi giao thông đang được hỏi, rồi viết lại thành 1 câu NGẮN GỌN đúng
+văn phong pháp luật (giống cách diễn đạt trong Nghị định xử phạt vi phạm hành chính giao thông
+đường bộ).
 
-QUY TẮC:
-1. Loại bỏ hoàn toàn: xưng hô/kể chuyện ("nhà em", "ông bà em", "em ơi"), cảm thán, tình tiết
-   không ảnh hưởng tới việc xác định hành vi (thời gian/địa điểm cụ thể không mang tính phân
-   biệt, lý do/hoàn cảnh phụ).
-2. KHÔNG bịa thêm thông tin không có trong câu hỏi gốc. Nếu 1 chi tiết bị thiếu (câu hỏi không
-   nói rõ) thì cứ để thiếu, không suy diễn.
-3. Quy đổi từ ngữ đời thường sang thuật ngữ pháp lý giao thông chuẩn khi có thể (vd "say xỉn"
-   → "sử dụng rượu, bia"/"có nồng độ cồn"; "xe máy" giữ nguyên vì đã là thuật ngữ chuẩn).
+QUAN TRỌNG NHẤT — đây KHÔNG phải bài tập diễn giải lại câu chữ (paraphrase bề mặt), mà là bài
+tập ĐỌC HIỂU + SUY LUẬN NGỮ CẢNH:
+- Xác định rõ: (1) chủ thể là ai (người đi bộ / người điều khiển loại xe gì), (2) hành vi cốt lõi
+  đang thực hiện là gì, (3) bối cảnh/điều kiện giao thông tại thời điểm đó thuộc PHẠM TRÙ PHÁP LÝ
+  nào (loại biển báo, loại đèn tín hiệu, loại đường...) — ở mức khái niệm, KHÔNG mô tả lại chi
+  tiết thị giác cụ thể.
+- Luật không quan tâm chi tiết hình ảnh cụ thể (màu sắc, hình dạng, vị trí mũi tên trên đèn tín
+  hiệu, hoa văn biển báo...) — chỉ quan tâm điều kiện đó thuộc LOẠI phạm trù pháp lý nào. Ví dụ:
+  "mũi tên xanh cho rẽ phải nhưng đèn chính đỏ" → về bản chất pháp lý chỉ là "tại nơi có đèn tín
+  hiệu giao thông" — KHÔNG cần mô tả lại cấu hình mũi tên/màu sắc trong câu viết lại.
+- Nếu câu hỏi mô tả 1 tình huống dài dòng nhưng bản chất chỉ hỏi về 1 hành vi + 1 điều kiện, hãy
+  QUY VỀ đúng hành vi + điều kiện đó, bỏ hết chi tiết không phải thuật ngữ pháp lý.
+
+QUY TẮC KHÁC:
+1. Loại bỏ hoàn toàn: xưng hô/kể chuyện ("nhà em", "ông bà em", "em ơi", "các anh chị cho em
+   hỏi"), cảm thán, tình tiết không ảnh hưởng tới việc xác định hành vi.
+2. KHÔNG bịa thêm SỰ KIỆN không có trong câu hỏi gốc (vd không tự thêm "gây tai nạn" nếu câu hỏi
+   không nhắc tới) — nhưng ĐƯỢC PHÉP, và BẮT BUỘC, suy luận ra khái niệm pháp lý tương ứng với
+   chi tiết thị giác/đời thường đã có sẵn trong câu hỏi (vd "mũi tên đèn xanh/đỏ" → khái niệm
+   "đèn tín hiệu giao thông" — đây là quy đổi đúng bản chất, không phải bịa thêm).
+3. Quy đổi từ ngữ đời thường sang thuật ngữ pháp lý giao thông chuẩn (vd "say xỉn" → "sử dụng
+   rượu, bia"/"có nồng độ cồn"; "xe máy" giữ nguyên vì đã là thuật ngữ chuẩn).
 4. Giữ đúng CỰC TÍNH (phủ định/khẳng định) như câu hỏi gốc — không tự ý đảo ngược nghĩa.
-5. Nếu câu hỏi đã sẵn văn phong luật, gần như giữ nguyên, chỉ sửa lỗi/rút gọn phần thừa nếu có.
+5. Câu viết lại nên bám khuôn mẫu phổ biến trong luật: "Người điều khiển [loại xe] [hành vi] tại
+   nơi có [điều kiện/loại biển báo/loại đèn tín hiệu]." — điều chỉnh linh hoạt theo tình huống.
 
-Chỉ trả về đúng đoạn văn bản đã viết lại, KHÔNG giải thích thêm, KHÔNG thêm tiêu đề."""
+VÍ DỤ:
+Input: "Các anh chị cho e hỏi mũi tên xanh đc rẽ phải nhưng lại có mũi lên đi thẳng và rẽ phải đỏ
+thì oto có đc rẽ phải khi đèn đỏ ko ạ"
+Suy luận: chủ thể = người điều khiển ô tô; hành vi cốt lõi = rẽ phải; bối cảnh = tại nơi có đèn
+tín hiệu giao thông (mũi tên xanh/đỏ chỉ là chi tiết thị giác của đèn tín hiệu, không phải khái
+niệm pháp lý riêng biệt cần giữ lại).
+Output: "Người điều khiển ô tô rẽ phải tại nơi có đèn tín hiệu giao thông."
+
+Trả về đúng JSON:
+{"suy_luan": "chủ thể ... | hành vi ... | bối cảnh ...", "normalized_text": "câu đã viết lại"}"""
 
 EXTRACT_SYSTEM_PROMPT = """\
 Bạn là chuyên gia trích xuất triplet ngữ nghĩa cho lĩnh vực pháp lý giao thông đường bộ Việt Nam.
@@ -69,6 +95,13 @@ Từ đoạn văn bản đã chuẩn hoá, tách thành các sub-triplet (subjec
    giữ hành vi cốt lõi.
 6. Viết s/v/o dạng chuẩn hoá, viết hoa chữ cái đầu, ngắn gọn — giống tên gọi trong luật, không
    phải nguyên văn cả cụm dài từ câu hỏi.
+7. Verb NỘI TẠI (tự thân thay đổi trạng thái của chính chủ thể/xe — quay đầu, chuyển hướng, rẽ
+   trái/phải, dừng, đỗ, lùi, tránh) → object PHẢI là chính chủ thể/xe đang thực hiện, KHÔNG PHẢI
+   địa điểm/điều kiện đi kèm. Vd "rẽ phải tại nơi có đèn tín hiệu" → (Người, Rẽ phải, Ô tô), TUYỆT
+   ĐỐI không gộp thành (Người, Rẽ phải, Nơi có đèn tín hiệu giao thông).
+8. Cụm "tại nơi có Z" (Z = biển báo hiệu/đèn tín hiệu giao thông/vạch kẻ đường/loại đường...) LUÔN
+   tách thành 1 sub-triplet RIÊNG dùng relation "Tại": (Người, Tại, Z) — độc lập với triplet hành
+   vi chính (điều khiển/rẽ/dừng...), không gộp Z vào làm object của verb khác.
 
 VÍ DỤ:
 Input: "Người điều khiển xe ô tô có nồng độ cồn trong máu bị xử phạt như thế nào?"
@@ -86,6 +119,13 @@ Output: {"triplets": [
   {"s": "Lái xe", "v": "Đủ", "o": "Số năm kinh nghiệm"}
 ]}
 
+Input: "Người điều khiển ô tô rẽ phải tại nơi có đèn tín hiệu giao thông."
+Output: {"triplets": [
+  {"s": "Người", "v": "Điều khiển", "o": "Ô tô"},
+  {"s": "Người", "v": "Rẽ phải", "o": "Ô tô"},
+  {"s": "Người", "v": "Tại", "o": "Đèn tín hiệu giao thông"}
+]}
+
 Trả về đúng JSON: {"triplets": [{"s": "...", "v": "...", "o": "..."}]}"""
 
 
@@ -93,16 +133,21 @@ def log(msg: str) -> None:
     print(msg, flush=True)
 
 
-def normalize_question(text: str) -> str:
+def normalize_question(text: str) -> tuple[str, str]:
+    """Trả về (suy_luận, normalized_text). "suy_luận" chỉ để log/debug — ép model xác định rõ
+    chủ thể/hành vi/bối cảnh TRƯỚC khi viết câu cuối, không phải phần dùng tiếp ở bước sau."""
     resp = client.chat.completions.create(
         model=MODEL,
+        response_format={"type": "json_object"},
         temperature=0,
         messages=[
             {"role": "system", "content": NORMALIZE_SYSTEM_PROMPT},
             {"role": "user", "content": text},
         ],
     )
-    return (resp.choices[0].message.content or "").strip()
+    content = resp.choices[0].message.content
+    result = json.loads(content) if content else {}
+    return result.get("suy_luan", ""), (result.get("normalized_text") or "").strip()
 
 
 def extract_triplets(text: str) -> list[dict]:
@@ -129,7 +174,8 @@ def main():
     log(f"Câu hỏi gốc:\n  {question}")
 
     log("\nĐang chuẩn hoá câu hỏi (GPT-4o)...")
-    normalized = normalize_question(question)
+    suy_luan, normalized = normalize_question(question)
+    log(f"Suy luận: {suy_luan}")
     log(f"Đã chuẩn hoá:\n  {normalized}")
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
