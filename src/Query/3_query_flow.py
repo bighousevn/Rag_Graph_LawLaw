@@ -46,7 +46,8 @@ KG_FILE           = os.path.join(BUILD_OUTPUT_DIR, "kg_triplets.json")
 TRIPLETS_RAW_FILE = os.path.join(BUILD_OUTPUT_DIR, "triplets_raw.json")
 
 TOP_K     = 5
-THRESHOLD = 0.5
+THRESHOLD = 0.8
+MAX_FINAL_SECTIONS = 10
 
 
 def log(msg: str) -> None:
@@ -108,7 +109,17 @@ def search(vector, row_type: str, vectors, rows, idxs_by_type, all_ids: set,
     return result
 
 
-def match_triplet(triplet: dict, vectors, rows, edges, idxs_by_type, all_node_ids, all_edge_ids) -> dict:
+def _format_matches(score_dict: dict[str, float], name_of, is_wildcard: bool):
+    """listS/listV/listO ở dạng đọc được: [{"id","name","score"}], sắp giảm dần theo điểm.
+    "*" (is_wildcard=True, khớp toàn bộ id cùng loại) không liệt kê hết (có thể hàng trăm/nghìn
+    id) — chỉ ghi rõ đây là wildcard."""
+    if is_wildcard:
+        return "* (khớp toàn bộ)"
+    items = sorted(score_dict.items(), key=lambda x: -x[1])
+    return [{"id": id_, "name": name_of(id_), "score": round(score, 3)} for id_, score in items]
+
+
+def match_triplet(triplet: dict, vectors, rows, edges, node_names, idxs_by_type, all_node_ids, all_edge_ids) -> dict:
     s_scores = search(triplet["s"]["vector"], "concept", vectors, rows, idxs_by_type, all_node_ids)
     v_scores = search(triplet["v"]["vector"], "relation", vectors, rows, idxs_by_type, all_edge_ids)
     o_scores = search(triplet["o"]["vector"], "concept", vectors, rows, idxs_by_type, all_node_ids)
@@ -121,9 +132,13 @@ def match_triplet(triplet: dict, vectors, rows, edges, idxs_by_type, all_node_id
         if not e or e["source"] not in listS or e["target"] not in listO:
             continue
         score = min(s_scores[e["source"]], v_scores[eid], o_scores[e["target"]])
-        matched_edges.append({"edge_id": eid, "score": score,
-                               "source": e["source"], "relation": e["relation"], "target": e["target"],
-                               "section_ids": e["section_ids"]})
+        matched_edges.append({
+            "edge_id": eid, "score": round(score, 3),
+            "source": e["source"], "source_name": node_names.get(e["source"], e["source"]),
+            "relation": e["relation"],
+            "target": e["target"], "target_name": node_names.get(e["target"], e["target"]),
+            "section_ids": e["section_ids"],
+        })
     matched_edges.sort(key=lambda m: -m["score"])
 
     section_ids: set = set()
@@ -132,6 +147,9 @@ def match_triplet(triplet: dict, vectors, rows, edges, idxs_by_type, all_node_id
 
     return {
         "query": {"s": triplet["s"]["name"], "v": triplet["v"]["name"], "o": triplet["o"]["name"]},
+        "listS": _format_matches(s_scores, lambda i: node_names.get(i, i), triplet["s"]["vector"] is None),
+        "listV": _format_matches(v_scores, lambda i: edges.get(i, {}).get("relation", i), triplet["v"]["vector"] is None),
+        "listO": _format_matches(o_scores, lambda i: node_names.get(i, i), triplet["o"]["vector"] is None),
         "matched_edges": matched_edges,
         "section_ids": sorted(section_ids),
     }
@@ -145,7 +163,7 @@ def combine(per_triplet_results: list[dict]) -> dict:
 
     inter = set.intersection(*non_empty) if len(non_empty) > 1 else non_empty[0]
     if inter:
-        return {"strategy": "intersection", "section_ids": sorted(inter)}
+        return {"strategy": "intersection", "section_ids": sorted(inter)[:MAX_FINAL_SECTIONS]}
 
     # Giao rỗng — KHÔNG lấy toàn bộ union. Đếm mỗi section_id được bao nhiêu sub-triplet (không
     # rỗng) cùng trỏ tới, chỉ giữ section có số lượng phủ CAO NHẤT (đồng thuận nhiều nhất). Nếu
@@ -158,7 +176,7 @@ def combine(per_triplet_results: list[dict]) -> dict:
     best = {sid for sid, cnt in coverage.items() if cnt == max_count}
     return {
         "strategy": "best_coverage_fallback",
-        "section_ids": sorted(best),
+        "section_ids": sorted(best)[:MAX_FINAL_SECTIONS],
         "coverage": max_count,
         "coverage_out_of": len(non_empty),
     }
@@ -174,14 +192,13 @@ def main():
 
     per_triplet_results = []
     for t in triplets:
-        r = match_triplet(t, vectors, rows, edges, idxs_by_type, all_node_ids, all_edge_ids)
+        r = match_triplet(t, vectors, rows, edges, node_names, idxs_by_type, all_node_ids, all_edge_ids)
         per_triplet_results.append(r)
         log(f"\nSub-triplet: ({r['query']['s']}, {r['query']['v']}, {r['query']['o']})")
         if not r["matched_edges"]:
             log("  => Không khớp edge nào trong đồ thị")
         for m in r["matched_edges"][:5]:
-            log(f"  => ({node_names.get(m['source'])}, {m['relation']}, {node_names.get(m['target'])}) "
-                f"score={m['score']:.3f}")
+            log(f"  => ({m['source_name']}, {m['relation']}, {m['target_name']}) score={m['score']:.3f}")
         log(f"  section_ids: {r['section_ids']}")
 
     final = combine(per_triplet_results)
@@ -199,7 +216,21 @@ def main():
         for p in sec["propositions"]:
             log(f"      {p}")
 
-    result = {"per_triplet": per_triplet_results, "final": final}
+    # Gộp mọi field "section_ids" (list) thành 1 chuỗi nối dấu phẩy — với indent=2, mảng JSON dài
+    # hàng trăm phần tử bị dàn mỗi id 1 dòng, rất khó xem; chuỗi 1 dòng dễ đọc/dễ so sánh hơn hẳn.
+    export_per_triplet = []
+    for r in per_triplet_results:
+        r2 = dict(r)
+        r2["section_ids"] = ", ".join(r["section_ids"])
+        r2["matched_edges"] = [
+            {**m, "section_ids": ", ".join(m["section_ids"])} for m in r["matched_edges"]
+        ]
+        export_per_triplet.append(r2)
+
+    final_export = dict(final)
+    final_export["section_ids"] = ", ".join(final["section_ids"])
+
+    result = {"per_triplet": export_per_triplet, "final": final_export}
     tmp = OUT_RESULT + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
