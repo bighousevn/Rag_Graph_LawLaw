@@ -319,8 +319,8 @@
     {
       "query": {
         "s": "Người",
-        "v": "Đi qua",
-        "o": "Ngã tư"
+        "v": "Chở",
+        "o": "Quá số người quy định"
       },
       "listS": [
         {
@@ -331,537 +331,132 @@
       ],
       "listV": [
         {
-          "id": "E0427",
-          "name": "Đi qua",
+          "id": "E0197",
+          "name": "Chở",
           "score": 1.0
         },
         {
-          "id": "E0534",
-          "name": "Đi qua",
+          "id": "E0221",
+          "name": "Chở",
           "score": 1.0
         },
         {
-          "id": "E1170",
-          "name": "Đi qua",
+          "id": "E0388",
+          "name": "Chở",
           "score": 1.0
         },
         {
-          "id": "E0590",
-          "name": "Đi qua",
+          "id": "E0413",
+          "name": "Chở",
           "score": 1.0
         },
         {
-          "id": "E0589",
-          "name": "Vượt qua",
-          "score": 0.813
+          "id": "E0627",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E0642",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E0651",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E0938",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E0939",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E0940",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1013",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1014",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1132",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1139",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1156",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1337",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1338",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1341",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1264",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1252",
+          "name": "Chở",
+          "score": 1.0
+        },
+        {
+          "id": "E1229",
+          "name": "Chở",
+          "score": 1.0
         }
       ],
-      "listO": [],
+      "listO": [
+        {
+          "id": "C0367",
+          "name": "Số người quy định",
+          "score": 0.811
+        }
+      ],
       "matched_edges": [],
       "section_ids": ""
     },
     {
       "query": {
-        "s": "Người",
-        "v": "Tại",
-        "o": "Đèn tín hiệu giao thông chuyển đỏ"
+        "s": "*",
+        "v": "Phát hiện",
+        "o": "Camera giám sát giao thông"
       },
-      "listS": [
-        {
-          "id": "C0262",
-          "name": "Người",
-          "score": 1.0
-        }
-      ],
+      "listS": "* (khớp toàn bộ)",
       "listV": [
         {
-          "id": "E0528",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1163",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1209",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0723",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0726",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0611",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0612",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0002",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0764",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0021",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1227",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1228",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1192",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1193",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1012",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1088",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1093",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1187",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0530",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0235",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0532",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0194",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0195",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0198",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0200",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0201",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0212",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0214",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0219",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0225",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0228",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0236",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0237",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0238",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0239",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0240",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0241",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0245",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0251",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0252",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0255",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0257",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0259",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0260",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0272",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0273",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0274",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0275",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0276",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0277",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0295",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0298",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0299",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0302",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0328",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0330",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0331",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0395",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0401",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0404",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0406",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0409",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0410",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0500",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0502",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0506",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0507",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0510",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0519",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0520",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0525",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0526",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0531",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0535",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0564",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0652",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0956",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0957",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1032",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1035",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1036",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1037",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1065",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1066",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1125",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1201",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0318",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0004",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0716",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0717",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0022",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0637",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0544",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0321",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0553",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1000",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E1293",
-          "name": "Tại",
-          "score": 1.0
-        },
-        {
-          "id": "E0533",
-          "name": "Tại",
+          "id": "E0139",
+          "name": "Phát hiện",
           "score": 1.0
         }
       ],
@@ -878,81 +473,61 @@
         "section_id": "s144",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm a",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường, trừ các hành vi vi phạm quy định tại điểm b, điểm d, điểm e khoản 2; điểm a, điểm c, điểm d, điểm h khoản 3; điểm a, điểm b, điểm c, điểm d khoản 4; điểm b, điểm d khoản 6; điểm a, điểm b, điểm c khoản 7; điểm a khoản 8; điểm b khoản 9; điểm a khoản 10 Điều này;"
       },
       {
         "section_id": "s145",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm b",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không có tín hiệu trước khi vượt hoặc có tín hiệu vượt xe nhưng không sử dụng trong suốt quá trình vượt xe."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: b) Không có tín hiệu trước khi vượt hoặc có tín hiệu vượt xe nhưng không sử dụng trong suốt quá trình vượt xe;"
       },
       {
         "section_id": "s146",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm c",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy lùi xe mô tô ba bánh không quan sát hai bên, phía sau xe hoặc không có tín hiệu lùi xe."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: c) Lùi xe mô tô ba bánh không quan sát hai bên, phía sau xe hoặc không có tín hiệu lùi xe;"
       },
       {
         "section_id": "s147",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm d",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy chở người ngồi trên xe sử dụng ô (dù)."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: d) Chở người ngồi trên xe sử dụng ô (dù);"
       },
       {
         "section_id": "s148",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm đ",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không tuân thủ các quy định về nhường đường tại nơi đường giao nhau."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: đ) Không tuân thủ các quy định về nhường đường tại nơi đường giao nhau, trừ các hành vi vi phạm quy định tại điểm c, điểm d khoản 6 Điều này;"
       },
       {
         "section_id": "s149",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm e",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước hoặc chuyển làn đường không đúng quy định."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: e) Chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước hoặc chuyển làn đường không đúng quy định “mỗi lần chuyển làn đường chỉ được phép chuyển sang một làn đường liền kề”;"
       },
       {
         "section_id": "s150",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm g",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không sử dụng đèn chiếu sáng trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: g) Không sử dụng đèn chiếu sáng trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn;"
       },
       {
         "section_id": "s151",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm h",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy tránh xe không đúng quy định; sử dụng đèn chiếu xa khi gặp người đi bộ qua đường hoặc khi đi trên đoạn đường qua khu dân cư có hệ thống chiếu sáng đang hoạt động hoặc khi gặp xe đi ngược chiều."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: h) Tránh xe không đúng quy định; sử dụng đèn chiếu xa khi gặp người đi bộ qua đường hoặc khi đi trên đoạn đường qua khu dân cư có hệ thống chiếu sáng đang hoạt động hoặc khi gặp xe đi ngược chiều (trừ trường hợp dải phân cách có khả năng chống chói) hoặc khi chuyển hướng xe tại nơi đường giao nhau; không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật;"
       },
       {
         "section_id": "s152",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm i",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: i) Sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, trừ các xe ưu tiên đang đi làm nhiệm vụ theo quy định;"
       },
       {
         "section_id": "s153",
         "path": "Chương II - Mục 1 - Điều 7 - Khoản 1 - Điểm k",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "propositions": [
-          "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe chạy dưới tốc độ tối thiểu trên đoạn đường bộ có quy định tốc độ tối thiểu cho phép."
-        ]
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: k) Điều khiển xe chạy dưới tốc độ tối thiểu trên đoạn đường bộ có quy định tốc độ tối thiểu cho phép."
       }
     ]
   }

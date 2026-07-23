@@ -43,7 +43,11 @@ BUILD_OUTPUT_DIR  = os.path.join(os.path.dirname(BASE_DIR), "Building_KG", "onto
 KEYPHRASE_VECTORS = os.path.join(BUILD_OUTPUT_DIR, "keyphrase_vectors.npy")
 KEYPHRASE_ROWS    = os.path.join(BUILD_OUTPUT_DIR, "keyphrase_rows.json")
 KG_FILE           = os.path.join(BUILD_OUTPUT_DIR, "kg_triplets.json")
-TRIPLETS_RAW_FILE = os.path.join(BUILD_OUTPUT_DIR, "triplets_raw.json")
+
+# Văn bản GỐC (chưa viết lại) — nằm ở material_for_triplets, không phải ontology/output (đó là
+# bản đã rewritten dùng để trích triplet, không phải văn bản luật thật để trích dẫn cho người dùng).
+MATERIAL_FILE = os.path.join(os.path.dirname(BASE_DIR), "Building_KG", "material_for_triplets",
+                              "2_sections_rewritten_nghi_dinh_168_2024_1.json")
 
 TOP_K     = 5
 THRESHOLD = 0.8
@@ -74,15 +78,16 @@ def load_index():
 
 
 def load_section_texts() -> dict[str, dict]:
-    """section_id -> {path, document_name, propositions} — lấy từ triplets_raw.json (nguồn gốc
-    của cả pipeline build), để gắn văn bản đã viết lại (rewritten) vào kết quả truy vấn cuối."""
-    with open(TRIPLETS_RAW_FILE, encoding="utf-8") as f:
+    """section_id -> {path, document_name, text_content} — lấy từ MATERIAL_FILE (văn bản GỐC,
+    chưa viết lại), để gắn đúng nguyên văn điều khoản luật vào kết quả truy vấn cuối (không phải
+    bản rewritten_propositions dùng nội bộ để trích triplet)."""
+    with open(MATERIAL_FILE, encoding="utf-8") as f:
         sections = json.load(f)
     return {
         s["id"]: {
             "path": s.get("path"),
             "document_name": s.get("document_name"),
-            "propositions": s.get("propositions", []),
+            "text_content": s.get("text_content", ""),
         }
         for s in sections
     }
@@ -204,7 +209,7 @@ def main():
     final = combine(per_triplet_results)
     section_texts = load_section_texts()
     final["sections"] = [
-        {"section_id": sid, **section_texts.get(sid, {"path": None, "document_name": None, "propositions": []})}
+        {"section_id": sid, **section_texts.get(sid, {"path": None, "document_name": None, "text_content": ""})}
         for sid in final["section_ids"]
     ]
 
@@ -213,8 +218,7 @@ def main():
         log(f"  (đồng thuận {final['coverage']}/{final['coverage_out_of']} sub-triplet)")
     for sec in final["sections"]:
         log(f"  [{sec['section_id']}] {sec['path']}")
-        for p in sec["propositions"]:
-            log(f"      {p}")
+        log(f"      {sec['text_content']}")
 
     # Gộp mọi field "section_ids" (list) thành 1 chuỗi nối dấu phẩy — với indent=2, mảng JSON dài
     # hàng trăm phần tử bị dàn mỗi id 1 dòng, rất khó xem; chuỗi 1 dòng dễ đọc/dễ so sánh hơn hẳn.
