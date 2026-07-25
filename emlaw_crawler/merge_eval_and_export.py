@@ -14,11 +14,11 @@ EVAL_BATCH_DIR = Path(
     "/private/tmp/claude-501/-Users-tranhuuduc-Documents-dev-Rag-Graph-LawLaw"
     "/7721b141-7323-40f2-a20b-5bdd90af496a/scratchpad"
 )
-BATCH_FILES = [f"qa_eval_batch_{i}.json" for i in range(1, 4)]
-STT_RANGE = range(1, 31)  # chỉ gộp các câu đã được đánh giá trong lần chạy này
+BATCH_FILES = [f"qa_eval_batch_{i}.json" for i in range(4, 7)]
+STT_RANGE = range(31, 61)  # chỉ gộp các câu đã được đánh giá trong lần chạy này
 
-OUT_JSON_PATH = BASE_DIR / "emlaw_qa_evaluated_1_30.json"
-OUT_XLSX_PATH = BASE_DIR / "emlaw_qa_evaluated_1_30.xlsx"
+OUT_JSON_PATH = BASE_DIR / "emlaw_qa_evaluated_31_60.json"
+OUT_XLSX_PATH = BASE_DIR / "emlaw_qa_evaluated_31_60.xlsx"
 
 CRITERIA = [
     "xac_dinh_dung_van_de",
