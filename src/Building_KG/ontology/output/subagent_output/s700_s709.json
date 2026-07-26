@@ -1,10 +1,10 @@
 [
   {
-    "id": "s674",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 12 - Điểm b",
+    "id": "s700",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 60 - Điểm b",
     "document_name": "Nghị định 168:2024/NĐ-CP",
     "propositions": [
-      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô đưa xe cơ giới, xe máy chuyên dùng có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường nhưng đã hết hiệu lực dưới 01 tháng tham gia giao thông."
+      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi phạm quy định tại điểm b khoản 3 Điều 22 hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 3 Điều 22."
     ],
     "triplets": [
       {
@@ -22,34 +22,8 @@
       },
       {
         "s": "Tổ chức",
-        "v": "Đưa",
-        "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Ô tô",
-        "v": "Tham gia",
-        "o": "Giao thông",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Ô tô",
-        "v": "Có",
-        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": [
-          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"
-        ]
-      },
-      {
-        "s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "v": "Hết",
-        "o": "Hiệu lực",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": []
@@ -57,11 +31,11 @@
     ]
   },
   {
-    "id": "s675",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 12 - Điểm c",
+    "id": "s701",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 60 - Điểm c",
     "document_name": "Nghị định 168:2024/NĐ-CP",
     "propositions": [
-      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định."
+      "Chủ phương tiện là tổ chức, xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 3 Điều 22 của Nghị định này."
     ],
     "triplets": [
       {
@@ -116,23 +90,15 @@
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": []
-      },
-      {
-        "s": "Tổ chức",
-        "v": "Điều khiển",
-        "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
       }
     ]
   },
   {
-    "id": "s676",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 12 - Điểm d",
+    "id": "s702",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 60 - Điểm d",
     "document_name": "Nghị định 168:2024/NĐ-CP",
     "propositions": [
-      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định."
+      "Chủ phương tiện là tổ chức, xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm d khoản 3 Điều 22 của Nghị định này."
     ],
     "triplets": [
       {
@@ -187,9 +153,64 @@
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s703",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 60 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là tổ chức, xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 4 Điều 34 của Nghị định này."
+    ],
+    "triplets": [
+      {
+        "s": "Tổ chức",
+        "v": "Là chủ",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô"
+        ]
       },
       {
         "s": "Tổ chức",
+        "v": "Giao",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người làm công",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người đại diện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người làm công",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người đại diện",
         "v": "Điều khiển",
         "o": "Phương tiện",
         "s_keyphrases": [],
@@ -199,11 +220,137 @@
     ]
   },
   {
-    "id": "s677",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 12 - Điểm đ",
+    "id": "s704",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 60 - Điểm e",
     "document_name": "Nghị định 168:2024/NĐ-CP",
     "propositions": [
-      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô đưa phương tiện có chứng nhận đăng ký xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe nhưng không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa tham gia giao thông; đưa phương tiện có chứng nhận đăng ký xe nhưng không đúng với số khung, số động cơ của xe tham gia giao thông."
+      "Chủ phương tiện là tổ chức, xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 4 Điều 34 của Nghị định này."
+    ],
+    "triplets": [
+      {
+        "s": "Tổ chức",
+        "v": "Là chủ",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Giao",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người làm công",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người đại diện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người làm công",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người đại diện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s705",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 60 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là tổ chức, xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 4 Điều 34 của Nghị định này."
+    ],
+    "triplets": [
+      {
+        "s": "Tổ chức",
+        "v": "Là chủ",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Giao",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người làm công",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người đại diện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người làm công",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người đại diện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s706",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 60 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là tổ chức, xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô đưa xe ô tô tải có kích thước thùng xe không đúng với thông số kỹ thuật được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe tham gia giao thông."
     ],
     "triplets": [
       {
@@ -222,65 +369,39 @@
       {
         "s": "Tổ chức",
         "v": "Đưa",
-        "o": "Phương tiện",
+        "o": "Xe ô tô tải",
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": []
       },
       {
-        "s": "Phương tiện",
-        "v": "Tham gia",
-        "o": "Giao thông",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Phương tiện",
+        "s": "Xe ô tô tải",
         "v": "Có",
-        "o": "Chứng nhận đăng ký xe",
+        "o": "Kích thước thùng xe",
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": []
       },
       {
-        "s": "Phương tiện",
-        "v": "Có",
+        "s": "Kích thước thùng xe",
+        "v": "Đúng",
+        "o": "Thông số kỹ thuật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông số kỹ thuật",
+        "v": "Ghi",
         "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
         "s_keyphrases": [],
         "v_keyphrases": [],
-        "o_keyphrases": [
-          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"
-        ]
-      },
-      {
-        "s": "Chứng nhận đăng ký xe",
-        "v": "Cấp",
-        "o": "Cơ quan có thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
         "o_keyphrases": []
       },
       {
-        "s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "v": "Cấp",
-        "o": "Cơ quan có thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Chứng nhận đăng ký xe",
-        "v": "Đúng",
-        "o": "Số khung",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Chứng nhận đăng ký xe",
-        "v": "Đúng",
-        "o": "Số động cơ",
+        "s": "Xe ô tô tải",
+        "v": "Tham gia",
+        "o": "Giao thông",
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": []
@@ -288,11 +409,11 @@
     ]
   },
   {
-    "id": "s678",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 12 - Điểm e",
+    "id": "s707",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 60 - Điểm i",
     "document_name": "Nghị định 168:2024/NĐ-CP",
     "propositions": [
-      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô không thực hiện đúng quy định về biển số, quy định về kẻ hoặc dán chữ, số biển số, thông tin trên thành xe, cửa xe."
+      "Chủ phương tiện là tổ chức, xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao xe hoặc để cho người không đủ điều kiện theo quy định tại khoản 1 Điều 56 điều khiển xe tham gia giao thông."
     ],
     "triplets": [
       {
@@ -310,125 +431,38 @@
       },
       {
         "s": "Tổ chức",
-        "v": "Tuân thủ",
-        "o": "Quy định về biển số xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Tổ chức",
-        "v": "Tuân thủ",
-        "o": "Quy định về thông tin trên xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      }
-    ]
-  },
-  {
-    "id": "s679",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 10",
-    "document_name": "Nghị định 168:2024/NĐ-CP",
-    "propositions": [
-      "Cá nhân và tổ chức vi phạm quy định liên quan đến giao thông đường bộ."
-    ],
-    "triplets": [
-      {
-        "s": "Cá nhân",
-        "v": "Vi phạm",
-        "o": "Quy định giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Tổ chức",
-        "v": "Vi phạm",
-        "o": "Quy định giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      }
-    ]
-  },
-  {
-    "id": "s680",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 20",
-    "document_name": "Nghị định 168:2024/NĐ-CP",
-    "propositions": [
-      "Tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy giao xe hoặc để cho người không đủ điều kiện theo quy định điều khiển xe tham gia giao thông."
-    ],
-    "triplets": [
-      {
-        "s": "Tổ chức",
-        "v": "Là chủ",
-        "o": "Xe mô tô",
+        "v": "Giao",
+        "o": "Phương tiện",
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": [
-          "xe mô tô",
-          "xe gắn máy",
-          "các loại xe tương tự xe mô tô",
-          "các loại xe tương tự xe gắn máy"
+          "xe"
         ]
       },
       {
         "s": "Tổ chức",
-        "v": "Giao",
-        "o": "Xe mô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Tổ chức",
         "v": "Để cho",
-        "o": "Người",
+        "o": "Người không đủ điều kiện",
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": []
       },
       {
-        "s": "Người",
-        "v": "Đủ",
-        "o": "Điều kiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Người",
+        "s": "Người không đủ điều kiện",
         "v": "Điều khiển",
-        "o": "Xe mô tô",
+        "o": "Phương tiện",
         "s_keyphrases": [],
         "v_keyphrases": [],
-        "o_keyphrases": []
+        "o_keyphrases": [
+          "xe"
+        ]
       },
       {
-        "s": "Xe mô tô",
+        "s": "Phương tiện",
         "v": "Tham gia",
         "o": "Giao thông",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      }
-    ]
-  },
-  {
-    "id": "s681",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 11",
-    "document_name": "Nghị định 168:2024/NĐ-CP",
-    "propositions": [
-      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ."
-    ],
-    "triplets": [
-      {
-        "s": "Chủ xe",
-        "v": "Vi phạm",
-        "o": "Quy định giao thông đường bộ",
         "s_keyphrases": [
-          "chủ phương tiện"
+          "xe"
         ],
         "v_keyphrases": [],
         "o_keyphrases": []
@@ -436,60 +470,29 @@
     ]
   },
   {
-    "id": "s682",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 24 - Điểm a",
+    "id": "s708",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 15",
     "document_name": "Nghị định 168:2024/NĐ-CP",
     "propositions": [
-      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô đưa xe cơ giới, xe máy chuyên dùng không có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường tham gia giao thông."
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ."
     ],
     "triplets": [
       {
-        "s": "Tổ chức",
-        "v": "Là chủ",
-        "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": [
-          "xe ô tô",
-          "xe chở người bốn bánh có gắn động cơ",
-          "xe chở hàng bốn bánh có gắn động cơ",
-          "các loại xe tương tự xe ô tô"
-        ]
-      },
-      {
-        "s": "Tổ chức",
-        "v": "Đưa",
-        "o": "Ô tô",
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
         "s_keyphrases": [],
         "v_keyphrases": [],
         "o_keyphrases": []
-      },
-      {
-        "s": "Ô tô",
-        "v": "Tham gia",
-        "o": "Giao thông",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Ô tô",
-        "v": "Có",
-        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": [
-          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"
-        ]
       }
     ]
   },
   {
-    "id": "s683",
-    "path": "Chương II - Mục 5 - Điều 32 - Khoản 24 - Điểm b",
+    "id": "s709",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 80",
     "document_name": "Nghị định 168:2024/NĐ-CP",
     "propositions": [
-      "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm d khoản 5 Điều 21 hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm d khoản 5 Điều 21."
+      "Chủ phương tiện là tổ chức, xe ô tô, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 7 Điều 21 của Nghị định này."
     ],
     "triplets": [
       {
@@ -500,8 +503,6 @@
         "v_keyphrases": [],
         "o_keyphrases": [
           "xe ô tô",
-          "xe chở người bốn bánh có gắn động cơ",
-          "xe chở hàng bốn bánh có gắn động cơ",
           "các loại xe tương tự xe ô tô"
         ]
       },
@@ -539,14 +540,6 @@
       },
       {
         "s": "Người đại diện",
-        "v": "Điều khiển",
-        "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
-      },
-      {
-        "s": "Tổ chức",
         "v": "Điều khiển",
         "o": "Phương tiện",
         "s_keyphrases": [],

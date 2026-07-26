@@ -1,0 +1,164 @@
+[
+  {
+    "id": "s730",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 19 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ mà phương tiện có thùng xe, khối lượng hàng hóa cho phép chuyên chở không đúng theo quy định hiện hành buộc thực hiện điều chỉnh thùng xe theo đúng quy định hiện hành, đăng kiểm lại và điều chỉnh lại khối lượng hàng hóa cho phép chuyên chở ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định hiện hành trước khi đưa phương tiện ra tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều chỉnh", "o": "Thùng xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Đăng kiểm", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["đăng kiểm lại"], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Điều chỉnh", "o": "Khối lượng hàng hóa cho phép chuyên chở",
+       "s_keyphrases": [], "v_keyphrases": ["điều chỉnh lại"], "o_keyphrases": []},
+      {"s": "Khối lượng hàng hóa cho phép chuyên chở", "v": "Ghi trong", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s731",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 19 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ nếu gây hư hại cầu, đường phải khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Gây hư hại", "o": "Cầu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Gây hư hại", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Khôi phục", "o": "Tình trạng ban đầu",
+       "s_keyphrases": [], "v_keyphrases": ["khôi phục lại"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s732",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 19 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc làm thủ tục đổi, thu hồi, cấp mới, cấp chứng nhận đăng ký xe, biển số xe, giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Làm thủ tục", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Làm thủ tục", "o": "Biển số xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Làm thủ tục", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s733",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 19 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc tháo dỡ thiết bị âm thanh, ánh sáng lắp đặt trên xe gây mất trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Tháo dỡ", "o": "Thiết bị âm thanh, ánh sáng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị âm thanh, ánh sáng", "v": "Lắp đặt trên", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị âm thanh, ánh sáng", "v": "Gây mất", "o": "Trật tự",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị âm thanh, ánh sáng", "v": "Gây mất", "o": "An toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s734",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 19 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc nộp lại chứng nhận đăng ký xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe bị tẩy xóa."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Nộp lại", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Nộp lại", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Nộp lại", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s735",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 19 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc điều chỉnh lại chỉ số trên đồng hồ báo quãng đường của xe ô tô bị làm sai lệch."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều chỉnh", "o": "Chỉ số",
+       "s_keyphrases": [], "v_keyphrases": ["điều chỉnh lại"], "o_keyphrases": []},
+      {"s": "Chỉ số", "v": "Trên", "o": "Đồng hồ báo quãng đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đồng hồ báo quãng đường", "v": "Dành cho", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": ["xe ô tô"]}
+    ]
+  },
+  {
+    "id": "s736",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 19 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc lắp đặt dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ trên xe theo đúng quy định."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Lắp đặt", "o": "Dụng cụ, thiết bị cứu hộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dụng cụ, thiết bị cứu hộ", "v": "Lắp đặt trên", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s737",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 20",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ bị thu hồi hồ sơ đăng ký xe bị tẩy xóa, sửa chữa hoặc giả mạo; giấy tờ, tài liệu giả để được cấp lại biển số xe, chứng nhận đăng ký xe, giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Thu hồi", "o": "Hồ sơ đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thu hồi", "o": "Giấy tờ, tài liệu giả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy tờ, tài liệu giả", "v": "Cấp lại", "o": "Biển số xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy tờ, tài liệu giả", "v": "Cấp lại", "o": "Chứng nhận đăng ký xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy tờ, tài liệu giả", "v": "Cấp lại", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s738",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 21 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ trong trường hợp là người trực tiếp điều khiển phương tiện bị trừ điểm giấy phép lái xe 02 điểm."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Trừ điểm", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s739",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 21 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ trong trường hợp là người trực tiếp điều khiển phương tiện bị trừ điểm giấy phép lái xe 03 điểm."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Trừ điểm", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

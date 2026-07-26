@@ -1,0 +1,181 @@
+[
+  {
+    "id": "s950",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương có quyền phạt tiền đến 52.500.000 đồng."],
+    "triplets": [
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Áp dụng", "o": "Phạt tiền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s951",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."],
+    "triplets": [
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Đình chỉ", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s952",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."],
+    "triplets": [
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s953",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 105 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương có quyền áp dụng các biện pháp khắc phục hậu quả."],
+    "triplets": [
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s954",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 4 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra Bộ Giao thông vận tải, Cục trưởng Cục Đường bộ Việt Nam, Cục trưởng Cục Đăng kiểm Việt Nam có quyền phạt cảnh cáo."],
+    "triplets": [
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Áp dụng", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Áp dụng", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Áp dụng", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s955",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 4 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra Bộ Giao thông vận tải, Cục trưởng Cục Đường bộ Việt Nam, Cục trưởng Cục Đăng kiểm Việt Nam có quyền phạt tiền đến 75.000.000 đồng."],
+    "triplets": [
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Áp dụng", "o": "Phạt tiền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Áp dụng", "o": "Phạt tiền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Áp dụng", "o": "Phạt tiền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s956",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 4 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra Bộ Giao thông vận tải, Cục trưởng Cục Đường bộ Việt Nam, Cục trưởng Cục Đăng kiểm Việt Nam có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."],
+    "triplets": [
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Đình chỉ", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Đình chỉ", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Đình chỉ", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s957",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 4 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra Bộ Giao thông vận tải, Cục trưởng Cục Đường bộ Việt Nam, Cục trưởng Cục Đăng kiểm Việt Nam có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."],
+    "triplets": [
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s958",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 4 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Chánh Thanh tra Bộ Giao thông vận tải, Cục trưởng Cục Đường bộ Việt Nam, Cục trưởng Cục Đăng kiểm Việt Nam có quyền áp dụng các biện pháp khắc phục hậu quả."],
+    "triplets": [
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chánh Thanh tra Bộ Giao thông vận tải", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đường bộ Việt Nam", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Cục trưởng Cục Đăng kiểm Việt Nam", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s959",
+    "path": "Chương III - Mục 1 - Điều 45 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": ["Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thực hiện theo quy định tại Điều 52 của Luật Xử lý vi phạm hành chính."],
+    "triplets": []
+  }
+]

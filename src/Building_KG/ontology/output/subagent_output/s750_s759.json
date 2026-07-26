@@ -1,0 +1,184 @@
+[
+  {
+    "id": "s750",
+    "path": "Chương II - Mục 5 - Điều 33 - Khoản 3",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Hành khách đi xe đe dọa, xâm phạm sức khỏe của người khác đi trên xe, lái xe, nhân viên phục vụ trên xe."
+    ],
+    "triplets": [
+      {"s": "Hành khách", "v": "Đe dọa", "o": "Sức khỏe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Xâm phạm", "o": "Sức khỏe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Người khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Nhân viên phục vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s751",
+    "path": "Chương II - Mục 5 - Điều 33 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người thực hiện hành vi vi phạm quy định tại điểm a khoản 2 còn bị tịch thu hóa chất độc hại, chất dễ cháy, nổ, hàng nguy hiểm, hàng cấm lưu thông mang theo trên xe chở khách."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Mang theo", "o": "Hóa chất độc hại",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Chất dễ cháy nổ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Hàng nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Mang theo", "o": "Hàng cấm lưu thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Xe chở khách",
+       "s_keyphrases": [], "v_keyphrases": ["trên"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s752",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ không thực hiện đúng quy định trong giấy phép lưu hành."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
+      {"s": "Người", "v": "Thực hiện đúng", "o": "Giấy phép lưu hành",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s753",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe mà tổng trọng lượng (khối lượng toàn bộ) của xe vượt quá tải trọng cho phép của đường bộ trên 10% đến 20%."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
+      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Tải trọng đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tải trọng cho phép của đường bộ"]}
+    ]
+  },
+  {
+    "id": "s754",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ chở hàng vượt khổ giới hạn của xe hoặc của đường bộ ghi trong giấy phép lưu hành."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
+      {"s": "Người", "v": "Chở", "o": "Hàng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hàng", "v": "Vượt quá", "o": "Khổ giới hạn xe",
+       "s_keyphrases": [], "v_keyphrases": ["vượt"], "o_keyphrases": []},
+      {"s": "Hàng", "v": "Vượt quá", "o": "Khổ giới hạn đường bộ",
+       "s_keyphrases": [], "v_keyphrases": ["vượt"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s755",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe bánh xích tham gia giao thông không có giấy phép lưu hành hoặc có giấy phép lưu hành nhưng không còn giá trị sử dụng theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe bánh xích",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lưu hành", "v": "Còn", "o": "Giá trị sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s756",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe có kích thước bao ngoài vượt quá khổ giới hạn của đường bộ hoặc chở hàng vượt khổ giới hạn của đường bộ hoặc chở hàng vượt quá kích thước giới hạn xếp hàng hóa của xe tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
+      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Khổ giới hạn đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chở", "o": "Hàng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hàng", "v": "Vượt quá", "o": "Khổ giới hạn đường bộ",
+       "s_keyphrases": [], "v_keyphrases": ["vượt"], "o_keyphrases": []},
+      {"s": "Hàng", "v": "Vượt quá", "o": "Giới hạn xếp hàng hóa xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s757",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe có kích thước bao ngoài vượt quá kích thước giới hạn cho phép của xe theo quy định."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
+      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Kích thước giới hạn xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s758",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 4 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe mà tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng trục xe vượt quá tải trọng cho phép của đường bộ trên 20% đến 50%."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
+      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Tải trọng đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tải trọng cho phép của đường bộ"]},
+      {"s": "Tải trọng trục xe", "v": "Vượt quá", "o": "Tải trọng đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tải trọng cho phép của đường bộ"]}
+    ]
+  },
+  {
+    "id": "s759",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 4 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe có giấy phép lưu hành còn giá trị sử dụng nhưng tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng trục xe vượt quá quy định trong giấy phép lưu hành."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
+      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lưu hành", "v": "Còn", "o": "Giá trị sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Giấy phép lưu hành",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tải trọng trục xe", "v": "Vượt quá", "o": "Giấy phép lưu hành",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "id": "s840",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 7 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trung tâm sát hạch lái xe sử dụng máy tính trong phòng sát hạch lý thuyết kết nối với đường truyền ra ngoài phòng thi trái quy định."
+    ],
+    "triplets": [
+      {"s": "Trung tâm sát hạch lái xe", "v": "Sử dụng", "o": "Máy tính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Máy tính", "v": "Kết nối", "o": "Đường truyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s841",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 7 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trung tâm sát hạch lái xe cố tình để phương tiện, trang thiết bị chấm điểm hoạt động không chính xác trong kỳ sát hạch; để các dấu hiệu, ký hiệu trái quy định trên sân sát hạch, xe sát hạch trong kỳ sát hạch."
+    ],
+    "triplets": [
+      {"s": "Trung tâm sát hạch lái xe", "v": "Để", "o": "Trang thiết bị chấm điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện chấm điểm"]},
+      {"s": "Trang thiết bị chấm điểm", "v": "Thực hiện", "o": "Hoạt động không chính xác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Để", "o": "Dấu hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["ký hiệu"]},
+      {"s": "Dấu hiệu", "v": "Là", "o": "Trái quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dấu hiệu", "v": "Tại", "o": "Sân sát hạch",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dấu hiệu", "v": "Tại", "o": "Xe sát hạch",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s842",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 8",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giáo viên dạy thực hành để học viên thực hành lái xe thực hiện hành vi vi phạm quy định tại Điều 6 của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Giáo viên dạy lái xe", "v": "Để cho", "o": "Học viên",
+       "s_keyphrases": ["giáo viên dạy thực hành"], "v_keyphrases": [], "o_keyphrases": ["học viên thực hành lái xe"]},
+      {"s": "Học viên", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s843",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 9 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e khoản 3; điểm a, điểm b, điểm d, điểm đ, điểm e, điểm g khoản 4 Điều này."
+    ],
+    "triplets": [
+      {"s": "Cá nhân, tổ chức", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s844",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 9 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe thực hiện hành vi quy định tại điểm c khoản 4; điểm a, điểm b, điểm c, điểm d khoản 5."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s845",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 9 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trung tâm sát hạch lái xe thực hiện hành vi quy định tại điểm h khoản 3; điểm i, điểm k khoản 4; điểm đ, điểm e, điểm g, điểm h, điểm i khoản 5."
+    ],
+    "triplets": [
+      {"s": "Trung tâm sát hạch lái xe", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s846",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 9 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trung tâm sát hạch lái xe thực hiện hành vi quy định tại điểm k khoản 5, khoản 7."
+    ],
+    "triplets": [
+      {"s": "Trung tâm sát hạch lái xe", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s847",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 10",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân thực hiện hành vi vi phạm quy định tại điểm i khoản 3 Điều này."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s848",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không tuân thủ đúng quy định tại các quy trình, quy chuẩn kỹ thuật có liên quan trong chứng nhận, kiểm định xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Tuân thủ", "o": "Quy trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Tuân thủ", "o": "Quy chuẩn kỹ thuật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy trình", "v": "Liên quan", "o": "Kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng nhận"]},
+      {"s": "Quy chuẩn kỹ thuật", "v": "Liên quan", "o": "Kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng nhận"]},
+      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kiểm định", "v": "Liên quan", "o": "Phụ tùng xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s849",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân không thực hiện đúng chức trách, nhiệm vụ được phân công trong chứng nhận, kiểm định xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Chức trách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Thực hiện", "o": "Nhiệm vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chức trách", "v": "Liên quan", "o": "Kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng nhận"]},
+      {"s": "Nhiệm vụ", "v": "Liên quan", "o": "Kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng nhận"]},
+      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kiểm định", "v": "Liên quan", "o": "Phụ tùng xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

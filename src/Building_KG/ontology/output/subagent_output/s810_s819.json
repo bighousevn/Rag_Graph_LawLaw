@@ -1,0 +1,152 @@
+[
+  {
+    "id": "s810",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe tuyển sinh học viên không đủ điều kiện trình độ văn hóa, thời gian lái xe an toàn tương ứng với từng hạng đào tạo; tuyển sinh học viên không đủ hồ sơ theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Tuyển sinh", "o": "Học viên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Học viên", "v": "Đủ", "o": "Trình độ văn hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Học viên", "v": "Đủ", "o": "Thời gian lái xe an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Học viên", "v": "Đủ", "o": "Hồ sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s811",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 3 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe không có đủ số lượng giáo viên dạy thực hành lái xe các hạng để đáp ứng với kế hoạch sử dụng các xe tập lái dùng để đào tạo."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Đủ", "o": "Giáo viên dạy lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s812",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 3 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 01 khóa đào tạo."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Lưu trữ", "o": "Hồ sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s813",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 3 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trung tâm sát hạch lái xe không duy trì đủ các điều kiện quy định trong Quy chuẩn kỹ thuật quốc gia về Trung tâm sát hạch lái xe cơ giới đường bộ, trừ các hành vi vi phạm quy định tại khoản 4, khoản 5, khoản 7 Điều này."
+    ],
+    "triplets": [
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đủ", "o": "Điều kiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s814",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 3 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trung tâm sát hạch lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 01 kỳ sát hạch lái xe."
+    ],
+    "triplets": [
+      {"s": "Trung tâm sát hạch lái xe", "v": "Lưu trữ", "o": "Hồ sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s815",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 3 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân sử dụng các giấy tờ, tài liệu không đúng sự thật để được học, kiểm tra, sát hạch cấp mới, cấp lại giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ mà chưa đến mức bị truy cứu trách nhiệm hình sự."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Sử dụng", "o": "Giấy tờ giả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Cấp", "o": "Giấy phép lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Cấp", "o": "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s816",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 3 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người dự sát hạch mang điện thoại di động, thiết bị viễn thông liên lạc bằng hình ảnh, âm thanh vào phòng sát hạch lý thuyết, mô phỏng các tình huống giao thông, lên xe sát hạch hoặc có hành vi gian dối khác làm sai lệch kết quả sát hạch."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Dự", "o": "Sát hạch",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người dự sát hạch", "v": "Mang", "o": "Điện thoại",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["điện thoại di động"]},
+      {"s": "Người dự sát hạch", "v": "Mang", "o": "Thiết bị viễn thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người dự sát hạch", "v": "Tại", "o": "Phòng sát hạch lý thuyết",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người dự sát hạch", "v": "Tại", "o": "Mô phỏng tình huống giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người dự sát hạch", "v": "Tại", "o": "Xe sát hạch",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người dự sát hạch", "v": "Thực hiện", "o": "Hành vi gian dối",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành vi gian dối", "v": "Làm sai lệch", "o": "Kết quả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["kết quả sát hạch"]}
+    ]
+  },
+  {
+    "id": "s817",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe tổ chức tuyển sinh, đào tạo vượt quá lưu lượng quy định trong giấy phép đào tạo lái xe."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Tổ chức", "o": "Tuyển sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Tổ chức", "o": "Đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Vượt quá", "o": "Lưu lượng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s818",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe tổ chức đào tạo lái xe ngoài địa điểm được ghi trong giấy phép đào tạo lái xe."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Tổ chức", "o": "Đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Tại", "o": "Địa điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s819",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 02 khóa đào tạo trở lên."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Lưu trữ", "o": "Hồ sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "s760",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 4 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe có giấy phép lưu hành còn giá trị sử dụng nhưng đi không đúng tuyến đường quy định trong giấy phép lưu hành."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải, bánh xích",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích lưu hành đường bộ"]},
+      {"s": "Xe quá khổ, quá tải, bánh xích", "v": "Có", "o": "Giấy phép lưu hành",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe quá khổ, quá tải, bánh xích", "v": "Đi đúng", "o": "Tuyến đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tuyến đường", "v": "Quy định trong", "o": "Giấy phép lưu hành",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s761",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe mà tổng trọng lượng hoặc tải trọng trục xe vượt quá tải trọng cho phép của đường bộ trên 50%, trừ trường hợp có giấy phép lưu hành còn giá trị sử dụng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải, bánh xích",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích lưu hành đường bộ"]},
+      {"s": "Tổng trọng lượng xe", "v": "Vượt quá", "o": "Tải trọng cho phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tải trọng trục xe", "v": "Vượt quá", "o": "Tải trọng cho phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tải trọng cho phép", "v": "Dành cho", "o": "Đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s762",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ không chấp hành yêu cầu kiểm tra về trọng tải, tải trọng, khổ giới hạn xe, vận chuyển hàng siêu trường, siêu trọng của người thi hành công vụ; chuyển tải hoặc dùng các thủ đoạn khác để trốn tránh việc phát hiện xe chở quá tải, quá khổ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải, bánh xích",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích lưu hành đường bộ"]},
+      {"s": "Người", "v": "Chấp hành", "o": "Yêu cầu kiểm tra",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu kiểm tra", "v": "Dành cho", "o": "Người thi hành công vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Chuyển tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dùng", "o": "Thủ đoạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trốn tránh", "o": "Phát hiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s763",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 6",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 1, khoản 2, khoản 3, khoản 4, khoản 5 Điều này nếu gây hư hại cầu, đường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Gây hư hại", "o": "Cầu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Gây hư hại", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s764",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 7 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 1, khoản 3, điểm a khoản 4 Điều này bị trừ điểm giấy phép lái xe 02 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s765",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 7 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b, điểm c khoản 4 Điều này bị trừ điểm giấy phép lái xe 03 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s766",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 7 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 5 Điều này bị trừ điểm giấy phép lái xe 04 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s767",
+    "path": "Chương II - Mục 5 - Điều 34 - Khoản 7 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 5 Điều này bị trừ điểm giấy phép lái xe 10 điểm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s768",
+    "path": "Chương II - Mục 5 - Điều 35 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người đua xe trái phép, tổ chức đua xe, xúi giục, cổ vũ đua xe trái phép tụ tập để cổ vũ, giúp sức, xúi giục hành vi điều khiển xe chạy quá tốc độ quy định, lạng lách, đánh võng, đuổi nhau trên đường hoặc đua xe trái phép."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Thực hiện", "o": "Đua xe trái phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tổ chức", "o": "Đua xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Tụ tập",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Xúi giục", "o": "Điều khiển xe quá tốc độ",
+       "s_keyphrases": [], "v_keyphrases": ["cổ vũ", "giúp sức"], "o_keyphrases": []},
+      {"s": "Người", "v": "Xúi giục", "o": "Lạng lách",
+       "s_keyphrases": [], "v_keyphrases": ["cổ vũ", "giúp sức"], "o_keyphrases": []},
+      {"s": "Người", "v": "Xúi giục", "o": "Đánh võng",
+       "s_keyphrases": [], "v_keyphrases": ["cổ vũ", "giúp sức"], "o_keyphrases": []},
+      {"s": "Người", "v": "Xúi giục", "o": "Đuổi nhau",
+       "s_keyphrases": [], "v_keyphrases": ["cổ vũ", "giúp sức"], "o_keyphrases": []},
+      {"s": "Người", "v": "Xúi giục", "o": "Đua xe trái phép",
+       "s_keyphrases": [], "v_keyphrases": ["cổ vũ", "giúp sức"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s769",
+    "path": "Chương II - Mục 5 - Điều 35 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân thực hiện hành vi vi phạm tổ chức đua xe trái phép."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Tổ chức", "o": "Đua xe trái phép",
+       "s_keyphrases": ["cá nhân"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

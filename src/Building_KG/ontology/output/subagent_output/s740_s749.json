@@ -1,0 +1,182 @@
+[
+  {
+    "id": "s740",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 21 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ trong trường hợp là người trực tiếp điều khiển phương tiện bị trừ điểm giấy phép lái xe 04 điểm."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s741",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 21 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là người trực tiếp điều khiển phương tiện chở vượt trên 50% đến 100% số người quy định được phép chở của phương tiện."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Chở quá", "o": "Số người quy định",
+       "s_keyphrases": [], "v_keyphrases": ["chở vượt"],
+       "o_keyphrases": ["số người quy định được phép chở của phương tiện"]}
+    ]
+  },
+  {
+    "id": "s742",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 21 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là người trực tiếp điều khiển phương tiện thực hiện hành vi quy định tại điểm h khoản 8, điểm b khoản 12."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]}
+    ]
+  },
+  {
+    "id": "s743",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 21 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là người trực tiếp điều khiển phương tiện thực hiện hành vi quy định tại khoản 15."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]}
+    ]
+  },
+  {
+    "id": "s744",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 21 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là người trực tiếp điều khiển phương tiện thực hiện hành vi quy định tại điểm d khoản 13, điểm b khoản 16."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]}
+    ]
+  },
+  {
+    "id": "s745",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 21 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là người trực tiếp điều khiển phương tiện chở vượt trên 100% số người quy định được phép chở của phương tiện."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Chở quá", "o": "Số người quy định",
+       "s_keyphrases": [], "v_keyphrases": ["chở vượt"],
+       "o_keyphrases": ["số người quy định được phép chở của phương tiện"]}
+    ]
+  },
+  {
+    "id": "s746",
+    "path": "Chương II - Mục 5 - Điều 33 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Hành khách đi xe không chấp hành hướng dẫn của lái xe, nhân viên phục vụ trên xe về các quy định bảo đảm trật tự, an toàn giao thông."
+    ],
+    "triplets": [
+      {"s": "Hành khách", "v": "Tại", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Chấp hành", "o": "Hướng dẫn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Nhân viên phục vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hướng dẫn", "v": "Về", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s747",
+    "path": "Chương II - Mục 5 - Điều 33 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Hành khách đi xe gây mất trật tự trên xe."
+    ],
+    "triplets": [
+      {"s": "Hành khách", "v": "Tại", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Gây", "o": "Mất trật tự",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s748",
+    "path": "Chương II - Mục 5 - Điều 33 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Hành khách đi xe mang hóa chất độc hại, chất dễ cháy, nổ, hàng nguy hiểm hoặc hàng cấm lưu thông trên xe chở khách."
+    ],
+    "triplets": [
+      {"s": "Hành khách", "v": "Tại", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe chở khách"]},
+      {"s": "Hành khách", "v": "Mang", "o": "Hóa chất độc hại",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Mang", "o": "Chất dễ cháy, nổ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Mang", "o": "Hàng nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Mang", "o": "Hàng cấm lưu thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s749",
+    "path": "Chương II - Mục 5 - Điều 33 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Hành khách đi xe đu, bám vào thành xe; đứng, ngồi, nằm trên mui xe, nóc xe, trong khoang chở hành lý; tự ý mở cửa xe hoặc có hành vi khác không bảo đảm an toàn khi xe đang chạy."
+    ],
+    "triplets": [
+      {"s": "Hành khách", "v": "Tại", "o": "Xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Đu bám", "o": "Thành xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Đứng", "o": "Mui xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Đứng", "o": "Nóc xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Đứng", "o": "Khoang chở hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Ngồi", "o": "Mui xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Ngồi", "o": "Nóc xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Ngồi", "o": "Khoang chở hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Nằm", "o": "Mui xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Nằm", "o": "Nóc xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Nằm", "o": "Khoang chở hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Mở", "o": "Cửa xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hành khách", "v": "Thực hiện", "o": "Hành vi không bảo đảm an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

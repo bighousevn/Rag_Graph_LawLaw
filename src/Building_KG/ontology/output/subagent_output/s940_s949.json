@@ -1,0 +1,123 @@
+[
+  {
+    "id": "s940",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền phạt cảnh cáo."
+    ],
+    "triplets": [
+      {"s": "Thanh tra viên", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s941",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền phạt tiền đến 500.000 đồng."
+    ],
+    "triplets": [
+      {"s": "Thanh tra viên", "v": "Phạt", "o": "Phạt tiền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Phạt", "o": "Phạt tiền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s942",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Thanh tra viên", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật được sử dụng để vi phạm hành chính"]},
+      {"s": "Thanh tra viên", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện được sử dụng để vi phạm hành chính"]},
+      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật được sử dụng để vi phạm hành chính"]},
+      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện được sử dụng để vi phạm hành chính"]}
+    ]
+  },
+  {
+    "id": "s943",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 1 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền áp dụng các biện pháp khắc phục hậu quả."
+    ],
+    "triplets": [
+      {"s": "Thanh tra viên", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s944",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chánh Thanh tra Sở Giao thông vận tải có quyền phạt cảnh cáo."
+    ],
+    "triplets": [
+      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s945",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chánh Thanh tra Sở Giao thông vận tải có quyền phạt tiền đến 37.500.000 đồng."
+    ],
+    "triplets": [
+      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Phạt", "o": "Phạt tiền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s946",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chánh Thanh tra Sở Giao thông vận tải có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."
+    ],
+    "triplets": [
+      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Tước", "o": "Giấy phép", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Tước", "o": "Chứng chỉ hành nghề", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Đình chỉ", "o": "Hoạt động", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s947",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chánh Thanh tra Sở Giao thông vận tải có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật được sử dụng để vi phạm hành chính"]},
+      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện được sử dụng để vi phạm hành chính"]}
+    ]
+  },
+  {
+    "id": "s948",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 75 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chánh Thanh tra Sở Giao thông vận tải có quyền áp dụng các biện pháp khắc phục hậu quả."
+    ],
+    "triplets": [
+      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s949",
+    "path": "Chương III - Mục 1 - Điều 44 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương có quyền phạt cảnh cáo."
+    ],
+    "triplets": [
+      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

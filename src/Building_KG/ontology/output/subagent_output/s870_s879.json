@@ -1,0 +1,188 @@
+[
+  {
+    "id": "s870",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 6 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân, tổ chức thực hiện hành vi quy định tại điểm a, điểm b, điểm c, điểm d, điểm g khoản 2; khoản 4 Điều này bị tước quyền sử dụng giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới."
+    ],
+    "triplets": [
+      {"s": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s871",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ tịch Ủy ban nhân dân các cấp có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại Nghị định này trong phạm vi quản lý của địa phương mình."
+    ],
+    "triplets": [
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s872",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cảnh sát giao thông trong phạm vi chức năng, nhiệm vụ được giao có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát giao thông", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s873",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cảnh sát giao thông trong phạm vi chức năng, nhiệm vụ được giao có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát giao thông", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s874",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cảnh sát giao thông trong phạm vi chức năng, nhiệm vụ được giao có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát giao thông", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s875",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cảnh sát giao thông trong phạm vi chức năng, nhiệm vụ được giao có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát giao thông", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s876",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s877",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s878",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s879",
+    "path": "Chương III - Mục 1 - Điều 41 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

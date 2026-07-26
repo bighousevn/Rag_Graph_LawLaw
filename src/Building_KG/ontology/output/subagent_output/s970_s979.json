@@ -1,0 +1,204 @@
+[
+  {
+    "id": "s970",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về niên hạn sử dụng của phương tiện và các hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Niên hạn sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Niên hạn sử dụng", "v": "Dành cho", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s971",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về kích thước thùng xe, khoang chở hành lý (hầm xe), lắp thêm hoặc tháo bớt ghế, giường nằm trên xe ô tô và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Kích thước thùng xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Khoang chở hành lý",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hầm xe"]},
+      {"s": "Chủ phương tiện", "v": "Lắp thêm", "o": "Ghế",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Lắp thêm", "o": "Giường nằm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Tháo bớt", "o": "Ghế",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Tháo bớt", "o": "Giường nằm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s972",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô và các hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Lắp", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Sử dụng", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Sử dụng", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s973",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Lắp", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Sử dụng", "o": "Thiết bị giám sát hành trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Sử dụng", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s974",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về dây đai an toàn, hướng dẫn cho hành khách về an toàn giao thông, thoát hiểm khi xảy ra sự cố trên xe và các hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Hướng dẫn", "o": "Hành khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Hướng dẫn", "o": "An toàn giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Hướng dẫn", "o": "Thoát hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s975",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng và các hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Đón", "o": "Khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Trả", "o": "Khách",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Nhận", "o": "Hàng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Trả", "o": "Hàng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s976",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ giao thông đường bộ và hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Dụng cụ, thiết bị cứu hộ",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ giao thông đường bộ"]},
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s977",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm m",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh và thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe và hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Thiết bị cảnh báo chống bỏ quên trẻ em",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em"]},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s978",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm n",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về màu sơn, biển báo dấu hiệu nhận biết của xe chở trẻ em mầm non, học sinh và hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Màu sơn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Màu sơn", "v": "Dành cho", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Biển báo dấu hiệu nhận biết",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Biển báo dấu hiệu nhận biết", "v": "Dành cho", "o": "Xe chở trẻ em mầm non, học sinh",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
+      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s979",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 3 - Điểm o",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các hành vi vi phạm quy định về chở hàng siêu trường, siêu trọng, chở quá khổ, quá tải, quá số người và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Chở", "o": "Hàng siêu trường, siêu trọng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Chở quá", "o": "Số người quy định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []}
+    ]
+  }
+]

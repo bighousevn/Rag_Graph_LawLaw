@@ -1,0 +1,160 @@
+[
+  {
+    "id": "s910",
+    "path": "Chương III - Mục 1 - Điều 42 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ tịch Ủy ban nhân dân cấp huyện có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s911",
+    "path": "Chương III - Mục 1 - Điều 42 - Khoản 2 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ tịch Ủy ban nhân dân cấp huyện có quyền áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s912",
+    "path": "Chương III - Mục 1 - Điều 42 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền phạt cảnh cáo."
+    ],
+    "triplets": [
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Phạt", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s913",
+    "path": "Chương III - Mục 1 - Điều 42 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền phạt tiền đến 75.000.000 đồng."
+    ],
+    "triplets": [
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Phạt", "o": "Phạt tiền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s914",
+    "path": "Chương III - Mục 1 - Điều 42 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."
+    ],
+    "triplets": [
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Chứng chỉ hành nghề",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Đình chỉ", "o": "Hoạt động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s915",
+    "path": "Chương III - Mục 1 - Điều 42 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
+    ],
+    "triplets": [
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s916",
+    "path": "Chương III - Mục 1 - Điều 42 - Khoản 3 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s917",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền phạt cảnh cáo."
+    ],
+    "triplets": [
+      {"s": "Chiến sĩ Công an nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chiến sĩ Công an nhân dân", "v": "Phạt", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s918",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền phạt tiền đến 500.000 đồng."
+    ],
+    "triplets": [
+      {"s": "Chiến sĩ Công an nhân dân", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Chiến sĩ Công an nhân dân", "v": "Phạt", "o": "Phạt tiền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s919",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người quy định tại khoản 1 Điều này có quyền phạt cảnh cáo."
+    ],
+    "triplets": [
+      {"s": "Thủ trưởng đơn vị Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Thủ trưởng đơn vị Cảnh sát cơ động", "v": "Phạt", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trưởng trạm", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Trưởng trạm", "v": "Phạt", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đội trưởng", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
+      {"s": "Đội trưởng", "v": "Phạt", "o": "Cảnh cáo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

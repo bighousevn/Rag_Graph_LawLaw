@@ -1,0 +1,156 @@
+[
+  {
+    "id": "s850",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cá nhân đưa ra các yêu cầu trái quy định về trình tự, thủ tục đăng kiểm đối với cá nhân, tổ chức."
+    ],
+    "triplets": [
+      {"s": "Cá nhân", "v": "Đưa ra", "o": "Yêu cầu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu", "v": "Về", "o": "Trình tự, thủ tục đăng kiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Yêu cầu", "v": "Đối với", "o": "Cá nhân, tổ chức",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s851",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đăng kiểm không duy trì việc bảo đảm về điều kiện, yêu cầu theo quy định tại Nghị định của Chính phủ quy định về điều kiện kinh doanh dịch vụ kiểm định xe cơ giới; tổ chức, hoạt động của cơ sở đăng kiểm; niên hạn sử dụng của xe cơ giới."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đăng kiểm", "v": "Duy trì", "o": "Điều kiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đăng kiểm", "v": "Duy trì", "o": "Yêu cầu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s852",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đăng kiểm có từ 02 lượt đăng kiểm viên trở lên bị xử phạt theo quy định tại khoản 1 Điều này trong thời hạn 12 tháng tính từ lần vi phạm đầu tiên."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đăng kiểm", "v": "Có", "o": "Đăng kiểm viên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đăng kiểm viên", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s853",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đăng kiểm phân công người không đủ điều kiện thực hiện nhiệm vụ của đăng kiểm viên, nhân viên nghiệp vụ."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đăng kiểm", "v": "Phân công", "o": "Người không đủ điều kiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người không đủ điều kiện", "v": "Thực hiện", "o": "Nhiệm vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nhiệm vụ", "v": "Dành cho", "o": "Đăng kiểm viên",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Nhiệm vụ", "v": "Dành cho", "o": "Nhân viên nghiệp vụ",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s854",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 2 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đăng kiểm cấp chứng nhận cải tạo cho xe cơ giới, xe máy chuyên dùng không đúng quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đăng kiểm", "v": "Cấp", "o": "Chứng nhận cải tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng nhận cải tạo", "v": "Dành cho", "o": "Xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
+      {"s": "Chứng nhận cải tạo", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s855",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 2 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đăng kiểm thực hiện kiểm định đối với phương tiện thuộc trường hợp bị từ chối kiểm định theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đăng kiểm", "v": "Kiểm định", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phương tiện", "v": "Từ chối", "o": "Kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s856",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 2 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đăng kiểm lưu trữ hồ sơ, tài liệu, dữ liệu kiểm định, cải tạo xe không đúng quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đăng kiểm", "v": "Lưu trữ", "o": "Hồ sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đăng kiểm", "v": "Lưu trữ", "o": "Tài liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đăng kiểm", "v": "Lưu trữ", "o": "Dữ liệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dữ liệu", "v": "Về", "o": "Kiểm định",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Dữ liệu", "v": "Về", "o": "Cải tạo xe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s857",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 2 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đăng kiểm không thực hiện việc cập nhật hồ sơ phương tiện cho xe cơ giới, xe máy chuyên dùng theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đăng kiểm", "v": "Cập nhật", "o": "Hồ sơ phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hồ sơ phương tiện", "v": "Dành cho", "o": "Xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
+      {"s": "Hồ sơ phương tiện", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s858",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong sản xuất, lắp ráp và nhập khẩu không thực hiện niêm yết công khai các trình tự, thủ tục thử nghiệm, chứng nhận theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở thử nghiệm, chứng nhận", "v": "Niêm yết", "o": "Trình tự, thủ tục thử nghiệm, chứng nhận",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s859",
+    "path": "Chương II - Mục 5 - Điều 40 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong sản xuất, lắp ráp và nhập khẩu thực hiện việc thử nghiệm, chứng nhận không đúng quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở thử nghiệm, chứng nhận", "v": "Thực hiện", "o": "Thử nghiệm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở thử nghiệm, chứng nhận", "v": "Thực hiện", "o": "Chứng nhận",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

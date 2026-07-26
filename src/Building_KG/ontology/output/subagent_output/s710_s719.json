@@ -1,0 +1,252 @@
+[
+  {
+    "id": "s710",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 16",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định liên quan đến giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s711",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 150 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là tổ chức, xe ô tô, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 5 Điều 34 của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là", "o": "Tổ chức",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Giao", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Để cho", "o": "Người làm công",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Để cho", "o": "Người đại diện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người làm công", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người làm công", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đại diện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đại diện", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s712",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 150 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là tổ chức, xe ô tô, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 21 của Nghị định này."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là", "o": "Tổ chức",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Giao", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Để cho", "o": "Người làm công",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Để cho", "o": "Người đại diện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người làm công", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người làm công", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đại diện", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đại diện", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s713",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 150 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là tổ chức, xe ô tô, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện hành vi tự ý thay đổi tổng thành khung, tổng thành máy, hệ thống phanh, hệ thống truyền động, hệ thống chuyển động hoặc tự ý cải tạo kết cấu, hình dáng, kích thước của xe không đúng thiết kế của nhà sản xuất."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là", "o": "Tổ chức",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thay đổi", "o": "Tổng thành khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thay đổi", "o": "Tổng thành máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thay đổi", "o": "Hệ thống phanh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thay đổi", "o": "Hệ thống truyền động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Thay đổi", "o": "Hệ thống chuyển động",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Cải tạo", "o": "Kết cấu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kết cấu", "v": "Thuộc", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kết cấu", "v": "Đúng", "o": "Thiết kế nhà sản xuất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Cải tạo", "o": "Hình dáng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hình dáng", "v": "Thuộc", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hình dáng", "v": "Đúng", "o": "Thiết kế nhà sản xuất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Cải tạo", "o": "Kích thước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kích thước", "v": "Thuộc", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Kích thước", "v": "Đúng", "o": "Thiết kế nhà sản xuất",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s714",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 17 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện hành vi cắt, hàn, tẩy xoá, đục sửa, đóng lại trái phép số khung, số động cơ tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ phương tiện", "v": "Cắt", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Cắt", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Hàn", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Hàn", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Tẩy xoá", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Tẩy xoá", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Đục sửa", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Đục sửa", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Đóng lại", "o": "Số khung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Đóng lại", "o": "Số động cơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phương tiện", "v": "Tham gia", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s715",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 17 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện hành vi cải tạo xe ô tô loại khác thành xe ô tô chở người."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ phương tiện", "v": "Cải tạo", "o": "Ô tô loại khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Ô tô loại khác", "v": "Thành", "o": "Ô tô chở người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s716",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 17 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện hành vi đưa phương tiện quá niên hạn sử dụng tham gia giao thông."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ phương tiện", "v": "Đưa", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phương tiện", "v": "Quá", "o": "Niên hạn sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phương tiện", "v": "Tham gia", "o": "Giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s717",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 17 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện hành vi tái phạm hành vi quy định tại khoản 5 Điều này."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ phương tiện", "v": "Tái phạm", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s718",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 17 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện hành vi tái phạm hành vi quy định tại khoản 6 Điều này."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ phương tiện", "v": "Tái phạm", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s719",
+    "path": "Chương II - Mục 5 - Điều 32 - Khoản 17 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện hành vi tái phạm hành vi quy định tại điểm h khoản 14 Điều này."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
+      {"s": "Chủ phương tiện", "v": "Tái phạm", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

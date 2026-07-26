@@ -7,14 +7,42 @@
       "Tổ chức thực hiện hành vi mua, bán biển số xe không phải là biển số do cơ quan nhà nước có thẩm quyền sản xuất hoặc không được cơ quan nhà nước có thẩm quyền cho phép."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Mua", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Bán", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Sản xuất", "o": "Biển số xe",
-       "s_keyphrases": ["cơ quan nhà nước có thẩm quyền"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cho phép", "o": "Biển số xe",
-       "s_keyphrases": ["cơ quan nhà nước có thẩm quyền"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Mua",
+        "o": "Biển số xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Bán",
+        "o": "Biển số xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Sản xuất",
+        "o": "Biển số xe",
+        "s_keyphrases": [
+          "cơ quan nhà nước có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cho phép",
+        "o": "Biển số xe",
+        "s_keyphrases": [
+          "cơ quan nhà nước có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -25,12 +53,32 @@
       "Cá nhân thực hiện hành vi sản xuất biển số trái phép hoặc sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Sản xuất", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số"]},
-      {"s": "Cá nhân", "v": "Sản xuất", "o": "Phương tiện giao thông cơ giới đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Lắp ráp", "o": "Phương tiện giao thông cơ giới đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Sản xuất",
+        "o": "Biển số xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "biển số"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Sản xuất",
+        "o": "Phương tiện giao thông cơ giới đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Lắp ráp",
+        "o": "Phương tiện giao thông cơ giới đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -41,12 +89,32 @@
       "Tổ chức thực hiện hành vi sản xuất biển số trái phép hoặc sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sản xuất", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số"]},
-      {"s": "Tổ chức", "v": "Sản xuất", "o": "Phương tiện giao thông cơ giới đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Lắp ráp", "o": "Phương tiện giao thông cơ giới đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sản xuất",
+        "o": "Biển số xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "biển số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sản xuất",
+        "o": "Phương tiện giao thông cơ giới đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Lắp ráp",
+        "o": "Phương tiện giao thông cơ giới đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -57,14 +125,46 @@
       "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại khoản 1, khoản 2 Điều này còn bị áp dụng hình thức xử phạt bổ sung tịch thu biển số, phương tiện sản xuất, lắp ráp trái phép."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Tịch thu", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số"]},
-      {"s": "Cá nhân", "v": "Tịch thu", "o": "Phương tiện giao thông cơ giới đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
-      {"s": "Tổ chức", "v": "Tịch thu", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số"]},
-      {"s": "Tổ chức", "v": "Tịch thu", "o": "Phương tiện giao thông cơ giới đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]}
+      {
+        "s": "Cá nhân",
+        "v": "Tịch thu",
+        "o": "Biển số xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "biển số"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Tịch thu",
+        "o": "Phương tiện giao thông cơ giới đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tịch thu",
+        "o": "Biển số xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "biển số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tịch thu",
+        "o": "Phương tiện giao thông cơ giới đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -75,10 +175,22 @@
       "Cá nhân, tổ chức thực hiện hành vi quy định tại khoản 1, khoản 2 Điều này còn bị áp dụng biện pháp khắc phục hậu quả buộc nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Nộp lại", "o": "Số lợi bất hợp pháp",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Nộp lại", "o": "Số lợi bất hợp pháp",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Nộp lại",
+        "o": "Số lợi bất hợp pháp",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Nộp lại",
+        "o": "Số lợi bất hợp pháp",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -89,17 +201,51 @@
       "Chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy thực hiện hành vi tự ý thay đổi nhãn hiệu, màu sơn của xe không đúng với chứng nhận đăng ký xe."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Có", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Thay đổi", "o": "Nhãn hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Thay đổi", "o": "Màu sơn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nhãn hiệu", "v": "Đúng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Màu sơn", "v": "Đúng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Có",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thay đổi",
+        "o": "Nhãn hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thay đổi",
+        "o": "Màu sơn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Nhãn hiệu",
+        "v": "Đúng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Màu sơn",
+        "v": "Đúng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -110,15 +256,43 @@
       "Chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy thực hiện hành vi đưa phương tiện không có giấy chứng nhận kiểm định khí thải xe mô tô, xe gắn máy hoặc có nhưng đã hết hạn sử dụng hoặc sử dụng giấy chứng nhận kiểm định khí thải xe mô tô, xe gắn máy không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Có", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Có", "o": "Giấy chứng nhận kiểm định khí thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Sử dụng", "o": "Giấy chứng nhận kiểm định khí thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy chứng nhận kiểm định khí thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Có",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Giấy chứng nhận kiểm định khí thải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Sử dụng",
+        "o": "Giấy chứng nhận kiểm định khí thải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Giấy chứng nhận kiểm định khí thải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -129,17 +303,51 @@
       "Chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện hành vi lắp kính chắn gió, kính cửa của xe không phải là loại kính an toàn."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Có", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "xe máy chuyên dùng", "các loại xe tương tự xe ô tô"]},
-      {"s": "Chủ xe", "v": "Lắp", "o": "Kính chắn gió",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Lắp", "o": "Kính cửa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kính chắn gió", "v": "Là", "o": "Kính an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kính cửa", "v": "Là", "o": "Kính an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Có",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Lắp",
+        "o": "Kính chắn gió",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Lắp",
+        "o": "Kính cửa",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Kính chắn gió",
+        "v": "Là",
+        "o": "Kính an toàn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Kính cửa",
+        "v": "Là",
+        "o": "Kính an toàn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -150,13 +358,35 @@
       "Chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện hành vi không làm thủ tục khai báo với cơ quan đăng ký xe theo quy định trước khi cải tạo xe (đối với loại xe có quy định phải làm thủ tục khai báo)."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Có", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "xe máy chuyên dùng", "các loại xe tương tự xe ô tô"]},
-      {"s": "Chủ xe", "v": "Khai báo", "o": "Cơ quan đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Cải tạo", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Có",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Khai báo",
+        "o": "Cơ quan đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Cải tạo",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -167,8 +397,16 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Vi phạm", "o": "Quy định giao thông đường bộ",
-       "s_keyphrases": ["chủ phương tiện"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Vi phạm",
+        "o": "Quy định giao thông đường bộ",
+        "s_keyphrases": [
+          "chủ phương tiện"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   }
 ]

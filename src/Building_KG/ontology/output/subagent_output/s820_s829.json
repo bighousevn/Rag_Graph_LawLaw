@@ -1,0 +1,184 @@
+[
+  {
+    "id": "s820",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe bố trí học viên tập lái trên xe tập lái vượt quá số lượng quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Bố trí", "o": "Học viên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Học viên", "v": "Lái", "o": "Xe tập lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s821",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe không có đủ hệ thống phòng học; phòng học không đủ trang thiết bị, mô hình học cụ."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Đủ", "o": "Phòng học",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hệ thống phòng học"]},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đủ", "o": "Phòng học",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hệ thống phòng học"]},
+      {"s": "Phòng học", "v": "Đủ", "o": "Thiết bị",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["trang thiết bị"]},
+      {"s": "Phòng học", "v": "Đủ", "o": "Mô hình học cụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s822",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe không có đủ sân tập lái hoặc sân tập lái không đủ điều kiện theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Đủ", "o": "Sân tập lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đủ", "o": "Sân tập lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sân tập lái", "v": "Đủ", "o": "Điều kiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s823",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe không có đủ số lượng xe tập lái các hạng để đáp ứng với lưu lượng đào tạo thực tế tại các thời điểm hoặc sử dụng xe tập lái không đúng hạng để dạy thực hành lái xe."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Đủ", "o": "Xe tập lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đủ", "o": "Xe tập lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Sử dụng", "o": "Xe tập lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Sử dụng", "o": "Xe tập lái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe tập lái", "v": "Đúng", "o": "Hạng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s824",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe không có đủ thiết bị giám sát thời gian học lý thuyết, thời gian, quãng đường học thực hành lái xe của học viên hoặc có các thiết bị đó nhưng không hoạt động theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Đủ", "o": "Thiết bị giám sát đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đủ", "o": "Thiết bị giám sát đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị giám sát đào tạo", "v": "Có", "o": "Tác dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s825",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trung tâm sát hạch lái xe không có hệ thống âm thanh thông báo công khai lỗi vi phạm của thí sinh sát hạch lái xe trong hình theo quy định hoặc có hệ thống âm thanh thông báo nhưng không hoạt động theo quy định trong quá trình sát hạch lái xe trong hình."
+    ],
+    "triplets": [
+      {"s": "Trung tâm sát hạch lái xe", "v": "Có", "o": "Hệ thống âm thanh thông báo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hệ thống âm thanh thông báo", "v": "Có", "o": "Tác dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s826",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 4 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trung tâm sát hạch lái xe không có đủ màn hình để công khai hình ảnh giám sát phòng sát hạch lý thuyết, mô phỏng các tình huống giao thông, kết quả sát hạch lái xe theo quy định hoặc có đủ màn hình nhưng không hoạt động theo quy định trong quá trình sát hạch."
+    ],
+    "triplets": [
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đủ", "o": "Màn hình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Màn hình", "v": "Có", "o": "Tác dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s827",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe tổ chức tuyển sinh, đào tạo không đúng hạng giấy phép lái xe được phép đào tạo."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Tổ chức", "o": "Tuyển sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Tổ chức", "o": "Đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Tổ chức", "o": "Tuyển sinh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Tổ chức", "o": "Đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tuyển sinh", "v": "Đúng", "o": "Hạng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Đào tạo", "v": "Đúng", "o": "Hạng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s828",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe đào tạo không đúng nội dung, chương trình, giáo trình theo quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Đúng", "o": "Nội dung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Đúng", "o": "Chương trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Đúng", "o": "Giáo trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đúng", "o": "Nội dung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đúng", "o": "Chương trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Đúng", "o": "Giáo trình",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s829",
+    "path": "Chương II - Mục 5 - Điều 39 - Khoản 5 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe xét hoàn thành khoá đào tạo hoặc cấp chứng chỉ sơ cấp hoặc cấp chứng chỉ đào tạo cho học viên sai quy định."
+    ],
+    "triplets": [
+      {"s": "Cơ sở đào tạo lái xe", "v": "Xét hoàn thành", "o": "Khoá đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Xét hoàn thành", "o": "Khoá đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Cấp", "o": "Chứng chỉ sơ cấp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Cấp", "o": "Chứng chỉ sơ cấp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cơ sở đào tạo lái xe", "v": "Cấp", "o": "Chứng chỉ đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trung tâm sát hạch lái xe", "v": "Cấp", "o": "Chứng chỉ đào tạo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ sơ cấp", "v": "Cấp cho", "o": "Học viên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chứng chỉ đào tạo", "v": "Cấp cho", "o": "Học viên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

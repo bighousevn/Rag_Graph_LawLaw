@@ -1,0 +1,406 @@
+[
+  {
+    "id": "s930",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giám đốc Công an cấp tỉnh có quyền phạt cảnh cáo."
+    ],
+    "triplets": [
+      {
+        "s": "Giám đốc Công an cấp tỉnh",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s931",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giám đốc Công an cấp tỉnh có quyền phạt tiền đến 37.500.000 đồng."
+    ],
+    "triplets": [
+      {
+        "s": "Giám đốc Công an cấp tỉnh",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s932",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 5 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giám đốc Công an cấp tỉnh có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."
+    ],
+    "triplets": [
+      {
+        "s": "Giám đốc Công an cấp tỉnh",
+        "v": "Tước",
+        "o": "Giấy phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giám đốc Công an cấp tỉnh",
+        "v": "Tước",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giám đốc Công an cấp tỉnh",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s933",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 5 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giám đốc Công an cấp tỉnh có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
+    ],
+    "triplets": [
+      {
+        "s": "Giám đốc Công an cấp tỉnh",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "tang vật được sử dụng để vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Giám đốc Công an cấp tỉnh",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện được sử dụng để vi phạm hành chính"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s934",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 5 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Giám đốc Công an cấp tỉnh có quyền áp dụng các biện pháp khắc phục hậu quả."
+    ],
+    "triplets": [
+      {
+        "s": "Giám đốc Công an cấp tỉnh",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s935",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 6 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Tư lệnh Cảnh sát cơ động có quyền phạt cảnh cáo."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tư lệnh Cảnh sát cơ động",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s936",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 6 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Tư lệnh Cảnh sát cơ động có quyền phạt tiền đến 75.000.000 đồng."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tư lệnh Cảnh sát cơ động",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s937",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 6 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Tư lệnh Cảnh sát cơ động có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Tước",
+        "o": "Giấy phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Tước",
+        "o": "Giấy phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tư lệnh Cảnh sát cơ động",
+        "v": "Tước",
+        "o": "Giấy phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Tước",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Tước",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tư lệnh Cảnh sát cơ động",
+        "v": "Tước",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tư lệnh Cảnh sát cơ động",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s938",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 6 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Tư lệnh Cảnh sát cơ động có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "tang vật được sử dụng để vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện được sử dụng để vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "tang vật được sử dụng để vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện được sử dụng để vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Tư lệnh Cảnh sát cơ động",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "tang vật được sử dụng để vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Tư lệnh Cảnh sát cơ động",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện được sử dụng để vi phạm hành chính"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s939",
+    "path": "Chương III - Mục 1 - Điều 43 - Khoản 6 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Tư lệnh Cảnh sát cơ động có quyền áp dụng các biện pháp khắc phục hậu quả."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tư lệnh Cảnh sát cơ động",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  }
+]
