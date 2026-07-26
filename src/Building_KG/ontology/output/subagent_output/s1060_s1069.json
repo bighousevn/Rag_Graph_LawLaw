@@ -1,0 +1,101 @@
+[
+  {
+    "id": "s1060",
+    "path": "Chương IV - Điều 52 - Khoản 6 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 80: Sửa đổi, bổ sung đoạn đầu khoản 5 Điều 80 quy định các hành vi vi phạm quy định về chở người vượt quá quy định được phép chở của phương tiện."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1061",
+    "path": "Chương IV - Điều 52 - Khoản 7",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Khi phương tiện bị tạm giữ, chủ phương tiện phải chịu mọi chi phí cho việc sử dụng phương tiện khác thay thế để vận chuyển người, hàng hóa được chở trên phương tiện bị tạm giữ."
+    ],
+    "triplets": [
+      {"s": "Chủ phương tiện", "v": "Chịu", "o": "Chi phí",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Sử dụng", "o": "Phương tiện thay thế",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện khác thay thế"]},
+      {"s": "Chủ phương tiện", "v": "Vận chuyển", "o": "Người được chở",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chủ phương tiện", "v": "Vận chuyển", "o": "Hàng hóa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1062",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ khoản 1 Điều 3."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1063",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm b, điểm e, điểm g, điểm k, điểm l, điểm m, điểm q, điểm r, điểm t, điểm u, điểm v, điểm x, điểm y khoản 2 Điều 4."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1064",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm a khoản 1 Điều 4a."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1065",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ Điều 5, Điều 6, Điều 7, Điều 8, Điều 9, Điều 10, Điều 11."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1066",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ khoản 1; điểm c khoản 2; điểm a, điểm đ khoản 3; điểm c, điểm d khoản 5; điểm e, điểm g, điểm i khoản 6; khoản 7; điểm a khoản 8 Điều 12."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1067",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ Điều 16, Điều 17, Điều 18, Điều 19, Điều 20, Điều 21, Điều 22."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1068",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm a khoản 1; khoản 2; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm h, điểm k, điểm m, điểm n khoản 3; khoản 4; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm h, điểm i, điểm k, điểm l, điểm m, điểm o, điểm p, điểm q khoản 5; khoản 6; khoản 7; khoản 7a Điều 23."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1069",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ khoản 1; khoản 2; khoản 3; điểm b, điểm c khoản 4; khoản 5; khoản 6; khoản 7; khoản 8; khoản 8a; khoản 9 Điều 24."
+    ],
+    "triplets": []
+  }
+]

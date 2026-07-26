@@ -48612,5 +48612,2444 @@
         "o_keyphrases": []
       }
     ]
+  },
+  {
+    "id": "s1000",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 6 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ của xe ô tô là đối tượng để áp dụng xử phạt như chủ phương tiện đối với các vi phạm liên quan đến rơ moóc, sơ mi rơ moóc được kéo theo tham gia giao thông trên đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ xe",
+        "v": "Là",
+        "o": "Chủ phương tiện",
+        "s_keyphrases": [
+          "chủ của xe ô tô"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Ô tô",
+        "v": "Kéo theo",
+        "o": "Rơ moóc",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Ô tô",
+        "v": "Kéo theo",
+        "o": "Sơ mi rơ moóc",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1001",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 7",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện và người điều khiển phương tiện vi phạm quy định liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1002",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 8 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện và cá nhân, tổ chức có liên quan đến hành vi vi phạm hành chính được phát hiện thông qua sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ phương tiện",
+        "v": "Liên quan",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Liên quan",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Liên quan",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Phát hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "thiết bị kỹ thuật nghiệp vụ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1003",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 8 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện có nghĩa vụ hợp tác với cơ quan chức năng để xác định người đã điều khiển phương tiện thực hiện hành vi vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ phương tiện",
+        "v": "Hợp tác",
+        "o": "Cơ quan chức năng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ quan chức năng",
+        "v": "Xác định",
+        "o": "Người",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1004",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 8 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc chuyển kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ đến người có thẩm quyền xử phạt vi phạm hành chính."
+    ],
+    "triplets": [
+      {
+        "s": "Phương tiện",
+        "v": "Thu thập",
+        "o": "Kết quả",
+        "s_keyphrases": [
+          "thiết bị kỹ thuật nghiệp vụ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Kết quả",
+        "v": "Chuyển đến",
+        "o": "Người có thẩm quyền xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "người có thẩm quyền xử phạt vi phạm hành chính"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1005",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 9",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt sử dụng thông tin trong Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ để xác định hành vi vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Sử dụng",
+        "o": "Dữ liệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "thông tin"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Tại",
+        "o": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "thông tin"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Xác định",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1006",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 10",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc xác minh để phát hiện hành vi vi phạm quy định được thực hiện thông qua công tác điều tra, giải quyết vụ tai nạn giao thông; qua công tác đăng ký xe; qua công tác xử lý vụ việc vi phạm hành chính tại trụ sở đơn vị."
+    ],
+    "triplets": [
+      {
+        "s": "Công tác điều tra, giải quyết tai nạn giao thông",
+        "v": "Xác minh",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Công tác đăng ký xe",
+        "v": "Xác minh",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Công tác xử lý vi phạm hành chính",
+        "v": "Xác minh",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "công tác xử lý vụ việc vi phạm hành chính"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1007",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 11 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt gửi thông báo cho cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe khi chủ phương tiện vi phạm chưa thực hiện giải quyết vụ việc vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Gửi",
+        "o": "Thông báo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ sở đăng kiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "cơ quan đăng kiểm"
+        ]
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan cấp giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Giải quyết",
+        "o": "Vụ việc vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1008",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 11 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt gửi thông báo cho cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe khi có thông tin về phương tiện vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Gửi",
+        "o": "Thông báo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ sở đăng kiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "cơ quan đăng kiểm"
+        ]
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan cấp giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Có",
+        "o": "Dữ liệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "thông tin"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Về",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "thông tin"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1009",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 11 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt gửi thông báo cho cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe sau khi chủ phương tiện, người vi phạm đã giải quyết vụ việc vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Gửi",
+        "o": "Thông báo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ sở đăng kiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "cơ quan đăng kiểm"
+        ]
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan cấp giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Giải quyết",
+        "o": "Vụ việc vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giải quyết",
+        "o": "Vụ việc vi phạm",
+        "s_keyphrases": [
+          "người vi phạm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1010",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 12",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc gửi quyết định xử phạt vi phạm hành chính thực hiện theo quy định của Luật Xử lý vi phạm hành chính và có thể gửi cho người vi phạm qua tài khoản đã đăng ký trên Cổng dịch vụ công."
+    ],
+    "triplets": [
+      {
+        "s": "Quyết định xử phạt",
+        "v": "Gửi",
+        "o": "Người vi phạm",
+        "s_keyphrases": [
+          "quyết định xử phạt vi phạm hành chính"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quyết định xử phạt",
+        "v": "Gửi qua",
+        "o": "Tài khoản",
+        "s_keyphrases": [
+          "quyết định xử phạt vi phạm hành chính"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tài khoản",
+        "v": "Đăng ký",
+        "o": "Cổng dịch vụ công",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1011",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1012",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1013",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1014",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1015",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1016",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1017",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1018",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1019",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "ra"
+        ],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1020",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "hành vi vi phạm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1021",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền được phép tạm giữ phương tiện để ngăn chặn hành vi vi phạm hành chính theo quy định tại các điều, khoản, điểm của Nghị định này."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ngăn chặn",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1022",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm m",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền được phép tạm giữ phương tiện để ngăn chặn hành vi vi phạm hành chính theo quy định tại điểm b khoản 5 Điều 34."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ngăn chặn",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1023",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm n",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền được phép tạm giữ phương tiện để ngăn chặn hành vi vi phạm hành chính theo quy định tại khoản 3 Điều 35."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ngăn chặn",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1024",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm o",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền được phép tạm giữ phương tiện để ngăn chặn ngay các hành vi vi phạm hành chính khác thuộc trường hợp thật cần thiết."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ngăn chặn",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1025",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền có thể quyết định tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm một trong các hành vi quy định tại Nghị định này."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Giấy tờ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1026",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền lập biên bản vi phạm hành chính đối với người điều khiển phương tiện về hành vi không có giấy tờ và tạm giữ phương tiện theo quy định."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Lập",
+        "o": "Biên bản vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy tờ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1027",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trong thời hạn hẹn đến giải quyết vụ việc vi phạm, nếu người điều khiển phương tiện kinh doanh vận tải xuất trình được các giấy tờ theo quy định thì người có thẩm quyền ra quyết định xử phạt về hành vi không mang theo giấy tờ đối với người điều khiển phương tiện."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện kinh doanh vận tải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Xuất trình",
+        "o": "Giấy tờ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Mang",
+        "o": "Giấy tờ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1028",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trong thời hạn hẹn đến giải quyết vụ việc vi phạm, nếu người vi phạm xuất trình được các giấy tờ theo quy định thì người có thẩm quyền không ra quyết định xử phạt vi phạm hành chính đối với hành vi vi phạm không có giấy tờ."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Xuất trình",
+        "o": "Giấy tờ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy tờ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1029",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 3 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Quá thời hạn hẹn đến giải quyết vụ việc vi phạm, người vi phạm xuất trình hoặc không xuất trình được giấy tờ theo quy định thì phải chấp hành quyết định xử phạt vi phạm hành chính đối với các hành vi vi phạm đã ghi trong biên bản vi phạm hành chính."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Xử phạt vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hành vi vi phạm hành chính",
+        "v": "Ghi trong",
+        "o": "Biên bản vi phạm hành chính",
+        "s_keyphrases": [
+          "hành vi vi phạm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1030",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Khi phương tiện bị tạm giữ, chủ phương tiện phải chịu mọi chi phí cho việc sử dụng phương tiện khác thay thế để vận chuyển người, hàng hóa; nếu không đủ điều kiện thực hiện thì người có thẩm quyền tạm giữ được thuê tổ chức, cá nhân thực hiện việc di chuyển phương tiện."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ phương tiện",
+        "v": "Chịu",
+        "o": "Chi phí",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thuê",
+        "o": "Tổ chức",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thuê",
+        "o": "Cá nhân",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Di chuyển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Di chuyển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1031",
+    "path": "Chương III - Mục 3 - Điều 49",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Dữ liệu về điểm, trừ điểm, phục hồi điểm giấy phép lái xe được quản lý, lưu trữ trên môi trường điện tử trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Quản lý",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Lưu trữ",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Về",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1032",
+    "path": "Chương III - Mục 3 - Điều 50 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc trừ điểm giấy phép lái xe được thực hiện ngay sau khi quyết định xử phạt vi phạm hành chính có hiệu lực thi hành."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quyết định",
+        "v": "Về",
+        "o": "Xử phạt vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quyết định",
+        "v": "Có",
+        "o": "Hiệu lực",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "hiệu lực thi hành"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1033",
+    "path": "Chương III - Mục 3 - Điều 50 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trường hợp cá nhân thực hiện nhiều hành vi vi phạm hành chính mà bị xử phạt trong cùng một lần, chỉ áp dụng trừ điểm đối với hành vi vi phạm bị trừ nhiều điểm nhất."
+    ],
+    "triplets": [
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1034",
+    "path": "Chương III - Mục 3 - Điều 50 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trường hợp số điểm còn lại của giấy phép lái xe ít hơn số điểm bị trừ thì áp dụng trừ hết số điểm còn lại."
+    ],
+    "triplets": [
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1035",
+    "path": "Chương III - Mục 3 - Điều 50 - Khoản 1 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền thực hiện trừ điểm đối với giấy phép lái xe không thời hạn khi người điều khiển xe mô tô hoặc trừ điểm giấy phép lái xe có thời hạn khi người điều khiển xe ô tô thực hiện hành vi vi phạm hành chính."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe không thời hạn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe có thời hạn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1036",
+    "path": "Chương III - Mục 3 - Điều 50 - Khoản 1 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Không trừ điểm giấy phép lái xe khi giấy phép lái xe đó đang trong thời hạn bị tước quyền sử dụng."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1037",
+    "path": "Chương III - Mục 3 - Điều 50 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt vi phạm hành chính có thẩm quyền trừ điểm giấy phép lái xe đối với hành vi vi phạm có quy định trừ điểm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "người có thẩm quyền xử phạt vi phạm hành chính"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "người có thẩm quyền xử phạt vi phạm hành chính"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1038",
+    "path": "Chương III - Mục 3 - Điều 50 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Dữ liệu trừ điểm giấy phép lái xe của người bị xử phạt sẽ được cập nhật tự động vào Cơ sở dữ liệu về xử lý vi phạm hành chính ngay sau khi quyết định xử phạt có hiệu lực thi hành."
+    ],
+    "triplets": [
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Cập nhật",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "cơ sở dữ liệu về xử lý vi phạm hành chính"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Về",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quyết định",
+        "v": "Về",
+        "o": "Xử phạt vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quyết định",
+        "v": "Có",
+        "o": "Hiệu lực",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "hiệu lực thi hành"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1039",
+    "path": "Chương III - Mục 3 - Điều 50 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc thông báo trừ điểm giấy phép lái xe thực hiện bằng văn bản theo mẫu quy định và được giao trực tiếp hoặc gửi qua dịch vụ bưu chính."
+    ],
+    "triplets": [
+      {
+        "s": "Thông báo trừ điểm giấy phép lái xe",
+        "v": "Giao",
+        "o": "Trực tiếp",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo trừ điểm giấy phép lái xe",
+        "v": "Qua",
+        "o": "Dịch vụ bưu chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1040",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông có trách nhiệm quản lý, vận hành Cơ sở dữ liệu về xử lý vi phạm hành chính để thực hiện cập nhật, tự động phục hồi điểm giấy phép lái xe."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Quản lý",
+        "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Vận hành",
+        "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Cập nhật",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Phục hồi",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1041",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông, Trưởng phòng Cảnh sát giao thông nơi tổ chức kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ có thẩm quyền phục hồi điểm cho giấy phép lái xe đối với trường hợp quy định tại khoản 3 Điều này."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Điểm",
+        "v": "Dành cho",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Trưởng phòng Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Trưởng phòng Cảnh sát giao thông",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Trưởng phòng Cảnh sát giao thông",
+        "v": "Tổ chức",
+        "o": "Kiểm tra kiến thức pháp luật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1042",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất: Khi đủ thời hạn 12 tháng, kể từ ngày bị trừ điểm giấy phép lái xe gần nhất, dữ liệu điểm giấy phép lái xe sẽ được tự động phục hồi đủ 12 điểm và cập nhật tự động trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "v": "Cập nhật",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1043",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất: Ngay sau khi dữ liệu điểm giấy phép lái xe được phục hồi, Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ sẽ tự động chuyển thông tin thông báo cho người được phục hồi điểm giấy phép lái xe biết việc phục hồi điểm."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "v": "Thông báo",
+        "o": "Người",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1044",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất: Việc thông báo phục hồi điểm giấy phép lái xe thực hiện bằng phương thức điện tử thông qua tài khoản của công dân đăng ký trên Cổng dịch vụ công, Ứng dụng giao thông trên thiết bị di động; đồng thời cập nhật thông tin về giấy phép lái xe được phục hồi điểm trên Trang thông tin điện tử của Cục Cảnh sát giao thông."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đăng ký",
+        "o": "Cổng dịch vụ công",
+        "s_keyphrases": [
+          "công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đăng ký",
+        "o": "Ứng dụng giao thông",
+        "s_keyphrases": [
+          "công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Cập nhật",
+        "o": "Trang thông tin điện tử",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1045",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe bị trừ hết điểm: Sau khi người có giấy phép lái xe bị trừ hết điểm tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ và đạt yêu cầu, kết quả kiểm tra được cập nhật vào phần mềm kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ và đồng bộ dữ liệu với Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ, dữ liệu điểm giấy phép lái xe sẽ được phục hồi đủ 12 điểm và cập nhật tự động trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tham gia",
+        "o": "Kiểm tra kiến thức pháp luật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đạt",
+        "o": "Yêu cầu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Kết quả",
+        "v": "Cập nhật",
+        "o": "Phần mềm",
+        "s_keyphrases": [
+          "kết quả kiểm tra"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phần mềm kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Phần mềm",
+        "v": "Đồng bộ",
+        "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "v": "Cập nhật",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1046",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe bị trừ hết điểm: Ngay sau khi dữ liệu điểm giấy phép lái xe được phục hồi đủ 12 điểm thì người có thẩm quyền quy định tại điểm b khoản 1 Điều này thông báo cho người được phục hồi điểm giấy phép lái xe biết việc phục hồi điểm."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thông báo",
+        "o": "Người",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1047",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe bị trừ hết điểm: Việc thông báo phục hồi điểm giấy phép lái xe thực hiện bằng văn bản theo mẫu quy định của Bộ trưởng Bộ Công an và được giao trực tiếp hoặc gửi qua dịch vụ bưu chính hoặc thực hiện thông báo bằng phương thức điện tử thông qua tài khoản của công dân đăng ký trên Cổng dịch vụ công, Ứng dụng giao thông trên thiết bị di động; đồng thời cập nhật thông tin về giấy phép lái xe được phục hồi điểm trên Trang thông tin điện tử của Cục Cảnh sát giao thông."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Giao",
+        "o": "Văn bản",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Gửi",
+        "o": "Văn bản",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thông báo",
+        "o": "Người",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đăng ký",
+        "o": "Cổng dịch vụ công",
+        "s_keyphrases": [
+          "công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đăng ký",
+        "o": "Ứng dụng giao thông",
+        "s_keyphrases": [
+          "công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Cập nhật",
+        "o": "Trang thông tin điện tử",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1048",
+    "path": "Chương IV - Điều 52 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bổ sung khoản 2a vào sau khoản 2 Điều 1 quy định hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1049",
+    "path": "Chương IV - Điều 52 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 quy định không thực hiện đúng các nội dung đã đăng ký, niêm yết về giá cước, giá dịch vụ, tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải."
+    ],
+    "triplets": [
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Đăng ký",
+        "o": "Thông tin",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Niêm yết",
+        "o": "Thông tin",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện đúng",
+        "o": "Giá cước",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện đúng",
+        "o": "Giá dịch vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện đúng",
+        "o": "Tiêu chuẩn chất lượng dịch vụ vận tải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện đúng",
+        "o": "Tiêu chuẩn chất lượng dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1050",
+    "path": "Chương IV - Điều 52 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28: Sửa đổi, bổ sung điểm i khoản 6 Điều 28 quy định sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Phương tiện kinh doanh vận tải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phương tiện kinh doanh vận tải",
+        "v": "Có",
+        "o": "Chất lượng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chất lượng",
+        "v": "Bảo đảm",
+        "o": "Điều kiện kinh doanh",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "điều kiện của hình thức kinh doanh đã đăng ký"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1051",
+    "path": "Chương IV - Điều 52 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 28: Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7 Điều này bị tước quyền sử dụng phù hiệu đối với xe vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phù hiệu",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1052",
+    "path": "Chương IV - Điều 52 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 28: Sửa đổi, bổ sung điểm i khoản 4; điểm h khoản 6; điểm b khoản 7 Điều này bị tước quyền sử dụng giấy phép kinh doanh vận tải."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "giấy phép kinh doanh vận tải"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1053",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm b khoản 2 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1054",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm e khoản 2 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1055",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm g khoản 2 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1056",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm m khoản 5 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1057",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm o khoản 5 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1058",
+    "path": "Chương IV - Điều 52 - Khoản 6 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 80: Sửa đổi, bổ sung điểm i khoản 3 Điều 80 quy định các hành vi vi phạm quy định về giá cước."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1059",
+    "path": "Chương IV - Điều 52 - Khoản 6 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 80: Sửa đổi, bổ sung điểm l khoản 3 Điều 80 quy định các hành vi vi phạm quy định về kinh doanh vận tải hành khách theo hợp đồng."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1060",
+    "path": "Chương IV - Điều 52 - Khoản 6 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 80: Sửa đổi, bổ sung đoạn đầu khoản 5 Điều 80 quy định các hành vi vi phạm quy định về chở người vượt quá quy định được phép chở của phương tiện."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1061",
+    "path": "Chương IV - Điều 52 - Khoản 7",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Khi phương tiện bị tạm giữ, chủ phương tiện phải chịu mọi chi phí cho việc sử dụng phương tiện khác thay thế để vận chuyển người, hàng hóa được chở trên phương tiện bị tạm giữ."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ phương tiện",
+        "v": "Chịu",
+        "o": "Chi phí",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Sử dụng",
+        "o": "Phương tiện thay thế",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện khác thay thế"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vận chuyển",
+        "o": "Người được chở",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1062",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ khoản 1 Điều 3."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1063",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm b, điểm e, điểm g, điểm k, điểm l, điểm m, điểm q, điểm r, điểm t, điểm u, điểm v, điểm x, điểm y khoản 2 Điều 4."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1064",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm a khoản 1 Điều 4a."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1065",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ Điều 5, Điều 6, Điều 7, Điều 8, Điều 9, Điều 10, Điều 11."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1066",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ khoản 1; điểm c khoản 2; điểm a, điểm đ khoản 3; điểm c, điểm d khoản 5; điểm e, điểm g, điểm i khoản 6; khoản 7; điểm a khoản 8 Điều 12."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1067",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ Điều 16, Điều 17, Điều 18, Điều 19, Điều 20, Điều 21, Điều 22."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1068",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm a khoản 1; khoản 2; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm h, điểm k, điểm m, điểm n khoản 3; khoản 4; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm h, điểm i, điểm k, điểm l, điểm m, điểm o, điểm p, điểm q khoản 5; khoản 6; khoản 7; khoản 7a Điều 23."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1069",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ khoản 1; khoản 2; khoản 3; điểm b, điểm c khoản 4; khoản 5; khoản 6; khoản 7; khoản 8; khoản 8a; khoản 9 Điều 24."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1070",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ Điều 25, Điều 26, Điều 27."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1071",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm k",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ khoản 1; điểm e, điểm g, điểm h khoản 2; điểm a khoản 3; điểm a, điểm e, điểm g, điểm q khoản 4; khoản 5; điểm c, điểm đ, điểm e, điểm g, điểm m, điểm o, điểm p khoản 6; điểm đ, điểm h, điểm i khoản 7; điểm a, điểm b khoản 8; khoản 9; điểm c, điểm d, điểm đ khoản 10; điểm c, điểm d, điểm i khoản 11 Điều 28."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1072",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm l",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ Điều 29, Điều 30, Điều 32, Điều 33, Điều 34, Điều 35, Điều 36, Điều 37, Điều 38."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1073",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm m",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm a, điểm đ, điểm h khoản 2; điểm a, điểm b, điểm c, điểm d, điểm g, điểm h, điểm i khoản 3; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm i, điểm k, điểm l khoản 4; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm g, điểm h, điểm i, điểm k, điểm l, điểm n, điểm p, điểm q khoản 5; khoản 6; điểm a, điểm c, điểm d khoản 8 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1074",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm n",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm h, điểm k, điểm n khoản 3; khoản 4; điểm a, điểm b, điểm c, điểm d, điểm e khoản 5; khoản 8; khoản 10; khoản 12 Điều 80."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1075",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm o",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ điểm b, điểm g, điểm h, điểm i khoản 1; khoản 6 Điều 81."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1076",
+    "path": "Chương IV - Điều 52 - Khoản 8 - Điểm p",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bãi bỏ khoản 1, khoản 3 Điều 82."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1077",
+    "path": "Chương IV - Điều 52 - Khoản 9 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bỏ cụm từ “camera”, “dây an toàn” và “thiết bị giám sát hành trình” tại điểm p khoản 2 Điều 4."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1078",
+    "path": "Chương IV - Điều 52 - Khoản 9 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bỏ cụm từ “điểm a” tại điểm c khoản 1 Điều 4a."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1079",
+    "path": "Chương IV - Điều 52 - Khoản 9 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bỏ cụm từ “Sử dụng trái phép lòng đường đô thị, hè phố để: Họp chợ; kinh doanh dịch vụ ăn uống; bày, bán hàng hóa; sửa chữa phương tiện, máy móc, thiết bị; rửa xe; đặt, treo biển hiệu, biển quảng cáo;” và cụm từ “, trừ các hành vi vi phạm quy định tại điểm d, điểm đ, điểm e, điểm g khoản 6; khoản 7; điểm a khoản 8 Điều này” tại điểm b khoản 5 Điều 12."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1080",
+    "path": "Chương IV - Điều 52 - Khoản 9 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bỏ cụm từ “Điều 9, Điều 10, Điều 11,” tại điểm đ khoản 3, cụm từ “Điều 32, Điều 34;” tại điểm k khoản 3, cụm từ “điểm a khoản 2 Điều 16; điểm a khoản 6 Điều 23; điểm a khoản 2 Điều 32” tại khoản 3a và cụm từ “Điểm a khoản 1,” tại điểm g khoản 4 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1081",
+    "path": "Chương IV - Điều 53 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1082",
+    "path": "Chương IV - Điều 53 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b khoản 1 Điều 27 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026; quy định tại điểm b khoản 1 Điều 32 có hiệu lực thi hành theo quy định của pháp luật bảo vệ môi trường về kiểm định khí thải xe mô tô, xe gắn máy."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1083",
+    "path": "Chương IV - Điều 54 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1084",
+    "path": "Chương IV - Điều 54 - Khoản 2",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trường hợp hành vi vi phạm hành chính đang được thực hiện, thì áp dụng nghị định đang có hiệu lực tại thời điểm phát hiện hành vi vi phạm để xử phạt."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1085",
+    "path": "Chương IV - Điều 55",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các cơ quan, đơn vị có liên quan chịu trách nhiệm thi hành Nghị định này."
+    ],
+    "triplets": []
   }
 ]

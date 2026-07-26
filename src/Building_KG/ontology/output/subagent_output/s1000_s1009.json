@@ -1,0 +1,450 @@
+[
+  {
+    "id": "s1000",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 6 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ của xe ô tô là đối tượng để áp dụng xử phạt như chủ phương tiện đối với các vi phạm liên quan đến rơ moóc, sơ mi rơ moóc được kéo theo tham gia giao thông trên đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ xe",
+        "v": "Là",
+        "o": "Chủ phương tiện",
+        "s_keyphrases": [
+          "chủ của xe ô tô"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Ô tô",
+        "v": "Kéo theo",
+        "o": "Rơ moóc",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Ô tô",
+        "v": "Kéo theo",
+        "o": "Sơ mi rơ moóc",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1001",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 7",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện và người điều khiển phương tiện vi phạm quy định liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1002",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 8 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện và cá nhân, tổ chức có liên quan đến hành vi vi phạm hành chính được phát hiện thông qua sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ phương tiện",
+        "v": "Liên quan",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Liên quan",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Liên quan",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Phát hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "thiết bị kỹ thuật nghiệp vụ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1003",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 8 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Chủ phương tiện có nghĩa vụ hợp tác với cơ quan chức năng để xác định người đã điều khiển phương tiện thực hiện hành vi vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Chủ phương tiện",
+        "v": "Hợp tác",
+        "o": "Cơ quan chức năng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ quan chức năng",
+        "v": "Xác định",
+        "o": "Người",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1004",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 8 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc chuyển kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ đến người có thẩm quyền xử phạt vi phạm hành chính."
+    ],
+    "triplets": [
+      {
+        "s": "Phương tiện",
+        "v": "Thu thập",
+        "o": "Kết quả",
+        "s_keyphrases": [
+          "thiết bị kỹ thuật nghiệp vụ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Kết quả",
+        "v": "Chuyển đến",
+        "o": "Người có thẩm quyền xử phạt",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "người có thẩm quyền xử phạt vi phạm hành chính"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1005",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 9",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt sử dụng thông tin trong Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ để xác định hành vi vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Sử dụng",
+        "o": "Dữ liệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "thông tin"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Tại",
+        "o": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "thông tin"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Xác định",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1006",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 10",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc xác minh để phát hiện hành vi vi phạm quy định được thực hiện thông qua công tác điều tra, giải quyết vụ tai nạn giao thông; qua công tác đăng ký xe; qua công tác xử lý vụ việc vi phạm hành chính tại trụ sở đơn vị."
+    ],
+    "triplets": [
+      {
+        "s": "Công tác điều tra, giải quyết tai nạn giao thông",
+        "v": "Xác minh",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Công tác đăng ký xe",
+        "v": "Xác minh",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Công tác xử lý vi phạm hành chính",
+        "v": "Xác minh",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "công tác xử lý vụ việc vi phạm hành chính"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1007",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 11 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt gửi thông báo cho cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe khi chủ phương tiện vi phạm chưa thực hiện giải quyết vụ việc vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Gửi",
+        "o": "Thông báo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ sở đăng kiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "cơ quan đăng kiểm"
+        ]
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan cấp giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Giải quyết",
+        "o": "Vụ việc vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1008",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 11 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt gửi thông báo cho cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe khi có thông tin về phương tiện vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Gửi",
+        "o": "Thông báo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ sở đăng kiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "cơ quan đăng kiểm"
+        ]
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan cấp giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Có",
+        "o": "Dữ liệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "thông tin"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Về",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "thông tin"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1009",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 11 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền xử phạt gửi thông báo cho cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe sau khi chủ phương tiện, người vi phạm đã giải quyết vụ việc vi phạm."
+    ],
+    "triplets": [
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Gửi",
+        "o": "Thông báo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ sở đăng kiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "cơ quan đăng kiểm"
+        ]
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thông báo",
+        "v": "Gửi đến",
+        "o": "Cơ quan cấp giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Giải quyết",
+        "o": "Vụ việc vi phạm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giải quyết",
+        "o": "Vụ việc vi phạm",
+        "s_keyphrases": [
+          "người vi phạm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  }
+]

@@ -17,8 +17,8 @@ load_dotenv()
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_INPUT  = os.path.join(BASE_DIR, "material_for_triplets/1_sections_nghi_dinh_168_2024_1.json")
-DEFAULT_OUTPUT = os.path.join(BASE_DIR, "material_for_triplets/2_sections_rewritten_nghi_dinh_168_2024_1.json")
+DEFAULT_INPUT  = os.path.join(BASE_DIR, "material_for_triplets/2_sections_trat_tu_atgt_1.json")
+DEFAULT_OUTPUT = os.path.join(BASE_DIR, "material_for_triplets/2_sections_rewritten_trat_tu_atgt_1.json")
 
 SYSTEM_PROMPT = """Bạn là một trợ lý phân tích ngôn ngữ pháp lý Việt Nam chuyên nghiệp.
 Nhiệm vụ của bạn là đọc đoạn văn bản pháp luật (text_content) được cung cấp và DIỄN ĐẠT LẠI thành câu văn gọn gàng hơn, phục vụ việc điều hướng câu hỏi người dùng tới đúng điều khoản (không phải để trả lời trực tiếp câu hỏi).

@@ -235,8 +235,8 @@ def parse_pdf(pdf_path, output_path, document_name="", prev_output_path=None):
 
 if __name__ == "__main__":
     parse_pdf(
-        'version_4/Building_KG/law/trat_tu_atgt_1.pdf',
-        'version_4/Building_KG/material_for_triplets/2_sections_trat_tu_atgt_1.json',
+        'src/Building_KG/law/trat_tu_atgt_1.pdf',
+        'src/Building_KG/material_for_triplets/2_sections_trat_tu_atgt_1.json',
         document_name="Luật số: 36/2024/QH15",
-        prev_output_path='version_4/Building_KG/material_for_triplets/1_sections_nghi_dinh_168_2024_1.json'
+        prev_output_path='src/Building_KG/material_for_triplets/1_sections_nghi_dinh_168_2024_1.json'
     )

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "s1010",
+    "path": "Chương III - Mục 2 - Điều 47 - Khoản 12",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Việc gửi quyết định xử phạt vi phạm hành chính thực hiện theo quy định của Luật Xử lý vi phạm hành chính và có thể gửi cho người vi phạm qua tài khoản đã đăng ký trên Cổng dịch vụ công."
+    ],
+    "triplets": [
+      {"s": "Quyết định xử phạt", "v": "Gửi", "o": "Người vi phạm",
+       "s_keyphrases": ["quyết định xử phạt vi phạm hành chính"], "v_keyphrases": [],
+       "o_keyphrases": []},
+      {"s": "Quyết định xử phạt", "v": "Gửi qua", "o": "Tài khoản",
+       "s_keyphrases": ["quyết định xử phạt vi phạm hành chính"], "v_keyphrases": [],
+       "o_keyphrases": []},
+      {"s": "Tài khoản", "v": "Đăng ký", "o": "Cổng dịch vụ công",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1011",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1012",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1013",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1014",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1015",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1016",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm e",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1017",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm g",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1018",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm h",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1019",
+    "path": "Chương III - Mục 2 - Điều 48 - Khoản 1 - Điểm i",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
+    ],
+    "triplets": [
+      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
+       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+    ]
+  }
+]

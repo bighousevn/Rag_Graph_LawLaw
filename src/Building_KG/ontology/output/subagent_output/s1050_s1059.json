@@ -1,0 +1,108 @@
+[
+  {
+    "id": "s1050",
+    "path": "Chương IV - Điều 52 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28: Sửa đổi, bổ sung điểm i khoản 6 Điều 28 quy định sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Sử dụng", "o": "Phương tiện kinh doanh vận tải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phương tiện kinh doanh vận tải", "v": "Có", "o": "Chất lượng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chất lượng", "v": "Bảo đảm", "o": "Điều kiện kinh doanh",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["điều kiện của hình thức kinh doanh đã đăng ký"]}
+    ]
+  },
+  {
+    "id": "s1051",
+    "path": "Chương IV - Điều 52 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 28: Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7 Điều này bị tước quyền sử dụng phù hiệu đối với xe vi phạm."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phù hiệu", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1052",
+    "path": "Chương IV - Điều 52 - Khoản 4",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 28: Sửa đổi, bổ sung điểm i khoản 4; điểm h khoản 6; điểm b khoản 7 Điều này bị tước quyền sử dụng giấy phép kinh doanh vận tải."
+    ],
+    "triplets": [
+      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
+       "s_keyphrases": ["giấy phép kinh doanh vận tải"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1053",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm b khoản 2 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1054",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm e khoản 2 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1055",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm g khoản 2 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1056",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm d",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm m khoản 5 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1057",
+    "path": "Chương IV - Điều 52 - Khoản 5 - Điểm đ",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 74: Sửa đổi, bổ sung điểm o khoản 5 Điều 74."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1058",
+    "path": "Chương IV - Điều 52 - Khoản 6 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 80: Sửa đổi, bổ sung điểm i khoản 3 Điều 80 quy định các hành vi vi phạm quy định về giá cước."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1059",
+    "path": "Chương IV - Điều 52 - Khoản 6 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm, khoản của Điều 80: Sửa đổi, bổ sung điểm l khoản 3 Điều 80 quy định các hành vi vi phạm quy định về kinh doanh vận tải hành khách theo hợp đồng."
+    ],
+    "triplets": []
+  }
+]

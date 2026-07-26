@@ -1,0 +1,501 @@
+[
+  {
+    "id": "s1040",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 1 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông có trách nhiệm quản lý, vận hành Cơ sở dữ liệu về xử lý vi phạm hành chính để thực hiện cập nhật, tự động phục hồi điểm giấy phép lái xe."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Quản lý",
+        "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Vận hành",
+        "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Cập nhật",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Phục hồi",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1041",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 1 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Cục trưởng Cục Cảnh sát giao thông, Trưởng phòng Cảnh sát giao thông nơi tổ chức kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ có thẩm quyền phục hồi điểm cho giấy phép lái xe đối với trường hợp quy định tại khoản 3 Điều này."
+    ],
+    "triplets": [
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cục trưởng Cục Cảnh sát giao thông",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Điểm",
+        "v": "Dành cho",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Trưởng phòng Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Trưởng phòng Cảnh sát giao thông",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Trưởng phòng Cảnh sát giao thông",
+        "v": "Tổ chức",
+        "o": "Kiểm tra kiến thức pháp luật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1042",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất: Khi đủ thời hạn 12 tháng, kể từ ngày bị trừ điểm giấy phép lái xe gần nhất, dữ liệu điểm giấy phép lái xe sẽ được tự động phục hồi đủ 12 điểm và cập nhật tự động trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "v": "Cập nhật",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1043",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 2 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất: Ngay sau khi dữ liệu điểm giấy phép lái xe được phục hồi, Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ sẽ tự động chuyển thông tin thông báo cho người được phục hồi điểm giấy phép lái xe biết việc phục hồi điểm."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "v": "Thông báo",
+        "o": "Người",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1044",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 2 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất: Việc thông báo phục hồi điểm giấy phép lái xe thực hiện bằng phương thức điện tử thông qua tài khoản của công dân đăng ký trên Cổng dịch vụ công, Ứng dụng giao thông trên thiết bị di động; đồng thời cập nhật thông tin về giấy phép lái xe được phục hồi điểm trên Trang thông tin điện tử của Cục Cảnh sát giao thông."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đăng ký",
+        "o": "Cổng dịch vụ công",
+        "s_keyphrases": [
+          "công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đăng ký",
+        "o": "Ứng dụng giao thông",
+        "s_keyphrases": [
+          "công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Cập nhật",
+        "o": "Trang thông tin điện tử",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1045",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 3 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe bị trừ hết điểm: Sau khi người có giấy phép lái xe bị trừ hết điểm tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ và đạt yêu cầu, kết quả kiểm tra được cập nhật vào phần mềm kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ và đồng bộ dữ liệu với Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ, dữ liệu điểm giấy phép lái xe sẽ được phục hồi đủ 12 điểm và cập nhật tự động trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tham gia",
+        "o": "Kiểm tra kiến thức pháp luật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đạt",
+        "o": "Yêu cầu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Kết quả",
+        "v": "Cập nhật",
+        "o": "Phần mềm",
+        "s_keyphrases": [
+          "kết quả kiểm tra"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phần mềm kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Phần mềm",
+        "v": "Đồng bộ",
+        "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
+        "v": "Cập nhật",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1046",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 3 - Điểm b",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe bị trừ hết điểm: Ngay sau khi dữ liệu điểm giấy phép lái xe được phục hồi đủ 12 điểm thì người có thẩm quyền quy định tại điểm b khoản 1 Điều này thông báo cho người được phục hồi điểm giấy phép lái xe biết việc phục hồi điểm."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thông báo",
+        "o": "Người",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1047",
+    "path": "Chương III - Mục 3 - Điều 51 - Khoản 3 - Điểm c",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe bị trừ hết điểm: Việc thông báo phục hồi điểm giấy phép lái xe thực hiện bằng văn bản theo mẫu quy định của Bộ trưởng Bộ Công an và được giao trực tiếp hoặc gửi qua dịch vụ bưu chính hoặc thực hiện thông báo bằng phương thức điện tử thông qua tài khoản của công dân đăng ký trên Cổng dịch vụ công, Ứng dụng giao thông trên thiết bị di động; đồng thời cập nhật thông tin về giấy phép lái xe được phục hồi điểm trên Trang thông tin điện tử của Cục Cảnh sát giao thông."
+    ],
+    "triplets": [
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ hết",
+        "o": "Điểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Giao",
+        "o": "Văn bản",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Gửi",
+        "o": "Văn bản",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thông báo",
+        "o": "Người",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đăng ký",
+        "o": "Cổng dịch vụ công",
+        "s_keyphrases": [
+          "công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đăng ký",
+        "o": "Ứng dụng giao thông",
+        "s_keyphrases": [
+          "công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Cập nhật",
+        "o": "Trang thông tin điện tử",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1048",
+    "path": "Chương IV - Điều 52 - Khoản 1",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Bổ sung khoản 2a vào sau khoản 2 Điều 1 quy định hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1049",
+    "path": "Chương IV - Điều 52 - Khoản 2 - Điểm a",
+    "document_name": "Nghị định 168:2024/NĐ-CP",
+    "propositions": [
+      "Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 quy định không thực hiện đúng các nội dung đã đăng ký, niêm yết về giá cước, giá dịch vụ, tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải."
+    ],
+    "triplets": [
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Đăng ký",
+        "o": "Thông tin",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Niêm yết",
+        "o": "Thông tin",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện đúng",
+        "o": "Giá cước",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện đúng",
+        "o": "Giá dịch vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện đúng",
+        "o": "Tiêu chuẩn chất lượng dịch vụ vận tải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện đúng",
+        "o": "Tiêu chuẩn chất lượng dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  }
+]
