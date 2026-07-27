@@ -2,19 +2,25 @@
   {
     "s": "Người",
     "v": "Điều khiển",
-    "o": "Ô tô",
+    "o": "Xe máy",
     "group": 1
   },
   {
     "s": "Người",
-    "v": "Chạy quá tốc độ",
-    "o": "Ô tô",
+    "v": "Mang",
+    "o": "Giấy tờ xe",
     "group": 1
   },
   {
     "s": "Người",
-    "v": "Tại",
-    "o": "Biển báo tốc độ tối đa 60 km/h",
-    "group": 1
+    "v": "Điều khiển",
+    "o": "Xe máy",
+    "group": 2
+  },
+  {
+    "s": "Xe máy",
+    "v": "Có",
+    "o": "Gương",
+    "group": 2
   }
 ]

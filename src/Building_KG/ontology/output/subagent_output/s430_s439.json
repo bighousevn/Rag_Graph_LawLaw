@@ -158,7 +158,7 @@
       {"s": "Người", "v": "Có", "o": "Giấy phép lái xe quốc tế",
        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
       {"s": "Người", "v": "Mang theo", "o": "Giấy phép lái xe quốc gia",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+       "s_keyphrases": [], "v_keyphrases": ["mang"], "o_keyphrases": []},
       {"s": "Giấy phép lái xe quốc gia", "v": "Phù hợp", "o": "Xe mô tô",
        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
     ]
