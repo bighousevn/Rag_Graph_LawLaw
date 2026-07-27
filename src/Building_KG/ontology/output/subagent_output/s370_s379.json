@@ -8,13 +8,42 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Ô tô", "v": "Sản xuất", "o": "Trái quy định",
-        "s_keyphrases": [], "v_keyphrases": ["lắp ráp"], "o_keyphrases": []
+        "s": "Ô tô",
+        "v": "Sản xuất",
+        "o": "Trái quy định",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "lắp ráp",
+          "Chế tạo",
+          "Làm ra"
+        ],
+        "o_keyphrases": [
+          "Vi phạm quy định",
+          "Không đúng quy định"
+        ]
       }
     ]
   },
@@ -27,13 +56,41 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Tịch thu", "o": "Biển số xe",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Tịch thu",
+        "o": "Biển số xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tước đoạt",
+          "Lấy đi"
+        ],
+        "o_keyphrases": [
+          "Số biển xe",
+          "Biển kiểm soát"
+        ]
       }
     ]
   },
@@ -46,33 +103,127 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Có", "o": "Chứng nhận đăng ký xe",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
       },
       {
-        "s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
       },
       {
-        "s": "Chứng nhận đăng ký xe", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Cấp",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ]
       },
       {
-        "s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã khung",
+          "Số khung xe"
+        ]
       },
       {
-        "s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã động cơ",
+          "Số máy"
+        ]
       },
       {
-        "s": "Người", "v": "Tịch thu", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]
+        "s": "Người",
+        "v": "Tịch thu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tước đoạt",
+          "Lấy đi"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe ô tô",
+          "Xe hơi"
+        ]
       }
     ]
   },
@@ -85,33 +236,126 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Lắp", "o": "Thiết bị",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Lắp",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
       },
       {
-        "s": "Người", "v": "Thay thế", "o": "Thiết bị",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Thay thế",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thay đổi",
+          "Thay thế bằng"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
       },
       {
-        "s": "Thiết bị", "v": "Đủ", "o": "Tiêu chuẩn",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Thiết bị",
+        "v": "Đủ",
+        "o": "Tiêu chuẩn",
+        "s_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ],
+        "v_keyphrases": [
+          "Đầy đủ",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Chuẩn mực",
+          "Tiêu chí"
+        ]
       },
       {
-        "s": "Thiết bị", "v": "Đủ", "o": "Quy chuẩn an toàn kỹ thuật",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Thiết bị",
+        "v": "Đủ",
+        "o": "Quy chuẩn an toàn kỹ thuật",
+        "s_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ],
+        "v_keyphrases": [
+          "Đầy đủ",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Quy định an toàn kỹ thuật",
+          "Tiêu chuẩn an toàn"
+        ]
       },
       {
-        "s": "Người", "v": "Khôi phục", "o": "Tình trạng ban đầu",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Tình trạng ban đầu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Trạng thái ban đầu",
+          "Điều kiện ban đầu"
+        ]
       },
       {
-        "s": "Tình trạng ban đầu", "v": "Thay đổi", "o": "Vi phạm hành chính",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tình trạng ban đầu",
+        "v": "Thay đổi",
+        "o": "Vi phạm hành chính",
+        "s_keyphrases": [
+          "Trạng thái ban đầu",
+          "Điều kiện ban đầu"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm pháp luật"
+        ]
       }
     ]
   },
@@ -124,21 +368,76 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Lắp", "o": "Thiết bị",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Lắp",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
       },
       {
-        "s": "Người", "v": "Khôi phục", "o": "Tính năng kỹ thuật",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Tính năng kỹ thuật",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Đặc tính kỹ thuật",
+          "Chức năng kỹ thuật"
+        ]
       },
       {
-        "s": "Tính năng kỹ thuật", "v": "Dành cho", "o": "Thiết bị",
-        "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []
+        "s": "Tính năng kỹ thuật",
+        "v": "Dành cho",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Đặc tính kỹ thuật",
+          "Chức năng kỹ thuật"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
       }
     ]
   },
@@ -151,17 +450,58 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Khôi phục", "o": "Tình trạng ban đầu",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Tình trạng ban đầu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Trạng thái ban đầu",
+          "Điều kiện ban đầu"
+        ]
       },
       {
-        "s": "Tình trạng ban đầu", "v": "Thay đổi", "o": "Vi phạm hành chính",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tình trạng ban đầu",
+        "v": "Thay đổi",
+        "o": "Vi phạm hành chính",
+        "s_keyphrases": [
+          "Trạng thái ban đầu",
+          "Điều kiện ban đầu"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm pháp luật"
+        ]
       }
     ]
   },
@@ -174,21 +514,76 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Nộp lại", "o": "Chứng nhận đăng ký xe",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Nộp lại",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gửi lại",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
       },
       {
-        "s": "Người", "v": "Nộp lại", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["giấy chứng nhận"]
+        "s": "Người",
+        "v": "Nộp lại",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gửi lại",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "giấy chứng nhận",
+          "Giấy kiểm định an toàn",
+          "Giấy chứng nhận kiểm định"
+        ]
       },
       {
-        "s": "Người", "v": "Nộp lại", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Nộp lại",
+        "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gửi lại",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Tem kiểm định",
+          "Tem an toàn kỹ thuật"
+        ]
       }
     ]
   },
@@ -201,25 +596,92 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Thu hồi", "o": "Chứng nhận đăng ký xe",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Thu hồi",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
       },
       {
-        "s": "Chứng nhận đăng ký xe", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Cấp",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ]
       },
       {
-        "s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã khung",
+          "Số khung xe"
+        ]
       },
       {
-        "s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã động cơ",
+          "Số máy"
+        ]
       }
     ]
   },
@@ -232,13 +694,41 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Trừ", "o": "Điểm giấy phép lái xe",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Trừ",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Điểm số giấy phép lái xe",
+          "Điểm thi giấy phép lái xe"
+        ]
       }
     ]
   },
@@ -251,13 +741,41 @@
     ],
     "triplets": [
       {
-        "s": "Người", "v": "Điều khiển", "o": "Ô tô",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
-        "s": "Người", "v": "Trừ", "o": "Điểm giấy phép lái xe",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Người",
+        "v": "Trừ",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Điểm số giấy phép lái xe",
+          "Điểm thi giấy phép lái xe"
+        ]
       }
     ]
   }

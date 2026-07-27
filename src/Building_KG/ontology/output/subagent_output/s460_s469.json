@@ -7,13 +7,60 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách để người mắc võng nằm trên xe khi xe đang chạy."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Để", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Mắc", "o": "Võng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Để",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Đặt",
+          "Cho phép"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Mắc",
+        "o": "Võng",
+        "s_keyphrases": [
+          "Người đi",
+          "Khách"
+        ],
+        "v_keyphrases": [
+          "Bị mắc",
+          "Gặp phải"
+        ],
+        "o_keyphrases": [
+          "Giường võng",
+          "Võng chở"
+        ]
+      }
     ]
   },
   {
@@ -24,27 +71,179 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách sắp xếp, chằng buộc hành lý, hàng hóa không bảo đảm an toàn; để rơi hành lý, hàng hóa trên xe xuống đường; để hàng hóa trong khoang chở hành khách."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Sắp xếp", "o": "Hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sắp xếp", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chằng buộc", "o": "Hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chằng buộc", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Bảo đảm", "o": "An toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Để rơi", "o": "Hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Để rơi", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Để", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Tại", "o": "Khoang chở hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sắp xếp",
+        "o": "Hành lý",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tổ chức",
+          "Bố trí"
+        ],
+        "o_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sắp xếp",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tổ chức",
+          "Bố trí"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chằng buộc",
+        "o": "Hành lý",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Buộc chặt",
+          "Cố định"
+        ],
+        "o_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chằng buộc",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Buộc chặt",
+          "Cố định"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bảo đảm",
+        "o": "An toàn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Bảo đảm an toàn",
+          "An ninh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Để rơi",
+        "o": "Hành lý",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Thả",
+          "Để rơi tự do"
+        ],
+        "o_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Để rơi",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Thả",
+          "Để rơi tự do"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Để",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Đặt",
+          "Cho phép"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Tại",
+        "o": "Khoang chở hành khách",
+        "s_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Khoang hành khách",
+          "Khu vực chở khách"
+        ]
+      }
     ]
   },
   {
@@ -55,19 +254,111 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách chở hành lý, hàng hóa vượt quá kích thước bao ngoài của xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Chở", "o": "Hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành lý", "v": "Vượt quá", "o": "Kích thước bao ngoài",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Vượt quá", "o": "Kích thước bao ngoài",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kích thước bao ngoài", "v": "Thuộc", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hành lý",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Hành lý",
+        "v": "Vượt quá",
+        "o": "Kích thước bao ngoài",
+        "s_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước tổng thể",
+          "Kích thước bên ngoài"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Vượt quá",
+        "o": "Kích thước bao ngoài",
+        "s_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước tổng thể",
+          "Kích thước bên ngoài"
+        ]
+      },
+      {
+        "s": "Kích thước bao ngoài",
+        "v": "Thuộc",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Kích thước tổng thể",
+          "Kích thước bên ngoài"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ]
+      }
     ]
   },
   {
@@ -78,11 +369,44 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe vận tải hành khách không có nhân viên phục vụ trên xe đối với những xe quy định phải có nhân viên phục vụ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách", "xe vận tải hành khách"]},
-      {"s": "Ô tô chở khách", "v": "Có", "o": "Nhân viên phục vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "xe vận tải hành khách",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Ô tô chở khách",
+        "v": "Có",
+        "o": "Nhân viên phục vụ",
+        "s_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Nhân viên",
+          "Người phục vụ"
+        ]
+      }
     ]
   },
   {
@@ -93,11 +417,44 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe ô tô kinh doanh vận tải không có dây đai an toàn tại các vị trí ghế ngồi, giường nằm theo quy định (trừ xe buýt nội tỉnh)."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách", "xe ô tô kinh doanh vận tải"]},
-      {"s": "Ô tô chở khách", "v": "Có", "o": "Dây đai an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "xe ô tô kinh doanh vận tải",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Ô tô chở khách",
+        "v": "Có",
+        "o": "Dây đai an toàn",
+        "s_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo vệ"
+        ]
+      }
     ]
   },
   {
@@ -108,13 +465,61 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe ô tô kinh doanh vận tải không có hướng dẫn cho hành khách về an toàn giao thông và thoát hiểm khi xảy ra sự cố trên xe theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách", "xe ô tô kinh doanh vận tải"]},
-      {"s": "Ô tô chở khách", "v": "Có", "o": "Hướng dẫn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "xe ô tô kinh doanh vận tải",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Ô tô chở khách",
+        "v": "Có",
+        "o": "Hướng dẫn",
+        "s_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "v_keyphrases": [
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
+      }
     ]
   },
   {
@@ -125,13 +530,60 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe không niêm yết hành trình chạy xe hoặc niêm yết hành trình chạy xe không đúng với hành trình đã được cơ quan có thẩm quyền cấp phép."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Ô tô chở khách", "v": "Niêm yết", "o": "Hành trình chạy xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành trình chạy xe", "v": "Cấp phép", "o": "Cơ quan có thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Ô tô chở khách",
+        "v": "Niêm yết",
+        "o": "Hành trình chạy xe",
+        "s_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ],
+        "v_keyphrases": [
+          "Công bố",
+          "Đăng tải"
+        ],
+        "o_keyphrases": [
+          "Lịch trình",
+          "Đường đi"
+        ]
+      },
+      {
+        "s": "Hành trình chạy xe",
+        "v": "Cấp phép",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Lịch trình",
+          "Đường đi"
+        ],
+        "v_keyphrases": [
+          "Cho phép",
+          "Cấp giấy"
+        ],
+        "o_keyphrases": [
+          "Cơ quan chức năng",
+          "Cơ quan quản lý"
+        ]
+      }
     ]
   },
   {
@@ -142,11 +594,44 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách chở quá số người quy định được phép chở của phương tiện trên tuyến có cự ly lớn hơn 300 km."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Chở quá", "o": "Số người quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["số người quy định được phép chở của phương tiện"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở quá",
+        "o": "Số người quy định",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Chở thừa",
+          "Chở vượt"
+        ],
+        "o_keyphrases": [
+          "số người quy định được phép chở của phương tiện",
+          "Số lượng quy định",
+          "Số người cho phép"
+        ]
+      }
     ]
   },
   {
@@ -157,15 +642,77 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách để người lên, xuống xe khi xe đang chạy."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Để", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Lên", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Xuống", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Để",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Đặt",
+          "Cho phép"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Lên",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Người đi",
+          "Khách"
+        ],
+        "v_keyphrases": [
+          "Tăng",
+          "Đi lên"
+        ],
+        "o_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Xuống",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Người đi",
+          "Khách"
+        ],
+        "v_keyphrases": [
+          "Giảm",
+          "Đi xuống"
+        ],
+        "o_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ]
+      }
     ]
   },
   {
@@ -176,17 +723,94 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách xếp hành lý, hàng hóa trên xe làm lệch xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Xếp", "o": "Hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Xếp", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành lý", "v": "Làm lệch", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Làm lệch", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Xếp",
+        "o": "Hành lý",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Sắp đặt",
+          "Đặt"
+        ],
+        "o_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Xếp",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Sắp đặt",
+          "Đặt"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Hành lý",
+        "v": "Làm lệch",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ],
+        "v_keyphrases": [
+          "Làm sai lệch",
+          "Làm mất cân bằng"
+        ],
+        "o_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Làm lệch",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Hàng",
+          "Tài sản"
+        ],
+        "v_keyphrases": [
+          "Làm sai lệch",
+          "Làm mất cân bằng"
+        ],
+        "o_keyphrases": [
+          "Xe khách",
+          "Xe chở người"
+        ]
+      }
     ]
   }
 ]

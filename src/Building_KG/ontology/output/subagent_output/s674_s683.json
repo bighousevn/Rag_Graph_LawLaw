@@ -11,48 +11,90 @@
         "s": "Tổ chức",
         "v": "Là chủ",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
         "o_keyphrases": [
           "xe ô tô",
           "xe chở người bốn bánh có gắn động cơ",
           "xe chở hàng bốn bánh có gắn động cơ",
-          "các loại xe tương tự xe ô tô"
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
         ]
       },
       {
         "s": "Tổ chức",
         "v": "Đưa",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Gửi"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
         "s": "Ô tô",
         "v": "Tham gia",
         "o": "Giao thông",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
       },
       {
         "s": "Ô tô",
         "v": "Có",
         "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
         "o_keyphrases": [
-          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
         ]
       },
       {
         "s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
         "v": "Hết",
         "o": "Hiệu lực",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Thời gian hiệu lực",
+          "Thời hạn"
+        ]
       }
     ]
   },
@@ -68,62 +110,117 @@
         "s": "Tổ chức",
         "v": "Là chủ",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
         "o_keyphrases": [
           "xe ô tô",
           "xe chở người bốn bánh có gắn động cơ",
           "xe chở hàng bốn bánh có gắn động cơ",
-          "các loại xe tương tự xe ô tô"
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
         ]
       },
       {
         "s": "Tổ chức",
         "v": "Giao",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Trao"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Để cho",
         "o": "Người làm công",
-        "s_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
         "v_keyphrases": [],
-        "o_keyphrases": []
+        "o_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Để cho",
         "o": "Người đại diện",
-        "s_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
         "v_keyphrases": [],
-        "o_keyphrases": []
+        "o_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ]
       },
       {
         "s": "Người làm công",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Người đại diện",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       }
     ]
   },
@@ -139,62 +236,117 @@
         "s": "Tổ chức",
         "v": "Là chủ",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
         "o_keyphrases": [
           "xe ô tô",
           "xe chở người bốn bánh có gắn động cơ",
           "xe chở hàng bốn bánh có gắn động cơ",
-          "các loại xe tương tự xe ô tô"
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
         ]
       },
       {
         "s": "Tổ chức",
         "v": "Giao",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Trao"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Để cho",
         "o": "Người làm công",
-        "s_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
         "v_keyphrases": [],
-        "o_keyphrases": []
+        "o_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Để cho",
         "o": "Người đại diện",
-        "s_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
         "v_keyphrases": [],
-        "o_keyphrases": []
+        "o_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ]
       },
       {
         "s": "Người làm công",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Người đại diện",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       }
     ]
   },
@@ -210,80 +362,158 @@
         "s": "Tổ chức",
         "v": "Là chủ",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
         "o_keyphrases": [
           "xe ô tô",
           "xe chở người bốn bánh có gắn động cơ",
           "xe chở hàng bốn bánh có gắn động cơ",
-          "các loại xe tương tự xe ô tô"
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
         ]
       },
       {
         "s": "Tổ chức",
         "v": "Đưa",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Gửi"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Phương tiện",
         "v": "Tham gia",
         "o": "Giao thông",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
       },
       {
         "s": "Phương tiện",
         "v": "Có",
         "o": "Chứng nhận đăng ký xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
       },
       {
         "s": "Phương tiện",
         "v": "Có",
         "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
         "o_keyphrases": [
-          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
         ]
       },
       {
         "s": "Chứng nhận đăng ký xe",
         "v": "Cấp",
         "o": "Cơ quan có thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan chức năng"
+        ]
       },
       {
         "s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
         "v": "Cấp",
         "o": "Cơ quan có thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan chức năng"
+        ]
       },
       {
         "s": "Chứng nhận đăng ký xe",
         "v": "Đúng",
         "o": "Số khung",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã khung",
+          "Số khung xe"
+        ]
       },
       {
         "s": "Chứng nhận đăng ký xe",
         "v": "Đúng",
         "o": "Số động cơ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã động cơ",
+          "Số máy"
+        ]
       }
     ]
   },
@@ -299,30 +529,55 @@
         "s": "Tổ chức",
         "v": "Là chủ",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
         "o_keyphrases": [
           "xe ô tô",
           "xe chở người bốn bánh có gắn động cơ",
           "xe chở hàng bốn bánh có gắn động cơ",
-          "các loại xe tương tự xe ô tô"
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
         ]
       },
       {
         "s": "Tổ chức",
         "v": "Tuân thủ",
         "o": "Quy định về biển số xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Quy định biển số",
+          "Luật biển số xe"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Tuân thủ",
         "o": "Quy định về thông tin trên xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Quy định thông tin xe",
+          "Luật thông tin xe"
+        ]
       }
     ]
   },
@@ -338,17 +593,35 @@
         "s": "Cá nhân",
         "v": "Vi phạm",
         "o": "Quy định giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tổ chức"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật giao thông đường bộ",
+          "Quy tắc giao thông"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Vi phạm",
         "o": "Quy định giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật giao thông đường bộ",
+          "Quy tắc giao thông"
+        ]
       }
     ]
   },
@@ -364,28 +637,47 @@
         "s": "Tổ chức",
         "v": "Là chủ",
         "o": "Xe mô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
         "o_keyphrases": [
           "xe mô tô",
           "xe gắn máy",
           "các loại xe tương tự xe mô tô",
-          "các loại xe tương tự xe gắn máy"
+          "các loại xe tương tự xe gắn máy",
+          "Xe máy"
         ]
       },
       {
         "s": "Tổ chức",
         "v": "Giao",
         "o": "Xe mô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Trao"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe gắn máy"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Để cho",
         "o": "Người",
-        "s_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
         "v_keyphrases": [],
         "o_keyphrases": []
       },
@@ -394,24 +686,45 @@
         "v": "Đủ",
         "o": "Điều kiện",
         "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Đầy đủ",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Yêu cầu",
+          "Tiêu chí"
+        ]
       },
       {
         "s": "Người",
         "v": "Điều khiển",
         "o": "Xe mô tô",
         "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe gắn máy"
+        ]
       },
       {
         "s": "Xe mô tô",
         "v": "Tham gia",
         "o": "Giao thông",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Xe máy",
+          "Xe gắn máy"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
       }
     ]
   },
@@ -428,10 +741,18 @@
         "v": "Vi phạm",
         "o": "Quy định giao thông đường bộ",
         "s_keyphrases": [
-          "chủ phương tiện"
+          "chủ phương tiện",
+          "Người sở hữu xe",
+          "Chủ sở hữu"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật giao thông đường bộ",
+          "Quy tắc giao thông"
+        ]
       }
     ]
   },
@@ -447,39 +768,72 @@
         "s": "Tổ chức",
         "v": "Là chủ",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
         "o_keyphrases": [
           "xe ô tô",
           "xe chở người bốn bánh có gắn động cơ",
           "xe chở hàng bốn bánh có gắn động cơ",
-          "các loại xe tương tự xe ô tô"
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
         ]
       },
       {
         "s": "Tổ chức",
         "v": "Đưa",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Gửi"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ]
       },
       {
         "s": "Ô tô",
         "v": "Tham gia",
         "o": "Giao thông",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
       },
       {
         "s": "Ô tô",
         "v": "Có",
         "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
         "o_keyphrases": [
-          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
         ]
       }
     ]
@@ -496,62 +850,117 @@
         "s": "Tổ chức",
         "v": "Là chủ",
         "o": "Ô tô",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
         "o_keyphrases": [
           "xe ô tô",
           "xe chở người bốn bánh có gắn động cơ",
           "xe chở hàng bốn bánh có gắn động cơ",
-          "các loại xe tương tự xe ô tô"
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
         ]
       },
       {
         "s": "Tổ chức",
         "v": "Giao",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Trao"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Để cho",
         "o": "Người làm công",
-        "s_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
         "v_keyphrases": [],
-        "o_keyphrases": []
+        "o_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Để cho",
         "o": "Người đại diện",
-        "s_keyphrases": [],
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
         "v_keyphrases": [],
-        "o_keyphrases": []
+        "o_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ]
       },
       {
         "s": "Người làm công",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Người đại diện",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       }
     ]
   }

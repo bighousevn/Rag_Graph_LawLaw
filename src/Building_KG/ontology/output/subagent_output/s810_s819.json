@@ -7,14 +7,73 @@
       "Cơ sở đào tạo lái xe tuyển sinh học viên không đủ điều kiện trình độ văn hóa, thời gian lái xe an toàn tương ứng với từng hạng đào tạo; tuyển sinh học viên không đủ hồ sơ theo quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Tuyển sinh", "o": "Học viên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Học viên", "v": "Đủ", "o": "Trình độ văn hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Học viên", "v": "Đủ", "o": "Thời gian lái xe an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Học viên", "v": "Đủ", "o": "Hồ sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Tuyển sinh",
+        "o": "Học viên",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Đăng ký học",
+          "Nhận hồ sơ"
+        ],
+        "o_keyphrases": [
+          "Sinh viên",
+          "Người học"
+        ]
+      },
+      {
+        "s": "Học viên",
+        "v": "Đủ",
+        "o": "Trình độ văn hóa",
+        "s_keyphrases": [
+          "Sinh viên",
+          "Người học"
+        ],
+        "v_keyphrases": [
+          "Đạt yêu cầu",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Trình độ học vấn",
+          "Trình độ giáo dục"
+        ]
+      },
+      {
+        "s": "Học viên",
+        "v": "Đủ",
+        "o": "Thời gian lái xe an toàn",
+        "s_keyphrases": [
+          "Sinh viên",
+          "Người học"
+        ],
+        "v_keyphrases": [
+          "Đạt yêu cầu",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Thời gian lái xe hợp lý"
+        ]
+      },
+      {
+        "s": "Học viên",
+        "v": "Đủ",
+        "o": "Hồ sơ",
+        "s_keyphrases": [
+          "Sinh viên",
+          "Người học"
+        ],
+        "v_keyphrases": [
+          "Đạt yêu cầu",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Giấy tờ"
+        ]
+      }
     ]
   },
   {
@@ -25,8 +84,23 @@
       "Cơ sở đào tạo lái xe không có đủ số lượng giáo viên dạy thực hành lái xe các hạng để đáp ứng với kế hoạch sử dụng các xe tập lái dùng để đào tạo."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Đủ", "o": "Giáo viên dạy lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Đủ",
+        "o": "Giáo viên dạy lái xe",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Đạt yêu cầu",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Giảng viên lái xe",
+          "Người dạy lái xe"
+        ]
+      }
     ]
   },
   {
@@ -37,8 +111,23 @@
       "Cơ sở đào tạo lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 01 khóa đào tạo."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Lưu trữ", "o": "Hồ sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Lưu trữ",
+        "o": "Hồ sơ",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Giấy tờ"
+        ]
+      }
     ]
   },
   {
@@ -49,8 +138,23 @@
       "Trung tâm sát hạch lái xe không duy trì đủ các điều kiện quy định trong Quy chuẩn kỹ thuật quốc gia về Trung tâm sát hạch lái xe cơ giới đường bộ, trừ các hành vi vi phạm quy định tại khoản 4, khoản 5, khoản 7 Điều này."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Đủ", "o": "Điều kiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Đủ",
+        "o": "Điều kiện",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Đạt yêu cầu",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Yêu cầu",
+          "Tiêu chí"
+        ]
+      }
     ]
   },
   {
@@ -61,8 +165,23 @@
       "Trung tâm sát hạch lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 01 kỳ sát hạch lái xe."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Lưu trữ", "o": "Hồ sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Lưu trữ",
+        "o": "Hồ sơ",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Giấy tờ"
+        ]
+      }
     ]
   },
   {
@@ -73,12 +192,57 @@
       "Cá nhân sử dụng các giấy tờ, tài liệu không đúng sự thật để được học, kiểm tra, sát hạch cấp mới, cấp lại giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ mà chưa đến mức bị truy cứu trách nhiệm hình sự."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Sử dụng", "o": "Giấy tờ giả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Cấp", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Cấp", "o": "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Sử dụng",
+        "o": "Giấy tờ giả",
+        "s_keyphrases": [
+          "Người dân",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ không hợp lệ",
+          "Giấy tờ giả mạo"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Cấp",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Người dân",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Cấp",
+        "o": "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+        "s_keyphrases": [
+          "Người dân",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": [
+          "Chứng chỉ giao thông",
+          "Giấy chứng nhận kiến thức giao thông"
+        ]
+      }
     ]
   },
   {
@@ -89,22 +253,132 @@
       "Người dự sát hạch mang điện thoại di động, thiết bị viễn thông liên lạc bằng hình ảnh, âm thanh vào phòng sát hạch lý thuyết, mô phỏng các tình huống giao thông, lên xe sát hạch hoặc có hành vi gian dối khác làm sai lệch kết quả sát hạch."
     ],
     "triplets": [
-      {"s": "Người", "v": "Dự", "o": "Sát hạch",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người dự sát hạch", "v": "Mang", "o": "Điện thoại",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["điện thoại di động"]},
-      {"s": "Người dự sát hạch", "v": "Mang", "o": "Thiết bị viễn thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người dự sát hạch", "v": "Tại", "o": "Phòng sát hạch lý thuyết",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người dự sát hạch", "v": "Tại", "o": "Mô phỏng tình huống giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người dự sát hạch", "v": "Tại", "o": "Xe sát hạch",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người dự sát hạch", "v": "Thực hiện", "o": "Hành vi gian dối",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành vi gian dối", "v": "Làm sai lệch", "o": "Kết quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["kết quả sát hạch"]}
+      {
+        "s": "Người",
+        "v": "Dự",
+        "o": "Sát hạch",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tham gia",
+          "Đăng ký"
+        ],
+        "o_keyphrases": [
+          "Kiểm tra",
+          "Thi"
+        ]
+      },
+      {
+        "s": "Người dự sát hạch",
+        "v": "Mang",
+        "o": "Điện thoại",
+        "s_keyphrases": [
+          "Thí sinh",
+          "Người thi"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem"
+        ],
+        "o_keyphrases": [
+          "điện thoại di động",
+          "Máy điện thoại",
+          "Thiết bị điện thoại"
+        ]
+      },
+      {
+        "s": "Người dự sát hạch",
+        "v": "Mang",
+        "o": "Thiết bị viễn thông",
+        "s_keyphrases": [
+          "Thí sinh",
+          "Người thi"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem"
+        ],
+        "o_keyphrases": [
+          "Thiết bị liên lạc",
+          "Thiết bị truyền thông"
+        ]
+      },
+      {
+        "s": "Người dự sát hạch",
+        "v": "Tại",
+        "o": "Phòng sát hạch lý thuyết",
+        "s_keyphrases": [
+          "Thí sinh",
+          "Người thi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Phòng thi lý thuyết",
+          "Phòng kiểm tra lý thuyết"
+        ]
+      },
+      {
+        "s": "Người dự sát hạch",
+        "v": "Tại",
+        "o": "Mô phỏng tình huống giao thông",
+        "s_keyphrases": [
+          "Thí sinh",
+          "Người thi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Mô phỏng giao thông",
+          "Tình huống giao thông giả lập"
+        ]
+      },
+      {
+        "s": "Người dự sát hạch",
+        "v": "Tại",
+        "o": "Xe sát hạch",
+        "s_keyphrases": [
+          "Thí sinh",
+          "Người thi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Xe kiểm tra",
+          "Xe thi"
+        ]
+      },
+      {
+        "s": "Người dự sát hạch",
+        "v": "Thực hiện",
+        "o": "Hành vi gian dối",
+        "s_keyphrases": [
+          "Thí sinh",
+          "Người thi"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành vi lừa đảo",
+          "Hành vi không trung thực"
+        ]
+      },
+      {
+        "s": "Hành vi gian dối",
+        "v": "Làm sai lệch",
+        "o": "Kết quả",
+        "s_keyphrases": [
+          "Hành vi lừa đảo",
+          "Hành vi không trung thực"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "kết quả sát hạch",
+          "Thành quả",
+          "Kết luận"
+        ]
+      }
     ]
   },
   {
@@ -115,12 +389,57 @@
       "Cơ sở đào tạo lái xe tổ chức tuyển sinh, đào tạo vượt quá lưu lượng quy định trong giấy phép đào tạo lái xe."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Tổ chức", "o": "Tuyển sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đào tạo lái xe", "v": "Tổ chức", "o": "Đào tạo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đào tạo lái xe", "v": "Vượt quá", "o": "Lưu lượng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Tổ chức",
+        "o": "Tuyển sinh",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Cơ cấu",
+          "Thành lập"
+        ],
+        "o_keyphrases": [
+          "Đăng ký học",
+          "Nhận hồ sơ"
+        ]
+      },
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Tổ chức",
+        "o": "Đào tạo",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Cơ cấu",
+          "Thành lập"
+        ],
+        "o_keyphrases": [
+          "Huấn luyện",
+          "Giáo dục"
+        ]
+      },
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Vượt quá",
+        "o": "Lưu lượng",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Vượt lên",
+          "Quá"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Lưu lượng giao thông"
+        ]
+      }
     ]
   },
   {
@@ -131,10 +450,37 @@
       "Cơ sở đào tạo lái xe tổ chức đào tạo lái xe ngoài địa điểm được ghi trong giấy phép đào tạo lái xe."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Tổ chức", "o": "Đào tạo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đào tạo lái xe", "v": "Tại", "o": "Địa điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Tổ chức",
+        "o": "Đào tạo",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Cơ cấu",
+          "Thành lập"
+        ],
+        "o_keyphrases": [
+          "Huấn luyện",
+          "Giáo dục"
+        ]
+      },
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Tại",
+        "o": "Địa điểm",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Nơi",
+          "Vị trí"
+        ]
+      }
     ]
   },
   {
@@ -145,8 +491,23 @@
       "Cơ sở đào tạo lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 02 khóa đào tạo trở lên."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Lưu trữ", "o": "Hồ sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Lưu trữ",
+        "o": "Hồ sơ",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Giấy tờ"
+        ]
+      }
     ]
   }
 ]

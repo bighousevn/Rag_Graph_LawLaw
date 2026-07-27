@@ -7,13 +7,50 @@
       "Người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài thực hiện hành vi vi phạm quy định tại khoản 2; điểm b, điểm c khoản 3; điểm a khoản 4; khoản 6 Điều này còn bị áp dụng biện pháp khắc phục hậu quả buộc tái xuất phương tiện khỏi Việt Nam."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["phương tiện giao thông cơ giới đường bộ"]},
-      {"s": "Phương tiện", "v": "Gắn", "o": "Biển số nước ngoài",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Tái xuất", "o": "Việt Nam",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái xe",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "phương tiện giao thông cơ giới đường bộ"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Gắn",
+        "o": "Biển số nước ngoài",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Gắn kết",
+          "Đính kèm"
+        ],
+        "o_keyphrases": [
+          "Biển số ngoại",
+          "Biển số xe nước ngoài"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Tái xuất",
+        "o": "Việt Nam",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Xuất lại",
+          "Trở lại"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -24,11 +61,35 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không có tờ khai phương tiện vận tải đường bộ tạm nhập, tái xuất theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người", "v": "Có", "o": "Tờ khai phương tiện vận tải đường bộ tạm nhập, tái xuất",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái xe",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe máy",
+          "Mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Tờ khai phương tiện vận tải đường bộ tạm nhập, tái xuất",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tờ khai tạm nhập",
+          "Tờ khai tái xuất"
+        ]
+      }
     ]
   },
   {
@@ -39,17 +100,71 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe không có phù hiệu kiểm soát theo quy định hoặc có nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người", "v": "Có", "o": "Phù hiệu kiểm soát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phù hiệu kiểm soát", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Phù hiệu kiểm soát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Phù hiệu kiểm soát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái xe",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe máy",
+          "Mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Phù hiệu kiểm soát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phù hiệu kiểm soát",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Biển hiệu kiểm soát",
+          "Tem kiểm soát"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị hiệu lực",
+          "Giá trị áp dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Phù hiệu kiểm soát",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Phù hiệu kiểm soát",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -60,11 +175,32 @@
       "Người điều khiển xe ô tô và các loại xe tương tự xe ô tô không có tờ khai phương tiện vận tải đường bộ tạm nhập, tái xuất theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Có", "o": "Tờ khai phương tiện vận tải đường bộ tạm nhập, tái xuất",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái xe",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Tờ khai phương tiện vận tải đường bộ tạm nhập, tái xuất",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tờ khai tạm nhập",
+          "Tờ khai tái xuất"
+        ]
+      }
     ]
   },
   {
@@ -75,17 +211,68 @@
       "Người điều khiển xe ô tô và các loại xe tương tự xe ô tô điều khiển xe không có phù hiệu kiểm soát theo quy định hoặc có nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Có", "o": "Phù hiệu kiểm soát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phù hiệu kiểm soát", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Phù hiệu kiểm soát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Phù hiệu kiểm soát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái xe",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Phù hiệu kiểm soát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phù hiệu kiểm soát",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Biển hiệu kiểm soát",
+          "Tem kiểm soát"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị hiệu lực",
+          "Giá trị áp dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Phù hiệu kiểm soát",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Phù hiệu kiểm soát",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -96,12 +283,51 @@
       "Người điều khiển phương tiện đăng ký hoạt động trong Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế tái phạm hành vi quy định tại khoản 1, khoản 2 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Đăng ký hoạt động", "o": "Khu kinh tế thương mại đặc biệt",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Đăng ký hoạt động", "o": "Khu kinh tế cửa khẩu quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái xe",
+          "Quản lý"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Đăng ký hoạt động",
+        "o": "Khu kinh tế thương mại đặc biệt",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Đăng ký",
+          "Đăng ký tham gia"
+        ],
+        "o_keyphrases": [
+          "Khu thương mại đặc biệt",
+          "Khu kinh tế đặc biệt"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Đăng ký hoạt động",
+        "o": "Khu kinh tế cửa khẩu quốc tế",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Đăng ký",
+          "Đăng ký tham gia"
+        ],
+        "o_keyphrases": [
+          "Khu kinh tế cửa khẩu",
+          "Khu kinh tế quốc tế"
+        ]
+      }
     ]
   },
   {
@@ -112,16 +338,85 @@
       "Người điều khiển phương tiện đăng ký hoạt động trong Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế thực hiện hành vi vi phạm quy định tại khoản 1, khoản 2 Điều này còn bị áp dụng biện pháp khắc phục hậu quả buộc đưa phương tiện quay trở lại Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Đăng ký hoạt động", "o": "Khu kinh tế thương mại đặc biệt",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Đăng ký hoạt động", "o": "Khu kinh tế cửa khẩu quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Quay trở lại", "o": "Khu kinh tế thương mại đặc biệt",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Quay trở lại", "o": "Khu kinh tế cửa khẩu quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái xe",
+          "Quản lý"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Đăng ký hoạt động",
+        "o": "Khu kinh tế thương mại đặc biệt",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Đăng ký",
+          "Đăng ký tham gia"
+        ],
+        "o_keyphrases": [
+          "Khu thương mại đặc biệt",
+          "Khu kinh tế đặc biệt"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Đăng ký hoạt động",
+        "o": "Khu kinh tế cửa khẩu quốc tế",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Đăng ký",
+          "Đăng ký tham gia"
+        ],
+        "o_keyphrases": [
+          "Khu kinh tế cửa khẩu",
+          "Khu kinh tế quốc tế"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Quay trở lại",
+        "o": "Khu kinh tế thương mại đặc biệt",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Trở về",
+          "Quay về"
+        ],
+        "o_keyphrases": [
+          "Khu thương mại đặc biệt",
+          "Khu kinh tế đặc biệt"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Quay trở lại",
+        "o": "Khu kinh tế cửa khẩu quốc tế",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Trở về",
+          "Quay về"
+        ],
+        "o_keyphrases": [
+          "Khu kinh tế cửa khẩu",
+          "Khu kinh tế quốc tế"
+        ]
+      }
     ]
   },
   {
@@ -132,18 +427,90 @@
       "Người điều khiển phương tiện đăng ký hoạt động trong Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế thực hiện hành vi vi phạm quy định tại điểm b khoản 1, điểm b khoản 2 Điều này bị thu hồi phù hiệu đã hết giá trị sử dụng hoặc phù hiệu không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Đăng ký hoạt động", "o": "Khu kinh tế thương mại đặc biệt",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Đăng ký hoạt động", "o": "Khu kinh tế cửa khẩu quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thu hồi", "o": "Phù hiệu kiểm soát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phù hiệu kiểm soát", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Phù hiệu kiểm soát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái xe",
+          "Quản lý"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Đăng ký hoạt động",
+        "o": "Khu kinh tế thương mại đặc biệt",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Đăng ký",
+          "Đăng ký tham gia"
+        ],
+        "o_keyphrases": [
+          "Khu thương mại đặc biệt",
+          "Khu kinh tế đặc biệt"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Đăng ký hoạt động",
+        "o": "Khu kinh tế cửa khẩu quốc tế",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Đăng ký",
+          "Đăng ký tham gia"
+        ],
+        "o_keyphrases": [
+          "Khu kinh tế cửa khẩu",
+          "Khu kinh tế quốc tế"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thu hồi",
+        "o": "Phù hiệu kiểm soát",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phù hiệu kiểm soát",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Biển hiệu kiểm soát",
+          "Tem kiểm soát"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị hiệu lực",
+          "Giá trị áp dụng"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Phù hiệu kiểm soát",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -154,14 +521,68 @@
       "Giáo viên dạy lái xe thực hiện hành vi giáo viên dạy thực hành để học viên không có phù hiệu “Học viên tập lái xe” lái xe tập lái hoặc có phù hiệu nhưng không đeo khi lái xe tập lái."
     ],
     "triplets": [
-      {"s": "Giáo viên dạy lái xe", "v": "Dạy thực hành", "o": "Học viên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Học viên", "v": "Lái", "o": "Xe tập lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Học viên", "v": "Có", "o": "Phù hiệu học viên tập lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Học viên", "v": "Đeo", "o": "Phù hiệu học viên tập lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Dạy thực hành",
+        "o": "Học viên",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe",
+          "Giảng viên dạy lái xe"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn thực hành",
+          "Giảng dạy thực hành"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Học viên",
+        "v": "Lái",
+        "o": "Xe tập lái",
+        "s_keyphrases": [
+          "Người học",
+          "Người tham gia khóa học"
+        ],
+        "v_keyphrases": [
+          "Điều khiển",
+          "Chạy"
+        ],
+        "o_keyphrases": [
+          "Xe học lái",
+          "Xe thực hành"
+        ]
+      },
+      {
+        "s": "Học viên",
+        "v": "Có",
+        "o": "Phù hiệu học viên tập lái xe",
+        "s_keyphrases": [
+          "Người học",
+          "Người tham gia khóa học"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tem học viên lái xe",
+          "Phù hiệu tập lái"
+        ]
+      },
+      {
+        "s": "Học viên",
+        "v": "Đeo",
+        "o": "Phù hiệu học viên tập lái xe",
+        "s_keyphrases": [
+          "Người học",
+          "Người tham gia khóa học"
+        ],
+        "v_keyphrases": [
+          "Mang",
+          "Đeo bám"
+        ],
+        "o_keyphrases": [
+          "Tem học viên lái xe",
+          "Phù hiệu tập lái"
+        ]
+      }
     ]
   },
   {
@@ -172,12 +593,48 @@
       "Giáo viên dạy lái xe thực hiện hành vi giáo viên dạy thực hành chở người, hàng trên xe tập lái trái quy định."
     ],
     "triplets": [
-      {"s": "Giáo viên dạy lái xe", "v": "Chở", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giáo viên dạy lái xe", "v": "Chở", "o": "Hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giáo viên dạy lái xe", "v": "Tại", "o": "Xe tập lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Chở",
+        "o": "Người",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe",
+          "Giảng viên dạy lái xe"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Chở",
+        "o": "Hàng",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe",
+          "Giảng viên dạy lái xe"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Tại",
+        "o": "Xe tập lái",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe",
+          "Giảng viên dạy lái xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Xe học lái",
+          "Xe thực hành"
+        ]
+      }
     ]
   }
 ]

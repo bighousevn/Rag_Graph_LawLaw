@@ -7,15 +7,69 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe không đủ hệ thống hãm hoặc có đủ hệ thống hãm nhưng không có tác dụng, không đúng tiêu chuẩn an toàn kỹ thuật."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Đủ", "o": "Hệ thống hãm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hệ thống hãm", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Đúng", "o": "Tiêu chuẩn an toàn kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Đủ",
+        "o": "Hệ thống hãm",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Hệ thống phanh"
+        ]
+      },
+      {
+        "s": "Hệ thống hãm",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Hệ thống phanh"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chức năng",
+          "Vai trò"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Đúng",
+        "o": "Tiêu chuẩn an toàn kỹ thuật",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn kỹ thuật",
+          "Tiêu chuẩn an toàn"
+        ]
+      }
     ]
   },
   {
@@ -26,14 +80,59 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe kinh doanh vận tải có niên hạn sử dụng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Có", "o": "Niên hạn sử dụng",
-       "s_keyphrases": ["xe kinh doanh vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Niên hạn sử dụng", "v": "Bảo đảm", "o": "Điều kiện kinh doanh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["điều kiện của hình thức kinh doanh đã đăng ký"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Niên hạn sử dụng",
+        "s_keyphrases": [
+          "xe kinh doanh vận tải",
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thời gian sử dụng",
+          "Thời hạn sử dụng"
+        ]
+      },
+      {
+        "s": "Niên hạn sử dụng",
+        "v": "Bảo đảm",
+        "o": "Điều kiện kinh doanh",
+        "s_keyphrases": [
+          "Thời gian sử dụng",
+          "Thời hạn sử dụng"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "điều kiện của hình thức kinh doanh đã đăng ký",
+          "Điều kiện hoạt động",
+          "Quy định kinh doanh"
+        ]
+      }
     ]
   },
   {
@@ -44,15 +143,74 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe lắp đặt, sử dụng còi vượt quá âm lượng theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Lắp đặt", "o": "Còi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Sử dụng", "o": "Còi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Còi", "v": "Vượt quá", "o": "Âm lượng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Lắp đặt",
+        "o": "Còi",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Thiết lập",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Âm thanh cảnh báo"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Sử dụng",
+        "o": "Còi",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Âm thanh cảnh báo"
+        ]
+      },
+      {
+        "s": "Còi",
+        "v": "Vượt quá",
+        "o": "Âm lượng",
+        "s_keyphrases": [
+          "Âm thanh cảnh báo"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Cường độ âm thanh",
+          "Mức âm"
+        ]
+      }
     ]
   },
   {
@@ -63,21 +221,122 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô sử dụng chứng nhận đăng ký xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa; sử dụng chứng nhận đăng ký xe không đúng số khung, số động cơ của xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Giấy chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Giấy chứng nhận",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ chứng nhận"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Tem kiểm định"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Cấp",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Giấy đăng ký xe"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": [
+          "Cơ quan quản lý",
+          "Cơ quan chức năng"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã khung",
+          "Số khung xe"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã động cơ",
+          "Số máy"
+        ]
+      }
     ]
   },
   {
@@ -88,17 +347,78 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe không có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường hoặc có nhưng đã hết hiệu lực từ 01 tháng trở lên."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Có", "o": "Giấy chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy chứng nhận", "v": "Còn", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường", "v": "Còn", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Giấy chứng nhận",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy tờ chứng nhận"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tem kiểm định"
+        ]
+      },
+      {
+        "s": "Giấy chứng nhận",
+        "v": "Còn",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Giấy tờ chứng nhận"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thời gian hiệu lực",
+          "Tính hợp lệ"
+        ]
+      },
+      {
+        "s": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "v": "Còn",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Tem kiểm định"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thời gian hiệu lực",
+          "Tính hợp lệ"
+        ]
+      }
     ]
   },
   {
@@ -109,19 +429,105 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe đăng ký tạm thời, xe có phạm vi hoạt động hạn chế hoạt động quá phạm vi, tuyến đường, thời hạn cho phép."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Có", "o": "Đăng ký tạm thời",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Phạm vi hoạt động hạn chế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Vượt quá", "o": "Phạm vi hoạt động cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Vượt quá", "o": "Tuyến đường cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Vượt quá", "o": "Thời hạn cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Đăng ký tạm thời",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy đăng ký tạm thời",
+          "Đăng ký tạm"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Phạm vi hoạt động hạn chế",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Khu vực hạn chế",
+          "Khu vực bị giới hạn"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Vượt quá",
+        "o": "Phạm vi hoạt động cho phép",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Khu vực hoạt động",
+          "Khu vực cho phép"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Vượt quá",
+        "o": "Tuyến đường cho phép",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Đường cho phép",
+          "Tuyến đường hợp lệ"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Vượt quá",
+        "o": "Thời hạn cho phép",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Thời gian cho phép",
+          "Thời gian hợp lệ"
+        ]
+      }
     ]
   },
   {
@@ -132,11 +538,43 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe không gắn biển số."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Gắn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Gắn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Lắp",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ]
+      }
     ]
   },
   {
@@ -147,15 +585,76 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Gắn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Đúng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Gắn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Lắp",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Đúng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Cấp",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": [
+          "Cơ quan quản lý",
+          "Cơ quan chức năng"
+        ]
+      }
     ]
   },
   {
@@ -166,17 +665,91 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí, không đúng quy cách theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Gắn đủ", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Gắn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Đúng", "o": "Vị trí",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Đúng", "o": "Quy cách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Gắn đủ",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Gắn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Lắp",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Đúng",
+        "o": "Vị trí",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Địa điểm",
+          "Chỗ đứng"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Đúng",
+        "o": "Quy cách",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn",
+          "Quy định"
+        ]
+      }
     ]
   },
   {
@@ -187,13 +760,57 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe quá niên hạn sử dụng tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Quá", "o": "Niên hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Tham gia", "o": "Giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Quá",
+        "o": "Niên hạn sử dụng",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thời gian sử dụng",
+          "Thời hạn sử dụng"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Tham gia",
+        "o": "Giao thông",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Góp mặt"
+        ],
+        "o_keyphrases": [
+          "Vận tải",
+          "Lưu thông"
+        ]
+      }
     ]
   }
 ]

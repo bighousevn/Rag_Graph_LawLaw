@@ -7,16 +7,91 @@
       "Hành khách đi xe đe dọa, xâm phạm sức khỏe của người khác đi trên xe, lái xe, nhân viên phục vụ trên xe."
     ],
     "triplets": [
-      {"s": "Hành khách", "v": "Đe dọa", "o": "Sức khỏe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Xâm phạm", "o": "Sức khỏe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Sức khỏe", "v": "Dành cho", "o": "Người khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Sức khỏe", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Sức khỏe", "v": "Dành cho", "o": "Nhân viên phục vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hành khách",
+        "v": "Đe dọa",
+        "o": "Sức khỏe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách"
+        ],
+        "v_keyphrases": [
+          "Gây nguy hiểm",
+          "Đe dọa an toàn"
+        ],
+        "o_keyphrases": [
+          "Tình trạng sức khỏe",
+          "Khả năng sức khỏe"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Xâm phạm",
+        "o": "Sức khỏe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách"
+        ],
+        "v_keyphrases": [
+          "Xâm hại",
+          "Vi phạm"
+        ],
+        "o_keyphrases": [
+          "Tình trạng sức khỏe",
+          "Khả năng sức khỏe"
+        ]
+      },
+      {
+        "s": "Sức khỏe",
+        "v": "Dành cho",
+        "o": "Người khác",
+        "s_keyphrases": [
+          "Tình trạng sức khỏe",
+          "Khả năng sức khỏe"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người tham gia khác",
+          "Người khác trong giao thông"
+        ]
+      },
+      {
+        "s": "Sức khỏe",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Tình trạng sức khỏe",
+          "Khả năng sức khỏe"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Người điều khiển"
+        ]
+      },
+      {
+        "s": "Sức khỏe",
+        "v": "Dành cho",
+        "o": "Nhân viên phục vụ",
+        "s_keyphrases": [
+          "Tình trạng sức khỏe",
+          "Khả năng sức khỏe"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Nhân viên hỗ trợ",
+          "Nhân viên phục vụ hành khách"
+        ]
+      }
     ]
   },
   {
@@ -27,16 +102,90 @@
       "Người thực hiện hành vi vi phạm quy định tại điểm a khoản 2 còn bị tịch thu hóa chất độc hại, chất dễ cháy, nổ, hàng nguy hiểm, hàng cấm lưu thông mang theo trên xe chở khách."
     ],
     "triplets": [
-      {"s": "Người", "v": "Mang theo", "o": "Hóa chất độc hại",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Chất dễ cháy nổ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Hàng nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Hàng cấm lưu thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Xe chở khách",
-       "s_keyphrases": [], "v_keyphrases": ["trên"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Hóa chất độc hại",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển theo",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Chất độc hại",
+          "Hóa chất nguy hiểm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Chất dễ cháy nổ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển theo",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Chất nổ",
+          "Chất dễ cháy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Hàng nguy hiểm",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển theo",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa nguy hiểm",
+          "Hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Hàng cấm lưu thông",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển theo",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Hàng cấm",
+          "Hàng không được phép"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Xe chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "trên"
+        ],
+        "o_keyphrases": [
+          "Xe khách",
+          "Xe vận chuyển hành khách"
+        ]
+      }
     ]
   },
   {
@@ -47,11 +196,43 @@
       "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ không thực hiện đúng quy định trong giấy phép lưu hành."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
-      {"s": "Người", "v": "Thực hiện đúng", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe quá khổ giới hạn",
+          "xe quá tải trọng",
+          "xe bánh xích",
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện đúng",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện chính xác"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép vận chuyển"
+        ]
+      }
     ]
   },
   {
@@ -62,11 +243,44 @@
       "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe mà tổng trọng lượng (khối lượng toàn bộ) của xe vượt quá tải trọng cho phép của đường bộ trên 10% đến 20%."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
-      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Tải trọng đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tải trọng cho phép của đường bộ"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe quá khổ giới hạn",
+          "xe quá tải trọng",
+          "xe bánh xích",
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ]
+      },
+      {
+        "s": "Xe quá khổ, quá tải",
+        "v": "Vượt quá",
+        "o": "Tải trọng đường bộ",
+        "s_keyphrases": [
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "tải trọng cho phép của đường bộ",
+          "Trọng tải đường bộ",
+          "Tải trọng cho phép"
+        ]
+      }
     ]
   },
   {
@@ -77,15 +291,79 @@
       "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ chở hàng vượt khổ giới hạn của xe hoặc của đường bộ ghi trong giấy phép lưu hành."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
-      {"s": "Người", "v": "Chở", "o": "Hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng", "v": "Vượt quá", "o": "Khổ giới hạn xe",
-       "s_keyphrases": [], "v_keyphrases": ["vượt"], "o_keyphrases": []},
-      {"s": "Hàng", "v": "Vượt quá", "o": "Khổ giới hạn đường bộ",
-       "s_keyphrases": [], "v_keyphrases": ["vượt"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe quá khổ giới hạn",
+          "xe quá tải trọng",
+          "xe bánh xích",
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hàng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Hàng",
+        "v": "Vượt quá",
+        "o": "Khổ giới hạn xe",
+        "s_keyphrases": [
+          "Hàng hóa",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "vượt",
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước giới hạn xe",
+          "Kích thước tối đa xe"
+        ]
+      },
+      {
+        "s": "Hàng",
+        "v": "Vượt quá",
+        "o": "Khổ giới hạn đường bộ",
+        "s_keyphrases": [
+          "Hàng hóa",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "vượt",
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước giới hạn đường",
+          "Giới hạn kích thước đường bộ"
+        ]
+      }
     ]
   },
   {
@@ -96,15 +374,71 @@
       "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe bánh xích tham gia giao thông không có giấy phép lưu hành hoặc có giấy phép lưu hành nhưng không còn giá trị sử dụng theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe bánh xích",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lưu hành", "v": "Còn", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe quá khổ giới hạn",
+          "xe quá tải trọng",
+          "xe bánh xích",
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe bánh xích",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe gầm băng",
+          "Xe bánh xích địa hình"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép vận chuyển"
+        ]
+      },
+      {
+        "s": "Giấy phép lưu hành",
+        "v": "Còn",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép vận chuyển"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      }
     ]
   },
   {
@@ -115,17 +449,95 @@
       "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe có kích thước bao ngoài vượt quá khổ giới hạn của đường bộ hoặc chở hàng vượt khổ giới hạn của đường bộ hoặc chở hàng vượt quá kích thước giới hạn xếp hàng hóa của xe tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
-      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Khổ giới hạn đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng", "v": "Vượt quá", "o": "Khổ giới hạn đường bộ",
-       "s_keyphrases": [], "v_keyphrases": ["vượt"], "o_keyphrases": []},
-      {"s": "Hàng", "v": "Vượt quá", "o": "Giới hạn xếp hàng hóa xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe quá khổ giới hạn",
+          "xe quá tải trọng",
+          "xe bánh xích",
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ]
+      },
+      {
+        "s": "Xe quá khổ, quá tải",
+        "v": "Vượt quá",
+        "o": "Khổ giới hạn đường bộ",
+        "s_keyphrases": [
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước giới hạn đường",
+          "Giới hạn kích thước đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hàng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Hàng",
+        "v": "Vượt quá",
+        "o": "Khổ giới hạn đường bộ",
+        "s_keyphrases": [
+          "Hàng hóa",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "vượt",
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước giới hạn đường",
+          "Giới hạn kích thước đường bộ"
+        ]
+      },
+      {
+        "s": "Hàng",
+        "v": "Vượt quá",
+        "o": "Giới hạn xếp hàng hóa xe",
+        "s_keyphrases": [
+          "Hàng hóa",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Giới hạn tải hàng",
+          "Giới hạn xếp hàng"
+        ]
+      }
     ]
   },
   {
@@ -136,11 +548,43 @@
       "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe có kích thước bao ngoài vượt quá kích thước giới hạn cho phép của xe theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
-      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Kích thước giới hạn xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe quá khổ giới hạn",
+          "xe quá tải trọng",
+          "xe bánh xích",
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ]
+      },
+      {
+        "s": "Xe quá khổ, quá tải",
+        "v": "Vượt quá",
+        "o": "Kích thước giới hạn xe",
+        "s_keyphrases": [
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước tối đa",
+          "Kích thước cho phép"
+        ]
+      }
     ]
   },
   {
@@ -151,13 +595,62 @@
       "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe mà tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng trục xe vượt quá tải trọng cho phép của đường bộ trên 20% đến 50%."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
-      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Tải trọng đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tải trọng cho phép của đường bộ"]},
-      {"s": "Tải trọng trục xe", "v": "Vượt quá", "o": "Tải trọng đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tải trọng cho phép của đường bộ"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe quá khổ giới hạn",
+          "xe quá tải trọng",
+          "xe bánh xích",
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ]
+      },
+      {
+        "s": "Xe quá khổ, quá tải",
+        "v": "Vượt quá",
+        "o": "Tải trọng đường bộ",
+        "s_keyphrases": [
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "tải trọng cho phép của đường bộ",
+          "Trọng tải đường bộ",
+          "Tải trọng cho phép"
+        ]
+      },
+      {
+        "s": "Tải trọng trục xe",
+        "v": "Vượt quá",
+        "o": "Tải trọng đường bộ",
+        "s_keyphrases": [
+          "Tải trọng từng trục",
+          "Trọng tải trục"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "tải trọng cho phép của đường bộ",
+          "Trọng tải đường bộ",
+          "Tải trọng cho phép"
+        ]
+      }
     ]
   },
   {
@@ -168,17 +661,88 @@
       "Người điều khiển xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ điều khiển xe có giấy phép lưu hành còn giá trị sử dụng nhưng tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng trục xe vượt quá quy định trong giấy phép lưu hành."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe quá khổ giới hạn", "xe quá tải trọng", "xe bánh xích"]},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lưu hành", "v": "Còn", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe quá khổ, quá tải", "v": "Vượt quá", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tải trọng trục xe", "v": "Vượt quá", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe quá khổ giới hạn",
+          "xe quá tải trọng",
+          "xe bánh xích",
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép vận chuyển"
+        ]
+      },
+      {
+        "s": "Giấy phép lưu hành",
+        "v": "Còn",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép vận chuyển"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Xe quá khổ, quá tải",
+        "v": "Vượt quá",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Xe quá kích thước",
+          "Xe quá trọng tải"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép vận chuyển"
+        ]
+      },
+      {
+        "s": "Tải trọng trục xe",
+        "v": "Vượt quá",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Tải trọng từng trục",
+          "Trọng tải trục"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép vận chuyển"
+        ]
+      }
     ]
   }
 ]

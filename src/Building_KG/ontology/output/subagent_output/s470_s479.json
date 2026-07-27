@@ -7,19 +7,111 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách đón, trả hành khách không đúng nơi quy định trên những tuyến đường đã xác định nơi đón, trả khách hoặc dừng đón, trả hành khách quá thời gian quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Đón", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trả", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Địa điểm đón trả hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tuyến đường", "v": "Xác định", "o": "Địa điểm đón trả hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đón",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Nhận",
+          "Đón tiếp"
+        ],
+        "o_keyphrases": [
+          "Khách đi",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trả",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hoàn trả",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Khách đi",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Địa điểm đón trả hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tại chỗ",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng đón trả",
+          "Điểm đón trả hành khách"
+        ]
+      },
+      {
+        "s": "Tuyến đường",
+        "v": "Xác định",
+        "o": "Địa điểm đón trả hành khách",
+        "s_keyphrases": [
+          "Lộ trình",
+          "Đường đi"
+        ],
+        "v_keyphrases": [
+          "Xác minh",
+          "Định rõ"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng đón trả",
+          "Điểm đón trả hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      }
     ]
   },
   {
@@ -30,19 +122,111 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách đón, trả hành khách tại nơi cấm dừng, cấm đỗ, nơi đường cong tầm nhìn bị che khuất."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Đón", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trả", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Nơi cấm dừng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Nơi cấm đỗ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường cong tầm nhìn bị che khuất",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đón",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Nhận",
+          "Đón tiếp"
+        ],
+        "o_keyphrases": [
+          "Khách đi",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trả",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hoàn trả",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Khách đi",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Nơi cấm dừng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tại chỗ",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "Khu vực cấm dừng",
+          "Điểm cấm dừng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Nơi cấm đỗ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tại chỗ",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "Khu vực cấm đỗ",
+          "Điểm cấm đỗ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường cong tầm nhìn bị che khuất",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tại chỗ",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "Đường cong tầm nhìn hạn chế",
+          "Đường cong tầm nhìn bị cản"
+        ]
+      }
     ]
   },
   {
@@ -53,15 +237,77 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe vận tải hành khách theo hợp đồng không có hoặc không mang theo danh sách hành khách theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Theo", "o": "Hợp đồng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Danh sách hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Danh sách hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Theo",
+        "o": "Hợp đồng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Theo dõi",
+          "Theo quy định"
+        ],
+        "o_keyphrases": [
+          "Thỏa thuận",
+          "Giấy hợp đồng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Danh sách hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Danh sách khách",
+          "Danh sách người đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Danh sách hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Danh sách khách",
+          "Danh sách người đi"
+        ]
+      }
     ]
   },
   {
@@ -72,19 +318,111 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách vận chuyển hành khách theo tuyến cố định không có hoặc không mang theo lệnh vận chuyển hoặc có mang theo lệnh vận chuyển nhưng không ghi đầy đủ thông tin."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Theo", "o": "Tuyến cố định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Lệnh vận chuyển",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Lệnh vận chuyển",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lệnh vận chuyển", "v": "Ghi", "o": "Thông tin",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Khách đi",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Theo",
+        "o": "Tuyến cố định",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Theo dõi",
+          "Theo quy định"
+        ],
+        "o_keyphrases": [
+          "Lộ trình cố định",
+          "Tuyến đường cố định"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Lệnh vận chuyển",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Giấy phép vận chuyển",
+          "Giấy lệnh vận chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Lệnh vận chuyển",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Giấy phép vận chuyển",
+          "Giấy lệnh vận chuyển"
+        ]
+      },
+      {
+        "s": "Lệnh vận chuyển",
+        "v": "Ghi",
+        "o": "Thông tin",
+        "s_keyphrases": [
+          "Giấy phép vận chuyển",
+          "Giấy lệnh vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Ghi chép",
+          "Ghi nhận"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Chi tiết"
+        ]
+      }
     ]
   },
   {
@@ -95,17 +433,94 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách đón, trả hành khách không đúng địa điểm đón, trả hành khách được ghi trong hợp đồng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Đón", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trả", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Địa điểm đón trả hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Địa điểm đón trả hành khách", "v": "Ghi", "o": "Hợp đồng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đón",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Nhận",
+          "Đón tiếp"
+        ],
+        "o_keyphrases": [
+          "Khách đi",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trả",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hoàn trả",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Khách đi",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Địa điểm đón trả hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tại chỗ",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng đón trả",
+          "Điểm đón trả hành khách"
+        ]
+      },
+      {
+        "s": "Địa điểm đón trả hành khách",
+        "v": "Ghi",
+        "o": "Hợp đồng",
+        "s_keyphrases": [
+          "Điểm dừng đón trả",
+          "Điểm đón trả hành khách"
+        ],
+        "v_keyphrases": [
+          "Ghi chép",
+          "Ghi nhận"
+        ],
+        "o_keyphrases": [
+          "Thỏa thuận",
+          "Giấy hợp đồng"
+        ]
+      }
     ]
   },
   {
@@ -116,19 +531,111 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách vận chuyển khách liên vận quốc tế theo tuyến cố định không có hoặc không mang theo lệnh vận chuyển, không có danh sách hành khách theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Khách liên vận quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Theo", "o": "Tuyến cố định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Lệnh vận chuyển",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Lệnh vận chuyển",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Danh sách hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Khách liên vận quốc tế",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Hành khách quốc tế",
+          "Khách quốc tế"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Theo",
+        "o": "Tuyến cố định",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Theo dõi",
+          "Theo quy định"
+        ],
+        "o_keyphrases": [
+          "Lộ trình cố định",
+          "Tuyến đường cố định"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Lệnh vận chuyển",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Giấy phép vận chuyển",
+          "Giấy lệnh vận chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Lệnh vận chuyển",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Giấy phép vận chuyển",
+          "Giấy lệnh vận chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Danh sách hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Danh sách khách",
+          "Danh sách người đi"
+        ]
+      }
     ]
   },
   {
@@ -139,11 +646,44 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách chở hành lý, hàng hóa vượt quá trọng tải theo thiết kế của xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Chở quá", "o": "Trọng tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["trọng tải theo thiết kế của xe"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở quá",
+        "o": "Trọng tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Chở quá tải",
+          "Vượt quá tải trọng"
+        ],
+        "o_keyphrases": [
+          "trọng tải theo thiết kế của xe",
+          "Tải trọng",
+          "Khối lượng"
+        ]
+      }
     ]
   },
   {
@@ -154,11 +694,43 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách không sử dụng thẻ nhận dạng lái xe để đăng nhập thông tin theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Thẻ nhận dạng lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Thẻ nhận dạng lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thẻ ID lái xe",
+          "Thẻ nhận diện lái xe"
+        ]
+      }
     ]
   },
   {
@@ -169,13 +741,60 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách điều khiển xe ô tô chở người từ 08 chỗ trở lên kinh doanh vận tải hành khách không lắp thiết bị ghi nhận hình ảnh người lái xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Ô tô chở khách", "v": "Kinh doanh", "o": "Vận tải hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Ô tô chở khách",
+        "v": "Kinh doanh",
+        "o": "Vận tải hành khách",
+        "s_keyphrases": [
+          "Xe khách",
+          "Xe chở hành khách"
+        ],
+        "v_keyphrases": [
+          "Hoạt động kinh doanh",
+          "Thực hiện kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Chuyên chở hành khách",
+          "Vận chuyển hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      }
     ]
   },
   {
@@ -186,19 +805,111 @@
       "Người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách vận tải hành khách theo hợp đồng sử dụng hợp đồng điện tử không có thiết bị để truy cập được nội dung của hợp đồng điện tử và danh sách hành khách."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô chở hành khách", "ô tô chở người", "các loại xe tương tự xe ô tô chở hành khách"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Hợp đồng điện tử",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Thiết bị",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị", "v": "Truy cập", "o": "Nội dung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nội dung", "v": "Dành cho", "o": "Hợp đồng điện tử",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị", "v": "Truy cập", "o": "Danh sách hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "ô tô chở người",
+          "các loại xe tương tự xe ô tô chở hành khách",
+          "Xe khách",
+          "Xe chở hành khách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Hợp đồng điện tử",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Hợp đồng trực tuyến",
+          "Hợp đồng online"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
+      },
+      {
+        "s": "Thiết bị",
+        "v": "Truy cập",
+        "o": "Nội dung",
+        "s_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ],
+        "v_keyphrases": [
+          "Tiếp cận",
+          "Vào"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Chi tiết"
+        ]
+      },
+      {
+        "s": "Nội dung",
+        "v": "Dành cho",
+        "o": "Hợp đồng điện tử",
+        "s_keyphrases": [
+          "Thông tin",
+          "Chi tiết"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Hợp đồng trực tuyến",
+          "Hợp đồng online"
+        ]
+      },
+      {
+        "s": "Thiết bị",
+        "v": "Truy cập",
+        "o": "Danh sách hành khách",
+        "s_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ],
+        "v_keyphrases": [
+          "Tiếp cận",
+          "Vào"
+        ],
+        "o_keyphrases": [
+          "Danh sách khách",
+          "Danh sách người đi"
+        ]
+      }
     ]
   }
 ]

@@ -7,8 +7,23 @@
       "Tổ chức thực hiện hành vi vi phạm tổ chức đua xe trái phép."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Tổ chức", "o": "Đua xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Tổ chức",
+        "o": "Đua xe",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp",
+          "Điều phối"
+        ],
+        "o_keyphrases": [
+          "Thi đấu xe",
+          "Cuộc đua"
+        ]
+      }
     ]
   },
   {
@@ -19,14 +34,74 @@
       "Người điều khiển phương tiện thực hiện hành vi đua xe gắn máy, xe đạp máy, xe đạp trái phép trên đường giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đua", "o": "Xe gắn máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đua", "o": "Xe đạp máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đua", "o": "Xe đạp",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đua",
+        "o": "Xe gắn máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thi đấu",
+          "Đua xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đua",
+        "o": "Xe đạp máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thi đấu",
+          "Đua xe"
+        ],
+        "o_keyphrases": [
+          "Xe đạp có động cơ",
+          "Xe đạp điện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đua",
+        "o": "Xe đạp",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thi đấu",
+          "Đua xe"
+        ],
+        "o_keyphrases": [
+          "Phương tiện đạp",
+          "Xe hai bánh"
+        ]
+      }
     ]
   },
   {
@@ -37,12 +112,59 @@
       "Người điều khiển phương tiện thực hiện hành vi đua xe ô tô, mô tô trái phép trên đường giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đua", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Đua", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["mô tô"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đua",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thi đấu",
+          "Đua xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Xe hơi",
+          "Phương tiện bốn bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đua",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thi đấu",
+          "Đua xe"
+        ],
+        "o_keyphrases": [
+          "mô tô",
+          "Xe máy",
+          "Phương tiện hai bánh"
+        ]
+      }
     ]
   },
   {
@@ -53,8 +175,23 @@
       "Người điều khiển phương tiện thực hiện hành vi quy định tại điểm b khoản 3 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe",
+          "Phương tiện giao thông"
+        ]
+      }
     ]
   },
   {
@@ -65,22 +202,142 @@
       "Người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa vận chuyển hàng hóa mà sắp xếp, chằng buộc hàng hóa không bảo đảm an toàn hoặc gây nguy hiểm cho người, phương tiện tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe gắn máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sắp xếp", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chằng buộc", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Bảo đảm", "o": "An toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gây nguy hiểm", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gây nguy hiểm", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Phương tiện hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe gắn máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sắp xếp",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuẩn bị",
+          "Tổ chức"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chằng buộc",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Buộc chặt",
+          "Cố định"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Bảo đảm",
+        "o": "An toàn",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Bảo đảm an toàn",
+          "An ninh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gây nguy hiểm",
+        "o": "Người",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đem lại nguy hiểm",
+          "Tạo ra rủi ro"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gây nguy hiểm",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đem lại nguy hiểm",
+          "Tạo ra rủi ro"
+        ],
+        "o_keyphrases": [
+          "Xe",
+          "Phương tiện giao thông"
+        ]
+      }
     ]
   },
   {
@@ -91,22 +348,139 @@
       "Người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa vận chuyển hàng hóa trên xe gây cản trở tầm nhìn của người lái xe hoặc che khuất đèn, biển số xe; để rơi hàng hóa xuống đường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe gắn máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Cản trở", "o": "Tầm nhìn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Che khuất", "o": "Đèn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Che khuất", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Rơi", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Phương tiện hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe gắn máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Cản trở",
+        "o": "Tầm nhìn",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Ngăn chặn",
+          "Trở ngại"
+        ],
+        "o_keyphrases": [
+          "Khả năng nhìn",
+          "Tầm quan sát"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Che khuất",
+        "o": "Đèn",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Ngăn cản",
+          "Làm mờ"
+        ],
+        "o_keyphrases": [
+          "Đèn tín hiệu",
+          "Đèn giao thông"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Che khuất",
+        "o": "Biển số xe",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Ngăn cản",
+          "Làm mờ"
+        ],
+        "o_keyphrases": [
+          "Số đăng ký xe",
+          "Biển kiểm soát"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Rơi",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Làn đường"
+        ]
+      }
     ]
   },
   {
@@ -117,20 +491,125 @@
       "Người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa chở hành lý, hàng hóa vượt quá khối lượng cho phép của xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe gắn máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành lý", "v": "Vượt quá", "o": "Khối lượng cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Vượt quá", "o": "Khối lượng cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Phương tiện hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe gắn máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hành lý",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Hành lý",
+        "v": "Vượt quá",
+        "o": "Khối lượng cho phép",
+        "s_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Trọng lượng tối đa",
+          "Khối lượng tối đa"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Vượt quá",
+        "o": "Khối lượng cho phép",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Trọng lượng tối đa",
+          "Khối lượng tối đa"
+        ]
+      }
     ]
   },
   {
@@ -141,20 +620,125 @@
       "Người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa chở hành lý, hàng hóa vượt quá khổ giới hạn cho phép của xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe gắn máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành lý", "v": "Vượt quá", "o": "Khổ giới hạn cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Vượt quá", "o": "Khổ giới hạn cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Phương tiện hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe gắn máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hành lý",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Hành lý",
+        "v": "Vượt quá",
+        "o": "Khổ giới hạn cho phép",
+        "s_keyphrases": [
+          "Túi xách",
+          "Đồ đạc"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước tối đa",
+          "Kích thước cho phép"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Vượt quá",
+        "o": "Khổ giới hạn cho phép",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Kích thước tối đa",
+          "Kích thước cho phép"
+        ]
+      }
     ]
   },
   {
@@ -165,24 +749,159 @@
       "Người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa vận chuyển hàng rời, vật liệu xây dựng, phế thải để rơi vãi xuống đường hoặc gây ra tiếng ồn, bụi bẩn."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe gắn máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng rời",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Vật liệu xây dựng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Phế thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Rơi vãi", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gây ra", "o": "Tiếng ồn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gây ra", "o": "Bụi bẩn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Phương tiện hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe gắn máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng rời",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa rời",
+          "Hàng không đóng gói"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Vật liệu xây dựng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Nguyên liệu xây dựng",
+          "Chất liệu xây dựng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Phế thải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Chất thải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Rơi vãi",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Rơi rớt",
+          "Vãi ra"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Làn đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gây ra",
+        "o": "Tiếng ồn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây nên"
+        ],
+        "o_keyphrases": [
+          "Âm thanh",
+          "Tiếng động"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gây ra",
+        "o": "Bụi bẩn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây nên"
+        ],
+        "o_keyphrases": [
+          "Bụi",
+          "Rác"
+        ]
+      }
     ]
   },
   {
@@ -193,30 +912,201 @@
       "Người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa vận chuyển hàng hóa vượt phía trước, phía sau xe mà không có báo hiệu màu đỏ tại điểm đầu và điểm cuối cùng của hàng hóa khi xe hoạt động ban ngày; vận chuyển hàng hóa vượt phía trước, phía sau xe mà không có đèn hoặc báo hiệu khi xe hoạt động vào ban đêm hoặc khi trời tối."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe gắn máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Vượt", "o": "Phía trước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Vượt", "o": "Phía sau",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Có", "o": "Báo hiệu màu đỏ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe", "v": "Hoạt động", "o": "Ban ngày",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Có", "o": "Đèn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Có", "o": "Báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe", "v": "Hoạt động", "o": "Ban đêm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe", "v": "Hoạt động", "o": "Trời tối",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Phương tiện hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe gắn máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Vượt",
+        "o": "Phía trước",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Vượt qua",
+          "Chạy vượt"
+        ],
+        "o_keyphrases": [
+          "Mặt trước",
+          "Đằng trước"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Vượt",
+        "o": "Phía sau",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [
+          "Vượt qua",
+          "Chạy vượt"
+        ],
+        "o_keyphrases": [
+          "Mặt sau",
+          "Đằng sau"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Có",
+        "o": "Báo hiệu màu đỏ",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tín hiệu dừng",
+          "Đèn đỏ"
+        ]
+      },
+      {
+        "s": "Xe",
+        "v": "Hoạt động",
+        "o": "Ban ngày",
+        "s_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Chạy"
+        ],
+        "o_keyphrases": [
+          "Thời gian ban ngày",
+          "Giờ sáng"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Có",
+        "o": "Đèn",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đèn tín hiệu",
+          "Đèn giao thông"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Có",
+        "o": "Báo hiệu",
+        "s_keyphrases": [
+          "Hàng",
+          "Sản phẩm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tín hiệu",
+          "Dấu hiệu"
+        ]
+      },
+      {
+        "s": "Xe",
+        "v": "Hoạt động",
+        "o": "Ban đêm",
+        "s_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Chạy"
+        ],
+        "o_keyphrases": [
+          "Thời gian ban đêm",
+          "Giờ tối"
+        ]
+      },
+      {
+        "s": "Xe",
+        "v": "Hoạt động",
+        "o": "Trời tối",
+        "s_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Chạy"
+        ],
+        "o_keyphrases": [
+          "Ban đêm",
+          "Thời gian tối"
+        ]
+      }
     ]
   }
 ]

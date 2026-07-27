@@ -7,26 +7,178 @@
       "Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị giám sát hành trình của xe ô tô, đơn vị cung cấp dịch vụ liên quan đến giám sát hành trình, ghi nhận hình ảnh người lái xe không báo cáo về việc cập nhật, thay đổi phần mềm của thiết bị theo quy định."
     ],
     "triplets": [
-      {"s": "Đơn vị", "v": "Sản xuất", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Lắp ráp", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Nhập khẩu", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Lắp trên", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Cung cấp", "o": "Dịch vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dịch vụ", "v": "Liên quan đến", "o": "Giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dịch vụ", "v": "Liên quan đến", "o": "Ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Báo cáo", "o": "Cập nhật phần mềm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Báo cáo", "o": "Thay đổi phần mềm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phần mềm", "v": "Dành cho", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Đơn vị",
+        "v": "Sản xuất",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Chế tạo",
+          "Chế biến"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Lắp ráp",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Ghép nối",
+          "Kết hợp"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Nhập khẩu",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Nhập vào",
+          "Nhập khẩu hàng hóa"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Lắp trên",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Gắn trên",
+          "Đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Cung cấp",
+        "o": "Dịch vụ",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ]
+      },
+      {
+        "s": "Dịch vụ",
+        "v": "Liên quan đến",
+        "o": "Giám sát hành trình",
+        "s_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền với"
+        ],
+        "o_keyphrases": [
+          "Theo dõi hành trình",
+          "Giám sát lộ trình"
+        ]
+      },
+      {
+        "s": "Dịch vụ",
+        "v": "Liên quan đến",
+        "o": "Ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền với"
+        ],
+        "o_keyphrases": [
+          "Quay video người lái xe",
+          "Ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Báo cáo",
+        "o": "Cập nhật phần mềm",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Thông báo",
+          "Trình bày"
+        ],
+        "o_keyphrases": [
+          "Nâng cấp phần mềm",
+          "Cập nhật ứng dụng"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Báo cáo",
+        "o": "Thay đổi phần mềm",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Thông báo",
+          "Trình bày"
+        ],
+        "o_keyphrases": [
+          "Cập nhật phần mềm",
+          "Nâng cấp ứng dụng"
+        ]
+      },
+      {
+        "s": "Phần mềm",
+        "v": "Dành cho",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Ứng dụng",
+          "Chương trình"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      }
     ]
   },
   {
@@ -37,26 +189,178 @@
       "Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô, đơn vị cung cấp dịch vụ liên quan đến giám sát hành trình, ghi nhận hình ảnh người lái xe làm sai lệch thông tin, dữ liệu của thiết bị giám sát hành trình của xe ô tô."
     ],
     "triplets": [
-      {"s": "Đơn vị", "v": "Sản xuất", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Lắp ráp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Nhập khẩu", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Cung cấp", "o": "Dịch vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dịch vụ", "v": "Liên quan đến", "o": "Giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dịch vụ", "v": "Liên quan đến", "o": "Ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Lắp trên", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Đơn vị",
+        "v": "Sản xuất",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Chế tạo",
+          "Chế biến"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Lắp ráp",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Ghép nối",
+          "Kết hợp"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Nhập khẩu",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Nhập vào",
+          "Nhập khẩu hàng hóa"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lắp trên",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Cung cấp",
+        "o": "Dịch vụ",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ]
+      },
+      {
+        "s": "Dịch vụ",
+        "v": "Liên quan đến",
+        "o": "Giám sát hành trình",
+        "s_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền với"
+        ],
+        "o_keyphrases": [
+          "Theo dõi hành trình",
+          "Giám sát lộ trình"
+        ]
+      },
+      {
+        "s": "Dịch vụ",
+        "v": "Liên quan đến",
+        "o": "Ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền với"
+        ],
+        "o_keyphrases": [
+          "Quay video người lái xe",
+          "Ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Xuyên tạc"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Bắt nguồn từ",
+          "Xuất phát từ"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Lắp trên",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Gắn trên",
+          "Đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      }
     ]
   },
   {
@@ -67,24 +371,160 @@
       "Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô, đơn vị cung cấp dịch vụ liên quan đến giám sát hành trình, ghi nhận hình ảnh người lái xe làm sai lệch thông tin, dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Đơn vị", "v": "Sản xuất", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Lắp ráp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Nhập khẩu", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Cung cấp", "o": "Dịch vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dịch vụ", "v": "Liên quan đến", "o": "Giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dịch vụ", "v": "Liên quan đến", "o": "Ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Đơn vị",
+        "v": "Sản xuất",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Chế tạo",
+          "Chế biến"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Lắp ráp",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Ghép nối",
+          "Kết hợp"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Nhập khẩu",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Nhập vào",
+          "Nhập khẩu hàng hóa"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lắp trên",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Cung cấp",
+        "o": "Dịch vụ",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ]
+      },
+      {
+        "s": "Dịch vụ",
+        "v": "Liên quan đến",
+        "o": "Giám sát hành trình",
+        "s_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền với"
+        ],
+        "o_keyphrases": [
+          "Theo dõi hành trình",
+          "Giám sát lộ trình"
+        ]
+      },
+      {
+        "s": "Dịch vụ",
+        "v": "Liên quan đến",
+        "o": "Ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Dịch vụ công",
+          "Dịch vụ thương mại"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền với"
+        ],
+        "o_keyphrases": [
+          "Quay video người lái xe",
+          "Ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Xuyên tạc"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Bắt nguồn từ",
+          "Xuất phát từ"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      }
     ]
   },
   {
@@ -95,12 +535,57 @@
       "Cá nhân vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trật tự, an toàn giao thông đường bộ", "v": "Trong", "o": "Vận tải đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trật tự, an toàn giao thông đường bộ", "v": "Trong", "o": "Dịch vụ hỗ trợ vận tải đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "An toàn giao thông",
+          "Trật tự giao thông"
+        ]
+      },
+      {
+        "s": "Trật tự, an toàn giao thông đường bộ",
+        "v": "Trong",
+        "o": "Vận tải đường bộ",
+        "s_keyphrases": [
+          "An toàn giao thông",
+          "Trật tự giao thông"
+        ],
+        "v_keyphrases": [
+          "Ở trong",
+          "Bên trong"
+        ],
+        "o_keyphrases": [
+          "Giao thông đường bộ",
+          "Vận chuyển đường bộ"
+        ]
+      },
+      {
+        "s": "Trật tự, an toàn giao thông đường bộ",
+        "v": "Trong",
+        "o": "Dịch vụ hỗ trợ vận tải đường bộ",
+        "s_keyphrases": [
+          "An toàn giao thông",
+          "Trật tự giao thông"
+        ],
+        "v_keyphrases": [
+          "Ở trong",
+          "Bên trong"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông đường bộ",
+          "Dịch vụ hỗ trợ vận chuyển đường bộ"
+        ]
+      }
     ]
   },
   {
@@ -111,26 +596,178 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải tái phạm hành vi không thực hiện việc cung cấp, cập nhật, truyền, lưu trữ, quản lý thông tin, dữ liệu từ thiết bị giám sát hành trình theo quy định hoặc không thực hiện việc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu thu thập từ thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Cung cấp", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Tổ chức", "v": "Cập nhật", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Tổ chức", "v": "Truyền dẫn", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": ["truyền"], "o_keyphrases": ["thông tin"]},
-      {"s": "Tổ chức", "v": "Lưu trữ", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Tổ chức", "v": "Quản lý", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": ["thu thập từ"], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thương mại",
+          "Buôn bán"
+        ],
+        "o_keyphrases": [
+          "Chuyên chở",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thương mại",
+          "Buôn bán"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Cung cấp",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Cập nhật",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Đổi mới"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Truyền dẫn",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "truyền",
+          "Chuyển giao",
+          "Truyền tải"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Lưu trữ",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Quản lý",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Điều hành",
+          "Kiểm soát"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [
+          "Bắt nguồn từ",
+          "Xuất phát từ"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [
+          "thu thập từ",
+          "Bắt nguồn từ",
+          "Xuất phát từ"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lắp trên",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình lái xe"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      }
     ]
   }
 ]

@@ -7,29 +7,198 @@
       "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 34 hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 34."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Giao", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Để cho", "o": "Người làm công",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Để cho", "o": "Người đại diện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người làm công", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người làm công", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đại diện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đại diện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Giao",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người làm công",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cho phép",
+          "Giao cho"
+        ],
+        "o_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người đại diện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cho phép",
+          "Giao cho"
+        ],
+        "o_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ]
+      },
+      {
+        "s": "Người làm công",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Người làm công",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      },
+      {
+        "s": "Người đại diện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Người đại diện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      }
     ]
   },
   {
@@ -40,26 +209,165 @@
       "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô đưa xe ô tô kinh doanh vận tải hành khách lắp thêm hoặc tháo bớt ghế, giường nằm hoặc có kích thước khoang chở hành lý không đúng với thông số kỹ thuật được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Đưa", "o": "Ô tô kinh doanh vận tải hành khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải hành khách"]},
-      {"s": "Ô tô kinh doanh vận tải hành khách", "v": "Lắp thêm", "o": "Ghế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải hành khách", "v": "Lắp thêm", "o": "Giường nằm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải hành khách", "v": "Tháo bớt", "o": "Ghế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải hành khách", "v": "Tháo bớt", "o": "Giường nằm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải hành khách", "v": "Có", "o": "Khoang chở hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Khoang chở hành lý", "v": "Đúng", "o": "Thông số kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Đưa",
+        "o": "Ô tô kinh doanh vận tải hành khách",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Mang"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải hành khách",
+          "Xe khách",
+          "Ô tô chở khách"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải hành khách",
+        "v": "Lắp thêm",
+        "o": "Ghế",
+        "s_keyphrases": [
+          "Xe khách",
+          "Ô tô chở khách"
+        ],
+        "v_keyphrases": [
+          "Gắn thêm",
+          "Lắp đặt thêm"
+        ],
+        "o_keyphrases": [
+          "Chỗ ngồi",
+          "Băng ghế"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải hành khách",
+        "v": "Lắp thêm",
+        "o": "Giường nằm",
+        "s_keyphrases": [
+          "Xe khách",
+          "Ô tô chở khách"
+        ],
+        "v_keyphrases": [
+          "Gắn thêm",
+          "Lắp đặt thêm"
+        ],
+        "o_keyphrases": [
+          "Giường ngủ",
+          "Giường chở khách"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải hành khách",
+        "v": "Tháo bớt",
+        "o": "Ghế",
+        "s_keyphrases": [
+          "Xe khách",
+          "Ô tô chở khách"
+        ],
+        "v_keyphrases": [
+          "Gỡ bỏ",
+          "Lấy ra"
+        ],
+        "o_keyphrases": [
+          "Chỗ ngồi",
+          "Băng ghế"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải hành khách",
+        "v": "Tháo bớt",
+        "o": "Giường nằm",
+        "s_keyphrases": [
+          "Xe khách",
+          "Ô tô chở khách"
+        ],
+        "v_keyphrases": [
+          "Gỡ bỏ",
+          "Lấy ra"
+        ],
+        "o_keyphrases": [
+          "Giường ngủ",
+          "Giường chở khách"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải hành khách",
+        "v": "Có",
+        "o": "Khoang chở hành lý",
+        "s_keyphrases": [
+          "Xe khách",
+          "Ô tô chở khách"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Khoang chứa hành lý",
+          "Khu vực chở hành lý"
+        ]
+      },
+      {
+        "s": "Khoang chở hành lý",
+        "v": "Đúng",
+        "o": "Thông số kỹ thuật",
+        "s_keyphrases": [
+          "Khoang chứa hành lý",
+          "Khu vực chở hành lý"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Thông tin kỹ thuật",
+          "Thông số kỹ thuật xe"
+        ]
+      }
     ]
   },
   {
@@ -70,29 +378,198 @@
       "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 7 Điều 20; điểm c khoản 6 Điều 21 hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 7 Điều 20; điểm c khoản 6 Điều 21."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Giao", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Để cho", "o": "Người làm công",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Để cho", "o": "Người đại diện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người làm công", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người làm công", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đại diện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đại diện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Giao",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người làm công",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cho phép",
+          "Giao cho"
+        ],
+        "o_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người đại diện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cho phép",
+          "Giao cho"
+        ],
+        "o_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ]
+      },
+      {
+        "s": "Người làm công",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Người làm công",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      },
+      {
+        "s": "Người đại diện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Người đại diện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      }
     ]
   },
   {
@@ -103,10 +580,40 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Phạm luật"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Quy tắc"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Quy tắc"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Lưu thông đường bộ",
+          "Giao thông trên đường"
+        ]
+      }
     ]
   },
   {
@@ -117,31 +624,216 @@
       "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô, phương tiện giao thông thông minh đưa phương tiện không có chứng nhận đăng ký xe tham gia giao thông hoặc có nhưng đã hết hạn sử dụng, hết hiệu lực; đưa phương tiện có chứng nhận đăng ký xe tạm thời, phương tiện có phạm vi hoạt động hạn chế tham gia giao thông quá thời hạn, tuyến đường, phạm vi cho phép."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Phương tiện giao thông thông minh",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Đưa", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Có", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Có", "o": "Chứng nhận đăng ký xe tạm thời",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Có", "o": "Phạm vi hoạt động hạn chế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Quá", "o": "Thời hạn cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Quá", "o": "Tuyến đường cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Quá", "o": "Phạm vi cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Phương tiện giao thông thông minh",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thông minh",
+          "Xe thông minh"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Đưa",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Mang"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Hết",
+        "o": "Hạn sử dụng",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Chấm dứt"
+        ],
+        "o_keyphrases": [
+          "Thời hạn sử dụng",
+          "Thời gian sử dụng"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Hết",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Chấm dứt"
+        ],
+        "o_keyphrases": [
+          "Thời gian hiệu lực",
+          "Thời hạn hiệu lực"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe tạm thời",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký tạm thời",
+          "Chứng nhận tạm thời"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Có",
+        "o": "Phạm vi hoạt động hạn chế",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Khu vực hoạt động hạn chế",
+          "Phạm vi hạn chế"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Quá",
+        "o": "Thời hạn cho phép",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Vượt quá",
+          "Hơn"
+        ],
+        "o_keyphrases": [
+          "Thời gian cho phép",
+          "Thời gian hợp lệ"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Quá",
+        "o": "Tuyến đường cho phép",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Vượt quá",
+          "Hơn"
+        ],
+        "o_keyphrases": [
+          "Đường cho phép",
+          "Tuyến đường hợp lệ"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Quá",
+        "o": "Phạm vi cho phép",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Vượt quá",
+          "Hơn"
+        ],
+        "o_keyphrases": [
+          "Khu vực cho phép",
+          "Phạm vi hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -152,17 +844,97 @@
       "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô, phương tiện giao thông thông minh đưa phương tiện không gắn biển số tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Phương tiện giao thông thông minh",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Đưa", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Gắn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Phương tiện giao thông thông minh",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thông minh",
+          "Xe thông minh"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Đưa",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Mang"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Gắn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Gắn kết",
+          "Lắp ghép"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ]
+      }
     ]
   },
   {
@@ -173,17 +945,97 @@
       "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô, phương tiện giao thông thông minh lắp đặt, sử dụng thiết bị thay đổi biển số trên xe trái quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Phương tiện giao thông thông minh",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Lắp đặt", "o": "Thiết bị thay đổi biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Thiết bị thay đổi biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Phương tiện giao thông thông minh",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thông minh",
+          "Xe thông minh"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Lắp đặt",
+        "o": "Thiết bị thay đổi biển số",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Thiết bị điều chỉnh biển số",
+          "Thiết bị biến đổi biển số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Thiết bị thay đổi biển số",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị điều chỉnh biển số",
+          "Thiết bị biến đổi biển số"
+        ]
+      }
     ]
   },
   {
@@ -194,21 +1046,131 @@
       "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô, phương tiện giao thông thông minh đưa phương tiện giao thông thông minh không có giấy phép hoạt động hoặc giấy phép hoạt động hết hạn sử dụng hoặc hoạt động không đúng nội dung ghi trong giấy phép tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Phương tiện giao thông thông minh",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Đưa", "o": "Phương tiện giao thông thông minh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện giao thông thông minh", "v": "Có", "o": "Giấy phép hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép hoạt động", "v": "Hết", "o": "Hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện giao thông thông minh", "v": "Đúng", "o": "Nội dung giấy phép hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Phương tiện giao thông thông minh",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thông minh",
+          "Xe thông minh"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Đưa",
+        "o": "Phương tiện giao thông thông minh",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Mang"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thông minh",
+          "Xe thông minh"
+        ]
+      },
+      {
+        "s": "Phương tiện giao thông thông minh",
+        "v": "Có",
+        "o": "Giấy phép hoạt động",
+        "s_keyphrases": [
+          "Phương tiện thông minh",
+          "Xe thông minh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy phép kinh doanh",
+          "Giấy phép hoạt động vận tải"
+        ]
+      },
+      {
+        "s": "Giấy phép hoạt động",
+        "v": "Hết",
+        "o": "Hạn sử dụng",
+        "s_keyphrases": [
+          "Giấy phép kinh doanh",
+          "Giấy phép hoạt động vận tải"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Chấm dứt"
+        ],
+        "o_keyphrases": [
+          "Thời hạn sử dụng",
+          "Thời gian sử dụng"
+        ]
+      },
+      {
+        "s": "Phương tiện giao thông thông minh",
+        "v": "Đúng",
+        "o": "Nội dung giấy phép hoạt động",
+        "s_keyphrases": [
+          "Phương tiện thông minh",
+          "Xe thông minh"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Thông tin giấy phép hoạt động",
+          "Nội dung giấy phép"
+        ]
+      }
     ]
   },
   {
@@ -219,10 +1181,40 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Phạm luật"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Quy tắc"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Quy tắc"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Lưu thông đường bộ",
+          "Giao thông trên đường"
+        ]
+      }
     ]
   },
   {
@@ -233,29 +1225,196 @@
       "Tổ chức là chủ xe ô tô, xe máy chuyên dùng và các loại xe tương tự xe ô tô giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 6 Điều 21 hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 6 Điều 21."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"],
-       "o_keyphrases": ["xe ô tô", "các loại xe tương tự xe ô tô"]},
-      {"s": "Tổ chức", "v": "Sở hữu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["là chủ"], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Giao", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Để cho", "o": "Người làm công",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Để cho", "o": "Người đại diện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người làm công", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người làm công", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đại diện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đại diện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "các loại xe tương tự xe ô tô",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sở hữu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "là chủ",
+          "Có",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Giao",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người làm công",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cho phép",
+          "Giao cho"
+        ],
+        "o_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để cho",
+        "o": "Người đại diện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cho phép",
+          "Giao cho"
+        ],
+        "o_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ]
+      },
+      {
+        "s": "Người làm công",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Người làm công",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người lao động",
+          "Nhân viên"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      },
+      {
+        "s": "Người đại diện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Người đại diện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Đại diện pháp luật",
+          "Người đại diện hợp pháp"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi trái phép"
+        ]
+      }
     ]
   }
 ]

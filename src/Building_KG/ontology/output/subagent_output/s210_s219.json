@@ -7,11 +7,40 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô thực hiện hành vi quy định tại điểm a, điểm b, điểm h, điểm i, điểm k khoản 9 Điều này bị tước quyền sử dụng giấy phép lái xe từ 10 tháng đến 12 tháng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Giấy phép lái xe", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Mô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thu hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền điều khiển"
+        ]
+      }
     ]
   },
   {
@@ -22,11 +51,40 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô thực hiện hành vi quy định tại điểm d, điểm đ, điểm e, điểm g khoản 9; khoản 11 Điều này bị tước quyền sử dụng giấy phép lái xe từ 22 tháng đến 24 tháng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Giấy phép lái xe", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Mô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thu hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền điều khiển"
+        ]
+      }
     ]
   },
   {
@@ -37,11 +95,40 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô thực hiện hành vi quy định tại điểm b khoản 3; khoản 5; điểm b, điểm c, điểm d khoản 6; điểm a khoản 7 Điều này bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Mô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Loại bỏ",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -52,11 +139,40 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô thực hiện hành vi quy định tại điểm đ khoản 4; điểm a khoản 6; điểm c, điểm d, điểm đ khoản 7; điểm a khoản 8 Điều này bị trừ điểm giấy phép lái xe 04 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Mô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Loại bỏ",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -67,11 +183,40 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô thực hiện hành vi quy định tại điểm b khoản 7, điểm c khoản 9 Điều này bị trừ điểm giấy phép lái xe 06 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Mô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Loại bỏ",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -82,11 +227,40 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô thực hiện hành vi quy định tại điểm b khoản 8, khoản 10 Điều này bị trừ điểm giấy phép lái xe 10 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Mô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Loại bỏ",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -97,12 +271,48 @@
       "Người điều khiển xe máy chuyên dùng không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường, trừ các hành vi vi phạm quy định tại điểm a, điểm b, điểm c, điểm đ khoản 2; điểm a, điểm d, điểm đ khoản 3; khoản 4; điểm a, điểm c khoản 5; điểm a, điểm b, điểm d, điểm đ, điểm e, điểm i khoản 6; điểm c, điểm d khoản 7; điểm a, điểm b khoản 8; điểm đ khoản 9 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Vạch kẻ đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Vạch phân làn",
+          "Vạch chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -113,12 +323,49 @@
       "Người điều khiển xe máy chuyên dùng không báo hiệu bằng đèn khẩn cấp hoặc không đặt biển cảnh báo “Chú ý xe đỗ” theo quy định trong trường hợp gặp sự cố kỹ thuật (hoặc bất khả kháng khác) buộc phải đỗ xe chiếm một phần đường xe chạy hoặc tại nơi không được phép đỗ xe, trừ hành vi vi phạm quy định tại điểm b khoản 6 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Báo hiệu", "o": "Đèn khẩn cấp",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đặt", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển cảnh báo"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Báo hiệu",
+        "o": "Đèn khẩn cấp",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Ra tín hiệu",
+          "Thông báo"
+        ],
+        "o_keyphrases": [
+          "Đèn báo khẩn cấp",
+          "Đèn cảnh báo"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đặt",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Để",
+          "Sắp xếp"
+        ],
+        "o_keyphrases": [
+          "biển cảnh báo",
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -129,24 +376,129 @@
       "Người điều khiển xe máy chuyên dùng dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường rộng; dừng xe, đỗ xe không sát mép đường phía bên phải theo chiều đi ở nơi đường có lề đường hẹp hoặc không có lề đường; dừng xe, đỗ xe ngược với chiều lưu thông của làn đường; dừng xe, đỗ xe trên dải phân cách cố định ở giữa hai phần đường xe chạy; dừng xe, đỗ xe không đúng vị trí quy định ở những đoạn đường đã có bố trí nơi dừng xe, đỗ xe; đỗ xe trên dốc không chèn bánh; dừng xe nơi có biển “Cấm dừng xe và đỗ xe”; đỗ xe nơi có biển “Cấm đỗ xe” hoặc biển “Cấm dừng xe và đỗ xe”, trừ hành vi vi phạm quy định tại điểm b khoản 6 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Dải phân cách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chèn", "o": "Bánh xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["bánh"]},
-      {"s": "Người", "v": "Tại", "o": "Dốc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Dừng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Đỗ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Ngừng lại",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Dải phân cách",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Băng phân cách"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chèn",
+        "o": "Bánh xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đè lên",
+          "Đè nén"
+        ],
+        "o_keyphrases": [
+          "bánh",
+          "Lốp xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Dốc",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đường dốc",
+          "Dốc đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Dừng",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Ngăn cấm",
+          "Không cho phép"
+        ],
+        "o_keyphrases": [
+          "Ngừng",
+          "Dừng lại"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Đỗ",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Ngăn cấm",
+          "Không cho phép"
+        ],
+        "o_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ]
+      }
     ]
   },
   {
@@ -157,16 +509,77 @@
       "Người điều khiển xe máy chuyên dùng dừng xe, đỗ xe tại các vị trí: bên trái đường một chiều hoặc bên trái (theo hướng lưu thông) của đường đôi; trên đoạn đường cong hoặc gần đầu dốc nơi tầm nhìn bị che khuất; trên cầu (trừ trường hợp tổ chức giao thông cho phép), gầm cầu vượt (trừ những nơi cho phép dừng xe, đỗ xe), song song với một xe khác đang dừng, đỗ; nơi đường bộ giao nhau hoặc trong phạm vi 05 mét tính từ mép đường giao nhau; điểm đón, trả khách; trước cổng hoặc trong phạm vi 05 mét hai bên cổng trụ sở cơ quan, tổ chức có bố trí đường cho xe ra, vào; nơi phần đường có bề rộng chỉ đủ cho một làn xe cơ giới; che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông; nơi mở dải phân cách giữa; cách xe ô tô đang đỗ ngược chiều dưới 20 mét trên đường phố hẹp, dưới 40 mét trên đường có một làn xe cơ giới trên một chiều đường, trừ hành vi vi phạm quy định tại điểm b khoản 6 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Che khuất", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường bộ"]},
-      {"s": "Người", "v": "Che khuất", "o": "Đèn tín hiệu giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Ngừng lại",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Che khuất",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Cản trở",
+          "Ngăn chặn"
+        ],
+        "o_keyphrases": [
+          "biển báo hiệu đường bộ",
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Che khuất",
+        "o": "Đèn tín hiệu giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Cản trở",
+          "Ngăn chặn"
+        ],
+        "o_keyphrases": [
+          "Đèn giao thông",
+          "Đèn tín hiệu"
+        ]
+      }
     ]
   }
 ]

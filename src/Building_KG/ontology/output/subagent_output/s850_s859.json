@@ -7,12 +7,57 @@
       "Cá nhân đưa ra các yêu cầu trái quy định về trình tự, thủ tục đăng kiểm đối với cá nhân, tổ chức."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Đưa ra", "o": "Yêu cầu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Yêu cầu", "v": "Về", "o": "Trình tự, thủ tục đăng kiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Yêu cầu", "v": "Đối với", "o": "Cá nhân, tổ chức",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Đưa ra",
+        "o": "Yêu cầu",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân, tổ chức"
+        ],
+        "v_keyphrases": [
+          "Trình bày",
+          "Đề xuất"
+        ],
+        "o_keyphrases": [
+          "Đòi hỏi",
+          "Điều kiện"
+        ]
+      },
+      {
+        "s": "Yêu cầu",
+        "v": "Về",
+        "o": "Trình tự, thủ tục đăng kiểm",
+        "s_keyphrases": [
+          "Đòi hỏi",
+          "Điều kiện"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Quy trình đăng kiểm",
+          "Thủ tục kiểm định"
+        ]
+      },
+      {
+        "s": "Yêu cầu",
+        "v": "Đối với",
+        "o": "Cá nhân, tổ chức",
+        "s_keyphrases": [
+          "Đòi hỏi",
+          "Điều kiện"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Về vấn đề"
+        ],
+        "o_keyphrases": [
+          "Người và tổ chức",
+          "Cá nhân hoặc tổ chức"
+        ]
+      }
     ]
   },
   {
@@ -23,10 +68,40 @@
       "Cơ sở đăng kiểm không duy trì việc bảo đảm về điều kiện, yêu cầu theo quy định tại Nghị định của Chính phủ quy định về điều kiện kinh doanh dịch vụ kiểm định xe cơ giới; tổ chức, hoạt động của cơ sở đăng kiểm; niên hạn sử dụng của xe cơ giới."
     ],
     "triplets": [
-      {"s": "Cơ sở đăng kiểm", "v": "Duy trì", "o": "Điều kiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đăng kiểm", "v": "Duy trì", "o": "Yêu cầu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Duy trì",
+        "o": "Điều kiện",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Giữ gìn",
+          "Bảo trì"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn",
+          "Yêu cầu"
+        ]
+      },
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Duy trì",
+        "o": "Yêu cầu",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Giữ gìn",
+          "Bảo trì"
+        ],
+        "o_keyphrases": [
+          "Đòi hỏi",
+          "Điều kiện"
+        ]
+      }
     ]
   },
   {
@@ -37,10 +112,40 @@
       "Cơ sở đăng kiểm có từ 02 lượt đăng kiểm viên trở lên bị xử phạt theo quy định tại khoản 1 Điều này trong thời hạn 12 tháng tính từ lần vi phạm đầu tiên."
     ],
     "triplets": [
-      {"s": "Cơ sở đăng kiểm", "v": "Có", "o": "Đăng kiểm viên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đăng kiểm viên", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Có",
+        "o": "Đăng kiểm viên",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Nhân viên đăng kiểm",
+          "Kiểm định viên"
+        ]
+      },
+      {
+        "s": "Đăng kiểm viên",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Nhân viên đăng kiểm",
+          "Kiểm định viên"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi sai phạm"
+        ]
+      }
     ]
   },
   {
@@ -51,14 +156,76 @@
       "Cơ sở đăng kiểm phân công người không đủ điều kiện thực hiện nhiệm vụ của đăng kiểm viên, nhân viên nghiệp vụ."
     ],
     "triplets": [
-      {"s": "Cơ sở đăng kiểm", "v": "Phân công", "o": "Người không đủ điều kiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người không đủ điều kiện", "v": "Thực hiện", "o": "Nhiệm vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nhiệm vụ", "v": "Dành cho", "o": "Đăng kiểm viên",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Nhiệm vụ", "v": "Dành cho", "o": "Nhân viên nghiệp vụ",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Phân công",
+        "o": "Người không đủ điều kiện",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Giao nhiệm vụ",
+          "Chỉ định"
+        ],
+        "o_keyphrases": [
+          "Người không đủ tiêu chuẩn",
+          "Người không đủ khả năng"
+        ]
+      },
+      {
+        "s": "Người không đủ điều kiện",
+        "v": "Thực hiện",
+        "o": "Nhiệm vụ",
+        "s_keyphrases": [
+          "Người không đủ tiêu chuẩn",
+          "Người không đủ khả năng"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Công việc",
+          "Trách nhiệm"
+        ]
+      },
+      {
+        "s": "Nhiệm vụ",
+        "v": "Dành cho",
+        "o": "Đăng kiểm viên",
+        "s_keyphrases": [
+          "Công việc",
+          "Trách nhiệm"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Nhân viên đăng kiểm",
+          "Kiểm định viên"
+        ]
+      },
+      {
+        "s": "Nhiệm vụ",
+        "v": "Dành cho",
+        "o": "Nhân viên nghiệp vụ",
+        "s_keyphrases": [
+          "Công việc",
+          "Trách nhiệm"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Nhân viên chuyên môn",
+          "Cán bộ nghiệp vụ"
+        ]
+      }
     ]
   },
   {
@@ -69,12 +236,59 @@
       "Cơ sở đăng kiểm cấp chứng nhận cải tạo cho xe cơ giới, xe máy chuyên dùng không đúng quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở đăng kiểm", "v": "Cấp", "o": "Chứng nhận cải tạo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận cải tạo", "v": "Dành cho", "o": "Xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
-      {"s": "Chứng nhận cải tạo", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Cấp",
+        "o": "Chứng nhận cải tạo",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận cải tạo",
+          "Giấy phép cải tạo"
+        ]
+      },
+      {
+        "s": "Chứng nhận cải tạo",
+        "v": "Dành cho",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Giấy chứng nhận cải tạo",
+          "Giấy phép cải tạo"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện cơ giới"
+        ]
+      },
+      {
+        "s": "Chứng nhận cải tạo",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Giấy chứng nhận cải tạo",
+          "Giấy phép cải tạo"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      }
     ]
   },
   {
@@ -85,10 +299,40 @@
       "Cơ sở đăng kiểm thực hiện kiểm định đối với phương tiện thuộc trường hợp bị từ chối kiểm định theo quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở đăng kiểm", "v": "Kiểm định", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Từ chối", "o": "Kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Kiểm định",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "o_keyphrases": [
+          "Xe",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Từ chối",
+        "o": "Kiểm định",
+        "s_keyphrases": [
+          "Xe",
+          "Phương tiện giao thông"
+        ],
+        "v_keyphrases": [
+          "Không chấp nhận",
+          "Bác bỏ"
+        ],
+        "o_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ]
+      }
     ]
   },
   {
@@ -99,16 +343,91 @@
       "Cơ sở đăng kiểm lưu trữ hồ sơ, tài liệu, dữ liệu kiểm định, cải tạo xe không đúng quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở đăng kiểm", "v": "Lưu trữ", "o": "Hồ sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đăng kiểm", "v": "Lưu trữ", "o": "Tài liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đăng kiểm", "v": "Lưu trữ", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Về", "o": "Kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Về", "o": "Cải tạo xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Lưu trữ",
+        "o": "Hồ sơ",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Hồ sơ lưu trữ"
+        ]
+      },
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Lưu trữ",
+        "o": "Tài liệu",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ",
+          "Tài liệu liên quan"
+        ]
+      },
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Lưu trữ",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu liên quan"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Về",
+        "o": "Kiểm định",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu liên quan"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Về",
+        "o": "Cải tạo xe",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu liên quan"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Sửa đổi xe",
+          "Nâng cấp xe"
+        ]
+      }
     ]
   },
   {
@@ -119,12 +438,59 @@
       "Cơ sở đăng kiểm không thực hiện việc cập nhật hồ sơ phương tiện cho xe cơ giới, xe máy chuyên dùng theo quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở đăng kiểm", "v": "Cập nhật", "o": "Hồ sơ phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hồ sơ phương tiện", "v": "Dành cho", "o": "Xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
-      {"s": "Hồ sơ phương tiện", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đăng kiểm",
+        "v": "Cập nhật",
+        "o": "Hồ sơ phương tiện",
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Đổi mới"
+        ],
+        "o_keyphrases": [
+          "Hồ sơ xe",
+          "Hồ sơ đăng kiểm"
+        ]
+      },
+      {
+        "s": "Hồ sơ phương tiện",
+        "v": "Dành cho",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Hồ sơ xe",
+          "Hồ sơ đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện cơ giới"
+        ]
+      },
+      {
+        "s": "Hồ sơ phương tiện",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Hồ sơ xe",
+          "Hồ sơ đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      }
     ]
   },
   {
@@ -135,8 +501,23 @@
       "Cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong sản xuất, lắp ráp và nhập khẩu không thực hiện niêm yết công khai các trình tự, thủ tục thử nghiệm, chứng nhận theo quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở thử nghiệm, chứng nhận", "v": "Niêm yết", "o": "Trình tự, thủ tục thử nghiệm, chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở thử nghiệm, chứng nhận",
+        "v": "Niêm yết",
+        "o": "Trình tự, thủ tục thử nghiệm, chứng nhận",
+        "s_keyphrases": [
+          "Đơn vị thử nghiệm",
+          "Cơ sở chứng nhận"
+        ],
+        "v_keyphrases": [
+          "Công bố",
+          "Đăng tải"
+        ],
+        "o_keyphrases": [
+          "Quy trình thử nghiệm",
+          "Thủ tục chứng nhận"
+        ]
+      }
     ]
   },
   {
@@ -147,10 +528,40 @@
       "Cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong sản xuất, lắp ráp và nhập khẩu thực hiện việc thử nghiệm, chứng nhận không đúng quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở thử nghiệm, chứng nhận", "v": "Thực hiện", "o": "Thử nghiệm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở thử nghiệm, chứng nhận", "v": "Thực hiện", "o": "Chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở thử nghiệm, chứng nhận",
+        "v": "Thực hiện",
+        "o": "Thử nghiệm",
+        "s_keyphrases": [
+          "Đơn vị thử nghiệm",
+          "Cơ sở chứng nhận"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Kiểm tra",
+          "Thí nghiệm"
+        ]
+      },
+      {
+        "s": "Cơ sở thử nghiệm, chứng nhận",
+        "v": "Thực hiện",
+        "o": "Chứng nhận",
+        "s_keyphrases": [
+          "Đơn vị thử nghiệm",
+          "Cơ sở chứng nhận"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ chứng nhận"
+        ]
+      }
     ]
   }
 ]

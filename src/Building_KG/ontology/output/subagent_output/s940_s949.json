@@ -7,8 +7,38 @@
       "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Thanh tra viên", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Thanh tra viên",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Cán bộ thanh tra"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Cán bộ thanh tra chuyên ngành"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -19,8 +49,38 @@
       "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền phạt tiền đến 500.000 đồng."
     ],
     "triplets": [
-      {"s": "Thanh tra viên", "v": "Phạt", "o": "Phạt tiền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Phạt", "o": "Phạt tiền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Thanh tra viên",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Cán bộ thanh tra"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Phạt hành chính"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Cán bộ thanh tra chuyên ngành"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Phạt hành chính"
+        ]
+      }
     ]
   },
   {
@@ -31,10 +91,74 @@
       "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Thanh tra viên", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật được sử dụng để vi phạm hành chính"]},
-      {"s": "Thanh tra viên", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện được sử dụng để vi phạm hành chính"]},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật được sử dụng để vi phạm hành chính"]},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện được sử dụng để vi phạm hành chính"]}
+      {
+        "s": "Thanh tra viên",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ thanh tra"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
+        "o_keyphrases": [
+          "tang vật được sử dụng để vi phạm hành chính",
+          "Tang vật bị tịch thu",
+          "Tang vật vi phạm"
+        ]
+      },
+      {
+        "s": "Thanh tra viên",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ thanh tra"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
+        "o_keyphrases": [
+          "phương tiện được sử dụng để vi phạm hành chính",
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ thanh tra chuyên ngành"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
+        "o_keyphrases": [
+          "tang vật được sử dụng để vi phạm hành chính",
+          "Tang vật bị tịch thu",
+          "Tang vật vi phạm"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ thanh tra chuyên ngành"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
+        "o_keyphrases": [
+          "phương tiện được sử dụng để vi phạm hành chính",
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      }
     ]
   },
   {
@@ -45,8 +169,38 @@
       "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền áp dụng các biện pháp khắc phục hậu quả."
     ],
     "triplets": [
-      {"s": "Thanh tra viên", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Thanh tra viên",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Cán bộ thanh tra"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Biện pháp remedial"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Cán bộ thanh tra chuyên ngành"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Biện pháp remedial"
+        ]
+      }
     ]
   },
   {
@@ -57,7 +211,22 @@
       "Chánh Thanh tra Sở Giao thông vận tải có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chánh Thanh tra Sở Giao thông vận tải",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Chánh Thanh tra Sở GT-VT"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -68,7 +237,22 @@
       "Chánh Thanh tra Sở Giao thông vận tải có quyền phạt tiền đến 37.500.000 đồng."
     ],
     "triplets": [
-      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Phạt", "o": "Phạt tiền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chánh Thanh tra Sở Giao thông vận tải",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Chánh Thanh tra Sở GT-VT"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Phạt hành chính"
+        ]
+      }
     ]
   },
   {
@@ -79,11 +263,86 @@
       "Chánh Thanh tra Sở Giao thông vận tải có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."
     ],
     "triplets": [
-      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Tước", "o": "Giấy phép", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Tước", "o": "Chứng chỉ hành nghề", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Đình chỉ", "o": "Hoạt động", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chánh Thanh tra Sở Giao thông vận tải",
+        "v": "Tước",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Chánh Thanh tra Sở GT-VT"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lái xe",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Chánh Thanh tra Sở Giao thông vận tải",
+        "v": "Tước",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [
+          "Chánh Thanh tra Sở GT-VT"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề"
+        ]
+      },
+      {
+        "s": "Chánh Thanh tra Sở Giao thông vận tải",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Chánh Thanh tra Sở GT-VT"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Tạm dừng"
+        ],
+        "o_keyphrases": [
+          "Hoạt động giao thông",
+          "Hoạt động vận tải"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lái xe",
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy chứng nhận hành nghề"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      }
     ]
   },
   {
@@ -94,8 +353,40 @@
       "Chánh Thanh tra Sở Giao thông vận tải có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật được sử dụng để vi phạm hành chính"]},
-      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện được sử dụng để vi phạm hành chính"]}
+      {
+        "s": "Chánh Thanh tra Sở Giao thông vận tải",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Chánh Thanh tra Sở GT-VT"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
+        "o_keyphrases": [
+          "tang vật được sử dụng để vi phạm hành chính",
+          "Tang vật bị tịch thu",
+          "Tang vật vi phạm"
+        ]
+      },
+      {
+        "s": "Chánh Thanh tra Sở Giao thông vận tải",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Chánh Thanh tra Sở GT-VT"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
+        "o_keyphrases": [
+          "phương tiện được sử dụng để vi phạm hành chính",
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      }
     ]
   },
   {
@@ -106,7 +397,22 @@
       "Chánh Thanh tra Sở Giao thông vận tải có quyền áp dụng các biện pháp khắc phục hậu quả."
     ],
     "triplets": [
-      {"s": "Chánh Thanh tra Sở Giao thông vận tải", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chánh Thanh tra Sở Giao thông vận tải",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Chánh Thanh tra Sở GT-VT"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Biện pháp remedial"
+        ]
+      }
     ]
   },
   {
@@ -117,7 +423,22 @@
       "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chánh Thanh tra tỉnh, thành phố trực thuộc trung ương",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Chánh Thanh tra địa phương"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   }
 ]

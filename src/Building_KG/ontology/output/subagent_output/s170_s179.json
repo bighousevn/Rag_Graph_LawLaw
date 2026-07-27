@@ -7,13 +7,40 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe kéo theo xe khác, vật khác."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Kéo theo", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Kéo theo", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo theo",
+        "o": "Xe khác",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Xe khác loại",
+          "Xe khác nhau"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo theo",
+        "o": "Vật khác",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -24,13 +51,46 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Đèn chiếu sáng gần",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Hầm đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Hầm",
+          "Đường hầm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Đèn chiếu sáng gần",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Đèn gần",
+          "Đèn chiếu sáng"
+        ]
+      }
     ]
   },
   {
@@ -41,17 +101,75 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước hoặc không giữ khoảng cách theo quy định của biển báo hiệu “Cự ly tối thiểu giữa hai xe.”"
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Giữ", "o": "Khoảng cách an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Va chạm", "o": "Xe chạy liền trước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Quy định", "o": "Khoảng cách an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["Cự ly tối thiểu giữa hai xe"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Giữ",
+        "o": "Khoảng cách an toàn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Khoảng cách bảo đảm",
+          "Khoảng cách an toàn giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Va chạm",
+        "o": "Xe chạy liền trước",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Xung đột",
+          "Đụng"
+        ],
+        "o_keyphrases": [
+          "Xe phía trước",
+          "Xe ngay trước"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Quy định",
+        "o": "Khoảng cách an toàn",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Đặt ra",
+          "Chỉ định"
+        ],
+        "o_keyphrases": [
+          "Cự ly tối thiểu giữa hai xe",
+          "Khoảng cách bảo đảm",
+          "Khoảng cách an toàn giao thông"
+        ]
+      }
     ]
   },
   {
@@ -62,11 +180,35 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chạy dàn hàng ngang từ 03 xe trở lên."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Chạy dàn hàng ngang", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chạy dàn hàng ngang",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chạy song song",
+          "Chạy hàng ngang"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe mô tô"
+        ]
+      }
     ]
   },
   {
@@ -77,17 +219,74 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô sử dụng thiết bị phát tín hiệu ưu tiên không đúng quy định hoặc sử dụng thiết bị phát tín hiệu ưu tiên mà không có giấy phép của cơ quan có thẩm quyền cấp hoặc có giấy phép của cơ quan có thẩm quyền cấp nhưng không còn giá trị sử dụng theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị phát tín hiệu ưu tiên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Còn", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Thiết bị phát tín hiệu ưu tiên",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị ưu tiên",
+          "Đèn ưu tiên"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cơ quan chức năng",
+          "Cơ quan nhà nước"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Còn",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -98,11 +297,36 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chạy quá tốc độ quy định từ 10 km/h đến 20 km/h."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Vượt quá", "o": "Tốc độ quy định",
-       "s_keyphrases": [], "v_keyphrases": ["chạy quá"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vượt quá",
+        "o": "Tốc độ quy định",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "chạy quá",
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Tốc độ cho phép",
+          "Tốc độ tối đa"
+        ]
+      }
     ]
   },
   {
@@ -113,15 +337,60 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Dừng", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Hầm đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Hầm",
+          "Đường hầm"
+        ]
+      }
     ]
   },
   {
@@ -132,15 +401,63 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu cấm vượt đối với loại phương tiện đang điều khiển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Vượt", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Vượt",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vượt",
+        "o": "Xe khác",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Vượt qua",
+          "Chạy vượt"
+        ],
+        "o_keyphrases": [
+          "Xe khác loại",
+          "Xe khác nhau"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Vượt",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Ngăn cấm",
+          "Không cho phép"
+        ],
+        "o_keyphrases": [
+          "Vượt qua",
+          "Chạy vượt"
+        ]
+      }
     ]
   },
   {
@@ -151,13 +468,46 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô quay đầu xe trong hầm đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Quay đầu", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quay đầu",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Quay lại",
+          "Rẽ lại"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Hầm đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Hầm",
+          "Đường hầm"
+        ]
+      }
     ]
   },
   {
@@ -168,21 +518,88 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô sử dụng ô (dù), thiết bị âm thanh (trừ thiết bị trợ thính), dùng tay cầm và sử dụng điện thoại hoặc các thiết bị điện tử khác."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Ô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["dù"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị âm thanh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Cầm", "o": "Điện thoại",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Điện thoại",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Cầm", "o": "Thiết bị điện tử khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị điện tử khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Ô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "dù",
+          "Ô tô",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Thiết bị âm thanh",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Âm thanh cảnh báo",
+          "Thiết bị phát âm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Cầm",
+        "o": "Điện thoại",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Điện thoại",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Cầm",
+        "o": "Thiết bị điện tử khác",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Thiết bị điện tử khác",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": []
+      }
     ]
   }
 ]

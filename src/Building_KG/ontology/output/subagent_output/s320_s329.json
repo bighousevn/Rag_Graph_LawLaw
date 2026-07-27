@@ -7,33 +7,231 @@
       "Người được chở trên xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy bám, kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang vác vật cồng kềnh, đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe."
     ],
     "triplets": [
-      {"s": "Người được chở", "v": "Trên", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người được chở", "v": "Bám", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Bám", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Kéo", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Kéo", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Đẩy", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Đẩy", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Dẫn dắt", "o": "Vật nuôi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Mang vác", "o": "Vật cồng kềnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Đứng trên", "o": "Yên xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["yên"]},
-      {"s": "Người được chở", "v": "Đứng trên", "o": "Giá đèo hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Ngồi trên", "o": "Tay lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tay lái", "v": "Thuộc", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người được chở",
+        "v": "Trên",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Ở trên",
+          "Trên cao"
+        ],
+        "o_keyphrases": [
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Bám",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Bám theo",
+          "Bám sát"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe khác loại"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Bám",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Bám theo",
+          "Bám sát"
+        ],
+        "o_keyphrases": [
+          "Đối tượng khác",
+          "Sự vật khác"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Kéo",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Kéo dài",
+          "Kéo lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe khác loại"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Kéo",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Kéo dài",
+          "Kéo lại"
+        ],
+        "o_keyphrases": [
+          "Đối tượng khác",
+          "Sự vật khác"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Đẩy",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Thúc",
+          "Xô"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe khác loại"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Đẩy",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Thúc",
+          "Xô"
+        ],
+        "o_keyphrases": [
+          "Đối tượng khác",
+          "Sự vật khác"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ dẫn"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Mang vác",
+        "o": "Vật cồng kềnh",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Vác",
+          "Khuân"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa lớn",
+          "Đồ vật to"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Đứng trên",
+        "o": "Yên xe",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Đứng ở",
+          "Đứng tại"
+        ],
+        "o_keyphrases": [
+          "yên",
+          "Ghế xe",
+          "Chỗ ngồi"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Đứng trên",
+        "o": "Giá đèo hàng",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Đứng ở",
+          "Đứng tại"
+        ],
+        "o_keyphrases": [
+          "Phí vận chuyển",
+          "Chi phí chở hàng"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Ngồi trên",
+        "o": "Tay lái",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Lên xe",
+          "Ngồi lại"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Lái xe"
+        ]
+      },
+      {
+        "s": "Tay lái",
+        "v": "Thuộc",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người lái",
+          "Lái xe"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      }
     ]
   },
   {
@@ -44,13 +242,59 @@
       "Người được chở trên xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách khi tham gia giao thông trên đường bộ."
     ],
     "triplets": [
-      {"s": "Người được chở", "v": "Trên", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người được chở", "v": "Đội", "o": "Mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Cài", "o": "Quai mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người được chở",
+        "v": "Trên",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Ở trên",
+          "Trên cao"
+        ],
+        "o_keyphrases": [
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Đội",
+        "o": "Mũ bảo hiểm",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Đeo",
+          "Mang"
+        ],
+        "o_keyphrases": [
+          "Mũ bảo vệ",
+          "Mũ an toàn"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Cài",
+        "o": "Quai mũ bảo hiểm",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Lắp đặt"
+        ],
+        "o_keyphrases": [
+          "Dây mũ",
+          "Khóa mũ"
+        ]
+      }
     ]
   },
   {
@@ -61,12 +305,57 @@
       "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy tắc giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Quy tắc giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Luật giao thông",
+          "Quy định giao thông"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Sử dụng",
+        "o": "Lòng đường",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Đường đi",
+          "Lòng lề"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Sử dụng",
+        "o": "Vỉa hè",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Lề đường",
+          "Lối đi bộ"
+        ]
+      }
     ]
   },
   {
@@ -77,8 +366,23 @@
       "Tổ chức cố ý không cứu giúp người bị tai nạn giao thông đường bộ khi có điều kiện."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Cứu giúp", "o": "Người bị tai nạn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Cứu giúp",
+        "o": "Người bị tai nạn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Hỗ trợ",
+          "Giúp đỡ"
+        ],
+        "o_keyphrases": [
+          "Nạn nhân",
+          "Người gặp nạn"
+        ]
+      }
     ]
   },
   {
@@ -89,20 +393,125 @@
       "Tổ chức lợi dụng việc xảy ra tai nạn giao thông đường bộ để hành hung, đe dọa, xúi giục, gây sức ép, làm mất trật tự, cản trở việc xử lý tai nạn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Lợi dụng", "o": "Tai nạn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Hành hung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Đe dọa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Xúi giục",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Gây sức ép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Làm mất trật tự",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Cản trở", "o": "Xử lý tai nạn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Lợi dụng",
+        "o": "Tai nạn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Khai thác",
+          "Lạm dụng"
+        ],
+        "o_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn đường bộ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Hành hung",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Tấn công",
+          "Đánh đập"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Đe dọa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hăm dọa",
+          "Đe dọa an toàn"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Xúi giục",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Khuyến khích",
+          "Kích động"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Gây sức ép",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Tạo áp lực",
+          "Đè nén"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Làm mất trật tự",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Gây rối",
+          "Làm loạn"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Cản trở",
+        "o": "Xử lý tai nạn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Ngăn cản",
+          "Chặn"
+        ],
+        "o_keyphrases": [
+          "Giải quyết tai nạn",
+          "Xử lý sự cố"
+        ]
+      }
     ]
   },
   {
@@ -113,17 +522,95 @@
       "Tổ chức cản trở người, phương tiện tham gia giao thông trên đường bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông trên đường bộ."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Cản trở", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Cản trở", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Ném", "o": "Vật thể",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["gạch", "đất", "đá", "cát"]},
-      {"s": "Vật thể", "v": "Vào", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vật thể", "v": "Vào", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Cản trở",
+        "o": "Người",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Ngăn cản",
+          "Chặn"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Công dân"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Cản trở",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Ngăn cản",
+          "Chặn"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Ném",
+        "o": "Vật thể",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Quăng",
+          "Vứt"
+        ],
+        "o_keyphrases": [
+          "gạch",
+          "đất",
+          "đá",
+          "cát",
+          "Đối tượng",
+          "Sự vật"
+        ]
+      },
+      {
+        "s": "Vật thể",
+        "v": "Vào",
+        "o": "Người",
+        "s_keyphrases": [
+          "Đối tượng",
+          "Sự vật"
+        ],
+        "v_keyphrases": [
+          "Bước vào",
+          "Gia nhập"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Công dân"
+        ]
+      },
+      {
+        "s": "Vật thể",
+        "v": "Vào",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Đối tượng",
+          "Sự vật"
+        ],
+        "v_keyphrases": [
+          "Bước vào",
+          "Gia nhập"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      }
     ]
   },
   {
@@ -134,22 +621,142 @@
       "Tổ chức chiếm dụng dải phân cách giữa của đường đôi làm nơi bày, bán hàng hóa; để vật liệu xây dựng; để xe, trông, giữ xe."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Chiếm dụng", "o": "Dải phân cách giữa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dải phân cách giữa", "v": "Thuộc", "o": "Đường đôi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Bày", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Bán", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Để", "o": "Vật liệu xây dựng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Để", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Trông", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Giữ", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Chiếm dụng",
+        "o": "Dải phân cách giữa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sử dụng trái phép",
+          "Lấn chiếm"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Băng phân cách"
+        ]
+      },
+      {
+        "s": "Dải phân cách giữa",
+        "v": "Thuộc",
+        "o": "Đường đôi",
+        "s_keyphrases": [
+          "Vạch phân cách",
+          "Băng phân cách"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Đường hai chiều",
+          "Đường song song"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Bày",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Trưng bày",
+          "Sắp xếp"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Đồ vật"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Bán",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Giao dịch",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Đồ vật"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để",
+        "o": "Vật liệu xây dựng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Đặt",
+          "Cho phép"
+        ],
+        "o_keyphrases": [
+          "Nguyên liệu xây dựng",
+          "Vật liệu"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Để",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Đặt",
+          "Cho phép"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Trông",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Nhìn",
+          "Theo dõi"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Giữ",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Bảo quản",
+          "Giữ gìn"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -160,12 +767,57 @@
       "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy tắc giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Quy tắc giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Luật giao thông",
+          "Quy định giao thông"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Sử dụng",
+        "o": "Lòng đường",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Đường đi",
+          "Lòng lề"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Sử dụng",
+        "o": "Vỉa hè",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Lề đường",
+          "Lối đi bộ"
+        ]
+      }
     ]
   },
   {
@@ -176,34 +828,244 @@
       "Tổ chức sử dụng trái phép lòng đường, vỉa hè để họp chợ; kinh doanh dịch vụ ăn uống; bày, bán hàng hóa; sửa chữa phương tiện, máy móc, thiết bị; rửa xe; đặt, treo biển hiệu, biển quảng cáo."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Lòng đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Vỉa hè",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Họp", "o": "Chợ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ ăn uống",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Bày", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Bán", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sửa chữa", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sửa chữa", "o": "Máy móc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sửa chữa", "o": "Thiết bị",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Rửa", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Đặt", "o": "Biển hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Đặt", "o": "Biển quảng cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Treo", "o": "Biển hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Treo", "o": "Biển quảng cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Lòng đường",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Đường đi",
+          "Lòng lề"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Vỉa hè",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Lề đường",
+          "Lối đi bộ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Họp",
+        "o": "Chợ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tập hợp",
+          "Gặp gỡ"
+        ],
+        "o_keyphrases": [
+          "Thị trường",
+          "Khu chợ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ ăn uống",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thương mại",
+          "Buôn bán"
+        ],
+        "o_keyphrases": [
+          "Nhà hàng",
+          "Quán ăn"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Bày",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Trưng bày",
+          "Sắp xếp"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Đồ vật"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Bán",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Giao dịch",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Đồ vật"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sửa chữa",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Khắc phục",
+          "Bảo trì"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sửa chữa",
+        "o": "Máy móc",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Khắc phục",
+          "Bảo trì"
+        ],
+        "o_keyphrases": [
+          "Thiết bị",
+          "Công cụ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sửa chữa",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Khắc phục",
+          "Bảo trì"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Máy móc"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Rửa",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Vệ sinh",
+          "Làm sạch"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Đặt",
+        "o": "Biển hiệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Để",
+          "Bỏ"
+        ],
+        "o_keyphrases": [
+          "Bảng hiệu",
+          "Biển báo"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Đặt",
+        "o": "Biển quảng cáo",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Để",
+          "Bỏ"
+        ],
+        "o_keyphrases": [
+          "Quảng cáo ngoài trời",
+          "Biển thông báo"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Treo",
+        "o": "Biển hiệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Đặt",
+          "Gắn"
+        ],
+        "o_keyphrases": [
+          "Bảng hiệu",
+          "Biển báo"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Treo",
+        "o": "Biển quảng cáo",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Đặt",
+          "Gắn"
+        ],
+        "o_keyphrases": [
+          "Quảng cáo ngoài trời",
+          "Biển thông báo"
+        ]
+      }
     ]
   },
   {
@@ -214,12 +1076,57 @@
       "Cá nhân không thực hiện quy định về quy tắc giao thông đường bộ và sử dụng lòng đường, vỉa hè vào mục đích khác."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy tắc giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Sử dụng", "o": "Lòng đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Sử dụng", "o": "Vỉa hè",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Quy tắc giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Luật giao thông",
+          "Quy định giao thông"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Sử dụng",
+        "o": "Lòng đường",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Đường đi",
+          "Lòng lề"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Sử dụng",
+        "o": "Vỉa hè",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Lề đường",
+          "Lối đi bộ"
+        ]
+      }
     ]
   }
 ]

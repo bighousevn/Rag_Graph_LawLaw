@@ -7,21 +7,128 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc lắp đặt thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe, dây đai an toàn, ghế ngồi cho trẻ em mầm non, học sinh tiểu học, dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ trên xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lắp đặt", "o": "Dây đai an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lắp đặt", "o": "Ghế ngồi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Trẻ em mầm non",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Học sinh tiểu học",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị cứu hộ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["dụng cụ chuyên dùng để cứu hộ", "thiết bị chuyên dùng để cứu hộ", "thiết bị hỗ trợ cứu hộ"]}
+      {
+        "s": "Người",
+        "v": "Lắp đặt",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị GPS"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp đặt",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp đặt",
+        "o": "Dây đai an toàn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo hiểm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp đặt",
+        "o": "Ghế ngồi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế"
+        ]
+      },
+      {
+        "s": "Ghế ngồi",
+        "v": "Dành cho",
+        "o": "Trẻ em mầm non",
+        "s_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Trẻ em dưới 6 tuổi",
+          "Trẻ nhỏ"
+        ]
+      },
+      {
+        "s": "Ghế ngồi",
+        "v": "Dành cho",
+        "o": "Học sinh tiểu học",
+        "s_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Trẻ em tiểu học",
+          "Học sinh lớp 1-5"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp đặt",
+        "o": "Thiết bị cứu hộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "dụng cụ chuyên dùng để cứu hộ",
+          "thiết bị chuyên dùng để cứu hộ",
+          "thiết bị hỗ trợ cứu hộ",
+          "Thiết bị cứu nạn",
+          "Thiết bị cứu trợ"
+        ]
+      }
     ]
   },
   {
@@ -32,14 +139,74 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc tháo dỡ thiết bị âm thanh, ánh sáng lắp đặt trên xe gây mất trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Tháo dỡ", "o": "Thiết bị âm thanh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tháo dỡ", "o": "Thiết bị ánh sáng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị âm thanh", "v": "Gây mất", "o": "Trật tự an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ánh sáng", "v": "Gây mất", "o": "Trật tự an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Tháo dỡ",
+        "o": "Thiết bị âm thanh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gỡ bỏ",
+          "Tháo ra"
+        ],
+        "o_keyphrases": [
+          "Thiết bị phát âm thanh",
+          "Âm thanh cảnh báo"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tháo dỡ",
+        "o": "Thiết bị ánh sáng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gỡ bỏ",
+          "Tháo ra"
+        ],
+        "o_keyphrases": [
+          "Đèn chiếu sáng",
+          "Thiết bị chiếu sáng"
+        ]
+      },
+      {
+        "s": "Thiết bị âm thanh",
+        "v": "Gây mất",
+        "o": "Trật tự an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Thiết bị phát âm thanh",
+          "Âm thanh cảnh báo"
+        ],
+        "v_keyphrases": [
+          "Gây ra mất mát",
+          "Làm mất"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Thiết bị ánh sáng",
+        "v": "Gây mất",
+        "o": "Trật tự an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Đèn chiếu sáng",
+          "Thiết bị chiếu sáng"
+        ],
+        "v_keyphrases": [
+          "Gây ra mất mát",
+          "Làm mất"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      }
     ]
   },
   {
@@ -50,24 +217,153 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu từ thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Người", "v": "Cung cấp", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Người", "v": "Cập nhật", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Người", "v": "Truyền dẫn", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Người", "v": "Lưu trữ", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Người", "v": "Quản lý", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Lắp trên", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Cung cấp",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu kỹ thuật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Cập nhật",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Cập nhật dữ liệu"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu kỹ thuật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Truyền dẫn",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Truyền tải"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu kỹ thuật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lưu trữ",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu kỹ thuật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quản lý",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Điều hành",
+          "Quản trị"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu kỹ thuật"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu kỹ thuật"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị GPS"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu kỹ thuật"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Lắp trên",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị GPS"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Gắn vào"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lắp trên",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Gắn vào"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      }
     ]
   },
   {
@@ -78,10 +374,40 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc điều chỉnh lại chỉ số trên đồng hồ báo quãng đường của xe ô tô bị làm sai lệch."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều chỉnh", "o": "Chỉ số đồng hồ báo quãng đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chỉ số đồng hồ báo quãng đường", "v": "Dành cho", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều chỉnh",
+        "o": "Chỉ số đồng hồ báo quãng đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sửa đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Đồng hồ quãng đường",
+          "Chỉ số quãng đường"
+        ]
+      },
+      {
+        "s": "Chỉ số đồng hồ báo quãng đường",
+        "v": "Dành cho",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Đồng hồ quãng đường",
+          "Chỉ số quãng đường"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      }
     ]
   },
   {
@@ -92,14 +418,74 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc khôi phục lại nhãn hiệu, màu sơn ghi trong chứng nhận đăng ký xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Khôi phục", "o": "Nhãn hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Khôi phục", "o": "Màu sơn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nhãn hiệu", "v": "Ghi trong", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Màu sơn", "v": "Ghi trong", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Nhãn hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Khôi phục lại"
+        ],
+        "o_keyphrases": [
+          "Thương hiệu",
+          "Tên thương hiệu"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Màu sơn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Khôi phục lại"
+        ],
+        "o_keyphrases": [
+          "Màu xe",
+          "Màu phủ"
+        ]
+      },
+      {
+        "s": "Nhãn hiệu",
+        "v": "Ghi trong",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Thương hiệu",
+          "Tên thương hiệu"
+        ],
+        "v_keyphrases": [
+          "Ghi chép trong",
+          "Ghi lại trong"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đăng ký",
+          "Giấy đăng ký xe"
+        ]
+      },
+      {
+        "s": "Màu sơn",
+        "v": "Ghi trong",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Màu xe",
+          "Màu phủ"
+        ],
+        "v_keyphrases": [
+          "Ghi chép trong",
+          "Ghi lại trong"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đăng ký",
+          "Giấy đăng ký xe"
+        ]
+      }
     ]
   },
   {
@@ -110,15 +496,75 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc thực hiện đúng quy định về biển số xe, quy định về kẻ hoặc dán chữ, số biển số, thông tin trên thành xe, cửa xe, quy định về màu sơn, biển báo dấu hiệu nhận biết của xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Thực hiện", "o": "Quy định về biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Quy định về thông tin trên xe",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["quy định về kẻ hoặc dán chữ, số biển số, thông tin trên thành xe, cửa xe"]},
-      {"s": "Người", "v": "Thực hiện", "o": "Quy định về màu sơn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Quy định về biển báo dấu hiệu nhận biết",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quy định về biển số xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Quy định biển số",
+          "Quy định về biển số"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quy định về thông tin trên xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "quy định về kẻ hoặc dán chữ, số biển số, thông tin trên thành xe, cửa xe",
+          "Quy định thông tin xe",
+          "Quy định thông tin"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quy định về màu sơn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Quy định màu sơn",
+          "Quy định về màu sắc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quy định về biển báo dấu hiệu nhận biết",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Quy định biển báo",
+          "Quy định về biển báo"
+        ]
+      }
     ]
   },
   {
@@ -129,14 +575,74 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc khôi phục lại hình dáng, kích thước, tình trạng an toàn kỹ thuật ban đầu của xe và đăng kiểm lại trước khi đưa phương tiện ra tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Khôi phục", "o": "Hình dáng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Khôi phục", "o": "Kích thước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Khôi phục", "o": "Tình trạng an toàn kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đăng kiểm", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Hình dáng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Khôi phục lại"
+        ],
+        "o_keyphrases": [
+          "Hình thức",
+          "Kiểu dáng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Kích thước",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Khôi phục lại"
+        ],
+        "o_keyphrases": [
+          "Kích cỡ",
+          "Kích thước xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Tình trạng an toàn kỹ thuật",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Khôi phục lại"
+        ],
+        "o_keyphrases": [
+          "Tình trạng kỹ thuật",
+          "Tình trạng an toàn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đăng kiểm",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Kiểm định",
+          "Đăng ký kiểm định"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -147,14 +653,74 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc thực hiện điều chỉnh thùng xe theo đúng quy định hiện hành, đăng kiểm lại và điều chỉnh lại khối lượng hàng hóa cho phép chuyên chở được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều chỉnh", "o": "Thùng xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đăng kiểm", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều chỉnh", "o": "Khối lượng hàng hóa cho phép chuyên chở",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Khối lượng hàng hóa cho phép chuyên chở", "v": "Ghi trong", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều chỉnh",
+        "o": "Thùng xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sửa đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Thùng chứa",
+          "Thùng hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đăng kiểm",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Kiểm định",
+          "Đăng ký kiểm định"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều chỉnh",
+        "o": "Khối lượng hàng hóa cho phép chuyên chở",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sửa đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Khối lượng hàng hóa tối đa",
+          "Khối lượng hàng hóa cho phép"
+        ]
+      },
+      {
+        "s": "Khối lượng hàng hóa cho phép chuyên chở",
+        "v": "Ghi trong",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Khối lượng hàng hóa tối đa",
+          "Khối lượng hàng hóa cho phép"
+        ],
+        "v_keyphrases": [
+          "Ghi chép trong",
+          "Ghi lại trong"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận kiểm định",
+          "Giấy kiểm định"
+        ]
+      }
     ]
   },
   {
@@ -165,12 +731,57 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc làm thủ tục đổi, thu hồi, cấp mới, cấp chứng nhận đăng ký xe, biển số xe, giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Làm thủ tục", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm thủ tục", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm thủ tục", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Làm thủ tục",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện thủ tục",
+          "Tiến hành thủ tục"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đăng ký",
+          "Giấy đăng ký xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm thủ tục",
+        "o": "Biển số xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện thủ tục",
+          "Tiến hành thủ tục"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm thủ tục",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện thủ tục",
+          "Tiến hành thủ tục"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận kiểm định",
+          "Giấy kiểm định"
+        ]
+      }
     ]
   },
   {
@@ -181,10 +792,40 @@
       "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm buộc nộp lại giấy phép, chứng chỉ hành nghề bị tẩy xóa, sửa chữa làm sai lệch nội dung."
     ],
     "triplets": [
-      {"s": "Người", "v": "Nộp", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nộp", "o": "Chứng chỉ hành nghề",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Nộp",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gửi",
+          "Nộp hồ sơ"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lái xe",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nộp",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gửi",
+          "Nộp hồ sơ"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ"
+        ]
+      }
     ]
   }
 ]

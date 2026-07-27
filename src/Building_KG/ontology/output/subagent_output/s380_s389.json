@@ -7,11 +7,41 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô thực hiện hành vi quy định tại điểm a khoản 8 Điều này bị trừ điểm giấy phép lái xe 10 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Vị trí",
+          "Điểm dừng"
+        ]
+      }
     ]
   },
   {
@@ -22,18 +52,92 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe không có còi, đèn soi biển số, đèn báo hãm, gương chiếu hậu bên trái người điều khiển hoặc có nhưng không có tác dụng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Có", "o": "Còi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Đèn soi biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Đèn báo hãm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Gương chiếu hậu",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["gương chiếu hậu bên trái người điều khiển"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Còi",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Âm thanh cảnh báo",
+          "Thiết bị phát tín hiệu"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Đèn soi biển số",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Đèn biển số",
+          "Đèn chiếu sáng biển số"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Đèn báo hãm",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Đèn phanh",
+          "Đèn tín hiệu phanh"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Gương chiếu hậu",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "gương chiếu hậu bên trái người điều khiển",
+          "Gương phản chiếu",
+          "Gương nhìn sau"
+        ]
+      }
     ]
   },
   {
@@ -44,11 +148,40 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe không có đèn tín hiệu hoặc có nhưng không có tác dụng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Có", "o": "Đèn tín hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Đèn tín hiệu",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Đèn báo hiệu",
+          "Đèn tín hiệu giao thông"
+        ]
+      }
     ]
   },
   {
@@ -59,13 +192,57 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe không có đèn chiếu sáng gần, xa hoặc có nhưng không có tác dụng, không đúng tiêu chuẩn thiết kế."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Có", "o": "Đèn chiếu sáng gần",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Đèn chiếu sáng xa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Đèn chiếu sáng gần",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Đèn pha gần",
+          "Đèn chiếu sáng thấp"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Đèn chiếu sáng xa",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Đèn pha xa",
+          "Đèn chiếu sáng cao"
+        ]
+      }
     ]
   },
   {
@@ -76,11 +253,40 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe không có hệ thống hãm hoặc có nhưng không có tác dụng, không bảo đảm tiêu chuẩn kỹ thuật."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Có", "o": "Hệ thống hãm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Hệ thống hãm",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Hệ thống phanh",
+          "Bộ phận phanh"
+        ]
+      }
     ]
   },
   {
@@ -91,12 +297,41 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe lắp đèn chiếu sáng về phía sau xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Lắp", "o": "Đèn chiếu sáng phía sau",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["đèn chiếu sáng về phía sau xe"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Lắp",
+        "o": "Đèn chiếu sáng phía sau",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "đèn chiếu sáng về phía sau xe",
+          "Đèn hậu",
+          "Đèn chiếu sáng sau"
+        ]
+      }
     ]
   },
   {
@@ -107,17 +342,88 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe không có chứng nhận đăng ký xe hoặc sử dụng chứng nhận đăng ký xe đã hết hạn sử dụng, hết hiệu lực."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Có", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký phương tiện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký phương tiện"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Hết",
+        "o": "Hạn sử dụng",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký phương tiện"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Thời hạn sử dụng",
+          "Thời gian hiệu lực"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Hết",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký phương tiện"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Tính hiệu lực",
+          "Thời gian hiệu lực"
+        ]
+      }
     ]
   },
   {
@@ -128,17 +434,88 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy sử dụng chứng nhận đăng ký xe bị tẩy xóa; sử dụng chứng nhận đăng ký xe không đúng số khung, số động cơ hoặc không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dùng",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký phương tiện"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký phương tiện"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã khung",
+          "Số khung xe"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký phương tiện"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã động cơ",
+          "Số máy"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -149,17 +526,91 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe đăng ký tạm thời hoạt động quá phạm vi, tuyến đường, thời hạn cho phép."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Có", "o": "Đăng ký tạm thời",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Vượt quá", "o": "Phạm vi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Vượt quá", "o": "Tuyến đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Vượt quá", "o": "Thời hạn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Đăng ký tạm thời",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký tạm thời",
+          "Đăng ký xe tạm thời"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Vượt quá",
+        "o": "Phạm vi",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt lên"
+        ],
+        "o_keyphrases": [
+          "Khu vực",
+          "Diện tích"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Vượt quá",
+        "o": "Tuyến đường",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt lên"
+        ],
+        "o_keyphrases": [
+          "Lộ trình",
+          "Đường đi"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Vượt quá",
+        "o": "Thời hạn",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt lên"
+        ],
+        "o_keyphrases": [
+          "Thời gian",
+          "Thời điểm kết thúc"
+        ]
+      }
     ]
   },
   {
@@ -170,13 +621,57 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy điều khiển xe không có bộ phận giảm thanh, giảm khói hoặc có nhưng không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Xe máy", "v": "Có", "o": "Bộ phận giảm thanh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Bộ phận giảm khói",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Bộ phận giảm thanh",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Hệ thống giảm âm",
+          "Bộ phận giảm tiếng ồn"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Bộ phận giảm khói",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Phương tiện xe máy"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Hệ thống giảm khói",
+          "Bộ phận xử lý khí thải"
+        ]
+      }
     ]
   }
 ]

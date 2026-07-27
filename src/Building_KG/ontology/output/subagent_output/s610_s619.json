@@ -7,17 +7,93 @@
       "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lắp trên",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình tài xế"
+        ],
+        "v_keyphrases": [
+          "Gắn lên",
+          "Lắp đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình tài xế"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Chức năng",
+          "Hiệu quả"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Bắt đầu từ",
+          "Kể từ"
+        ],
+        "o_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình tài xế"
+        ]
+      }
     ]
   },
   {
@@ -28,13 +104,59 @@
       "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học không có hoặc không đủ người quản lý trên mỗi xe ô tô theo quy định tại khoản 3 Điều 46 của Luật Trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh", "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học"]},
-      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Người quản lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Đủ", "o": "Người quản lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Xe chở trẻ em mầm non, học sinh",
+        "v": "Có",
+        "o": "Người quản lý",
+        "s_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Người điều hành",
+          "Người phụ trách"
+        ]
+      },
+      {
+        "s": "Xe chở trẻ em mầm non, học sinh",
+        "v": "Đủ",
+        "o": "Người quản lý",
+        "s_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ],
+        "v_keyphrases": [
+          "Đầy đủ",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Người điều hành",
+          "Người phụ trách"
+        ]
+      }
     ]
   },
   {
@@ -45,17 +167,94 @@
       "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học không có thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh", "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học"]},
-      {"s": "Thiết bị giám sát hành trình", "v": "Lắp trên", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Lắp trên",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "Gắn lên",
+          "Lắp đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Chức năng",
+          "Hiệu quả"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Bắt đầu từ",
+          "Kể từ"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      }
     ]
   },
   {
@@ -66,13 +265,59 @@
       "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh không có thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh hoặc không có thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe hoặc không có thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh và thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
-      {"s": "Thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh", "v": "Lắp trên", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị cảnh báo chống bỏ quên trẻ em", "v": "Lắp trên", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh",
+        "v": "Lắp trên",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Camera ghi hình trẻ em",
+          "Thiết bị giám sát trẻ em"
+        ],
+        "v_keyphrases": [
+          "Gắn lên",
+          "Lắp đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Thiết bị cảnh báo chống bỏ quên trẻ em",
+        "v": "Lắp trên",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Thiết bị cảnh báo trẻ em",
+          "Thiết bị an toàn cho trẻ em"
+        ],
+        "v_keyphrases": [
+          "Gắn lên",
+          "Lắp đặt trên"
+        ],
+        "o_keyphrases": [
+          "thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      }
     ]
   },
   {
@@ -83,11 +328,41 @@
       "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh không có màu sơn theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
-      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Màu sơn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Xe chở trẻ em mầm non, học sinh",
+        "v": "Có",
+        "o": "Màu sơn",
+        "s_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Màu sắc",
+          "Màu phủ"
+        ]
+      }
     ]
   },
   {
@@ -98,11 +373,41 @@
       "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh không có biển báo dấu hiệu nhận biết là xe chở trẻ em mầm non, học sinh theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
-      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Biển báo dấu hiệu nhận biết",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Xe chở trẻ em mầm non, học sinh",
+        "v": "Có",
+        "o": "Biển báo dấu hiệu nhận biết",
+        "s_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Biển báo giao thông",
+          "Biển báo chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -113,8 +418,23 @@
       "Người điều khiển phương tiện thực hiện hành vi quy định tại khoản 2, khoản 3 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -125,11 +445,42 @@
       "Người điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ thực hiện hành vi chở quá số người quy định được phép chở của phương tiện."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe bốn bánh có gắn động cơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ"]},
-      {"s": "Người", "v": "Chở quá", "o": "Số người quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe bốn bánh có gắn động cơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "Xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở quá",
+        "o": "Số người quy định",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chở quá tải",
+          "Chở quá số người quy định"
+        ],
+        "o_keyphrases": [
+          "Số lượng người cho phép",
+          "Số người tối đa"
+        ]
+      }
     ]
   },
   {
@@ -140,19 +491,110 @@
       "Người điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ kinh doanh vận tải thực hiện hành vi không có hoặc không gắn phù hiệu theo quy định hoặc có nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe bốn bánh có gắn động cơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ kinh doanh vận tải"]},
-      {"s": "Người", "v": "Có", "o": "Phù hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gắn", "o": "Phù hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phù hiệu", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Phù hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Phù hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe bốn bánh có gắn động cơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ kinh doanh vận tải",
+          "Xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Phù hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Biểu hiệu",
+          "Tem"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gắn",
+        "o": "Phù hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lắp đặt",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Biểu hiệu",
+          "Tem"
+        ]
+      },
+      {
+        "s": "Phù hiệu",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Biểu hiệu",
+          "Tem"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Phù hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Biểu hiệu",
+          "Tem"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Phù hiệu",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": [
+          "Biểu hiệu",
+          "Tem"
+        ]
+      }
     ]
   },
   {
@@ -163,17 +605,95 @@
       "Người điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ thực hiện hành vi điều khiển xe hoạt động không đúng tuyến đường, lịch trình, thời gian được phép hoạt động hoặc phạm vi hoạt động theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe bốn bánh có gắn động cơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ"]},
-      {"s": "Xe bốn bánh có gắn động cơ", "v": "Đúng", "o": "Tuyến đường cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tuyến đường"]},
-      {"s": "Xe bốn bánh có gắn động cơ", "v": "Đúng", "o": "Lịch trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe bốn bánh có gắn động cơ", "v": "Đúng", "o": "Thời gian",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe bốn bánh có gắn động cơ", "v": "Đúng", "o": "Phạm vi hoạt động cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phạm vi hoạt động"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe bốn bánh có gắn động cơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "Xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Xe bốn bánh có gắn động cơ",
+        "v": "Đúng",
+        "o": "Tuyến đường cho phép",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "tuyến đường",
+          "Tuyến đường hợp lệ",
+          "Tuyến đường được phép"
+        ]
+      },
+      {
+        "s": "Xe bốn bánh có gắn động cơ",
+        "v": "Đúng",
+        "o": "Lịch trình",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Lịch trình di chuyển",
+          "Lịch trình hoạt động"
+        ]
+      },
+      {
+        "s": "Xe bốn bánh có gắn động cơ",
+        "v": "Đúng",
+        "o": "Thời gian",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Thời điểm",
+          "Khoảng thời gian"
+        ]
+      },
+      {
+        "s": "Xe bốn bánh có gắn động cơ",
+        "v": "Đúng",
+        "o": "Phạm vi hoạt động cho phép",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "phạm vi hoạt động",
+          "Khu vực hoạt động",
+          "Khu vực cho phép"
+        ]
+      }
     ]
   }
 ]

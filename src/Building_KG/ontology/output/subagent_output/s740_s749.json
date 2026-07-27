@@ -7,14 +7,74 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ trong trường hợp là người trực tiếp điều khiển phương tiện bị trừ điểm giấy phép lái xe 04 điểm."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Làm trái"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Luật lệ"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Luật lệ"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Liên hệ"
+        ],
+        "o_keyphrases": [
+          "Giao thông trên đường",
+          "Giao thông bộ"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Ngoại trừ",
+          "Trừ ra"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -25,11 +85,42 @@
       "Chủ phương tiện là người trực tiếp điều khiển phương tiện chở vượt trên 50% đến 100% số người quy định được phép chở của phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Chở quá", "o": "Số người quy định",
-       "s_keyphrases": [], "v_keyphrases": ["chở vượt"],
-       "o_keyphrases": ["số người quy định được phép chở của phương tiện"]}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Chở quá",
+        "o": "Số người quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "chở vượt",
+          "Chở quá số người quy định",
+          "Chở quá tải"
+        ],
+        "o_keyphrases": [
+          "số người quy định được phép chở của phương tiện",
+          "Số người tối đa",
+          "Số người cho phép"
+        ]
+      }
     ]
   },
   {
@@ -40,10 +131,41 @@
       "Chủ phương tiện là người trực tiếp điều khiển phương tiện thực hiện hành vi quy định tại điểm h khoản 8, điểm b khoản 12."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "hành vi",
+          "Hành vi trái phép",
+          "Hành vi sai trái"
+        ]
+      }
     ]
   },
   {
@@ -54,10 +176,41 @@
       "Chủ phương tiện là người trực tiếp điều khiển phương tiện thực hiện hành vi quy định tại khoản 15."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "hành vi",
+          "Hành vi trái phép",
+          "Hành vi sai trái"
+        ]
+      }
     ]
   },
   {
@@ -68,10 +221,41 @@
       "Chủ phương tiện là người trực tiếp điều khiển phương tiện thực hiện hành vi quy định tại điểm d khoản 13, điểm b khoản 16."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "hành vi",
+          "Hành vi trái phép",
+          "Hành vi sai trái"
+        ]
+      }
     ]
   },
   {
@@ -82,11 +266,42 @@
       "Chủ phương tiện là người trực tiếp điều khiển phương tiện chở vượt trên 100% số người quy định được phép chở của phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Chở quá", "o": "Số người quy định",
-       "s_keyphrases": [], "v_keyphrases": ["chở vượt"],
-       "o_keyphrases": ["số người quy định được phép chở của phương tiện"]}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Chở quá",
+        "o": "Số người quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "chở vượt",
+          "Chở quá số người quy định",
+          "Chở quá tải"
+        ],
+        "o_keyphrases": [
+          "số người quy định được phép chở của phương tiện",
+          "Số người tối đa",
+          "Số người cho phép"
+        ]
+      }
     ]
   },
   {
@@ -97,16 +312,91 @@
       "Hành khách đi xe không chấp hành hướng dẫn của lái xe, nhân viên phục vụ trên xe về các quy định bảo đảm trật tự, an toàn giao thông."
     ],
     "triplets": [
-      {"s": "Hành khách", "v": "Tại", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Chấp hành", "o": "Hướng dẫn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Nhân viên phục vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Về", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hành khách",
+        "v": "Tại",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Chấp hành",
+        "o": "Hướng dẫn",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Hướng dẫn sử dụng",
+          "Chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Người điều khiển"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Nhân viên phục vụ",
+        "s_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Nhân viên hỗ trợ",
+          "Nhân viên phục vụ hành khách"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Về",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Về vấn đề"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      }
     ]
   },
   {
@@ -117,10 +407,40 @@
       "Hành khách đi xe gây mất trật tự trên xe."
     ],
     "triplets": [
-      {"s": "Hành khách", "v": "Tại", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Gây", "o": "Mất trật tự",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hành khách",
+        "v": "Tại",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Gây",
+        "o": "Mất trật tự",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Rối loạn",
+          "Mất an ninh"
+        ]
+      }
     ]
   },
   {
@@ -131,16 +451,92 @@
       "Hành khách đi xe mang hóa chất độc hại, chất dễ cháy, nổ, hàng nguy hiểm hoặc hàng cấm lưu thông trên xe chở khách."
     ],
     "triplets": [
-      {"s": "Hành khách", "v": "Tại", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe chở khách"]},
-      {"s": "Hành khách", "v": "Mang", "o": "Hóa chất độc hại",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Mang", "o": "Chất dễ cháy, nổ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Mang", "o": "Hàng nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Mang", "o": "Hàng cấm lưu thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hành khách",
+        "v": "Tại",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "xe chở khách",
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Mang",
+        "o": "Hóa chất độc hại",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chở"
+        ],
+        "o_keyphrases": [
+          "Chất độc hại",
+          "Hóa chất nguy hiểm"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Mang",
+        "o": "Chất dễ cháy, nổ",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chở"
+        ],
+        "o_keyphrases": [
+          "Chất nổ",
+          "Chất dễ cháy"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Mang",
+        "o": "Hàng nguy hiểm",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa nguy hiểm",
+          "Hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Mang",
+        "o": "Hàng cấm lưu thông",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chở"
+        ],
+        "o_keyphrases": [
+          "Hàng cấm",
+          "Hàng không được phép"
+        ]
+      }
     ]
   },
   {
@@ -151,32 +547,227 @@
       "Hành khách đi xe đu, bám vào thành xe; đứng, ngồi, nằm trên mui xe, nóc xe, trong khoang chở hành lý; tự ý mở cửa xe hoặc có hành vi khác không bảo đảm an toàn khi xe đang chạy."
     ],
     "triplets": [
-      {"s": "Hành khách", "v": "Tại", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Đu bám", "o": "Thành xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Đứng", "o": "Mui xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Đứng", "o": "Nóc xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Đứng", "o": "Khoang chở hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Ngồi", "o": "Mui xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Ngồi", "o": "Nóc xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Ngồi", "o": "Khoang chở hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Nằm", "o": "Mui xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Nằm", "o": "Nóc xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Nằm", "o": "Khoang chở hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Mở", "o": "Cửa xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành khách", "v": "Thực hiện", "o": "Hành vi không bảo đảm an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hành khách",
+        "v": "Tại",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Đu bám",
+        "o": "Thành xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Bám vào",
+          "Bám theo"
+        ],
+        "o_keyphrases": [
+          "Thân xe",
+          "Phần thân"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Đứng",
+        "o": "Mui xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Đứng yên",
+          "Đứng lại"
+        ],
+        "o_keyphrases": [
+          "Mái xe",
+          "Phần mui"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Đứng",
+        "o": "Nóc xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Đứng yên",
+          "Đứng lại"
+        ],
+        "o_keyphrases": [
+          "Mái xe",
+          "Phần nóc"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Đứng",
+        "o": "Khoang chở hành lý",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Đứng yên",
+          "Đứng lại"
+        ],
+        "o_keyphrases": [
+          "Khoang chứa hành lý",
+          "Khu vực hành lý"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Ngồi",
+        "o": "Mui xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Ngồi xuống",
+          "Ngồi lại"
+        ],
+        "o_keyphrases": [
+          "Mái xe",
+          "Phần mui"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Ngồi",
+        "o": "Nóc xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Ngồi xuống",
+          "Ngồi lại"
+        ],
+        "o_keyphrases": [
+          "Mái xe",
+          "Phần nóc"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Ngồi",
+        "o": "Khoang chở hành lý",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Ngồi xuống",
+          "Ngồi lại"
+        ],
+        "o_keyphrases": [
+          "Khoang chứa hành lý",
+          "Khu vực hành lý"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Nằm",
+        "o": "Mui xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Nằm xuống",
+          "Nằm nghỉ"
+        ],
+        "o_keyphrases": [
+          "Mái xe",
+          "Phần mui"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Nằm",
+        "o": "Nóc xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Nằm xuống",
+          "Nằm nghỉ"
+        ],
+        "o_keyphrases": [
+          "Mái xe",
+          "Phần nóc"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Nằm",
+        "o": "Khoang chở hành lý",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Nằm xuống",
+          "Nằm nghỉ"
+        ],
+        "o_keyphrases": [
+          "Khoang chứa hành lý",
+          "Khu vực hành lý"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Mở",
+        "o": "Cửa xe",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Mở cửa",
+          "Mở ra"
+        ],
+        "o_keyphrases": [
+          "Cửa phương tiện",
+          "Cửa ô tô"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Thực hiện",
+        "o": "Hành vi không bảo đảm an toàn",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Khách đi"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành vi nguy hiểm",
+          "Hành vi không an toàn"
+        ]
+      }
     ]
   }
 ]

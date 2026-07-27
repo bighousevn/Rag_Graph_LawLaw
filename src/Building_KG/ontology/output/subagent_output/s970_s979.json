@@ -7,14 +7,76 @@
       "Các hành vi vi phạm quy định về niên hạn sử dụng của phương tiện và các hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Niên hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Niên hạn sử dụng", "v": "Dành cho", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Vi phạm",
+        "o": "Niên hạn sử dụng",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Thời gian sử dụng",
+          "Thời gian hiệu lực"
+        ]
+      },
+      {
+        "s": "Niên hạn sử dụng",
+        "v": "Dành cho",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Thời gian sử dụng",
+          "Thời gian hiệu lực"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ]
+      }
     ]
   },
   {
@@ -25,20 +87,127 @@
       "Các hành vi vi phạm quy định về kích thước thùng xe, khoang chở hành lý (hầm xe), lắp thêm hoặc tháo bớt ghế, giường nằm trên xe ô tô và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Kích thước thùng xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Khoang chở hành lý",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hầm xe"]},
-      {"s": "Chủ phương tiện", "v": "Lắp thêm", "o": "Ghế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Lắp thêm", "o": "Giường nằm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Tháo bớt", "o": "Ghế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Tháo bớt", "o": "Giường nằm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Kích thước thùng xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Kích thước thùng",
+          "Kích thước xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Khoang chở hành lý",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "hầm xe",
+          "Khoang chứa hành lý",
+          "Khu vực hành lý"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Lắp thêm",
+        "o": "Ghế",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gắn thêm",
+          "Cài đặt thêm"
+        ],
+        "o_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế ngồi"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Lắp thêm",
+        "o": "Giường nằm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gắn thêm",
+          "Cài đặt thêm"
+        ],
+        "o_keyphrases": [
+          "Giường xe",
+          "Giường ngủ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tháo bớt",
+        "o": "Ghế",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gỡ bớt",
+          "Lấy ra"
+        ],
+        "o_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế ngồi"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tháo bớt",
+        "o": "Giường nằm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gỡ bớt",
+          "Lấy ra"
+        ],
+        "o_keyphrases": [
+          "Giường xe",
+          "Giường ngủ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -49,18 +218,109 @@
       "Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô và các hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Lắp", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Sử dụng", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Sử dụng", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Lắp",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị giám sát xe"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Lắp",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình tài xế"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị giám sát xe"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình tài xế"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ]
+      }
     ]
   },
   {
@@ -71,16 +331,92 @@
       "Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Lắp", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Sử dụng", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Sử dụng", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Lắp",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị giám sát xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Lắp",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình tài xế"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Sử dụng",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị giám sát xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Sử dụng",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Camera ghi hình lái xe",
+          "Thiết bị ghi hình tài xế"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -91,18 +427,109 @@
       "Các hành vi vi phạm quy định về dây đai an toàn, hướng dẫn cho hành khách về an toàn giao thông, thoát hiểm khi xảy ra sự cố trên xe và các hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Dây đai an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Hướng dẫn", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Hướng dẫn", "o": "An toàn giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Hướng dẫn", "o": "Thoát hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Vi phạm",
+        "o": "Dây đai an toàn",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo vệ"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Hướng dẫn",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách đi"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Hướng dẫn",
+        "o": "An toàn giao thông",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "o_keyphrases": [
+          "An toàn đường bộ",
+          "An toàn khi tham gia giao thông"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Hướng dẫn",
+        "o": "Thoát hiểm",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "o_keyphrases": [
+          "Lối thoát",
+          "Cửa thoát hiểm"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ]
+      }
     ]
   },
   {
@@ -113,18 +540,109 @@
       "Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng và các hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Đón", "o": "Khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Trả", "o": "Khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Nhận", "o": "Hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Trả", "o": "Hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Đón",
+        "o": "Khách",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Đón khách",
+          "Đón người"
+        ],
+        "o_keyphrases": [
+          "Người",
+          "Hành khách"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Trả",
+        "o": "Khách",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Hoàn trả",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Người",
+          "Hành khách"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Nhận",
+        "o": "Hàng",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Tiếp nhận",
+          "Nhận hàng"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa",
+          "Vật phẩm"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Trả",
+        "o": "Hàng",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Hoàn trả",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa",
+          "Vật phẩm"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ]
+      }
     ]
   },
   {
@@ -135,11 +653,42 @@
       "Các hành vi vi phạm quy định về dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ giao thông đường bộ và hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Dụng cụ, thiết bị cứu hộ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ giao thông đường bộ"]},
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Dụng cụ, thiết bị cứu hộ",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ giao thông đường bộ",
+          "Thiết bị cứu hộ",
+          "Dụng cụ cứu nạn"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -150,15 +699,76 @@
       "Các hành vi vi phạm quy định về thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh và thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe và hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Thiết bị cảnh báo chống bỏ quên trẻ em",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em"]},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Vi phạm",
+        "o": "Thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Camera ghi hình trẻ em",
+          "Thiết bị ghi hình học sinh"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Vi phạm",
+        "o": "Thiết bị cảnh báo chống bỏ quên trẻ em",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em",
+          "Thiết bị cảnh báo trẻ em",
+          "Thiết bị an toàn trẻ em"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ]
+      }
     ]
   },
   {
@@ -169,18 +779,111 @@
       "Các hành vi vi phạm quy định về màu sơn, biển báo dấu hiệu nhận biết của xe chở trẻ em mầm non, học sinh và hành vi vi phạm tương ứng quy định tại Điều 26, trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Màu sơn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Màu sơn", "v": "Dành cho", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Vi phạm", "o": "Biển báo dấu hiệu nhận biết",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo dấu hiệu nhận biết", "v": "Dành cho", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Cá nhân kinh doanh vận tải", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Vi phạm",
+        "o": "Màu sơn",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Màu xe",
+          "Màu phủ"
+        ]
+      },
+      {
+        "s": "Màu sơn",
+        "v": "Dành cho",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Màu xe",
+          "Màu phủ"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe đưa đón trẻ em",
+          "Xe chở học sinh"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Vi phạm",
+        "o": "Biển báo dấu hiệu nhận biết",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Biển báo giao thông",
+          "Biển báo chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Biển báo dấu hiệu nhận biết",
+        "v": "Dành cho",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Biển báo chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe đưa đón trẻ em",
+          "Xe chở học sinh"
+        ]
+      },
+      {
+        "s": "Cá nhân kinh doanh vận tải",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người kinh doanh vận tải",
+          "Doanh nghiệp vận tải cá nhân"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ]
+      }
     ]
   },
   {
@@ -191,14 +894,75 @@
       "Các hành vi vi phạm quy định về chở hàng siêu trường, siêu trọng, chở quá khổ, quá tải, quá số người và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Chở", "o": "Hàng siêu trường, siêu trọng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Xe quá khổ, quá tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Chở quá", "o": "Số người quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Chở",
+        "o": "Hàng siêu trường, siêu trọng",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng quá khổ",
+          "Hàng quá tải"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Xe quá khổ, quá tải",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe quá tải trọng",
+          "Xe quá kích thước"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Chở quá",
+        "o": "Số người quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển quá tải",
+          "Chuyên chở quá mức"
+        ],
+        "o_keyphrases": [
+          "Số lượng người cho phép",
+          "Số người tối đa"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      }
     ]
   }
 ]

@@ -7,18 +7,96 @@
       "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người quy định tại khoản 1 Điều này có quyền phạt tiền đến 1.500.000 đồng."
     ],
     "triplets": [
-      {"s": "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đội trưởng", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đội trưởng", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      },
+      {
+        "s": "Trưởng trạm",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng trạm",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      },
+      {
+        "s": "Đội trưởng",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Trưởng đội",
+          "Lãnh đạo đội"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Đội trưởng",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Trưởng đội",
+          "Lãnh đạo đội"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      }
     ]
   },
   {
@@ -29,22 +107,122 @@
       "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp xã", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng Công an cấp xã", "v": "Áp dụng", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Áp dụng", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Áp dụng", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động", "v": "Áp dụng", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Áp dụng",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Giám đốc Công an xã"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Áp dụng",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Áp dụng",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động",
+        "v": "Áp dụng",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -55,22 +233,122 @@
       "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền phạt tiền đến 2.500.000 đồng."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp xã", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng Công an cấp xã", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Giám đốc Công an xã"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      },
+      {
+        "s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      }
     ]
   },
   {
@@ -81,22 +359,132 @@
       "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp xã", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Tài sản vi phạm",
+          "Vật chứng vi phạm"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Tài sản vi phạm",
+          "Vật chứng vi phạm"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      }
     ]
   },
   {
@@ -107,22 +495,122 @@
       "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền áp dụng biện pháp khắc phục hậu quả."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp xã", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng Công an cấp xã", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Giám đốc Công an xã"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Giải pháp khắc phục",
+          "Hành động khắc phục"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Giải pháp khắc phục",
+          "Hành động khắc phục"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Giải pháp khắc phục",
+          "Hành động khắc phục"
+        ]
+      },
+      {
+        "s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Giải pháp khắc phục",
+          "Hành động khắc phục"
+        ]
+      }
     ]
   },
   {
@@ -133,22 +621,126 @@
       "Trưởng Công an cấp huyện, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Công an cấp tỉnh có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp huyện", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng Công an cấp huyện", "v": "Áp dụng", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông", "v": "Áp dụng", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Áp dụng", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng Công an cấp tỉnh", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng Công an cấp tỉnh", "v": "Áp dụng", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp huyện",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an huyện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng Công an cấp huyện",
+        "v": "Áp dụng",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Giám đốc Công an huyện"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "v": "Áp dụng",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Áp dụng",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Trưởng phòng Công an cấp tỉnh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng Công an cấp tỉnh",
+        "v": "Áp dụng",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -159,22 +751,126 @@
       "Trưởng Công an cấp huyện, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Công an cấp tỉnh có quyền phạt tiền đến 15.000.000 đồng."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp huyện", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng Công an cấp huyện", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng Công an cấp tỉnh", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng Công an cấp tỉnh", "v": "Áp dụng", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp huyện",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an huyện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng Công an cấp huyện",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Giám đốc Công an huyện"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      },
+      {
+        "s": "Trưởng phòng Công an cấp tỉnh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng Công an cấp tỉnh",
+        "v": "Áp dụng",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đền bù tiền"
+        ]
+      }
     ]
   },
   {
@@ -185,22 +881,134 @@
       "Trưởng Công an cấp huyện, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Công an cấp tỉnh có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp huyện", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng Công an cấp tỉnh", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Đình chỉ", "o": "Hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Đình chỉ", "o": "Hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp huyện",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an huyện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng Công an cấp tỉnh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Chức năng"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Chức năng"
+        ]
+      }
     ]
   },
   {
@@ -211,22 +1019,134 @@
       "Trưởng Công an cấp huyện, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Công an cấp tỉnh có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp huyện", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng Công an cấp tỉnh", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp huyện",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an huyện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng Công an cấp tỉnh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Tài sản vi phạm",
+          "Vật chứng vi phạm"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Tài sản vi phạm",
+          "Vật chứng vi phạm"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      }
     ]
   },
   {
@@ -237,22 +1157,126 @@
       "Trưởng Công an cấp huyện, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Công an cấp tỉnh có quyền áp dụng biện pháp khắc phục hậu quả."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp huyện", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng Công an cấp huyện", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng Công an cấp tỉnh", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng phòng Công an cấp tỉnh", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp huyện",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an huyện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng Công an cấp huyện",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Giám đốc Công an huyện"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Giải pháp khắc phục",
+          "Hành động khắc phục"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Giải pháp khắc phục",
+          "Hành động khắc phục"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Giải pháp khắc phục",
+          "Hành động khắc phục"
+        ]
+      },
+      {
+        "s": "Trưởng phòng Công an cấp tỉnh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng phòng Công an cấp tỉnh",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Giải pháp khắc phục",
+          "Hành động khắc phục"
+        ]
+      }
     ]
   }
 ]

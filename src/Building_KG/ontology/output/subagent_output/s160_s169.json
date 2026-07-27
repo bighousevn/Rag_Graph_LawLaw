@@ -7,11 +7,44 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy chở theo 02 người trên xe, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật, áp giải người có hành vi vi phạm pháp luật."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người", "v": "Chở", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Người",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
+      }
     ]
   },
   {
@@ -22,13 +55,61 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách khi tham gia giao thông trên đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Đội", "o": "Mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Cài", "o": "Quai mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quai"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đội",
+        "o": "Mũ bảo hiểm",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đội mũ",
+          "Đội nón"
+        ],
+        "o_keyphrases": [
+          "Mũ bảo hộ",
+          "Mũ bảo vệ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Cài",
+        "o": "Quai mũ bảo hiểm",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Lắp"
+        ],
+        "o_keyphrases": [
+          "quai",
+          "Dây mũ bảo hiểm",
+          "Quai mũ"
+        ]
+      }
     ]
   },
   {
@@ -39,15 +120,78 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chở người ngồi trên xe không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Chở", "o": "Người ngồi trên xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Đội", "o": "Mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Cài", "o": "Quai mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quai"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Người ngồi trên xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Đội",
+        "o": "Mũ bảo hiểm",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Đội mũ",
+          "Đội nón"
+        ],
+        "o_keyphrases": [
+          "Mũ bảo hộ",
+          "Mũ bảo vệ"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Cài",
+        "o": "Quai mũ bảo hiểm",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Lắp"
+        ],
+        "o_keyphrases": [
+          "quai",
+          "Dây mũ bảo hiểm",
+          "Quai mũ"
+        ]
+      }
     ]
   },
   {
@@ -58,11 +202,43 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô quay đầu xe tại nơi không được quay đầu xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Quay đầu", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quay đầu",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quay lại",
+          "Quay ngược"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      }
     ]
   },
   {
@@ -73,31 +249,207 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chuyển hướng không quan sát hoặc không bảo đảm khoảng cách an toàn với xe phía sau hoặc không giảm tốc độ hoặc không có tín hiệu báo hướng rẽ hoặc có tín hiệu báo hướng rẽ nhưng không sử dụng liên tục trong quá trình chuyển hướng, điều khiển xe rẽ trái tại nơi có biển báo hiệu cấm rẽ trái đối với loại phương tiện đang điều khiển, điều khiển xe rẽ phải tại nơi có biển báo hiệu cấm rẽ phải đối với loại phương tiện đang điều khiển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Chuyển hướng", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Bảo đảm", "o": "Khoảng cách an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Giảm", "o": "Tốc độ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Tín hiệu báo hướng rẽ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Tín hiệu báo hướng rẽ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Rẽ trái", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Rẽ trái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Rẽ phải", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Rẽ phải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển hướng",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quay hướng",
+          "Đổi hướng"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Theo dõi",
+          "Nhìn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bảo đảm",
+        "o": "Khoảng cách an toàn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Khoảng cách bảo đảm",
+          "Khoảng cách an toàn giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Giảm",
+        "o": "Tốc độ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Giảm tốc",
+          "Hạ"
+        ],
+        "o_keyphrases": [
+          "Vận tốc",
+          "Tốc độ di chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Tín hiệu báo hướng rẽ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tín hiệu rẽ",
+          "Tín hiệu chỉ hướng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Tín hiệu báo hướng rẽ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Tín hiệu rẽ",
+          "Tín hiệu chỉ hướng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Rẽ trái",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quẹo trái",
+          "Chuyển trái"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Rẽ trái",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ],
+        "v_keyphrases": [
+          "Ngăn",
+          "Cấm đoán"
+        ],
+        "o_keyphrases": [
+          "Quẹo trái",
+          "Chuyển trái"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Rẽ phải",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quẹo phải",
+          "Chuyển phải"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Rẽ phải",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ],
+        "v_keyphrases": [
+          "Ngăn",
+          "Cấm đoán"
+        ],
+        "o_keyphrases": [
+          "Quẹo phải",
+          "Chuyển phải"
+        ]
+      }
     ]
   },
   {
@@ -108,11 +460,43 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô chở theo từ 03 người trở lên trên xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Chở", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Người",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
+      }
     ]
   },
   {
@@ -123,15 +507,74 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô dừng xe, đỗ xe trên cầu."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Dừng", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Cầu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Cầu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Cây cầu",
+          "Cầu đường"
+        ]
+      }
     ]
   },
   {
@@ -142,17 +585,94 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không đi bên phải theo chiều đi của mình; đi không đúng phần đường, làn đường quy định; điều khiển xe đi qua dải phân cách cố định ở giữa hai phần đường xe chạy."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Đi", "o": "Bên phải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi", "o": "Phần đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi", "o": "Làn đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi qua", "o": "Dải phân cách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi",
+        "o": "Bên phải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Di chuyển",
+          "Đi lại"
+        ],
+        "o_keyphrases": [
+          "Phía bên phải",
+          "Bên tay phải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Di chuyển",
+          "Đi lại"
+        ],
+        "o_keyphrases": [
+          "Đoạn đường",
+          "Khu vực đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi",
+        "o": "Làn đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Di chuyển",
+          "Đi lại"
+        ],
+        "o_keyphrases": [
+          "Làn xe",
+          "Làn giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi qua",
+        "o": "Dải phân cách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đi qua lại",
+          "Đi ngang qua"
+        ],
+        "o_keyphrases": [
+          "Dải phân cách đường",
+          "Vạch phân cách"
+        ]
+      }
     ]
   },
   {
@@ -163,11 +683,43 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô vượt bên phải trong trường hợp không được phép."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Vượt", "o": "Bên phải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vượt",
+        "o": "Bên phải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vượt qua",
+          "Vượt lên"
+        ],
+        "o_keyphrases": [
+          "Phía bên phải",
+          "Bên tay phải"
+        ]
+      }
     ]
   },
   {
@@ -178,51 +730,359 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô hoặc chở người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang vác vật cồng kềnh; chở người đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Bám", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Bám", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Kéo", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Kéo", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đẩy", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đẩy", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang vác", "o": "Vật cồng kềnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Bám", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Bám", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Kéo", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Kéo", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Đẩy", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Đẩy", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Dẫn dắt", "o": "Vật nuôi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Mang vác", "o": "Vật cồng kềnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Người ngồi trên xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Đứng", "o": "Yên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Đứng", "o": "Giá đèo hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người ngồi trên xe", "v": "Ngồi", "o": "Tay lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tay lái", "v": "Thuộc", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bám",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Bám theo",
+          "Bám sát"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe cộ khác"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bám",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Bám theo",
+          "Bám sát"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Kéo",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Kéo dài",
+          "Kéo theo"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe cộ khác"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Kéo dài",
+          "Kéo theo"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đẩy",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thúc",
+          "Đẩy mạnh"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe cộ khác"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đẩy",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thúc",
+          "Đẩy mạnh"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Dẫn đường"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang vác",
+        "o": "Vật cồng kềnh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vác",
+          "Mang"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa cồng kềnh",
+          "Vật lớn"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Bám",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Bám theo",
+          "Bám sát"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe cộ khác"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Bám",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Bám theo",
+          "Bám sát"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Kéo",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Kéo dài",
+          "Kéo theo"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe cộ khác"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Kéo",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Kéo dài",
+          "Kéo theo"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Đẩy",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Thúc",
+          "Đẩy mạnh"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe cộ khác"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Đẩy",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Thúc",
+          "Đẩy mạnh"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Dẫn đường"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Mang vác",
+        "o": "Vật cồng kềnh",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Vác",
+          "Mang"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa cồng kềnh",
+          "Vật lớn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Người ngồi trên xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Đứng",
+        "o": "Yên",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Đứng yên"
+        ],
+        "o_keyphrases": [
+          "Yên xe",
+          "Yên ngồi"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Đứng",
+        "o": "Giá đèo hàng",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Đứng yên"
+        ],
+        "o_keyphrases": [
+          "Giá chở hàng",
+          "Giá hàng"
+        ]
+      },
+      {
+        "s": "Người ngồi trên xe",
+        "v": "Ngồi",
+        "o": "Tay lái",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người đi xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Người lái",
+          "Lái xe"
+        ]
+      },
+      {
+        "s": "Tay lái",
+        "v": "Thuộc",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người lái",
+          "Lái xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      }
     ]
   }
 ]

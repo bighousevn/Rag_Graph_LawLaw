@@ -7,16 +7,88 @@
       "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng không thực hiện đúng quy định trong giấy phép lưu hành."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trọng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Trong", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trường",
+          "Hàng lớn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trọng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trọng",
+          "Hàng nặng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Triển khai",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Trong",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -27,22 +99,132 @@
       "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng chở hàng siêu trường, siêu trọng có giấy phép lưu hành còn giá trị sử dụng nhưng kích thước bao ngoài của xe vượt quá quy định trong giấy phép lưu hành."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trường",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trọng",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lưu hành", "v": "Còn", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Kích thước",
-       "s_keyphrases": ["xe"], "v_keyphrases": [], "o_keyphrases": ["kích thước bao ngoài"]},
-      {"s": "Kích thước", "v": "Vượt quá", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Trong", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trường",
+          "Hàng lớn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trọng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trọng",
+          "Hàng nặng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép lưu hành",
+        "v": "Còn",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Kích thước",
+        "s_keyphrases": [
+          "xe",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "kích thước bao ngoài",
+          "Kích thước hàng hóa",
+          "Kích thước phương tiện"
+        ]
+      },
+      {
+        "s": "Kích thước",
+        "v": "Vượt quá",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Kích thước phương tiện",
+          "Kích thước hàng hóa"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Trong",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -53,20 +235,119 @@
       "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng chở hàng siêu trường, siêu trọng không có giấy phép lưu hành hoặc có giấy phép lưu hành nhưng đã hết giá trị sử dụng hoặc sử dụng giấy phép lưu hành không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trường",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trọng",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lưu hành", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trường",
+          "Hàng lớn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trọng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trọng",
+          "Hàng nặng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép lưu hành",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -77,22 +358,131 @@
       "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng chở hàng siêu trường, siêu trọng có giấy phép lưu hành còn giá trị sử dụng nhưng tổng trọng lượng vượt quá quy định trong giấy phép lưu hành."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trường",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trọng",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lưu hành", "v": "Còn", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Trọng lượng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tổng trọng lượng"]},
-      {"s": "Trọng lượng", "v": "Vượt quá", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Trong", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trường",
+          "Hàng lớn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trọng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trọng",
+          "Hàng nặng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép lưu hành",
+        "v": "Còn",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Trọng lượng",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "tổng trọng lượng",
+          "Khối lượng",
+          "Cân nặng"
+        ]
+      },
+      {
+        "s": "Trọng lượng",
+        "v": "Vượt quá",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Khối lượng",
+          "Cân nặng"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt giới hạn"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Trong",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -103,22 +493,133 @@
       "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng chở hàng siêu trường, siêu trọng có giấy phép lưu hành còn giá trị sử dụng nhưng đi không đúng tuyến đường quy định trong giấy phép lưu hành."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trường",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trọng",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lưu hành", "v": "Còn", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi", "o": "Tuyến đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tuyến đường", "v": "Đúng", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Trong", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trường",
+          "Hàng lớn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trọng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trọng",
+          "Hàng nặng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép lưu hành",
+        "v": "Còn",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi",
+        "o": "Tuyến đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Di chuyển",
+          "Lưu thông"
+        ],
+        "o_keyphrases": [
+          "Lộ trình",
+          "Đường đi"
+        ]
+      },
+      {
+        "s": "Tuyến đường",
+        "v": "Đúng",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Lộ trình",
+          "Đường đi"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Trong",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -129,22 +630,133 @@
       "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng chở hàng siêu trường, siêu trọng có giấy phép lưu hành còn giá trị sử dụng nhưng chở không đúng loại hàng quy định trong giấy phép lưu hành."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trường",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng siêu trọng",
-       "s_keyphrases": [], "v_keyphrases": ["chở"], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lưu hành", "v": "Còn", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Loại hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Loại hàng", "v": "Đúng", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Trong", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trường",
+          "Hàng lớn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng siêu trọng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa siêu trọng",
+          "Hàng nặng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép lưu hành",
+        "v": "Còn",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Loại hàng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Chủng loại hàng",
+          "Danh mục hàng hóa"
+        ]
+      },
+      {
+        "s": "Loại hàng",
+        "v": "Đúng",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Danh mục hàng hóa",
+          "Chủng loại hàng"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Trong",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -155,10 +767,40 @@
       "Người thực hiện hành vi vi phạm quy định tại khoản 1, khoản 2, khoản 3 Điều này nếu gây hư hại cầu, đường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Gây hư hại", "o": "Cầu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gây hư hại", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Gây hư hại",
+        "o": "Cầu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Làm hư hại",
+          "Gây thiệt hại"
+        ],
+        "o_keyphrases": [
+          "Cây cầu",
+          "Cầu đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gây hư hại",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Làm hư hại",
+          "Gây thiệt hại"
+        ],
+        "o_keyphrases": [
+          "Con đường",
+          "Đường giao thông"
+        ]
+      }
     ]
   },
   {
@@ -169,12 +811,54 @@
       "Người thực hiện hành vi vi phạm quy định tại điểm a khoản 3 Điều này bị thu hồi giấy phép lưu hành hết giá trị sử dụng hoặc giấy phép lưu hành không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Thu hồi", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lưu hành", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy phép lưu hành",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Thu hồi",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép lưu hành",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Giấy phép lưu hành",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lưu thông",
+          "Giấy phép hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -185,10 +869,37 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 1 Điều này bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trừ", "o": "Điểm giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trừ",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Điểm cấp giấy phép lái xe",
+          "Điểm thi giấy phép lái xe"
+        ]
+      }
     ]
   },
   {
@@ -199,10 +910,37 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2, khoản 3 Điều này bị trừ điểm giấy phép lái xe 04 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trừ", "o": "Điểm giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trừ",
+        "o": "Điểm giấy phép lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Điểm cấp giấy phép lái xe",
+          "Điểm thi giấy phép lái xe"
+        ]
+      }
     ]
   }
 ]

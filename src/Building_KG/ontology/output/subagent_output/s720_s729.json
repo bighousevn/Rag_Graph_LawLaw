@@ -7,16 +7,81 @@
       "Chủ phương tiện là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện hành vi tái phạm hành vi quy định tại điểm b khoản 16 Điều này."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ phương tiện", "v": "Tái phạm", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Là chủ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Là người sở hữu"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Là chủ",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Là người sở hữu"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc biệt",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Là người sở hữu"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe máy hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tái phạm",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Vi phạm lại",
+          "Lặp lại vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi",
+          "Hành động vi phạm",
+          "Vi phạm luật"
+        ]
+      }
     ]
   },
   {
@@ -27,14 +92,74 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ bị tịch thu biển số và thiết bị thay đổi biển số."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Tịch thu", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Tịch thu", "o": "Thiết bị thay đổi biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tịch thu",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tịch thu",
+        "o": "Thiết bị thay đổi biển số",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "Thiết bị điều chỉnh biển số",
+          "Dụng cụ thay biển số"
+        ]
+      }
     ]
   },
   {
@@ -45,20 +170,125 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ bị tịch thu phương tiện trong trường hợp không có chứng nhận đăng ký xe hoặc có chứng nhận nhưng không do cơ quan có thẩm quyền cấp, không đúng số khung, số động cơ hoặc bị tẩy xóa."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Tịch thu", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Có", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tịch thu",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Cấp",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát hành"
+        ],
+        "o_keyphrases": [
+          "Cơ quan chức năng",
+          "Cơ quan quản lý"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Số khung xe",
+          "Mã số khung"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Mã số động cơ",
+          "Số hiệu động cơ"
+        ]
+      }
     ]
   },
   {
@@ -69,22 +299,142 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ mà phương tiện có thùng xe, khối lượng hàng hóa cho phép chuyên chở không đúng theo quy định hiện hành bị tước quyền sử dụng giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường và tem kiểm định từ 01 tháng đến 03 tháng."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Có", "o": "Thùng xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thùng xe", "v": "Đúng", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Có", "o": "Khối lượng hàng hóa cho phép chuyên chở",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Khối lượng hàng hóa cho phép chuyên chở", "v": "Đúng", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tem kiểm định", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Có",
+        "o": "Thùng xe",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Thùng chứa",
+          "Thùng hàng"
+        ]
+      },
+      {
+        "s": "Thùng xe",
+        "v": "Đúng",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Thùng chứa",
+          "Thùng hàng"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Có",
+        "o": "Khối lượng hàng hóa cho phép chuyên chở",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Khối lượng hàng hóa tối đa",
+          "Khối lượng hàng hóa được phép"
+        ]
+      },
+      {
+        "s": "Khối lượng hàng hóa cho phép chuyên chở",
+        "v": "Đúng",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Khối lượng hàng hóa tối đa",
+          "Khối lượng hàng hóa được phép"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng phương tiện"
+        ]
+      },
+      {
+        "s": "Tem kiểm định",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Tem kiểm tra",
+          "Tem chứng nhận"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -95,14 +445,74 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ bị tước quyền sử dụng giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường và tem kiểm định từ 01 tháng đến 03 tháng."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tem kiểm định", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng phương tiện"
+        ]
+      },
+      {
+        "s": "Tem kiểm định",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Tem kiểm tra",
+          "Tem chứng nhận"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -113,17 +523,94 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ trong trường hợp chở vượt trên 50% số người quy định được phép chở của phương tiện bị tước quyền sử dụng phù hiệu từ 01 tháng đến 03 tháng; và thực hiện hành vi quy định tại điểm e, g khoản 7; điểm a, b khoản 11; điểm a, b, c, đ khoản 13; điểm a, b, c, d, đ, e, g khoản 14; khoản 15; khoản 16 còn bị tước quyền sử dụng phù hiệu từ 01 tháng đến 03 tháng."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Chở quá", "o": "Số người quy định",
-       "s_keyphrases": [], "v_keyphrases": ["chở vượt"],
-       "o_keyphrases": ["số người quy định được phép chở của phương tiện"]},
-      {"s": "Phù hiệu", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi"]}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Chở quá",
+        "o": "Số người quy định",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "chở vượt",
+          "Chở quá tải",
+          "Vượt quá trọng tải"
+        ],
+        "o_keyphrases": [
+          "số người quy định được phép chở của phương tiện",
+          "Số người tối đa",
+          "Số người cho phép"
+        ]
+      },
+      {
+        "s": "Phù hiệu",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Biểu tượng",
+          "Dấu hiệu"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng phương tiện"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "hành vi",
+          "Hành động vi phạm",
+          "Vi phạm luật"
+        ]
+      }
     ]
   },
   {
@@ -134,18 +621,108 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc khôi phục lại nhãn hiệu, màu sơn ghi trong chứng nhận đăng ký xe theo quy định."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Khôi phục", "o": "Nhãn hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Khôi phục", "o": "Màu sơn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nhãn hiệu", "v": "Ghi trong", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Màu sơn", "v": "Ghi trong", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Khôi phục",
+        "o": "Nhãn hiệu",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Phục hồi"
+        ],
+        "o_keyphrases": [
+          "Thương hiệu",
+          "Logo"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Khôi phục",
+        "o": "Màu sơn",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Phục hồi"
+        ],
+        "o_keyphrases": [
+          "Màu xe",
+          "Màu phủ"
+        ]
+      },
+      {
+        "s": "Nhãn hiệu",
+        "v": "Ghi trong",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Thương hiệu",
+          "Logo"
+        ],
+        "v_keyphrases": [
+          "Ghi chép trong",
+          "Ghi lại trong"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Màu sơn",
+        "v": "Ghi trong",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Màu xe",
+          "Màu phủ"
+        ],
+        "v_keyphrases": [
+          "Ghi chép trong",
+          "Ghi lại trong"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -156,14 +733,74 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật theo quy định."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Thay thế", "o": "Thiết bị",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị", "v": "Đủ", "o": "Tiêu chuẩn an toàn kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thay thế",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thay đổi",
+          "Thay thế bằng"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
+      },
+      {
+        "s": "Thiết bị",
+        "v": "Đủ",
+        "o": "Tiêu chuẩn an toàn kỹ thuật",
+        "s_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ],
+        "v_keyphrases": [
+          "Đầy đủ",
+          "Đạt yêu cầu"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn an toàn",
+          "Tiêu chuẩn kỹ thuật"
+        ]
+      }
     ]
   },
   {
@@ -174,14 +811,76 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc thực hiện đúng quy định về biển số xe, quy định về kẻ hoặc dán chữ, số biển số, thông tin trên thành xe, cửa xe."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Tuân thủ", "o": "Quy định về biển số xe",
-       "s_keyphrases": [], "v_keyphrases": ["thực hiện đúng"], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Tuân thủ", "o": "Quy định về thông tin trên xe",
-       "s_keyphrases": [], "v_keyphrases": ["thực hiện đúng"], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tuân thủ",
+        "o": "Quy định về biển số xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "thực hiện đúng",
+          "Chấp hành",
+          "Thực hiện theo"
+        ],
+        "o_keyphrases": [
+          "Quy định biển số",
+          "Luật biển số xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tuân thủ",
+        "o": "Quy định về thông tin trên xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "thực hiện đúng",
+          "Chấp hành",
+          "Thực hiện theo"
+        ],
+        "o_keyphrases": [
+          "Quy định thông tin xe",
+          "Luật thông tin xe"
+        ]
+      }
     ]
   },
   {
@@ -192,18 +891,108 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc khôi phục lại hình dáng, kích thước, tình trạng an toàn kỹ thuật ban đầu của xe và đăng kiểm lại trước khi đưa phương tiện ra tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Liên quan", "o": "Giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Khôi phục", "o": "Hình dáng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Khôi phục", "o": "Kích thước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Khôi phục", "o": "Tình trạng an toàn kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Đăng kiểm", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Liên quan",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "Luật lệ",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Khôi phục",
+        "o": "Hình dáng",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Phục hồi"
+        ],
+        "o_keyphrases": [
+          "Hình thức",
+          "Kiểu dáng"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Khôi phục",
+        "o": "Kích thước",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Phục hồi"
+        ],
+        "o_keyphrases": [
+          "Kích cỡ",
+          "Kích thước vật lý"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Khôi phục",
+        "o": "Tình trạng an toàn kỹ thuật",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Phục hồi"
+        ],
+        "o_keyphrases": [
+          "Tình trạng kỹ thuật",
+          "Tình trạng an toàn"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Đăng kiểm",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người dùng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Kiểm định",
+          "Đăng ký kiểm định"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      }
     ]
   }
 ]

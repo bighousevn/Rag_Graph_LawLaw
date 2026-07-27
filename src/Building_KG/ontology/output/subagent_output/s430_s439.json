@@ -7,13 +7,65 @@
       "Người điều khiển xe mô tô và các loại xe tương tự xe mô tô kinh doanh vận tải không mang theo giấy phép lái xe trừ hành vi vi phạm quy định tại điểm b khoản 5, điểm c khoản 7 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["các loại xe tương tự xe mô tô"]},
-      {"s": "Xe mô tô", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "tài xế",
+          "người lái xe"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "cầm lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "các loại xe tương tự xe mô tô",
+          "xe máy",
+          "Phương tiện mô tô"
+        ]
+      },
+      {
+        "s": "Xe mô tô",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "xe máy",
+          "Phương tiện mô tô"
+        ],
+        "v_keyphrases": [
+          "hoạt động",
+          "buôn bán",
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "chở khách",
+          "chở hàng",
+          "Giao thông",
+          "Chuyên chở"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "đem theo",
+          "mang",
+          "có sẵn",
+          "Cầm theo"
+        ],
+        "o_keyphrases": [
+          "bằng lái",
+          "bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -24,13 +76,66 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô kinh doanh vận tải không mang theo giấy phép lái xe, trừ hành vi vi phạm quy định tại điểm c khoản 8 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "tài xế",
+          "người lái xe"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "cầm lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "xe hơi",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "xe hơi",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "hoạt động",
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "chở khách",
+          "chở hàng",
+          "Giao thông",
+          "Chuyên chở"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "đem theo",
+          "Cầm theo"
+        ],
+        "o_keyphrases": [
+          "bằng lái",
+          "bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -41,13 +146,66 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, rơ moóc, sơ mi rơ moóc và các loại xe tương tự xe ô tô kinh doanh vận tải không mang theo chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe)."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "rơ moóc", "sơ mi rơ moóc", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "rơ moóc",
+          "sơ mi rơ moóc",
+          "các loại xe tương tự xe ô tô",
+          "xe hơi",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "xe hơi",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "hoạt động",
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "chở khách",
+          "chở hàng",
+          "Giao thông",
+          "Chuyên chở"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "đem theo",
+          "Cầm theo"
+        ],
+        "o_keyphrases": [
+          "giấy đăng ký xe",
+          "cà vẹt xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -58,13 +216,67 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, rơ moóc, sơ mi rơ moóc và các loại xe tương tự xe ô tô kinh doanh vận tải không mang theo giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với loại xe có quy định phải kiểm định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "rơ moóc", "sơ mi rơ moóc", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "rơ moóc",
+          "sơ mi rơ moóc",
+          "các loại xe tương tự xe ô tô",
+          "xe hơi",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "xe hơi",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "hoạt động",
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "chở khách",
+          "chở hàng",
+          "Giao thông",
+          "Chuyên chở"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "đem theo",
+          "Cầm theo"
+        ],
+        "o_keyphrases": [
+          "giấy đăng kiểm",
+          "sổ đăng kiểm",
+          "Giấy kiểm định an toàn",
+          "Giấy chứng nhận kiểm định"
+        ]
+      }
     ]
   },
   {
@@ -75,8 +287,27 @@
       "Người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô có dung tích xi-lanh từ 50 cm3 trở lên hoặc có công suất động cơ điện từ 04 kW trở lên."
     ],
     "triplets": [
-      {"s": "Người từ đủ 16 tuổi đến dưới 18 tuổi", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người từ đủ 16 tuổi đến dưới 18 tuổi",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "người chưa thành niên",
+          "thanh thiếu niên",
+          "Người vị thành niên",
+          "Người trẻ tuổi"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "chạy",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe máy",
+          "xe gắn máy",
+          "Phương tiện mô tô"
+        ]
+      }
     ]
   },
   {
@@ -87,17 +318,110 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô kinh doanh vận tải không mang theo chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Ô tô", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Dành cho", "o": "Chủ xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Còn", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "tài xế",
+          "người lái xe"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "xe hơi",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "xe hơi",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "hoạt động",
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "chở khách",
+          "chở hàng",
+          "Giao thông",
+          "Chuyên chở"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "đem theo",
+          "Cầm theo"
+        ],
+        "o_keyphrases": [
+          "giấy bảo hiểm",
+          "bảo hiểm xe",
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ]
+      },
+      {
+        "s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "v": "Dành cho",
+        "o": "Chủ xe cơ giới",
+        "s_keyphrases": [
+          "giấy bảo hiểm",
+          "bảo hiểm bắt buộc",
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ],
+        "v_keyphrases": [
+          "của",
+          "cấp cho",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "chủ xe",
+          "người sở hữu xe",
+          "Người sở hữu xe cơ giới",
+          "Chủ sở hữu phương tiện"
+        ]
+      },
+      {
+        "s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "v": "Còn",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "giấy bảo hiểm",
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ],
+        "v_keyphrases": [
+          "đang có",
+          "vẫn còn",
+          "Vẫn",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "giá trị sử dụng",
+          "thời hạn",
+          "Thời gian có hiệu lực"
+        ]
+      }
     ]
   },
   {
@@ -108,15 +432,90 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không có chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Có", "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Dành cho", "o": "Chủ xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Còn", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "tài xế",
+          "người lái xe"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "xe hơi",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "sở hữu",
+          "trang bị",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "giấy bảo hiểm",
+          "bảo hiểm xe",
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ]
+      },
+      {
+        "s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "v": "Dành cho",
+        "o": "Chủ xe cơ giới",
+        "s_keyphrases": [
+          "giấy bảo hiểm",
+          "bảo hiểm bắt buộc",
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ],
+        "v_keyphrases": [
+          "của",
+          "thuộc về",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "chủ xe",
+          "người sở hữu xe",
+          "Người sở hữu xe cơ giới",
+          "Chủ sở hữu phương tiện"
+        ]
+      },
+      {
+        "s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "v": "Còn",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "giấy bảo hiểm",
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ],
+        "v_keyphrases": [
+          "đang có",
+          "vẫn còn",
+          "Vẫn",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "giá trị sử dụng",
+          "thời hạn",
+          "Thời gian có hiệu lực"
+        ]
+      }
     ]
   },
   {
@@ -127,21 +526,142 @@
       "Người điều khiển xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW và các loại xe tương tự xe mô tô không có giấy phép lái xe hoặc sử dụng giấy phép lái xe đã bị trừ hết điểm hoặc sử dụng giấy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe bị tẩy xóa, giấy phép lái xe không còn hiệu lực, giấy phép lái xe không phù hợp với loại xe đang điều khiển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô hai bánh", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Còn", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Phù hợp", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "tài xế",
+          "người lái xe"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "chạy",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô hai bánh",
+          "các loại xe tương tự xe mô tô",
+          "xe máy",
+          "Phương tiện mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "bằng lái",
+          "bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "dùng",
+          "xài",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "bằng lái",
+          "bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "bằng lái",
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "bị trừ",
+          "tước",
+          "Ngoại trừ",
+          "Loại trừ"
+        ],
+        "o_keyphrases": [
+          "điểm số",
+          "điểm bằng lái"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "cơ quan nhà nước",
+          "đơn vị quản lý",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "cấp phát",
+          "ban hành",
+          "Cung cấp",
+          "Phát hành"
+        ],
+        "o_keyphrases": [
+          "bằng lái",
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Còn",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "bằng lái",
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "đang có",
+          "Vẫn",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "giá trị sử dụng",
+          "thời hạn",
+          "Thời gian có hiệu lực"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Phù hợp",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "bằng lái",
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "tương thích",
+          "đúng loại",
+          "Thích hợp",
+          "Đáp ứng"
+        ],
+        "o_keyphrases": [
+          "xe máy",
+          "Phương tiện mô tô"
+        ]
+      }
     ]
   },
   {
@@ -152,15 +672,82 @@
       "Người điều khiển xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW và các loại xe tương tự xe mô tô có giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp (trừ giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo giấy phép lái xe quốc gia phù hợp với loại xe được phép điều khiển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô hai bánh", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lái xe quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Giấy phép lái xe quốc gia",
-       "s_keyphrases": [], "v_keyphrases": ["mang"], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe quốc gia", "v": "Phù hợp", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "tài xế",
+          "người lái xe"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "chạy",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô hai bánh",
+          "các loại xe tương tự xe mô tô",
+          "xe máy",
+          "Phương tiện mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lái xe quốc tế",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "bằng lái quốc tế",
+          "Bằng lái xe quốc tế",
+          "Giấy phép lái xe nước ngoài"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Giấy phép lái xe quốc gia",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "mang",
+          "đem theo",
+          "Cầm theo"
+        ],
+        "o_keyphrases": [
+          "bằng lái quốc gia",
+          "bằng lái nội địa",
+          "Bằng lái xe quốc gia",
+          "Giấy phép lái xe nội địa"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe quốc gia",
+        "v": "Phù hợp",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "bằng lái nội địa",
+          "Bằng lái xe quốc gia",
+          "Giấy phép lái xe nội địa"
+        ],
+        "v_keyphrases": [
+          "tương thích",
+          "đúng loại",
+          "Thích hợp",
+          "Đáp ứng"
+        ],
+        "o_keyphrases": [
+          "xe máy",
+          "Phương tiện mô tô"
+        ]
+      }
     ]
   },
   {
@@ -171,11 +758,44 @@
       "Người điều khiển xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW và các loại xe tương tự xe mô tô sử dụng giấy phép lái xe không hợp lệ (giấy phép lái xe có số phôi ghi ở mặt sau không trùng với số phôi được cấp mới nhất trong hệ thống thông tin quản lý giấy phép lái xe)."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô hai bánh", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "tài xế",
+          "người lái xe"
+        ],
+        "v_keyphrases": [
+          "lái",
+          "chạy",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô hai bánh",
+          "các loại xe tương tự xe mô tô",
+          "xe máy",
+          "Phương tiện mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "tài xế"
+        ],
+        "v_keyphrases": [
+          "dùng",
+          "xài",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "bằng lái",
+          "bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      }
     ]
   }
 ]

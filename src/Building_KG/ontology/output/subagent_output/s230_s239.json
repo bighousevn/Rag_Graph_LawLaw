@@ -7,12 +7,103 @@
       "Người điều khiển xe máy chuyên dùng không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt; dừng xe, đỗ xe trong phạm vi bảo vệ công trình đường sắt, phạm vi an toàn của đường sắt."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường bộ giao nhau cùng mức với đường sắt", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Phạm vi bảo vệ công trình đường sắt", "s_keyphrases": [], "v_keyphrases": ["trong"], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Phạm vi an toàn của đường sắt", "s_keyphrases": [], "v_keyphrases": ["trong"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường bộ giao nhau cùng mức với đường sắt",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giao nhau cùng mức",
+          "Nơi giao nhau với đường sắt"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Phạm vi bảo vệ công trình đường sắt",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "trong"
+        ],
+        "o_keyphrases": [
+          "Khu vực bảo vệ công trình đường sắt",
+          "Phạm vi bảo vệ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Phạm vi an toàn của đường sắt",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "trong"
+        ],
+        "o_keyphrases": [
+          "Khu vực an toàn đường sắt",
+          "Phạm vi bảo vệ đường sắt"
+        ]
+      }
     ]
   },
   {
@@ -23,18 +114,195 @@
       "Người điều khiển xe máy chuyên dùng quay đầu xe tại nơi đường bộ giao nhau cùng mức với đường sắt; quay đầu xe tại nơi đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, nơi có biển báo hiệu có nội dung cấm quay đầu đối với loại phương tiện đang điều khiển; điều khiển xe rẽ trái tại nơi có biển báo hiệu có nội dung cấm rẽ trái đối với loại phương tiện đang điều khiển; điều khiển xe rẽ phải tại nơi có biển báo hiệu có nội dung cấm rẽ phải đối với loại phương tiện đang điều khiển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Quay đầu", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường bộ giao nhau cùng mức với đường sắt", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường hẹp", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường dốc", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đoạn đường cong tầm nhìn bị che khuất", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Quay đầu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Rẽ trái", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Rẽ trái", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Rẽ phải", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Rẽ phải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quay đầu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyển hướng ngược",
+          "Quay lại"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường bộ giao nhau cùng mức với đường sắt",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giao nhau cùng mức",
+          "Nơi giao nhau với đường sắt"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường hẹp",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đường nhỏ",
+          "Đường chật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường dốc",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đường nghiêng",
+          "Đường dốc đứng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đoạn đường cong tầm nhìn bị che khuất",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đoạn đường cong khuất tầm nhìn",
+          "Đoạn đường cong hạn chế tầm nhìn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Quay đầu",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ],
+        "v_keyphrases": [
+          "Ngăn",
+          "Không cho phép"
+        ],
+        "o_keyphrases": [
+          "Chuyển hướng ngược",
+          "Quay lại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Rẽ trái",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quẹo trái",
+          "Rẽ sang trái"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Rẽ trái",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ],
+        "v_keyphrases": [
+          "Ngăn",
+          "Không cho phép"
+        ],
+        "o_keyphrases": [
+          "Quẹo trái",
+          "Rẽ sang trái"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Rẽ phải",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quẹo phải",
+          "Rẽ sang phải"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Rẽ phải",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ],
+        "v_keyphrases": [
+          "Ngăn",
+          "Không cho phép"
+        ],
+        "o_keyphrases": [
+          "Quẹo phải",
+          "Rẽ sang phải"
+        ]
+      }
     ]
   },
   {
@@ -45,14 +313,127 @@
       "Người điều khiển xe máy chuyên dùng quay đầu xe ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, ngầm, gầm cầu vượt, trừ khi có hiệu lệnh của người điều khiển giao thông hoặc chỉ dẫn của biển báo hiệu tạm thời hoặc tổ chức giao thông tại những khu vực này có bố trí nơi quay đầu xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Quay đầu", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phần đường", "v": "Dành cho", "o": "Người đi bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Cầu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đầu cầu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Ngầm", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Gầm cầu vượt", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quay đầu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyển hướng ngược",
+          "Quay lại"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ]
+      },
+      {
+        "s": "Phần đường",
+        "v": "Dành cho",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Cầu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Cầu đường",
+          "Cầu vượt"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đầu cầu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Phần đầu cầu",
+          "Đầu của cầu"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Ngầm",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đường ngầm",
+          "Hầm ngầm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Gầm cầu vượt",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Dưới cầu",
+          "Khu vực gầm cầu"
+        ]
+      }
     ]
   },
   {
@@ -63,20 +444,220 @@
       "Người điều khiển xe máy chuyên dùng lùi xe ở đường một chiều, đường có biển “Cấm đi ngược chiều”, khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất; lùi xe không quan sát hai bên và phía sau xe hoặc không có tín hiệu lùi xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lùi", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường một chiều", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo hiệu", "v": "Cấm", "o": "Đi ngược chiều", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Khu vực cấm dừng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phần đường", "v": "Dành cho", "o": "Người đi bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường bộ giao nhau", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường bộ giao nhau cùng mức với đường sắt", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Nơi tầm nhìn bị che khuất", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Quan sát", "o": "Hai bên", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Quan sát", "o": "Phía sau xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Tín hiệu lùi xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lùi",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lùi lại",
+          "Lùi xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường một chiều",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đường đi một chiều",
+          "Đường đơn chiều"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ]
+      },
+      {
+        "s": "Biển báo hiệu",
+        "v": "Cấm",
+        "o": "Đi ngược chiều",
+        "s_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ],
+        "v_keyphrases": [
+          "Ngăn",
+          "Không cho phép"
+        ],
+        "o_keyphrases": [
+          "Chạy ngược chiều",
+          "Đi ngược"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Khu vực cấm dừng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Khu vực không dừng",
+          "Khu vực cấm đỗ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ]
+      },
+      {
+        "s": "Phần đường",
+        "v": "Dành cho",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường bộ giao nhau",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Nơi giao nhau",
+          "Điểm giao nhau"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường bộ giao nhau cùng mức với đường sắt",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giao nhau cùng mức",
+          "Nơi giao nhau với đường sắt"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Nơi tầm nhìn bị che khuất",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Khu vực tầm nhìn hạn chế",
+          "Nơi khuất tầm nhìn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quan sát",
+        "o": "Hai bên",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Theo dõi",
+          "Nhìn"
+        ],
+        "o_keyphrases": [
+          "Hai phía",
+          "Hai bên đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quan sát",
+        "o": "Phía sau xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Theo dõi",
+          "Nhìn"
+        ],
+        "o_keyphrases": [
+          "Sau xe",
+          "Phía sau phương tiện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Tín hiệu lùi xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đèn lùi",
+          "Tín hiệu lùi"
+        ]
+      }
     ]
   },
   {
@@ -87,10 +668,73 @@
       "Người điều khiển xe máy chuyên dùng lùi xe, quay đầu xe trong hầm đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lùi", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Quay đầu", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ", "s_keyphrases": [], "v_keyphrases": ["trong"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lùi",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lùi lại",
+          "Lùi xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quay đầu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyển hướng ngược",
+          "Quay lại"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Hầm đường bộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "trong"
+        ],
+        "o_keyphrases": [
+          "Hầm",
+          "Hầm giao thông"
+        ]
+      }
     ]
   },
   {
@@ -101,9 +745,56 @@
       "Người điều khiển xe máy chuyên dùng không thực hiện biện pháp bảo đảm an toàn theo quy định khi phương tiện bị hư hỏng trên đoạn đường bộ giao nhau cùng mức với đường sắt."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Biện pháp bảo đảm an toàn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường bộ giao nhau cùng mức với đường sắt", "s_keyphrases": [], "v_keyphrases": ["trên"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Biện pháp bảo đảm an toàn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Biện pháp an toàn",
+          "Cách thức bảo đảm an toàn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường bộ giao nhau cùng mức với đường sắt",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "trên"
+        ],
+        "o_keyphrases": [
+          "Giao nhau cùng mức",
+          "Nơi giao nhau với đường sắt"
+        ]
+      }
     ]
   },
   {
@@ -114,14 +805,135 @@
       "Người điều khiển xe máy chuyên dùng dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định; không có báo hiệu bằng đèn khẩn cấp, không đặt biển cảnh báo “Chú ý xe đỗ” (hoặc đèn cảnh báo) về phía sau xe khoảng cách đảm bảo an toàn khi dừng xe, đỗ xe trong hầm đường bộ trong trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Hầm đường bộ", "s_keyphrases": [], "v_keyphrases": ["trong"], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Báo hiệu bằng đèn khẩn cấp", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đặt", "o": "Biển cảnh báo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đặt", "o": "Đèn cảnh báo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển cảnh báo", "v": "Tại", "o": "Phía sau xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Hầm đường bộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "trong"
+        ],
+        "o_keyphrases": [
+          "Hầm",
+          "Hầm giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Báo hiệu bằng đèn khẩn cấp",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đèn cảnh báo khẩn cấp",
+          "Đèn tín hiệu khẩn cấp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đặt",
+        "o": "Biển cảnh báo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Để",
+          "Đặt để"
+        ],
+        "o_keyphrases": [
+          "Biển báo cảnh báo",
+          "Bảng cảnh báo"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đặt",
+        "o": "Đèn cảnh báo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Để",
+          "Đặt để"
+        ],
+        "o_keyphrases": [
+          "Đèn tín hiệu",
+          "Đèn báo hiệu"
+        ]
+      },
+      {
+        "s": "Biển cảnh báo",
+        "v": "Tại",
+        "o": "Phía sau xe",
+        "s_keyphrases": [
+          "Biển báo cảnh báo",
+          "Bảng cảnh báo"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Sau xe",
+          "Phía sau phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -132,11 +944,92 @@
       "Người điều khiển xe máy chuyên dùng có liên quan trực tiếp đến vụ tai nạn giao thông mà không dừng ngay phương tiện, không giữ nguyên hiện trường, không trợ giúp người bị nạn."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Liên quan", "o": "Tai nạn giao thông", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
-      {"s": "Người", "v": "Giữ nguyên", "o": "Hiện trường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trợ giúp", "o": "Người bị nạn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Liên quan",
+        "o": "Tai nạn giao thông",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Tai nạn",
+          "Sự cố giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Giữ nguyên",
+        "o": "Hiện trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Không thay đổi",
+          "Giữ nguyên vị trí"
+        ],
+        "o_keyphrases": [
+          "Hiện trường vụ việc",
+          "Nơi xảy ra"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trợ giúp",
+        "o": "Người bị nạn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Hỗ trợ",
+          "Giúp đỡ"
+        ],
+        "o_keyphrases": [
+          "Nạn nhân",
+          "Người gặp nạn"
+        ]
+      }
     ]
   },
   {
@@ -147,14 +1040,136 @@
       "Người điều khiển xe máy chuyên dùng chuyển hướng không nhường quyền đi trước cho người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường dành cho người đi bộ; xe thô sơ đang đi trên phần đường dành cho xe thô sơ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chuyển hướng", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Người đi bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Tại", "o": "Vạch kẻ đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vạch kẻ đường", "v": "Dành cho", "o": "Người đi bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Xe thô sơ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe thô sơ", "v": "Tại", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phần đường", "v": "Dành cho", "o": "Xe thô sơ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển hướng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quay đầu",
+          "Rẽ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Nhường đường",
+          "Cho đi"
+        ],
+        "o_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ]
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Tại",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Vạch kẻ đường",
+        "v": "Dành cho",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Nhường đường",
+          "Cho đi"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Tại",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ]
+      },
+      {
+        "s": "Phần đường",
+        "v": "Dành cho",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      }
     ]
   },
   {
@@ -165,11 +1180,91 @@
       "Người điều khiển xe máy chuyên dùng chuyển hướng không nhường đường cho các xe đi ngược chiều; người đi bộ, xe thô sơ đang qua đường tại nơi không có vạch kẻ đường cho người đi bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chuyển hướng", "o": "Xe máy chuyên dùng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Xe đi ngược chiều", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Người đi bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Xe thô sơ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển hướng",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quay đầu",
+          "Rẽ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Xe đi ngược chiều",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Nhường đường",
+          "Cho đi"
+        ],
+        "o_keyphrases": [
+          "Xe chạy ngược chiều",
+          "Xe đi ngược"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Nhường đường",
+          "Cho đi"
+        ],
+        "o_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Nhường đường",
+          "Cho đi"
+        ],
+        "o_keyphrases": [
+          "Xe đạp",
+          "Xe không động cơ"
+        ]
+      }
     ]
   }
 ]

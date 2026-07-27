@@ -7,10 +7,35 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều này còn bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Ngoại trừ"
+        ],
+        "o_keyphrases": [
+          "Địa điểm"
+        ]
+      }
     ]
   },
   {
@@ -21,16 +46,82 @@
       "Người điều khiển xe vệ sinh môi trường, xe ô tô chở phế thải không chạy đúng tuyến, phạm vi, thời gian quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vệ sinh môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe chở phế thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô chở phế thải"]},
-      {"s": "Người", "v": "Chạy đúng", "o": "Tuyến",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chạy đúng", "o": "Phạm vi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chạy đúng", "o": "Thời gian",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vệ sinh môi trường",
+        "s_keyphrases": [
+          "Cá nhân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe dọn dẹp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe chở phế thải",
+        "s_keyphrases": [
+          "Cá nhân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở phế thải",
+          "Xe thu gom rác"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chạy đúng",
+        "o": "Tuyến",
+        "s_keyphrases": [
+          "Cá nhân"
+        ],
+        "v_keyphrases": [
+          "Chạy theo quy định",
+          "Chạy đúng luật"
+        ],
+        "o_keyphrases": [
+          "Lộ trình"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chạy đúng",
+        "o": "Phạm vi",
+        "s_keyphrases": [
+          "Cá nhân"
+        ],
+        "v_keyphrases": [
+          "Chạy theo quy định",
+          "Chạy đúng luật"
+        ],
+        "o_keyphrases": [
+          "Khu vực"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chạy đúng",
+        "o": "Thời gian",
+        "s_keyphrases": [
+          "Cá nhân"
+        ],
+        "v_keyphrases": [
+          "Chạy theo quy định",
+          "Chạy đúng luật"
+        ],
+        "o_keyphrases": [
+          "Thời điểm"
+        ]
+      }
     ]
   },
   {
@@ -41,10 +132,35 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 1 Điều này còn bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Ngoại trừ"
+        ],
+        "o_keyphrases": [
+          "Địa điểm"
+        ]
+      }
     ]
   },
   {
@@ -64,12 +180,53 @@
       "Tổ chức thực hiện hành vi xếp hàng hóa lên mỗi xe ô tô (kể cả rơ moóc và sơ mi rơ moóc) vượt quá trọng tải cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 10% đến 50% (trừ xe xi téc chở chất lỏng)."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Xếp", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Tại", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "rơ moóc", "sơ mi rơ moóc"]},
-      {"s": "Ô tô", "v": "Vượt quá", "o": "Trọng tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Xếp",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp"
+        ],
+        "o_keyphrases": [
+          "Tài sản",
+          "Vật phẩm"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Tại",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Tài sản",
+          "Vật phẩm"
+        ],
+        "v_keyphrases": [
+          "Ở"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "rơ moóc",
+          "sơ mi rơ moóc"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Vượt quá",
+        "o": "Trọng tải",
+        "s_keyphrases": [
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Vượt mức"
+        ],
+        "o_keyphrases": [
+          "Tải trọng"
+        ]
+      }
     ]
   },
   {
@@ -80,12 +237,52 @@
       "Tổ chức thực hiện hành vi xếp hàng hóa lên xe ô tô mà không ký xác nhận việc xếp hàng hóa vào giấy vận tải theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Xếp", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Tại", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Ký xác nhận", "o": "Giấy vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Xếp",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp"
+        ],
+        "o_keyphrases": [
+          "Tài sản",
+          "Vật phẩm"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Tại",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Tài sản",
+          "Vật phẩm"
+        ],
+        "v_keyphrases": [
+          "Ở"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Ký xác nhận",
+        "o": "Giấy vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Ký xác nhận thông tin"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ vận tải"
+        ]
+      }
     ]
   },
   {
@@ -105,14 +302,67 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không đánh số thứ tự ghế ngồi, giường nằm trên xe ô tô chở hành khách theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Đánh số thứ tự", "o": "Ghế",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": ["ghế ngồi"]},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Đánh số thứ tự", "o": "Giường nằm",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ghế", "v": "Tại", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô chở hành khách"]},
-      {"s": "Giường nằm", "v": "Tại", "o": "Ô tô chở khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô chở hành khách"]}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Đánh số thứ tự",
+        "o": "Ghế",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp theo thứ tự"
+        ],
+        "o_keyphrases": [
+          "ghế ngồi",
+          "Chỗ ngồi"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Đánh số thứ tự",
+        "o": "Giường nằm",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp theo thứ tự"
+        ],
+        "o_keyphrases": [
+          "Giường ngủ"
+        ]
+      },
+      {
+        "s": "Ghế",
+        "v": "Tại",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Chỗ ngồi"
+        ],
+        "v_keyphrases": [
+          "Ở"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "Xe khách"
+        ]
+      },
+      {
+        "s": "Giường nằm",
+        "v": "Tại",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "Giường ngủ"
+        ],
+        "v_keyphrases": [
+          "Ở"
+        ],
+        "o_keyphrases": [
+          "xe ô tô chở hành khách",
+          "Xe khách"
+        ]
+      }
     ]
   },
   {
@@ -123,17 +373,83 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe ô tô kinh doanh vận tải hành khách theo tuyến cố định, xe ô tô kinh doanh vận tải hành khách bằng xe buýt không có chỗ ưu tiên cho người khuyết tật, người cao tuổi và phụ nữ mang thai theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Ô tô kinh doanh vận tải hành khách",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải hành khách theo tuyến cố định", "xe ô tô kinh doanh vận tải hành khách bằng xe buýt"]},
-      {"s": "Ô tô kinh doanh vận tải hành khách", "v": "Có", "o": "Chỗ ưu tiên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chỗ ưu tiên", "v": "Dành cho", "o": "Người khuyết tật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chỗ ưu tiên", "v": "Dành cho", "o": "Người cao tuổi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chỗ ưu tiên", "v": "Dành cho", "o": "Phụ nữ mang thai",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Ô tô kinh doanh vận tải hành khách",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải hành khách theo tuyến cố định",
+          "xe ô tô kinh doanh vận tải hành khách bằng xe buýt",
+          "Xe khách"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải hành khách",
+        "v": "Có",
+        "o": "Chỗ ưu tiên",
+        "s_keyphrases": [
+          "Xe khách"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Khu vực ưu tiên",
+          "Vị trí ưu tiên"
+        ]
+      },
+      {
+        "s": "Chỗ ưu tiên",
+        "v": "Dành cho",
+        "o": "Người khuyết tật",
+        "s_keyphrases": [
+          "Khu vực ưu tiên",
+          "Vị trí ưu tiên"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Người tàn tật"
+        ]
+      },
+      {
+        "s": "Chỗ ưu tiên",
+        "v": "Dành cho",
+        "o": "Người cao tuổi",
+        "s_keyphrases": [
+          "Khu vực ưu tiên",
+          "Vị trí ưu tiên"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Người lớn tuổi"
+        ]
+      },
+      {
+        "s": "Chỗ ưu tiên",
+        "v": "Dành cho",
+        "o": "Phụ nữ mang thai",
+        "s_keyphrases": [
+          "Khu vực ưu tiên",
+          "Vị trí ưu tiên"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Phụ nữ có thai"
+        ]
+      }
     ]
   },
   {
@@ -144,12 +460,50 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe ô tô kinh doanh vận tải hành khách không có hướng dẫn cho hành khách về an toàn giao thông, thoát hiểm khi xảy ra sự cố trên xe theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Ô tô kinh doanh vận tải hành khách",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải hành khách", "v": "Có", "o": "Hướng dẫn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Ô tô kinh doanh vận tải hành khách",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng"
+        ],
+        "o_keyphrases": [
+          "Xe khách"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải hành khách",
+        "v": "Có",
+        "o": "Hướng dẫn",
+        "s_keyphrases": [
+          "Xe khách"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
+      }
     ]
   }
 ]

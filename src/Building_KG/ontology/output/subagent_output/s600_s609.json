@@ -16,10 +16,40 @@
       "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc cấp thẻ nhận dạng lái xe cho lái xe theo quy định."
     ],
     "triplets": [
-      {"s": "Cá nhân, tổ chức", "v": "Cấp", "o": "Thẻ nhận dạng lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thẻ nhận dạng lái xe", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Cấp",
+        "o": "Thẻ nhận dạng lái xe",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Thẻ lái xe",
+          "Thẻ ID lái xe"
+        ]
+      },
+      {
+        "s": "Thẻ nhận dạng lái xe",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Thẻ lái xe",
+          "Thẻ ID lái xe"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Người lái xe",
+          "Tài xế"
+        ]
+      }
     ]
   },
   {
@@ -30,18 +60,108 @@
       "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc tổ chức tập huấn, hướng dẫn nghiệp vụ, quy trình hoặc tổ chức khám sức khỏe định kỳ cho lái xe và nhân viên phục vụ trên xe theo quy định."
     ],
     "triplets": [
-      {"s": "Cá nhân, tổ chức", "v": "Tổ chức", "o": "Tập huấn nghiệp vụ, quy trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Tổ chức", "o": "Khám sức khỏe định kỳ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tập huấn nghiệp vụ, quy trình", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tập huấn nghiệp vụ, quy trình", "v": "Dành cho", "o": "Nhân viên phục vụ trên xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Khám sức khỏe định kỳ", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Khám sức khỏe định kỳ", "v": "Dành cho", "o": "Nhân viên phục vụ trên xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Tổ chức",
+        "o": "Tập huấn nghiệp vụ, quy trình",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp",
+          "Thành lập"
+        ],
+        "o_keyphrases": [
+          "Đào tạo nghiệp vụ",
+          "Huấn luyện quy trình"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Tổ chức",
+        "o": "Khám sức khỏe định kỳ",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp",
+          "Thành lập"
+        ],
+        "o_keyphrases": [
+          "Khám sức khỏe thường xuyên",
+          "Khám sức khỏe định kỳ cho lái xe"
+        ]
+      },
+      {
+        "s": "Tập huấn nghiệp vụ, quy trình",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Đào tạo nghiệp vụ",
+          "Huấn luyện quy trình"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Người lái xe",
+          "Tài xế"
+        ]
+      },
+      {
+        "s": "Tập huấn nghiệp vụ, quy trình",
+        "v": "Dành cho",
+        "o": "Nhân viên phục vụ trên xe",
+        "s_keyphrases": [
+          "Đào tạo nghiệp vụ",
+          "Huấn luyện quy trình"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Nhân viên xe",
+          "Phục vụ trên xe"
+        ]
+      },
+      {
+        "s": "Khám sức khỏe định kỳ",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Khám sức khỏe thường xuyên",
+          "Khám sức khỏe định kỳ cho lái xe"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Người lái xe",
+          "Tài xế"
+        ]
+      },
+      {
+        "s": "Khám sức khỏe định kỳ",
+        "v": "Dành cho",
+        "o": "Nhân viên phục vụ trên xe",
+        "s_keyphrases": [
+          "Khám sức khỏe thường xuyên",
+          "Khám sức khỏe định kỳ cho lái xe"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Nhân viên xe",
+          "Phục vụ trên xe"
+        ]
+      }
     ]
   },
   {
@@ -52,18 +172,108 @@
       "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc lắp đặt thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe, dây đai an toàn, ghế ngồi cho trẻ em mầm non, học sinh tiểu học trên xe theo đúng quy định."
     ],
     "triplets": [
-      {"s": "Cá nhân, tổ chức", "v": "Lắp đặt", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Lắp đặt", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Lắp đặt", "o": "Dây đai an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Lắp đặt", "o": "Ghế ngồi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Trẻ em mầm non",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Học sinh tiểu học",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Lắp đặt",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Lắp đặt",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Lắp đặt",
+        "o": "Dây đai an toàn",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo vệ"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Lắp đặt",
+        "o": "Ghế ngồi",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế"
+        ]
+      },
+      {
+        "s": "Ghế ngồi",
+        "v": "Dành cho",
+        "o": "Trẻ em mầm non",
+        "s_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Trẻ nhỏ",
+          "Trẻ em dưới 6 tuổi"
+        ]
+      },
+      {
+        "s": "Ghế ngồi",
+        "v": "Dành cho",
+        "o": "Học sinh tiểu học",
+        "s_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Học sinh lớp 1-5",
+          "Trẻ tiểu học"
+        ]
+      }
     ]
   },
   {
@@ -74,24 +284,159 @@
       "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu thu thập từ thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô theo quy định."
     ],
     "triplets": [
-      {"s": "Cá nhân, tổ chức", "v": "Cung cấp", "o": "Thông tin, dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Cập nhật", "o": "Thông tin, dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Truyền dẫn", "o": "Thông tin, dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Lưu trữ", "o": "Thông tin, dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Quản lý", "o": "Thông tin, dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thông tin, dữ liệu", "v": "Thu thập từ", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thông tin, dữ liệu", "v": "Thu thập từ", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Lắp", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]}
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Cung cấp",
+        "o": "Thông tin, dữ liệu",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Thông tin liên quan"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Cập nhật",
+        "o": "Thông tin, dữ liệu",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Cập nhật dữ liệu"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Thông tin liên quan"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Truyền dẫn",
+        "o": "Thông tin, dữ liệu",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Truyền tải"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Thông tin liên quan"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Lưu trữ",
+        "o": "Thông tin, dữ liệu",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Thông tin liên quan"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Quản lý",
+        "o": "Thông tin, dữ liệu",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Điều hành",
+          "Quản trị"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Thông tin liên quan"
+        ]
+      },
+      {
+        "s": "Thông tin, dữ liệu",
+        "v": "Thu thập từ",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Dữ liệu",
+          "Thông tin liên quan"
+        ],
+        "v_keyphrases": [
+          "Tập hợp từ",
+          "Lấy từ"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Thông tin, dữ liệu",
+        "v": "Thu thập từ",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Dữ liệu",
+          "Thông tin liên quan"
+        ],
+        "v_keyphrases": [
+          "Tập hợp từ",
+          "Lấy từ"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Lắp",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Lắp đặt"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lắp",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Lắp đặt"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      }
     ]
   },
   {
@@ -102,14 +447,68 @@
       "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ buộc thực hiện đúng quy định về màu sơn, biển báo dấu hiệu nhận biết của xe."
     ],
     "triplets": [
-      {"s": "Cá nhân, tổ chức", "v": "Thực hiện", "o": "Màu sơn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân, tổ chức", "v": "Thực hiện", "o": "Biển báo dấu hiệu nhận biết",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Màu sơn", "v": "Thuộc", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển báo dấu hiệu nhận biết", "v": "Thuộc", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Thực hiện",
+        "o": "Màu sơn",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Màu xe",
+          "Màu phủ"
+        ]
+      },
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Thực hiện",
+        "o": "Biển báo dấu hiệu nhận biết",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Đối tượng"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Biển báo giao thông",
+          "Biển báo chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Màu sơn",
+        "v": "Thuộc",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Màu xe",
+          "Màu phủ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Biển báo dấu hiệu nhận biết",
+        "v": "Thuộc",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Biển báo chỉ dẫn"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -120,10 +519,37 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện còn bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Phương tiện vận tải"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -134,10 +560,37 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện còn bị trừ điểm giấy phép lái xe 06 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Phương tiện vận tải"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -148,16 +601,91 @@
       "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi không hướng dẫn trẻ em mầm non, học sinh ngồi đúng vị trí quy định trong xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Chở", "o": "Trẻ em mầm non",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Học sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Hướng dẫn", "o": "Trẻ em mầm non",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Hướng dẫn", "o": "Học sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Trẻ em mầm non",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Trẻ nhỏ",
+          "Trẻ em dưới 6 tuổi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Học sinh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Trẻ em",
+          "Học viên"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Hướng dẫn",
+        "o": "Trẻ em mầm non",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "o_keyphrases": [
+          "Trẻ nhỏ",
+          "Trẻ em dưới 6 tuổi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Hướng dẫn",
+        "o": "Học sinh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "o_keyphrases": [
+          "Trẻ em",
+          "Học viên"
+        ]
+      }
     ]
   },
   {
@@ -168,16 +696,85 @@
       "Người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh thực hiện hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học không có dây đai an toàn phù hợp với lứa tuổi hoặc không có ghế ngồi phù hợp với lứa tuổi theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Chở", "o": "Trẻ em mầm non",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Học sinh tiểu học",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Dây đai an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Ghế ngồi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Trẻ em mầm non",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Trẻ nhỏ",
+          "Trẻ em dưới 6 tuổi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Học sinh tiểu học",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Học sinh lớp 1-5",
+          "Trẻ tiểu học"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Dây đai an toàn",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo vệ"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Ghế ngồi",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chỗ ngồi",
+          "Ghế"
+        ]
+      }
     ]
   }
 ]

@@ -7,13 +7,46 @@
       "Người điều khiển xe đạp máy không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách khi tham gia giao thông trên đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đội", "o": "Mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["mũ bảo hiểm cho người đi mô tô, xe máy"]},
-      {"s": "Người", "v": "Cài", "o": "Quai mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe đạp máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy điện",
+          "Xe đạp điện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đội",
+        "o": "Mũ bảo hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "mũ bảo hiểm cho người đi mô tô, xe máy",
+          "Nón bảo hiểm",
+          "Mũ bảo vệ đầu"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Cài",
+        "o": "Quai mũ bảo hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Gắn",
+          "Lắp"
+        ],
+        "o_keyphrases": [
+          "Dây mũ bảo hiểm",
+          "Khóa mũ bảo hiểm"
+        ]
+      }
     ]
   },
   {
@@ -24,16 +57,67 @@
       "Người điều khiển xe đạp máy chở người ngồi trên xe không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe đạp máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["người ngồi trên xe"]},
-      {"s": "Hành khách", "v": "Đội", "o": "Mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["mũ bảo hiểm cho người đi mô tô, xe máy"]},
-      {"s": "Hành khách", "v": "Cài", "o": "Quai mũ bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe đạp máy",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy điện",
+          "Xe đạp điện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hành khách",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "người ngồi trên xe",
+          "Người đi xe",
+          "Hành khách trên xe"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Đội",
+        "o": "Mũ bảo hiểm",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Hành khách trên xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "mũ bảo hiểm cho người đi mô tô, xe máy",
+          "Nón bảo hiểm",
+          "Mũ bảo vệ đầu"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Cài",
+        "o": "Quai mũ bảo hiểm",
+        "s_keyphrases": [
+          "Người đi xe",
+          "Hành khách trên xe"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Lắp"
+        ],
+        "o_keyphrases": [
+          "Dây mũ bảo hiểm",
+          "Khóa mũ bảo hiểm"
+        ]
+      }
     ]
   },
   {
@@ -44,10 +128,34 @@
       "Người điều khiển xe đi vào đường cao tốc, trừ phương tiện phục vụ việc quản lý, bảo trì đường cao tốc."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi vào", "o": "Đường cao tốc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi vào",
+        "o": "Đường cao tốc",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Vào",
+          "Bước vào"
+        ],
+        "o_keyphrases": [
+          "Xa lộ",
+          "Đường cao tốc quốc gia"
+        ]
+      }
     ]
   },
   {
@@ -58,14 +166,71 @@
       "Người đi bộ không đi đúng phần đường quy định; vượt qua dải phân cách; đi qua đường không đúng nơi quy định; đi qua đường không có tín hiệu bằng tay theo quy định."
     ],
     "triplets": [
-      {"s": "Người đi bộ", "v": "Đi", "o": "Phần đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Vượt qua", "o": "Dải phân cách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Đi qua", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Có", "o": "Tín hiệu bằng tay",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người đi bộ",
+        "v": "Đi",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Di chuyển",
+          "Lưu thông"
+        ],
+        "o_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ]
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Vượt qua",
+        "o": "Dải phân cách",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Vượt",
+          "Đi qua"
+        ],
+        "o_keyphrases": [
+          "Dải phân cách đường",
+          "Vạch phân cách"
+        ]
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Đi qua",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Đi qua đường",
+          "Đi qua khu vực"
+        ],
+        "o_keyphrases": [
+          "Con đường",
+          "Đường phố"
+        ]
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Có",
+        "o": "Tín hiệu bằng tay",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Ra hiệu tay",
+          "Báo hiệu bằng tay"
+        ]
+      }
     ]
   },
   {
@@ -76,12 +241,57 @@
       "Người đi bộ không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường, trừ hành vi vi phạm quy định tại điểm a khoản 2 Điều này."
     ],
     "triplets": [
-      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Đèn tín hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Vạch kẻ đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người đi bộ",
+        "v": "Chấp hành",
+        "o": "Đèn tín hiệu",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Đèn giao thông",
+          "Đèn chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Chấp hành",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Biển chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Chấp hành",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -92,10 +302,40 @@
       "Người đi bộ không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông."
     ],
     "triplets": [
-      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Người điều khiển giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Chấp hành", "o": "Người kiểm soát giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người đi bộ",
+        "v": "Chấp hành",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Người điều khiển",
+          "Người hướng dẫn giao thông"
+        ]
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Chấp hành",
+        "o": "Người kiểm soát giao thông",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều phối giao thông"
+        ]
+      }
     ]
   },
   {
@@ -106,8 +346,23 @@
       "Người đi bộ đi vào đường cao tốc, trừ người phục vụ việc quản lý, bảo trì đường cao tốc."
     ],
     "triplets": [
-      {"s": "Người đi bộ", "v": "Đi vào", "o": "Đường cao tốc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người đi bộ",
+        "v": "Đi vào",
+        "o": "Đường cao tốc",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Vào",
+          "Bước vào"
+        ],
+        "o_keyphrases": [
+          "Xa lộ",
+          "Đường cao tốc quốc gia"
+        ]
+      }
     ]
   },
   {
@@ -118,10 +373,40 @@
       "Người đi bộ mang, vác vật cồng kềnh gây cản trở giao thông."
     ],
     "triplets": [
-      {"s": "Người đi bộ", "v": "Mang", "o": "Vật cồng kềnh",
-       "s_keyphrases": [], "v_keyphrases": ["vác"], "o_keyphrases": []},
-      {"s": "Vật cồng kềnh", "v": "Cản trở", "o": "Giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người đi bộ",
+        "v": "Mang",
+        "o": "Vật cồng kềnh",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "vác",
+          "Xách"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa cồng kềnh",
+          "Đồ vật lớn"
+        ]
+      },
+      {
+        "s": "Vật cồng kềnh",
+        "v": "Cản trở",
+        "o": "Giao thông",
+        "s_keyphrases": [
+          "Hàng hóa cồng kềnh",
+          "Đồ vật lớn"
+        ],
+        "v_keyphrases": [
+          "Ngăn cản",
+          "Chặn"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
+      }
     ]
   },
   {
@@ -132,8 +417,24 @@
       "Người đi bộ đu, bám vào phương tiện giao thông đang chạy."
     ],
     "triplets": [
-      {"s": "Người đi bộ", "v": "Bám", "o": "Phương tiện giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["đu"], "o_keyphrases": []}
+      {
+        "s": "Người đi bộ",
+        "v": "Bám",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "đu",
+          "Bám vào",
+          "Bám theo"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ]
+      }
     ]
   },
   {
@@ -144,16 +445,77 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo không nhường đường theo quy định, không báo hiệu bằng tay khi chuyển hướng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi",
-       "s_keyphrases": [], "v_keyphrases": ["dẫn dắt"], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chuyển hướng", "o": "Xe vật nuôi kéo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Báo hiệu bằng tay",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dẫn dắt",
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe kéo vật nuôi",
+          "Xe chở thú cưng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Nhường đường",
+          "Cho đi"
+        ],
+        "o_keyphrases": [
+          "Con đường",
+          "Đường phố"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển hướng",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Rẽ",
+          "Quay đầu"
+        ],
+        "o_keyphrases": [
+          "Xe kéo vật nuôi",
+          "Xe chở thú cưng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Báo hiệu bằng tay",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Ra hiệu bằng tay",
+          "Báo hiệu thủ công"
+        ]
+      }
     ]
   }
 ]

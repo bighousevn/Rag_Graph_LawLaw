@@ -7,19 +7,109 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng lái xe điều khiển xe khách giường nằm hai tầng, xe ô tô đưa đón trẻ em mầm non, học sinh chưa đủ số năm kinh nghiệm theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lái xe", "v": "Điều khiển", "o": "Xe khách giường nằm hai tầng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lái xe", "v": "Điều khiển", "o": "Xe đưa đón trẻ em mầm non và học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô đưa đón trẻ em mầm non, học sinh"]},
-      {"s": "Lái xe", "v": "Đủ", "o": "Kinh nghiệm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ]
+      },
+      {
+        "s": "Lái xe",
+        "v": "Điều khiển",
+        "o": "Xe khách giường nằm hai tầng",
+        "s_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe giường nằm",
+          "Xe khách hai tầng"
+        ]
+      },
+      {
+        "s": "Lái xe",
+        "v": "Điều khiển",
+        "o": "Xe đưa đón trẻ em mầm non và học sinh",
+        "s_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô đưa đón trẻ em mầm non, học sinh",
+          "Xe đưa đón học sinh",
+          "Xe đưa đón trẻ em"
+        ]
+      },
+      {
+        "s": "Lái xe",
+        "v": "Đủ",
+        "o": "Kinh nghiệm",
+        "s_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ],
+        "v_keyphrases": [
+          "Đầy",
+          "Thỏa mãn"
+        ],
+        "o_keyphrases": [
+          "Kiến thức",
+          "Kỹ năng"
+        ]
+      }
     ]
   },
   {
@@ -30,28 +120,177 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe kinh doanh vận tải hành khách theo hợp đồng mà trên xe không có hợp đồng vận tải, danh sách hành khách kèm theo, thiết bị để truy cập nội dung hợp đồng điện tử và danh sách hành khách theo quy định hoặc có hợp đồng vận tải, danh sách hành khách, thiết bị để truy cập nhưng không bảo đảm yêu cầu theo quy định, chở người không có tên trong danh sách hành khách hoặc vận chuyển không đúng đối tượng theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Xe kinh doanh vận tải hành khách theo hợp đồng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe kinh doanh vận tải hành khách theo hợp đồng", "v": "Có", "o": "Hợp đồng vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe kinh doanh vận tải hành khách theo hợp đồng", "v": "Có", "o": "Danh sách hành khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["danh sách hành khách kèm theo"]},
-      {"s": "Xe kinh doanh vận tải hành khách theo hợp đồng", "v": "Có", "o": "Thiết bị truy cập hợp đồng điện tử và danh sách hành khách",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["thiết bị để truy cập nội dung hợp đồng điện tử và danh sách hành khách", "thiết bị để truy cập"]},
-      {"s": "Xe kinh doanh vận tải hành khách theo hợp đồng", "v": "Bảo đảm", "o": "Yêu cầu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe kinh doanh vận tải hành khách theo hợp đồng", "v": "Chở", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thuộc", "o": "Danh sách hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe kinh doanh vận tải hành khách theo hợp đồng", "v": "Vận chuyển", "o": "Đối tượng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Xe kinh doanh vận tải hành khách theo hợp đồng",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Xe hợp đồng",
+          "Xe khách theo hợp đồng"
+        ]
+      },
+      {
+        "s": "Xe kinh doanh vận tải hành khách theo hợp đồng",
+        "v": "Có",
+        "o": "Hợp đồng vận tải",
+        "s_keyphrases": [
+          "Xe hợp đồng",
+          "Xe khách theo hợp đồng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Hợp đồng giao nhận",
+          "Hợp đồng vận chuyển"
+        ]
+      },
+      {
+        "s": "Xe kinh doanh vận tải hành khách theo hợp đồng",
+        "v": "Có",
+        "o": "Danh sách hành khách",
+        "s_keyphrases": [
+          "Xe hợp đồng",
+          "Xe khách theo hợp đồng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "danh sách hành khách kèm theo",
+          "Danh sách khách"
+        ]
+      },
+      {
+        "s": "Xe kinh doanh vận tải hành khách theo hợp đồng",
+        "v": "Có",
+        "o": "Thiết bị truy cập hợp đồng điện tử và danh sách hành khách",
+        "s_keyphrases": [
+          "Xe hợp đồng",
+          "Xe khách theo hợp đồng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "thiết bị để truy cập nội dung hợp đồng điện tử và danh sách hành khách",
+          "thiết bị để truy cập",
+          "Thiết bị truy cập hợp đồng",
+          "Thiết bị điện tử"
+        ]
+      },
+      {
+        "s": "Xe kinh doanh vận tải hành khách theo hợp đồng",
+        "v": "Bảo đảm",
+        "o": "Yêu cầu",
+        "s_keyphrases": [
+          "Xe hợp đồng",
+          "Xe khách theo hợp đồng"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Đòi hỏi",
+          "Tiêu chí"
+        ]
+      },
+      {
+        "s": "Xe kinh doanh vận tải hành khách theo hợp đồng",
+        "v": "Chở",
+        "o": "Người",
+        "s_keyphrases": [
+          "Xe hợp đồng",
+          "Xe khách theo hợp đồng"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thuộc",
+        "o": "Danh sách hành khách",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Danh sách khách"
+        ]
+      },
+      {
+        "s": "Xe kinh doanh vận tải hành khách theo hợp đồng",
+        "v": "Vận chuyển",
+        "o": "Đối tượng",
+        "s_keyphrases": [
+          "Xe hợp đồng",
+          "Xe khách theo hợp đồng"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Đối tượng áp dụng",
+          "Đối tượng liên quan"
+        ]
+      }
     ]
   },
   {
@@ -62,23 +301,144 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe ô tô kinh doanh vận tải không lắp thiết bị ghi nhận hình ảnh người lái xe theo quy định hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không ghi, không lưu trữ được dữ liệu trên xe trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Ô tô kinh doanh vận tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải"]},
-      {"s": "Ô tô kinh doanh vận tải", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Ghi", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lưu trữ", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Dành cho", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Ô tô kinh doanh vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải",
+          "Xe tải",
+          "Xe kinh doanh"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải",
+        "v": "Lắp",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Xe tải",
+          "Xe kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Ghi",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [
+          "Ghi chép",
+          "Ghi nhận"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lưu trữ",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Dành cho",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ]
+      }
     ]
   },
   {
@@ -89,22 +449,142 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không thực hiện việc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu thu thập từ thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Cung cấp", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Tổ chức", "v": "Cập nhật", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Truyền dẫn", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Lưu trữ", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Quản lý", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Thu thập", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Cung cấp",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cung ứng",
+          "Cung cấp dịch vụ"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Cập nhật",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Đổi mới"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Truyền dẫn",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Truyền tải"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Lưu trữ",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Quản lý",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Điều hành",
+          "Quản trị"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Thu thập",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [
+          "Tập hợp",
+          "Sưu tầm"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      }
     ]
   },
   {
@@ -115,18 +595,109 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng phương tiện kinh doanh vận tải có niên hạn sử dụng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Phương tiện kinh doanh vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện kinh doanh vận tải", "v": "Có", "o": "Niên hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Niên hạn sử dụng", "v": "Bảo đảm", "o": "Điều kiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Điều kiện", "v": "Dành cho", "o": "Hình thức kinh doanh",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Phương tiện kinh doanh vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Phương tiện vận tải",
+          "Xe kinh doanh"
+        ]
+      },
+      {
+        "s": "Phương tiện kinh doanh vận tải",
+        "v": "Có",
+        "o": "Niên hạn sử dụng",
+        "s_keyphrases": [
+          "Phương tiện vận tải",
+          "Xe kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Thời gian sử dụng",
+          "Thời hạn"
+        ]
+      },
+      {
+        "s": "Niên hạn sử dụng",
+        "v": "Bảo đảm",
+        "o": "Điều kiện",
+        "s_keyphrases": [
+          "Thời gian sử dụng",
+          "Thời hạn"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Tiêu chí",
+          "Yêu cầu"
+        ]
+      },
+      {
+        "s": "Điều kiện",
+        "v": "Dành cho",
+        "o": "Hình thức kinh doanh",
+        "s_keyphrases": [
+          "Tiêu chí",
+          "Yêu cầu"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Mô hình kinh doanh",
+          "Cách thức kinh doanh"
+        ]
+      }
     ]
   },
   {
@@ -137,8 +708,23 @@
       "Cá nhân vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Người dân",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Làm trái"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Quy tắc"
+        ]
+      }
     ]
   },
   {
@@ -149,16 +735,89 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không tổ chức khám sức khỏe định kỳ cho lái xe theo quy định hoặc có tổ chức khám nhưng không đầy đủ các nội dung theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Tổ chức", "o": "Khám sức khỏe định kỳ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Khám sức khỏe định kỳ", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
-      {"s": "Khám sức khỏe định kỳ", "v": "Đầy đủ", "o": "Nội dung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tổ chức",
+        "o": "Khám sức khỏe định kỳ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thành lập",
+          "Cơ quan"
+        ],
+        "o_keyphrases": [
+          "Khám sức khỏe thường niên"
+        ]
+      },
+      {
+        "s": "Khám sức khỏe định kỳ",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Khám sức khỏe thường niên"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ]
+      },
+      {
+        "s": "Khám sức khỏe định kỳ",
+        "v": "Đầy đủ",
+        "o": "Nội dung",
+        "s_keyphrases": [
+          "Khám sức khỏe thường niên"
+        ],
+        "v_keyphrases": [
+          "Trọn vẹn",
+          "Đầy đủ thông tin"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Nội dung tài liệu"
+        ]
+      }
     ]
   },
   {
@@ -169,16 +828,91 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải vi phạm quy định về kinh doanh, điều kiện kinh doanh vận tải bằng xe ô tô để xảy ra tai nạn giao thông gây hậu quả từ mức nghiêm trọng trở lên."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Vi phạm", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Gây", "o": "Tai nạn giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tai nạn giao thông", "v": "Gây", "o": "Hậu quả nghiêm trọng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Vi phạm",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Làm trái"
+        ],
+        "o_keyphrases": [
+          "Luật lệ",
+          "Quy tắc"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Gây",
+        "o": "Tai nạn giao thông",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn đường bộ"
+        ]
+      },
+      {
+        "s": "Tai nạn giao thông",
+        "v": "Gây",
+        "o": "Hậu quả nghiêm trọng",
+        "s_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Hệ quả nặng nề",
+          "Hậu quả lớn"
+        ]
+      }
     ]
   },
   {
@@ -189,23 +923,142 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe ô tô kinh doanh vận tải để đón, trả khách; nhận, trả hàng trên đường cao tốc."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Kinh doanh", "o": "Dịch vụ hỗ trợ vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Ô tô kinh doanh vận tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải"]},
-      {"s": "Ô tô kinh doanh vận tải", "v": "Đón", "o": "Khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải", "v": "Trả", "o": "Khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải", "v": "Nhận", "o": "Hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải", "v": "Trả", "o": "Hàng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô kinh doanh vận tải", "v": "Tại", "o": "Đường cao tốc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Kinh doanh",
+        "o": "Dịch vụ hỗ trợ vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện kinh doanh",
+          "Hoạt động kinh doanh"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ hỗ trợ giao thông",
+          "Dịch vụ hỗ trợ vận chuyển"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Ô tô kinh doanh vận tải",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải",
+          "Xe tải",
+          "Xe kinh doanh"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải",
+        "v": "Đón",
+        "o": "Khách",
+        "s_keyphrases": [
+          "Xe tải",
+          "Xe kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Đón tiếp",
+          "Nhận"
+        ],
+        "o_keyphrases": [
+          "Hành khách",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải",
+        "v": "Trả",
+        "o": "Khách",
+        "s_keyphrases": [
+          "Xe tải",
+          "Xe kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Hoàn trả",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Hành khách",
+          "Người đi"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải",
+        "v": "Nhận",
+        "o": "Hàng",
+        "s_keyphrases": [
+          "Xe tải",
+          "Xe kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Tiếp nhận",
+          "Nhận được"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải",
+        "v": "Trả",
+        "o": "Hàng",
+        "s_keyphrases": [
+          "Xe tải",
+          "Xe kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Hoàn trả",
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa",
+          "Sản phẩm"
+        ]
+      },
+      {
+        "s": "Ô tô kinh doanh vận tải",
+        "v": "Tại",
+        "o": "Đường cao tốc",
+        "s_keyphrases": [
+          "Xe tải",
+          "Xe kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Đường nhanh"
+        ]
+      }
     ]
   },
   {
@@ -216,22 +1069,144 @@
       "Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị giám sát hành trình của xe ô tô, đơn vị cung cấp dịch vụ liên quan đến giám sát hành trình, ghi nhận hình ảnh người lái xe không có nhân sự cho từng vị trí công việc theo quy định."
     ],
     "triplets": [
-      {"s": "Đơn vị", "v": "Sản xuất", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Lắp ráp", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Nhập khẩu", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Dành cho", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Đơn vị", "v": "Cung cấp", "o": "Dịch vụ giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Cung cấp", "o": "Dịch vụ ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đơn vị", "v": "Có", "o": "Nhân sự",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nhân sự", "v": "Dành cho", "o": "Vị trí công việc",
-       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []}
+      {
+        "s": "Đơn vị",
+        "v": "Sản xuất",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Chế tạo",
+          "Sản xuất hàng hóa"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Lắp ráp",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Ghép nối",
+          "Kết hợp"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Nhập khẩu",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Nhập vào",
+          "Nhập khẩu hàng hóa"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Dành cho",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Cung cấp",
+        "o": "Dịch vụ giám sát hành trình",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Cung ứng",
+          "Cung cấp dịch vụ"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ theo dõi hành trình",
+          "Dịch vụ định vị"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Cung cấp",
+        "o": "Dịch vụ ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Cung ứng",
+          "Cung cấp dịch vụ"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ giám sát lái xe",
+          "Dịch vụ ghi hình lái xe"
+        ]
+      },
+      {
+        "s": "Đơn vị",
+        "v": "Có",
+        "o": "Nhân sự",
+        "s_keyphrases": [
+          "Cơ sở",
+          "Tổ chức"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Nhân viên",
+          "Cán bộ"
+        ]
+      },
+      {
+        "s": "Nhân sự",
+        "v": "Dành cho",
+        "o": "Vị trí công việc",
+        "s_keyphrases": [
+          "Nhân viên",
+          "Cán bộ"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Chức vụ",
+          "Vị trí làm việc"
+        ]
+      }
     ]
   }
 ]

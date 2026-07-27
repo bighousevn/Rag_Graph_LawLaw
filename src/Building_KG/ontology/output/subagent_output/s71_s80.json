@@ -7,15 +7,74 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường rộng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Dừng", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Lề đường rộng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Lề đường rộng",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Lề rộng",
+          "Lề đường lớn"
+        ]
+      }
     ]
   },
   {
@@ -26,15 +85,77 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô dừng xe không sát theo lề đường, vỉa hè phía bên phải theo chiều đi."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Dừng", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sát", "o": "Lề đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sát", "o": "Vỉa hè",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sát",
+        "o": "Lề đường",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gần",
+          "Bên cạnh"
+        ],
+        "o_keyphrases": [
+          "Lề",
+          "Bên đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sát",
+        "o": "Vỉa hè",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gần",
+          "Bên cạnh"
+        ],
+        "o_keyphrases": [
+          "Lề đường đi bộ",
+          "Đường đi bộ"
+        ]
+      }
     ]
   },
   {
@@ -45,11 +166,43 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Chạy quá tốc độ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chạy quá tốc độ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Vượt quá tốc độ",
+          "Chạy vượt tốc độ"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      }
     ]
   },
   {
@@ -60,19 +213,111 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô sử dụng còi, rú ga liên tục hoặc sử dụng còi hơi, sử dụng đèn chiếu xa khi gặp người đi bộ qua đường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Còi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Rú ga", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Còi hơi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Đèn chiếu xa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gặp", "o": "Người đi bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Còi",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Âm thanh cảnh báo",
+          "Còi xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Rú ga",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Tăng ga",
+          "Vặn ga"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Còi hơi",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Còi xe hơi",
+          "Còi khí"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Đèn chiếu xa",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Đèn pha",
+          "Đèn chiếu sáng xa"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gặp",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gặp gỡ",
+          "Đối diện"
+        ],
+        "o_keyphrases": [
+          "Peđê",
+          "Người đi bộ qua đường"
+        ]
+      }
     ]
   },
   {
@@ -83,15 +328,77 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô chuyển hướng không quan sát hoặc không bảo đảm khoảng cách an toàn với xe phía sau."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Chuyển hướng", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Bảo đảm khoảng cách an toàn", "o": "Xe phía sau",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển hướng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Rẽ",
+          "Quẹo"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Nhìn",
+          "Theo dõi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bảo đảm khoảng cách an toàn",
+        "o": "Xe phía sau",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Giữ khoảng cách an toàn",
+          "Đảm bảo khoảng cách"
+        ],
+        "o_keyphrases": [
+          "Xe sau",
+          "Phương tiện phía sau"
+        ]
+      }
     ]
   },
   {
@@ -102,17 +409,88 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Dừng", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đường bộ", "v": "Giao nhau cùng mức", "o": "Đường sắt",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường bộ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Đường bộ",
+        "v": "Giao nhau cùng mức",
+        "o": "Đường sắt",
+        "s_keyphrases": [
+          "Đường giao thông",
+          "Mặt đường"
+        ],
+        "v_keyphrases": [
+          "Giao nhau đồng mức",
+          "Giao cắt cùng mức"
+        ],
+        "o_keyphrases": [
+          "Đường ray",
+          "Đường tàu"
+        ]
+      }
     ]
   },
   {
@@ -123,15 +501,74 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô dừng xe, đỗ xe tại vị trí nơi đường bộ giao nhau hoặc trong phạm vi 05 mét tính từ mép đường giao nhau."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Dừng", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Nơi đường bộ giao nhau",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Nơi đường bộ giao nhau",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Điểm giao nhau",
+          "Nơi giao cắt"
+        ]
+      }
     ]
   },
   {
@@ -142,15 +579,77 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô đỗ xe không sát theo lề đường, vỉa hè phía bên phải theo chiều đi."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sát", "o": "Lề đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sát", "o": "Vỉa hè",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sát",
+        "o": "Lề đường",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gần",
+          "Bên cạnh"
+        ],
+        "o_keyphrases": [
+          "Lề",
+          "Bên đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sát",
+        "o": "Vỉa hè",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gần",
+          "Bên cạnh"
+        ],
+        "o_keyphrases": [
+          "Lề đường đi bộ",
+          "Đường đi bộ"
+        ]
+      }
     ]
   },
   {
@@ -161,11 +660,43 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không sử dụng hoặc sử dụng không đủ đèn chiếu sáng trong thời gian từ 18 giờ đến 06 giờ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Đèn chiếu sáng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Đèn chiếu sáng",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Đèn đường",
+          "Đèn chiếu sáng giao thông"
+        ]
+      }
     ]
   },
   {
@@ -176,15 +707,77 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô điều khiển xe ô tô kéo theo xe khác, vật khác hoặc không nối chắc chắn, an toàn giữa xe kéo và xe được kéo khi kéo nhau."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Kéo", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Kéo", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nối", "o": "Xe khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Kéo dài",
+          "Kéo theo"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe cộ khác"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Kéo dài",
+          "Kéo theo"
+        ],
+        "o_keyphrases": [
+          "Đối tượng khác",
+          "Chướng ngại vật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nối",
+        "o": "Xe khác",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Kết nối",
+          "Liên kết"
+        ],
+        "o_keyphrases": [
+          "Phương tiện khác",
+          "Xe cộ khác"
+        ]
+      }
     ]
   }
 ]

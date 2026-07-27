@@ -11,9 +11,15 @@
         "s": "Cơ sở thử nghiệm, chứng nhận",
         "v": "Phân công",
         "o": "Người không đủ điều kiện",
-        "s_keyphrases": ["cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong sản xuất, lắp ráp và nhập khẩu"],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong sản xuất, lắp ráp và nhập khẩu"
+        ],
+        "v_keyphrases": [
+          "Giao nhiệm vụ"
+        ],
+        "o_keyphrases": [
+          "Người không đủ tiêu chuẩn"
+        ]
       },
       {
         "s": "Người",
@@ -27,17 +33,32 @@
         "s": "Người không đủ điều kiện",
         "v": "Thực hiện",
         "o": "Thử nghiệm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người không đủ tiêu chuẩn"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Kiểm tra",
+          "Thí nghiệm"
+        ]
       },
       {
         "s": "Người không đủ điều kiện",
         "v": "Thực hiện",
         "o": "Chứng nhận",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người không đủ tiêu chuẩn"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận"
+        ]
       }
     ]
   },
@@ -53,33 +74,69 @@
         "s": "Cơ sở thử nghiệm, chứng nhận",
         "v": "Sử dụng",
         "o": "Thiết bị",
-        "s_keyphrases": ["cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Máy móc"
+        ]
       },
       {
         "s": "Cơ sở thử nghiệm, chứng nhận",
         "v": "Sử dụng",
         "o": "Dụng cụ",
-        "s_keyphrases": ["cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị",
+          "Công cụ"
+        ]
       },
       {
         "s": "Thiết bị",
         "v": "Bảo đảm",
         "o": "Quy định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": ["quy định của pháp luật về đo lường"]
+        "s_keyphrases": [
+          "Dụng cụ",
+          "Máy móc"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "quy định của pháp luật về đo lường",
+          "Điều lệ",
+          "Chính sách"
+        ]
       },
       {
         "s": "Dụng cụ",
         "v": "Bảo đảm",
         "o": "Quy định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": ["quy định của pháp luật về đo lường"]
+        "s_keyphrases": [
+          "Thiết bị",
+          "Công cụ"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "quy định của pháp luật về đo lường",
+          "Điều lệ",
+          "Chính sách"
+        ]
       }
     ]
   },
@@ -95,9 +152,13 @@
         "s": "Cơ sở thử nghiệm, chứng nhận",
         "v": "Có",
         "o": "Đăng kiểm viên",
-        "s_keyphrases": ["cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"],
+        "s_keyphrases": [
+          "cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"
+        ],
         "v_keyphrases": [],
-        "o_keyphrases": []
+        "o_keyphrases": [
+          "Nhân viên đăng kiểm"
+        ]
       }
     ]
   },
@@ -113,25 +174,42 @@
         "s": "Cơ sở thử nghiệm, chứng nhận",
         "v": "Lưu trữ",
         "o": "Hồ sơ",
-        "s_keyphrases": ["cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ"
+        ],
+        "o_keyphrases": [
+          "Tài liệu"
+        ]
       },
       {
         "s": "Cơ sở thử nghiệm, chứng nhận",
         "v": "Lưu trữ",
         "o": "Tài liệu",
-        "s_keyphrases": ["cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ"
+        ],
         "o_keyphrases": []
       },
       {
         "s": "Cơ sở thử nghiệm, chứng nhận",
         "v": "Lưu trữ",
         "o": "Dữ liệu",
-        "s_keyphrases": ["cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"],
-        "v_keyphrases": [],
-        "o_keyphrases": ["dữ liệu chứng nhận"]
+        "s_keyphrases": [
+          "cơ sở thử nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ"
+        ],
+        "o_keyphrases": [
+          "dữ liệu chứng nhận",
+          "Thông tin"
+        ]
       }
     ]
   },
@@ -147,41 +225,76 @@
         "s": "Cơ sở đăng kiểm",
         "v": "Kiểm định",
         "o": "Xe cơ giới",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "o_keyphrases": [
+          "Phương tiện cơ giới"
+        ]
       },
       {
         "s": "Cơ sở đăng kiểm",
         "v": "Kiểm định",
         "o": "Xe máy chuyên dùng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng"
+        ]
       },
       {
         "s": "Cơ sở đăng kiểm",
         "v": "Cấp",
         "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": ["giấy chứng nhận kiểm định"]
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Cấp phát"
+        ],
+        "o_keyphrases": [
+          "giấy chứng nhận kiểm định",
+          "Giấy chứng nhận an toàn kỹ thuật"
+        ]
       },
       {
         "s": "Cơ sở đăng kiểm",
         "v": "Kiểm định",
         "o": "Khí thải",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "o_keyphrases": [
+          "Khí thải xe",
+          "Khí thải động cơ"
+        ]
       },
       {
         "s": "Khí thải",
         "v": "Thuộc",
         "o": "Xe máy",
-        "s_keyphrases": [],
+        "s_keyphrases": [
+          "Khí thải xe",
+          "Khí thải động cơ"
+        ],
         "v_keyphrases": [],
-        "o_keyphrases": ["xe mô tô", "xe gắn máy"]
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy"
+        ]
       }
     ]
   },
@@ -197,8 +310,13 @@
         "s": "Cơ sở đăng kiểm",
         "v": "Đưa ra",
         "o": "Yêu cầu",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Trình bày",
+          "Nêu"
+        ],
         "o_keyphrases": []
       },
       {
@@ -206,8 +324,14 @@
         "v": "Đúng",
         "o": "Quy định",
         "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": ["quy định về trình tự, thủ tục đăng kiểm"]
+        "v_keyphrases": [
+          "Chính xác"
+        ],
+        "o_keyphrases": [
+          "quy định về trình tự, thủ tục đăng kiểm",
+          "Điều lệ",
+          "Chính sách"
+        ]
       }
     ]
   },
@@ -223,9 +347,16 @@
         "s": "Cơ sở đăng kiểm",
         "v": "Cung cấp",
         "o": "Dịch vụ kiểm định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Trung tâm đăng kiểm"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ kiểm tra"
+        ]
       }
     ]
   },
@@ -241,17 +372,39 @@
         "s": "Cơ sở sản xuất, lắp ráp, nhập khẩu, bảo hành, bảo dưỡng",
         "v": "Sử dụng",
         "o": "Tài liệu giả",
-        "s_keyphrases": ["cơ sở sản xuất, lắp ráp", "cơ sở nhập khẩu", "cơ sở bảo hành, bảo dưỡng", "tổ chức, cá nhân được ủy quyền"],
-        "v_keyphrases": [],
-        "o_keyphrases": ["hồ sơ"]
+        "s_keyphrases": [
+          "cơ sở sản xuất, lắp ráp",
+          "cơ sở nhập khẩu",
+          "cơ sở bảo hành, bảo dưỡng",
+          "tổ chức, cá nhân được ủy quyền"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "hồ sơ",
+          "Giấy tờ giả"
+        ]
       },
       {
         "s": "Cơ sở sản xuất, lắp ráp, nhập khẩu, bảo hành, bảo dưỡng",
         "v": "Cung cấp",
         "o": "Tài liệu giả",
-        "s_keyphrases": ["cơ sở sản xuất, lắp ráp", "cơ sở nhập khẩu", "cơ sở bảo hành, bảo dưỡng", "tổ chức, cá nhân được ủy quyền"],
-        "v_keyphrases": [],
-        "o_keyphrases": ["hồ sơ"]
+        "s_keyphrases": [
+          "cơ sở sản xuất, lắp ráp",
+          "cơ sở nhập khẩu",
+          "cơ sở bảo hành, bảo dưỡng",
+          "tổ chức, cá nhân được ủy quyền"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "hồ sơ",
+          "Giấy tờ giả"
+        ]
       }
     ]
   },
@@ -267,33 +420,75 @@
         "s": "Cơ sở sản xuất, lắp ráp, nhập khẩu, bảo hành, bảo dưỡng",
         "v": "Sử dụng",
         "o": "Thiết bị",
-        "s_keyphrases": ["cơ sở sản xuất, lắp ráp", "cơ sở nhập khẩu", "cơ sở bảo hành, bảo dưỡng", "tổ chức, cá nhân được ủy quyền"],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "cơ sở sản xuất, lắp ráp",
+          "cơ sở nhập khẩu",
+          "cơ sở bảo hành, bảo dưỡng",
+          "tổ chức, cá nhân được ủy quyền"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Máy móc"
+        ]
       },
       {
         "s": "Cơ sở sản xuất, lắp ráp, nhập khẩu, bảo hành, bảo dưỡng",
         "v": "Sử dụng",
         "o": "Dụng cụ",
-        "s_keyphrases": ["cơ sở sản xuất, lắp ráp", "cơ sở nhập khẩu", "cơ sở bảo hành, bảo dưỡng", "tổ chức, cá nhân được ủy quyền"],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "cơ sở sản xuất, lắp ráp",
+          "cơ sở nhập khẩu",
+          "cơ sở bảo hành, bảo dưỡng",
+          "tổ chức, cá nhân được ủy quyền"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị",
+          "Công cụ"
+        ]
       },
       {
         "s": "Thiết bị",
         "v": "Bảo đảm",
         "o": "Quy định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": ["quy định của pháp luật về đo lường"]
+        "s_keyphrases": [
+          "Dụng cụ",
+          "Máy móc"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "quy định của pháp luật về đo lường",
+          "Điều lệ",
+          "Chính sách"
+        ]
       },
       {
         "s": "Dụng cụ",
         "v": "Bảo đảm",
         "o": "Quy định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": ["quy định của pháp luật về đo lường"]
+        "s_keyphrases": [
+          "Thiết bị",
+          "Công cụ"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "quy định của pháp luật về đo lường",
+          "Điều lệ",
+          "Chính sách"
+        ]
       }
     ]
   },
@@ -309,8 +504,12 @@
         "s": "Chứng chỉ đăng kiểm viên",
         "v": "Tước",
         "o": "Quyền sử dụng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Giấy chứng nhận đăng kiểm viên"
+        ],
+        "v_keyphrases": [
+          "Rút lại"
+        ],
         "o_keyphrases": []
       }
     ]

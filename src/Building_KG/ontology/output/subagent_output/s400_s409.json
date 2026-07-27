@@ -7,11 +7,41 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy thực hiện hành vi quy định tại khoản 3 Điều này bị trừ điểm giấy phép lái xe 06 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người", "v": "Trừ", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trừ",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Bằng lái xe"
+        ]
+      }
     ]
   },
   {
@@ -22,18 +52,92 @@
       "Người điều khiển xe thô sơ điều khiển xe không có bộ phận phát âm thanh cảnh báo, không có đèn chiếu sáng hoặc tấm phản quang phía trước, không có đèn tín hiệu hoặc tấm phản quang phía sau xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe thô sơ", "v": "Có", "o": "Bộ phận phát âm thanh cảnh báo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe thô sơ", "v": "Có", "o": "Đèn chiếu sáng phía trước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe thô sơ", "v": "Có", "o": "Tấm phản quang phía trước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe thô sơ", "v": "Có", "o": "Đèn tín hiệu phía sau",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe thô sơ", "v": "Có", "o": "Tấm phản quang phía sau",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Có",
+        "o": "Bộ phận phát âm thanh cảnh báo",
+        "s_keyphrases": [
+          "Phương tiện thô sơ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Thiết bị cảnh báo"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Có",
+        "o": "Đèn chiếu sáng phía trước",
+        "s_keyphrases": [
+          "Phương tiện thô sơ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Đèn trước"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Có",
+        "o": "Tấm phản quang phía trước",
+        "s_keyphrases": [
+          "Phương tiện thô sơ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Tấm phản quang trước"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Có",
+        "o": "Đèn tín hiệu phía sau",
+        "s_keyphrases": [
+          "Phương tiện thô sơ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Đèn báo phía sau"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Có",
+        "o": "Tấm phản quang phía sau",
+        "s_keyphrases": [
+          "Phương tiện thô sơ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Tấm phản quang sau"
+        ]
+      }
     ]
   },
   {
@@ -44,12 +148,50 @@
       "Người điều khiển xe thô sơ điều khiển xe không có hệ thống hãm hoặc có nhưng không có hiệu lực."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe thô sơ", "v": "Có", "o": "Hệ thống hãm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hệ thống hãm", "v": "Có", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Có",
+        "o": "Hệ thống hãm",
+        "s_keyphrases": [
+          "Phương tiện thô sơ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Hệ thống phanh"
+        ]
+      },
+      {
+        "s": "Hệ thống hãm",
+        "v": "Có",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Hệ thống phanh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Thời hạn hiệu lực"
+        ]
+      }
     ]
   },
   {
@@ -60,10 +202,37 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe không gắn biển số."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Gắn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Gắn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Lắp đặt"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -74,16 +243,82 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe không có hệ thống hãm hoặc có hệ thống hãm nhưng không bảo đảm tiêu chuẩn kỹ thuật, điều khiển xe có hệ thống chuyển hướng không bảo đảm tiêu chuẩn kỹ thuật."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Hệ thống hãm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hệ thống hãm", "v": "Bảo đảm", "o": "Tiêu chuẩn kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Hệ thống chuyển hướng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hệ thống chuyển hướng", "v": "Bảo đảm", "o": "Tiêu chuẩn kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Hệ thống hãm",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Hệ thống phanh"
+        ]
+      },
+      {
+        "s": "Hệ thống hãm",
+        "v": "Bảo đảm",
+        "o": "Tiêu chuẩn kỹ thuật",
+        "s_keyphrases": [
+          "Hệ thống phanh"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Hệ thống chuyển hướng",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Hệ thống lái",
+          "Cơ cấu lái"
+        ]
+      },
+      {
+        "s": "Hệ thống chuyển hướng",
+        "v": "Bảo đảm",
+        "o": "Tiêu chuẩn kỹ thuật",
+        "s_keyphrases": [
+          "Hệ thống lái",
+          "Cơ cấu lái"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn"
+        ]
+      }
     ]
   },
   {
@@ -94,14 +329,65 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe có các bộ phận chuyên dùng lắp đặt không đúng vị trí, không bảo đảm an toàn khi di chuyển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Bộ phận chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ phận chuyên dùng", "v": "Đúng", "o": "Vị trí",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ phận chuyên dùng", "v": "Bảo đảm", "o": "An toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Bộ phận chuyên dùng",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Thiết bị chuyên dụng"
+        ]
+      },
+      {
+        "s": "Bộ phận chuyên dùng",
+        "v": "Đúng",
+        "o": "Vị trí",
+        "s_keyphrases": [
+          "Thiết bị chuyên dụng"
+        ],
+        "v_keyphrases": [
+          "Chính xác"
+        ],
+        "o_keyphrases": [
+          "Địa điểm"
+        ]
+      },
+      {
+        "s": "Bộ phận chuyên dùng",
+        "v": "Bảo đảm",
+        "o": "An toàn",
+        "s_keyphrases": [
+          "Thiết bị chuyên dụng"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Bảo đảm an toàn"
+        ]
+      }
     ]
   },
   {
@@ -112,16 +398,81 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe không có đủ đèn chiếu sáng, không có bộ phận giảm thanh, giảm khói hoặc có nhưng không có tác dụng, không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Đèn chiếu sáng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Bộ phận giảm thanh, giảm khói",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ phận giảm thanh, giảm khói", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Bảo đảm", "o": "Quy chuẩn môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Đèn chiếu sáng",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Đèn pha"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Bộ phận giảm thanh, giảm khói",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Bộ phận giảm tiếng ồn",
+          "Bộ phận lọc khí"
+        ]
+      },
+      {
+        "s": "Bộ phận giảm thanh, giảm khói",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Bộ phận giảm tiếng ồn",
+          "Bộ phận lọc khí"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Chức năng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn môi trường",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn môi trường"
+        ]
+      }
     ]
   },
   {
@@ -132,13 +483,53 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường nhưng đã hết hiệu lực dưới 01 tháng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"]},
-      {"s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường", "v": "Có", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+          "Giấy kiểm định",
+          "Giấy chứng nhận an toàn"
+        ]
+      },
+      {
+        "s": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "v": "Có",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận an toàn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu"
+        ],
+        "o_keyphrases": [
+          "Thời hạn hiệu lực"
+        ]
+      }
     ]
   },
   {
@@ -149,30 +540,192 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí, không đúng quy cách theo quy định, gắn biển số không rõ chữ, số hoặc sử dụng chất liệu khác sơn, dán lên chữ, số của biển số xe, gắn biển số bị bẻ cong, che lấp, làm thay đổi chữ, số, màu sắc, hình dạng, kích thước của biển số xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Gắn đủ", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Gắn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Đúng", "o": "Vị trí",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Đúng", "o": "Quy cách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Rõ", "o": "Chữ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Rõ", "o": "Số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sơn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dán", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Bẻ cong", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Che lấp", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thay đổi", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Gắn đủ",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Lắp đặt đầy đủ"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Gắn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Lắp đặt"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Đúng",
+        "o": "Vị trí",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác"
+        ],
+        "o_keyphrases": [
+          "Địa điểm"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Đúng",
+        "o": "Quy cách",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác"
+        ],
+        "o_keyphrases": [
+          "Quy định"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Rõ",
+        "o": "Chữ",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ],
+        "v_keyphrases": [
+          "Rõ ràng"
+        ],
+        "o_keyphrases": [
+          "Ký tự"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Rõ",
+        "o": "Số",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ],
+        "v_keyphrases": [
+          "Rõ ràng"
+        ],
+        "o_keyphrases": [
+          "Mã số"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sơn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phủ sơn"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dán",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dán nhãn"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bẻ cong",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Uốn cong"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Che lấp",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Che khuất"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thay đổi",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -183,10 +736,36 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe hoạt động không đúng phạm vi quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Đúng", "o": "Phạm vi quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Đúng",
+        "o": "Phạm vi quy định",
+        "s_keyphrases": [
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Chính xác"
+        ],
+        "o_keyphrases": [
+          "Giới hạn quy định"
+        ]
+      }
     ]
   }
 ]

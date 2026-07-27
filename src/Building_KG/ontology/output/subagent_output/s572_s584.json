@@ -7,8 +7,24 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không thực hiện việc niêm yết thông tin trên xe theo quy định hoặc có niêm yết nhưng không chính xác, không đầy đủ thông tin theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Niêm yết", "o": "Thông tin",
-       "s_keyphrases": ["tổ chức dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Niêm yết",
+        "o": "Thông tin",
+        "s_keyphrases": [
+          "tổ chức dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Đăng công khai",
+          "Công bố"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Tin tức"
+        ]
+      }
     ]
   },
   {
@@ -19,10 +35,39 @@
       "Tổ chức xếp hàng hóa lên mỗi xe ô tô (kể cả rơ moóc và sơ mi rơ moóc) vượt quá trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 100%."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Xếp", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Tại", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["rơ moóc", "sơ mi rơ moóc"]}
+      {
+        "s": "Tổ chức",
+        "v": "Xếp",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp",
+          "Đặt"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Vật phẩm"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Tại",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Vật phẩm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "rơ moóc",
+          "sơ mi rơ moóc",
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      }
     ]
   },
   {
@@ -33,12 +78,55 @@
       "Tổ chức kinh doanh vận tải sử dụng xe vận chuyển động vật sống không có kết cấu phù hợp với loại động vật chuyên chở theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe"]},
-      {"s": "Ô tô", "v": "Vận chuyển", "o": "Động vật sống",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Kết cấu phù hợp",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "xe",
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Vận chuyển",
+        "o": "Động vật sống",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyển"
+        ],
+        "o_keyphrases": [
+          "Động vật",
+          "Gia súc"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Kết cấu phù hợp",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Cấu trúc thích hợp",
+          "Kết cấu đúng tiêu chuẩn"
+        ]
+      }
     ]
   },
   {
@@ -49,13 +137,53 @@
       "Tổ chức kinh doanh vận tải sử dụng xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh không có thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh hoặc không có thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh", "xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh"]},
-      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Thiết bị ghi nhận hình ảnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Thiết bị cảnh báo chống bỏ quên trẻ em",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Xe chở trẻ em mầm non, học sinh",
+        "v": "Có",
+        "o": "Thiết bị ghi nhận hình ảnh",
+        "s_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Camera",
+          "Thiết bị ghi hình"
+        ]
+      },
+      {
+        "s": "Xe chở trẻ em mầm non, học sinh",
+        "v": "Có",
+        "o": "Thiết bị cảnh báo chống bỏ quên trẻ em",
+        "s_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thiết bị cảnh báo trẻ em",
+          "Thiết bị an toàn trẻ em"
+        ]
+      }
     ]
   },
   {
@@ -66,11 +194,38 @@
       "Tổ chức kinh doanh vận tải sử dụng xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh không có màu sơn theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh"]},
-      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Màu sơn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Xe chở trẻ em mầm non, học sinh",
+        "v": "Có",
+        "o": "Màu sơn",
+        "s_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Màu phủ",
+          "Màu hoàn thiện"
+        ]
+      }
     ]
   },
   {
@@ -81,11 +236,39 @@
       "Tổ chức kinh doanh vận tải sử dụng xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh không có biển báo dấu hiệu nhận biết là xe chở trẻ em mầm non, học sinh theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Xe chở trẻ em mầm non, học sinh",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh", "xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh"]},
-      {"s": "Xe chở trẻ em mầm non, học sinh", "v": "Có", "o": "Biển báo dấu hiệu nhận biết",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Xe chở trẻ em mầm non, học sinh",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh",
+          "xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh",
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ]
+      },
+      {
+        "s": "Xe chở trẻ em mầm non, học sinh",
+        "v": "Có",
+        "o": "Biển báo dấu hiệu nhận biết",
+        "s_keyphrases": [
+          "Xe đưa đón học sinh",
+          "Xe chở trẻ em"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển báo giao thông",
+          "Biển báo chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -96,18 +279,106 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không thực hiện việc cung cấp, cập nhật, truyền, lưu trữ, quản lý thông tin, dữ liệu từ thiết bị giám sát hành trình theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Cung cấp", "o": "Dữ liệu",
-       "s_keyphrases": ["tổ chức dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": ["thông tin"]},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Cập nhật", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Truyền", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Lưu trữ", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Quản lý", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Cung cấp",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "tổ chức dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Cập nhật",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Đổi mới"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Truyền",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Truyền tải"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Lưu trữ",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Quản lý",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Điều hành",
+          "Kiểm soát"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      }
     ]
   },
   {
@@ -118,8 +389,24 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không thực hiện đúng nội dung thông tin đã niêm yết trên xe theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Thực hiện", "o": "Thông tin",
-       "s_keyphrases": ["tổ chức dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Thực hiện",
+        "o": "Thông tin",
+        "s_keyphrases": [
+          "tổ chức dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Tin tức"
+        ]
+      }
     ]
   },
   {
@@ -130,18 +417,107 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng phương tiện kinh doanh vận tải không lắp thiết bị giám sát hành trình của xe hoặc lắp thiết bị nhưng thiết bị không hoạt động, không đúng quy chuẩn theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình của xe ô tô."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Ô tô",
-       "s_keyphrases": ["tổ chức dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": ["phương tiện kinh doanh vận tải"]},
-      {"s": "Ô tô", "v": "Lắp", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Thực hiện", "o": "Hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Đúng", "o": "Quy chuẩn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Từ", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "tổ chức dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "phương tiện kinh doanh vận tải",
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Lắp",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Thực hiện",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Chức năng",
+          "Hoạt động vận tải"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Đúng",
+        "o": "Quy chuẩn",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn",
+          "Quy định"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Xuyên tạc"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Từ",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      }
     ]
   },
   {
@@ -152,10 +528,41 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe trung chuyển chở hành khách không đúng quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Xe trung chuyển",
-       "s_keyphrases": ["tổ chức dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe trung chuyển", "v": "Chở", "o": "Hành khách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Xe trung chuyển",
+        "s_keyphrases": [
+          "tổ chức dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Xe chuyển tiếp",
+          "Xe trung gian"
+        ]
+      },
+      {
+        "s": "Xe trung chuyển",
+        "v": "Chở",
+        "o": "Hành khách",
+        "s_keyphrases": [
+          "Xe chuyển tiếp",
+          "Xe trung gian"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đưa"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
+      }
     ]
   }
 ]

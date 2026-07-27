@@ -44,22 +44,74 @@
     ],
     "triplets": [
       {
-        "s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Cá nhân",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tổ chức"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Làm trái"
+        ],
+        "o_keyphrases": [
+          "An toàn giao thông",
+          "Trật tự giao thông"
+        ]
       },
       {
-        "s": "Cá nhân", "v": "Tại", "o": "Lãnh thổ Việt Nam",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam"]
+        "s": "Cá nhân",
+        "v": "Tại",
+        "o": "Lãnh thổ Việt Nam",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tổ chức"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam",
+          "Địa bàn Việt Nam",
+          "Khu vực Việt Nam"
+        ]
       },
       {
-        "s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Tổ chức xã hội",
+          "Tổ chức phi lợi nhuận"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Làm trái"
+        ],
+        "o_keyphrases": [
+          "An toàn giao thông",
+          "Trật tự giao thông"
+        ]
       },
       {
-        "s": "Tổ chức", "v": "Tại", "o": "Lãnh thổ Việt Nam",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam"]
+        "s": "Tổ chức",
+        "v": "Tại",
+        "o": "Lãnh thổ Việt Nam",
+        "s_keyphrases": [
+          "Tổ chức xã hội",
+          "Tổ chức phi lợi nhuận"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam",
+          "Địa bàn Việt Nam",
+          "Khu vực Việt Nam"
+        ]
       }
     ]
   },
@@ -72,8 +124,21 @@
     ],
     "triplets": [
       {
-        "s": "Cơ quan nhà nước", "v": "Thuộc", "o": "Nhiệm vụ quản lý nhà nước",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Cơ quan nhà nước",
+        "v": "Thuộc",
+        "o": "Nhiệm vụ quản lý nhà nước",
+        "s_keyphrases": [
+          "Cơ quan công quyền",
+          "Cơ quan nhà nước có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Của"
+        ],
+        "o_keyphrases": [
+          "Nhiệm vụ của cơ quan nhà nước",
+          "Trách nhiệm quản lý nhà nước"
+        ]
       }
     ]
   },
@@ -104,29 +169,106 @@
     ],
     "triplets": [
       {
-        "s": "Tổ chức kinh tế", "v": "Theo", "o": "Luật Doanh nghiệp",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Theo",
+        "o": "Luật Doanh nghiệp",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Dựa theo",
+          "Theo quy định"
+        ],
+        "o_keyphrases": [
+          "Luật DN",
+          "Luật về doanh nghiệp"
+        ]
       },
       {
-        "s": "Tổ chức kinh tế", "v": "Gồm", "o": "Doanh nghiệp tư nhân",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Gồm",
+        "o": "Doanh nghiệp tư nhân",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Doanh nghiệp cá nhân"
+        ]
       },
       {
-        "s": "Tổ chức kinh tế", "v": "Gồm", "o": "Công ty cổ phần",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Gồm",
+        "o": "Công ty cổ phần",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Công ty CP",
+          "Công ty cổ phần hóa"
+        ]
       },
       {
-        "s": "Tổ chức kinh tế", "v": "Gồm", "o": "Công ty trách nhiệm hữu hạn",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Gồm",
+        "o": "Công ty trách nhiệm hữu hạn",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Công ty TNHH",
+          "Công ty trách nhiệm hữu hạn một thành viên"
+        ]
       },
       {
-        "s": "Tổ chức kinh tế", "v": "Gồm", "o": "Công ty hợp danh",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Gồm",
+        "o": "Công ty hợp danh",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Công ty liên doanh"
+        ]
       },
       {
-        "s": "Tổ chức kinh tế", "v": "Gồm", "o": "Đơn vị phụ thuộc doanh nghiệp",
-        "s_keyphrases": [], "v_keyphrases": [],
-        "o_keyphrases": ["chi nhánh", "văn phòng đại diện"]
+        "s": "Tổ chức kinh tế",
+        "v": "Gồm",
+        "o": "Đơn vị phụ thuộc doanh nghiệp",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "chi nhánh",
+          "văn phòng đại diện",
+          "Chi nhánh doanh nghiệp",
+          "Đơn vị trực thuộc"
+        ]
       }
     ]
   },
@@ -139,20 +281,72 @@
     ],
     "triplets": [
       {
-        "s": "Tổ chức kinh tế", "v": "Theo", "o": "Luật Hợp tác xã",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Theo",
+        "o": "Luật Hợp tác xã",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Dựa theo",
+          "Theo quy định"
+        ],
+        "o_keyphrases": [
+          "Luật HTX",
+          "Luật về hợp tác xã"
+        ]
       },
       {
-        "s": "Tổ chức kinh tế", "v": "Gồm", "o": "Tổ hợp tác",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Gồm",
+        "o": "Tổ hợp tác",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Tổ hợp tác xã",
+          "Nhóm hợp tác"
+        ]
       },
       {
-        "s": "Tổ chức kinh tế", "v": "Gồm", "o": "Hợp tác xã",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Gồm",
+        "o": "Hợp tác xã",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "HTX",
+          "Tổ hợp tác"
+        ]
       },
       {
-        "s": "Tổ chức kinh tế", "v": "Gồm", "o": "Liên hiệp hợp tác xã",
-        "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []
+        "s": "Tổ chức kinh tế",
+        "v": "Gồm",
+        "o": "Liên hiệp hợp tác xã",
+        "s_keyphrases": [
+          "Doanh nghiệp",
+          "Tổ chức kinh doanh"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Liên hiệp HTX",
+          "Liên hiệp tổ hợp tác"
+        ]
       }
     ]
   }

@@ -7,8 +7,24 @@
       "Thẩm quyền xử phạt vi phạm hành chính của các chức danh quy định tại Điều 42, Điều 43 và Điều 44 của Nghị định này là thẩm quyền áp dụng đối với một hành vi vi phạm hành chính của cá nhân; trong trường hợp phạt tiền, thẩm quyền xử phạt tổ chức gấp 02 lần thẩm quyền xử phạt cá nhân."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": ["chức danh"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "chức danh",
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm luật",
+          "Hành vi trái pháp luật"
+        ]
+      }
     ]
   },
   {
@@ -19,12 +35,57 @@
       "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại khoản 2, khoản 4 Điều 20; khoản 5, khoản 6 Điều 32 của Nghị định này xác định mức tối thiểu và mức tối đa của khung tiền phạt đối với hành vi vi phạm căn cứ vào mức tối thiểu và mức tối đa của khung tiền phạt quy định đối với mỗi người vượt quá quy định nhân với số người thực tế vượt quá quy định được phép chở của phương tiện."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Chở quá", "o": "Số người quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người",
+          "Cá nhân tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Chở quá",
+        "o": "Số người quy định",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Chở quá tải",
+          "Vận chuyển quá tải"
+        ],
+        "o_keyphrases": [
+          "Số lượng người quy định",
+          "Số người cho phép"
+        ]
+      }
     ]
   },
   {
@@ -35,10 +96,39 @@
       "Các chức danh có thẩm quyền xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": ["chức danh"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": ["chức danh"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "chức danh",
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "chức danh",
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm luật",
+          "Hành vi trái pháp luật"
+        ]
+      }
     ]
   },
   {
@@ -49,14 +139,71 @@
       "Công chức thuộc Thanh tra Sở Giao thông vận tải đang thi hành công vụ, nhiệm vụ có thẩm quyền lập biên bản đối với các hành vi vi phạm xảy ra trong phạm vi địa bàn quản lý của Thanh tra Sở Giao thông vận tải."
     ],
     "triplets": [
-      {"s": "Công chức thuộc Thanh tra Sở Giao thông vận tải", "v": "Thi hành", "o": "Công vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Công chức thuộc Thanh tra Sở Giao thông vận tải", "v": "Thi hành", "o": "Nhiệm vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Công chức thuộc Thanh tra Sở Giao thông vận tải", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Công chức thuộc Thanh tra Sở Giao thông vận tải", "v": "Lập", "o": "Biên bản",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Công chức thuộc Thanh tra Sở Giao thông vận tải",
+        "v": "Thi hành",
+        "o": "Công vụ",
+        "s_keyphrases": [
+          "Cán bộ thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Nhiệm vụ công",
+          "Công việc"
+        ]
+      },
+      {
+        "s": "Công chức thuộc Thanh tra Sở Giao thông vận tải",
+        "v": "Thi hành",
+        "o": "Nhiệm vụ",
+        "s_keyphrases": [
+          "Cán bộ thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Công việc",
+          "Trách nhiệm"
+        ]
+      },
+      {
+        "s": "Công chức thuộc Thanh tra Sở Giao thông vận tải",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Công chức thuộc Thanh tra Sở Giao thông vận tải",
+        "v": "Lập",
+        "o": "Biên bản",
+        "s_keyphrases": [
+          "Cán bộ thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [
+          "Soạn thảo",
+          "Tạo"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Giấy tờ"
+        ]
+      }
     ]
   },
   {
@@ -67,12 +214,54 @@
       "Chủ phương tiện vi phạm có mặt tại nơi xảy ra vi phạm thì người có thẩm quyền căn cứ vào hành vi vi phạm để lập biên bản vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Tại", "o": "Nơi xảy ra vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Lập", "o": "Biên bản vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tại",
+        "o": "Nơi xảy ra vi phạm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Địa điểm vi phạm",
+          "Vị trí vi phạm"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Lập",
+        "o": "Biên bản vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Soạn thảo",
+          "Tạo"
+        ],
+        "o_keyphrases": [
+          "Biên bản xử phạt",
+          "Biên bản vi phạm"
+        ]
+      }
     ]
   },
   {
@@ -83,18 +272,93 @@
       "Chủ phương tiện vi phạm không có mặt tại nơi xảy ra vi phạm thì người có thẩm quyền căn cứ vào hành vi vi phạm để lập biên bản vi phạm hành chính đối với chủ phương tiện và người điều khiển phương tiện phải ký vào biên bản vi phạm hành chính với tư cách là người chứng kiến."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Lập", "o": "Biên bản vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biên bản vi phạm hành chính", "v": "Đối với", "o": "Chủ phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Ký", "o": "Biên bản vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Là", "o": "Người chứng kiến",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Lập",
+        "o": "Biên bản vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Soạn thảo",
+          "Tạo"
+        ],
+        "o_keyphrases": [
+          "Biên bản xử phạt",
+          "Biên bản vi phạm"
+        ]
+      },
+      {
+        "s": "Biên bản vi phạm hành chính",
+        "v": "Đối với",
+        "o": "Chủ phương tiện",
+        "s_keyphrases": [
+          "Biên bản xử phạt",
+          "Biên bản vi phạm"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Ký",
+        "o": "Biên bản vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Ký tên",
+          "Ký xác nhận"
+        ],
+        "o_keyphrases": [
+          "Biên bản xử phạt",
+          "Biên bản vi phạm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Là",
+        "o": "Người chứng kiến",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Người làm chứng",
+          "Người quan sát"
+        ]
+      }
     ]
   },
   {
@@ -105,14 +369,75 @@
       "Các hành vi vi phạm quy định về biển số, chứng nhận đăng ký xe, chứng nhận đăng ký xe tạm thời và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định về biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định về chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định về chứng nhận đăng ký xe tạm thời",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định về biển số xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Không tuân thủ"
+        ],
+        "o_keyphrases": [
+          "Quy định biển số",
+          "Quy định về đăng ký xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định về chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Không tuân thủ"
+        ],
+        "o_keyphrases": [
+          "Quy định đăng ký xe",
+          "Quy định về giấy đăng ký xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định về chứng nhận đăng ký xe tạm thời",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Không tuân thủ"
+        ],
+        "o_keyphrases": [
+          "Quy định đăng ký xe tạm",
+          "Quy định về giấy đăng ký xe tạm thời"
+        ]
+      }
     ]
   },
   {
@@ -123,10 +448,41 @@
       "Các hành vi vi phạm quy định về giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định về giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định về giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Không tuân thủ"
+        ],
+        "o_keyphrases": [
+          "Quy định kiểm định an toàn",
+          "Quy định về giấy kiểm định"
+        ]
+      }
     ]
   },
   {
@@ -137,14 +493,75 @@
       "Các hành vi vi phạm quy định về thời gian lái xe, thời gian nghỉ giữa hai lần lái xe liên tục của người lái xe, phù hiệu và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định về thời gian lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định về thời gian nghỉ giữa hai lần lái xe liên tục",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định về phù hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định về thời gian lái xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Không tuân thủ"
+        ],
+        "o_keyphrases": [
+          "Quy định thời gian lái",
+          "Quy định về giờ lái xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định về thời gian nghỉ giữa hai lần lái xe liên tục",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Không tuân thủ"
+        ],
+        "o_keyphrases": [
+          "Quy định thời gian nghỉ",
+          "Quy định về thời gian nghỉ giữa các chuyến"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định về phù hiệu",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Không tuân thủ"
+        ],
+        "o_keyphrases": [
+          "Quy định về biển hiệu",
+          "Quy định về dấu hiệu"
+        ]
+      }
     ]
   },
   {
@@ -155,10 +572,41 @@
       "Các hành vi vi phạm quy định về niên hạn sử dụng của phương tiện và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["trực tiếp điều khiển"], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vi phạm", "o": "Quy định về niên hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "trực tiếp điều khiển",
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vi phạm",
+        "o": "Quy định về niên hạn sử dụng",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Không tuân thủ"
+        ],
+        "o_keyphrases": [
+          "Quy định thời gian sử dụng",
+          "Quy định về thời gian hiệu lực"
+        ]
+      }
     ]
   }
 ]

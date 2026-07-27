@@ -7,17 +7,82 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa điều khiển xe chở hàng trong đô thị không chạy đúng tuyến, phạm vi, thời gian quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Tại", "o": "Đô thị",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chạy đúng", "o": "Tuyến",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chạy đúng", "o": "Phạm vi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chạy đúng", "o": "Thời gian",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đô thị",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Khu vực đô thị"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chạy đúng",
+        "o": "Tuyến",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Chạy theo quy định"
+        ],
+        "o_keyphrases": [
+          "Lộ trình"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chạy đúng",
+        "o": "Phạm vi",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Chạy theo quy định"
+        ],
+        "o_keyphrases": [
+          "Khu vực"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chạy đúng",
+        "o": "Thời gian",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Chạy theo quy định"
+        ],
+        "o_keyphrases": [
+          "Thời điểm"
+        ]
+      }
     ]
   },
   {
@@ -28,17 +93,82 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa vận chuyển hàng hóa, cung ứng dịch vụ không có giấy phép hoặc có nhưng không thực hiện đúng quy định ghi trong giấy phép."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Cung ứng", "o": "Dịch vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện đúng", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Chở hàng"
+        ],
+        "o_keyphrases": [
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Cung ứng",
+        "o": "Dịch vụ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ vận tải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lái xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện đúng",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Thực hiện theo quy định"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lái xe"
+        ]
+      }
     ]
   },
   {
@@ -49,11 +179,39 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa điều khiển xe chở hàng vượt trọng tải cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 100% đến 150%."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Vượt", "o": "Trọng tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vượt",
+        "o": "Trọng tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Tải trọng"
+        ]
+      }
     ]
   },
   {
@@ -64,13 +222,54 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa điều khiển xe kéo theo rơ moóc, sơ mi rơ moóc mà khối lượng toàn bộ của rơ moóc, sơ mi rơ moóc vượt khối lượng cho phép kéo theo được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 100% đến 150%."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Kéo theo", "o": "Rơ moóc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["sơ mi rơ moóc"]},
-      {"s": "Rơ moóc", "v": "Vượt", "o": "Khối lượng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo theo",
+        "o": "Rơ moóc",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Kéo theo sau"
+        ],
+        "o_keyphrases": [
+          "sơ mi rơ moóc",
+          "Moóc"
+        ]
+      },
+      {
+        "s": "Rơ moóc",
+        "v": "Vượt",
+        "o": "Khối lượng",
+        "s_keyphrases": [
+          "Moóc"
+        ],
+        "v_keyphrases": [
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Trọng lượng"
+        ]
+      }
     ]
   },
   {
@@ -81,11 +280,39 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa điều khiển xe chở hàng vượt trọng tải cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 150%."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Vượt", "o": "Trọng tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vượt",
+        "o": "Trọng tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Tải trọng"
+        ]
+      }
     ]
   },
   {
@@ -96,13 +323,54 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa điều khiển xe kéo theo rơ moóc, sơ mi rơ moóc mà khối lượng toàn bộ của rơ moóc, sơ mi rơ moóc vượt khối lượng cho phép kéo theo được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 150%."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Kéo theo", "o": "Rơ moóc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["sơ mi rơ moóc"]},
-      {"s": "Rơ moóc", "v": "Vượt", "o": "Khối lượng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo theo",
+        "o": "Rơ moóc",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Kéo theo sau"
+        ],
+        "o_keyphrases": [
+          "sơ mi rơ moóc",
+          "Moóc"
+        ]
+      },
+      {
+        "s": "Rơ moóc",
+        "v": "Vượt",
+        "o": "Khối lượng",
+        "s_keyphrases": [
+          "Moóc"
+        ],
+        "v_keyphrases": [
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Trọng lượng"
+        ]
+      }
     ]
   },
   {
@@ -113,13 +381,54 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa chở công-ten-nơ trên xe không bảo đảm quy chuẩn, tiêu chuẩn kỹ thuật của công-ten-nơ theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Chở", "o": "Công-ten-nơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Công-ten-nơ", "v": "Bảo đảm", "o": "Tiêu chuẩn kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quy chuẩn"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Công-ten-nơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển"
+        ],
+        "o_keyphrases": [
+          "Container"
+        ]
+      },
+      {
+        "s": "Công-ten-nơ",
+        "v": "Bảo đảm",
+        "o": "Tiêu chuẩn kỹ thuật",
+        "s_keyphrases": [
+          "Container"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo"
+        ],
+        "o_keyphrases": [
+          "quy chuẩn",
+          "Tiêu chuẩn"
+        ]
+      }
     ]
   },
   {
@@ -130,13 +439,51 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa chở công-ten-nơ trên xe mà bị cắt nóc trái quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Chở", "o": "Công-ten-nơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Công-ten-nơ", "v": "Cắt", "o": "Nóc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Công-ten-nơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển"
+        ],
+        "o_keyphrases": [
+          "Container"
+        ]
+      },
+      {
+        "s": "Công-ten-nơ",
+        "v": "Cắt",
+        "o": "Nóc",
+        "s_keyphrases": [
+          "Container"
+        ],
+        "v_keyphrases": [
+          "Cắt đứt"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -147,15 +494,70 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa vận chuyển hàng trên xe phải chằng buộc mà không chằng buộc hoặc có chằng buộc nhưng không bảo đảm an toàn theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hàng"]},
-      {"s": "Người", "v": "Chằng buộc", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Bảo đảm", "o": "An toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Chở hàng"
+        ],
+        "o_keyphrases": [
+          "hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chằng buộc",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Buộc chặt"
+        ],
+        "o_keyphrases": [
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bảo đảm",
+        "o": "An toàn",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo"
+        ],
+        "o_keyphrases": [
+          "An toàn giao thông"
+        ]
+      }
     ]
   },
   {
@@ -166,15 +568,67 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa nhận, trả hàng trên đường cao tốc."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Nhận", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hàng"]},
-      {"s": "Người", "v": "Trả", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hàng"]},
-      {"s": "Người", "v": "Tại", "o": "Đường cao tốc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe tải",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Lái xe"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhận",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Tiếp nhận"
+        ],
+        "o_keyphrases": [
+          "hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trả",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [
+          "Trả lại"
+        ],
+        "o_keyphrases": [
+          "hàng",
+          "Tài sản"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường cao tốc",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Người lái xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   }
 ]

@@ -3,132 +3,549 @@
     "id": "s1126",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm b",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về đăng kiểm xe cơ giới, xe máy chuyên dùng."],
+    "propositions": [
+      "Cơ sở dữ liệu về đăng kiểm xe cơ giới, xe máy chuyên dùng."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["đăng kiểm"]},
-      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Kiểm định",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "đăng kiểm",
+          "Kiểm tra",
+          "Đánh giá"
+        ]
+      },
+      {
+        "s": "Kiểm định",
+        "v": "Liên quan",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe tải"
+        ]
+      },
+      {
+        "s": "Kiểm định",
+        "v": "Liên quan",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      }
     ]
   },
   {
     "id": "s1127",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm c",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về đào tạo, sát hạch, cấp giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ."],
+    "propositions": [
+      "Cơ sở dữ liệu về đào tạo, sát hạch, cấp giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Đào tạo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Sát hạch",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["cấp giấy phép lái xe"]},
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Đào tạo",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Huấn luyện",
+          "Giáo dục"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Sát hạch",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Kiểm tra",
+          "Thi sát hạch"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "cấp giấy phép lái xe",
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Chứng chỉ giao thông",
+          "Chứng chỉ bồi dưỡng giao thông"
+        ]
+      }
     ]
   },
   {
     "id": "s1128",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm d",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về người điều khiển xe cơ giới, xe máy chuyên dùng."],
+    "propositions": [
+      "Cơ sở dữ liệu về người điều khiển xe cơ giới, xe máy chuyên dùng."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Người",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe tải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      }
     ]
   },
   {
     "id": "s1129",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm đ",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về bảo hiểm của chủ xe cơ giới, xe máy chuyên dùng."],
+    "propositions": [
+      "Cơ sở dữ liệu về bảo hiểm của chủ xe cơ giới, xe máy chuyên dùng."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Bảo hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bảo hiểm", "v": "Dành cho", "o": "Chủ xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Bảo hiểm", "v": "Dành cho", "o": "Chủ xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Bảo hiểm",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Bảo hiểm xe",
+          "Bảo hiểm trách nhiệm dân sự"
+        ]
+      },
+      {
+        "s": "Bảo hiểm",
+        "v": "Dành cho",
+        "o": "Chủ xe cơ giới",
+        "s_keyphrases": [
+          "Bảo hiểm xe",
+          "Bảo hiểm trách nhiệm dân sự"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người sở hữu xe cơ giới",
+          "Chủ sở hữu xe"
+        ]
+      },
+      {
+        "s": "Bảo hiểm",
+        "v": "Dành cho",
+        "o": "Chủ xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Bảo hiểm xe",
+          "Bảo hiểm trách nhiệm dân sự"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người sở hữu xe máy chuyên dùng",
+          "Chủ sở hữu xe máy"
+        ]
+      }
     ]
   },
   {
     "id": "s1130",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm e",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ."],
+    "propositions": [
+      "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Xử lý vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Xử lý vi phạm hành chính",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Giải quyết vi phạm",
+          "Xử phạt vi phạm"
+        ]
+      }
     ]
   },
   {
     "id": "s1131",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm g",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về tai nạn giao thông đường bộ."],
+    "propositions": [
+      "Cơ sở dữ liệu về tai nạn giao thông đường bộ."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Tai nạn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Tai nạn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Tai nạn giao thông",
+          "Sự cố giao thông"
+        ]
+      }
     ]
   },
   {
     "id": "s1132",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm h",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về hành trình của phương tiện giao thông đường bộ, hình ảnh người lái xe theo quy định của Luật này."],
+    "propositions": [
+      "Cơ sở dữ liệu về hành trình của phương tiện giao thông đường bộ, hình ảnh người lái xe theo quy định của Luật này."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Hành trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành trình", "v": "Dành cho", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": ["phương tiện giao thông đường bộ"]},
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Hình ảnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hình ảnh", "v": "Dành cho", "o": "Người lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Hành trình",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Lộ trình",
+          "Đường đi"
+        ]
+      },
+      {
+        "s": "Hành trình",
+        "v": "Dành cho",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Lộ trình",
+          "Đường đi"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "phương tiện giao thông đường bộ",
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Hình ảnh",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "Ảnh",
+          "Hình"
+        ]
+      },
+      {
+        "s": "Hình ảnh",
+        "v": "Dành cho",
+        "o": "Người lái xe",
+        "s_keyphrases": [
+          "Ảnh",
+          "Hình"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Lái xe",
+          "Tài xế"
+        ]
+      }
     ]
   },
   {
     "id": "s1133",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm i",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về quản lý thời gian điều khiển phương tiện của người lái xe theo quy định của Luật này."],
+    "propositions": [
+      "Cơ sở dữ liệu về quản lý thời gian điều khiển phương tiện của người lái xe theo quy định của Luật này."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Về", "o": "Thời gian lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quản lý thời gian điều khiển phương tiện của người lái xe"]}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Về",
+        "o": "Thời gian lái xe",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Đối với"
+        ],
+        "o_keyphrases": [
+          "quản lý thời gian điều khiển phương tiện của người lái xe",
+          "Thời gian điều khiển",
+          "Thời gian vận hành"
+        ]
+      }
     ]
   },
   {
     "id": "s1134",
     "path": "Chương I - Điều 7 - Khoản 1 - Điểm k",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu khác liên quan đến công tác bảo đảm trật tự, an toàn giao thông đường bộ."],
+    "propositions": [
+      "Cơ sở dữ liệu khác liên quan đến công tác bảo đảm trật tự, an toàn giao thông đường bộ."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Liên quan", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Liên quan",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ sở thông tin",
+          "Cơ sở dữ liệu điện tử"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      }
     ]
   },
   {
     "id": "s1135",
     "path": "Chương I - Điều 7 - Khoản 2",
     "document_name": "Luật số: 36/2024/QH15",
-    "propositions": ["Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ là cơ sở dữ liệu dùng chung; được kết nối, chia sẻ với Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu đường bộ và các cơ sở dữ liệu khác có liên quan."],
+    "propositions": [
+      "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ là cơ sở dữ liệu dùng chung; được kết nối, chia sẻ với Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu đường bộ và các cơ sở dữ liệu khác có liên quan."
+    ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ", "v": "Là", "o": "Dùng chung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ", "v": "Kết nối", "o": "Cơ sở dữ liệu quốc gia về dân cư",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ", "v": "Kết nối", "o": "Cơ sở dữ liệu đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ", "v": "Chia sẻ", "o": "Cơ sở dữ liệu quốc gia về dân cư",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ", "v": "Chia sẻ", "o": "Cơ sở dữ liệu đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
+        "v": "Là",
+        "o": "Dùng chung",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu giao thông",
+          "Cơ sở dữ liệu an toàn giao thông"
+        ],
+        "v_keyphrases": [
+          "Được xem là",
+          "Được coi là"
+        ],
+        "o_keyphrases": [
+          "Sử dụng chung",
+          "Chia sẻ"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
+        "v": "Kết nối",
+        "o": "Cơ sở dữ liệu quốc gia về dân cư",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu giao thông",
+          "Cơ sở dữ liệu an toàn giao thông"
+        ],
+        "v_keyphrases": [
+          "Liên kết",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Cơ sở dữ liệu dân cư",
+          "Cơ sở dữ liệu quốc gia"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
+        "v": "Kết nối",
+        "o": "Cơ sở dữ liệu đường bộ",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu giao thông",
+          "Cơ sở dữ liệu an toàn giao thông"
+        ],
+        "v_keyphrases": [
+          "Liên kết",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Cơ sở dữ liệu giao thông đường bộ",
+          "Cơ sở dữ liệu về đường bộ"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
+        "v": "Chia sẻ",
+        "o": "Cơ sở dữ liệu quốc gia về dân cư",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu giao thông",
+          "Cơ sở dữ liệu an toàn giao thông"
+        ],
+        "v_keyphrases": [
+          "Phân phối",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Cơ sở dữ liệu dân cư",
+          "Cơ sở dữ liệu quốc gia"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
+        "v": "Chia sẻ",
+        "o": "Cơ sở dữ liệu đường bộ",
+        "s_keyphrases": [
+          "Cơ sở dữ liệu giao thông",
+          "Cơ sở dữ liệu an toàn giao thông"
+        ],
+        "v_keyphrases": [
+          "Phân phối",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Cơ sở dữ liệu giao thông đường bộ",
+          "Cơ sở dữ liệu về đường bộ"
+        ]
+      }
     ]
   }
 ]

@@ -7,12 +7,51 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe không có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường hoặc có nhưng đã hết hiệu lực từ 01 tháng trở lên."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Giấy chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Giấy chứng nhận",
+        "s_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy tờ chứng nhận",
+          "Giấy xác nhận"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tem kiểm định",
+          "Tem an toàn kỹ thuật"
+        ]
+      }
     ]
   },
   {
@@ -23,14 +62,68 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe không có chứng nhận đăng ký xe hoặc sử dụng chứng nhận đăng ký xe đã hết hạn sử dụng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Hết",
+        "o": "Hạn sử dụng",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thời hạn sử dụng",
+          "Thời gian hiệu lực"
+        ]
+      }
     ]
   },
   {
@@ -41,14 +134,71 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Gắn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Đúng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Gắn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Lắp đặt",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Đúng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -59,20 +209,121 @@
       "Người điều khiển xe máy chuyên dùng sử dụng chứng nhận đăng ký xe không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa, không đúng số khung, số động cơ của xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Số khung", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Số động cơ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Số khung xe",
+          "Mã số khung"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Mã số động cơ",
+          "Số máy"
+        ]
+      },
+      {
+        "s": "Số khung",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Số khung xe",
+          "Mã số khung"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Số động cơ",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Mã số động cơ",
+          "Số máy"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      }
     ]
   },
   {
@@ -83,14 +334,74 @@
       "Người điều khiển xe máy chuyên dùng điều khiển xe máy chuyên dùng sản xuất, lắp ráp hoặc cải tạo trái quy định tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Sản xuất", "o": "Trái quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Lắp ráp", "o": "Trái quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Cải tạo", "o": "Trái quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Sản xuất",
+        "o": "Trái quy định",
+        "s_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Chế tạo",
+          "Đưa vào sản xuất"
+        ],
+        "o_keyphrases": [
+          "Vi phạm quy định",
+          "Không đúng quy định"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Lắp ráp",
+        "o": "Trái quy định",
+        "s_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Ghép lại",
+          "Lắp ghép"
+        ],
+        "o_keyphrases": [
+          "Vi phạm quy định",
+          "Không đúng quy định"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Cải tạo",
+        "o": "Trái quy định",
+        "s_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [
+          "Sửa đổi",
+          "Độ lại"
+        ],
+        "o_keyphrases": [
+          "Vi phạm quy định",
+          "Không đúng quy định"
+        ]
+      }
     ]
   },
   {
@@ -101,10 +412,41 @@
       "Người điều khiển xe máy chuyên dùng thực hiện hành vi quy định tại điểm d khoản 2 bị tịch thu biển số xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tịch thu", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số xe"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tịch thu",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tước đoạt",
+          "Tịch biên"
+        ],
+        "o_keyphrases": [
+          "biển số xe",
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -115,28 +457,189 @@
       "Người điều khiển xe máy chuyên dùng thực hiện hành vi quy định tại điểm c, điểm đ khoản 2 trong trường hợp không có chứng nhận đăng ký xe hoặc sử dụng chứng nhận đăng ký xe không do cơ quan có thẩm quyền cấp, không đúng số khung, số động cơ của xe hoặc bị tẩy xóa mà không chứng minh được nguồn gốc xuất xứ của phương tiện thì bị tịch thu phương tiện."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Có", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Số khung", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Số động cơ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Người", "v": "Chứng minh", "o": "Nguồn gốc xuất xứ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguồn gốc xuất xứ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": ["phương tiện"]},
-      {"s": "Người", "v": "Tịch thu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Số khung xe",
+          "Mã số khung"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Mã số động cơ",
+          "Số máy"
+        ]
+      },
+      {
+        "s": "Số khung",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Số khung xe",
+          "Mã số khung"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Số động cơ",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Mã số động cơ",
+          "Số máy"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chứng minh",
+        "o": "Nguồn gốc xuất xứ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chứng thực",
+          "Xác minh"
+        ],
+        "o_keyphrases": [
+          "Xuất xứ",
+          "Nguồn gốc"
+        ]
+      },
+      {
+        "s": "Nguồn gốc xuất xứ",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Xuất xứ",
+          "Nguồn gốc"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tịch thu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tước đoạt",
+          "Tịch biên"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      }
     ]
   },
   {
@@ -147,16 +650,93 @@
       "Người điều khiển xe thực hiện hành vi quy định tại điểm b, điểm c, điểm d khoản 1 buộc lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn, quy chuẩn an toàn kỹ thuật hoặc khôi phục lại tính năng kỹ thuật của thiết bị theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe"]},
-      {"s": "Người", "v": "Lắp", "o": "Thiết bị",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thay thế", "o": "Thiết bị",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Khôi phục", "o": "Tính năng kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tính năng kỹ thuật", "v": "Dành cho", "o": "Thiết bị",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe",
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Lắp đặt"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thay thế",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thay đổi",
+          "Đổi mới"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Khôi phục",
+        "o": "Tính năng kỹ thuật",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Phục hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Thông số kỹ thuật",
+          "Chỉ tiêu kỹ thuật"
+        ]
+      },
+      {
+        "s": "Tính năng kỹ thuật",
+        "v": "Dành cho",
+        "o": "Thiết bị",
+        "s_keyphrases": [
+          "Thông số kỹ thuật",
+          "Chỉ tiêu kỹ thuật"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Dụng cụ",
+          "Trang thiết bị"
+        ]
+      }
     ]
   },
   {
@@ -167,14 +747,78 @@
       "Người điều khiển xe thực hiện hành vi quy định tại điểm đ khoản 2 buộc nộp lại chứng nhận đăng ký xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường bị tẩy xóa."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe"]},
-      {"s": "Người", "v": "Nộp", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": ["nộp lại"], "o_keyphrases": []},
-      {"s": "Người", "v": "Nộp", "o": "Giấy chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": ["nộp lại"], "o_keyphrases": []},
-      {"s": "Người", "v": "Nộp", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": ["nộp lại"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe",
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nộp",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "nộp lại",
+          "Gửi",
+          "Đệ trình"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nộp",
+        "o": "Giấy chứng nhận",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "nộp lại",
+          "Gửi",
+          "Đệ trình"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ chứng nhận",
+          "Giấy xác nhận"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nộp",
+        "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "nộp lại",
+          "Gửi",
+          "Đệ trình"
+        ],
+        "o_keyphrases": [
+          "Tem kiểm định",
+          "Tem an toàn kỹ thuật"
+        ]
+      }
     ]
   },
   {
@@ -185,28 +829,190 @@
       "Người điều khiển xe thực hiện hành vi quy định tại điểm đ khoản 2 bị thu hồi chứng nhận đăng ký xe không do cơ quan có thẩm quyền cấp hoặc không đúng số khung, số động cơ của xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe"]},
-      {"s": "Người", "v": "Thu hồi", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thu hồi", "o": "Giấy chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thu hồi", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Số khung", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Số động cơ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Giấy chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe",
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thu hồi",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thu hồi",
+        "o": "Giấy chứng nhận",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ chứng nhận",
+          "Giấy xác nhận"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thu hồi",
+        "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": [
+          "Tem kiểm định",
+          "Tem an toàn kỹ thuật"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Số khung xe",
+          "Mã số khung"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Mã số động cơ",
+          "Số máy"
+        ]
+      },
+      {
+        "s": "Số khung",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Số khung xe",
+          "Mã số khung"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Số động cơ",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Mã số động cơ",
+          "Số máy"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe chuyên dụng",
+          "Xe máy đặc chủng"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Giấy chứng nhận",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ chứng nhận",
+          "Giấy xác nhận"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Tem kiểm định",
+          "Tem an toàn kỹ thuật"
+        ]
+      }
     ]
   }
 ]

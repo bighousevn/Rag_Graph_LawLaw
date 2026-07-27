@@ -7,10 +7,41 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không bố trí người áp tải trên xe vận chuyển hàng hóa nguy hiểm đối với những trường hợp quy định phải có người áp tải."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Bố trí", "o": "Người áp tải",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người áp tải", "v": "Tại", "o": "Xe vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Bố trí",
+        "o": "Người áp tải",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp",
+          "Sắp đặt"
+        ],
+        "o_keyphrases": [
+          "Người bảo vệ",
+          "Người giám sát"
+        ]
+      },
+      {
+        "s": "Người áp tải",
+        "v": "Tại",
+        "o": "Xe vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "Người bảo vệ",
+          "Người giám sát"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại chỗ"
+        ],
+        "o_keyphrases": [
+          "Xe chở hàng nguy hiểm",
+          "Xe vận tải hàng nguy hiểm"
+        ]
+      }
     ]
   },
   {
@@ -21,14 +52,76 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không cấp lệnh vận chuyển, giấy vận tải cho lái xe hoặc cấp lệnh vận chuyển, giấy vận tải nhưng không đúng theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Cấp", "o": "Lệnh vận chuyển",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lệnh vận chuyển", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Cấp", "o": "Giấy vận tải",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy vận tải", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Cấp",
+        "o": "Lệnh vận chuyển",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": [
+          "Giấy lệnh vận chuyển",
+          "Chỉ thị vận chuyển"
+        ]
+      },
+      {
+        "s": "Lệnh vận chuyển",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Giấy lệnh vận chuyển",
+          "Chỉ thị vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Cấp",
+        "o": "Giấy vận tải",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ vận chuyển",
+          "Giấy phép vận tải"
+        ]
+      },
+      {
+        "s": "Giấy vận tải",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Giấy tờ vận chuyển",
+          "Giấy phép vận tải"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ]
+      }
     ]
   },
   {
@@ -39,14 +132,78 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe vận chuyển hàng hóa nguy hiểm mà không làm sạch hoặc không bóc (xóa) biểu trưng nguy hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Xe vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Làm sạch", "o": "Xe vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Bóc", "o": "Biểu trưng nguy hiểm",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": ["xóa"], "o_keyphrases": []},
-      {"s": "Biểu trưng nguy hiểm", "v": "Tại", "o": "Xe vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Xe vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Xe chở hàng nguy hiểm",
+          "Xe vận tải hàng nguy hiểm"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Làm sạch",
+        "o": "Xe vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Vệ sinh",
+          "Dọn dẹp"
+        ],
+        "o_keyphrases": [
+          "Xe chở hàng nguy hiểm",
+          "Xe vận tải hàng nguy hiểm"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Bóc",
+        "o": "Biểu trưng nguy hiểm",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "xóa",
+          "Gỡ",
+          "Lột"
+        ],
+        "o_keyphrases": [
+          "Biểu tượng cảnh báo",
+          "Biểu tượng nguy hiểm"
+        ]
+      },
+      {
+        "s": "Biểu trưng nguy hiểm",
+        "v": "Tại",
+        "o": "Xe vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "Biểu tượng cảnh báo",
+          "Biểu tượng nguy hiểm"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại chỗ"
+        ],
+        "o_keyphrases": [
+          "Xe chở hàng nguy hiểm",
+          "Xe vận tải hàng nguy hiểm"
+        ]
+      }
     ]
   },
   {
@@ -57,12 +214,59 @@
       "Tổ chức thực hiện hành vi vi phạm xếp hàng hóa lên mỗi xe ô tô (kể cả rơ moóc và sơ mi rơ moóc) vượt quá trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 50% đến 100%."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Xếp", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hàng hóa", "v": "Tại", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô", "rơ moóc", "sơ mi rơ moóc"]},
-      {"s": "Ô tô", "v": "Vượt quá", "o": "Trọng tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Xếp",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Đặt",
+          "Sắp xếp"
+        ],
+        "o_keyphrases": [
+          "Tài sản",
+          "Vật phẩm"
+        ]
+      },
+      {
+        "s": "Hàng hóa",
+        "v": "Tại",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Tài sản",
+          "Vật phẩm"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại chỗ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "rơ moóc",
+          "sơ mi rơ moóc",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Vượt quá",
+        "o": "Trọng tải",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Vượt lên",
+          "Vượt mức"
+        ],
+        "o_keyphrases": [
+          "Khối lượng",
+          "Tải trọng"
+        ]
+      }
     ]
   },
   {
@@ -73,10 +277,41 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải không cấp thẻ nhận dạng lái xe cho lái xe theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Cấp", "o": "Thẻ nhận dạng lái xe",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thẻ nhận dạng lái xe", "v": "Dành cho", "o": "Lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Cấp",
+        "o": "Thẻ nhận dạng lái xe",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát"
+        ],
+        "o_keyphrases": [
+          "Thẻ lái xe",
+          "Thẻ ID lái xe"
+        ]
+      },
+      {
+        "s": "Thẻ nhận dạng lái xe",
+        "v": "Dành cho",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "Thẻ lái xe",
+          "Thẻ ID lái xe"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ]
+      }
     ]
   },
   {
@@ -87,18 +322,114 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng lái xe, nhân viên phục vụ trên xe để tham gia kinh doanh vận tải bằng xe ô tô mà không được tập huấn, hướng dẫn về nghiệp vụ vận tải hành khách và an toàn giao thông theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Lái xe",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Nhân viên phục vụ",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lái xe", "v": "Tập huấn", "o": "Nghiệp vụ vận tải hành khách",
-       "s_keyphrases": [], "v_keyphrases": ["hướng dẫn"], "o_keyphrases": []},
-      {"s": "Lái xe", "v": "Tập huấn", "o": "An toàn giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["hướng dẫn"], "o_keyphrases": []},
-      {"s": "Nhân viên phục vụ", "v": "Tập huấn", "o": "Nghiệp vụ vận tải hành khách",
-       "s_keyphrases": [], "v_keyphrases": ["hướng dẫn"], "o_keyphrases": []},
-      {"s": "Nhân viên phục vụ", "v": "Tập huấn", "o": "An toàn giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["hướng dẫn"], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Nhân viên phục vụ",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Nhân viên hỗ trợ",
+          "Nhân viên tiếp viên"
+        ]
+      },
+      {
+        "s": "Lái xe",
+        "v": "Tập huấn",
+        "o": "Nghiệp vụ vận tải hành khách",
+        "s_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ],
+        "v_keyphrases": [
+          "hướng dẫn",
+          "Đào tạo",
+          "Huấn luyện"
+        ],
+        "o_keyphrases": [
+          "Nghiệp vụ vận tải",
+          "Nghiệp vụ chở khách"
+        ]
+      },
+      {
+        "s": "Lái xe",
+        "v": "Tập huấn",
+        "o": "An toàn giao thông",
+        "s_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ],
+        "v_keyphrases": [
+          "hướng dẫn",
+          "Đào tạo",
+          "Huấn luyện"
+        ],
+        "o_keyphrases": [
+          "An toàn đường bộ",
+          "An toàn giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Nhân viên phục vụ",
+        "v": "Tập huấn",
+        "o": "Nghiệp vụ vận tải hành khách",
+        "s_keyphrases": [
+          "Nhân viên hỗ trợ",
+          "Nhân viên tiếp viên"
+        ],
+        "v_keyphrases": [
+          "hướng dẫn",
+          "Đào tạo",
+          "Huấn luyện"
+        ],
+        "o_keyphrases": [
+          "Nghiệp vụ vận tải",
+          "Nghiệp vụ chở khách"
+        ]
+      },
+      {
+        "s": "Nhân viên phục vụ",
+        "v": "Tập huấn",
+        "o": "An toàn giao thông",
+        "s_keyphrases": [
+          "Nhân viên hỗ trợ",
+          "Nhân viên tiếp viên"
+        ],
+        "v_keyphrases": [
+          "hướng dẫn",
+          "Đào tạo",
+          "Huấn luyện"
+        ],
+        "o_keyphrases": [
+          "An toàn đường bộ",
+          "An toàn giao thông đường bộ"
+        ]
+      }
     ]
   },
   {
@@ -109,16 +440,95 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng lái xe, người quản lý trên xe để tham gia kinh doanh vận tải bằng xe ô tô mà không được hướng dẫn về quy trình bảo đảm an toàn khi đưa đón trẻ em mầm non, học sinh."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Lái xe",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Người quản lý",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lái xe", "v": "Hướng dẫn", "o": "Quy trình bảo đảm an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người quản lý", "v": "Hướng dẫn", "o": "Quy trình bảo đảm an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy trình bảo đảm an toàn", "v": "Dành cho", "o": "Trẻ em",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["trẻ em mầm non", "học sinh"]}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Người quản lý",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Quản lý",
+          "Người điều hành"
+        ]
+      },
+      {
+        "s": "Lái xe",
+        "v": "Hướng dẫn",
+        "o": "Quy trình bảo đảm an toàn",
+        "s_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "o_keyphrases": [
+          "Quy trình an toàn",
+          "Quy trình bảo vệ"
+        ]
+      },
+      {
+        "s": "Người quản lý",
+        "v": "Hướng dẫn",
+        "o": "Quy trình bảo đảm an toàn",
+        "s_keyphrases": [
+          "Quản lý",
+          "Người điều hành"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "o_keyphrases": [
+          "Quy trình an toàn",
+          "Quy trình bảo vệ"
+        ]
+      },
+      {
+        "s": "Quy trình bảo đảm an toàn",
+        "v": "Dành cho",
+        "o": "Trẻ em",
+        "s_keyphrases": [
+          "Quy trình an toàn",
+          "Quy trình bảo vệ"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "trẻ em mầm non",
+          "học sinh",
+          "Thiếu niên",
+          "Trẻ nhỏ"
+        ]
+      }
     ]
   },
   {
@@ -129,18 +539,110 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng lái xe, người áp tải vận chuyển hàng hóa nguy hiểm mà không được tập huấn về vận chuyển hàng hóa nguy hiểm."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Lái xe",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Người áp tải",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lái xe", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người áp tải", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lái xe", "v": "Tập huấn", "o": "Vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người áp tải", "v": "Tập huấn", "o": "Vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Lái xe",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ]
+      },
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Người áp tải",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Người bảo vệ",
+          "Người giám sát"
+        ]
+      },
+      {
+        "s": "Lái xe",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa độc hại",
+          "Hàng hóa có nguy cơ"
+        ]
+      },
+      {
+        "s": "Người áp tải",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "Người bảo vệ",
+          "Người giám sát"
+        ],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa độc hại",
+          "Hàng hóa có nguy cơ"
+        ]
+      },
+      {
+        "s": "Lái xe",
+        "v": "Tập huấn",
+        "o": "Vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "Người lái",
+          "Tài xế"
+        ],
+        "v_keyphrases": [
+          "Đào tạo",
+          "Huấn luyện"
+        ],
+        "o_keyphrases": [
+          "Chuyên chở hàng hóa nguy hiểm",
+          "Vận chuyển hàng độc hại"
+        ]
+      },
+      {
+        "s": "Người áp tải",
+        "v": "Tập huấn",
+        "o": "Vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "Người bảo vệ",
+          "Người giám sát"
+        ],
+        "v_keyphrases": [
+          "Đào tạo",
+          "Huấn luyện"
+        ],
+        "o_keyphrases": [
+          "Chuyên chở hàng hóa nguy hiểm",
+          "Vận chuyển hàng độc hại"
+        ]
+      }
     ]
   },
   {
@@ -151,14 +653,76 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe ô tô kinh doanh vận tải hành khách không có dây đai an toàn tại các vị trí ghế ngồi, giường nằm theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Ô tô",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": ["xe ô tô kinh doanh vận tải hành khách"]},
-      {"s": "Ô tô", "v": "Có", "o": "Dây đai an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dây đai an toàn", "v": "Tại", "o": "Ghế ngồi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dây đai an toàn", "v": "Tại", "o": "Giường nằm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô kinh doanh vận tải hành khách",
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Dây đai an toàn",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo hiểm"
+        ]
+      },
+      {
+        "s": "Dây đai an toàn",
+        "v": "Tại",
+        "o": "Ghế ngồi",
+        "s_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo hiểm"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại chỗ"
+        ],
+        "o_keyphrases": [
+          "Ghế",
+          "Chỗ ngồi"
+        ]
+      },
+      {
+        "s": "Dây đai an toàn",
+        "v": "Tại",
+        "o": "Giường nằm",
+        "s_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo hiểm"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại chỗ"
+        ],
+        "o_keyphrases": [
+          "Giường",
+          "Chỗ nằm"
+        ]
+      }
     ]
   },
   {
@@ -169,20 +733,130 @@
       "Tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải sử dụng xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh tiểu học không có dây đai an toàn phù hợp với lứa tuổi hoặc không có ghế ngồi phù hợp với lứa tuổi theo quy định."
     ],
     "triplets": [
-      {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Ô tô",
-       "s_keyphrases": ["dịch vụ hỗ trợ vận tải"], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Ô tô", "v": "Chở", "o": "Trẻ em",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["trẻ em mầm non", "học sinh"]},
-      {"s": "Ô tô", "v": "Đưa đón", "o": "Trẻ em",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["trẻ em mầm non", "học sinh tiểu học"]},
-      {"s": "Ô tô", "v": "Có", "o": "Dây đai an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dây đai an toàn", "v": "Phù hợp", "o": "Lứa tuổi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Ghế ngồi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ghế ngồi", "v": "Phù hợp", "o": "Lứa tuổi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức kinh doanh vận tải",
+        "v": "Sử dụng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "dịch vụ hỗ trợ vận tải",
+          "Công ty vận tải",
+          "Doanh nghiệp vận tải"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Chở",
+        "o": "Trẻ em",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "trẻ em mầm non",
+          "học sinh",
+          "Thiếu niên",
+          "Trẻ nhỏ"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Đưa đón",
+        "o": "Trẻ em",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Đón",
+          "Chở đi"
+        ],
+        "o_keyphrases": [
+          "trẻ em mầm non",
+          "học sinh tiểu học",
+          "Thiếu niên",
+          "Trẻ nhỏ"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Dây đai an toàn",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo hiểm"
+        ]
+      },
+      {
+        "s": "Dây đai an toàn",
+        "v": "Phù hợp",
+        "o": "Lứa tuổi",
+        "s_keyphrases": [
+          "Dây an toàn",
+          "Dây bảo hiểm"
+        ],
+        "v_keyphrases": [
+          "Thích hợp",
+          "Tương thích"
+        ],
+        "o_keyphrases": [
+          "Độ tuổi",
+          "Tuổi tác"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Ghế ngồi",
+        "s_keyphrases": [
+          "Xe hơi",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Ghế",
+          "Chỗ ngồi"
+        ]
+      },
+      {
+        "s": "Ghế ngồi",
+        "v": "Phù hợp",
+        "o": "Lứa tuổi",
+        "s_keyphrases": [
+          "Ghế",
+          "Chỗ ngồi"
+        ],
+        "v_keyphrases": [
+          "Thích hợp",
+          "Tương thích"
+        ],
+        "o_keyphrases": [
+          "Độ tuổi",
+          "Tuổi tác"
+        ]
+      }
     ]
   }
 ]

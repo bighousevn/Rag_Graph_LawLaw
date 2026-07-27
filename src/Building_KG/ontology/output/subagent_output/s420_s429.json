@@ -7,11 +7,39 @@
       "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô điều khiển xe không đáp ứng yêu cầu về vệ sinh lưu thông trong đô thị."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Đáp ứng", "o": "Yêu cầu vệ sinh lưu thông đô thị",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đáp ứng",
+        "o": "Yêu cầu vệ sinh lưu thông đô thị",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quy định vệ sinh đô thị",
+          "Tiêu chuẩn vệ sinh đô thị"
+        ]
+      }
     ]
   },
   {
@@ -22,21 +50,116 @@
       "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô chở đất đá, phế thải, hàng rời mà không có mui, bạt che đậy hoặc có mui, bạt che đậy nhưng vẫn để rơi vãi; làm rơi vãi hàng hóa trên đường bộ; chở hàng hoặc chất thải để nước chảy xuống mặt đường gây mất an toàn giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Chở", "o": "Đất đá",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Phế thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hàng rời",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Có", "o": "Mui bạt che đậy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm rơi vãi", "o": "Hàng rời",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hàng hóa"]},
-      {"s": "Người", "v": "Làm chảy", "o": "Nước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Đất đá",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Phế thải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Chất thải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hàng rời",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa rời",
+          "Hàng hóa không đóng gói"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Có",
+        "o": "Mui bạt che đậy",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Bạt che",
+          "Mái che"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm rơi vãi",
+        "o": "Hàng rời",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Rơi vãi",
+          "Đổ ra"
+        ],
+        "o_keyphrases": [
+          "hàng hóa",
+          "Hàng hóa rời",
+          "Hàng hóa không đóng gói"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm chảy",
+        "o": "Nước",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -47,21 +170,95 @@
       "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô lôi kéo bùn, đất, cát, nguyên liệu, vật liệu hoặc chất phế thải khác ra đường bộ gây mất an toàn giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Lôi kéo", "o": "Bùn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lôi kéo", "o": "Đất",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lôi kéo", "o": "Cát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lôi kéo", "o": "Nguyên liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lôi kéo", "o": "Vật liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lôi kéo", "o": "Phế thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chất phế thải khác"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lôi kéo",
+        "o": "Bùn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lôi kéo",
+        "o": "Đất",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lôi kéo",
+        "o": "Cát",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lôi kéo",
+        "o": "Nguyên liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lôi kéo",
+        "o": "Vật liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lôi kéo",
+        "o": "Phế thải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "chất phế thải khác",
+          "Rác thải",
+          "Chất thải"
+        ]
+      }
     ]
   },
   {
@@ -72,23 +269,130 @@
       "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô đổ trái phép rác, đất, cát, đá, vật liệu, chất phế thải trong phạm vi đất dành cho đường bộ ở đoạn đường ngoài đô thị."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Đổ", "o": "Rác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Đất",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Cát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Đá",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Vật liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Phế thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chất phế thải"]},
-      {"s": "Người", "v": "Tại", "o": "Đất dành cho đường bộ ngoài đô thị",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Rác",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Chất thải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Đất",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Cát",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Đá",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Vật liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Phế thải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": [
+          "chất phế thải",
+          "Rác thải",
+          "Chất thải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đất dành cho đường bộ ngoài đô thị",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đất đường bộ",
+          "Đất giao thông"
+        ]
+      }
     ]
   },
   {
@@ -99,23 +403,130 @@
       "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô đổ trái phép rác, đất, cát, đá, vật liệu, chất phế thải ra đường phố."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Đổ", "o": "Rác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Đất",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Cát",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Đá",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Vật liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đổ", "o": "Phế thải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chất phế thải"]},
-      {"s": "Người", "v": "Tại", "o": "Đường phố",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Rác",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Chất thải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Đất",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Cát",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Đá",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Vật liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đổ",
+        "o": "Phế thải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": [
+          "chất phế thải",
+          "Rác thải",
+          "Chất thải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường phố",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường đô thị"
+        ]
+      }
     ]
   },
   {
@@ -126,10 +537,34 @@
       "Người điều khiển phương tiện (khi điều khiển xe ô tô) thực hiện hành vi vi phạm quy định tại khoản 3, khoản 4 Điều này còn bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -140,12 +575,46 @@
       "Người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy hoặc điều khiển xe ô tô, điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô."
     ],
     "triplets": [
-      {"s": "Người từ đủ 14 tuổi đến dưới 16 tuổi", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người từ đủ 14 tuổi đến dưới 16 tuổi", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]}
+      {
+        "s": "Người từ đủ 14 tuổi đến dưới 16 tuổi",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người vị thành niên",
+          "Thiếu niên"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Người từ đủ 14 tuổi đến dưới 16 tuổi",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người vị thành niên",
+          "Thiếu niên"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      }
     ]
   },
   {
@@ -156,15 +625,74 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy kinh doanh vận tải không mang theo chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Thuộc", "o": "Chủ xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Buôn bán",
+          "Thương mại"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ]
+      },
+      {
+        "s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "v": "Thuộc",
+        "o": "Chủ xe cơ giới",
+        "s_keyphrases": [
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Người sở hữu xe cơ giới",
+          "Chủ phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -175,13 +703,54 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không có chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người", "v": "Có", "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự", "v": "Thuộc", "o": "Chủ xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ]
+      },
+      {
+        "s": "Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự",
+        "v": "Thuộc",
+        "o": "Chủ xe cơ giới",
+        "s_keyphrases": [
+          "Giấy chứng nhận bảo hiểm",
+          "Bảo hiểm trách nhiệm dân sự"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Người sở hữu xe cơ giới",
+          "Chủ phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -192,13 +761,60 @@
       "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy kinh doanh vận tải không mang theo chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe)."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Người", "v": "Kinh doanh", "o": "Vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Phương tiện xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kinh doanh",
+        "o": "Vận tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Buôn bán",
+          "Thương mại"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Vận chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      }
     ]
   }
 ]

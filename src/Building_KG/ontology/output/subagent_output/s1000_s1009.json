@@ -12,26 +12,52 @@
         "v": "Là",
         "o": "Chủ phương tiện",
         "s_keyphrases": [
-          "chủ của xe ô tô"
+          "chủ của xe ô tô",
+          "Người sở hữu xe",
+          "Chủ sở hữu xe"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Thì",
+          "Được xem là"
+        ],
+        "o_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Chủ sở hữu"
+        ]
       },
       {
         "s": "Ô tô",
         "v": "Kéo theo",
         "o": "Rơ moóc",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "Dẫn đến",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Rơ moóc xe",
+          "Rơ moóc kéo"
+        ]
       },
       {
         "s": "Ô tô",
         "v": "Kéo theo",
         "o": "Sơ mi rơ moóc",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "Dẫn đến",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Sơ mi rơ moóc xe",
+          "Sơ mi rơ moóc kéo"
+        ]
       }
     ]
   },
@@ -47,34 +73,69 @@
         "s": "Chủ phương tiện",
         "v": "Vi phạm",
         "o": "Quy định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Điều luật",
+          "Chính sách"
+        ]
       },
       {
         "s": "Người",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Vi phạm",
         "o": "Quy định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Điều luật",
+          "Chính sách"
+        ]
       },
       {
         "s": "Quy định",
         "v": "Liên quan",
         "o": "Trật tự, an toàn giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Điều luật",
+          "Chính sách"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
         "o_keyphrases": [
-          "trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ"
+          "trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ",
+          "Trật tự giao thông",
+          "An toàn giao thông"
         ]
       }
     ]
@@ -91,34 +152,69 @@
         "s": "Chủ phương tiện",
         "v": "Liên quan",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm luật",
+          "Hành vi vi phạm quy định"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Liên quan",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm luật",
+          "Hành vi vi phạm quy định"
+        ]
       },
       {
         "s": "Tổ chức",
         "v": "Liên quan",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm luật",
+          "Hành vi vi phạm quy định"
+        ]
       },
       {
         "s": "Phương tiện",
         "v": "Phát hiện",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ],
+        "v_keyphrases": [
+          "Nhận diện",
+          "Phát giác"
+        ],
         "o_keyphrases": [
-          "thiết bị kỹ thuật nghiệp vụ"
+          "thiết bị kỹ thuật nghiệp vụ",
+          "Hành vi vi phạm luật",
+          "Hành vi vi phạm quy định"
         ]
       }
     ]
@@ -135,33 +231,69 @@
         "s": "Chủ phương tiện",
         "v": "Hợp tác",
         "o": "Cơ quan chức năng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Cộng tác",
+          "Làm việc cùng"
+        ],
+        "o_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ]
       },
       {
         "s": "Cơ quan chức năng",
         "v": "Xác định",
         "o": "Người",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Định rõ",
+          "Làm rõ"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ]
       },
       {
         "s": "Người",
         "v": "Điều khiển",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Thực hiện",
         "o": "Hành vi vi phạm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
       }
     ]
   },
@@ -178,19 +310,35 @@
         "v": "Thu thập",
         "o": "Kết quả",
         "s_keyphrases": [
-          "thiết bị kỹ thuật nghiệp vụ"
+          "thiết bị kỹ thuật nghiệp vụ",
+          "Phương tiện giao thông",
+          "Xe"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Tập hợp",
+          "Sưu tầm"
+        ],
+        "o_keyphrases": [
+          "Thành quả",
+          "Kết luận"
+        ]
       },
       {
         "s": "Kết quả",
         "v": "Chuyển đến",
         "o": "Người có thẩm quyền xử phạt",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Thành quả",
+          "Kết luận"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Gửi đến"
+        ],
         "o_keyphrases": [
-          "người có thẩm quyền xử phạt vi phạm hành chính"
+          "người có thẩm quyền xử phạt vi phạm hành chính",
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
         ]
       }
     ]
@@ -207,10 +355,17 @@
         "s": "Người có thẩm quyền xử phạt",
         "v": "Sử dụng",
         "o": "Dữ liệu",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
         "o_keyphrases": [
-          "thông tin"
+          "thông tin",
+          "Dữ liệu thống kê"
         ]
       },
       {
@@ -218,18 +373,34 @@
         "v": "Tại",
         "o": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
         "s_keyphrases": [
-          "thông tin"
+          "thông tin",
+          "Dữ liệu thống kê"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Ở",
+          "Tại chỗ"
+        ],
+        "o_keyphrases": [
+          "Cơ sở dữ liệu giao thông",
+          "Cơ sở dữ liệu an toàn giao thông"
+        ]
       },
       {
         "s": "Người có thẩm quyền xử phạt",
         "v": "Xác định",
         "o": "Hành vi vi phạm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Định rõ",
+          "Làm rõ"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
       }
     ]
   },
@@ -245,27 +416,53 @@
         "s": "Công tác điều tra, giải quyết tai nạn giao thông",
         "v": "Xác minh",
         "o": "Hành vi vi phạm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Quy trình điều tra tai nạn",
+          "Giải quyết tai nạn giao thông"
+        ],
+        "v_keyphrases": [
+          "Kiểm tra",
+          "Xác thực"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
       },
       {
         "s": "Công tác đăng ký xe",
         "v": "Xác minh",
         "o": "Hành vi vi phạm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Quy trình đăng ký xe",
+          "Đăng ký phương tiện"
+        ],
+        "v_keyphrases": [
+          "Kiểm tra",
+          "Xác thực"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
       },
       {
         "s": "Công tác xử lý vi phạm hành chính",
         "v": "Xác minh",
         "o": "Hành vi vi phạm",
         "s_keyphrases": [
-          "công tác xử lý vụ việc vi phạm hành chính"
+          "công tác xử lý vụ việc vi phạm hành chính",
+          "Quy trình xử lý vi phạm",
+          "Xử lý vi phạm"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Kiểm tra",
+          "Xác thực"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
       }
     ]
   },
@@ -281,43 +478,87 @@
         "s": "Người có thẩm quyền xử phạt",
         "v": "Gửi",
         "o": "Thông báo",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Truyền đạt",
+          "Chuyển"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ sở đăng kiểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
         "o_keyphrases": [
-          "cơ quan đăng kiểm"
+          "cơ quan đăng kiểm",
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
         ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ quan đăng ký xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
+        "o_keyphrases": [
+          "Cơ quan đăng ký phương tiện",
+          "Cơ quan đăng ký"
+        ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ quan cấp giấy phép lái xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
+        "o_keyphrases": [
+          "Cơ quan cấp GPLX",
+          "Cơ quan cấp giấy phép"
+        ]
       },
       {
         "s": "Chủ phương tiện",
         "v": "Giải quyết",
         "o": "Vụ việc vi phạm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Xử lý",
+          "Khắc phục"
+        ],
+        "o_keyphrases": [
+          "Vụ vi phạm",
+          "Sự việc vi phạm"
+        ]
       }
     ]
   },
@@ -333,44 +574,86 @@
         "s": "Người có thẩm quyền xử phạt",
         "v": "Gửi",
         "o": "Thông báo",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Truyền đạt",
+          "Chuyển"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ sở đăng kiểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
         "o_keyphrases": [
-          "cơ quan đăng kiểm"
+          "cơ quan đăng kiểm",
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
         ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ quan đăng ký xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
+        "o_keyphrases": [
+          "Cơ quan đăng ký phương tiện",
+          "Cơ quan đăng ký"
+        ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ quan cấp giấy phép lái xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
+        "o_keyphrases": [
+          "Cơ quan cấp GPLX",
+          "Cơ quan cấp giấy phép"
+        ]
       },
       {
         "s": "Người có thẩm quyền xử phạt",
         "v": "Có",
         "o": "Dữ liệu",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Tồn tại",
+          "Được"
+        ],
         "o_keyphrases": [
-          "thông tin"
+          "thông tin",
+          "Dữ liệu thống kê"
         ]
       },
       {
@@ -378,10 +661,17 @@
         "v": "Về",
         "o": "Phương tiện",
         "s_keyphrases": [
-          "thông tin"
+          "thông tin",
+          "Dữ liệu thống kê"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Về vấn đề"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
       }
     ]
   },
@@ -397,53 +687,105 @@
         "s": "Người có thẩm quyền xử phạt",
         "v": "Gửi",
         "o": "Thông báo",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Truyền đạt",
+          "Chuyển"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ sở đăng kiểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
         "o_keyphrases": [
-          "cơ quan đăng kiểm"
+          "cơ quan đăng kiểm",
+          "Trung tâm đăng kiểm",
+          "Đơn vị đăng kiểm"
         ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ quan đăng ký xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
+        "o_keyphrases": [
+          "Cơ quan đăng ký phương tiện",
+          "Cơ quan đăng ký"
+        ]
       },
       {
         "s": "Thông báo",
         "v": "Gửi đến",
         "o": "Cơ quan cấp giấy phép lái xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thông tin",
+          "Thông báo chính thức"
+        ],
+        "v_keyphrases": [
+          "Chuyển đến",
+          "Truyền đến"
+        ],
+        "o_keyphrases": [
+          "Cơ quan cấp GPLX",
+          "Cơ quan cấp giấy phép"
+        ]
       },
       {
         "s": "Chủ phương tiện",
         "v": "Giải quyết",
         "o": "Vụ việc vi phạm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Xử lý",
+          "Khắc phục"
+        ],
+        "o_keyphrases": [
+          "Vụ vi phạm",
+          "Sự việc vi phạm"
+        ]
       },
       {
         "s": "Người",
         "v": "Giải quyết",
         "o": "Vụ việc vi phạm",
         "s_keyphrases": [
-          "người vi phạm"
+          "người vi phạm",
+          "Cá nhân",
+          "Người dân"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Xử lý",
+          "Khắc phục"
+        ],
+        "o_keyphrases": [
+          "Vụ vi phạm",
+          "Sự việc vi phạm"
+        ]
       }
     ]
   }

@@ -7,15 +7,53 @@
       "Việc gửi quyết định xử phạt vi phạm hành chính thực hiện theo quy định của Luật Xử lý vi phạm hành chính và có thể gửi cho người vi phạm qua tài khoản đã đăng ký trên Cổng dịch vụ công."
     ],
     "triplets": [
-      {"s": "Quyết định xử phạt", "v": "Gửi", "o": "Người vi phạm",
-       "s_keyphrases": ["quyết định xử phạt vi phạm hành chính"], "v_keyphrases": [],
-       "o_keyphrases": []},
-      {"s": "Quyết định xử phạt", "v": "Gửi qua", "o": "Tài khoản",
-       "s_keyphrases": ["quyết định xử phạt vi phạm hành chính"], "v_keyphrases": [],
-       "o_keyphrases": []},
-      {"s": "Tài khoản", "v": "Đăng ký", "o": "Cổng dịch vụ công",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": []}
+      {
+        "s": "Quyết định xử phạt",
+        "v": "Gửi",
+        "o": "Người vi phạm",
+        "s_keyphrases": [
+          "quyết định xử phạt vi phạm hành chính",
+          "Quyết định xử phạt vi phạm",
+          "Quyết định xử phạt hành chính"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Truyền"
+        ],
+        "o_keyphrases": [
+          "Người bị xử phạt",
+          "Người phạm luật"
+        ]
+      },
+      {
+        "s": "Quyết định xử phạt",
+        "v": "Gửi qua",
+        "o": "Tài khoản",
+        "s_keyphrases": [
+          "quyết định xử phạt vi phạm hành chính",
+          "Quyết định xử phạt vi phạm",
+          "Quyết định xử phạt hành chính"
+        ],
+        "v_keyphrases": [
+          "Chuyển qua",
+          "Truyền qua"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tài khoản",
+        "v": "Đăng ký",
+        "o": "Cổng dịch vụ công",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Kê khai",
+          "Đăng ký thông tin"
+        ],
+        "o_keyphrases": [
+          "Cổng thông tin dịch vụ công",
+          "Cổng dịch vụ công trực tuyến"
+        ]
+      }
     ]
   },
   {
@@ -26,12 +64,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -42,12 +120,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -58,12 +176,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -74,12 +232,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -90,12 +288,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -106,12 +344,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -122,12 +400,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -138,12 +456,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -154,12 +512,52 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ban hành", "o": "Quyết định xử phạt",
-       "s_keyphrases": [], "v_keyphrases": ["ra"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Tạm thời giữ"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ban hành",
+        "o": "Quyết định xử phạt",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan có thẩm quyền"
+        ],
+        "v_keyphrases": [
+          "ra",
+          "Phát hành",
+          "Ra quyết định"
+        ],
+        "o_keyphrases": []
+      }
     ]
   }
 ]

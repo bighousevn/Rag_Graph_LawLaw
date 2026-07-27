@@ -7,11 +7,40 @@
       "Chính phủ quy định chi tiết khoản 1 và khoản 2 Điều này; quy định việc thu thập, quản lý, khai thác thông tin trong Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Chính phủ", "v": "Quy định", "o": "Thông tin",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thông tin", "v": "Thuộc", "o": "Cơ sở dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": ["trong"],
-       "o_keyphrases": ["cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ"]}
+      {
+        "s": "Chính phủ",
+        "v": "Quy định",
+        "o": "Thông tin",
+        "s_keyphrases": [
+          "Nhà nước",
+          "Chính quyền"
+        ],
+        "v_keyphrases": [
+          "Quy tắc",
+          "Điều lệ"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Tin tức"
+        ]
+      },
+      {
+        "s": "Thông tin",
+        "v": "Thuộc",
+        "o": "Cơ sở dữ liệu",
+        "s_keyphrases": [
+          "Dữ liệu",
+          "Tin tức"
+        ],
+        "v_keyphrases": [
+          "trong"
+        ],
+        "o_keyphrases": [
+          "cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ",
+          "Hệ thống dữ liệu",
+          "Cơ sở thông tin"
+        ]
+      }
     ]
   },
   {
@@ -22,39 +51,241 @@
       "Thực hiện hợp tác quốc tế về trật tự, an toàn giao thông đường bộ trên cơ sở tuân thủ pháp luật Việt Nam và điều ước quốc tế có liên quan mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên; tôn trọng các nguyên tắc cơ bản của pháp luật quốc tế; bảo đảm độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của Tổ quốc; bảo vệ lợi ích của Nhà nước, quyền và lợi ích hợp pháp của tổ chức, cá nhân."
     ],
     "triplets": [
-      {"s": "Việt Nam", "v": "Thực hiện", "o": "Hợp tác quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["hợp tác quốc tế về trật tự, an toàn giao thông đường bộ"]},
-      {"s": "Việt Nam", "v": "Tuân thủ", "o": "Pháp luật Việt Nam",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Tuân thủ", "o": "Điều ước quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Tôn trọng", "o": "Pháp luật quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Bảo đảm", "o": "Độc lập",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Bảo đảm", "o": "Chủ quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Bảo đảm", "o": "Thống nhất",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Bảo đảm", "o": "Toàn vẹn lãnh thổ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Bảo vệ", "o": "Lợi ích",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lợi ích", "v": "Thuộc", "o": "Nhà nước",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Bảo vệ", "o": "Quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyền", "v": "Thuộc", "o": "Tổ chức",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Quyền", "v": "Thuộc", "o": "Cá nhân",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Bảo vệ", "o": "Lợi ích hợp pháp",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lợi ích hợp pháp", "v": "Thuộc", "o": "Tổ chức",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Lợi ích hợp pháp", "v": "Thuộc", "o": "Cá nhân",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Việt Nam",
+        "v": "Thực hiện",
+        "o": "Hợp tác quốc tế",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Triển khai",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "hợp tác quốc tế về trật tự, an toàn giao thông đường bộ",
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Tuân thủ",
+        "o": "Pháp luật Việt Nam",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện theo"
+        ],
+        "o_keyphrases": [
+          "Luật pháp Việt Nam",
+          "Hệ thống pháp luật Việt Nam"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Tuân thủ",
+        "o": "Điều ước quốc tế",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện theo"
+        ],
+        "o_keyphrases": [
+          "Hiệp ước quốc tế",
+          "Thỏa thuận quốc tế"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Tôn trọng",
+        "o": "Pháp luật quốc tế",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Kính trọng",
+          "Tôn kính"
+        ],
+        "o_keyphrases": [
+          "Luật pháp quốc tế",
+          "Hệ thống pháp luật quốc tế"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Bảo đảm",
+        "o": "Độc lập",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Tự chủ",
+          "Tự lập"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Bảo đảm",
+        "o": "Chủ quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền kiểm soát"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Bảo đảm",
+        "o": "Thống nhất",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Đồng thuận",
+          "Hài hòa"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Bảo đảm",
+        "o": "Toàn vẹn lãnh thổ",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Độc lập lãnh thổ",
+          "Bảo vệ lãnh thổ"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Bảo vệ",
+        "o": "Lợi ích",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Bảo đảm an toàn",
+          "Bảo vệ an ninh"
+        ],
+        "o_keyphrases": [
+          "Quyền lợi",
+          "Lợi ích kinh tế"
+        ]
+      },
+      {
+        "s": "Lợi ích",
+        "v": "Thuộc",
+        "o": "Nhà nước",
+        "s_keyphrases": [
+          "Quyền lợi",
+          "Lợi ích kinh tế"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Chính phủ",
+          "Cơ quan nhà nước"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Bảo vệ",
+        "o": "Quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Bảo đảm an toàn",
+          "Bảo vệ an ninh"
+        ],
+        "o_keyphrases": [
+          "Quyền lợi",
+          "Quyền hạn"
+        ]
+      },
+      {
+        "s": "Quyền",
+        "v": "Thuộc",
+        "o": "Tổ chức",
+        "s_keyphrases": [
+          "Quyền lợi",
+          "Quyền hạn"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ]
+      },
+      {
+        "s": "Quyền",
+        "v": "Thuộc",
+        "o": "Cá nhân",
+        "s_keyphrases": [
+          "Quyền lợi",
+          "Quyền hạn"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Người",
+          "Công dân"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Bảo vệ",
+        "o": "Lợi ích hợp pháp",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Bảo đảm an toàn",
+          "Bảo vệ an ninh"
+        ],
+        "o_keyphrases": [
+          "Quyền lợi hợp pháp",
+          "Lợi ích chính đáng"
+        ]
+      },
+      {
+        "s": "Lợi ích hợp pháp",
+        "v": "Thuộc",
+        "o": "Tổ chức",
+        "s_keyphrases": [
+          "Quyền lợi hợp pháp",
+          "Lợi ích chính đáng"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ]
+      },
+      {
+        "s": "Lợi ích hợp pháp",
+        "v": "Thuộc",
+        "o": "Cá nhân",
+        "s_keyphrases": [
+          "Quyền lợi hợp pháp",
+          "Lợi ích chính đáng"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Người",
+          "Công dân"
+        ]
+      }
     ]
   },
   {
@@ -65,10 +296,40 @@
       "Nội dung hợp tác quốc tế về trật tự, an toàn giao thông đường bộ bao gồm ký kết điều ước quốc tế, thỏa thuận quốc tế có liên quan đến trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Hợp tác quốc tế", "v": "Ký kết", "o": "Điều ước quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hợp tác quốc tế", "v": "Ký kết", "o": "Thỏa thuận quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Ký kết",
+        "o": "Điều ước quốc tế",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Thỏa thuận",
+          "Đàm phán"
+        ],
+        "o_keyphrases": [
+          "Hiệp ước quốc tế",
+          "Thỏa thuận quốc tế"
+        ]
+      },
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Ký kết",
+        "o": "Thỏa thuận quốc tế",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Thỏa thuận",
+          "Đàm phán"
+        ],
+        "o_keyphrases": [
+          "Hiệp định quốc tế",
+          "Thỏa thuận toàn cầu"
+        ]
+      }
     ]
   },
   {
@@ -79,10 +340,40 @@
       "Nội dung hợp tác quốc tế về trật tự, an toàn giao thông đường bộ bao gồm trao đổi thông tin, chuyển giao công nghệ có liên quan đến trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Hợp tác quốc tế", "v": "Trao đổi", "o": "Thông tin",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hợp tác quốc tế", "v": "Chuyển giao", "o": "Công nghệ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Trao đổi",
+        "o": "Thông tin",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Chia sẻ",
+          "Thảo luận"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Tin tức"
+        ]
+      },
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Chuyển giao",
+        "o": "Công nghệ",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Giao lại",
+          "Chuyển nhượng"
+        ],
+        "o_keyphrases": [
+          "Kỹ thuật",
+          "Công nghệ thông tin"
+        ]
+      }
     ]
   },
   {
@@ -93,14 +384,75 @@
       "Nội dung hợp tác quốc tế về trật tự, an toàn giao thông đường bộ bao gồm đào tạo, tập huấn, nâng cao năng lực cho lực lượng bảo đảm trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Hợp tác quốc tế", "v": "Đào tạo", "o": "Lực lượng bảo đảm trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hợp tác quốc tế", "v": "Tập huấn", "o": "Lực lượng bảo đảm trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hợp tác quốc tế", "v": "Nâng cao", "o": "Năng lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Năng lực", "v": "Dành cho", "o": "Lực lượng bảo đảm trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []}
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Đào tạo",
+        "o": "Lực lượng bảo đảm trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Huấn luyện",
+          "Giáo dục"
+        ],
+        "o_keyphrases": [
+          "Lực lượng cảnh sát giao thông",
+          "Lực lượng an ninh giao thông"
+        ]
+      },
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Tập huấn",
+        "o": "Lực lượng bảo đảm trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Đào tạo",
+          "Huấn luyện"
+        ],
+        "o_keyphrases": [
+          "Lực lượng cảnh sát giao thông",
+          "Lực lượng an ninh giao thông"
+        ]
+      },
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Nâng cao",
+        "o": "Năng lực",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Cải thiện",
+          "Tăng cường"
+        ],
+        "o_keyphrases": [
+          "Khả năng",
+          "Trình độ"
+        ]
+      },
+      {
+        "s": "Năng lực",
+        "v": "Dành cho",
+        "o": "Lực lượng bảo đảm trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Khả năng",
+          "Trình độ"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Lực lượng cảnh sát giao thông",
+          "Lực lượng an ninh giao thông"
+        ]
+      }
     ]
   },
   {
@@ -111,8 +463,23 @@
       "Nội dung hợp tác quốc tế về trật tự, an toàn giao thông đường bộ bao gồm tăng cường điều kiện vật chất để bảo đảm trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Hợp tác quốc tế", "v": "Tăng cường", "o": "Điều kiện vật chất",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Tăng cường",
+        "o": "Điều kiện vật chất",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Củng cố",
+          "Nâng cao"
+        ],
+        "o_keyphrases": [
+          "Cơ sở vật chất",
+          "Điều kiện hạ tầng"
+        ]
+      }
     ]
   },
   {
@@ -123,8 +490,23 @@
       "Nội dung hợp tác quốc tế về trật tự, an toàn giao thông đường bộ bao gồm giải quyết tai nạn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Hợp tác quốc tế", "v": "Giải quyết", "o": "Tai nạn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hợp tác quốc tế",
+        "v": "Giải quyết",
+        "o": "Tai nạn giao thông đường bộ",
+        "s_keyphrases": [
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ],
+        "v_keyphrases": [
+          "Xử lý",
+          "Khắc phục"
+        ],
+        "o_keyphrases": [
+          "Tai nạn giao thông",
+          "Sự cố giao thông"
+        ]
+      }
     ]
   },
   {
@@ -135,10 +517,34 @@
       "Nội dung hợp tác quốc tế về trật tự, an toàn giao thông đường bộ bao gồm thực hiện nội dung hợp tác quốc tế khác theo quy định của pháp luật Việt Nam và điều ước quốc tế có liên quan mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên."
     ],
     "triplets": [
-      {"s": "Việt Nam", "v": "Tuân thủ", "o": "Pháp luật Việt Nam",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Việt Nam", "v": "Tuân thủ", "o": "Điều ước quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Việt Nam",
+        "v": "Tuân thủ",
+        "o": "Pháp luật Việt Nam",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện theo"
+        ],
+        "o_keyphrases": [
+          "Luật pháp Việt Nam",
+          "Hệ thống pháp luật Việt Nam"
+        ]
+      },
+      {
+        "s": "Việt Nam",
+        "v": "Tuân thủ",
+        "o": "Điều ước quốc tế",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện theo"
+        ],
+        "o_keyphrases": [
+          "Hiệp ước quốc tế",
+          "Thỏa thuận quốc tế"
+        ]
+      }
     ]
   },
   {
@@ -149,27 +555,180 @@
       "Bộ Công an chủ trì, phối hợp với các Bộ, ngành liên quan giúp Chính phủ đàm phán, ký kết điều ước quốc tế, thỏa thuận quốc tế hoặc đề xuất cấp có thẩm quyền ký kết điều ước quốc tế, thỏa thuận quốc tế về trật tự, an toàn giao thông đường bộ; chủ trì, phối hợp với các Bộ, ngành liên quan thực hiện hợp tác quốc tế về trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Bộ Công an", "v": "Phối hợp", "o": "Bộ, ngành liên quan",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ Công an", "v": "Giúp", "o": "Chính phủ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ Công an", "v": "Đàm phán", "o": "Điều ước quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ Công an", "v": "Đàm phán", "o": "Thỏa thuận quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ Công an", "v": "Ký kết", "o": "Điều ước quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ Công an", "v": "Ký kết", "o": "Thỏa thuận quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ Công an", "v": "Đề xuất", "o": "Cấp có thẩm quyền của Việt Nam",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["cấp có thẩm quyền"]},
-      {"s": "Cấp có thẩm quyền của Việt Nam", "v": "Ký kết", "o": "Điều ước quốc tế",
-       "s_keyphrases": ["cấp có thẩm quyền"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cấp có thẩm quyền của Việt Nam", "v": "Ký kết", "o": "Thỏa thuận quốc tế",
-       "s_keyphrases": ["cấp có thẩm quyền"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ Công an", "v": "Thực hiện", "o": "Hợp tác quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["hợp tác quốc tế về trật tự, an toàn giao thông đường bộ"]}
+      {
+        "s": "Bộ Công an",
+        "v": "Phối hợp",
+        "o": "Bộ, ngành liên quan",
+        "s_keyphrases": [
+          "Cơ quan công an",
+          "Bộ Nội vụ"
+        ],
+        "v_keyphrases": [
+          "Hợp tác",
+          "Làm việc cùng nhau"
+        ],
+        "o_keyphrases": [
+          "Cơ quan liên quan",
+          "Bộ ngành có liên quan"
+        ]
+      },
+      {
+        "s": "Bộ Công an",
+        "v": "Giúp",
+        "o": "Chính phủ",
+        "s_keyphrases": [
+          "Cơ quan công an",
+          "Bộ Nội vụ"
+        ],
+        "v_keyphrases": [
+          "Hỗ trợ",
+          "Giúp đỡ"
+        ],
+        "o_keyphrases": [
+          "Nhà nước",
+          "Chính quyền"
+        ]
+      },
+      {
+        "s": "Bộ Công an",
+        "v": "Đàm phán",
+        "o": "Điều ước quốc tế",
+        "s_keyphrases": [
+          "Cơ quan công an",
+          "Bộ Nội vụ"
+        ],
+        "v_keyphrases": [
+          "Thương thảo",
+          "Trao đổi"
+        ],
+        "o_keyphrases": [
+          "Hiệp ước quốc tế",
+          "Thỏa thuận quốc tế"
+        ]
+      },
+      {
+        "s": "Bộ Công an",
+        "v": "Đàm phán",
+        "o": "Thỏa thuận quốc tế",
+        "s_keyphrases": [
+          "Cơ quan công an",
+          "Bộ Nội vụ"
+        ],
+        "v_keyphrases": [
+          "Thương thảo",
+          "Trao đổi"
+        ],
+        "o_keyphrases": [
+          "Hiệp định quốc tế",
+          "Thỏa thuận toàn cầu"
+        ]
+      },
+      {
+        "s": "Bộ Công an",
+        "v": "Ký kết",
+        "o": "Điều ước quốc tế",
+        "s_keyphrases": [
+          "Cơ quan công an",
+          "Bộ Nội vụ"
+        ],
+        "v_keyphrases": [
+          "Thỏa thuận",
+          "Đàm phán"
+        ],
+        "o_keyphrases": [
+          "Hiệp ước quốc tế",
+          "Thỏa thuận quốc tế"
+        ]
+      },
+      {
+        "s": "Bộ Công an",
+        "v": "Ký kết",
+        "o": "Thỏa thuận quốc tế",
+        "s_keyphrases": [
+          "Cơ quan công an",
+          "Bộ Nội vụ"
+        ],
+        "v_keyphrases": [
+          "Thỏa thuận",
+          "Đàm phán"
+        ],
+        "o_keyphrases": [
+          "Hiệp định quốc tế",
+          "Thỏa thuận toàn cầu"
+        ]
+      },
+      {
+        "s": "Bộ Công an",
+        "v": "Đề xuất",
+        "o": "Cấp có thẩm quyền của Việt Nam",
+        "s_keyphrases": [
+          "Cơ quan công an",
+          "Bộ Nội vụ"
+        ],
+        "v_keyphrases": [
+          "Gợi ý",
+          "Đưa ra"
+        ],
+        "o_keyphrases": [
+          "cấp có thẩm quyền",
+          "Cơ quan có thẩm quyền",
+          "Cơ quan nhà nước"
+        ]
+      },
+      {
+        "s": "Cấp có thẩm quyền của Việt Nam",
+        "v": "Ký kết",
+        "o": "Điều ước quốc tế",
+        "s_keyphrases": [
+          "cấp có thẩm quyền",
+          "Cơ quan có thẩm quyền",
+          "Cơ quan nhà nước"
+        ],
+        "v_keyphrases": [
+          "Thỏa thuận",
+          "Đàm phán"
+        ],
+        "o_keyphrases": [
+          "Hiệp ước quốc tế",
+          "Thỏa thuận quốc tế"
+        ]
+      },
+      {
+        "s": "Cấp có thẩm quyền của Việt Nam",
+        "v": "Ký kết",
+        "o": "Thỏa thuận quốc tế",
+        "s_keyphrases": [
+          "cấp có thẩm quyền",
+          "Cơ quan có thẩm quyền",
+          "Cơ quan nhà nước"
+        ],
+        "v_keyphrases": [
+          "Thỏa thuận",
+          "Đàm phán"
+        ],
+        "o_keyphrases": [
+          "Hiệp định quốc tế",
+          "Thỏa thuận toàn cầu"
+        ]
+      },
+      {
+        "s": "Bộ Công an",
+        "v": "Thực hiện",
+        "o": "Hợp tác quốc tế",
+        "s_keyphrases": [
+          "Cơ quan công an",
+          "Bộ Nội vụ"
+        ],
+        "v_keyphrases": [
+          "Triển khai",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "hợp tác quốc tế về trật tự, an toàn giao thông đường bộ",
+          "Liên kết quốc tế",
+          "Hợp tác toàn cầu"
+        ]
+      }
     ]
   },
   {
@@ -180,20 +739,118 @@
       "Người điều khiển xe cơ giới tham gia giao thông đường bộ không có giấy phép lái xe theo quy định của pháp luật; người điều khiển xe máy chuyên dùng tham gia giao thông đường bộ không có giấy phép lái xe hoặc chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ, bằng hoặc chứng chỉ điều khiển xe máy chuyên dùng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe cơ giới", "v": "Tham gia", "o": "Giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["giao thông đường bộ"]},
-      {"s": "Người", "v": "Có", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Tham gia", "o": "Giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["giao thông đường bộ"]},
-      {"s": "Người", "v": "Có", "o": "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Bằng điều khiển xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng chỉ điều khiển xe máy chuyên dùng"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Phương tiện cơ giới",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Xe cơ giới",
+        "v": "Tham gia",
+        "o": "Giao thông",
+        "s_keyphrases": [
+          "Phương tiện cơ giới",
+          "Xe ô tô"
+        ],
+        "v_keyphrases": [
+          "Góp mặt",
+          "Tham dự"
+        ],
+        "o_keyphrases": [
+          "giao thông đường bộ",
+          "Vận tải",
+          "Di chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Tham gia",
+        "o": "Giao thông",
+        "s_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ],
+        "v_keyphrases": [
+          "Góp mặt",
+          "Tham dự"
+        ],
+        "o_keyphrases": [
+          "giao thông đường bộ",
+          "Vận tải",
+          "Di chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+        "s_keyphrases": [
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chứng chỉ giao thông",
+          "Giấy chứng nhận kiến thức giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Bằng điều khiển xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "chứng chỉ điều khiển xe máy chuyên dùng",
+          "Giấy phép điều khiển xe máy chuyên dụng"
+        ]
+      }
     ]
   }
 ]

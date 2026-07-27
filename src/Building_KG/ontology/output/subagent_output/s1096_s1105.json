@@ -7,12 +7,57 @@
       "Người điều khiển phương tiện tham gia giao thông đường bộ bao gồm: người điều khiển xe cơ giới, người điều khiển xe thô sơ, người điều khiển xe máy chuyên dùng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Chỉ huy"
+        ],
+        "o_keyphrases": [
+          "Phương tiện cơ giới",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Chỉ huy"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Chỉ huy"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      }
     ]
   },
   {
@@ -23,11 +68,43 @@
       "Người điều khiển giao thông đường bộ bao gồm: Cảnh sát giao thông và người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ."
     ],
     "triplets": [
-      {"s": "Người điều khiển giao thông", "v": "Gồm", "o": "Cảnh sát giao thông",
-       "s_keyphrases": ["người điều khiển giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người điều khiển giao thông", "v": "Gồm", "o": "Người được giao nhiệm vụ hướng dẫn giao thông",
-       "s_keyphrases": ["người điều khiển giao thông đường bộ"], "v_keyphrases": [],
-       "o_keyphrases": ["người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ"]}
+      {
+        "s": "Người điều khiển giao thông",
+        "v": "Gồm",
+        "o": "Cảnh sát giao thông",
+        "s_keyphrases": [
+          "người điều khiển giao thông đường bộ",
+          "Người hướng dẫn giao thông",
+          "Người chỉ huy giao thông"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có chứa"
+        ],
+        "o_keyphrases": [
+          "Lực lượng cảnh sát",
+          "Cảnh sát đường bộ"
+        ]
+      },
+      {
+        "s": "Người điều khiển giao thông",
+        "v": "Gồm",
+        "o": "Người được giao nhiệm vụ hướng dẫn giao thông",
+        "s_keyphrases": [
+          "người điều khiển giao thông đường bộ",
+          "Người hướng dẫn giao thông",
+          "Người chỉ huy giao thông"
+        ],
+        "v_keyphrases": [
+          "Bao gồm",
+          "Có chứa"
+        ],
+        "o_keyphrases": [
+          "người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ",
+          "Người hướng dẫn giao thông",
+          "Người chỉ huy giao thông"
+        ]
+      }
     ]
   },
   {
@@ -47,16 +124,88 @@
       "Tai nạn giao thông đường bộ là va chạm liên quan đến người, phương tiện khi tham gia giao thông đường bộ, xảy ra ngoài ý muốn của người tham gia giao thông đường bộ, gây thiệt hại đến tính mạng, sức khỏe, tài sản của cá nhân hoặc tài sản của cơ quan, tổ chức."
     ],
     "triplets": [
-      {"s": "Tai nạn giao thông đường bộ", "v": "Liên quan", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tai nạn giao thông đường bộ", "v": "Liên quan", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tai nạn giao thông đường bộ", "v": "Gây thiệt hại", "o": "Tính mạng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tai nạn giao thông đường bộ", "v": "Gây thiệt hại", "o": "Sức khỏe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tai nạn giao thông đường bộ", "v": "Gây thiệt hại", "o": "Tài sản",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tai nạn giao thông đường bộ",
+        "v": "Liên quan",
+        "o": "Người",
+        "s_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn giao thông"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tai nạn giao thông đường bộ",
+        "v": "Liên quan",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn giao thông"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Phương tiện di chuyển"
+        ]
+      },
+      {
+        "s": "Tai nạn giao thông đường bộ",
+        "v": "Gây thiệt hại",
+        "o": "Tính mạng",
+        "s_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn giao thông"
+        ],
+        "v_keyphrases": [
+          "Gây tổn thất",
+          "Gây hại"
+        ],
+        "o_keyphrases": [
+          "Sự sống",
+          "Cuộc sống"
+        ]
+      },
+      {
+        "s": "Tai nạn giao thông đường bộ",
+        "v": "Gây thiệt hại",
+        "o": "Sức khỏe",
+        "s_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn giao thông"
+        ],
+        "v_keyphrases": [
+          "Gây tổn thất",
+          "Gây hại"
+        ],
+        "o_keyphrases": [
+          "Sức khỏe cộng đồng",
+          "Sức khỏe cá nhân"
+        ]
+      },
+      {
+        "s": "Tai nạn giao thông đường bộ",
+        "v": "Gây thiệt hại",
+        "o": "Tài sản",
+        "s_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn giao thông"
+        ],
+        "v_keyphrases": [
+          "Gây tổn thất",
+          "Gây hại"
+        ],
+        "o_keyphrases": [
+          "Tài sản cá nhân",
+          "Tài sản công"
+        ]
+      }
     ]
   },
   {
@@ -67,10 +216,41 @@
       "Thiết bị an toàn cho trẻ em là thiết bị có đủ khả năng bảo đảm an toàn cho trẻ em ở tư thế ngồi hoặc nằm trên xe ô tô, được thiết kế để giảm nguy cơ chấn thương cho người dùng trong trường hợp xảy ra va chạm hoặc xe ô tô giảm tốc độ đột ngột."
     ],
     "triplets": [
-      {"s": "Thiết bị an toàn", "v": "Dành cho", "o": "Trẻ em",
-       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
-      {"s": "Thiết bị an toàn", "v": "Giảm", "o": "Chấn thương",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Thiết bị an toàn",
+        "v": "Dành cho",
+        "o": "Trẻ em",
+        "s_keyphrases": [
+          "Dụng cụ an toàn",
+          "Trang thiết bị an toàn"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng cho",
+          "Cung cấp cho"
+        ],
+        "o_keyphrases": [
+          "Thiếu niên",
+          "Người chưa thành niên"
+        ]
+      },
+      {
+        "s": "Thiết bị an toàn",
+        "v": "Giảm",
+        "o": "Chấn thương",
+        "s_keyphrases": [
+          "Dụng cụ an toàn",
+          "Trang thiết bị an toàn"
+        ],
+        "v_keyphrases": [
+          "Giảm thiểu",
+          "Hạn chế"
+        ],
+        "o_keyphrases": [
+          "Tổn thương",
+          "Thương tích"
+        ]
+      }
     ]
   },
   {
@@ -81,16 +261,84 @@
       "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ là thiết bị kỹ thuật công nghệ có khả năng phát hiện, phân tích, đánh giá các tình huống giao thông đường bộ, vi phạm pháp luật trên đường bộ; do lực lượng chức năng sử dụng để hỗ trợ chỉ huy, điều khiển giao thông đường bộ, giải quyết tình huống và xử lý vi phạm pháp luật trên đường bộ."
     ],
     "triplets": [
-      {"s": "Lực lượng chức năng", "v": "Sử dụng", "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ", "v": "Phát hiện", "o": "Tình huống giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ", "v": "Phát hiện", "o": "Vi phạm pháp luật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vi phạm pháp luật trên đường bộ"]},
-      {"s": "Lực lượng chức năng", "v": "Giải quyết", "o": "Tình huống giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Lực lượng chức năng", "v": "Xử lý", "o": "Vi phạm pháp luật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vi phạm pháp luật trên đường bộ"]}
+      {
+        "s": "Lực lượng chức năng",
+        "v": "Sử dụng",
+        "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan chức năng",
+          "Cơ quan thực thi pháp luật"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
+        "v": "Phát hiện",
+        "o": "Tình huống giao thông đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Nhận diện",
+          "Phát hiện ra"
+        ],
+        "o_keyphrases": [
+          "Tình huống giao thông",
+          "Tình huống lưu thông"
+        ]
+      },
+      {
+        "s": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
+        "v": "Phát hiện",
+        "o": "Vi phạm pháp luật",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Nhận diện",
+          "Phát hiện ra"
+        ],
+        "o_keyphrases": [
+          "vi phạm pháp luật trên đường bộ",
+          "Hành vi vi phạm",
+          "Hành vi trái pháp luật"
+        ]
+      },
+      {
+        "s": "Lực lượng chức năng",
+        "v": "Giải quyết",
+        "o": "Tình huống giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan chức năng",
+          "Cơ quan thực thi pháp luật"
+        ],
+        "v_keyphrases": [
+          "Xử lý",
+          "Khắc phục"
+        ],
+        "o_keyphrases": [
+          "Tình huống giao thông",
+          "Tình huống lưu thông"
+        ]
+      },
+      {
+        "s": "Lực lượng chức năng",
+        "v": "Xử lý",
+        "o": "Vi phạm pháp luật",
+        "s_keyphrases": [
+          "Cơ quan chức năng",
+          "Cơ quan thực thi pháp luật"
+        ],
+        "v_keyphrases": [
+          "Giải quyết",
+          "Khắc phục"
+        ],
+        "o_keyphrases": [
+          "vi phạm pháp luật trên đường bộ",
+          "Hành vi vi phạm",
+          "Hành vi trái pháp luật"
+        ]
+      }
     ]
   },
   {
@@ -101,12 +349,60 @@
       "Nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ là tuân thủ Hiến pháp, pháp luật Việt Nam và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên."
     ],
     "triplets": [
-      {"s": "Nguyên tắc", "v": "Tuân thủ", "o": "Hiến pháp",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Tuân thủ", "o": "Pháp luật Việt Nam",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Tuân thủ", "o": "Điều ước quốc tế",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Nguyên tắc",
+        "v": "Tuân thủ",
+        "o": "Hiến pháp",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Luật cơ bản",
+          "Văn bản pháp lý"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Tuân thủ",
+        "o": "Pháp luật Việt Nam",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Luật pháp Việt Nam",
+          "Hệ thống pháp luật"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Tuân thủ",
+        "o": "Điều ước quốc tế",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Hiệp định quốc tế",
+          "Thỏa thuận quốc tế"
+        ]
+      }
     ]
   },
   {
@@ -117,29 +413,203 @@
       "Nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ là bảo đảm giao thông đường bộ được trật tự, an toàn, thông suốt, góp phần phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh và bảo vệ môi trường; phòng ngừa vi phạm pháp luật về trật tự, an toàn giao thông đường bộ, tai nạn giao thông đường bộ và ùn tắc giao thông; bảo vệ tính mạng, sức khỏe, tài sản của cá nhân và tài sản của cơ quan, tổ chức."
     ],
     "triplets": [
-      {"s": "Nguyên tắc", "v": "Bảo đảm", "o": "Giao thông đường bộ",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Phát triển", "o": "Kinh tế - xã hội",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": ["góp phần phát triển"], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Bảo đảm", "o": "Quốc phòng",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Bảo đảm", "o": "An ninh",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Bảo đảm", "o": "Bảo vệ môi trường",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Phòng ngừa", "o": "Vi phạm pháp luật",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [],
-       "o_keyphrases": ["vi phạm pháp luật về trật tự, an toàn giao thông đường bộ"]},
-      {"s": "Nguyên tắc", "v": "Phòng ngừa", "o": "Tai nạn giao thông đường bộ",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Phòng ngừa", "o": "Ùn tắc giao thông",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Bảo vệ", "o": "Tính mạng",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Bảo vệ", "o": "Sức khỏe",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Nguyên tắc", "v": "Bảo vệ", "o": "Tài sản",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Nguyên tắc",
+        "v": "Bảo đảm",
+        "o": "Giao thông đường bộ",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Giao thông",
+          "Lưu thông đường bộ"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Phát triển",
+        "o": "Kinh tế - xã hội",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "góp phần phát triển",
+          "Mở rộng",
+          "Nâng cao"
+        ],
+        "o_keyphrases": [
+          "Phát triển kinh tế",
+          "Phát triển xã hội"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Bảo đảm",
+        "o": "Quốc phòng",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "An ninh quốc gia",
+          "Bảo vệ tổ quốc"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Bảo đảm",
+        "o": "An ninh",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "An toàn",
+          "Bảo mật"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Bảo đảm",
+        "o": "Bảo vệ môi trường",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Bảo vệ thiên nhiên",
+          "Bảo vệ hệ sinh thái"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Phòng ngừa",
+        "o": "Vi phạm pháp luật",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Ngăn chặn",
+          "Đề phòng"
+        ],
+        "o_keyphrases": [
+          "vi phạm pháp luật về trật tự, an toàn giao thông đường bộ",
+          "Hành vi vi phạm",
+          "Hành vi trái pháp luật"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Phòng ngừa",
+        "o": "Tai nạn giao thông đường bộ",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Ngăn chặn",
+          "Đề phòng"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Phòng ngừa",
+        "o": "Ùn tắc giao thông",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Ngăn chặn",
+          "Đề phòng"
+        ],
+        "o_keyphrases": [
+          "Tắc đường",
+          "Kẹt xe"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Bảo vệ",
+        "o": "Tính mạng",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Bảo đảm an toàn",
+          "Bảo vệ an ninh"
+        ],
+        "o_keyphrases": [
+          "Sự sống",
+          "Cuộc sống"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Bảo vệ",
+        "o": "Sức khỏe",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Bảo đảm an toàn",
+          "Bảo vệ an ninh"
+        ],
+        "o_keyphrases": [
+          "Sức khỏe cộng đồng",
+          "Sức khỏe cá nhân"
+        ]
+      },
+      {
+        "s": "Nguyên tắc",
+        "v": "Bảo vệ",
+        "o": "Tài sản",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Bảo đảm an toàn",
+          "Bảo vệ an ninh"
+        ],
+        "o_keyphrases": [
+          "Tài sản cá nhân",
+          "Tài sản công"
+        ]
+      }
     ]
   },
   {
@@ -150,14 +620,72 @@
       "Nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ là trách nhiệm của cơ quan, tổ chức, cá nhân."
     ],
     "triplets": [
-      {"s": "Nguyên tắc", "v": "Là", "o": "Trách nhiệm",
-       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trách nhiệm", "v": "Dành cho", "o": "Cơ quan",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Trách nhiệm", "v": "Dành cho", "o": "Tổ chức",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Trách nhiệm", "v": "Dành cho", "o": "Cá nhân",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Nguyên tắc",
+        "v": "Là",
+        "o": "Trách nhiệm",
+        "s_keyphrases": [
+          "nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ",
+          "Quy tắc",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Trách nhiệm",
+        "v": "Dành cho",
+        "o": "Cơ quan",
+        "s_keyphrases": [
+          "Nghĩa vụ",
+          "Bổn phận"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Cung cấp cho"
+        ],
+        "o_keyphrases": [
+          "Tổ chức",
+          "Đơn vị"
+        ]
+      },
+      {
+        "s": "Trách nhiệm",
+        "v": "Dành cho",
+        "o": "Tổ chức",
+        "s_keyphrases": [
+          "Nghĩa vụ",
+          "Bổn phận"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Cung cấp cho"
+        ],
+        "o_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ]
+      },
+      {
+        "s": "Trách nhiệm",
+        "v": "Dành cho",
+        "o": "Cá nhân",
+        "s_keyphrases": [
+          "Nghĩa vụ",
+          "Bổn phận"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Cung cấp cho"
+        ],
+        "o_keyphrases": [
+          "Người",
+          "Công dân"
+        ]
+      }
     ]
   },
   {
@@ -168,12 +696,54 @@
       "Người tham gia giao thông đường bộ phải chấp hành các quy định của pháp luật về trật tự, an toàn giao thông đường bộ và quy định khác của pháp luật có liên quan, có trách nhiệm giữ an toàn cho mình và cho người khác."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Quy định",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Trách nhiệm",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Giữ", "o": "An toàn giao thông đường bộ",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Quy định",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Quy tắc",
+          "Chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Trách nhiệm",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giữ",
+        "o": "An toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Công dân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Bảo quản",
+          "Duy trì"
+        ],
+        "o_keyphrases": [
+          "An toàn giao thông",
+          "An toàn đường bộ"
+        ]
+      }
     ]
   }
 ]

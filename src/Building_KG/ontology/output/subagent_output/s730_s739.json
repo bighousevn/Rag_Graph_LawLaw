@@ -7,14 +7,76 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ mà phương tiện có thùng xe, khối lượng hàng hóa cho phép chuyên chở không đúng theo quy định hiện hành buộc thực hiện điều chỉnh thùng xe theo đúng quy định hiện hành, đăng kiểm lại và điều chỉnh lại khối lượng hàng hóa cho phép chuyên chở ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định hiện hành trước khi đưa phương tiện ra tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều chỉnh", "o": "Thùng xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Đăng kiểm", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["đăng kiểm lại"], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Điều chỉnh", "o": "Khối lượng hàng hóa cho phép chuyên chở",
-       "s_keyphrases": [], "v_keyphrases": ["điều chỉnh lại"], "o_keyphrases": []},
-      {"s": "Khối lượng hàng hóa cho phép chuyên chở", "v": "Ghi trong", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều chỉnh",
+        "o": "Thùng xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Sửa đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Thùng chứa",
+          "Thùng hàng"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Đăng kiểm",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "đăng kiểm lại",
+          "Kiểm định",
+          "Đăng ký kiểm định"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều chỉnh",
+        "o": "Khối lượng hàng hóa cho phép chuyên chở",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "điều chỉnh lại",
+          "Sửa đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Trọng tải cho phép",
+          "Khối lượng hàng hóa tối đa"
+        ]
+      },
+      {
+        "s": "Khối lượng hàng hóa cho phép chuyên chở",
+        "v": "Ghi trong",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Trọng tải cho phép",
+          "Khối lượng hàng hóa tối đa"
+        ],
+        "v_keyphrases": [
+          "Ghi chép trong",
+          "Ghi vào"
+        ],
+        "o_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
+        ]
+      }
     ]
   },
   {
@@ -25,12 +87,58 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ nếu gây hư hại cầu, đường phải khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Gây hư hại", "o": "Cầu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Gây hư hại", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Khôi phục", "o": "Tình trạng ban đầu",
-       "s_keyphrases": [], "v_keyphrases": ["khôi phục lại"], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Gây hư hại",
+        "o": "Cầu",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Làm hư hại",
+          "Gây tổn hại"
+        ],
+        "o_keyphrases": [
+          "Cầu đường bộ",
+          "Cầu vượt"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Gây hư hại",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Làm hư hại",
+          "Gây tổn hại"
+        ],
+        "o_keyphrases": [
+          "Đường bộ",
+          "Đường giao thông"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Khôi phục",
+        "o": "Tình trạng ban đầu",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "khôi phục lại",
+          "Phục hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Tình trạng khởi đầu",
+          "Tình trạng ban đầu của phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -41,12 +149,57 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc làm thủ tục đổi, thu hồi, cấp mới, cấp chứng nhận đăng ký xe, biển số xe, giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Làm thủ tục", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Làm thủ tục", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Làm thủ tục", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Làm thủ tục",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thực hiện thủ tục",
+          "Tiến hành thủ tục"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đăng ký",
+          "Giấy đăng ký xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Làm thủ tục",
+        "o": "Biển số xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thực hiện thủ tục",
+          "Tiến hành thủ tục"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Làm thủ tục",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Thực hiện thủ tục",
+          "Tiến hành thủ tục"
+        ],
+        "o_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
+        ]
+      }
     ]
   },
   {
@@ -57,14 +210,74 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc tháo dỡ thiết bị âm thanh, ánh sáng lắp đặt trên xe gây mất trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Tháo dỡ", "o": "Thiết bị âm thanh, ánh sáng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị âm thanh, ánh sáng", "v": "Lắp đặt trên", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị âm thanh, ánh sáng", "v": "Gây mất", "o": "Trật tự",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị âm thanh, ánh sáng", "v": "Gây mất", "o": "An toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Tháo dỡ",
+        "o": "Thiết bị âm thanh, ánh sáng",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Gỡ bỏ",
+          "Dỡ bỏ"
+        ],
+        "o_keyphrases": [
+          "Thiết bị phát tín hiệu",
+          "Đèn và còi"
+        ]
+      },
+      {
+        "s": "Thiết bị âm thanh, ánh sáng",
+        "v": "Lắp đặt trên",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Thiết bị phát tín hiệu",
+          "Đèn và còi"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Cài đặt trên"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Thiết bị âm thanh, ánh sáng",
+        "v": "Gây mất",
+        "o": "Trật tự",
+        "s_keyphrases": [
+          "Thiết bị phát tín hiệu",
+          "Đèn và còi"
+        ],
+        "v_keyphrases": [
+          "Làm mất",
+          "Gây ra mất mát"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "Trật tự đường bộ"
+        ]
+      },
+      {
+        "s": "Thiết bị âm thanh, ánh sáng",
+        "v": "Gây mất",
+        "o": "An toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Thiết bị phát tín hiệu",
+          "Đèn và còi"
+        ],
+        "v_keyphrases": [
+          "Làm mất",
+          "Gây ra mất mát"
+        ],
+        "o_keyphrases": [
+          "An toàn giao thông",
+          "An toàn đường bộ"
+        ]
+      }
     ]
   },
   {
@@ -75,12 +288,57 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc nộp lại chứng nhận đăng ký xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe bị tẩy xóa."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Nộp lại", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Nộp lại", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Nộp lại", "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Nộp lại",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Nộp trở lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đăng ký",
+          "Giấy đăng ký xe"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Nộp lại",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Nộp trở lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Nộp lại",
+        "o": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Nộp trở lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Tem kiểm định",
+          "Tem an toàn"
+        ]
+      }
     ]
   },
   {
@@ -91,12 +349,59 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc điều chỉnh lại chỉ số trên đồng hồ báo quãng đường của xe ô tô bị làm sai lệch."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều chỉnh", "o": "Chỉ số",
-       "s_keyphrases": [], "v_keyphrases": ["điều chỉnh lại"], "o_keyphrases": []},
-      {"s": "Chỉ số", "v": "Trên", "o": "Đồng hồ báo quãng đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đồng hồ báo quãng đường", "v": "Dành cho", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": ["xe ô tô"]}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều chỉnh",
+        "o": "Chỉ số",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "điều chỉnh lại",
+          "Sửa đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Chỉ tiêu",
+          "Thông số"
+        ]
+      },
+      {
+        "s": "Chỉ số",
+        "v": "Trên",
+        "o": "Đồng hồ báo quãng đường",
+        "s_keyphrases": [
+          "Chỉ tiêu",
+          "Thông số"
+        ],
+        "v_keyphrases": [
+          "Ở trên",
+          "Trên bề mặt"
+        ],
+        "o_keyphrases": [
+          "Đồng hồ km",
+          "Đồng hồ đo quãng đường"
+        ]
+      },
+      {
+        "s": "Đồng hồ báo quãng đường",
+        "v": "Dành cho",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Đồng hồ km",
+          "Đồng hồ đo quãng đường"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Xe hơi"
+        ]
+      }
     ]
   },
   {
@@ -107,10 +412,40 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ buộc lắp đặt dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ trên xe theo đúng quy định."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Lắp đặt", "o": "Dụng cụ, thiết bị cứu hộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dụng cụ, thiết bị cứu hộ", "v": "Lắp đặt trên", "o": "Xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Lắp đặt",
+        "o": "Dụng cụ, thiết bị cứu hộ",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Gắn"
+        ],
+        "o_keyphrases": [
+          "Thiết bị cứu nạn",
+          "Dụng cụ cứu hộ"
+        ]
+      },
+      {
+        "s": "Dụng cụ, thiết bị cứu hộ",
+        "v": "Lắp đặt trên",
+        "o": "Xe",
+        "s_keyphrases": [
+          "Thiết bị cứu nạn",
+          "Dụng cụ cứu hộ"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Cài đặt trên"
+        ],
+        "o_keyphrases": [
+          "Phương tiện",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -121,16 +456,91 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ bị thu hồi hồ sơ đăng ký xe bị tẩy xóa, sửa chữa hoặc giả mạo; giấy tờ, tài liệu giả để được cấp lại biển số xe, chứng nhận đăng ký xe, giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Thu hồi", "o": "Hồ sơ đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Thu hồi", "o": "Giấy tờ, tài liệu giả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy tờ, tài liệu giả", "v": "Cấp lại", "o": "Biển số xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy tờ, tài liệu giả", "v": "Cấp lại", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy tờ, tài liệu giả", "v": "Cấp lại", "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thu hồi",
+        "o": "Hồ sơ đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": [
+          "Hồ sơ xe",
+          "Hồ sơ đăng ký"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Thu hồi",
+        "o": "Giấy tờ, tài liệu giả",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": [
+          "Giấy tờ giả",
+          "Tài liệu giả mạo"
+        ]
+      },
+      {
+        "s": "Giấy tờ, tài liệu giả",
+        "v": "Cấp lại",
+        "o": "Biển số xe",
+        "s_keyphrases": [
+          "Giấy tờ giả",
+          "Tài liệu giả mạo"
+        ],
+        "v_keyphrases": [
+          "Cấp mới",
+          "Cấp bổ sung"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển số"
+        ]
+      },
+      {
+        "s": "Giấy tờ, tài liệu giả",
+        "v": "Cấp lại",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Giấy tờ giả",
+          "Tài liệu giả mạo"
+        ],
+        "v_keyphrases": [
+          "Cấp mới",
+          "Cấp bổ sung"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đăng ký",
+          "Giấy đăng ký xe"
+        ]
+      },
+      {
+        "s": "Giấy tờ, tài liệu giả",
+        "v": "Cấp lại",
+        "o": "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "s_keyphrases": [
+          "Giấy tờ giả",
+          "Tài liệu giả mạo"
+        ],
+        "v_keyphrases": [
+          "Cấp mới",
+          "Cấp bổ sung"
+        ],
+        "o_keyphrases": [
+          "Giấy kiểm định",
+          "Giấy chứng nhận kiểm định"
+        ]
+      }
     ]
   },
   {
@@ -141,10 +551,40 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ trong trường hợp là người trực tiếp điều khiển phương tiện bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Trừ điểm", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Trừ điểm",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ điểm",
+          "Giảm điểm"
+        ],
+        "o_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -155,10 +595,40 @@
       "Chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ trong trường hợp là người trực tiếp điều khiển phương tiện bị trừ điểm giấy phép lái xe 03 điểm."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Trừ điểm", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Trừ điểm",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ điểm",
+          "Giảm điểm"
+        ],
+        "o_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      }
     ]
   }
 ]

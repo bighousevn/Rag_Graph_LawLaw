@@ -7,14 +7,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -25,14 +147,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại khoản 1, khoản 2 Điều 11."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -43,14 +287,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại khoản 1; khoản 2; khoản 3; khoản 5; điểm c, điểm d khoản 6; khoản 7; khoản 9; khoản 10; điểm a, điểm c khoản 11; khoản 12; khoản 14 Điều 12."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -61,14 +427,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại Điều 15, Điều 17."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -79,14 +567,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại điểm b khoản 3; điểm a, điểm c, điểm d, điểm g khoản 5; điểm a, điểm b, điểm c khoản 6 Điều 20."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -97,14 +707,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại khoản 2, khoản 3, khoản 4, khoản 5 Điều 23."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -115,14 +847,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại Điều 24; Điều 25."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -133,14 +987,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại khoản 1, khoản 3 Điều 28."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -151,14 +1127,136 @@
       "Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh sát cơ động, Cảnh sát quản lý hành chính về trật tự xã hội có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại Điều 31; Điều 33; Điều 35; Điều 36."
     ],
     "triplets": [
-      {"s": "Cảnh sát trật tự", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát trật tự", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát phản ứng nhanh", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát cơ động", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cảnh sát quản lý hành chính về trật tự xã hội", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát trật tự",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát trật tự đô thị",
+          "CS trật tự"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát phản ứng nhanh",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát 113",
+          "CS phản ứng nhanh"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát cơ động",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "CSCD"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cảnh sát quản lý hành chính về trật tự xã hội",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cảnh sát quản lý hành chính",
+          "CS quản lý hành chính"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -169,12 +1267,99 @@
       "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại điểm đ khoản 1; điểm d, điểm đ khoản 2; điểm b, điểm d, điểm đ, điểm e, điểm g khoản 3 Điều 6."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp xã", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng Công an cấp xã", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Trưởng đồn Công an", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Trưởng Công an xã",
+          "Trưởng Công an phường"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Trưởng Công an xã",
+          "Trưởng Công an phường"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Đồn trưởng Công an",
+          "Trưởng đồn"
+        ],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Đồn trưởng Công an",
+          "Trưởng đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   }
 ]

@@ -11,49 +11,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -69,49 +123,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -127,49 +235,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -185,49 +347,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -243,49 +459,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -301,49 +571,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -359,49 +683,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -417,49 +795,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -475,49 +907,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   },
@@ -533,49 +1019,103 @@
         "s": "Trưởng Công an cấp xã",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng Công an cấp xã",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy Công an xã",
+          "Cán bộ Công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng đồn Công an",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy đồn Công an",
+          "Cán bộ Công an đồn"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
         "v": "Xử phạt",
         "o": "Hành vi vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chỉ huy trạm Công an cửa khẩu",
+          "Cán bộ Công an cửa khẩu"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Áp dụng hình phạt"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
       }
     ]
   }

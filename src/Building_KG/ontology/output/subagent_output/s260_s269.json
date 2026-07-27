@@ -7,14 +7,60 @@
       "Người điều khiển xe máy chuyên dùng không chấp hành yêu cầu kiểm tra về chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng của người thi hành công vụ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Yêu cầu kiểm tra",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Yêu cầu kiểm tra", "v": "Về", "o": "Chất ma túy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Yêu cầu kiểm tra", "v": "Về", "o": "Chất kích thích",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chất kích thích khác"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Yêu cầu kiểm tra",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Yêu cầu kiểm tra",
+        "v": "Về",
+        "o": "Chất ma túy",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Ma túy",
+          "Chất cấm"
+        ]
+      },
+      {
+        "s": "Yêu cầu kiểm tra",
+        "v": "Về",
+        "o": "Chất kích thích",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "chất kích thích khác",
+          "Chất gây nghiện",
+          "Chất kích thích thần kinh"
+        ]
+      }
     ]
   },
   {
@@ -25,16 +71,87 @@
       "Người điều khiển xe máy chuyên dùng lùi xe trên đường cao tốc, đi ngược chiều trên đường cao tốc, quay đầu xe trên đường cao tốc."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Lùi", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi ngược chiều", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Quay đầu", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy chuyên dùng", "v": "Tại", "o": "Đường cao tốc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lùi",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lùi lại",
+          "Lùi xe"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi ngược chiều",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lưu thông ngược chiều",
+          "Đi ngược"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quay đầu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Quay lại",
+          "Đảo chiều"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Tại",
+        "o": "Đường cao tốc",
+        "s_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đường nhanh"
+        ]
+      }
     ]
   },
   {
@@ -45,10 +162,40 @@
       "Người điều khiển xe máy chuyên dùng vi phạm quy định tại điểm b khoản 8 gây tai nạn giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gây", "o": "Tai nạn giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gây",
+        "o": "Tai nạn giao thông",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Tai nạn",
+          "Sự cố giao thông"
+        ]
+      }
     ]
   },
   {
@@ -59,13 +206,59 @@
       "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác không đi bên phải theo chiều đi của mình, đi không đúng phần đường quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
-      {"s": "Người", "v": "Đi bên phải", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi đúng", "o": "Phần đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe đạp",
+          "xe đạp máy",
+          "xe thô sơ khác",
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi bên phải",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lưu thông bên phải",
+          "Chạy bên phải"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi đúng",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lưu thông đúng",
+          "Đi đúng hướng"
+        ],
+        "o_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ]
+      }
     ]
   },
   {
@@ -76,15 +269,76 @@
       "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác dừng xe đột ngột, chuyển hướng không báo hiệu trước."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
-      {"s": "Người", "v": "Dừng", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chuyển hướng", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe đạp",
+          "xe đạp máy",
+          "xe thô sơ khác",
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển hướng",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Rẽ",
+          "Quay"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Báo hiệu",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Thông báo",
+          "Ra hiệu"
+        ]
+      }
     ]
   },
   {
@@ -95,13 +349,59 @@
       "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác không chấp hành hiệu lệnh hoặc chỉ dẫn của biển báo hiệu, vạch kẻ đường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
-      {"s": "Người", "v": "Chấp hành", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Vạch kẻ đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe đạp",
+          "xe đạp máy",
+          "xe thô sơ khác",
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Bảng hiệu"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -112,11 +412,42 @@
       "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác vượt bên phải trong các trường hợp không được phép."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
-      {"s": "Người", "v": "Vượt bên phải", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe đạp",
+          "xe đạp máy",
+          "xe thô sơ khác",
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vượt bên phải",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Vượt phải",
+          "Vượt qua bên phải"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      }
     ]
   },
   {
@@ -127,17 +458,87 @@
       "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
-      {"s": "Người", "v": "Dừng", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe thô sơ", "v": "Tại", "o": "Phần đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phần đường", "v": "Có", "o": "Lề đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe đạp",
+          "xe đạp máy",
+          "xe thô sơ khác",
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Tại",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ]
+      },
+      {
+        "s": "Phần đường",
+        "v": "Có",
+        "o": "Lề đường",
+        "s_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Lề",
+          "Bên đường"
+        ]
+      }
     ]
   },
   {
@@ -148,21 +549,121 @@
       "Người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác chạy trong hầm đường bộ không bật đèn hoặc không có vật phát sáng báo hiệu, dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định, quay đầu xe trong hầm đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
-      {"s": "Xe thô sơ", "v": "Tại", "o": "Hầm đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Bật", "o": "Đèn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Vật phát sáng báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Quay đầu", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe đạp",
+          "xe đạp máy",
+          "xe thô sơ khác",
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Xe thô sơ",
+        "v": "Tại",
+        "o": "Hầm đường bộ",
+        "s_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Hầm giao thông",
+          "Hầm xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bật",
+        "o": "Đèn",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Khởi động",
+          "Mở"
+        ],
+        "o_keyphrases": [
+          "Đèn tín hiệu",
+          "Đèn giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Vật phát sáng báo hiệu",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Đèn báo hiệu",
+          "Đèn tín hiệu"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Quay đầu",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Quay lại",
+          "Đảo chiều"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      }
     ]
   },
   {
@@ -173,11 +674,42 @@
       "Người điều khiển xe đạp, xe đạp máy đi dàn hàng ngang từ 03 xe trở lên, người điều khiển xe thô sơ khác đi dàn hàng ngang từ 02 xe trở lên."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe đạp", "xe đạp máy", "xe thô sơ khác"]},
-      {"s": "Người", "v": "Đi dàn hàng ngang", "o": "Xe thô sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe đạp",
+          "xe đạp máy",
+          "xe thô sơ khác",
+          "Phương tiện thô sơ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi dàn hàng ngang",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Chạy hàng ngang",
+          "Đi song song"
+        ],
+        "o_keyphrases": [
+          "Phương tiện thô sơ",
+          "Xe đạp"
+        ]
+      }
     ]
   }
 ]

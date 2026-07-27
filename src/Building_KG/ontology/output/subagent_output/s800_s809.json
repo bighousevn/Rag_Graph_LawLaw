@@ -7,14 +7,63 @@
       "Giáo viên dạy lái xe thực hiện hành vi giáo viên dạy thực hành chạy không đúng tuyến đường trong giấy phép xe tập lái; không ngồi bên cạnh để bảo trợ tay lái cho học viên thực hành lái xe."
     ],
     "triplets": [
-      {"s": "Giáo viên dạy lái xe", "v": "Chạy đúng", "o": "Tuyến đường",
-       "s_keyphrases": ["giáo viên dạy thực hành"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tuyến đường", "v": "Ghi trong", "o": "Giấy phép xe tập lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giáo viên dạy lái xe", "v": "Ngồi cạnh", "o": "Học viên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giáo viên dạy lái xe", "v": "Bảo trợ", "o": "Tay lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Chạy đúng",
+        "o": "Tuyến đường",
+        "s_keyphrases": [
+          "giáo viên dạy thực hành",
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [
+          "Đi đúng"
+        ],
+        "o_keyphrases": [
+          "Lộ trình"
+        ]
+      },
+      {
+        "s": "Tuyến đường",
+        "v": "Ghi trong",
+        "o": "Giấy phép xe tập lái",
+        "s_keyphrases": [
+          "Lộ trình"
+        ],
+        "v_keyphrases": [
+          "Ghi lại trong"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lái xe tập lái"
+        ]
+      },
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Ngồi cạnh",
+        "o": "Học viên",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [
+          "Ngồi bên cạnh"
+        ],
+        "o_keyphrases": [
+          "Người học lái xe"
+        ]
+      },
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Bảo trợ",
+        "o": "Tay lái",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [
+          "Hỗ trợ"
+        ],
+        "o_keyphrases": [
+          "Vô lăng"
+        ]
+      }
     ]
   },
   {
@@ -25,8 +74,20 @@
       "Giáo viên dạy lái xe không đeo phù hiệu “Giáo viên dạy lái xe” khi giảng dạy."
     ],
     "triplets": [
-      {"s": "Giáo viên dạy lái xe", "v": "Đeo", "o": "Phù hiệu giáo viên dạy lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Đeo",
+        "o": "Phù hiệu giáo viên dạy lái xe",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [
+          "Mang"
+        ],
+        "o_keyphrases": [
+          "Phù hiệu giáo viên"
+        ]
+      }
     ]
   },
   {
@@ -37,12 +98,46 @@
       "Giáo viên dạy lái xe không có giáo án của môn học được phân công giảng dạy theo quy định hoặc có giáo án nhưng không phù hợp với môn được phân công giảng dạy."
     ],
     "triplets": [
-      {"s": "Giáo viên dạy lái xe", "v": "Có", "o": "Giáo án",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giáo án", "v": "Dành cho", "o": "Môn học",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giáo án", "v": "Phù hợp", "o": "Môn học",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Có",
+        "o": "Giáo án",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Kế hoạch giảng dạy"
+        ]
+      },
+      {
+        "s": "Giáo án",
+        "v": "Dành cho",
+        "o": "Môn học",
+        "s_keyphrases": [
+          "Kế hoạch giảng dạy"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Chương trình học"
+        ]
+      },
+      {
+        "s": "Giáo án",
+        "v": "Phù hợp",
+        "o": "Môn học",
+        "s_keyphrases": [
+          "Kế hoạch giảng dạy"
+        ],
+        "v_keyphrases": [
+          "Thích hợp"
+        ],
+        "o_keyphrases": [
+          "Chương trình học"
+        ]
+      }
     ]
   },
   {
@@ -53,10 +148,33 @@
       "Giáo viên dạy thực hành không mang theo giấy phép xe tập lái hoặc mang theo giấy phép xe tập lái đã hết giá trị sử dụng."
     ],
     "triplets": [
-      {"s": "Giáo viên dạy lái xe", "v": "Mang theo", "o": "Giấy phép xe tập lái",
-       "s_keyphrases": ["giáo viên dạy thực hành"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép xe tập lái", "v": "Có", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Mang theo",
+        "o": "Giấy phép xe tập lái",
+        "s_keyphrases": [
+          "giáo viên dạy thực hành",
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [
+          "Cầm theo"
+        ],
+        "o_keyphrases": [
+          "Giấy phép lái xe tập lái"
+        ]
+      },
+      {
+        "s": "Giấy phép xe tập lái",
+        "v": "Có",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép lái xe tập lái"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giá trị hiệu lực"
+        ]
+      }
     ]
   },
   {
@@ -67,16 +185,74 @@
       "Cơ sở đào tạo lái xe sử dụng xe tập lái không có mui che mưa, nắng; không có ghế ngồi gắn chắc chắn trên thùng xe cho người học theo quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Sử dụng", "o": "Xe tập lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe tập lái", "v": "Có", "o": "Mui che mưa, nắng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe tập lái", "v": "Có", "o": "Ghế ngồi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ghế ngồi", "v": "Gắn", "o": "Thùng xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ghế ngồi", "v": "Dành cho", "o": "Học viên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["người học"]}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Sử dụng",
+        "o": "Xe tập lái",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng"
+        ],
+        "o_keyphrases": [
+          "Xe học lái"
+        ]
+      },
+      {
+        "s": "Xe tập lái",
+        "v": "Có",
+        "o": "Mui che mưa, nắng",
+        "s_keyphrases": [
+          "Xe học lái"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Mái che"
+        ]
+      },
+      {
+        "s": "Xe tập lái",
+        "v": "Có",
+        "o": "Ghế ngồi",
+        "s_keyphrases": [
+          "Xe học lái"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chỗ ngồi"
+        ]
+      },
+      {
+        "s": "Ghế ngồi",
+        "v": "Gắn",
+        "o": "Thùng xe",
+        "s_keyphrases": [
+          "Chỗ ngồi"
+        ],
+        "v_keyphrases": [
+          "Lắp đặt"
+        ],
+        "o_keyphrases": [
+          "Thùng chứa"
+        ]
+      },
+      {
+        "s": "Ghế ngồi",
+        "v": "Dành cho",
+        "o": "Học viên",
+        "s_keyphrases": [
+          "Chỗ ngồi"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "người học",
+          "Người học lái xe"
+        ]
+      }
     ]
   },
   {
@@ -87,12 +263,50 @@
       "Cơ sở đào tạo lái xe không thực hiện việc ký hợp đồng đào tạo, thanh lý hợp đồng đào tạo với người học lái xe theo quy định; có ký hợp đồng đào tạo, thanh lý hợp đồng đào tạo nhưng không do người học lái xe trực tiếp ký."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Ký", "o": "Hợp đồng đào tạo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đào tạo lái xe", "v": "Thanh lý", "o": "Hợp đồng đào tạo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Học viên", "v": "Ký", "o": "Hợp đồng đào tạo",
-       "s_keyphrases": ["người học lái xe"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Ký",
+        "o": "Hợp đồng đào tạo",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Ký kết"
+        ],
+        "o_keyphrases": [
+          "Hợp đồng học lái xe"
+        ]
+      },
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Thanh lý",
+        "o": "Hợp đồng đào tạo",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Giải phóng"
+        ],
+        "o_keyphrases": [
+          "Hợp đồng học lái xe"
+        ]
+      },
+      {
+        "s": "Học viên",
+        "v": "Ký",
+        "o": "Hợp đồng đào tạo",
+        "s_keyphrases": [
+          "người học lái xe"
+        ],
+        "v_keyphrases": [
+          "Ký kết"
+        ],
+        "o_keyphrases": [
+          "Hợp đồng học lái xe"
+        ]
+      }
     ]
   },
   {
@@ -103,12 +317,52 @@
       "Cơ sở đào tạo lái xe không công khai quy chế tuyển sinh, quản lý đào tạo và mức thu học phí theo quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Công khai", "o": "Quy chế tuyển sinh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đào tạo lái xe", "v": "Công khai", "o": "Quy chế quản lý đào tạo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đào tạo lái xe", "v": "Công khai", "o": "Học phí",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["mức thu học phí"]}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Công khai",
+        "o": "Quy chế tuyển sinh",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Thông báo công khai"
+        ],
+        "o_keyphrases": [
+          "Quy định tuyển sinh"
+        ]
+      },
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Công khai",
+        "o": "Quy chế quản lý đào tạo",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Thông báo công khai"
+        ],
+        "o_keyphrases": [
+          "Quy định quản lý đào tạo"
+        ]
+      },
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Công khai",
+        "o": "Học phí",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Thông báo công khai"
+        ],
+        "o_keyphrases": [
+          "mức thu học phí",
+          "Chi phí học"
+        ]
+      }
     ]
   },
   {
@@ -119,14 +373,62 @@
       "Cơ sở đào tạo lái xe không bố trí giáo viên dạy thực hành ngồi bên cạnh để bảo trợ tay lái cho học viên thực hành lái xe; bố trí giáo viên không đủ tiêu chuẩn để giảng dạy."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Bố trí", "o": "Giáo viên dạy lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["giáo viên dạy thực hành"]},
-      {"s": "Giáo viên dạy lái xe", "v": "Ngồi cạnh", "o": "Học viên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giáo viên dạy lái xe", "v": "Bảo trợ", "o": "Tay lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giáo viên dạy lái xe", "v": "Đủ", "o": "Tiêu chuẩn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Bố trí",
+        "o": "Giáo viên dạy lái xe",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp"
+        ],
+        "o_keyphrases": [
+          "giáo viên dạy thực hành",
+          "Giáo viên hướng dẫn lái xe"
+        ]
+      },
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Ngồi cạnh",
+        "o": "Học viên",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [
+          "Ngồi bên cạnh"
+        ],
+        "o_keyphrases": [
+          "Người học lái xe"
+        ]
+      },
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Bảo trợ",
+        "o": "Tay lái",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [
+          "Hỗ trợ"
+        ],
+        "o_keyphrases": [
+          "Vô lăng"
+        ]
+      },
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Đủ",
+        "o": "Tiêu chuẩn",
+        "s_keyphrases": [
+          "Giáo viên hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tiêu chí"
+        ]
+      }
     ]
   },
   {
@@ -137,18 +439,87 @@
       "Cơ sở đào tạo lái xe sử dụng xe tập lái không có giấy phép xe tập lái hoặc có nhưng hết hạn, không gắn biển xe “Tập lái” trên xe theo quy định, không ghi tên cơ sở đào tạo, số điện thoại ở mặt ngoài hai bên cánh cửa hoặc hai bên thành xe theo quy định."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Sử dụng", "o": "Xe tập lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe tập lái", "v": "Có", "o": "Giấy phép xe tập lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép xe tập lái", "v": "Có", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe tập lái", "v": "Gắn", "o": "Biển xe Tập lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe tập lái", "v": "Ghi", "o": "Tên cơ sở đào tạo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe tập lái", "v": "Ghi", "o": "Số điện thoại",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Sử dụng",
+        "o": "Xe tập lái",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng"
+        ],
+        "o_keyphrases": [
+          "Xe học lái"
+        ]
+      },
+      {
+        "s": "Xe tập lái",
+        "v": "Có",
+        "o": "Giấy phép xe tập lái",
+        "s_keyphrases": [
+          "Xe học lái"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép lái xe tập lái"
+        ]
+      },
+      {
+        "s": "Giấy phép xe tập lái",
+        "v": "Có",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Giấy phép lái xe tập lái"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Thời gian hiệu lực"
+        ]
+      },
+      {
+        "s": "Xe tập lái",
+        "v": "Gắn",
+        "o": "Biển xe Tập lái",
+        "s_keyphrases": [
+          "Xe học lái"
+        ],
+        "v_keyphrases": [
+          "Lắp đặt"
+        ],
+        "o_keyphrases": [
+          "Biển báo xe tập lái"
+        ]
+      },
+      {
+        "s": "Xe tập lái",
+        "v": "Ghi",
+        "o": "Tên cơ sở đào tạo",
+        "s_keyphrases": [
+          "Xe học lái"
+        ],
+        "v_keyphrases": [
+          "Ghi chép"
+        ],
+        "o_keyphrases": [
+          "Tên trường dạy lái xe"
+        ]
+      },
+      {
+        "s": "Xe tập lái",
+        "v": "Ghi",
+        "o": "Số điện thoại",
+        "s_keyphrases": [
+          "Xe học lái"
+        ],
+        "v_keyphrases": [
+          "Ghi chép"
+        ],
+        "o_keyphrases": [
+          "Điện thoại liên hệ"
+        ]
+      }
     ]
   },
   {
@@ -159,12 +530,47 @@
       "Cơ sở đào tạo lái xe sử dụng xe tập lái không trang bị thêm bộ phận hãm phụ hoặc có nhưng không có tác dụng."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Sử dụng", "o": "Xe tập lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe tập lái", "v": "Trang bị", "o": "Bộ phận hãm phụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Bộ phận hãm phụ", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Sử dụng",
+        "o": "Xe tập lái",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng"
+        ],
+        "o_keyphrases": [
+          "Xe học lái"
+        ]
+      },
+      {
+        "s": "Xe tập lái",
+        "v": "Trang bị",
+        "o": "Bộ phận hãm phụ",
+        "s_keyphrases": [
+          "Xe học lái"
+        ],
+        "v_keyphrases": [
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Hệ thống phanh phụ"
+        ]
+      },
+      {
+        "s": "Bộ phận hãm phụ",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Hệ thống phanh phụ"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chức năng"
+        ]
+      }
     ]
   }
 ]

@@ -7,15 +7,66 @@
       "Người tham gia giao thông đường bộ phải chấp hành tín hiệu đèn màu xanh, giảm tốc độ hoặc dừng lại nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Đèn tín hiệu giao thông xanh",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [],
-       "o_keyphrases": ["tín hiệu đèn màu xanh"]},
-      {"s": "Người", "v": "Giảm", "o": "Tốc độ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["dừng lại"], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Người đi bộ",
-       "s_keyphrases": [], "v_keyphrases": ["nhường đường"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Đèn tín hiệu giao thông xanh",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ"
+        ],
+        "o_keyphrases": [
+          "tín hiệu đèn màu xanh",
+          "Đèn xanh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Giảm",
+        "o": "Tốc độ",
+        "s_keyphrases": [
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Giảm tốc"
+        ],
+        "o_keyphrases": [
+          "Vận tốc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "nhường đường",
+          "Cho phép"
+        ],
+        "o_keyphrases": [
+          "Người đi bộ qua đường"
+        ]
+      }
     ]
   },
   {
@@ -26,22 +77,107 @@
       "Người tham gia giao thông đường bộ phải chấp hành tín hiệu đèn màu vàng, dừng lại trước vạch dừng; nếu đang đi trên vạch dừng hoặc đã đi qua vạch dừng thì được đi; nếu tín hiệu đèn màu vàng nhấp nháy, người điều khiển phương tiện tham gia giao thông đường bộ được đi nhưng phải quan sát, giảm tốc độ hoặc dừng lại nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường hoặc các phương tiện khác."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Đèn tín hiệu giao thông vàng",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [],
-       "o_keyphrases": ["tín hiệu đèn màu vàng", "tín hiệu đèn màu vàng nhấp nháy"]},
-      {"s": "Người", "v": "Dừng", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": ["dừng lại"], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Vạch dừng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
-       "s_keyphrases": ["người điều khiển phương tiện tham gia giao thông đường bộ"],
-       "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Giảm", "o": "Tốc độ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Người đi bộ",
-       "s_keyphrases": [], "v_keyphrases": ["nhường đường"], "o_keyphrases": []},
-      {"s": "Người", "v": "Nhường", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["các phương tiện khác"]}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Đèn tín hiệu giao thông vàng",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ"
+        ],
+        "o_keyphrases": [
+          "tín hiệu đèn màu vàng",
+          "tín hiệu đèn màu vàng nhấp nháy",
+          "Đèn vàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Vạch dừng",
+        "s_keyphrases": [
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Vạch dừng xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [
+          "người điều khiển phương tiện tham gia giao thông đường bộ",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm",
+        "o": "Tốc độ",
+        "s_keyphrases": [
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Giảm tốc"
+        ],
+        "o_keyphrases": [
+          "Vận tốc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "nhường đường",
+          "Cho phép"
+        ],
+        "o_keyphrases": [
+          "Người đi bộ qua đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cho phép"
+        ],
+        "o_keyphrases": [
+          "các phương tiện khác",
+          "Phương tiện giao thông"
+        ]
+      }
     ]
   },
   {
@@ -52,11 +188,34 @@
       "Người tham gia giao thông đường bộ phải chấp hành tín hiệu đèn màu đỏ là cấm đi."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Đèn tín hiệu giao thông đỏ",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [],
-       "o_keyphrases": ["tín hiệu đèn màu đỏ"]},
-      {"s": "Đèn tín hiệu giao thông đỏ", "v": "Cấm", "o": "Đi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Đèn tín hiệu giao thông đỏ",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ"
+        ],
+        "o_keyphrases": [
+          "tín hiệu đèn màu đỏ",
+          "Đèn đỏ"
+        ]
+      },
+      {
+        "s": "Đèn tín hiệu giao thông đỏ",
+        "v": "Cấm",
+        "o": "Đi",
+        "s_keyphrases": [
+          "Đèn đỏ"
+        ],
+        "v_keyphrases": [
+          "Ngăn"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -67,8 +226,21 @@
       "Biển báo cấm để biểu thị các điều cấm."
     ],
     "triplets": [
-      {"s": "Biển báo cấm", "v": "Biểu thị", "o": "Điều cấm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Biển báo cấm",
+        "v": "Biểu thị",
+        "o": "Điều cấm",
+        "s_keyphrases": [
+          "Biển cấm",
+          "Biển báo hạn chế"
+        ],
+        "v_keyphrases": [
+          "Thể hiện"
+        ],
+        "o_keyphrases": [
+          "Quy định cấm"
+        ]
+      }
     ]
   },
   {
@@ -79,8 +251,20 @@
       "Biển báo nguy hiểm để cảnh báo các tình huống nguy hiểm có thể xảy ra."
     ],
     "triplets": [
-      {"s": "Biển báo nguy hiểm", "v": "Cảnh báo", "o": "Tình huống nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Biển báo nguy hiểm",
+        "v": "Cảnh báo",
+        "o": "Tình huống nguy hiểm",
+        "s_keyphrases": [
+          "Biển cảnh báo nguy hiểm"
+        ],
+        "v_keyphrases": [
+          "Thông báo nguy hiểm"
+        ],
+        "o_keyphrases": [
+          "Tình huống khẩn cấp"
+        ]
+      }
     ]
   },
   {
@@ -91,8 +275,20 @@
       "Biển hiệu lệnh để báo hiệu lệnh phải thi hành."
     ],
     "triplets": [
-      {"s": "Biển hiệu lệnh", "v": "Báo hiệu", "o": "Hiệu lệnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Biển hiệu lệnh",
+        "v": "Báo hiệu",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [
+          "Biển lệnh"
+        ],
+        "v_keyphrases": [
+          "Thông báo"
+        ],
+        "o_keyphrases": [
+          "Lệnh"
+        ]
+      }
     ]
   },
   {
@@ -103,8 +299,20 @@
       "Biển chỉ dẫn để chỉ dẫn hướng đi hoặc các điều cần biết."
     ],
     "triplets": [
-      {"s": "Biển chỉ dẫn", "v": "Chỉ dẫn", "o": "Hướng đi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Biển chỉ dẫn",
+        "v": "Chỉ dẫn",
+        "o": "Hướng đi",
+        "s_keyphrases": [
+          "Biển hướng dẫn"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn"
+        ],
+        "o_keyphrases": [
+          "Lộ trình"
+        ]
+      }
     ]
   },
   {
@@ -115,14 +323,55 @@
       "Biển phụ để thuyết minh bổ sung cho biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh và biển chỉ dẫn."
     ],
     "triplets": [
-      {"s": "Biển phụ", "v": "Dành cho", "o": "Biển báo cấm",
-       "s_keyphrases": [], "v_keyphrases": ["thuyết minh bổ sung cho"], "o_keyphrases": []},
-      {"s": "Biển phụ", "v": "Dành cho", "o": "Biển báo nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": ["thuyết minh bổ sung cho"], "o_keyphrases": []},
-      {"s": "Biển phụ", "v": "Dành cho", "o": "Biển hiệu lệnh",
-       "s_keyphrases": [], "v_keyphrases": ["thuyết minh bổ sung cho"], "o_keyphrases": []},
-      {"s": "Biển phụ", "v": "Dành cho", "o": "Biển chỉ dẫn",
-       "s_keyphrases": [], "v_keyphrases": ["thuyết minh bổ sung cho"], "o_keyphrases": []}
+      {
+        "s": "Biển phụ",
+        "v": "Dành cho",
+        "o": "Biển báo cấm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "thuyết minh bổ sung cho"
+        ],
+        "o_keyphrases": [
+          "Biển cấm",
+          "Biển báo hạn chế"
+        ]
+      },
+      {
+        "s": "Biển phụ",
+        "v": "Dành cho",
+        "o": "Biển báo nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "thuyết minh bổ sung cho"
+        ],
+        "o_keyphrases": [
+          "Biển cảnh báo nguy hiểm"
+        ]
+      },
+      {
+        "s": "Biển phụ",
+        "v": "Dành cho",
+        "o": "Biển hiệu lệnh",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "thuyết minh bổ sung cho"
+        ],
+        "o_keyphrases": [
+          "Biển lệnh"
+        ]
+      },
+      {
+        "s": "Biển phụ",
+        "v": "Dành cho",
+        "o": "Biển chỉ dẫn",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "thuyết minh bổ sung cho"
+        ],
+        "o_keyphrases": [
+          "Biển hướng dẫn"
+        ]
+      }
     ]
   },
   {
@@ -133,14 +382,61 @@
       "Vạch kẻ đường là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại."
     ],
     "triplets": [
-      {"s": "Vạch kẻ đường", "v": "Phân chia", "o": "Làn đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vạch kẻ đường", "v": "Chỉ dẫn", "o": "Vị trí",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vạch kẻ đường", "v": "Chỉ dẫn", "o": "Hướng đi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vạch kẻ đường", "v": "Chỉ dẫn", "o": "Vị trí dừng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vị trí dừng lại"]}
+      {
+        "s": "Vạch kẻ đường",
+        "v": "Phân chia",
+        "o": "Làn đường",
+        "s_keyphrases": [
+          "Vạch phân cách"
+        ],
+        "v_keyphrases": [
+          "Chia tách"
+        ],
+        "o_keyphrases": [
+          "Đường đi"
+        ]
+      },
+      {
+        "s": "Vạch kẻ đường",
+        "v": "Chỉ dẫn",
+        "o": "Vị trí",
+        "s_keyphrases": [
+          "Vạch phân cách"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Vạch kẻ đường",
+        "v": "Chỉ dẫn",
+        "o": "Hướng đi",
+        "s_keyphrases": [
+          "Vạch phân cách"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn"
+        ],
+        "o_keyphrases": [
+          "Lộ trình"
+        ]
+      },
+      {
+        "s": "Vạch kẻ đường",
+        "v": "Chỉ dẫn",
+        "o": "Vị trí dừng",
+        "s_keyphrases": [
+          "Vạch phân cách"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn"
+        ],
+        "o_keyphrases": [
+          "vị trí dừng lại",
+          "Điểm dừng"
+        ]
+      }
     ]
   },
   {
@@ -151,18 +447,80 @@
       "Cọc tiêu, tường bảo vệ để hướng dẫn cho người tham gia giao thông đường bộ biết phạm vi an toàn của nền đường và hướng đi của đường."
     ],
     "triplets": [
-      {"s": "Cọc tiêu", "v": "Hướng dẫn", "o": "Phạm vi an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cọc tiêu", "v": "Hướng dẫn", "o": "Hướng đi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tường bảo vệ", "v": "Hướng dẫn", "o": "Phạm vi an toàn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tường bảo vệ", "v": "Hướng dẫn", "o": "Hướng đi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phạm vi an toàn", "v": "Thuộc", "o": "Nền đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hướng đi", "v": "Thuộc", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cọc tiêu",
+        "v": "Hướng dẫn",
+        "o": "Phạm vi an toàn",
+        "s_keyphrases": [
+          "Cọc chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cọc tiêu",
+        "v": "Hướng dẫn",
+        "o": "Hướng đi",
+        "s_keyphrases": [
+          "Cọc chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn"
+        ],
+        "o_keyphrases": [
+          "Lộ trình"
+        ]
+      },
+      {
+        "s": "Tường bảo vệ",
+        "v": "Hướng dẫn",
+        "o": "Phạm vi an toàn",
+        "s_keyphrases": [
+          "Tường chắn"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tường bảo vệ",
+        "v": "Hướng dẫn",
+        "o": "Hướng đi",
+        "s_keyphrases": [
+          "Tường chắn"
+        ],
+        "v_keyphrases": [
+          "Chỉ dẫn"
+        ],
+        "o_keyphrases": [
+          "Lộ trình"
+        ]
+      },
+      {
+        "s": "Phạm vi an toàn",
+        "v": "Thuộc",
+        "o": "Nền đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Mặt đường"
+        ]
+      },
+      {
+        "s": "Hướng đi",
+        "v": "Thuộc",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Lộ trình"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Con đường"
+        ]
+      }
     ]
   }
 ]

@@ -11,33 +11,65 @@
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Quản lý",
         "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cục trưởng CSGT"
+        ],
+        "v_keyphrases": [
+          "Điều hành",
+          "Kiểm soát"
+        ],
+        "o_keyphrases": [
+          "CSDL xử lý vi phạm",
+          "Cơ sở dữ liệu vi phạm hành chính"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Vận hành",
         "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cục trưởng CSGT"
+        ],
+        "v_keyphrases": [
+          "Hoạt động",
+          "Chạy"
+        ],
+        "o_keyphrases": [
+          "CSDL xử lý vi phạm",
+          "Cơ sở dữ liệu vi phạm hành chính"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Cập nhật",
         "o": "Điểm giấy phép lái xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cục trưởng CSGT"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Cập nhật dữ liệu"
+        ],
+        "o_keyphrases": [
+          "Điểm tích lũy bằng lái",
+          "Điểm giấy phép"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Phục hồi",
         "o": "Điểm giấy phép lái xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cục trưởng CSGT"
+        ],
+        "v_keyphrases": [
+          "Khôi phục",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Điểm tích lũy bằng lái",
+          "Điểm giấy phép"
+        ]
       }
     ]
   },
@@ -53,50 +85,97 @@
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cục trưởng CSGT"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Phục hồi",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cục trưởng CSGT"
+        ],
+        "v_keyphrases": [
+          "Khôi phục",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Điểm",
         "v": "Dành cho",
         "o": "Giấy phép lái xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho đối tượng"
+        ],
+        "o_keyphrases": [
+          "Bằng lái xe"
+        ]
       },
       {
         "s": "Trưởng phòng Cảnh sát giao thông",
         "v": "Có",
         "o": "Thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Trưởng phòng CSGT"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
       },
       {
         "s": "Trưởng phòng Cảnh sát giao thông",
         "v": "Phục hồi",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Trưởng phòng CSGT"
+        ],
+        "v_keyphrases": [
+          "Khôi phục",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Trưởng phòng Cảnh sát giao thông",
         "v": "Tổ chức",
         "o": "Kiểm tra kiến thức pháp luật",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Trưởng phòng CSGT"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp",
+          "Thành lập"
+        ],
         "o_keyphrases": [
-          "kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+          "kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ",
+          "Kiểm tra pháp luật",
+          "Kiểm tra kiến thức"
         ]
       }
     ]
@@ -113,35 +192,67 @@
         "s": "Giấy phép lái xe",
         "v": "Trừ hết",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ toàn bộ",
+          "Giảm hết"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Trừ",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Phục hồi",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khôi phục",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
         "v": "Cập nhật",
         "o": "Điểm giấy phép lái xe",
         "s_keyphrases": [
-          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ",
+          "CSDL xử lý vi phạm",
+          "Cơ sở dữ liệu vi phạm hành chính"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Cập nhật dữ liệu"
+        ],
+        "o_keyphrases": [
+          "Điểm tích lũy bằng lái",
+          "Điểm giấy phép"
+        ]
       }
     ]
   },
@@ -157,35 +268,67 @@
         "s": "Giấy phép lái xe",
         "v": "Trừ hết",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ toàn bộ",
+          "Giảm hết"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Trừ",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Phục hồi",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khôi phục",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
         "v": "Thông báo",
         "o": "Người",
         "s_keyphrases": [
-          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ",
+          "CSDL xử lý vi phạm",
+          "Cơ sở dữ liệu vi phạm hành chính"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Thông tin",
+          "Công bố"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
       }
     ]
   },
@@ -201,45 +344,85 @@
         "s": "Giấy phép lái xe",
         "v": "Trừ hết",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ toàn bộ",
+          "Giảm hết"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Trừ",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Người",
         "v": "Đăng ký",
         "o": "Cổng dịch vụ công",
         "s_keyphrases": [
-          "công dân"
+          "công dân",
+          "Cá nhân",
+          "Người tham gia giao thông"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Đăng ký tham gia",
+          "Đăng ký sử dụng"
+        ],
+        "o_keyphrases": [
+          "Cổng thông tin dịch vụ công",
+          "Cổng dịch vụ công trực tuyến"
+        ]
       },
       {
         "s": "Người",
         "v": "Đăng ký",
         "o": "Ứng dụng giao thông",
         "s_keyphrases": [
-          "công dân"
+          "công dân",
+          "Cá nhân",
+          "Người tham gia giao thông"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Đăng ký tham gia",
+          "Đăng ký sử dụng"
+        ],
+        "o_keyphrases": [
+          "Ứng dụng vận tải",
+          "Phần mềm giao thông"
+        ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Cập nhật",
         "o": "Trang thông tin điện tử",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Cập nhật dữ liệu"
+        ],
+        "o_keyphrases": [
+          "Website",
+          "Cổng thông tin điện tử"
+        ]
       }
     ]
   },
@@ -255,75 +438,138 @@
         "s": "Giấy phép lái xe",
         "v": "Trừ hết",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ toàn bộ",
+          "Giảm hết"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Người",
         "v": "Có",
         "o": "Giấy phép lái xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Bằng lái xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Tham gia",
         "o": "Kiểm tra kiến thức pháp luật",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tham gia vào",
+          "Góp mặt"
+        ],
         "o_keyphrases": [
-          "kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+          "kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ",
+          "Kiểm tra pháp luật",
+          "Kiểm tra kiến thức"
         ]
       },
       {
         "s": "Người",
         "v": "Đạt",
         "o": "Yêu cầu",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đạt được",
+          "Hoàn thành"
+        ],
+        "o_keyphrases": [
+          "Đề nghị",
+          "Yêu cầu cần thiết"
+        ]
       },
       {
         "s": "Kết quả",
         "v": "Cập nhật",
         "o": "Phần mềm",
         "s_keyphrases": [
-          "kết quả kiểm tra"
+          "kết quả kiểm tra",
+          "Kết quả xử lý"
         ],
-        "v_keyphrases": [],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Cập nhật dữ liệu"
+        ],
         "o_keyphrases": [
-          "phần mềm kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"
+          "phần mềm kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ",
+          "Ứng dụng",
+          "Phần mềm quản lý"
         ]
       },
       {
         "s": "Phần mềm",
         "v": "Đồng bộ",
         "o": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Ứng dụng",
+          "Phần mềm quản lý"
+        ],
+        "v_keyphrases": [
+          "Đồng nhất",
+          "Hài hòa"
+        ],
         "o_keyphrases": [
-          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ",
+          "CSDL xử lý vi phạm",
+          "Cơ sở dữ liệu vi phạm hành chính"
         ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Phục hồi",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khôi phục",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Cơ sở dữ liệu về xử lý vi phạm hành chính",
         "v": "Cập nhật",
         "o": "Điểm giấy phép lái xe",
         "s_keyphrases": [
-          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"
+          "Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ",
+          "CSDL xử lý vi phạm",
+          "Cơ sở dữ liệu vi phạm hành chính"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Cập nhật dữ liệu"
+        ],
+        "o_keyphrases": [
+          "Điểm tích lũy bằng lái",
+          "Điểm giấy phép"
+        ]
       }
     ]
   },
@@ -339,25 +585,50 @@
         "s": "Giấy phép lái xe",
         "v": "Trừ hết",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ toàn bộ",
+          "Giảm hết"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Phục hồi",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khôi phục",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Người có thẩm quyền",
         "v": "Thông báo",
         "o": "Người",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Thông tin",
+          "Công bố"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
       }
     ]
   },
@@ -373,61 +644,120 @@
         "s": "Giấy phép lái xe",
         "v": "Trừ hết",
         "o": "Điểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ toàn bộ",
+          "Giảm hết"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm tích lũy"
+        ]
       },
       {
         "s": "Người có thẩm quyền",
         "v": "Giao",
         "o": "Văn bản",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Phân công"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Văn bản pháp luật"
+        ]
       },
       {
         "s": "Người có thẩm quyền",
         "v": "Gửi",
         "o": "Văn bản",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Truyền đạt",
+          "Chuyển"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Văn bản pháp luật"
+        ]
       },
       {
         "s": "Người có thẩm quyền",
         "v": "Thông báo",
         "o": "Người",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Thông tin",
+          "Công bố"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
       },
       {
         "s": "Người",
         "v": "Đăng ký",
         "o": "Cổng dịch vụ công",
         "s_keyphrases": [
-          "công dân"
+          "công dân",
+          "Cá nhân",
+          "Người tham gia giao thông"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Đăng ký tham gia",
+          "Đăng ký sử dụng"
+        ],
+        "o_keyphrases": [
+          "Cổng thông tin dịch vụ công",
+          "Cổng dịch vụ công trực tuyến"
+        ]
       },
       {
         "s": "Người",
         "v": "Đăng ký",
         "o": "Ứng dụng giao thông",
         "s_keyphrases": [
-          "công dân"
+          "công dân",
+          "Cá nhân",
+          "Người tham gia giao thông"
         ],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Đăng ký tham gia",
+          "Đăng ký sử dụng"
+        ],
+        "o_keyphrases": [
+          "Ứng dụng vận tải",
+          "Phần mềm giao thông"
+        ]
       },
       {
         "s": "Giấy phép lái xe",
         "v": "Cập nhật",
         "o": "Trang thông tin điện tử",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Cập nhật dữ liệu"
+        ],
+        "o_keyphrases": [
+          "Website",
+          "Cổng thông tin điện tử"
+        ]
       }
     ]
   },
@@ -452,49 +782,103 @@
         "s": "Tổ chức kinh doanh vận tải",
         "v": "Đăng ký",
         "o": "Thông tin",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Đăng ký tham gia",
+          "Đăng ký sử dụng"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Thông tin chi tiết"
+        ]
       },
       {
         "s": "Tổ chức kinh doanh vận tải",
         "v": "Niêm yết",
         "o": "Thông tin",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Công bố",
+          "Đăng tải"
+        ],
+        "o_keyphrases": [
+          "Dữ liệu",
+          "Thông tin chi tiết"
+        ]
       },
       {
         "s": "Tổ chức kinh doanh vận tải",
         "v": "Thực hiện đúng",
         "o": "Giá cước",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Thực hiện chính xác",
+          "Thực hiện theo quy định"
+        ],
+        "o_keyphrases": [
+          "Mức giá cước",
+          "Giá vận chuyển"
+        ]
       },
       {
         "s": "Tổ chức kinh doanh vận tải",
         "v": "Thực hiện đúng",
         "o": "Giá dịch vụ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Thực hiện chính xác",
+          "Thực hiện theo quy định"
+        ],
+        "o_keyphrases": [
+          "Mức giá dịch vụ",
+          "Chi phí dịch vụ"
+        ]
       },
       {
         "s": "Tổ chức kinh doanh vận tải",
         "v": "Thực hiện đúng",
         "o": "Tiêu chuẩn chất lượng dịch vụ vận tải",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Thực hiện chính xác",
+          "Thực hiện theo quy định"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn dịch vụ vận tải",
+          "Tiêu chuẩn chất lượng vận tải"
+        ]
       },
       {
         "s": "Tổ chức kinh doanh vận tải",
         "v": "Thực hiện đúng",
         "o": "Tiêu chuẩn chất lượng dịch vụ hỗ trợ vận tải",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ],
+        "v_keyphrases": [
+          "Thực hiện chính xác",
+          "Thực hiện theo quy định"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn dịch vụ hỗ trợ vận tải",
+          "Tiêu chuẩn chất lượng hỗ trợ"
+        ]
       }
     ]
   }

@@ -7,14 +7,64 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa vận chuyển hàng hóa là phương tiện vận tải, máy móc, thiết bị kỹ thuật, hàng dạng trụ không chằng buộc hoặc chằng buộc không theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["phương tiện vận tải", "máy móc", "thiết bị kỹ thuật", "hàng dạng trụ"]},
-      {"s": "Người", "v": "Chằng buộc", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe tải",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Chở"
+        ],
+        "o_keyphrases": [
+          "phương tiện vận tải",
+          "máy móc",
+          "thiết bị kỹ thuật",
+          "hàng dạng trụ",
+          "Sản phẩm",
+          "Hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chằng buộc",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Buộc chặt",
+          "Cố định"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Hàng"
+        ]
+      }
     ]
   },
   {
@@ -25,13 +75,58 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa chở công-ten-nơ mà không sử dụng cơ cấu khóa hãm công-ten-nơ với xe hoặc có sử dụng cơ cấu khóa hãm nhưng công-ten-nơ vẫn bị xê dịch trong quá trình vận chuyển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Công-ten-nơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Cơ cấu khóa hãm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe tải",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Công-ten-nơ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Chở"
+        ],
+        "o_keyphrases": [
+          "Container"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Cơ cấu khóa hãm",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Hệ thống khóa hãm"
+        ]
+      }
     ]
   },
   {
@@ -42,13 +137,60 @@
       "Người điều khiển xe ô tô tải, máy kéo và các loại xe tương tự xe ô tô vận chuyển hàng hóa vi phạm quy định gây tai nạn giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô tải",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô tải", "máy kéo", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Gây", "o": "Tai nạn giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô tải",
+          "máy kéo",
+          "các loại xe tương tự xe ô tô",
+          "Xe tải",
+          "Xe chở hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Chở"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Hàng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gây",
+        "o": "Tai nạn giao thông",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Xảy ra"
+        ],
+        "o_keyphrases": [
+          "Sự cố giao thông",
+          "Tai nạn"
+        ]
+      }
     ]
   },
   {
@@ -59,12 +201,57 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 6 Điều này bị thu hồi phù hiệu đã hết giá trị sử dụng hoặc phù hiệu không do cơ quan có thẩm quyền cấp."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phù hiệu", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Phù hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      },
+      {
+        "s": "Phù hiệu",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Biển hiệu",
+          "Dấu hiệu"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Giá trị thực tế",
+          "Giá trị hiệu quả"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Phù hiệu",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Cung cấp"
+        ],
+        "o_keyphrases": [
+          "Biển hiệu",
+          "Dấu hiệu"
+        ]
+      }
     ]
   },
   {
@@ -75,8 +262,23 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b, điểm c, điểm đ khoản 2; điểm a khoản 3; khoản 4; khoản 5; điểm c, điểm d, điểm đ khoản 6 Điều này bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      }
     ]
   },
   {
@@ -87,8 +289,23 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 6; điểm c, điểm d, điểm đ khoản 8; khoản 10 Điều này bị trừ điểm giấy phép lái xe 04 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      }
     ]
   },
   {
@@ -99,8 +316,23 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 9 Điều này bị trừ điểm giấy phép lái xe 06 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      }
     ]
   },
   {
@@ -111,8 +343,23 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 7 Điều này bị trừ điểm giấy phép lái xe 08 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      }
     ]
   },
   {
@@ -123,8 +370,23 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8; khoản 11 Điều này bị trừ điểm giấy phép lái xe 10 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe"
+        ]
+      }
     ]
   },
   {
@@ -135,12 +397,50 @@
       "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng chở hàng siêu trường, siêu trọng không có báo hiệu kích thước của hàng theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chở", "o": "Hàng siêu trường, siêu trọng",
-       "s_keyphrases": [], "v_keyphrases": ["vận chuyển"], "o_keyphrases": []},
-      {"s": "Hàng siêu trường, siêu trọng", "v": "Có", "o": "Báo hiệu kích thước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Hàng siêu trường, siêu trọng",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hàng siêu trường, siêu trọng",
+        "v": "Có",
+        "o": "Báo hiệu kích thước",
+        "s_keyphrases": [
+          "Hàng hóa siêu trường, siêu trọng"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Biển báo kích thước",
+          "Báo hiệu kích thước xe"
+        ]
+      }
     ]
   }
 ]

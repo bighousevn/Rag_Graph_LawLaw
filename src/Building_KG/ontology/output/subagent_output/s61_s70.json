@@ -7,21 +7,90 @@
       "Người có thẩm quyền xử phạt tước quyền sử dụng giấy phép lái xe không thời hạn đối với người điều khiển xe mô tô, xe tương tự xe mô tô hoặc tước quyền sử dụng giấy phép lái xe có thời hạn đối với người điều khiển xe ô tô, xe tương tự xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ khi thực hiện hành vi vi phạm hành chính có quy định bị tước quyền sử dụng giấy phép lái xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe tương tự xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ"]},
-      {"s": "Người có thẩm quyền", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": ["người có thẩm quyền xử phạt"], "v_keyphrases": [],
-       "o_keyphrases": []},
-      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe tương tự xe mô tô",
+          "Xe máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe tương tự xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "người có thẩm quyền xử phạt",
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Thu hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quyền sử dụng",
+        "v": "Dành cho",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      }
     ]
   },
   {
@@ -32,30 +101,179 @@
       "Cơ quan, người có thẩm quyền thực hiện tạm giữ, tước quyền sử dụng giấy phép, chứng chỉ hành nghề được cấp dưới dạng điện tử hoặc thể hiện dưới hình thức thông điệp dữ liệu nếu đáp ứng điều kiện về cơ sở hạ tầng, kỹ thuật, thông tin."
     ],
     "triplets": [
-      {"s": "Cơ quan", "v": "Tạm giữ", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan", "v": "Tạm giữ", "o": "Chứng chỉ hành nghề",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Chứng chỉ hành nghề",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Chứng chỉ hành nghề",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Là", "o": "Điện tử",
-       "s_keyphrases": [], "v_keyphrases": ["được cấp dưới dạng", "thể hiện dưới hình thức"],
-       "o_keyphrases": ["thông điệp dữ liệu"]},
-      {"s": "Chứng chỉ hành nghề", "v": "Là", "o": "Điện tử",
-       "s_keyphrases": [], "v_keyphrases": ["được cấp dưới dạng", "thể hiện dưới hình thức"],
-       "o_keyphrases": ["thông điệp dữ liệu"]},
-      {"s": "Người", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ quan",
+        "v": "Tạm giữ",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Tổ chức",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ"
+        ]
+      },
+      {
+        "s": "Cơ quan",
+        "v": "Tạm giữ",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [
+          "Tổ chức",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề"
+        ]
+      },
+      {
+        "s": "Cơ quan",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Tổ chức",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thu hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Thu hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quyền sử dụng",
+        "v": "Dành cho",
+        "o": "Giấy phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ"
+        ]
+      },
+      {
+        "s": "Quyền sử dụng",
+        "v": "Dành cho",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Là",
+        "o": "Điện tử",
+        "s_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ"
+        ],
+        "v_keyphrases": [
+          "được cấp dưới dạng",
+          "thể hiện dưới hình thức"
+        ],
+        "o_keyphrases": [
+          "thông điệp dữ liệu",
+          "Thiết bị điện tử",
+          "Công nghệ điện tử"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Là",
+        "o": "Điện tử",
+        "s_keyphrases": [
+          "Giấy chứng nhận hành nghề"
+        ],
+        "v_keyphrases": [
+          "được cấp dưới dạng",
+          "thể hiện dưới hình thức"
+        ],
+        "o_keyphrases": [
+          "thông điệp dữ liệu",
+          "Thiết bị điện tử",
+          "Công nghệ điện tử"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      }
     ]
   },
   {
@@ -66,21 +284,132 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Vạch kẻ đường",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Chỉ dẫn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Vạch kẻ đường",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Tín hiệu",
+          "Lệnh"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Tín hiệu",
+          "Lệnh"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Biển chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "Tín hiệu",
+          "Lệnh"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Chỉ dẫn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Hướng dẫn",
+          "Thông tin"
+        ]
+      },
+      {
+        "s": "Chỉ dẫn",
+        "v": "Dành cho",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Hướng dẫn",
+          "Thông tin"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Biển chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Chỉ dẫn",
+        "v": "Dành cho",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "Hướng dẫn",
+          "Thông tin"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -91,15 +420,77 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không báo tín hiệu khi ra, vào vị trí dừng xe, đỗ xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Báo", "o": "Tín hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Báo",
+        "o": "Tín hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thông báo",
+          "Công bố"
+        ],
+        "o_keyphrases": [
+          "Hiệu lệnh",
+          "Tín hiệu giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ]
+      }
     ]
   },
   {
@@ -110,17 +501,95 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không báo hiệu bằng đèn khẩn cấp hoặc không đặt biển cảnh báo “Chú ý xe đỗ” trong trường hợp gặp sự cố kỹ thuật buộc phải đỗ xe chiếm một phần đường xe chạy hoặc tại nơi không được phép đỗ xe."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Báo", "o": "Đèn khẩn cấp",
-       "s_keyphrases": [], "v_keyphrases": ["báo hiệu"], "o_keyphrases": []},
-      {"s": "Người", "v": "Đặt", "o": "Biển cảnh báo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đỗ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chiếm", "o": "Phần đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Báo",
+        "o": "Đèn khẩn cấp",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "báo hiệu",
+          "Thông báo",
+          "Công bố"
+        ],
+        "o_keyphrases": [
+          "Đèn báo khẩn cấp",
+          "Đèn tín hiệu khẩn cấp"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đặt",
+        "o": "Biển cảnh báo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Để",
+          "Đặt để"
+        ],
+        "o_keyphrases": [
+          "Biển báo cảnh báo",
+          "Biển cảnh báo giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đỗ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Đậu",
+          "Đỗ xe"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chiếm",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sử dụng",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Đoạn đường",
+          "Khu vực đường"
+        ]
+      }
     ]
   },
   {
@@ -131,17 +600,94 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không gắn biển báo hiệu ở phía trước xe kéo, phía sau xe được kéo hoặc điều khiển xe kéo rơ moóc không có biển báo hiệu."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Gắn", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Kéo", "o": "Xe được kéo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Kéo", "o": "Rơ moóc",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Rơ moóc", "v": "Có", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gắn",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lắp đặt",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Biển chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo",
+        "o": "Xe được kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Kéo theo",
+          "Kéo dài"
+        ],
+        "o_keyphrases": [
+          "Xe kéo",
+          "Xe rơ moóc"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Kéo",
+        "o": "Rơ moóc",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Kéo theo",
+          "Kéo dài"
+        ],
+        "o_keyphrases": [
+          "Xe rơ moóc",
+          "Rơ moóc kéo"
+        ]
+      },
+      {
+        "s": "Rơ moóc",
+        "v": "Có",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Xe rơ moóc",
+          "Rơ moóc kéo"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Biển chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -152,15 +698,71 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô sử dụng còi trong thời gian từ 22 giờ đến 05 giờ trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Còi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Khu đông dân cư",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Cơ sở khám bệnh, chữa bệnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Còi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Âm thanh cảnh báo",
+          "Còi xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Khu đông dân cư",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Khu vực đông dân",
+          "Khu dân cư"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Cơ sở khám bệnh, chữa bệnh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Bệnh viện",
+          "Phòng khám"
+        ]
+      }
     ]
   },
   {
@@ -171,13 +773,61 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Chuyển làn", "o": "Làn đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Báo", "o": "Tín hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tín hiệu báo trước"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển làn",
+        "o": "Làn đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyển hướng",
+          "Đổi làn"
+        ],
+        "o_keyphrases": [
+          "Đường đi",
+          "Làn xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Báo",
+        "o": "Tín hiệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thông báo",
+          "Công bố"
+        ],
+        "o_keyphrases": [
+          "tín hiệu báo trước",
+          "Hiệu lệnh",
+          "Tín hiệu giao thông"
+        ]
+      }
     ]
   },
   {
@@ -188,13 +838,57 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô chở người trên buồng lái quá số lượng quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Chở", "o": "Người",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Buồng lái",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chở",
+        "o": "Người",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Buồng lái",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Cabin lái",
+          "Khu vực lái"
+        ]
+      }
     ]
   },
   {
@@ -205,13 +899,57 @@
       "Người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô không tuân thủ các quy định về nhường đường tại nơi đường bộ giao nhau."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Người", "v": "Thực hiện", "o": "Nhường đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Nơi giao nhau",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Nhường đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Triển khai",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Cho đường",
+          "Nhường lối"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Nơi giao nhau",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Điểm giao nhau",
+          "Ngã tư"
+        ]
+      }
     ]
   }
 ]

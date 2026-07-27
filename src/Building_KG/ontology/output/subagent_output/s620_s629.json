@@ -7,8 +7,23 @@
       "Người điều khiển phương tiện thực hiện hành vi quy định tại khoản 2 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      }
     ]
   },
   {
@@ -19,11 +34,42 @@
       "Người điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ thực hiện hành vi quy định tại khoản 3 Điều này bị trừ điểm giấy phép lái xe 06 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "Xe hơi",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Vị trí",
+          "Điểm dừng"
+        ]
+      }
     ]
   },
   {
@@ -34,17 +80,90 @@
       "Người điều khiển xe ô tô cứu hộ giao thông đường bộ không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cứu hộ giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô cứu hộ giao thông đường bộ"]},
-      {"s": "Người", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": ["có lắp"], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Xe cứu hộ giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cứu hộ giao thông đường bộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô cứu hộ giao thông đường bộ",
+          "Xe cứu hộ",
+          "Xe cứu nạn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "có lắp",
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chức năng",
+          "Vai trò"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu ghi nhận"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lắp trên",
+        "o": "Xe cứu hộ giao thông đường bộ",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [
+          "Gắn lên",
+          "Cài đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe cứu hộ",
+          "Xe cứu nạn"
+        ]
+      }
     ]
   },
   {
@@ -55,12 +174,41 @@
       "Người điều khiển xe ô tô cứu hộ giao thông đường bộ không có dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cứu hộ giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô cứu hộ giao thông đường bộ"]},
-      {"s": "Người", "v": "Có", "o": "Thiết bị cứu hộ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["dụng cụ chuyên dùng để cứu hộ", "thiết bị chuyên dùng để cứu hộ", "thiết bị hỗ trợ cứu hộ"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cứu hộ giao thông đường bộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô cứu hộ giao thông đường bộ",
+          "Xe cứu hộ",
+          "Xe cứu nạn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Thiết bị cứu hộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "dụng cụ chuyên dùng để cứu hộ",
+          "thiết bị chuyên dùng để cứu hộ",
+          "thiết bị hỗ trợ cứu hộ",
+          "Thiết bị hỗ trợ",
+          "Dụng cụ cứu hộ"
+        ]
+      }
     ]
   },
   {
@@ -71,17 +219,90 @@
       "Người điều khiển xe ô tô cứu hộ giao thông đường bộ không lắp thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cứu hộ giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô cứu hộ giao thông đường bộ"]},
-      {"s": "Người", "v": "Lắp", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": ["có lắp"], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Lắp trên", "o": "Xe cứu hộ giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cứu hộ giao thông đường bộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô cứu hộ giao thông đường bộ",
+          "Xe cứu hộ",
+          "Xe cứu nạn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "có lắp",
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chức năng",
+          "Vai trò"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu ghi nhận"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Lắp trên",
+        "o": "Xe cứu hộ giao thông đường bộ",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "Gắn lên",
+          "Cài đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe cứu hộ",
+          "Xe cứu nạn"
+        ]
+      }
     ]
   },
   {
@@ -92,10 +313,40 @@
       "Người điều khiển xe cứu hộ giao thông đường bộ thực hiện hành vi quy định tại khoản 3 Điều này bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cứu hộ giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cứu hộ giao thông đường bộ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe cứu hộ",
+          "Xe cứu nạn"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Vị trí",
+          "Điểm dừng"
+        ]
+      }
     ]
   },
   {
@@ -106,17 +357,90 @@
       "Người điều khiển xe ô tô cứu thương không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cứu thương",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô cứu thương"]},
-      {"s": "Người", "v": "Lắp", "o": "Thiết bị ghi nhận hình ảnh người lái xe",
-       "s_keyphrases": [], "v_keyphrases": ["có lắp"], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị ghi nhận hình ảnh người lái xe", "v": "Lắp trên", "o": "Xe cứu thương",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cứu thương",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô cứu thương",
+          "Xe cấp cứu",
+          "Xe cứu thương y tế"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp",
+        "o": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "có lắp",
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chức năng",
+          "Vai trò"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu ghi nhận"
+        ]
+      },
+      {
+        "s": "Thiết bị ghi nhận hình ảnh người lái xe",
+        "v": "Lắp trên",
+        "o": "Xe cứu thương",
+        "s_keyphrases": [
+          "Camera giám sát lái xe",
+          "Thiết bị ghi hình"
+        ],
+        "v_keyphrases": [
+          "Gắn lên",
+          "Cài đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe cấp cứu",
+          "Xe cứu thương y tế"
+        ]
+      }
     ]
   },
   {
@@ -127,17 +451,90 @@
       "Người điều khiển xe ô tô cứu thương không lắp thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cứu thương",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô cứu thương"]},
-      {"s": "Người", "v": "Lắp", "o": "Thiết bị giám sát hành trình",
-       "s_keyphrases": [], "v_keyphrases": ["có lắp"], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Có", "o": "Tác dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm sai lệch", "o": "Dữ liệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thiết bị giám sát hành trình", "v": "Lắp trên", "o": "Xe cứu thương",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cứu thương",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô cứu thương",
+          "Xe cấp cứu",
+          "Xe cứu thương y tế"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp",
+        "o": "Thiết bị giám sát hành trình",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "có lắp",
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Có",
+        "o": "Tác dụng",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Chức năng",
+          "Vai trò"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu ghi nhận"
+        ]
+      },
+      {
+        "s": "Thiết bị giám sát hành trình",
+        "v": "Lắp trên",
+        "o": "Xe cứu thương",
+        "s_keyphrases": [
+          "Thiết bị định vị",
+          "Thiết bị theo dõi hành trình"
+        ],
+        "v_keyphrases": [
+          "Gắn lên",
+          "Cài đặt trên"
+        ],
+        "o_keyphrases": [
+          "Xe cấp cứu",
+          "Xe cứu thương y tế"
+        ]
+      }
     ]
   },
   {
@@ -148,10 +545,40 @@
       "Người điều khiển xe cứu thương thực hiện hành vi quy định tại khoản 2 Điều này bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe cứu thương",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe cứu thương",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận hành",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe cấp cứu",
+          "Xe cứu thương y tế"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Khấu trừ",
+          "Giảm"
+        ],
+        "o_keyphrases": [
+          "Vị trí",
+          "Điểm dừng"
+        ]
+      }
     ]
   },
   {
@@ -162,21 +589,96 @@
       "Cá nhân thực hiện hành vi sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ; sản xuất, mua, bán biển số xe trái phép."
     ],
     "triplets": [
-      {"s": "Người", "v": "Sản xuất", "o": "Phương tiện",
-       "s_keyphrases": ["cá nhân"], "v_keyphrases": [],
-       "o_keyphrases": ["phương tiện giao thông cơ giới đường bộ"]},
-      {"s": "Người", "v": "Lắp ráp", "o": "Phương tiện",
-       "s_keyphrases": ["cá nhân"], "v_keyphrases": [],
-       "o_keyphrases": ["phương tiện giao thông cơ giới đường bộ"]},
-      {"s": "Người", "v": "Sản xuất", "o": "Biển số",
-       "s_keyphrases": ["cá nhân"], "v_keyphrases": [],
-       "o_keyphrases": ["biển số xe"]},
-      {"s": "Người", "v": "Mua", "o": "Biển số",
-       "s_keyphrases": ["cá nhân"], "v_keyphrases": [],
-       "o_keyphrases": ["biển số xe"]},
-      {"s": "Người", "v": "Bán", "o": "Biển số",
-       "s_keyphrases": ["cá nhân"], "v_keyphrases": [],
-       "o_keyphrases": ["biển số xe"]}
+      {
+        "s": "Người",
+        "v": "Sản xuất",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chế tạo",
+          "Đưa ra thị trường"
+        ],
+        "o_keyphrases": [
+          "phương tiện giao thông cơ giới đường bộ",
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lắp ráp",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Ghép nối",
+          "Kết hợp"
+        ],
+        "o_keyphrases": [
+          "phương tiện giao thông cơ giới đường bộ",
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sản xuất",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chế tạo",
+          "Đưa ra thị trường"
+        ],
+        "o_keyphrases": [
+          "biển số xe",
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mua",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sắm",
+          "Mua sắm"
+        ],
+        "o_keyphrases": [
+          "biển số xe",
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bán",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Giao dịch",
+          "Chuyển nhượng"
+        ],
+        "o_keyphrases": [
+          "biển số xe",
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      }
     ]
   }
 ]

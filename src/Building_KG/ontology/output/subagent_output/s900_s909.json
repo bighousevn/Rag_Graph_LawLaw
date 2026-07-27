@@ -7,12 +7,102 @@
       "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại khoản 1 Điều 35."
     ],
     "triplets": [
-      {"s": "Trưởng Công an cấp xã", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng Công an cấp xã", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng đồn Công an", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm Công an cửa khẩu, khu chế xuất", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Trưởng công an xã",
+          "Chỉ huy công an xã"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng Công an cấp xã",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Trưởng công an xã",
+          "Chỉ huy công an xã"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi sai phạm"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chỉ huy đồn công an",
+          "Đồn trưởng"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng đồn Công an",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Chỉ huy đồn công an",
+          "Đồn trưởng"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi sai phạm"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng trạm Công an cửa khẩu, khu chế xuất",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi sai phạm"
+        ]
+      }
     ]
   },
   {
@@ -23,20 +113,195 @@
       "Thanh tra đường bộ và người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ có thẩm quyền xử phạt tại các điểm, khoản, điều của Nghị định này khi thực hiện công tác thanh tra, kiểm tra tại đơn vị vận tải, bến xe, bãi đỗ xe, trạm dừng nghỉ, đơn vị thực hiện dịch vụ hỗ trợ vận tải."
     ],
     "triplets": [
-      {"s": "Thanh tra đường bộ", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thanh tra đường bộ", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thanh tra đường bộ", "v": "Tại", "o": "Đơn vị vận tải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thanh tra đường bộ", "v": "Tại", "o": "Bến xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thanh tra đường bộ", "v": "Tại", "o": "Bãi đỗ xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thanh tra đường bộ", "v": "Tại", "o": "Trạm dừng nghỉ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thanh tra đường bộ", "v": "Tại", "o": "Tổ chức kinh doanh vận tải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["đơn vị thực hiện dịch vụ hỗ trợ vận tải"]},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Tại", "o": "Đơn vị vận tải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Tại", "o": "Bến xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Tại", "o": "Bãi đỗ xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Tại", "o": "Trạm dừng nghỉ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Tại", "o": "Tổ chức kinh doanh vận tải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["đơn vị thực hiện dịch vụ hỗ trợ vận tải"]}
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi sai phạm"
+        ]
+      },
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Tại",
+        "o": "Đơn vị vận tải",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Cơ sở vận tải",
+          "Tổ chức vận tải"
+        ]
+      },
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Tại",
+        "o": "Bến xe",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Bến đỗ xe",
+          "Trạm xe"
+        ]
+      },
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Tại",
+        "o": "Bãi đỗ xe",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Bãi đỗ",
+          "Bãi xe"
+        ]
+      },
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Tại",
+        "o": "Trạm dừng nghỉ",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Trạm dừng",
+          "Điểm dừng nghỉ"
+        ]
+      },
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Tại",
+        "o": "Tổ chức kinh doanh vận tải",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "đơn vị thực hiện dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi sai phạm"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Tại",
+        "o": "Đơn vị vận tải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Cơ sở vận tải",
+          "Tổ chức vận tải"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Tại",
+        "o": "Bến xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Bến đỗ xe",
+          "Trạm xe"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Tại",
+        "o": "Bãi đỗ xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Bãi đỗ",
+          "Bãi xe"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Tại",
+        "o": "Trạm dừng nghỉ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Trạm dừng",
+          "Điểm dừng nghỉ"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Tại",
+        "o": "Tổ chức kinh doanh vận tải",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "đơn vị thực hiện dịch vụ hỗ trợ vận tải",
+          "Doanh nghiệp vận tải",
+          "Công ty vận tải"
+        ]
+      }
     ]
   },
   {
@@ -47,10 +312,68 @@
       "Thanh tra đường bộ và người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ có thẩm quyền xử phạt tại Điều 39, Điều 40."
     ],
     "triplets": [
-      {"s": "Thanh tra đường bộ", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thanh tra đường bộ", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Thanh tra đường bộ",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cơ quan thanh tra giao thông",
+          "Thanh tra giao thông"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi sai phạm"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi sai phạm"
+        ]
+      }
     ]
   },
   {
@@ -61,8 +384,41 @@
       "Chủ tịch Ủy ban nhân dân cấp xã có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -73,8 +429,41 @@
       "Chủ tịch Ủy ban nhân dân cấp xã có quyền phạt tiền đến 5.000.000 đồng."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Phạt", "o": "Phạt tiền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Phạt hành chính"
+        ]
+      }
     ]
   },
   {
@@ -85,9 +474,59 @@
       "Chủ tịch Ủy ban nhân dân cấp xã có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 10.000.000 đồng."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "tang vật",
+          "Vật chứng vi phạm"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      }
     ]
   },
   {
@@ -98,8 +537,41 @@
       "Chủ tịch Ủy ban nhân dân cấp xã có quyền áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, b khoản 3 Điều 3 của Nghị định này."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Giải pháp khắc phục"
+        ]
+      }
     ]
   },
   {
@@ -110,8 +582,41 @@
       "Chủ tịch Ủy ban nhân dân cấp huyện có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Phạt", "o": "Cảnh cáo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -122,8 +627,41 @@
       "Chủ tịch Ủy ban nhân dân cấp huyện có quyền phạt tiền đến 37.500.000 đồng."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Phạt", "o": "Phạt tiền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Phạt hành chính"
+        ]
+      }
     ]
   },
   {
@@ -134,11 +672,92 @@
       "Chủ tịch Ủy ban nhân dân cấp huyện có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tước", "o": "Quyền sử dụng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Chứng chỉ hành nghề", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Đình chỉ", "o": "Hoạt động", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thu hồi",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Quyền sử dụng",
+        "v": "Dành cho",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Cấp cho"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy cho phép"
+        ]
+      },
+      {
+        "s": "Quyền sử dụng",
+        "v": "Dành cho",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Cấp cho"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Chứng nhận hành nghề"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Tạm dừng"
+        ],
+        "o_keyphrases": [
+          "Hoạt động giao thông",
+          "Hoạt động vận tải"
+        ]
+      }
     ]
   }
 ]

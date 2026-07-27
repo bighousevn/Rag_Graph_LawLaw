@@ -7,15 +7,77 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy tẩy xóa, sửa chữa hoặc giả mạo hồ sơ đăng ký xe nhưng chưa đến mức truy cứu trách nhiệm hình sự."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Tẩy xóa", "o": "Hồ sơ đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Sửa chữa", "o": "Hồ sơ đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Giả mạo", "o": "Hồ sơ đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Tẩy xóa",
+        "o": "Hồ sơ đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Xóa bỏ",
+          "Xóa sạch"
+        ],
+        "o_keyphrases": [
+          "Tài liệu đăng ký xe",
+          "Hồ sơ đăng ký"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Sửa chữa",
+        "o": "Hồ sơ đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Khắc phục",
+          "Bảo trì"
+        ],
+        "o_keyphrases": [
+          "Tài liệu đăng ký xe",
+          "Hồ sơ đăng ký"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Giả mạo",
+        "o": "Hồ sơ đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Làm giả",
+          "Bịa đặt"
+        ],
+        "o_keyphrases": [
+          "Tài liệu đăng ký xe",
+          "Hồ sơ đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -26,29 +88,196 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy tự ý thay đổi khung, máy, hình dáng, kích thước, đặc tính của xe."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Thay đổi", "o": "Khung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Khung", "v": "Thuộc", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Thay đổi", "o": "Máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Máy", "v": "Thuộc", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Thay đổi", "o": "Hình dáng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hình dáng", "v": "Thuộc", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Thay đổi", "o": "Kích thước",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kích thước", "v": "Thuộc", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Thay đổi", "o": "Đặc tính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đặc tính", "v": "Thuộc", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thay đổi",
+        "o": "Khung",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Điều chỉnh"
+        ],
+        "o_keyphrases": [
+          "Khung xe",
+          "Khung gầm"
+        ]
+      },
+      {
+        "s": "Khung",
+        "v": "Thuộc",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Khung xe",
+          "Khung gầm"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thay đổi",
+        "o": "Máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Điều chỉnh"
+        ],
+        "o_keyphrases": [
+          "Động cơ",
+          "Máy móc"
+        ]
+      },
+      {
+        "s": "Máy",
+        "v": "Thuộc",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Động cơ",
+          "Máy móc"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thay đổi",
+        "o": "Hình dáng",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Điều chỉnh"
+        ],
+        "o_keyphrases": [
+          "Kiểu dáng",
+          "Hình thức"
+        ]
+      },
+      {
+        "s": "Hình dáng",
+        "v": "Thuộc",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Kiểu dáng",
+          "Hình thức"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thay đổi",
+        "o": "Kích thước",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Điều chỉnh"
+        ],
+        "o_keyphrases": [
+          "Kích thước xe",
+          "Kích thước tổng thể"
+        ]
+      },
+      {
+        "s": "Kích thước",
+        "v": "Thuộc",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Kích thước xe",
+          "Kích thước tổng thể"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thay đổi",
+        "o": "Đặc tính",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Điều chỉnh"
+        ],
+        "o_keyphrases": [
+          "Tính năng",
+          "Đặc điểm"
+        ]
+      },
+      {
+        "s": "Đặc tính",
+        "v": "Thuộc",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Tính năng",
+          "Đặc điểm"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ]
+      }
     ]
   },
   {
@@ -59,17 +288,96 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số xe, chứng nhận đăng ký xe nhưng chưa đến mức bị truy cứu trách nhiệm hình sự."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Thực hiện", "o": "Khai báo sai sự thật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Sử dụng", "o": "Giấy tờ giả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tài liệu giả"]},
-      {"s": "Chủ xe", "v": "Cấp lại", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số xe"]},
-      {"s": "Chủ xe", "v": "Cấp lại", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thực hiện",
+        "o": "Khai báo sai sự thật",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Khai báo không đúng",
+          "Khai báo sai"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Sử dụng",
+        "o": "Giấy tờ giả",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "tài liệu giả",
+          "Giấy tờ không hợp lệ",
+          "Giấy tờ giả mạo"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Cấp lại",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Cấp mới",
+          "Cấp bổ sung"
+        ],
+        "o_keyphrases": [
+          "biển số xe",
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Cấp lại",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Cấp mới",
+          "Cấp bổ sung"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -80,13 +388,61 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy không làm thủ tục thu hồi chứng nhận đăng ký xe, biển số xe theo quy định."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Thu hồi", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Thu hồi", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển số xe"]}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thu hồi",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thu hồi",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Lấy lại"
+        ],
+        "o_keyphrases": [
+          "biển số xe",
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -97,29 +453,196 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy đưa phương tiện không có chứng nhận đăng ký xe tham gia giao thông hoặc có nhưng đã hết hạn sử dụng, hết hiệu lực; đưa phương tiện có chứng nhận đăng ký xe tạm thời, phương tiện có phạm vi hoạt động hạn chế tham gia giao thông quá thời hạn, tuyến đường, phạm vi cho phép."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Đưa", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Tham gia", "o": "Giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hạn sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Hết", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Chứng nhận đăng ký xe tạm thời",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Phạm vi hoạt động hạn chế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Quá", "o": "Thời hạn cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Quá", "o": "Tuyến đường cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Quá", "o": "Phạm vi cho phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Đưa",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Giao"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Tham gia",
+        "o": "Giao thông",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Góp mặt"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Hết",
+        "o": "Hạn sử dụng",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Thời gian sử dụng",
+          "Thời hạn"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Hết",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Thời gian hiệu lực",
+          "Tính hợp lệ"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe tạm thời",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký tạm thời",
+          "Giấy chứng nhận tạm thời"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Phạm vi hoạt động hạn chế",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Khu vực hạn chế",
+          "Phạm vi hạn chế"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Quá",
+        "o": "Thời hạn cho phép",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Vượt quá",
+          "Hơn"
+        ],
+        "o_keyphrases": [
+          "Thời gian cho phép",
+          "Thời hạn"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Quá",
+        "o": "Tuyến đường cho phép",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Vượt quá",
+          "Hơn"
+        ],
+        "o_keyphrases": [
+          "Đường cho phép",
+          "Tuyến đường hợp lệ"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Quá",
+        "o": "Phạm vi cho phép",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Vượt quá",
+          "Hơn"
+        ],
+        "o_keyphrases": [
+          "Khu vực cho phép",
+          "Phạm vi hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -130,21 +653,128 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy đưa phương tiện có chứng nhận đăng ký xe nhưng không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa tham gia giao thông; đưa phương tiện có chứng nhận đăng ký xe nhưng không đúng với số khung, số động cơ của xe tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Đưa", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Tham gia", "o": "Giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Có", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số khung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Đúng", "o": "Số động cơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Đưa",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Giao"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Tham gia",
+        "o": "Giao thông",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Góp mặt"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Có",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát hành"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số khung",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã khung",
+          "Số khung xe"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Đúng",
+        "o": "Số động cơ",
+        "s_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Mã động cơ",
+          "Số máy"
+        ]
+      }
     ]
   },
   {
@@ -155,13 +785,60 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy lắp đặt, sử dụng thiết bị thay đổi biển số trên xe trái quy định."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Lắp đặt", "o": "Thiết bị thay đổi biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Sử dụng", "o": "Thiết bị thay đổi biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Lắp đặt",
+        "o": "Thiết bị thay đổi biển số",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Thiết bị điều chỉnh biển số",
+          "Thiết bị sửa biển số"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Sử dụng",
+        "o": "Thiết bị thay đổi biển số",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị điều chỉnh biển số",
+          "Thiết bị sửa biển số"
+        ]
+      }
     ]
   },
   {
@@ -172,19 +849,111 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy đưa phương tiện không gắn biển số tham gia giao thông; đưa phương tiện gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Đưa", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Tham gia", "o": "Giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe máy", "v": "Gắn", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biển số", "v": "Đúng", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan có thẩm quyền", "v": "Cấp", "o": "Biển số",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Đưa",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Chuyển",
+          "Giao"
+        ],
+        "o_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Tham gia",
+        "o": "Giao thông",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Góp mặt"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
+      },
+      {
+        "s": "Xe máy",
+        "v": "Gắn",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Xe gắn máy",
+          "Xe hai bánh"
+        ],
+        "v_keyphrases": [
+          "Lắp",
+          "Gắn kết"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      },
+      {
+        "s": "Biển số",
+        "v": "Đúng",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Phù hợp"
+        ],
+        "o_keyphrases": [
+          "Giấy đăng ký xe",
+          "Giấy chứng nhận đăng ký"
+        ]
+      },
+      {
+        "s": "Cơ quan có thẩm quyền",
+        "v": "Cấp",
+        "o": "Biển số",
+        "s_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan quản lý"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phát hành"
+        ],
+        "o_keyphrases": [
+          "Biển kiểm soát",
+          "Biển đăng ký"
+        ]
+      }
     ]
   },
   {
@@ -195,11 +964,44 @@
       "Cá nhân và tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy vi phạm quy định liên quan đến giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô", "các loại xe tương tự xe gắn máy"]},
-      {"s": "Chủ xe", "v": "Vi phạm", "o": "Quy định giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quy định liên quan đến giao thông đường bộ"]}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "các loại xe tương tự xe gắn máy",
+          "Xe hai bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Vi phạm",
+        "o": "Quy định giao thông đường bộ",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Phạm luật",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "quy định liên quan đến giao thông đường bộ",
+          "Luật giao thông",
+          "Quy tắc giao thông"
+        ]
+      }
     ]
   },
   {
@@ -210,25 +1012,162 @@
       "Tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô thuê, mượn linh kiện, phụ kiện của xe ô tô khi kiểm định."
     ],
     "triplets": [
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe ô tô", "xe chở người bốn bánh có gắn động cơ", "xe chở hàng bốn bánh có gắn động cơ", "các loại xe tương tự xe ô tô"]},
-      {"s": "Chủ xe", "v": "Là chủ", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Thuê", "o": "Linh kiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Mượn", "o": "Linh kiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Linh kiện", "v": "Thuộc", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Thuê", "o": "Phụ kiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ xe", "v": "Mượn", "o": "Phụ kiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phụ kiện", "v": "Thuộc", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Thực hiện", "o": "Kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "xe chở người bốn bánh có gắn động cơ",
+          "xe chở hàng bốn bánh có gắn động cơ",
+          "các loại xe tương tự xe ô tô",
+          "Xe bốn bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Là chủ",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Làm chủ"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc biệt",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thuê",
+        "o": "Linh kiện",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Mướn",
+          "Cho thuê"
+        ],
+        "o_keyphrases": [
+          "Phụ tùng",
+          "Bộ phận"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Mượn",
+        "o": "Linh kiện",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Thuê mượn",
+          "Vay"
+        ],
+        "o_keyphrases": [
+          "Phụ tùng",
+          "Bộ phận"
+        ]
+      },
+      {
+        "s": "Linh kiện",
+        "v": "Thuộc",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Phụ tùng",
+          "Bộ phận"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe bốn bánh"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Thuê",
+        "o": "Phụ kiện",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Mướn",
+          "Cho thuê"
+        ],
+        "o_keyphrases": [
+          "Phụ tùng bổ sung",
+          "Thiết bị phụ trợ"
+        ]
+      },
+      {
+        "s": "Chủ xe",
+        "v": "Mượn",
+        "o": "Phụ kiện",
+        "s_keyphrases": [
+          "Người sở hữu xe",
+          "Chủ sở hữu"
+        ],
+        "v_keyphrases": [
+          "Thuê mượn",
+          "Vay"
+        ],
+        "o_keyphrases": [
+          "Phụ tùng bổ sung",
+          "Thiết bị phụ trợ"
+        ]
+      },
+      {
+        "s": "Phụ kiện",
+        "v": "Thuộc",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Phụ tùng bổ sung",
+          "Thiết bị phụ trợ"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe bốn bánh"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Thực hiện",
+        "o": "Kiểm định",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe bốn bánh"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ]
+      }
     ]
   }
 ]

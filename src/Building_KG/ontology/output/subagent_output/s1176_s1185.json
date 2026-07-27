@@ -7,34 +7,244 @@
       "Báo hiệu đường bộ bao gồm: hiệu lệnh của người điều khiển giao thông; đèn tín hiệu giao thông; biển báo hiệu đường bộ; vạch kẻ đường và các dấu hiệu khác trên mặt đường; cọc tiêu, tường bảo vệ, rào chắn, đinh phản quang, tiêu phản quang, cột Km, cọc H; thiết bị âm thanh báo hiệu đường bộ."
     ],
     "triplets": [
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Hiệu lệnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người điều khiển giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Đèn tín hiệu giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường bộ"]},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Vạch kẻ đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Dấu hiệu trên mặt đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["các dấu hiệu khác trên mặt đường"]},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Cọc tiêu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Tường bảo vệ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Rào chắn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Đinh phản quang",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Tiêu phản quang",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Cột Km",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Cọc H",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Thiết bị âm thanh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thiết bị âm thanh báo hiệu đường bộ"]}
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Lệnh giao thông",
+          "Dấu hiệu giao thông"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [
+          "Lệnh giao thông",
+          "Dấu hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều phối giao thông"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Đèn tín hiệu giao thông",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Đèn giao thông",
+          "Đèn tín hiệu"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "biển báo hiệu đường bộ",
+          "Biển báo",
+          "Bảng hiệu"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Dấu hiệu trên mặt đường",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "các dấu hiệu khác trên mặt đường",
+          "Dấu hiệu đường",
+          "Dấu hiệu giao thông"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Cọc tiêu",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Cọc chỉ dẫn",
+          "Cọc báo hiệu"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Tường bảo vệ",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Tường chắn",
+          "Tường bảo vệ giao thông"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Rào chắn",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Rào bảo vệ",
+          "Rào chắn giao thông"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Đinh phản quang",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Đinh chỉ dẫn",
+          "Đinh phản quang giao thông"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Tiêu phản quang",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Tiêu phản quang giao thông",
+          "Tiêu phản quang chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Cột Km",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Cột chỉ đường"
+        ]
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Cọc H",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Báo hiệu đường bộ",
+        "v": "Bao gồm",
+        "o": "Thiết bị âm thanh",
+        "s_keyphrases": [
+          "Biển báo giao thông",
+          "Báo hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "Gồm có",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "thiết bị âm thanh báo hiệu đường bộ",
+          "Thiết bị phát âm",
+          "Thiết bị báo hiệu âm thanh"
+        ]
+      }
     ]
   },
   {
@@ -45,10 +255,40 @@
       "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: a) Hiệu lệnh của người điều khiển giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người điều khiển giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Lệnh giao thông",
+          "Dấu hiệu giao thông"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [
+          "Lệnh giao thông",
+          "Dấu hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều phối giao thông"
+        ]
+      }
     ]
   },
   {
@@ -59,8 +299,23 @@
       "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: b) Tín hiệu đèn giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Đèn tín hiệu giao thông",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["tín hiệu đèn giao thông"]}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Đèn tín hiệu giao thông",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "tín hiệu đèn giao thông",
+          "Đèn giao thông",
+          "Đèn tín hiệu"
+        ]
+      }
     ]
   },
   {
@@ -71,8 +326,23 @@
       "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: c) Biển báo hiệu đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Biển báo hiệu",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường bộ"]}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "biển báo hiệu đường bộ",
+          "Biển báo",
+          "Bảng hiệu"
+        ]
+      }
     ]
   },
   {
@@ -83,10 +353,39 @@
       "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: d) Vạch kẻ đường và các dấu hiệu khác trên mặt đường."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Vạch kẻ đường",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Dấu hiệu trên mặt đường",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["các dấu hiệu khác trên mặt đường"]}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Dấu hiệu trên mặt đường",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "các dấu hiệu khác trên mặt đường",
+          "Dấu hiệu đường",
+          "Dấu hiệu giao thông"
+        ]
+      }
     ]
   },
   {
@@ -97,20 +396,114 @@
       "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: đ) Cọc tiêu, tường bảo vệ, rào chắn, đinh phản quang, tiêu phản quang, cột Km, cọc H."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Cọc tiêu",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Tường bảo vệ",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Rào chắn",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Đinh phản quang",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Tiêu phản quang",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Cột Km",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Cọc H",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Cọc tiêu",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Cọc chỉ dẫn",
+          "Cọc báo hiệu"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Tường bảo vệ",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Tường chắn",
+          "Tường bảo vệ giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Rào chắn",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Rào bảo vệ",
+          "Rào chắn giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Đinh phản quang",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Đinh chỉ dẫn",
+          "Đinh phản quang giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Tiêu phản quang",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Tiêu phản quang giao thông",
+          "Tiêu phản quang chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Cột Km",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Cột chỉ đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Cọc H",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -121,8 +514,23 @@
       "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: e) Thiết bị âm thanh báo hiệu đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Thiết bị âm thanh",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["thiết bị âm thanh báo hiệu đường bộ"]}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Thiết bị âm thanh",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "thiết bị âm thanh báo hiệu đường bộ",
+          "Thiết bị phát âm",
+          "Thiết bị báo hiệu âm thanh"
+        ]
+      }
     ]
   },
   {
@@ -133,10 +541,38 @@
       "Hiệu lệnh của người điều khiển giao thông được quy định như sau: a) Tay bên phải giơ thẳng đứng để báo hiệu cho người tham gia giao thông đường bộ ở tất cả các hướng phải dừng lại."
     ],
     "triplets": [
-      {"s": "Người điều khiển giao thông", "v": "Giơ thẳng đứng", "o": "Tay",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tay bên phải"]},
-      {"s": "Người", "v": "Thực hiện", "o": "Dừng lại",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người điều khiển giao thông",
+        "v": "Giơ thẳng đứng",
+        "o": "Tay",
+        "s_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều phối giao thông"
+        ],
+        "v_keyphrases": [
+          "Giơ lên thẳng",
+          "Giơ thẳng"
+        ],
+        "o_keyphrases": [
+          "tay bên phải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Dừng lại",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Dừng xe",
+          "Ngừng lại"
+        ]
+      }
     ]
   },
   {
@@ -147,20 +583,116 @@
       "Hiệu lệnh của người điều khiển giao thông được quy định như sau: b) Hai tay hoặc một tay dang ngang để báo hiệu cho người tham gia giao thông đường bộ ở phía trước và ở phía sau người điều khiển giao thông phải dừng lại; người tham gia giao thông đường bộ ở phía bên phải và bên trái người điều khiển giao thông được đi."
     ],
     "triplets": [
-      {"s": "Người điều khiển giao thông", "v": "Dang ngang", "o": "Tay",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hai tay", "một tay"]},
-      {"s": "Người", "v": "Tại", "o": "Phía trước",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Phía sau",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Dừng lại",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Bên phải",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Bên trái",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Đi",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người điều khiển giao thông",
+        "v": "Dang ngang",
+        "o": "Tay",
+        "s_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều phối giao thông"
+        ],
+        "v_keyphrases": [
+          "Giang tay",
+          "Giang rộng"
+        ],
+        "o_keyphrases": [
+          "hai tay",
+          "một tay"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Phía trước",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phía trước mặt",
+          "Phía trước xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Phía sau",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phía sau lưng",
+          "Phía sau xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Dừng lại",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Dừng xe",
+          "Ngừng lại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Bên phải",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phía bên phải",
+          "Phía phải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Bên trái",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phía bên trái",
+          "Phía trái"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Đi",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -171,26 +703,166 @@
       "Hiệu lệnh của người điều khiển giao thông được quy định như sau: c) Tay bên phải giơ về phía trước để báo hiệu cho người tham gia giao thông đường bộ ở phía sau và bên phải người điều khiển giao thông phải dừng lại; người tham gia giao thông đường bộ ở phía trước người điều khiển giao thông được rẽ phải; người tham gia giao thông đường bộ ở phía bên trái người điều khiển giao thông được đi tất cả các hướng; người đi bộ qua đường phải đi sau lưng người điều khiển giao thông."
     ],
     "triplets": [
-      {"s": "Người điều khiển giao thông", "v": "Giơ về phía trước", "o": "Tay",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tay bên phải"]},
-      {"s": "Người", "v": "Tại", "o": "Phía sau",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Bên phải",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Dừng lại",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Phía trước",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Rẽ phải", "o": "Phương tiện",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Tại", "o": "Bên trái",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Đi",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Đi qua", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người đi bộ", "v": "Tại", "o": "Phía sau",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["sau lưng"]}
+      {
+        "s": "Người điều khiển giao thông",
+        "v": "Giơ về phía trước",
+        "o": "Tay",
+        "s_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều phối giao thông"
+        ],
+        "v_keyphrases": [
+          "Giơ lên phía trước",
+          "Giơ ra trước"
+        ],
+        "o_keyphrases": [
+          "tay bên phải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Phía sau",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phía sau lưng",
+          "Phía sau xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Bên phải",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phía bên phải",
+          "Phía phải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Dừng lại",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Dừng xe",
+          "Ngừng lại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Phía trước",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phía trước mặt",
+          "Phía trước xe"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Rẽ phải",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Quẹo phải",
+          "Chuyển hướng phải"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Bên trái",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Phía bên trái",
+          "Phía trái"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Đi",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Đi qua",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Đi qua lại",
+          "Đi qua đường"
+        ],
+        "o_keyphrases": [
+          "Con đường",
+          "Đường giao thông"
+        ]
+      },
+      {
+        "s": "Người đi bộ",
+        "v": "Tại",
+        "o": "Phía sau",
+        "s_keyphrases": [
+          "Người đi bộ qua đường",
+          "Người đi bộ trên vỉa hè"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "sau lưng",
+          "Phía sau lưng",
+          "Phía sau xe"
+        ]
+      }
     ]
   }
 ]

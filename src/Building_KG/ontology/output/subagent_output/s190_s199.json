@@ -7,21 +7,123 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Hướng dẫn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Thuộc", "o": "Người điều khiển giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Thuộc", "o": "Người kiểm soát giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Thuộc", "o": "Người điều khiển giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Thuộc", "o": "Người kiểm soát giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Lệnh giao thông",
+          "Tín hiệu giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hướng dẫn",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Hướng dẫn giao thông",
+          "Chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Thuộc",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [
+          "Lệnh giao thông",
+          "Tín hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Người lái xe",
+          "Người tham gia giao thông"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Thuộc",
+        "o": "Người kiểm soát giao thông",
+        "s_keyphrases": [
+          "Lệnh giao thông",
+          "Tín hiệu giao thông"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều khiển giao thông"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Thuộc",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [
+          "Hướng dẫn giao thông",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Người lái xe",
+          "Người tham gia giao thông"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Thuộc",
+        "o": "Người kiểm soát giao thông",
+        "s_keyphrases": [
+          "Hướng dẫn giao thông",
+          "Chỉ dẫn"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều khiển giao thông"
+        ]
+      }
     ]
   },
   {
@@ -32,15 +134,78 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Nhường", "o": "Xe ưu tiên",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe được quyền ưu tiên"]},
-      {"s": "Người", "v": "Cản trở", "o": "Xe ưu tiên",
-       "s_keyphrases": [], "v_keyphrases": ["gây cản trở"], "o_keyphrases": ["xe được quyền ưu tiên"]},
-      {"s": "Xe ưu tiên", "v": "Có", "o": "Quyền ưu tiên",
-       "s_keyphrases": ["xe được quyền ưu tiên"], "v_keyphrases": ["được quyền"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Xe ưu tiên",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Nhường đường",
+          "Cho đi"
+        ],
+        "o_keyphrases": [
+          "xe được quyền ưu tiên",
+          "Xe cứu thương",
+          "Xe công vụ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Cản trở",
+        "o": "Xe ưu tiên",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "gây cản trở",
+          "Ngăn cản"
+        ],
+        "o_keyphrases": [
+          "xe được quyền ưu tiên",
+          "Xe cứu thương",
+          "Xe công vụ"
+        ]
+      },
+      {
+        "s": "Xe ưu tiên",
+        "v": "Có",
+        "o": "Quyền ưu tiên",
+        "s_keyphrases": [
+          "xe được quyền ưu tiên",
+          "Xe cứu thương",
+          "Xe công vụ"
+        ],
+        "v_keyphrases": [
+          "được quyền"
+        ],
+        "o_keyphrases": [
+          "Quyền đi trước",
+          "Quyền ưu tiên giao thông"
+        ]
+      }
     ]
   },
   {
@@ -51,11 +216,43 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe chạy quá tốc độ quy định trên 20 km/h."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Vượt quá", "o": "Tốc độ quy định",
-       "s_keyphrases": [], "v_keyphrases": ["chạy quá tốc độ quy định"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vượt quá",
+        "o": "Tốc độ quy định",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "chạy quá tốc độ quy định",
+          "Vượt",
+          "Vượt mức"
+        ],
+        "o_keyphrases": [
+          "Tốc độ cho phép",
+          "Tốc độ tối đa"
+        ]
+      }
     ]
   },
   {
@@ -66,11 +263,42 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Cồn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Cồn",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Rượu",
+          "Nồng độ cồn"
+        ]
+      }
     ]
   },
   {
@@ -81,21 +309,121 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe lạng lách, đánh võng trên đường bộ; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Lạng lách", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đánh võng", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Chân chống",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chân chống", "v": "Quệt", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Sử dụng", "o": "Vật khác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vật khác", "v": "Quệt", "o": "Đường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Lạng lách",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lạng lách đánh võng",
+          "Đi lạng"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe gắn máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đánh võng",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Đi đánh võng",
+          "Lạng lách"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe gắn máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chân chống",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Chân chống xe",
+          "Chân chống xe máy"
+        ]
+      },
+      {
+        "s": "Chân chống",
+        "v": "Quệt",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Chân chống xe",
+          "Chân chống xe máy"
+        ],
+        "v_keyphrases": [
+          "Va chạm",
+          "Chạm vào"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Vật khác",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Vật khác",
+        "v": "Quệt",
+        "o": "Đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Va chạm",
+          "Chạm vào"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường bộ"
+        ]
+      }
     ]
   },
   {
@@ -106,13 +434,60 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe thành nhóm từ 02 xe trở lên chạy quá tốc độ quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Thành nhóm", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Vượt quá", "o": "Tốc độ quy định",
-       "s_keyphrases": [], "v_keyphrases": ["chạy quá tốc độ quy định"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thành nhóm",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tập hợp",
+          "Tạo thành nhóm"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe gắn máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vượt quá",
+        "o": "Tốc độ quy định",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "chạy quá tốc độ quy định",
+          "Vượt",
+          "Vượt mức"
+        ],
+        "o_keyphrases": [
+          "Tốc độ cho phép",
+          "Tốc độ tối đa"
+        ]
+      }
     ]
   },
   {
@@ -123,23 +498,142 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô gây tai nạn giao thông không dừng ngay phương tiện, không giữ nguyên hiện trường, không trợ giúp người bị nạn, không ở lại hiện trường hoặc không đến trình báo ngay với cơ quan công an, Ủy ban nhân dân nơi gần nhất."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Gây", "o": "Tai nạn giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dừng", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
-      {"s": "Người", "v": "Giữ nguyên", "o": "Hiện trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trợ giúp", "o": "Người bị nạn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Ở lại", "o": "Hiện trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trình báo", "o": "Cơ quan công an",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Trình báo", "o": "Ủy ban nhân dân",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Gây",
+        "o": "Tai nạn giao thông",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Gây ra",
+          "Tạo ra"
+        ],
+        "o_keyphrases": [
+          "Tai nạn",
+          "Sự cố giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Dừng lại",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe máy",
+          "Xe gắn máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Giữ nguyên",
+        "o": "Hiện trường",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Giữ nguyên vị trí",
+          "Không thay đổi"
+        ],
+        "o_keyphrases": [
+          "Hiện trường vụ tai nạn",
+          "Nơi xảy ra sự cố"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trợ giúp",
+        "o": "Người bị nạn",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Giúp đỡ",
+          "Hỗ trợ"
+        ],
+        "o_keyphrases": [
+          "Nạn nhân",
+          "Người bị thương"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Ở lại",
+        "o": "Hiện trường",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Hiện trường vụ tai nạn",
+          "Nơi xảy ra sự cố"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trình báo",
+        "o": "Cơ quan công an",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Báo cáo",
+          "Thông báo"
+        ],
+        "o_keyphrases": [
+          "Công an",
+          "Lực lượng công an"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Trình báo",
+        "o": "Ủy ban nhân dân",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Báo cáo",
+          "Thông báo"
+        ],
+        "o_keyphrases": [
+          "UBND",
+          "Cơ quan nhà nước"
+        ]
+      }
     ]
   },
   {
@@ -150,11 +644,42 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Cồn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Cồn",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Rượu",
+          "Nồng độ cồn"
+        ]
+      }
     ]
   },
   {
@@ -165,13 +690,59 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Chấp hành", "o": "Kiểm tra nồng độ cồn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["yêu cầu kiểm tra về nồng độ cồn"]},
-      {"s": "Kiểm tra nồng độ cồn", "v": "Thuộc", "o": "Người thi hành công vụ",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Kiểm tra nồng độ cồn",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "yêu cầu kiểm tra về nồng độ cồn",
+          "Kiểm tra nồng độ cồn trong máu",
+          "Kiểm tra nồng độ cồn lái xe"
+        ]
+      },
+      {
+        "s": "Kiểm tra nồng độ cồn",
+        "v": "Thuộc",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [
+          "Kiểm tra nồng độ cồn trong máu",
+          "Kiểm tra nồng độ cồn lái xe"
+        ],
+        "v_keyphrases": [
+          "của"
+        ],
+        "o_keyphrases": [
+          "Cán bộ thi hành công vụ",
+          "Người thực thi công vụ"
+        ]
+      }
     ]
   },
   {
@@ -182,13 +753,60 @@
       "Người điều khiển xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô điều khiển xe trên đường mà trong cơ thể có chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["xe mô tô", "xe gắn máy", "các loại xe tương tự xe mô tô"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Ma túy",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chất ma túy"]},
-      {"s": "Người", "v": "Sử dụng", "o": "Chất kích thích",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chất kích thích khác"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe mô tô",
+          "xe gắn máy",
+          "các loại xe tương tự xe mô tô",
+          "Xe máy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Ma túy",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "chất ma túy",
+          "Chất gây nghiện"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chất kích thích",
+        "s_keyphrases": [
+          "Người tham gia giao thông",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "chất kích thích khác",
+          "Chất gây nghiện",
+          "Chất gây say"
+        ]
+      }
     ]
   }
 ]

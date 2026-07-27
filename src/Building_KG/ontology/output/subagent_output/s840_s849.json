@@ -7,10 +7,34 @@
       "Trung tâm sát hạch lái xe sử dụng máy tính trong phòng sát hạch lý thuyết kết nối với đường truyền ra ngoài phòng thi trái quy định."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Sử dụng", "o": "Máy tính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Máy tính", "v": "Kết nối", "o": "Đường truyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Sử dụng",
+        "o": "Máy tính",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Trung tâm sát hạch"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Máy tính",
+        "v": "Kết nối",
+        "o": "Đường truyền",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Liên kết",
+          "Gắn bó"
+        ],
+        "o_keyphrases": [
+          "Kênh truyền",
+          "Đường dẫn"
+        ]
+      }
     ]
   },
   {
@@ -21,18 +45,110 @@
       "Trung tâm sát hạch lái xe cố tình để phương tiện, trang thiết bị chấm điểm hoạt động không chính xác trong kỳ sát hạch; để các dấu hiệu, ký hiệu trái quy định trên sân sát hạch, xe sát hạch trong kỳ sát hạch."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Để", "o": "Trang thiết bị chấm điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện chấm điểm"]},
-      {"s": "Trang thiết bị chấm điểm", "v": "Thực hiện", "o": "Hoạt động không chính xác",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Để", "o": "Dấu hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["ký hiệu"]},
-      {"s": "Dấu hiệu", "v": "Là", "o": "Trái quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dấu hiệu", "v": "Tại", "o": "Sân sát hạch",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dấu hiệu", "v": "Tại", "o": "Xe sát hạch",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Để",
+        "o": "Trang thiết bị chấm điểm",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Trung tâm sát hạch"
+        ],
+        "v_keyphrases": [
+          "Nhằm",
+          "Để cho"
+        ],
+        "o_keyphrases": [
+          "phương tiện chấm điểm",
+          "Thiết bị đánh giá",
+          "Dụng cụ chấm điểm"
+        ]
+      },
+      {
+        "s": "Trang thiết bị chấm điểm",
+        "v": "Thực hiện",
+        "o": "Hoạt động không chính xác",
+        "s_keyphrases": [
+          "Thiết bị đánh giá",
+          "Dụng cụ chấm điểm"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động sai",
+          "Hoạt động sai lệch"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Để",
+        "o": "Dấu hiệu",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Trung tâm sát hạch"
+        ],
+        "v_keyphrases": [
+          "Nhằm",
+          "Để cho"
+        ],
+        "o_keyphrases": [
+          "ký hiệu",
+          "Biểu hiện",
+          "Chỉ số"
+        ]
+      },
+      {
+        "s": "Dấu hiệu",
+        "v": "Là",
+        "o": "Trái quy định",
+        "s_keyphrases": [
+          "Biểu hiện",
+          "Chỉ số"
+        ],
+        "v_keyphrases": [
+          "Thì",
+          "Được xem là"
+        ],
+        "o_keyphrases": [
+          "Vi phạm quy định",
+          "Không đúng quy định"
+        ]
+      },
+      {
+        "s": "Dấu hiệu",
+        "v": "Tại",
+        "o": "Sân sát hạch",
+        "s_keyphrases": [
+          "Biểu hiện",
+          "Chỉ số"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại chỗ"
+        ],
+        "o_keyphrases": [
+          "Sân kiểm tra",
+          "Sân thi"
+        ]
+      },
+      {
+        "s": "Dấu hiệu",
+        "v": "Tại",
+        "o": "Xe sát hạch",
+        "s_keyphrases": [
+          "Biểu hiện",
+          "Chỉ số"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại chỗ"
+        ],
+        "o_keyphrases": [
+          "Xe kiểm tra",
+          "Xe thi"
+        ]
+      }
     ]
   },
   {
@@ -43,10 +159,42 @@
       "Giáo viên dạy thực hành để học viên thực hành lái xe thực hiện hành vi vi phạm quy định tại Điều 6 của Nghị định này."
     ],
     "triplets": [
-      {"s": "Giáo viên dạy lái xe", "v": "Để cho", "o": "Học viên",
-       "s_keyphrases": ["giáo viên dạy thực hành"], "v_keyphrases": [], "o_keyphrases": ["học viên thực hành lái xe"]},
-      {"s": "Học viên", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giáo viên dạy lái xe",
+        "v": "Để cho",
+        "o": "Học viên",
+        "s_keyphrases": [
+          "giáo viên dạy thực hành",
+          "Giảng viên lái xe",
+          "Người hướng dẫn lái xe"
+        ],
+        "v_keyphrases": [
+          "Cho phép",
+          "Để nhằm"
+        ],
+        "o_keyphrases": [
+          "học viên thực hành lái xe",
+          "Người học",
+          "Sinh viên"
+        ]
+      },
+      {
+        "s": "Học viên",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người học",
+          "Sinh viên"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vi phạm",
+          "Hành động trái phép"
+        ]
+      }
     ]
   },
   {
@@ -57,8 +205,23 @@
       "Cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e khoản 3; điểm a, điểm b, điểm d, điểm đ, điểm e, điểm g khoản 4 Điều này."
     ],
     "triplets": [
-      {"s": "Cá nhân, tổ chức", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân, tổ chức",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người và tổ chức",
+          "Chủ thể"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vi phạm",
+          "Hành động trái phép"
+        ]
+      }
     ]
   },
   {
@@ -69,8 +232,23 @@
       "Cơ sở đào tạo lái xe thực hiện hành vi quy định tại điểm c khoản 4; điểm a, điểm b, điểm c, điểm d khoản 5."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vi phạm",
+          "Hành động trái phép"
+        ]
+      }
     ]
   },
   {
@@ -81,8 +259,23 @@
       "Trung tâm sát hạch lái xe thực hiện hành vi quy định tại điểm h khoản 3; điểm i, điểm k khoản 4; điểm đ, điểm e, điểm g, điểm h, điểm i khoản 5."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Trung tâm sát hạch"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vi phạm",
+          "Hành động trái phép"
+        ]
+      }
     ]
   },
   {
@@ -93,8 +286,23 @@
       "Trung tâm sát hạch lái xe thực hiện hành vi quy định tại điểm k khoản 5, khoản 7."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Trung tâm sát hạch"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vi phạm",
+          "Hành động trái phép"
+        ]
+      }
     ]
   },
   {
@@ -105,8 +313,23 @@
       "Cá nhân thực hiện hành vi vi phạm quy định tại điểm i khoản 3 Điều này."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vi phạm",
+          "Hành động trái phép"
+        ]
+      }
     ]
   },
   {
@@ -117,20 +340,127 @@
       "Cá nhân không tuân thủ đúng quy định tại các quy trình, quy chuẩn kỹ thuật có liên quan trong chứng nhận, kiểm định xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Tuân thủ", "o": "Quy trình",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Tuân thủ", "o": "Quy chuẩn kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy trình", "v": "Liên quan", "o": "Kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng nhận"]},
-      {"s": "Quy chuẩn kỹ thuật", "v": "Liên quan", "o": "Kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng nhận"]},
-      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kiểm định", "v": "Liên quan", "o": "Phụ tùng xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Tuân thủ",
+        "o": "Quy trình",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Theo đúng"
+        ],
+        "o_keyphrases": [
+          "Thủ tục",
+          "Quy trình làm việc"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Tuân thủ",
+        "o": "Quy chuẩn kỹ thuật",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Chấp hành",
+          "Theo đúng"
+        ],
+        "o_keyphrases": [
+          "Tiêu chuẩn kỹ thuật",
+          "Quy định kỹ thuật"
+        ]
+      },
+      {
+        "s": "Quy trình",
+        "v": "Liên quan",
+        "o": "Kiểm định",
+        "s_keyphrases": [
+          "Thủ tục",
+          "Quy trình làm việc"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "chứng nhận",
+          "Kiểm tra",
+          "Đánh giá"
+        ]
+      },
+      {
+        "s": "Quy chuẩn kỹ thuật",
+        "v": "Liên quan",
+        "o": "Kiểm định",
+        "s_keyphrases": [
+          "Tiêu chuẩn kỹ thuật",
+          "Quy định kỹ thuật"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "chứng nhận",
+          "Kiểm tra",
+          "Đánh giá"
+        ]
+      },
+      {
+        "s": "Kiểm định",
+        "v": "Liên quan",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Phương tiện cơ giới",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Kiểm định",
+        "v": "Liên quan",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Kiểm định",
+        "v": "Liên quan",
+        "o": "Phụ tùng xe cơ giới",
+        "s_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Phụ kiện xe",
+          "Bộ phận xe"
+        ]
+      }
     ]
   },
   {
@@ -141,20 +471,127 @@
       "Cá nhân không thực hiện đúng chức trách, nhiệm vụ được phân công trong chứng nhận, kiểm định xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Chức trách",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Nhiệm vụ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chức trách", "v": "Liên quan", "o": "Kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng nhận"]},
-      {"s": "Nhiệm vụ", "v": "Liên quan", "o": "Kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chứng nhận"]},
-      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kiểm định", "v": "Liên quan", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Kiểm định", "v": "Liên quan", "o": "Phụ tùng xe cơ giới",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Chức trách",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Nhiệm vụ",
+          "Trách nhiệm"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Nhiệm vụ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Công việc",
+          "Trách nhiệm"
+        ]
+      },
+      {
+        "s": "Chức trách",
+        "v": "Liên quan",
+        "o": "Kiểm định",
+        "s_keyphrases": [
+          "Nhiệm vụ",
+          "Trách nhiệm"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "chứng nhận",
+          "Kiểm tra",
+          "Đánh giá"
+        ]
+      },
+      {
+        "s": "Nhiệm vụ",
+        "v": "Liên quan",
+        "o": "Kiểm định",
+        "s_keyphrases": [
+          "Công việc",
+          "Trách nhiệm"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "chứng nhận",
+          "Kiểm tra",
+          "Đánh giá"
+        ]
+      },
+      {
+        "s": "Kiểm định",
+        "v": "Liên quan",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Phương tiện cơ giới",
+          "Xe ô tô"
+        ]
+      },
+      {
+        "s": "Kiểm định",
+        "v": "Liên quan",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      },
+      {
+        "s": "Kiểm định",
+        "v": "Liên quan",
+        "o": "Phụ tùng xe cơ giới",
+        "s_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Phụ kiện xe",
+          "Bộ phận xe"
+        ]
+      }
     ]
   }
 ]

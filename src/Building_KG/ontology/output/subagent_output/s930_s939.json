@@ -11,9 +11,17 @@
         "s": "Giám đốc Công an cấp tỉnh",
         "v": "Phạt",
         "o": "Cảnh cáo",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
       }
     ]
   },
@@ -29,9 +37,17 @@
         "s": "Giám đốc Công an cấp tỉnh",
         "v": "Phạt",
         "o": "Phạt tiền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đưa ra hình phạt tiền"
+        ]
       }
     ]
   },
@@ -47,41 +63,83 @@
         "s": "Giám đốc Công an cấp tỉnh",
         "v": "Tước",
         "o": "Giấy phép",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy phép lái xe"
+        ]
       },
       {
         "s": "Giám đốc Công an cấp tỉnh",
         "v": "Tước",
         "o": "Chứng chỉ hành nghề",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Giấy phép hành nghề"
+        ]
       },
       {
         "s": "Giám đốc Công an cấp tỉnh",
         "v": "Đình chỉ",
         "o": "Hoạt động",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Tạm dừng"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Hoạt động giao thông"
+        ]
       },
       {
         "s": "Giấy phép",
         "v": "Tước",
         "o": "Quyền sử dụng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy phép lái xe"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng tài sản"
+        ]
       },
       {
         "s": "Chứng chỉ hành nghề",
         "v": "Tước",
         "o": "Quyền sử dụng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Giấy phép hành nghề"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng tài sản"
+        ]
       }
     ]
   },
@@ -97,20 +155,34 @@
         "s": "Giám đốc Công an cấp tỉnh",
         "v": "Tịch thu",
         "o": "Tang vật vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
         "o_keyphrases": [
-          "tang vật được sử dụng để vi phạm hành chính"
+          "tang vật được sử dụng để vi phạm hành chính",
+          "Tang vật vi phạm",
+          "Tài sản vi phạm"
         ]
       },
       {
         "s": "Giám đốc Công an cấp tỉnh",
         "v": "Tịch thu",
         "o": "Phương tiện vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
         "o_keyphrases": [
-          "phương tiện được sử dụng để vi phạm hành chính"
+          "phương tiện được sử dụng để vi phạm hành chính",
+          "Phương tiện vi phạm",
+          "Phương tiện giao thông vi phạm"
         ]
       }
     ]
@@ -127,9 +199,17 @@
         "s": "Giám đốc Công an cấp tỉnh",
         "v": "Áp dụng",
         "o": "Biện pháp khắc phục hậu quả",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Công an tỉnh"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Biện pháp remedial"
+        ]
       }
     ]
   },
@@ -145,25 +225,49 @@
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Phạt",
         "o": "Cảnh cáo",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục CSGT"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
         "v": "Phạt",
         "o": "Cảnh cáo",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục QLHC về TTXH"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
       },
       {
         "s": "Tư lệnh Cảnh sát cơ động",
         "v": "Phạt",
         "o": "Cảnh cáo",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Tư lệnh CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
       }
     ]
   },
@@ -179,25 +283,49 @@
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Phạt",
         "o": "Phạt tiền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục CSGT"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đưa ra hình phạt tiền"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
         "v": "Phạt",
         "o": "Phạt tiền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục QLHC về TTXH"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đưa ra hình phạt tiền"
+        ]
       },
       {
         "s": "Tư lệnh Cảnh sát cơ động",
         "v": "Phạt",
         "o": "Phạt tiền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Tư lệnh CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Đưa ra hình phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt tiền",
+          "Đưa ra hình phạt tiền"
+        ]
       }
     ]
   },
@@ -213,89 +341,179 @@
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Tước",
         "o": "Giấy phép",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục CSGT"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy phép lái xe"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
         "v": "Tước",
         "o": "Giấy phép",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục QLHC về TTXH"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy phép lái xe"
+        ]
       },
       {
         "s": "Tư lệnh Cảnh sát cơ động",
         "v": "Tước",
         "o": "Giấy phép",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Tư lệnh CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy phép lái xe"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Tước",
         "o": "Chứng chỉ hành nghề",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục CSGT"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Giấy phép hành nghề"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
         "v": "Tước",
         "o": "Chứng chỉ hành nghề",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục QLHC về TTXH"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Giấy phép hành nghề"
+        ]
       },
       {
         "s": "Tư lệnh Cảnh sát cơ động",
         "v": "Tước",
         "o": "Chứng chỉ hành nghề",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Tư lệnh CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Giấy phép hành nghề"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Đình chỉ",
         "o": "Hoạt động",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục CSGT"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Tạm dừng"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Hoạt động giao thông"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
         "v": "Đình chỉ",
         "o": "Hoạt động",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục QLHC về TTXH"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Tạm dừng"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Hoạt động giao thông"
+        ]
       },
       {
         "s": "Tư lệnh Cảnh sát cơ động",
         "v": "Đình chỉ",
         "o": "Hoạt động",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Tư lệnh CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Tạm dừng"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Hoạt động giao thông"
+        ]
       },
       {
         "s": "Giấy phép",
         "v": "Tước",
         "o": "Quyền sử dụng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy phép lái xe"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng tài sản"
+        ]
       },
       {
         "s": "Chứng chỉ hành nghề",
         "v": "Tước",
         "o": "Quyền sử dụng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Giấy phép hành nghề"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Tước giấy phép"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng tài sản"
+        ]
       }
     ]
   },
@@ -311,60 +529,102 @@
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Tịch thu",
         "o": "Tang vật vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Giám đốc Cục CSGT"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
         "o_keyphrases": [
-          "tang vật được sử dụng để vi phạm hành chính"
+          "tang vật được sử dụng để vi phạm hành chính",
+          "Tang vật vi phạm",
+          "Tài sản vi phạm"
         ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Tịch thu",
         "o": "Phương tiện vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Giám đốc Cục CSGT"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
         "o_keyphrases": [
-          "phương tiện được sử dụng để vi phạm hành chính"
+          "phương tiện được sử dụng để vi phạm hành chính",
+          "Phương tiện vi phạm",
+          "Phương tiện giao thông vi phạm"
         ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
         "v": "Tịch thu",
         "o": "Tang vật vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Giám đốc Cục QLHC về TTXH"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
         "o_keyphrases": [
-          "tang vật được sử dụng để vi phạm hành chính"
+          "tang vật được sử dụng để vi phạm hành chính",
+          "Tang vật vi phạm",
+          "Tài sản vi phạm"
         ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
         "v": "Tịch thu",
         "o": "Phương tiện vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Giám đốc Cục QLHC về TTXH"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
         "o_keyphrases": [
-          "phương tiện được sử dụng để vi phạm hành chính"
+          "phương tiện được sử dụng để vi phạm hành chính",
+          "Phương tiện vi phạm",
+          "Phương tiện giao thông vi phạm"
         ]
       },
       {
         "s": "Tư lệnh Cảnh sát cơ động",
         "v": "Tịch thu",
         "o": "Tang vật vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Tư lệnh CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
         "o_keyphrases": [
-          "tang vật được sử dụng để vi phạm hành chính"
+          "tang vật được sử dụng để vi phạm hành chính",
+          "Tang vật vi phạm",
+          "Tài sản vi phạm"
         ]
       },
       {
         "s": "Tư lệnh Cảnh sát cơ động",
         "v": "Tịch thu",
         "o": "Phương tiện vi phạm hành chính",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Tư lệnh CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch thu tang vật"
+        ],
         "o_keyphrases": [
-          "phương tiện được sử dụng để vi phạm hành chính"
+          "phương tiện được sử dụng để vi phạm hành chính",
+          "Phương tiện vi phạm",
+          "Phương tiện giao thông vi phạm"
         ]
       }
     ]
@@ -381,25 +641,49 @@
         "s": "Cục trưởng Cục Cảnh sát giao thông",
         "v": "Áp dụng",
         "o": "Biện pháp khắc phục hậu quả",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục CSGT"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Biện pháp remedial"
+        ]
       },
       {
         "s": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội",
         "v": "Áp dụng",
         "o": "Biện pháp khắc phục hậu quả",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Giám đốc Cục QLHC về TTXH"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Biện pháp remedial"
+        ]
       },
       {
         "s": "Tư lệnh Cảnh sát cơ động",
         "v": "Áp dụng",
         "o": "Biện pháp khắc phục hậu quả",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Tư lệnh CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Biện pháp remedial"
+        ]
       }
     ]
   }

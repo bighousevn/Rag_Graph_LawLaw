@@ -7,10 +7,40 @@
       "Buộc đưa phương tiện quay trở lại Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế."
     ],
     "triplets": [
-      {"s": "Phương tiện", "v": "Quay trở lại", "o": "Khu kinh tế thương mại đặc biệt",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Quay trở lại", "o": "Khu kinh tế cửa khẩu quốc tế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Phương tiện",
+        "v": "Quay trở lại",
+        "o": "Khu kinh tế thương mại đặc biệt",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Trở về",
+          "Quay lại"
+        ],
+        "o_keyphrases": [
+          "Khu thương mại đặc biệt",
+          "Khu kinh tế đặc biệt"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Quay trở lại",
+        "o": "Khu kinh tế cửa khẩu quốc tế",
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Trở về",
+          "Quay lại"
+        ],
+        "o_keyphrases": [
+          "Khu kinh tế cửa khẩu",
+          "Khu kinh tế quốc tế"
+        ]
+      }
     ]
   },
   {
@@ -21,36 +51,262 @@
       "Cá nhân, tổ chức vi phạm có trách nhiệm thi hành biện pháp khắc phục hậu quả buộc nộp lại giấy phép, chứng chỉ hành nghề bị tẩy xóa, sửa chữa làm sai lệch nội dung, bao gồm giấy phép lái xe, chứng nhận đăng ký xe, bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của phương tiện bị tẩy xóa, sửa chữa làm sai lệch nội dung."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Nộp lại", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["giấy phép lái xe"]},
-      {"s": "Tổ chức", "v": "Nộp lại", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["giấy phép lái xe"]},
-      {"s": "Cá nhân", "v": "Nộp lại", "o": "Chứng chỉ hành nghề",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Nộp lại", "o": "Chứng chỉ hành nghề",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Nộp lại", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Nộp lại", "o": "Chứng nhận đăng ký xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Nộp lại", "o": "Giấy chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Nộp lại", "o": "Giấy chứng nhận",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Nộp lại", "o": "Tem kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"]},
-      {"s": "Tổ chức", "v": "Nộp lại", "o": "Tem kiểm định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"]},
-      {"s": "Giấy phép", "v": "Làm sai lệch", "o": "Nội dung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Làm sai lệch", "o": "Nội dung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng nhận đăng ký xe", "v": "Làm sai lệch", "o": "Nội dung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy chứng nhận", "v": "Làm sai lệch", "o": "Nội dung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tem kiểm định", "v": "Làm sai lệch", "o": "Nội dung",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Nộp lại",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "giấy phép lái xe",
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Nộp lại",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "giấy phép lái xe",
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Nộp lại",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Nộp lại",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Nộp lại",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đăng ký xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Nộp lại",
+        "o": "Chứng nhận đăng ký xe",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đăng ký xe"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Nộp lại",
+        "o": "Giấy chứng nhận",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Giấy xác nhận",
+          "Giấy tờ chứng nhận"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Nộp lại",
+        "o": "Giấy chứng nhận",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "Giấy xác nhận",
+          "Giấy tờ chứng nhận"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Nộp lại",
+        "o": "Tem kiểm định",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+          "Tem kiểm tra",
+          "Tem xác nhận"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Nộp lại",
+        "o": "Tem kiểm định",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Trả lại",
+          "Gửi lại"
+        ],
+        "o_keyphrases": [
+          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+          "Tem kiểm tra",
+          "Tem xác nhận"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Làm sai lệch",
+        "o": "Nội dung",
+        "s_keyphrases": [
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Chi tiết"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Làm sai lệch",
+        "o": "Nội dung",
+        "s_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Chi tiết"
+        ]
+      },
+      {
+        "s": "Chứng nhận đăng ký xe",
+        "v": "Làm sai lệch",
+        "o": "Nội dung",
+        "s_keyphrases": [
+          "Giấy chứng nhận đăng ký xe"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Chi tiết"
+        ]
+      },
+      {
+        "s": "Giấy chứng nhận",
+        "v": "Làm sai lệch",
+        "o": "Nội dung",
+        "s_keyphrases": [
+          "Giấy xác nhận",
+          "Giấy tờ chứng nhận"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Chi tiết"
+        ]
+      },
+      {
+        "s": "Tem kiểm định",
+        "v": "Làm sai lệch",
+        "o": "Nội dung",
+        "s_keyphrases": [
+          "Tem kiểm tra",
+          "Tem xác nhận"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Chi tiết"
+        ]
+      }
     ]
   },
   {
@@ -61,20 +317,125 @@
       "Đối với giấy phép, chứng chỉ hành nghề đã hết giá trị sử dụng hoặc không do cơ quan có thẩm quyền cấp, người có thẩm quyền tạm giữ phải tiến hành thu hồi theo quy định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Thu hồi", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Thu hồi", "o": "Chứng chỉ hành nghề",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Hết", "o": "Giá trị sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Cấp", "o": "Cơ quan có thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thu hồi",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": [
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thu hồi",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Lấy lại",
+          "Rút lại"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Thời hạn sử dụng",
+          "Giá trị hiệu lực"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Hết",
+        "o": "Giá trị sử dụng",
+        "s_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Thời hạn sử dụng",
+          "Giá trị hiệu lực"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Cấp",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ],
+        "v_keyphrases": [
+          "Phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan chức năng"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Cấp",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ],
+        "v_keyphrases": [
+          "Phát",
+          "Cung ứng"
+        ],
+        "o_keyphrases": [
+          "Cơ quan nhà nước",
+          "Cơ quan chức năng"
+        ]
+      }
     ]
   },
   {
@@ -94,12 +455,61 @@
       "Thời hạn sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tổ chức cung cấp để xác định cá nhân, tổ chức vi phạm được tính từ thời điểm phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật của cá nhân, tổ chức ghi nhận được kết quả cho đến hết ngày cuối cùng của thời hiệu xử phạt vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Cung cấp", "o": "Thiết bị kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thiết bị kỹ thuật nghiệp vụ", "phương tiện"]},
-      {"s": "Tổ chức", "v": "Cung cấp", "o": "Thiết bị kỹ thuật",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thiết bị kỹ thuật nghiệp vụ", "phương tiện"]},
-      {"s": "Thiết bị kỹ thuật", "v": "Ghi nhận", "o": "Kết quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Cung cấp",
+        "o": "Thiết bị kỹ thuật",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Trao"
+        ],
+        "o_keyphrases": [
+          "thiết bị kỹ thuật nghiệp vụ",
+          "phương tiện",
+          "Thiết bị công nghệ",
+          "Dụng cụ kỹ thuật"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Cung cấp",
+        "o": "Thiết bị kỹ thuật",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Cấp phát",
+          "Trao"
+        ],
+        "o_keyphrases": [
+          "thiết bị kỹ thuật nghiệp vụ",
+          "phương tiện",
+          "Thiết bị công nghệ",
+          "Dụng cụ kỹ thuật"
+        ]
+      },
+      {
+        "s": "Thiết bị kỹ thuật",
+        "v": "Ghi nhận",
+        "o": "Kết quả",
+        "s_keyphrases": [
+          "Thiết bị công nghệ",
+          "Dụng cụ kỹ thuật"
+        ],
+        "v_keyphrases": [
+          "Ghi chép",
+          "Đăng ký"
+        ],
+        "o_keyphrases": [
+          "Thành quả",
+          "Kết luận"
+        ]
+      }
     ]
   },
   {
@@ -119,10 +529,43 @@
       "Đối với các hành vi vi phạm được phát hiện thông qua phương tiện, thiết bị kỹ thuật nghiệp vụ, thời điểm chấm dứt hành vi vi phạm được tính từ thời điểm phương tiện, thiết bị kỹ thuật ghi nhận hành vi vi phạm."
     ],
     "triplets": [
-      {"s": "Phương tiện", "v": "Phát hiện", "o": "Hành vi vi phạm",
-       "s_keyphrases": ["thiết bị kỹ thuật nghiệp vụ", "thiết bị kỹ thuật"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện", "v": "Ghi nhận", "o": "Hành vi vi phạm",
-       "s_keyphrases": ["thiết bị kỹ thuật"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Phương tiện",
+        "v": "Phát hiện",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "thiết bị kỹ thuật nghiệp vụ",
+          "thiết bị kỹ thuật",
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Nhận diện",
+          "Khám phá"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Ghi nhận",
+        "o": "Hành vi vi phạm",
+        "s_keyphrases": [
+          "thiết bị kỹ thuật",
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Ghi chép",
+          "Đăng ký"
+        ],
+        "o_keyphrases": [
+          "Hành động vi phạm",
+          "Hành vi sai trái"
+        ]
+      }
     ]
   },
   {
@@ -133,16 +576,91 @@
       "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm phù hiệu cấp cho xe ô tô tham gia kinh doanh vận tải."
     ],
     "triplets": [
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phù hiệu", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phù hiệu", "v": "Cấp cho", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Ô tô", "v": "Tham gia", "o": "Kinh doanh vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Phù hiệu",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Biển hiệu",
+          "Dấu hiệu"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Phù hiệu",
+        "v": "Cấp cho",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Biển hiệu",
+          "Dấu hiệu"
+        ],
+        "v_keyphrases": [
+          "Trao cho",
+          "Phát cho"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Xe hơi"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Tham gia",
+        "o": "Kinh doanh vận tải",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe hơi"
+        ],
+        "v_keyphrases": [
+          "Góp mặt",
+          "Tham dự"
+        ],
+        "o_keyphrases": [
+          "Hoạt động vận tải",
+          "Dịch vụ vận tải"
+        ]
+      }
     ]
   },
   {
@@ -153,14 +671,75 @@
       "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường."
     ],
     "triplets": [
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy chứng nhận", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tem kiểm định", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": ["tem kiểm định an toàn kỹ thuật và bảo vệ môi trường"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Giấy chứng nhận",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy xác nhận",
+          "Giấy tờ chứng nhận"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Tem kiểm định",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+          "Tem kiểm tra",
+          "Tem xác nhận"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      }
     ]
   },
   {
@@ -171,12 +750,56 @@
       "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy phép đào tạo lái xe."
     ],
     "triplets": [
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép đào tạo lái xe", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy cho phép",
+          "Giấy cấp phép"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép hành nghề",
+          "Chứng chỉ nghề"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Giấy phép đào tạo lái xe",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép dạy lái xe"
+        ],
+        "v_keyphrases": [
+          "Lấy đi",
+          "Tước bỏ"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      }
     ]
   }
 ]

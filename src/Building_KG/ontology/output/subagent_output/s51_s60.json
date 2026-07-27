@@ -7,8 +7,21 @@
       "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy phép sát hạch."
     ],
     "triplets": [
-      {"s": "Giấy phép sát hạch", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy phép sát hạch",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép kiểm tra"
+        ],
+        "v_keyphrases": [
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng đất"
+        ]
+      }
     ]
   },
   {
@@ -19,8 +32,21 @@
       "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới."
     ],
     "triplets": [
-      {"s": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy chứng nhận kiểm định"
+        ],
+        "v_keyphrases": [
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng đất"
+        ]
+      }
     ]
   },
   {
@@ -31,8 +57,21 @@
       "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm chứng chỉ đăng kiểm viên."
     ],
     "triplets": [
-      {"s": "Chứng chỉ đăng kiểm viên", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chứng chỉ đăng kiểm viên",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Chứng chỉ kiểm định viên"
+        ],
+        "v_keyphrases": [
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng đất"
+        ]
+      }
     ]
   },
   {
@@ -43,9 +82,23 @@
       "Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn gồm giấy phép lái xe quốc gia, giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp."
     ],
     "triplets": [
-      {"s": "Giấy phép lái xe", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": ["giấy phép lái xe quốc gia", "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp"],
-       "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "giấy phép lái xe quốc gia",
+          "giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp",
+          "Bằng lái xe"
+        ],
+        "v_keyphrases": [
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng đất"
+        ]
+      }
     ]
   },
   {
@@ -65,12 +118,53 @@
       "Trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền xử phạt đã tạm giữ được giấy phép, chứng chỉ hành nghề của cá nhân, tổ chức vi phạm thì thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép, chứng chỉ hành nghề là thời điểm quyết định xử phạt vi phạm hành chính có hiệu lực thi hành."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền xử phạt", "v": "Tạm giữ", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Dành cho", "o": "Cá nhân",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Dành cho", "o": "Tổ chức",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Tạm giữ",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Dành cho",
+        "o": "Cá nhân",
+        "s_keyphrases": [
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Người",
+          "Cá thể"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Dành cho",
+        "o": "Tổ chức",
+        "s_keyphrases": [
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ]
+      }
     ]
   },
   {
@@ -81,12 +175,53 @@
       "Trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền xử phạt chưa tạm giữ được giấy phép, chứng chỉ hành nghề của cá nhân, tổ chức vi phạm thì người có thẩm quyền xử phạt vẫn ra quyết định xử phạt vi phạm hành chính theo quy định đối với hành vi vi phạm."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền xử phạt", "v": "Tạm giữ", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Dành cho", "o": "Cá nhân",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Dành cho", "o": "Tổ chức",
-       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Tạm giữ",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Dành cho",
+        "o": "Cá nhân",
+        "s_keyphrases": [
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Người",
+          "Cá thể"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Dành cho",
+        "o": "Tổ chức",
+        "s_keyphrases": [
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho"
+        ],
+        "o_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ]
+      }
     ]
   },
   {
@@ -97,16 +232,83 @@
       "Khi giữ và trả lại giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng, người có thẩm quyền xử phạt phải lập biên bản và lưu hồ sơ xử phạt vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền xử phạt", "v": "Giữ", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền xử phạt", "v": "Trả lại", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền xử phạt", "v": "Lập", "o": "Biên bản",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền xử phạt", "v": "Lưu", "o": "Hồ sơ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Giữ",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Trả lại",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Hoàn trả"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng đất"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Lập",
+        "o": "Biên bản",
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Soạn thảo"
+        ],
+        "o_keyphrases": [
+          "Biên bản ghi chép",
+          "Biên bản làm việc"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Lưu",
+        "o": "Hồ sơ",
+        "s_keyphrases": [
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Lưu trữ"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Bộ hồ sơ"
+        ]
+      }
     ]
   },
   {
@@ -117,18 +319,91 @@
       "Trong thời gian bị tước quyền sử dụng giấy phép, chứng chỉ hành nghề, nếu cá nhân, tổ chức vẫn tiến hành các hoạt động ghi trong giấy phép, chứng chỉ hành nghề thì bị xử phạt như hành vi không có giấy phép, chứng chỉ hành nghề."
     ],
     "triplets": [
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Tiến hành", "o": "Hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Tiến hành", "o": "Hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hoạt động", "v": "Ghi trong", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Có", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Có", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng đất"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Tiến hành",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Thực hiện"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tiến hành",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thực hiện"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hoạt động",
+        "v": "Ghi trong",
+        "o": "Giấy phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Ghi chép trong"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Có",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hoạt động"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Có",
+        "o": "Giấy phép",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Giấy phép hoạt động"
+        ]
+      }
     ]
   },
   {
@@ -139,8 +414,21 @@
       "Trường hợp cá nhân, tổ chức vi phạm hành chính bị áp dụng hình thức xử phạt tước quyền sử dụng giấy phép, chứng chỉ hành nghề nhưng thời hạn sử dụng còn lại của giấy phép, chứng chỉ hành nghề đó ít hơn thời hạn bị tước thì người có thẩm quyền vẫn ra quyết định xử phạt có áp dụng hình thức tước quyền sử dụng giấy phép, chứng chỉ hành nghề theo quy định đối với hành vi vi phạm."
     ],
     "triplets": [
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng đất"
+        ]
+      }
     ]
   }
 ]

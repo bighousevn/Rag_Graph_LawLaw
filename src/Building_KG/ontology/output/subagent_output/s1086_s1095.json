@@ -34,12 +34,61 @@
       "Phương tiện giao thông đường bộ là các loại xe, bao gồm: phương tiện giao thông cơ giới đường bộ, phương tiện giao thông thô sơ đường bộ, xe máy chuyên dùng và các loại xe tương tự."
     ],
     "triplets": [
-      {"s": "Phương tiện giao thông", "v": "Gồm", "o": "Phương tiện giao thông cơ giới đường bộ",
-       "s_keyphrases": ["phương tiện giao thông đường bộ"], "v_keyphrases": ["bao gồm"], "o_keyphrases": []},
-      {"s": "Phương tiện giao thông", "v": "Gồm", "o": "Xe thô sơ",
-       "s_keyphrases": ["phương tiện giao thông đường bộ"], "v_keyphrases": ["bao gồm"], "o_keyphrases": ["phương tiện giao thông thô sơ đường bộ"]},
-      {"s": "Phương tiện giao thông", "v": "Gồm", "o": "Xe máy chuyên dùng",
-       "s_keyphrases": ["phương tiện giao thông đường bộ"], "v_keyphrases": ["bao gồm"], "o_keyphrases": []}
+      {
+        "s": "Phương tiện giao thông",
+        "v": "Gồm",
+        "o": "Phương tiện giao thông cơ giới đường bộ",
+        "s_keyphrases": [
+          "phương tiện giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ],
+        "v_keyphrases": [
+          "bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Xe cơ giới",
+          "Phương tiện cơ giới"
+        ]
+      },
+      {
+        "s": "Phương tiện giao thông",
+        "v": "Gồm",
+        "o": "Xe thô sơ",
+        "s_keyphrases": [
+          "phương tiện giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ],
+        "v_keyphrases": [
+          "bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "phương tiện giao thông thô sơ đường bộ",
+          "Xe đạp",
+          "Xe kéo"
+        ]
+      },
+      {
+        "s": "Phương tiện giao thông",
+        "v": "Gồm",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [
+          "phương tiện giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ],
+        "v_keyphrases": [
+          "bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
+      }
     ]
   },
   {
@@ -50,9 +99,25 @@
       "Phương tiện tham gia giao thông đường bộ là phương tiện giao thông đường bộ tham gia giao thông trên đường bộ."
     ],
     "triplets": [
-      {"s": "Phương tiện giao thông", "v": "Tham gia", "o": "Giao thông",
-       "s_keyphrases": ["phương tiện tham gia giao thông đường bộ", "phương tiện giao thông đường bộ"],
-       "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Phương tiện giao thông",
+        "v": "Tham gia",
+        "o": "Giao thông",
+        "s_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ",
+          "phương tiện giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ],
+        "v_keyphrases": [
+          "Tham dự",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Vận tải"
+        ]
+      }
     ]
   },
   {
@@ -63,12 +128,61 @@
       "Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông đường bộ được các phương tiện tham gia giao thông đường bộ đến từ hướng khác nhường đường khi qua nơi đường giao nhau, được cắm biển báo hiệu đường ưu tiên."
     ],
     "triplets": [
-      {"s": "Phương tiện giao thông", "v": "Nhường", "o": "Đường ưu tiên",
-       "s_keyphrases": ["phương tiện tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phương tiện giao thông", "v": "Tại", "o": "Nơi đường bộ giao nhau",
-       "s_keyphrases": ["phương tiện tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["nơi đường giao nhau"]},
-      {"s": "Đường ưu tiên", "v": "Cắm", "o": "Biển báo hiệu",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường ưu tiên"]}
+      {
+        "s": "Phương tiện giao thông",
+        "v": "Nhường",
+        "o": "Đường ưu tiên",
+        "s_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ],
+        "v_keyphrases": [
+          "Cho đi",
+          "Để nhường"
+        ],
+        "o_keyphrases": [
+          "Đường chính",
+          "Đường được ưu tiên"
+        ]
+      },
+      {
+        "s": "Phương tiện giao thông",
+        "v": "Tại",
+        "o": "Nơi đường bộ giao nhau",
+        "s_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "nơi đường giao nhau",
+          "Điểm giao",
+          "Ngã tư"
+        ]
+      },
+      {
+        "s": "Đường ưu tiên",
+        "v": "Cắm",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Đường chính",
+          "Đường được ưu tiên"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Đặt"
+        ],
+        "o_keyphrases": [
+          "biển báo hiệu đường ưu tiên",
+          "Biển báo",
+          "Bảng hiệu"
+        ]
+      }
     ]
   },
   {
@@ -79,10 +193,43 @@
       "Phần đường xe chạy là phần của đường bộ được sử dụng cho phương tiện giao thông đường bộ đi lại."
     ],
     "triplets": [
-      {"s": "Phần đường xe chạy", "v": "Thuộc", "o": "Đường bộ",
-       "s_keyphrases": [], "v_keyphrases": ["là phần của"], "o_keyphrases": []},
-      {"s": "Phần đường xe chạy", "v": "Dành cho", "o": "Phương tiện giao thông",
-       "s_keyphrases": [], "v_keyphrases": ["được sử dụng cho"], "o_keyphrases": ["phương tiện giao thông đường bộ"]}
+      {
+        "s": "Phần đường xe chạy",
+        "v": "Thuộc",
+        "o": "Đường bộ",
+        "s_keyphrases": [
+          "Làn xe",
+          "Đường xe chạy"
+        ],
+        "v_keyphrases": [
+          "là phần của",
+          "Liên quan",
+          "Chỉ thuộc"
+        ],
+        "o_keyphrases": [
+          "Đường đi",
+          "Đường giao thông"
+        ]
+      },
+      {
+        "s": "Phần đường xe chạy",
+        "v": "Dành cho",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [
+          "Làn xe",
+          "Đường xe chạy"
+        ],
+        "v_keyphrases": [
+          "được sử dụng cho",
+          "Dành riêng",
+          "Cấp cho"
+        ],
+        "o_keyphrases": [
+          "phương tiện giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ]
+      }
     ]
   },
   {
@@ -93,8 +240,24 @@
       "Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn."
     ],
     "triplets": [
-      {"s": "Làn đường", "v": "Thuộc", "o": "Phần đường xe chạy",
-       "s_keyphrases": [], "v_keyphrases": ["là một phần của"], "o_keyphrases": []}
+      {
+        "s": "Làn đường",
+        "v": "Thuộc",
+        "o": "Phần đường xe chạy",
+        "s_keyphrases": [
+          "Dải phân cách",
+          "Lối đi"
+        ],
+        "v_keyphrases": [
+          "là một phần của",
+          "Liên quan",
+          "Chỉ thuộc"
+        ],
+        "o_keyphrases": [
+          "Làn xe",
+          "Đường xe chạy"
+        ]
+      }
     ]
   },
   {
@@ -105,8 +268,23 @@
       "Cải tạo xe là việc thay đổi đặc điểm của xe đã được cấp đăng ký xe, biển số xe hoặc xe đã qua sử dụng được nhập khẩu dẫn đến thay đổi về kiểu loại xe theo quy định của cơ quan có thẩm quyền."
     ],
     "triplets": [
-      {"s": "Cải tạo xe", "v": "Thay đổi", "o": "Kiểu loại xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cải tạo xe",
+        "v": "Thay đổi",
+        "o": "Kiểu loại xe",
+        "s_keyphrases": [
+          "Sửa chữa xe",
+          "Độ xe"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Loại xe",
+          "Mẫu xe"
+        ]
+      }
     ]
   },
   {
@@ -117,20 +295,118 @@
       "Người tham gia giao thông đường bộ bao gồm: người điều khiển, người được chở trên phương tiện tham gia giao thông đường bộ; người điều khiển, dẫn dắt vật nuôi trên đường bộ; người đi bộ trên đường bộ."
     ],
     "triplets": [
-      {"s": "Người tham gia giao thông", "v": "Gồm", "o": "Người",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": ["bao gồm"], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện tham gia giao thông đường bộ"]},
-      {"s": "Người tham gia giao thông", "v": "Gồm", "o": "Người được chở",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": ["bao gồm"], "o_keyphrases": []},
-      {"s": "Người được chở", "v": "Tại", "o": "Phương tiện giao thông",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện tham gia giao thông đường bộ"]},
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người tham gia giao thông", "v": "Gồm", "o": "Người đi bộ",
-       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": ["bao gồm"], "o_keyphrases": []}
+      {
+        "s": "Người tham gia giao thông",
+        "v": "Gồm",
+        "o": "Người",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Người đi đường",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ]
+      },
+      {
+        "s": "Người tham gia giao thông",
+        "v": "Gồm",
+        "o": "Người được chở",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Người đi đường",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Hành khách",
+          "Người ngồi trên xe"
+        ]
+      },
+      {
+        "s": "Người được chở",
+        "v": "Tại",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [
+          "Hành khách",
+          "Người ngồi trên xe"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ",
+          "Xe cộ",
+          "Phương tiện di chuyển"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Vận hành"
+        ],
+        "o_keyphrases": [
+          "Động vật",
+          "Thú cưng"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ dẫn"
+        ],
+        "o_keyphrases": [
+          "Động vật",
+          "Thú cưng"
+        ]
+      },
+      {
+        "s": "Người tham gia giao thông",
+        "v": "Gồm",
+        "o": "Người đi bộ",
+        "s_keyphrases": [
+          "người tham gia giao thông đường bộ",
+          "Người đi đường",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "bao gồm",
+          "Có"
+        ],
+        "o_keyphrases": [
+          "Người đi đường",
+          "Người bộ hành"
+        ]
+      }
     ]
   }
 ]

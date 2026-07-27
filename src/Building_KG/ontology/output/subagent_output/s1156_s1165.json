@@ -11,89 +11,175 @@
         "s": "Người",
         "v": "Can thiệp",
         "o": "Phần mềm điều khiển",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tham gia",
+          "Can thiệp vào"
+        ],
+        "o_keyphrases": [
+          "Phần mềm quản lý",
+          "Phần mềm điều khiển giao thông"
+        ]
       },
       {
         "s": "Phần mềm điều khiển",
         "v": "Dành cho",
         "o": "Xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Phần mềm quản lý",
+          "Phần mềm điều khiển giao thông"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện"
+        ]
       },
       {
         "s": "Người",
         "v": "Thay đổi",
         "o": "Phần mềm điều khiển",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Phần mềm quản lý",
+          "Phần mềm điều khiển giao thông"
+        ]
       },
       {
         "s": "Người",
         "v": "Can thiệp",
         "o": "Động cơ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tham gia",
+          "Can thiệp vào"
+        ],
+        "o_keyphrases": [
+          "Máy móc",
+          "Động cơ xe"
+        ]
       },
       {
         "s": "Động cơ",
         "v": "Dành cho",
         "o": "Xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Máy móc",
+          "Động cơ xe"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện"
+        ]
       },
       {
         "s": "Người",
         "v": "Thay đổi",
         "o": "Động cơ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Máy móc",
+          "Động cơ xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Làm sai lệch",
         "o": "Kết quả",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến dạng",
+          "Làm lệch"
+        ],
         "o_keyphrases": [
           "kết quả kiểm tra",
           "kết quả thử nghiệm",
-          "kết quả kiểm định"
+          "kết quả kiểm định",
+          "Kết quả đánh giá"
         ]
       },
       {
         "s": "Người",
         "v": "Thuê",
         "o": "Phụ tùng xe cơ giới",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Mướn",
+          "Thuê mướn"
+        ],
+        "o_keyphrases": [
+          "Phụ tùng",
+          "Phụ tùng xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Mượn",
         "o": "Phụ tùng xe cơ giới",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vay",
+          "Mượn tạm"
+        ],
+        "o_keyphrases": [
+          "Phụ tùng",
+          "Phụ tùng xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Thực hiện",
         "o": "Kiểm định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Kiểm tra",
+          "Đánh giá"
+        ]
       }
     ]
   },
@@ -109,87 +195,172 @@
         "s": "Người",
         "v": "Chở",
         "o": "Hàng hóa",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Chuyên chở"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ]
       },
       {
         "s": "Hàng hóa",
         "v": "Vượt quá",
         "o": "Khối lượng cho phép",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Khối lượng tối đa",
+          "Khối lượng cho phép vận chuyển"
+        ]
       },
       {
         "s": "Hàng hóa",
         "v": "Vượt quá",
         "o": "Tải trọng trục xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Tải trọng xe",
+          "Tải trọng tối đa"
+        ]
       },
       {
         "s": "Hàng hóa",
         "v": "Vượt quá",
         "o": "Kích thước giới hạn xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
         "o_keyphrases": [
-          "kích thước cho phép"
+          "kích thước cho phép",
+          "Kích thước tối đa"
         ]
       },
       {
         "s": "Hàng hóa",
         "v": "Vượt quá",
         "o": "Tải trọng đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
+        "o_keyphrases": [
+          "Tải trọng cho phép",
+          "Tải trọng tối đa"
+        ]
       },
       {
         "s": "Hàng hóa",
         "v": "Vượt quá",
         "o": "Khổ giới hạn đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Vượt mức",
+          "Vượt qua"
+        ],
         "o_keyphrases": [
-          "kích thước giới hạn cho phép của đường bộ"
+          "kích thước giới hạn cho phép của đường bộ",
+          "Kích thước giới hạn",
+          "Kích thước đường bộ"
         ]
       },
       {
         "s": "Hàng hóa",
         "v": "Cấp phép",
         "o": "Cơ quan có thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Cấp giấy phép",
+          "Cho phép"
+        ],
         "o_keyphrases": [
-          "cơ quan quản lý"
+          "cơ quan quản lý",
+          "Cơ quan chức năng"
         ]
       },
       {
         "s": "Hàng hóa",
         "v": "Bảo đảm",
         "o": "Yêu cầu",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Đòi hỏi",
+          "Yêu cầu pháp lý"
+        ]
       },
       {
         "s": "Người",
         "v": "Chằng buộc",
         "o": "Hàng hóa",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Buộc chặt",
+          "Cố định"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ]
       },
       {
         "s": "Người",
         "v": "Chở quá",
         "o": "Số người quy định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển quá tải",
+          "Chở quá mức"
+        ],
+        "o_keyphrases": [
+          "Số lượng quy định",
+          "Số người tối đa"
+        ]
       }
     ]
   },
@@ -205,41 +376,84 @@
         "s": "Người",
         "v": "Vận chuyển",
         "o": "Hàng hóa",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ]
       },
       {
         "s": "Hàng hóa",
         "v": "Cấm",
         "o": "Lưu hành",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ],
+        "v_keyphrases": [
+          "Ngăn cấm",
+          "Cấm đoán"
+        ],
+        "o_keyphrases": [
+          "Lưu thông",
+          "Lưu hành xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Vận chuyển",
         "o": "Hàng hóa nguy hiểm",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa độc hại"
+        ]
       },
       {
         "s": "Người",
         "v": "Vận chuyển",
         "o": "Động vật hoang dã",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Động vật tự nhiên"
+        ]
       },
       {
         "s": "Người",
         "v": "Thực hiện",
         "o": "Quy định",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Quy tắc",
+          "Quy định pháp luật"
+        ]
       }
     ]
   },
@@ -255,73 +469,154 @@
         "s": "Người",
         "v": "Đe dọa",
         "o": "Hành khách",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Nguy hiểm",
+          "Đe dọa an toàn"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
       },
       {
         "s": "Người",
         "v": "Xúc phạm",
         "o": "Hành khách",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lăng mạ",
+          "Sỉ nhục"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
       },
       {
         "s": "Người",
         "v": "Tranh giành",
         "o": "Hành khách",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chiếm đoạt",
+          "Cạnh tranh"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
       },
       {
         "s": "Người",
         "v": "Lôi kéo",
         "o": "Hành khách",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Kéo theo",
+          "Hấp dẫn"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
       },
       {
         "s": "Người",
         "v": "Cưỡng ép",
         "o": "Hành khách",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Ép buộc",
+          "Bắt buộc"
+        ],
+        "o_keyphrases": [
+          "Người đi",
+          "Khách"
+        ]
       },
       {
         "s": "Hành khách",
         "v": "Sử dụng",
         "o": "Dịch vụ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người đi",
+          "Khách"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ giao thông",
+          "Dịch vụ vận tải"
+        ]
       },
       {
         "s": "Người",
         "v": "Thực hiện",
         "o": "Chuyển tải",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vận chuyển",
+          "Chuyển giao"
+        ]
       },
       {
         "s": "Người",
         "v": "Thực hiện",
         "o": "Xuống khách",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Đón khách",
+          "Thả khách"
+        ]
       },
       {
         "s": "Người",
         "v": "Trốn tránh",
         "o": "Phát hiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lẩn tránh",
+          "Tránh né"
+        ],
+        "o_keyphrases": [
+          "Nhận diện",
+          "Phát hiện sự cố"
+        ]
       }
     ]
   },
@@ -337,49 +632,103 @@
         "s": "Người",
         "v": "Lắp đặt",
         "o": "Thiết bị âm thanh, ánh sáng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Thiết lập"
+        ],
+        "o_keyphrases": [
+          "Thiết bị phát âm",
+          "Thiết bị chiếu sáng"
+        ]
       },
       {
         "s": "Người",
         "v": "Sử dụng",
         "o": "Thiết bị âm thanh, ánh sáng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị phát âm",
+          "Thiết bị chiếu sáng"
+        ]
       },
       {
         "s": "Thiết bị âm thanh, ánh sáng",
         "v": "Lắp đặt trên",
         "o": "Xe cơ giới",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thiết bị phát âm",
+          "Thiết bị chiếu sáng"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Cài trên"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe máy"
+        ]
       },
       {
         "s": "Thiết bị âm thanh, ánh sáng",
         "v": "Lắp đặt trên",
         "o": "Xe máy chuyên dùng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thiết bị phát âm",
+          "Thiết bị chiếu sáng"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Cài trên"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
       },
       {
         "s": "Thiết bị âm thanh, ánh sáng",
         "v": "Gây mất",
         "o": "Trật tự",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thiết bị phát âm",
+          "Thiết bị chiếu sáng"
+        ],
+        "v_keyphrases": [
+          "Gây thiệt hại",
+          "Gây tổn thất"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "Trật tự xã hội"
+        ]
       },
       {
         "s": "Thiết bị âm thanh, ánh sáng",
         "v": "Gây mất",
         "o": "An toàn giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Thiết bị phát âm",
+          "Thiết bị chiếu sáng"
+        ],
+        "v_keyphrases": [
+          "Gây thiệt hại",
+          "Gây tổn thất"
+        ],
+        "o_keyphrases": [
+          "An toàn giao thông",
+          "An toàn đường bộ"
+        ]
       }
     ]
   },
@@ -395,189 +744,381 @@
         "s": "Người",
         "v": "Sản xuất",
         "o": "Biển số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Chế tạo",
+          "Sản xuất hàng hóa"
+        ],
+        "o_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Sử dụng",
         "o": "Biển số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Mua",
         "o": "Biển số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Sắm",
+          "Mua sắm"
+        ],
+        "o_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Bán",
         "o": "Biển số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Bán hàng",
+          "Giao dịch"
+        ],
+        "o_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Điều khiển",
         "o": "Xe cơ giới",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe ô tô",
+          "Xe máy"
+        ]
       },
       {
         "s": "Người",
         "v": "Điều khiển",
         "o": "Xe máy chuyên dùng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ]
       },
       {
         "s": "Xe cơ giới",
         "v": "Gắn",
         "o": "Biển số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Xe máy"
+        ],
+        "v_keyphrases": [
+          "Gắn kết",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ]
       },
       {
         "s": "Xe máy chuyên dùng",
         "v": "Gắn",
         "o": "Biển số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Xe máy đặc chủng",
+          "Xe máy chuyên dụng"
+        ],
+        "v_keyphrases": [
+          "Gắn kết",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ]
       },
       {
         "s": "Biển số",
         "v": "Cấp",
         "o": "Cơ quan có thẩm quyền",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ],
+        "v_keyphrases": [
+          "Cung cấp",
+          "Phân phát"
+        ],
         "o_keyphrases": [
-          "cơ quan nhà nước có thẩm quyền"
+          "cơ quan nhà nước có thẩm quyền",
+          "Cơ quan quản lý",
+          "Cơ quan chức năng"
         ]
       },
       {
         "s": "Biển số",
         "v": "Đúng",
         "o": "Vị trí",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Địa điểm",
+          "Vị trí giao thông"
+        ]
       },
       {
         "s": "Người",
         "v": "Bẻ cong",
         "o": "Biển số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Uốn cong",
+          "Làm cong"
+        ],
+        "o_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Che lấp",
         "o": "Biển số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Che khuất",
+          "Đậy kín"
+        ],
+        "o_keyphrases": [
+          "Biển số xe",
+          "Số hiệu xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Làm thay đổi",
         "o": "Chữ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thay đổi",
+          "Biến đổi"
+        ],
+        "o_keyphrases": [
+          "Ký tự",
+          "Chữ viết"
+        ]
       },
       {
         "s": "Chữ",
         "v": "Dành cho",
         "o": "Biển số xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Ký tự",
+          "Chữ viết"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển số",
+          "Số xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Làm thay đổi",
         "o": "Số",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thay đổi",
+          "Biến đổi"
+        ],
+        "o_keyphrases": [
+          "Số hiệu",
+          "Mã số"
+        ]
       },
       {
         "s": "Số",
         "v": "Dành cho",
         "o": "Biển số xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Số hiệu",
+          "Mã số"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển số",
+          "Số xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Làm thay đổi",
         "o": "Màu sắc",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thay đổi",
+          "Biến đổi"
+        ],
+        "o_keyphrases": [
+          "Màu",
+          "Tông màu"
+        ]
       },
       {
         "s": "Màu sắc",
         "v": "Dành cho",
         "o": "Biển số xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Màu",
+          "Tông màu"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển số",
+          "Số xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Làm thay đổi",
         "o": "Hình dạng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thay đổi",
+          "Biến đổi"
+        ],
+        "o_keyphrases": [
+          "Hình thức",
+          "Kiểu dáng"
+        ]
       },
       {
         "s": "Hình dạng",
         "v": "Dành cho",
         "o": "Biển số xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Hình thức",
+          "Kiểu dáng"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển số",
+          "Số xe"
+        ]
       },
       {
         "s": "Người",
         "v": "Làm thay đổi",
         "o": "Kích thước",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Thay đổi",
+          "Biến đổi"
+        ],
+        "o_keyphrases": [
+          "Kích cỡ",
+          "Kích thước xe"
+        ]
       },
       {
         "s": "Kích thước",
         "v": "Dành cho",
         "o": "Biển số xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Kích cỡ",
+          "Kích thước xe"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển số",
+          "Số xe"
+        ]
       }
     ]
   },
@@ -593,65 +1134,124 @@
         "s": "Người",
         "v": "Làm gián đoạn",
         "o": "Hoạt động",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Ngắt quãng",
+          "Làm ngắt"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Hoạt động giao thông"
+        ]
       },
       {
         "s": "Hoạt động",
         "v": "Dành cho",
         "o": "Thiết bị giám sát hành trình",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Hành động",
+          "Hoạt động giao thông"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị giám sát"
+        ]
       },
       {
         "s": "Hoạt động",
         "v": "Dành cho",
         "o": "Camera giám sát",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Hành động",
+          "Hoạt động giao thông"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Camera an ninh",
+          "Camera theo dõi"
+        ]
       },
       {
         "s": "Người",
         "v": "Làm sai lệch",
         "o": "Dữ liệu",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Biến dạng",
+          "Làm lệch"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
+        ]
       },
       {
         "s": "Dữ liệu",
         "v": "Dành cho",
         "o": "Thiết bị giám sát hành trình",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Thiết bị theo dõi hành trình",
+          "Thiết bị giám sát"
+        ]
       },
       {
         "s": "Dữ liệu",
         "v": "Dành cho",
         "o": "Camera giám sát",
-        "s_keyphrases": [],
-        "v_keyphrases": [
-          "của"
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu số"
         ],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Camera an ninh",
+          "Camera theo dõi"
+        ]
       },
       {
         "s": "Camera giám sát",
         "v": "Lắp đặt trên",
         "o": "Xe",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Camera an ninh",
+          "Camera theo dõi"
+        ],
+        "v_keyphrases": [
+          "Gắn trên",
+          "Cài trên"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện"
+        ]
       }
     ]
   },
@@ -667,49 +1267,103 @@
         "s": "Cá nhân",
         "v": "Hủy hoại",
         "o": "Thiết bị điều khiển, giám sát giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Phá hủy",
+          "Tiêu hủy"
+        ],
+        "o_keyphrases": [
+          "Thiết bị giám sát giao thông",
+          "Thiết bị điều khiển giao thông"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Hủy hoại",
         "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Phá hủy",
+          "Tiêu hủy"
+        ],
+        "o_keyphrases": [
+          "Thiết bị hỗ trợ giao thông",
+          "Thiết bị điều khiển giao thông"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm hư hỏng",
         "o": "Thiết bị điều khiển, giám sát giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Làm hỏng",
+          "Gây hư hại"
+        ],
+        "o_keyphrases": [
+          "Thiết bị giám sát giao thông",
+          "Thiết bị điều khiển giao thông"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm hư hỏng",
         "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Làm hỏng",
+          "Gây hư hại"
+        ],
+        "o_keyphrases": [
+          "Thiết bị hỗ trợ giao thông",
+          "Thiết bị điều khiển giao thông"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm mất tác dụng",
         "o": "Thiết bị điều khiển, giám sát giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Làm vô hiệu",
+          "Làm mất hiệu lực"
+        ],
+        "o_keyphrases": [
+          "Thiết bị giám sát giao thông",
+          "Thiết bị điều khiển giao thông"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm mất tác dụng",
         "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Làm vô hiệu",
+          "Làm mất hiệu lực"
+        ],
+        "o_keyphrases": [
+          "Thiết bị hỗ trợ giao thông",
+          "Thiết bị điều khiển giao thông"
+        ]
       }
     ]
   },
@@ -725,52 +1379,101 @@
         "s": "Cá nhân",
         "v": "Đặt",
         "o": "Chướng ngại vật",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Để",
+          "Đặt để"
+        ],
         "o_keyphrases": [
-          "vật cản khác"
+          "vật cản khác",
+          "Vật cản",
+          "Chướng ngại"
         ]
       },
       {
         "s": "Cá nhân",
         "v": "Để",
         "o": "Chướng ngại vật",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Để lại",
+          "Để cho"
+        ],
         "o_keyphrases": [
-          "vật cản khác"
+          "vật cản khác",
+          "Vật cản",
+          "Chướng ngại"
         ]
       },
       {
         "s": "Chướng ngại vật",
         "v": "Tại",
         "o": "Đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Vật cản",
+          "Chướng ngại"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường đi"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Rải",
         "o": "Vật sắc nhọn",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Rải rác",
+          "Rải đều"
+        ],
+        "o_keyphrases": [
+          "Đồ vật nhọn",
+          "Vật nhọn"
+        ]
       },
       {
         "s": "Vật sắc nhọn",
         "v": "Tại",
         "o": "Đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Đồ vật nhọn",
+          "Vật nhọn"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường đi"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Đổ",
         "o": "Chất",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
         "o_keyphrases": []
       },
       {
@@ -778,120 +1481,248 @@
         "v": "Gây",
         "o": "Trơn trượt",
         "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Trơn",
+          "Trượt"
+        ]
       },
       {
         "s": "Chất",
         "v": "Tại",
         "o": "Đường bộ",
         "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường đi"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm rơi vãi",
         "o": "Đất đá",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Rơi rớt",
+          "Rải rác"
+        ],
+        "o_keyphrases": [
+          "Đất và đá",
+          "Vật liệu đất đá"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm rơi vãi",
         "o": "Hàng hóa",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Rơi rớt",
+          "Rải rác"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Hàng hóa vận chuyển"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm rơi vãi",
         "o": "Vật liệu xây dựng",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Rơi rớt",
+          "Rải rác"
+        ],
+        "o_keyphrases": [
+          "Vật liệu"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm rơi vãi",
         "o": "Phế thải",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Rơi rớt",
+          "Rải rác"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Chất thải"
+        ]
       },
       {
         "s": "Đất đá",
         "v": "Tại",
         "o": "Đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Đất và đá",
+          "Vật liệu đất đá"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường đi"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Đổ",
         "o": "Hóa chất",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": [
+          "Chất hóa học",
+          "Hóa phẩm"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Đổ",
         "o": "Chất thải",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Đổ ra",
+          "Đổ xuống"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Chất thải rắn"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Xả thải",
         "o": "Hóa chất",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Thải ra",
+          "Xả ra"
+        ],
+        "o_keyphrases": [
+          "Chất hóa học",
+          "Hóa phẩm"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Xả thải",
         "o": "Chất thải",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Thải ra",
+          "Xả ra"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Chất thải rắn"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm rơi vãi",
         "o": "Hóa chất",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Rơi rớt",
+          "Rải rác"
+        ],
+        "o_keyphrases": [
+          "Chất hóa học",
+          "Hóa phẩm"
+        ]
       },
       {
         "s": "Cá nhân",
         "v": "Làm rơi vãi",
         "o": "Chất thải",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Người dân",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Rơi rớt",
+          "Rải rác"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Chất thải rắn"
+        ]
       },
       {
         "s": "Hóa chất",
         "v": "Gây",
         "o": "Mất an toàn giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Chất hóa học",
+          "Hóa phẩm"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Mất an toàn giao thông",
+          "Mất an toàn đường bộ"
+        ]
       },
       {
         "s": "Chất thải",
         "v": "Gây",
         "o": "Mất an toàn giao thông đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Rác thải",
+          "Chất thải rắn"
+        ],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Mất an toàn giao thông",
+          "Mất an toàn đường bộ"
+        ]
       }
     ]
   },
@@ -907,62 +1738,124 @@
         "s": "Người",
         "v": "Cản trở",
         "o": "Người",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Ngăn cản",
+          "Chặn lại"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
       },
       {
         "s": "Người",
         "v": "Cản trở",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Ngăn cản",
+          "Chặn lại"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Người",
         "v": "Ném",
         "o": "Vật thể",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Quăng",
+          "Vứt"
+        ],
         "o_keyphrases": [
           "gạch",
           "đất",
           "đá",
-          "cát"
+          "cát",
+          "Đối tượng",
+          "Vật"
         ]
       },
       {
         "s": "Vật thể",
         "v": "Vào",
         "o": "Người",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Đối tượng",
+          "Vật"
+        ],
+        "v_keyphrases": [
+          "Bước vào",
+          "Vào trong"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ]
       },
       {
         "s": "Vật thể",
         "v": "Vào",
         "o": "Phương tiện",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Đối tượng",
+          "Vật"
+        ],
+        "v_keyphrases": [
+          "Bước vào",
+          "Vào trong"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
       },
       {
         "s": "Người",
         "v": "Tại",
         "o": "Đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia giao thông"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường đi"
+        ]
       },
       {
         "s": "Phương tiện",
         "v": "Tại",
         "o": "Đường bộ",
-        "s_keyphrases": [],
-        "v_keyphrases": [],
-        "o_keyphrases": []
+        "s_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường đi"
+        ]
       }
     ]
   }

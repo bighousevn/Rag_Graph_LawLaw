@@ -7,13 +7,126 @@
       "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác để can thiệp vào quá trình hoạt động làm sai lệch dữ liệu của thiết bị giám sát thời gian học lý thuyết, thời gian, quãng đường học thực hành lái xe."
     ],
     "triplets": [
-      {"s": "Cơ sở đào tạo lái xe", "v": "Sử dụng", "o": "Biện pháp kỹ thuật", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Sử dụng", "o": "Biện pháp kỹ thuật", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đào tạo lái xe", "v": "Sử dụng", "o": "Trang thiết bị ngoại vi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Sử dụng", "o": "Trang thiết bị ngoại vi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở đào tạo lái xe", "v": "Làm sai lệch", "o": "Dữ liệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Làm sai lệch", "o": "Dữ liệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Dành cho", "o": "Thiết bị giám sát", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Sử dụng",
+        "o": "Biện pháp kỹ thuật",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giải pháp kỹ thuật",
+          "Phương pháp kỹ thuật"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Sử dụng",
+        "o": "Biện pháp kỹ thuật",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Giải pháp kỹ thuật",
+          "Phương pháp kỹ thuật"
+        ]
+      },
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Sử dụng",
+        "o": "Trang thiết bị ngoại vi",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị phụ trợ",
+          "Thiết bị bên ngoài"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Sử dụng",
+        "o": "Trang thiết bị ngoại vi",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị phụ trợ",
+          "Thiết bị bên ngoài"
+        ]
+      },
+      {
+        "s": "Cơ sở đào tạo lái xe",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Trường dạy lái xe",
+          "Trung tâm đào tạo lái xe"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu ghi nhận"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Làm sai lệch",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Thay đổi"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu ghi nhận"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Dành cho",
+        "o": "Thiết bị giám sát",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu ghi nhận"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Thiết bị theo dõi",
+          "Thiết bị quan sát"
+        ]
+      }
     ]
   },
   {
@@ -24,11 +137,91 @@
       "Trung tâm sát hạch lái xe không lắp đủ camera giám sát phòng sát hạch lý thuyết, mô phỏng các tình huống giao thông, sân sát hạch theo quy định hoặc có lắp camera giám sát nhưng không hoạt động theo quy định."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Lắp", "o": "Camera giám sát", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Camera giám sát", "v": "Giám sát", "o": "Phòng sát hạch lý thuyết", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Camera giám sát", "v": "Giám sát", "o": "Phòng mô phỏng tình huống giao thông", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Camera giám sát", "v": "Giám sát", "o": "Sân sát hạch", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Camera giám sát", "v": "Thực hiện", "o": "Hoạt động", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Lắp",
+        "o": "Camera giám sát",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Cài đặt",
+          "Gắn"
+        ],
+        "o_keyphrases": [
+          "Camera an ninh",
+          "Camera theo dõi"
+        ]
+      },
+      {
+        "s": "Camera giám sát",
+        "v": "Giám sát",
+        "o": "Phòng sát hạch lý thuyết",
+        "s_keyphrases": [
+          "Camera an ninh",
+          "Camera theo dõi"
+        ],
+        "v_keyphrases": [
+          "Theo dõi",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phòng kiểm tra lý thuyết",
+          "Phòng thi lý thuyết"
+        ]
+      },
+      {
+        "s": "Camera giám sát",
+        "v": "Giám sát",
+        "o": "Phòng mô phỏng tình huống giao thông",
+        "s_keyphrases": [
+          "Camera an ninh",
+          "Camera theo dõi"
+        ],
+        "v_keyphrases": [
+          "Theo dõi",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Phòng mô phỏng",
+          "Phòng thực hành"
+        ]
+      },
+      {
+        "s": "Camera giám sát",
+        "v": "Giám sát",
+        "o": "Sân sát hạch",
+        "s_keyphrases": [
+          "Camera an ninh",
+          "Camera theo dõi"
+        ],
+        "v_keyphrases": [
+          "Theo dõi",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Sân kiểm tra",
+          "Sân thực hành"
+        ]
+      },
+      {
+        "s": "Camera giám sát",
+        "v": "Thực hiện",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Camera an ninh",
+          "Camera theo dõi"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Công việc"
+        ]
+      }
     ]
   },
   {
@@ -39,8 +232,40 @@
       "Trung tâm sát hạch lái xe có trên 50% số xe sát hạch lái xe trong hình được cấp phép không bảo đảm điều kiện để sát hạch theo quy định."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Có", "o": "Xe sát hạch lái xe trong hình", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe sát hạch lái xe trong hình", "v": "Bảo đảm", "o": "Điều kiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Có",
+        "o": "Xe sát hạch lái xe trong hình",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Xe mô phỏng",
+          "Xe sát hạch trong sa hình"
+        ]
+      },
+      {
+        "s": "Xe sát hạch lái xe trong hình",
+        "v": "Bảo đảm",
+        "o": "Điều kiện",
+        "s_keyphrases": [
+          "Xe mô phỏng",
+          "Xe sát hạch trong sa hình"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Yêu cầu",
+          "Tiêu chí"
+        ]
+      }
     ]
   },
   {
@@ -51,8 +276,40 @@
       "Trung tâm sát hạch lái xe có trên 50% số xe sát hạch lái xe trên đường được cấp phép không bảo đảm điều kiện để sát hạch theo quy định."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Có", "o": "Xe sát hạch lái xe trên đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe sát hạch lái xe trên đường", "v": "Bảo đảm", "o": "Điều kiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Có",
+        "o": "Xe sát hạch lái xe trên đường",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Xe thực hành",
+          "Xe sát hạch trên đường"
+        ]
+      },
+      {
+        "s": "Xe sát hạch lái xe trên đường",
+        "v": "Bảo đảm",
+        "o": "Điều kiện",
+        "s_keyphrases": [
+          "Xe thực hành",
+          "Xe sát hạch trên đường"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Yêu cầu",
+          "Tiêu chí"
+        ]
+      }
     ]
   },
   {
@@ -63,8 +320,40 @@
       "Trung tâm sát hạch lái xe có trên 50% số máy tính sát hạch lý thuyết được cấp phép không bảo đảm điều kiện để sát hạch theo quy định."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Có", "o": "Máy tính sát hạch lý thuyết", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Máy tính sát hạch lý thuyết", "v": "Bảo đảm", "o": "Điều kiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Có",
+        "o": "Máy tính sát hạch lý thuyết",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Máy tính kiểm tra lý thuyết",
+          "Thiết bị sát hạch lý thuyết"
+        ]
+      },
+      {
+        "s": "Máy tính sát hạch lý thuyết",
+        "v": "Bảo đảm",
+        "o": "Điều kiện",
+        "s_keyphrases": [
+          "Máy tính kiểm tra lý thuyết",
+          "Thiết bị sát hạch lý thuyết"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "Yêu cầu",
+          "Tiêu chí"
+        ]
+      }
     ]
   },
   {
@@ -75,11 +364,95 @@
       "Trung tâm sát hạch lái xe tự ý di chuyển vị trí các phòng chức năng; thay đổi hình các bài sát hạch mà chưa được chấp thuận của cơ quan quản lý nhà nước có thẩm quyền."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Di chuyển", "o": "Phòng chức năng", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Thay đổi", "o": "Sa hình", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hình"]},
-      {"s": "Sa hình", "v": "Dành cho", "o": "Bài sát hạch", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Có", "o": "Văn bản chấp thuận", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Văn bản chấp thuận", "v": "Dành cho", "o": "Cơ quan có thẩm quyền", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": ["cơ quan quản lý nhà nước có thẩm quyền"]}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Di chuyển",
+        "o": "Phòng chức năng",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Chuyển động",
+          "Đi lại"
+        ],
+        "o_keyphrases": [
+          "Phòng làm việc",
+          "Phòng chuyên môn"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Thay đổi",
+        "o": "Sa hình",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "hình",
+          "Mô hình sa hình",
+          "Bài thi sa hình"
+        ]
+      },
+      {
+        "s": "Sa hình",
+        "v": "Dành cho",
+        "o": "Bài sát hạch",
+        "s_keyphrases": [
+          "Mô hình sa hình",
+          "Bài thi sa hình"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Bài kiểm tra",
+          "Bài thi"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Có",
+        "o": "Văn bản chấp thuận",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Giấy chấp thuận",
+          "Quyết định chấp thuận"
+        ]
+      },
+      {
+        "s": "Văn bản chấp thuận",
+        "v": "Dành cho",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Giấy chấp thuận",
+          "Quyết định chấp thuận"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "cơ quan quản lý nhà nước có thẩm quyền",
+          "Cơ quan quản lý",
+          "Cơ quan chức năng"
+        ]
+      }
     ]
   },
   {
@@ -90,8 +463,41 @@
       "Trung tâm sát hạch lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 02 kỳ sát hạch lái xe trở lên."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Lưu trữ", "o": "Hồ sơ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hồ sơ", "v": "Dành cho", "o": "Kỳ sát hạch lái xe", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Lưu trữ",
+        "o": "Hồ sơ",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Ghi lại"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Bảng ghi"
+        ]
+      },
+      {
+        "s": "Hồ sơ",
+        "v": "Dành cho",
+        "o": "Kỳ sát hạch lái xe",
+        "s_keyphrases": [
+          "Tài liệu",
+          "Bảng ghi"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Kỳ thi sát hạch",
+          "Kỳ kiểm tra lái xe"
+        ]
+      }
     ]
   },
   {
@@ -102,8 +508,40 @@
       "Cá nhân thực hiện hành vi vi phạm quy định về đào tạo, sát hạch lái xe."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy định về đào tạo lái xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Quy định về sát hạch lái xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Quy định về đào tạo lái xe",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Quy định dạy lái xe",
+          "Quy định đào tạo"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Quy định về sát hạch lái xe",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Quy định sát hạch",
+          "Quy định kiểm tra lái xe"
+        ]
+      }
     ]
   },
   {
@@ -114,9 +552,57 @@
       "Tổ chức thực hiện hành vi tổ chức tuyển sinh, đào tạo lái xe mà không có giấy phép đào tạo lái xe."
     ],
     "triplets": [
-      {"s": "Tổ chức", "v": "Tổ chức", "o": "Tuyển sinh", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Tổ chức", "o": "Đào tạo lái xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Có", "o": "Giấy phép đào tạo lái xe", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Tổ chức",
+        "v": "Tổ chức",
+        "o": "Tuyển sinh",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp",
+          "Cơ cấu"
+        ],
+        "o_keyphrases": [
+          "Đăng ký",
+          "Nhập học"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tổ chức",
+        "o": "Đào tạo lái xe",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Sắp xếp",
+          "Cơ cấu"
+        ],
+        "o_keyphrases": [
+          "Dạy lái xe",
+          "Huấn luyện lái xe"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Có",
+        "o": "Giấy phép đào tạo lái xe",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Giấy phép dạy lái xe",
+          "Giấy phép hành nghề"
+        ]
+      }
     ]
   },
   {
@@ -127,14 +613,144 @@
       "Trung tâm sát hạch lái xe tự ý thay đổi hoặc sử dụng phần mềm sát hạch, thiết bị chấm điểm, xe sát hạch khi chưa được sự chấp thuận của cơ quan quản lý nhà nước có thẩm quyền."
     ],
     "triplets": [
-      {"s": "Trung tâm sát hạch lái xe", "v": "Thay đổi", "o": "Phần mềm sát hạch", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Sử dụng", "o": "Phần mềm sát hạch", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Thay đổi", "o": "Thiết bị chấm điểm", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Sử dụng", "o": "Thiết bị chấm điểm", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Thay đổi", "o": "Xe sát hạch", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Sử dụng", "o": "Xe sát hạch", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trung tâm sát hạch lái xe", "v": "Có", "o": "Văn bản chấp thuận", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Văn bản chấp thuận", "v": "Dành cho", "o": "Cơ quan có thẩm quyền", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": ["cơ quan quản lý nhà nước có thẩm quyền"]}
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Thay đổi",
+        "o": "Phần mềm sát hạch",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Phần mềm kiểm tra",
+          "Phần mềm đánh giá"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Sử dụng",
+        "o": "Phần mềm sát hạch",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Phần mềm kiểm tra",
+          "Phần mềm đánh giá"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Thay đổi",
+        "o": "Thiết bị chấm điểm",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Thiết bị đánh giá",
+          "Thiết bị kiểm tra"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Sử dụng",
+        "o": "Thiết bị chấm điểm",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Thiết bị đánh giá",
+          "Thiết bị kiểm tra"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Thay đổi",
+        "o": "Xe sát hạch",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Biến đổi",
+          "Chỉnh sửa"
+        ],
+        "o_keyphrases": [
+          "Xe kiểm tra",
+          "Xe thực hành"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Sử dụng",
+        "o": "Xe sát hạch",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Xe kiểm tra",
+          "Xe thực hành"
+        ]
+      },
+      {
+        "s": "Trung tâm sát hạch lái xe",
+        "v": "Có",
+        "o": "Văn bản chấp thuận",
+        "s_keyphrases": [
+          "Trung tâm kiểm tra lái xe",
+          "Cơ sở sát hạch lái xe"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Tồn tại"
+        ],
+        "o_keyphrases": [
+          "Giấy chấp thuận",
+          "Quyết định chấp thuận"
+        ]
+      },
+      {
+        "s": "Văn bản chấp thuận",
+        "v": "Dành cho",
+        "o": "Cơ quan có thẩm quyền",
+        "s_keyphrases": [
+          "Giấy chấp thuận",
+          "Quyết định chấp thuận"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng cho",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "cơ quan quản lý nhà nước có thẩm quyền",
+          "Cơ quan quản lý",
+          "Cơ quan chức năng"
+        ]
+      }
     ]
   }
 ]

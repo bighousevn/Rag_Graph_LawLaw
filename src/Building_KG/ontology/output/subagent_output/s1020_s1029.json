@@ -7,10 +7,40 @@
       "Người có thẩm quyền tạm giữ phương tiện trước khi ra quyết định xử phạt đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm của Nghị định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm"]}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -21,10 +51,40 @@
       "Người có thẩm quyền được phép tạm giữ phương tiện để ngăn chặn hành vi vi phạm hành chính theo quy định tại các điều, khoản, điểm của Nghị định này."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ngăn chặn", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ngăn chặn",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Cản trở",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -35,10 +95,40 @@
       "Người có thẩm quyền được phép tạm giữ phương tiện để ngăn chặn hành vi vi phạm hành chính theo quy định tại điểm b khoản 5 Điều 34."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ngăn chặn", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ngăn chặn",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Cản trở",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -49,10 +139,40 @@
       "Người có thẩm quyền được phép tạm giữ phương tiện để ngăn chặn hành vi vi phạm hành chính theo quy định tại khoản 3 Điều 35."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ngăn chặn", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ngăn chặn",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Cản trở",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -63,10 +183,40 @@
       "Người có thẩm quyền được phép tạm giữ phương tiện để ngăn chặn ngay các hành vi vi phạm hành chính khác thuộc trường hợp thật cần thiết."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Ngăn chặn", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Ngăn chặn",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Cản trở",
+          "Dừng lại"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -77,14 +227,74 @@
       "Người có thẩm quyền có thể quyết định tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm một trong các hành vi quy định tại Nghị định này."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Giấy tờ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Giấy tờ",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Chứng từ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Triển khai",
+          "Tiến hành"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      }
     ]
   },
   {
@@ -95,14 +305,71 @@
       "Người có thẩm quyền lập biên bản vi phạm hành chính đối với người điều khiển phương tiện về hành vi không có giấy tờ và tạm giữ phương tiện theo quy định."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Lập", "o": "Biên bản vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy tờ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Lập",
+        "o": "Biên bản vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Soạn thảo",
+          "Tạo"
+        ],
+        "o_keyphrases": [
+          "Biên bản vi phạm",
+          "Biên bản xử lý vi phạm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy tờ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Chứng từ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      }
     ]
   },
   {
@@ -113,14 +380,74 @@
       "Trong thời hạn hẹn đến giải quyết vụ việc vi phạm, nếu người điều khiển phương tiện kinh doanh vận tải xuất trình được các giấy tờ theo quy định thì người có thẩm quyền ra quyết định xử phạt về hành vi không mang theo giấy tờ đối với người điều khiển phương tiện."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện kinh doanh vận tải",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Xuất trình", "o": "Giấy tờ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang", "o": "Giấy tờ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện kinh doanh vận tải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe kinh doanh vận tải",
+          "Phương tiện vận tải"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Xuất trình",
+        "o": "Giấy tờ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Trình bày",
+          "Cho xem"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Chứng từ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang",
+        "o": "Giấy tờ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Chứng từ"
+        ]
+      }
     ]
   },
   {
@@ -131,12 +458,54 @@
       "Trong thời hạn hẹn đến giải quyết vụ việc vi phạm, nếu người vi phạm xuất trình được các giấy tờ theo quy định thì người có thẩm quyền không ra quyết định xử phạt vi phạm hành chính đối với hành vi vi phạm không có giấy tờ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Xuất trình", "o": "Giấy tờ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy tờ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Xuất trình",
+        "o": "Giấy tờ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Trình bày",
+          "Cho xem"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Chứng từ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Cơ quan chức năng"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy tờ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Chứng từ"
+        ]
+      }
     ]
   },
   {
@@ -147,10 +516,40 @@
       "Quá thời hạn hẹn đến giải quyết vụ việc vi phạm, người vi phạm xuất trình hoặc không xuất trình được giấy tờ theo quy định thì phải chấp hành quyết định xử phạt vi phạm hành chính đối với các hành vi vi phạm đã ghi trong biên bản vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Người", "v": "Chấp hành", "o": "Xử phạt vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hành vi vi phạm hành chính", "v": "Ghi trong", "o": "Biên bản vi phạm hành chính",
-       "s_keyphrases": ["hành vi vi phạm"], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Xử phạt vi phạm hành chính",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người dân"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Xử lý vi phạm hành chính",
+          "Phạt vi phạm hành chính"
+        ]
+      },
+      {
+        "s": "Hành vi vi phạm hành chính",
+        "v": "Ghi trong",
+        "o": "Biên bản vi phạm hành chính",
+        "s_keyphrases": [
+          "hành vi vi phạm",
+          "Vi phạm hành chính"
+        ],
+        "v_keyphrases": [
+          "Ghi lại",
+          "Ghi chép"
+        ],
+        "o_keyphrases": [
+          "Biên bản vi phạm",
+          "Biên bản xử lý vi phạm"
+        ]
+      }
     ]
   }
 ]

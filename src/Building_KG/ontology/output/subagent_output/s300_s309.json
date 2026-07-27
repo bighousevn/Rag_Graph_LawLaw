@@ -7,17 +7,199 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường, trừ hành vi vi phạm quy định tại khoản 3 Điều này."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Đèn tín hiệu", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Vạch kẻ đường", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Chỉ dẫn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Đèn tín hiệu", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Biển báo hiệu", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Chỉ dẫn", "v": "Dành cho", "o": "Vạch kẻ đường", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Lệnh",
+          "Ra hiệu"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Đèn tín hiệu",
+        "s_keyphrases": [
+          "Lệnh",
+          "Ra hiệu"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Đèn giao thông",
+          "Đèn báo hiệu"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Lệnh",
+          "Ra hiệu"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Biển chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "Lệnh",
+          "Ra hiệu"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Chỉ dẫn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Hướng dẫn",
+          "Thông báo"
+        ]
+      },
+      {
+        "s": "Chỉ dẫn",
+        "v": "Dành cho",
+        "o": "Đèn tín hiệu",
+        "s_keyphrases": [
+          "Hướng dẫn",
+          "Thông báo"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Đèn giao thông",
+          "Đèn báo hiệu"
+        ]
+      },
+      {
+        "s": "Chỉ dẫn",
+        "v": "Dành cho",
+        "o": "Biển báo hiệu",
+        "s_keyphrases": [
+          "Hướng dẫn",
+          "Thông báo"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Biển báo",
+          "Biển chỉ dẫn"
+        ]
+      },
+      {
+        "s": "Chỉ dẫn",
+        "v": "Dành cho",
+        "o": "Vạch kẻ đường",
+        "s_keyphrases": [
+          "Hướng dẫn",
+          "Thông báo"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Vạch phân cách",
+          "Vạch chỉ dẫn"
+        ]
+      }
     ]
   },
   {
@@ -28,15 +210,160 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo không đủ dụng cụ đựng chất thải của vật nuôi hoặc không dọn sạch chất thải của vật nuôi thải ra đường, vỉa hè."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đủ", "o": "Dụng cụ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dụng cụ", "v": "Đựng", "o": "Chất thải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chất thải", "v": "Dành cho", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Người", "v": "Dọn sạch", "o": "Chất thải", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chất thải", "v": "Tại", "o": "Đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chất thải", "v": "Tại", "o": "Vỉa hè", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đủ",
+        "o": "Dụng cụ",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Đầy đủ",
+          "Đủ điều kiện"
+        ],
+        "o_keyphrases": [
+          "Thiết bị",
+          "Công cụ"
+        ]
+      },
+      {
+        "s": "Dụng cụ",
+        "v": "Đựng",
+        "o": "Chất thải",
+        "s_keyphrases": [
+          "Thiết bị",
+          "Công cụ"
+        ],
+        "v_keyphrases": [
+          "Chứa",
+          "Để"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Phế thải"
+        ]
+      },
+      {
+        "s": "Chất thải",
+        "v": "Dành cho",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Rác thải",
+          "Phế thải"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dọn sạch",
+        "o": "Chất thải",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Dọn dẹp",
+          "Vệ sinh"
+        ],
+        "o_keyphrases": [
+          "Rác thải",
+          "Phế thải"
+        ]
+      },
+      {
+        "s": "Chất thải",
+        "v": "Tại",
+        "o": "Đường",
+        "s_keyphrases": [
+          "Rác thải",
+          "Phế thải"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Con đường",
+          "Lộ"
+        ]
+      },
+      {
+        "s": "Chất thải",
+        "v": "Tại",
+        "o": "Vỉa hè",
+        "s_keyphrases": [
+          "Rác thải",
+          "Phế thải"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại vị trí"
+        ],
+        "o_keyphrases": [
+          "Lề đường",
+          "Đường đi bộ"
+        ]
+      }
     ]
   },
   {
@@ -47,13 +374,127 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo để vật nuôi đi trên đường bộ không bảo đảm an toàn cho người, phương tiện đang tham gia giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vật nuôi", "v": "Đi", "o": "Đường bộ", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Bảo đảm", "o": "An toàn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "An toàn", "v": "Dành cho", "o": "Người", "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
-      {"s": "An toàn", "v": "Dành cho", "o": "Phương tiện", "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Vật nuôi",
+        "v": "Đi",
+        "o": "Đường bộ",
+        "s_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ],
+        "v_keyphrases": [
+          "Di chuyển",
+          "Đi lại"
+        ],
+        "o_keyphrases": [
+          "Đường giao thông",
+          "Đường đi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bảo đảm",
+        "o": "An toàn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Đảm bảo",
+          "Cam kết"
+        ],
+        "o_keyphrases": [
+          "An ninh",
+          "Bảo vệ"
+        ]
+      },
+      {
+        "s": "An toàn",
+        "v": "Dành cho",
+        "o": "Người",
+        "s_keyphrases": [
+          "An ninh",
+          "Bảo vệ"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ]
+      },
+      {
+        "s": "An toàn",
+        "v": "Dành cho",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "An ninh",
+          "Bảo vệ"
+        ],
+        "v_keyphrases": [
+          "cho",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      }
     ]
   },
   {
@@ -64,10 +505,74 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo đi dàn hàng ngang từ 02 xe trở lên."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi dàn hàng ngang", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi dàn hàng ngang",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Đi hàng ngang",
+          "Đi theo hàng"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      }
     ]
   },
   {
@@ -78,11 +583,91 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo để vật nuôi kéo xe mà không có người điều khiển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vật nuôi", "v": "Kéo", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe vật nuôi kéo", "v": "Có", "o": "Người", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Vật nuôi",
+        "v": "Kéo",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ],
+        "v_keyphrases": [
+          "Kéo đi",
+          "Kéo theo"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Xe vật nuôi kéo",
+        "v": "Có",
+        "o": "Người",
+        "s_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ]
+      }
     ]
   },
   {
@@ -93,10 +678,74 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo điều khiển xe không có báo hiệu theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Xe vật nuôi kéo", "v": "Có", "o": "Báo hiệu", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Xe vật nuôi kéo",
+        "v": "Có",
+        "o": "Báo hiệu",
+        "s_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Có mặt"
+        ],
+        "o_keyphrases": [
+          "Thông báo",
+          "Ra hiệu"
+        ]
+      }
     ]
   },
   {
@@ -107,15 +756,163 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người điều khiển giao thông", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người kiểm soát giao thông", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Hướng dẫn", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Người điều khiển giao thông", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
-      {"s": "Hướng dẫn", "v": "Dành cho", "o": "Người kiểm soát giao thông", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Lệnh",
+          "Ra hiệu"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [
+          "Lệnh",
+          "Ra hiệu"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người điều khiển",
+          "Người hướng dẫn giao thông"
+        ]
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Người kiểm soát giao thông",
+        "s_keyphrases": [
+          "Lệnh",
+          "Ra hiệu"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều phối giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hướng dẫn",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Người điều khiển giao thông",
+        "s_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Người điều khiển",
+          "Người hướng dẫn giao thông"
+        ]
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Người kiểm soát giao thông",
+        "s_keyphrases": [
+          "Chỉ dẫn",
+          "Hướng dẫn sử dụng"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Cảnh sát giao thông",
+          "Người điều phối giao thông"
+        ]
+      }
     ]
   },
   {
@@ -126,12 +923,108 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo dẫn dắt vật nuôi chạy theo khi đang điều khiển hoặc ngồi trên phương tiện giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Vật nuôi", "v": "Chạy theo", "o": "Phương tiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Ngồi trên", "o": "Phương tiện", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Vật nuôi",
+        "v": "Chạy theo",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ],
+        "v_keyphrases": [
+          "Theo đuổi",
+          "Chạy sau"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Ngồi trên",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Ngồi lên",
+          "Ngồi tại"
+        ],
+        "o_keyphrases": [
+          "Xe cộ",
+          "Phương tiện giao thông"
+        ]
+      }
     ]
   },
   {
@@ -142,14 +1035,143 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo điều khiển, dẫn dắt vật nuôi đi không đúng phần đường quy định, đi vào đường cấm, khu vực cấm, đi vào phần đường của xe cơ giới."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đúng", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi vào", "o": "Đường cấm", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi vào", "o": "Khu vực cấm", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi vào", "o": "Phần đường", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Phần đường", "v": "Dành cho", "o": "Xe cơ giới", "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đúng",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Chính xác",
+          "Đúng đắn"
+        ],
+        "o_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi vào",
+        "o": "Đường cấm",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vào",
+          "Nhập"
+        ],
+        "o_keyphrases": [
+          "Đường không cho phép",
+          "Đường hạn chế"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi vào",
+        "o": "Khu vực cấm",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vào",
+          "Nhập"
+        ],
+        "o_keyphrases": [
+          "Khu vực hạn chế",
+          "Khu vực không cho phép"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi vào",
+        "o": "Phần đường",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vào",
+          "Nhập"
+        ],
+        "o_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ]
+      },
+      {
+        "s": "Phần đường",
+        "v": "Dành cho",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [
+          "Làn đường",
+          "Khu vực đường"
+        ],
+        "v_keyphrases": [
+          "của",
+          "Dành riêng",
+          "Dành cho mục đích"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Xe ô tô"
+        ]
+      }
     ]
   },
   {
@@ -160,10 +1182,73 @@
       "Người điều khiển, dẫn dắt vật nuôi và điều khiển xe vật nuôi kéo đi vào đường cao tốc."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Dẫn dắt", "o": "Vật nuôi", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Xe vật nuôi kéo", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Đi vào", "o": "Đường cao tốc", "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Dẫn dắt",
+        "o": "Vật nuôi",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Hướng dẫn",
+          "Chỉ đạo"
+        ],
+        "o_keyphrases": [
+          "Thú cưng",
+          "Động vật nuôi"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe vật nuôi kéo",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Quản lý",
+          "Lái"
+        ],
+        "o_keyphrases": [
+          "Xe kéo thú",
+          "Xe kéo động vật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi vào",
+        "o": "Đường cao tốc",
+        "s_keyphrases": [
+          "Cá nhân",
+          "Người tham gia"
+        ],
+        "v_keyphrases": [
+          "Vào",
+          "Nhập"
+        ],
+        "o_keyphrases": [
+          "Đường nhanh"
+        ]
+      }
     ]
   }
 ]

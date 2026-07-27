@@ -7,16 +7,77 @@
       "Người điều khiển xe ô tô vi phạm quy định về vận chuyển hàng hóa nguy hiểm không làm sạch hoặc không bóc biểu trưng nguy hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Làm sạch", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
-      {"s": "Người", "v": "Bóc", "o": "Biểu trưng nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Biểu trưng nguy hiểm", "v": "Tại", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Làm sạch",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Vệ sinh",
+          "Dọn dẹp"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Bóc",
+        "o": "Biểu trưng nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Gỡ",
+          "Lột"
+        ],
+        "o_keyphrases": [
+          "Biểu tượng nguy hiểm",
+          "Biểu trưng cảnh báo"
+        ]
+      },
+      {
+        "s": "Biểu trưng nguy hiểm",
+        "v": "Tại",
+        "o": "Ô tô",
+        "s_keyphrases": [
+          "Biểu tượng nguy hiểm",
+          "Biểu trưng cảnh báo"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      }
     ]
   },
   {
@@ -27,14 +88,59 @@
       "Người điều khiển xe ô tô vận chuyển hàng hóa nguy hiểm mà không mang theo hồ sơ vận chuyển hàng hóa nguy hiểm do người thuê vận tải cung cấp theo quy định, giấy chứng nhận hoàn thành chương trình tập huấn an toàn hàng hóa nguy hiểm phù hợp với loại, nhóm hàng hóa nguy hiểm đang vận chuyển."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Hồ sơ vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang theo", "o": "Giấy chứng nhận tập huấn an toàn hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Hồ sơ vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đem theo",
+          "Vận chuyển"
+        ],
+        "o_keyphrases": [
+          "Hồ sơ vận chuyển hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang theo",
+        "o": "Giấy chứng nhận tập huấn an toàn hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đem theo",
+          "Vận chuyển"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận đào tạo an toàn hàng hóa nguy hiểm"
+        ]
+      }
     ]
   },
   {
@@ -45,18 +151,101 @@
       "Người điều khiển xe ô tô vận chuyển hàng nguy hiểm mà xe ô tô không dán nhãn, biểu trưng nhận diện hàng hóa nguy hiểm; xe ô tô không lắp đèn hoặc tín hiệu cảnh báo theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hàng nguy hiểm"]},
-      {"s": "Ô tô", "v": "Dán", "o": "Nhãn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Dán", "o": "Biểu trưng nhận diện hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Lắp", "o": "Đèn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Ô tô", "v": "Lắp", "o": "Tín hiệu cảnh báo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "hàng nguy hiểm",
+          "Hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Dán",
+        "o": "Nhãn",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Dán nhãn"
+        ],
+        "o_keyphrases": [
+          "Mác",
+          "Nhãn hiệu"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Dán",
+        "o": "Biểu trưng nhận diện hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Dán nhãn"
+        ],
+        "o_keyphrases": [
+          "Biểu trưng nhận diện hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Lắp",
+        "o": "Đèn",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Đèn tín hiệu",
+          "Đèn giao thông"
+        ]
+      },
+      {
+        "s": "Ô tô",
+        "v": "Lắp",
+        "o": "Tín hiệu cảnh báo",
+        "s_keyphrases": [
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ],
+        "v_keyphrases": [
+          "Gắn",
+          "Cài đặt"
+        ],
+        "o_keyphrases": [
+          "Tín hiệu nguy hiểm",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -67,13 +256,53 @@
       "Người điều khiển xe ô tô vận chuyển hàng hóa nguy hiểm là thuốc nổ, khí đốt, xăng, dầu và các chất dễ cháy, nổ, chất rắn khử nhạy khác đi qua các công trình hầm có chiều dài từ 100 mét trở lên."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [],
-       "o_keyphrases": ["thuốc nổ", "khí đốt", "xăng", "dầu", "chất dễ cháy nổ", "chất rắn khử nhạy"]},
-      {"s": "Người", "v": "Đi qua", "o": "Công trình hầm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "thuốc nổ",
+          "khí đốt",
+          "xăng",
+          "dầu",
+          "chất dễ cháy nổ",
+          "chất rắn khử nhạy",
+          "Hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Đi qua",
+        "o": "Công trình hầm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Đi qua lại",
+          "Đi qua đường"
+        ],
+        "o_keyphrases": [
+          "Hầm đường bộ",
+          "Công trình hầm đường"
+        ]
+      }
     ]
   },
   {
@@ -84,18 +313,86 @@
       "Người điều khiển xe ô tô vận chuyển hàng hóa nguy hiểm không có giấy phép vận chuyển hàng hóa nguy hiểm hoặc có nhưng hết hiệu lực hoặc không thực hiện đúng quy định trong giấy phép vận chuyển hàng hóa nguy hiểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Có", "o": "Giấy phép vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép vận chuyển hàng hóa nguy hiểm", "v": "Hết", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Thực hiện", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Thuộc", "o": "Giấy phép vận chuyển hàng hóa nguy hiểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Có",
+        "o": "Giấy phép vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép vận chuyển hàng hóa độc hại"
+        ]
+      },
+      {
+        "s": "Giấy phép vận chuyển hàng hóa nguy hiểm",
+        "v": "Hết",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Giấy phép vận chuyển hàng hóa độc hại"
+        ],
+        "v_keyphrases": [
+          "Kết thúc",
+          "Ngừng"
+        ],
+        "o_keyphrases": [
+          "Thời gian hiệu lực",
+          "Thời hạn"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quy định",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Thuộc",
+        "o": "Giấy phép vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Giấy phép vận chuyển hàng hóa độc hại"
+        ]
+      }
     ]
   },
   {
@@ -106,10 +403,34 @@
       "Người thực hiện hành vi vi phạm quy định tại khoản 4, khoản 5 Điều này nếu gây ô nhiễm môi trường còn bị áp dụng các biện pháp khắc phục hậu quả buộc thực hiện các biện pháp khắc phục tình trạng ô nhiễm môi trường do vi phạm hành chính gây ra."
     ],
     "triplets": [
-      {"s": "Người", "v": "Gây", "o": "Ô nhiễm môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Khắc phục", "o": "Ô nhiễm môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Gây",
+        "o": "Ô nhiễm môi trường",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tạo ra",
+          "Gây ra"
+        ],
+        "o_keyphrases": [
+          "Ô nhiễm",
+          "Ô nhiễm tự nhiên"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Khắc phục",
+        "o": "Ô nhiễm môi trường",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Sửa chữa",
+          "Giải quyết"
+        ],
+        "o_keyphrases": [
+          "Ô nhiễm",
+          "Ô nhiễm tự nhiên"
+        ]
+      }
     ]
   },
   {
@@ -120,10 +441,38 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 3, khoản 4 Điều này bị trừ điểm giấy phép lái xe 02 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Loại trừ",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -134,10 +483,38 @@
       "Người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 5 Điều này bị trừ điểm giấy phép lái xe 04 điểm."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện"]},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "phương tiện",
+          "Xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Loại trừ",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm dừng",
+          "Điểm kiểm tra"
+        ]
+      }
     ]
   },
   {
@@ -148,14 +525,62 @@
       "Người điều khiển xe ô tô vận chuyển động vật sống, thực phẩm tươi sống không mang đủ giấy tờ theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Động vật sống",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Vận chuyển", "o": "Thực phẩm tươi sống",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Mang", "o": "Giấy tờ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Động vật sống",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Động vật còn sống",
+          "Động vật"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Thực phẩm tươi sống",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Thực phẩm tươi",
+          "Thực phẩm sống"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Mang",
+        "o": "Giấy tờ",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Vận chuyển",
+          "Đem theo"
+        ],
+        "o_keyphrases": [
+          "Tài liệu",
+          "Giấy tờ liên quan"
+        ]
+      }
     ]
   },
   {
@@ -166,20 +591,102 @@
       "Người điều khiển xe ô tô vận chuyển thực phẩm tươi sống không chấp hành quy định về an toàn thực phẩm, vệ sinh dịch tễ, phòng dịch và bảo đảm vệ sinh môi trường theo quy định."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Vận chuyển", "o": "Thực phẩm tươi sống",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Chấp hành", "o": "Quy định",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Về", "o": "An toàn thực phẩm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Về", "o": "Vệ sinh dịch tễ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Về", "o": "Phòng dịch",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quy định", "v": "Về", "o": "Vệ sinh môi trường",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Vận chuyển",
+        "o": "Thực phẩm tươi sống",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Chuyên chở",
+          "Chuyển giao"
+        ],
+        "o_keyphrases": [
+          "Thực phẩm tươi",
+          "Thực phẩm sống"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Quy định",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tuân thủ",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Về",
+        "o": "An toàn thực phẩm",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Vệ sinh an toàn thực phẩm"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Về",
+        "o": "Vệ sinh dịch tễ",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Vệ sinh y tế",
+          "Vệ sinh dịch bệnh"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Về",
+        "o": "Phòng dịch",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Phòng ngừa dịch bệnh",
+          "Phòng chống dịch"
+        ]
+      },
+      {
+        "s": "Quy định",
+        "v": "Về",
+        "o": "Vệ sinh môi trường",
+        "s_keyphrases": [
+          "Điều lệ",
+          "Chỉ thị"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "Bảo vệ môi trường"
+        ]
+      }
     ]
   }
 ]

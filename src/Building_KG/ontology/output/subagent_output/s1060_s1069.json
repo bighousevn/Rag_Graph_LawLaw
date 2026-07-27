@@ -16,14 +16,73 @@
       "Khi phương tiện bị tạm giữ, chủ phương tiện phải chịu mọi chi phí cho việc sử dụng phương tiện khác thay thế để vận chuyển người, hàng hóa được chở trên phương tiện bị tạm giữ."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Chịu", "o": "Chi phí",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Sử dụng", "o": "Phương tiện thay thế",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["phương tiện khác thay thế"]},
-      {"s": "Chủ phương tiện", "v": "Vận chuyển", "o": "Người được chở",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ phương tiện", "v": "Vận chuyển", "o": "Hàng hóa",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Chịu",
+        "o": "Chi phí",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Chịu trách nhiệm",
+          "Gánh vác"
+        ],
+        "o_keyphrases": [
+          "Chi tiêu",
+          "Khoản chi"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Sử dụng",
+        "o": "Phương tiện thay thế",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Thực hiện"
+        ],
+        "o_keyphrases": [
+          "phương tiện khác thay thế"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vận chuyển",
+        "o": "Người được chở",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyển"
+        ],
+        "o_keyphrases": [
+          "Hành khách",
+          "Người đi cùng"
+        ]
+      },
+      {
+        "s": "Chủ phương tiện",
+        "v": "Vận chuyển",
+        "o": "Hàng hóa",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Chở",
+          "Chuyển"
+        ],
+        "o_keyphrases": [
+          "Sản phẩm",
+          "Vật phẩm"
+        ]
+      }
     ]
   },
   {

@@ -7,12 +7,59 @@
       "Chủ tịch Ủy ban nhân dân cấp huyện có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "tang vật",
+          "Tang vật bị tịch thu",
+          "Tài sản vi phạm"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      }
     ]
   },
   {
@@ -23,10 +70,41 @@
       "Chủ tịch Ủy ban nhân dân cấp huyện có quyền áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Giải pháp khắc phục"
+        ]
+      }
     ]
   },
   {
@@ -37,10 +115,41 @@
       "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Phạt", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -51,10 +160,41 @@
       "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền phạt tiền đến 75.000.000 đồng."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Phạt", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt bằng tiền",
+          "Phạt hành chính"
+        ]
+      }
     ]
   },
   {
@@ -65,16 +205,83 @@
       "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Giấy phép",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyền sử dụng", "v": "Dành cho", "o": "Chứng chỉ hành nghề",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Đình chỉ", "o": "Hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Tước quyền",
+          "Thu hồi"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Quyền sử dụng",
+        "v": "Dành cho",
+        "o": "Giấy phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Cấp cho"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy tờ hợp lệ"
+        ]
+      },
+      {
+        "s": "Quyền sử dụng",
+        "v": "Dành cho",
+        "o": "Chứng chỉ hành nghề",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Cấp cho"
+        ],
+        "o_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Chứng chỉ nghề"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Đình chỉ",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Ngừng",
+          "Tạm dừng"
+        ],
+        "o_keyphrases": [
+          "Hoạt động giao thông",
+          "Hoạt động vận tải"
+        ]
+      }
     ]
   },
   {
@@ -85,12 +292,59 @@
       "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Tang vật vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tang vật"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Tịch thu", "o": "Phương tiện vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Tịch thu",
+        "o": "Tang vật vi phạm hành chính",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "tang vật",
+          "Tang vật bị tịch thu",
+          "Tài sản vi phạm"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Tịch thu",
+        "o": "Phương tiện vi phạm hành chính",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Chiếm đoạt"
+        ],
+        "o_keyphrases": [
+          "Phương tiện bị xử phạt",
+          "Phương tiện vi phạm"
+        ]
+      }
     ]
   },
   {
@@ -101,10 +355,41 @@
       "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này."
     ],
     "triplets": [
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chủ tịch Ủy ban nhân dân", "v": "Áp dụng", "o": "Biện pháp khắc phục hậu quả",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chủ tịch Ủy ban nhân dân",
+        "v": "Áp dụng",
+        "o": "Biện pháp khắc phục hậu quả",
+        "s_keyphrases": [
+          "Chủ tịch UBND",
+          "Người đứng đầu UBND"
+        ],
+        "v_keyphrases": [
+          "Thực hiện",
+          "Triển khai"
+        ],
+        "o_keyphrases": [
+          "Biện pháp xử lý",
+          "Giải pháp khắc phục"
+        ]
+      }
     ]
   },
   {
@@ -115,10 +400,41 @@
       "Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Chiến sĩ Công an nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chiến sĩ Công an nhân dân", "v": "Phạt", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chiến sĩ Công an nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát",
+          "Công an"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chiến sĩ Công an nhân dân",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Cảnh sát",
+          "Công an"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -129,10 +445,41 @@
       "Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền phạt tiền đến 500.000 đồng."
     ],
     "triplets": [
-      {"s": "Chiến sĩ Công an nhân dân", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Chiến sĩ Công an nhân dân", "v": "Phạt", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chiến sĩ Công an nhân dân",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cảnh sát",
+          "Công an"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Chiến sĩ Công an nhân dân",
+        "v": "Phạt",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Cảnh sát",
+          "Công an"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Xử phạt bằng tiền",
+          "Phạt hành chính"
+        ]
+      }
     ]
   },
   {
@@ -143,18 +490,111 @@
       "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người quy định tại khoản 1 Điều này có quyền phạt cảnh cáo."
     ],
     "triplets": [
-      {"s": "Thủ trưởng đơn vị Cảnh sát cơ động", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Thủ trưởng đơn vị Cảnh sát cơ động", "v": "Phạt", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Trưởng trạm", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Trưởng trạm", "v": "Phạt", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Đội trưởng", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền"]},
-      {"s": "Đội trưởng", "v": "Phạt", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Thủ trưởng đơn vị Cảnh sát cơ động",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Thủ trưởng CSCĐ",
+          "Lãnh đạo CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Thủ trưởng đơn vị Cảnh sát cơ động",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Thủ trưởng CSCĐ",
+          "Lãnh đạo CSCĐ"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Trưởng trạm",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Trưởng trạm kiểm soát",
+          "Trưởng trạm giao thông"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Trưởng trạm",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Trưởng trạm kiểm soát",
+          "Trưởng trạm giao thông"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Đội trưởng",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Đội trưởng Cảnh sát",
+          "Lãnh đạo đội"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "quyền",
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Đội trưởng",
+        "v": "Phạt",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Đội trưởng Cảnh sát",
+          "Lãnh đạo đội"
+        ],
+        "v_keyphrases": [
+          "Xử phạt",
+          "Trừng phạt"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   }
 ]

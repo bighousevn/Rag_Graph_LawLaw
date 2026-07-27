@@ -25,20 +25,125 @@
       "Cơ quan, tổ chức nước ngoài được cấp có thẩm quyền của Việt Nam cho phép hoạt động trên lãnh thổ Việt Nam."
     ],
     "triplets": [
-      {"s": "Cấp có thẩm quyền của Việt Nam", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cấp có thẩm quyền của Việt Nam", "v": "Cho phép", "o": "Cơ quan nước ngoài",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cấp có thẩm quyền của Việt Nam", "v": "Cho phép", "o": "Tổ chức nước ngoài",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan nước ngoài", "v": "Thực hiện", "o": "Hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức nước ngoài", "v": "Thực hiện", "o": "Hoạt động",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ quan nước ngoài", "v": "Tại", "o": "Lãnh thổ Việt Nam",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức nước ngoài", "v": "Tại", "o": "Lãnh thổ Việt Nam",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cấp có thẩm quyền của Việt Nam",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cơ quan có thẩm quyền",
+          "Cơ quan nhà nước"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Cấp có thẩm quyền của Việt Nam",
+        "v": "Cho phép",
+        "o": "Cơ quan nước ngoài",
+        "s_keyphrases": [
+          "Cơ quan có thẩm quyền",
+          "Cơ quan nhà nước"
+        ],
+        "v_keyphrases": [
+          "Đồng ý",
+          "Cấp phép"
+        ],
+        "o_keyphrases": [
+          "Tổ chức nước ngoài",
+          "Cơ quan quốc tế"
+        ]
+      },
+      {
+        "s": "Cấp có thẩm quyền của Việt Nam",
+        "v": "Cho phép",
+        "o": "Tổ chức nước ngoài",
+        "s_keyphrases": [
+          "Cơ quan có thẩm quyền",
+          "Cơ quan nhà nước"
+        ],
+        "v_keyphrases": [
+          "Đồng ý",
+          "Cấp phép"
+        ],
+        "o_keyphrases": [
+          "Cơ quan nước ngoài",
+          "Tổ chức quốc tế"
+        ]
+      },
+      {
+        "s": "Cơ quan nước ngoài",
+        "v": "Thực hiện",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Tổ chức nước ngoài",
+          "Cơ quan quốc tế"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Chức năng"
+        ]
+      },
+      {
+        "s": "Tổ chức nước ngoài",
+        "v": "Thực hiện",
+        "o": "Hoạt động",
+        "s_keyphrases": [
+          "Cơ quan nước ngoài",
+          "Tổ chức quốc tế"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành động",
+          "Chức năng"
+        ]
+      },
+      {
+        "s": "Cơ quan nước ngoài",
+        "v": "Tại",
+        "o": "Lãnh thổ Việt Nam",
+        "s_keyphrases": [
+          "Tổ chức nước ngoài",
+          "Cơ quan quốc tế"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "Địa bàn Việt Nam",
+          "Khu vực Việt Nam"
+        ]
+      },
+      {
+        "s": "Tổ chức nước ngoài",
+        "v": "Tại",
+        "o": "Lãnh thổ Việt Nam",
+        "s_keyphrases": [
+          "Cơ quan nước ngoài",
+          "Tổ chức quốc tế"
+        ],
+        "v_keyphrases": [
+          "Ở",
+          "Tại địa điểm"
+        ],
+        "o_keyphrases": [
+          "Địa bàn Việt Nam",
+          "Khu vực Việt Nam"
+        ]
+      }
     ]
   },
   {
@@ -49,10 +154,40 @@
       "Hộ kinh doanh, hộ gia đình thực hiện hành vi vi phạm hành chính quy định tại Nghị định này bị xử phạt như đối với cá nhân vi phạm."
     ],
     "triplets": [
-      {"s": "Hộ kinh doanh", "v": "Thực hiện", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Hộ gia đình", "v": "Thực hiện", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Hộ kinh doanh",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Doanh nghiệp nhỏ",
+          "Hộ kinh doanh cá thể"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Hành vi sai trái"
+        ]
+      },
+      {
+        "s": "Hộ gia đình",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Gia đình",
+          "Hộ"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Hành vi vi phạm",
+          "Hành vi sai trái"
+        ]
+      }
     ]
   },
   {
@@ -63,16 +198,92 @@
       "Người có thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính và tổ chức, cá nhân có liên quan đến việc xử phạt vi phạm hành chính theo quy định tại Nghị định này."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Lập", "o": "Biên bản vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Xử phạt", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vi phạm hành chính"]},
-      {"s": "Tổ chức", "v": "Liên quan", "o": "Xử phạt vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Liên quan", "o": "Xử phạt vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người đại diện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Lập",
+        "o": "Biên bản vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người đại diện"
+        ],
+        "v_keyphrases": [
+          "Thiết lập",
+          "Tạo ra"
+        ],
+        "o_keyphrases": [
+          "Biên bản xử phạt",
+          "Biên bản vi phạm"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Xử phạt",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người đại diện"
+        ],
+        "v_keyphrases": [
+          "Phạt",
+          "Xử lý vi phạm"
+        ],
+        "o_keyphrases": [
+          "vi phạm hành chính",
+          "Hành vi vi phạm",
+          "Hành vi sai trái"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Liên quan",
+        "o": "Xử phạt vi phạm hành chính",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Xử lý vi phạm hành chính",
+          "Xử phạt hành chính"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Liên quan",
+        "o": "Xử phạt vi phạm hành chính",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Có liên quan",
+          "Gắn liền"
+        ],
+        "o_keyphrases": [
+          "Xử lý vi phạm hành chính",
+          "Xử phạt hành chính"
+        ]
+      }
     ]
   },
   {
@@ -83,14 +294,65 @@
       "Người có thẩm quyền trừ điểm, phục hồi điểm giấy phép lái xe."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Điểm", "v": "Dành cho", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Phục hồi", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người đại diện"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người đại diện"
+        ],
+        "v_keyphrases": [
+          "Ngoại trừ",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Điểm",
+        "v": "Dành cho",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Dành riêng cho",
+          "Cấp cho"
+        ],
+        "o_keyphrases": [
+          "Bằng lái xe",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Phục hồi",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người đại diện"
+        ],
+        "v_keyphrases": [
+          "Khôi phục",
+          "Trả lại"
+        ],
+        "o_keyphrases": []
+      }
     ]
   },
   {
@@ -101,14 +363,74 @@
       "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu một trong các hình thức xử phạt chính là cảnh cáo."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Chịu", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Chịu", "o": "Cảnh cáo",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Chịu",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Gánh chịu",
+          "Chấp nhận"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Chịu",
+        "o": "Cảnh cáo",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Gánh chịu",
+          "Chấp nhận"
+        ],
+        "o_keyphrases": [
+          "Nhắc nhở",
+          "Cảnh báo"
+        ]
+      }
     ]
   },
   {
@@ -119,14 +441,74 @@
       "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu một trong các hình thức xử phạt chính là phạt tiền."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Chịu", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Chịu", "o": "Phạt tiền",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Chịu",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Gánh chịu",
+          "Chấp nhận"
+        ],
+        "o_keyphrases": [
+          "Xử phạt bằng tiền",
+          "Phạt hành chính"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Chịu",
+        "o": "Phạt tiền",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Gánh chịu",
+          "Chấp nhận"
+        ],
+        "o_keyphrases": [
+          "Xử phạt bằng tiền",
+          "Phạt hành chính"
+        ]
+      }
     ]
   },
   {
@@ -137,18 +519,108 @@
       "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ phải chịu một trong các hình thức xử phạt chính là tịch thu phương tiện được sử dụng để vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Tịch thu", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Tịch thu", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Sử dụng", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Sử dụng", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Tịch thu",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch biên"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Tịch thu",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Thu giữ",
+          "Tịch biên"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Sử dụng",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Sử dụng",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Dùng",
+          "Áp dụng"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -159,14 +631,74 @@
       "Cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thể bị áp dụng một hoặc nhiều hình thức xử phạt bổ sung là tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Chứng chỉ hành nghề", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Người",
+          "Cá thể"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Vi phạm",
+        "o": "Trật tự, an toàn giao thông đường bộ",
+        "s_keyphrases": [
+          "Cơ quan",
+          "Đơn vị"
+        ],
+        "v_keyphrases": [
+          "Xâm phạm",
+          "Lỗi"
+        ],
+        "o_keyphrases": [
+          "Trật tự giao thông",
+          "An toàn giao thông"
+        ]
+      },
+      {
+        "s": "Giấy phép",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy chứng nhận",
+          "Giấy phép hoạt động"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      },
+      {
+        "s": "Chứng chỉ hành nghề",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Giấy chứng nhận hành nghề",
+          "Giấy phép hành nghề"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền khai thác"
+        ]
+      }
     ]
   }
 ]

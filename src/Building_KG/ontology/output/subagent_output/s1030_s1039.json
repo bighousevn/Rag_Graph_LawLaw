@@ -7,18 +7,108 @@
       "Khi phương tiện bị tạm giữ, chủ phương tiện phải chịu mọi chi phí cho việc sử dụng phương tiện khác thay thế để vận chuyển người, hàng hóa; nếu không đủ điều kiện thực hiện thì người có thẩm quyền tạm giữ được thuê tổ chức, cá nhân thực hiện việc di chuyển phương tiện."
     ],
     "triplets": [
-      {"s": "Chủ phương tiện", "v": "Chịu", "o": "Chi phí",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Tạm giữ", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Thuê", "o": "Tổ chức",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Thuê", "o": "Cá nhân",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Tổ chức", "v": "Di chuyển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cá nhân", "v": "Di chuyển", "o": "Phương tiện",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Chủ phương tiện",
+        "v": "Chịu",
+        "o": "Chi phí",
+        "s_keyphrases": [
+          "Người sở hữu phương tiện",
+          "Người sử dụng phương tiện"
+        ],
+        "v_keyphrases": [
+          "Chịu trách nhiệm",
+          "Gánh chịu"
+        ],
+        "o_keyphrases": [
+          "Chi phí phát sinh",
+          "Chi phí liên quan"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Tạm giữ",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Giữ lại",
+          "Giữ tạm"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thuê",
+        "o": "Tổ chức",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Mướn",
+          "Thuê mướn"
+        ],
+        "o_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Thuê",
+        "o": "Cá nhân",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Mướn",
+          "Thuê mướn"
+        ],
+        "o_keyphrases": [
+          "Người",
+          "Công dân"
+        ]
+      },
+      {
+        "s": "Tổ chức",
+        "v": "Di chuyển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Đơn vị",
+          "Cơ quan"
+        ],
+        "v_keyphrases": [
+          "Lưu thông",
+          "Chuyển động"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Di chuyển",
+        "o": "Phương tiện",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Lưu thông",
+          "Chuyển động"
+        ],
+        "o_keyphrases": [
+          "Phương tiện giao thông",
+          "Xe cộ"
+        ]
+      }
     ]
   },
   {
@@ -29,16 +119,76 @@
       "Dữ liệu về điểm, trừ điểm, phục hồi điểm giấy phép lái xe được quản lý, lưu trữ trên môi trường điện tử trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ."
     ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Quản lý", "o": "Dữ liệu",
-       "s_keyphrases": ["cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"],
-       "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Cơ sở dữ liệu", "v": "Lưu trữ", "o": "Dữ liệu",
-       "s_keyphrases": ["cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ"],
-       "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Về", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Điểm", "v": "Thuộc", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Quản lý",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ",
+          "Hệ thống dữ liệu",
+          "Cơ sở thông tin"
+        ],
+        "v_keyphrases": [
+          "Điều hành",
+          "Kiểm soát"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu thông tin"
+        ]
+      },
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Lưu trữ",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ",
+          "Hệ thống dữ liệu",
+          "Cơ sở thông tin"
+        ],
+        "v_keyphrases": [
+          "Lưu giữ",
+          "Bảo quản"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu thông tin"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Về",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu thông tin"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Về vấn đề"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ]
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -49,12 +199,58 @@
       "Việc trừ điểm giấy phép lái xe được thực hiện ngay sau khi quyết định xử phạt vi phạm hành chính có hiệu lực thi hành."
     ],
     "triplets": [
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyết định", "v": "Về", "o": "Xử phạt vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyết định", "v": "Có", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hiệu lực thi hành"]}
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Giảm",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ]
+      },
+      {
+        "s": "Quyết định",
+        "v": "Về",
+        "o": "Xử phạt vi phạm hành chính",
+        "s_keyphrases": [
+          "Quyết nghị",
+          "Quyết định hành chính"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Về vấn đề"
+        ],
+        "o_keyphrases": [
+          "Xử lý vi phạm",
+          "Xử phạt"
+        ]
+      },
+      {
+        "s": "Quyết định",
+        "v": "Có",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Quyết nghị",
+          "Quyết định hành chính"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "hiệu lực thi hành",
+          "Thời gian hiệu lực",
+          "Thời hạn"
+        ]
+      }
     ]
   },
   {
@@ -65,10 +261,40 @@
       "Trường hợp cá nhân thực hiện nhiều hành vi vi phạm hành chính mà bị xử phạt trong cùng một lần, chỉ áp dụng trừ điểm đối với hành vi vi phạm bị trừ nhiều điểm nhất."
     ],
     "triplets": [
-      {"s": "Cá nhân", "v": "Thực hiện", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Cá nhân",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [
+          "Người",
+          "Công dân"
+        ],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi vi phạm"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Giảm",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ]
+      }
     ]
   },
   {
@@ -79,10 +305,40 @@
       "Trường hợp số điểm còn lại của giấy phép lái xe ít hơn số điểm bị trừ thì áp dụng trừ hết số điểm còn lại."
     ],
     "triplets": [
-      {"s": "Điểm", "v": "Thuộc", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Giảm",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ]
+      }
     ]
   },
   {
@@ -93,18 +349,100 @@
       "Người có thẩm quyền thực hiện trừ điểm đối với giấy phép lái xe không thời hạn khi người điều khiển xe mô tô hoặc trừ điểm giấy phép lái xe có thời hạn khi người điều khiển xe ô tô thực hiện hành vi vi phạm hành chính."
     ],
     "triplets": [
-      {"s": "Người", "v": "Điều khiển", "o": "Xe mô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
-      {"s": "Người", "v": "Thực hiện", "o": "Hành vi vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Điểm", "v": "Thuộc", "o": "Giấy phép lái xe không thời hạn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Điểm", "v": "Thuộc", "o": "Giấy phép lái xe có thời hạn",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Xe mô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "Xe máy",
+          "Phương tiện mô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Lái",
+          "Quản lý"
+        ],
+        "o_keyphrases": [
+          "xe ô tô",
+          "Xe hơi",
+          "Phương tiện ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Hành vi vi phạm hành chính",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "Tiến hành",
+          "Thực thi"
+        ],
+        "o_keyphrases": [
+          "Vi phạm hành chính",
+          "Hành vi vi phạm"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Cán bộ có thẩm quyền",
+          "Người có quyền hạn"
+        ],
+        "v_keyphrases": [
+          "Giảm",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ]
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe không thời hạn",
+        "s_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Bằng lái không thời hạn",
+          "Giấy phép không thời hạn"
+        ]
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe có thời hạn",
+        "s_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Bằng lái có thời hạn",
+          "Giấy phép có thời hạn"
+        ]
+      }
     ]
   },
   {
@@ -115,10 +453,40 @@
       "Không trừ điểm giấy phép lái xe khi giấy phép lái xe đó đang trong thời hạn bị tước quyền sử dụng."
     ],
     "triplets": [
-      {"s": "Giấy phép lái xe", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Giấy phép lái xe", "v": "Tước", "o": "Quyền sử dụng",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Giảm",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ]
+      },
+      {
+        "s": "Giấy phép lái xe",
+        "v": "Tước",
+        "o": "Quyền sử dụng",
+        "s_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ],
+        "v_keyphrases": [
+          "Rút lại",
+          "Thu hồi"
+        ],
+        "o_keyphrases": [
+          "Quyền sở hữu",
+          "Quyền sử dụng tài sản"
+        ]
+      }
     ]
   },
   {
@@ -129,14 +497,59 @@
       "Người có thẩm quyền xử phạt vi phạm hành chính có thẩm quyền trừ điểm giấy phép lái xe đối với hành vi vi phạm có quy định trừ điểm."
     ],
     "triplets": [
-      {"s": "Người có thẩm quyền xử phạt", "v": "Có", "o": "Thẩm quyền",
-       "s_keyphrases": ["người có thẩm quyền xử phạt vi phạm hành chính"],
-       "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Người có thẩm quyền xử phạt", "v": "Trừ", "o": "Điểm",
-       "s_keyphrases": ["người có thẩm quyền xử phạt vi phạm hành chính"],
-       "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Điểm", "v": "Thuộc", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Có",
+        "o": "Thẩm quyền",
+        "s_keyphrases": [
+          "người có thẩm quyền xử phạt vi phạm hành chính",
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "Quyền hạn",
+          "Quyền lực"
+        ]
+      },
+      {
+        "s": "Người có thẩm quyền xử phạt",
+        "v": "Trừ",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "người có thẩm quyền xử phạt vi phạm hành chính",
+          "Cán bộ xử phạt",
+          "Người có quyền xử phạt"
+        ],
+        "v_keyphrases": [
+          "Giảm",
+          "Khấu trừ"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ]
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      }
     ]
   },
   {
@@ -147,17 +560,93 @@
       "Dữ liệu trừ điểm giấy phép lái xe của người bị xử phạt sẽ được cập nhật tự động vào Cơ sở dữ liệu về xử lý vi phạm hành chính ngay sau khi quyết định xử phạt có hiệu lực thi hành."
     ],
     "triplets": [
-      {"s": "Cơ sở dữ liệu", "v": "Cập nhật", "o": "Dữ liệu",
-       "s_keyphrases": ["cơ sở dữ liệu về xử lý vi phạm hành chính"],
-       "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Dữ liệu", "v": "Về", "o": "Điểm",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Điểm", "v": "Thuộc", "o": "Giấy phép lái xe",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyết định", "v": "Về", "o": "Xử phạt vi phạm hành chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Quyết định", "v": "Có", "o": "Hiệu lực",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hiệu lực thi hành"]}
+      {
+        "s": "Cơ sở dữ liệu",
+        "v": "Cập nhật",
+        "o": "Dữ liệu",
+        "s_keyphrases": [
+          "cơ sở dữ liệu về xử lý vi phạm hành chính",
+          "Hệ thống dữ liệu",
+          "Cơ sở thông tin"
+        ],
+        "v_keyphrases": [
+          "Cập nhật thông tin",
+          "Đưa thông tin mới"
+        ],
+        "o_keyphrases": [
+          "Thông tin",
+          "Dữ liệu thông tin"
+        ]
+      },
+      {
+        "s": "Dữ liệu",
+        "v": "Về",
+        "o": "Điểm",
+        "s_keyphrases": [
+          "Thông tin",
+          "Dữ liệu thông tin"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Về vấn đề"
+        ],
+        "o_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ]
+      },
+      {
+        "s": "Điểm",
+        "v": "Thuộc",
+        "o": "Giấy phép lái xe",
+        "s_keyphrases": [
+          "Điểm số",
+          "Điểm phạt"
+        ],
+        "v_keyphrases": [
+          "Liên quan",
+          "Chịu trách nhiệm"
+        ],
+        "o_keyphrases": [
+          "Bằng lái",
+          "Giấy phép điều khiển phương tiện"
+        ]
+      },
+      {
+        "s": "Quyết định",
+        "v": "Về",
+        "o": "Xử phạt vi phạm hành chính",
+        "s_keyphrases": [
+          "Quyết nghị",
+          "Quyết định hành chính"
+        ],
+        "v_keyphrases": [
+          "Liên quan đến",
+          "Về vấn đề"
+        ],
+        "o_keyphrases": [
+          "Xử lý vi phạm",
+          "Xử phạt"
+        ]
+      },
+      {
+        "s": "Quyết định",
+        "v": "Có",
+        "o": "Hiệu lực",
+        "s_keyphrases": [
+          "Quyết nghị",
+          "Quyết định hành chính"
+        ],
+        "v_keyphrases": [
+          "Sở hữu",
+          "Nắm giữ"
+        ],
+        "o_keyphrases": [
+          "hiệu lực thi hành",
+          "Thời gian hiệu lực",
+          "Thời hạn"
+        ]
+      }
     ]
   },
   {
@@ -168,10 +657,40 @@
       "Việc thông báo trừ điểm giấy phép lái xe thực hiện bằng văn bản theo mẫu quy định và được giao trực tiếp hoặc gửi qua dịch vụ bưu chính."
     ],
     "triplets": [
-      {"s": "Thông báo trừ điểm giấy phép lái xe", "v": "Giao", "o": "Trực tiếp",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
-      {"s": "Thông báo trừ điểm giấy phép lái xe", "v": "Qua", "o": "Dịch vụ bưu chính",
-       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+      {
+        "s": "Thông báo trừ điểm giấy phép lái xe",
+        "v": "Giao",
+        "o": "Trực tiếp",
+        "s_keyphrases": [
+          "Thông báo giảm điểm",
+          "Thông báo xử lý điểm"
+        ],
+        "v_keyphrases": [
+          "Chuyển giao",
+          "Đưa"
+        ],
+        "o_keyphrases": [
+          "Ngay lập tức",
+          "Trực tiếp thực hiện"
+        ]
+      },
+      {
+        "s": "Thông báo trừ điểm giấy phép lái xe",
+        "v": "Qua",
+        "o": "Dịch vụ bưu chính",
+        "s_keyphrases": [
+          "Thông báo giảm điểm",
+          "Thông báo xử lý điểm"
+        ],
+        "v_keyphrases": [
+          "Thông qua",
+          "Đi qua"
+        ],
+        "o_keyphrases": [
+          "Dịch vụ chuyển phát",
+          "Dịch vụ bưu điện"
+        ]
+      }
     ]
   }
 ]
