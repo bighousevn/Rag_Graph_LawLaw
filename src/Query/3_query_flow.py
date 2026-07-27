@@ -46,8 +46,13 @@ KG_FILE           = os.path.join(BUILD_OUTPUT_DIR, "kg_triplets.json")
 
 # Văn bản GỐC (chưa viết lại) — nằm ở material_for_triplets, không phải ontology/output (đó là
 # bản đã rewritten dùng để trích triplet, không phải văn bản luật thật để trích dẫn cho người dùng).
-MATERIAL_FILE = os.path.join(os.path.dirname(BASE_DIR), "Building_KG", "material_for_triplets",
-                              "2_sections_rewritten_nghi_dinh_168_2024_1.json")
+# KG hiện gộp nhiều văn bản (Nghị định 168 + Luật Trật tự ATGT...) nên đọc text gốc từ TẤT CẢ
+# material file liên quan, id section là duy nhất xuyên suốt nên gộp thẳng thành 1 dict.
+_MATERIALS_DIR = os.path.join(os.path.dirname(BASE_DIR), "Building_KG", "material_for_triplets")
+MATERIAL_FILES = [
+    os.path.join(_MATERIALS_DIR, "1_sections_rewritten_nghi_dinh_168_2024_1.json"),
+    os.path.join(_MATERIALS_DIR, "2_sections_rewritten_trat_tu_atgt_1.json"),
+]
 
 TOP_K     = 5
 THRESHOLD = 0.8
@@ -78,19 +83,20 @@ def load_index():
 
 
 def load_section_texts() -> dict[str, dict]:
-    """section_id -> {path, document_name, text_content} — lấy từ MATERIAL_FILE (văn bản GỐC,
+    """section_id -> {path, document_name, text_content} — lấy từ MATERIAL_FILES (văn bản GỐC,
     chưa viết lại), để gắn đúng nguyên văn điều khoản luật vào kết quả truy vấn cuối (không phải
     bản rewritten_propositions dùng nội bộ để trích triplet)."""
-    with open(MATERIAL_FILE, encoding="utf-8") as f:
-        sections = json.load(f)
-    return {
-        s["id"]: {
-            "path": s.get("path"),
-            "document_name": s.get("document_name"),
-            "text_content": s.get("text_content", ""),
-        }
-        for s in sections
-    }
+    texts: dict[str, dict] = {}
+    for path in MATERIAL_FILES:
+        with open(path, encoding="utf-8") as f:
+            sections = json.load(f)
+        for s in sections:
+            texts[s["id"]] = {
+                "path": s.get("path"),
+                "document_name": s.get("document_name"),
+                "text_content": s.get("text_content", ""),
+            }
+    return texts
 
 
 def search(vector, row_type: str, vectors, rows, idxs_by_type, all_ids: set,

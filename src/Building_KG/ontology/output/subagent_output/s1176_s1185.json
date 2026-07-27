@@ -1,0 +1,196 @@
+[
+  {
+    "id": "s1176",
+    "path": "Chương II - Điều 11 - Khoản 1",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Báo hiệu đường bộ bao gồm: hiệu lệnh của người điều khiển giao thông; đèn tín hiệu giao thông; biển báo hiệu đường bộ; vạch kẻ đường và các dấu hiệu khác trên mặt đường; cọc tiêu, tường bảo vệ, rào chắn, đinh phản quang, tiêu phản quang, cột Km, cọc H; thiết bị âm thanh báo hiệu đường bộ."
+    ],
+    "triplets": [
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Hiệu lệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người điều khiển giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Đèn tín hiệu giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Biển báo hiệu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường bộ"]},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Vạch kẻ đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Dấu hiệu trên mặt đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["các dấu hiệu khác trên mặt đường"]},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Cọc tiêu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Tường bảo vệ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Rào chắn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Đinh phản quang",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Tiêu phản quang",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Cột Km",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Cọc H",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Báo hiệu đường bộ", "v": "Bao gồm", "o": "Thiết bị âm thanh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thiết bị âm thanh báo hiệu đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1177",
+    "path": "Chương II - Điều 11 - Khoản 2 - Điểm a",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: a) Hiệu lệnh của người điều khiển giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Hiệu lệnh",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hiệu lệnh", "v": "Dành cho", "o": "Người điều khiển giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1178",
+    "path": "Chương II - Điều 11 - Khoản 2 - Điểm b",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: b) Tín hiệu đèn giao thông."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Đèn tín hiệu giao thông",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["tín hiệu đèn giao thông"]}
+    ]
+  },
+  {
+    "id": "s1179",
+    "path": "Chương II - Điều 11 - Khoản 2 - Điểm c",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: c) Biển báo hiệu đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Biển báo hiệu",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["biển báo hiệu đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1180",
+    "path": "Chương II - Điều 11 - Khoản 2 - Điểm d",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: d) Vạch kẻ đường và các dấu hiệu khác trên mặt đường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Vạch kẻ đường",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Dấu hiệu trên mặt đường",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["các dấu hiệu khác trên mặt đường"]}
+    ]
+  },
+  {
+    "id": "s1181",
+    "path": "Chương II - Điều 11 - Khoản 2 - Điểm đ",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: đ) Cọc tiêu, tường bảo vệ, rào chắn, đinh phản quang, tiêu phản quang, cột Km, cọc H."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Cọc tiêu",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Tường bảo vệ",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Rào chắn",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Đinh phản quang",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Tiêu phản quang",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Cột Km",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Cọc H",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1182",
+    "path": "Chương II - Điều 11 - Khoản 2 - Điểm e",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: e) Thiết bị âm thanh báo hiệu đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Thiết bị âm thanh",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": ["thiết bị âm thanh báo hiệu đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1183",
+    "path": "Chương II - Điều 11 - Khoản 3 - Điểm a",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Hiệu lệnh của người điều khiển giao thông được quy định như sau: a) Tay bên phải giơ thẳng đứng để báo hiệu cho người tham gia giao thông đường bộ ở tất cả các hướng phải dừng lại."
+    ],
+    "triplets": [
+      {"s": "Người điều khiển giao thông", "v": "Giơ thẳng đứng", "o": "Tay",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tay bên phải"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Dừng lại",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1184",
+    "path": "Chương II - Điều 11 - Khoản 3 - Điểm b",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Hiệu lệnh của người điều khiển giao thông được quy định như sau: b) Hai tay hoặc một tay dang ngang để báo hiệu cho người tham gia giao thông đường bộ ở phía trước và ở phía sau người điều khiển giao thông phải dừng lại; người tham gia giao thông đường bộ ở phía bên phải và bên trái người điều khiển giao thông được đi."
+    ],
+    "triplets": [
+      {"s": "Người điều khiển giao thông", "v": "Dang ngang", "o": "Tay",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hai tay", "một tay"]},
+      {"s": "Người", "v": "Tại", "o": "Phía trước",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Phía sau",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Dừng lại",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Bên phải",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Bên trái",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Đi",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1185",
+    "path": "Chương II - Điều 11 - Khoản 3 - Điểm c",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Hiệu lệnh của người điều khiển giao thông được quy định như sau: c) Tay bên phải giơ về phía trước để báo hiệu cho người tham gia giao thông đường bộ ở phía sau và bên phải người điều khiển giao thông phải dừng lại; người tham gia giao thông đường bộ ở phía trước người điều khiển giao thông được rẽ phải; người tham gia giao thông đường bộ ở phía bên trái người điều khiển giao thông được đi tất cả các hướng; người đi bộ qua đường phải đi sau lưng người điều khiển giao thông."
+    ],
+    "triplets": [
+      {"s": "Người điều khiển giao thông", "v": "Giơ về phía trước", "o": "Tay",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tay bên phải"]},
+      {"s": "Người", "v": "Tại", "o": "Phía sau",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Bên phải",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Dừng lại",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Phía trước",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Rẽ phải", "o": "Phương tiện",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Bên trái",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Đi",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đi bộ", "v": "Đi qua", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người đi bộ", "v": "Tại", "o": "Phía sau",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["sau lưng"]}
+    ]
+  }
+]

@@ -1,0 +1,671 @@
+[
+  {
+    "id": "s1146",
+    "path": "Chương I - Điều 9 - Khoản 2",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Cồn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1147",
+    "path": "Chương I - Điều 9 - Khoản 3",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Điều khiển phương tiện tham gia giao thông đường bộ mà trong cơ thể có chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Ma túy",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "chất ma túy"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Chất kích thích",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "chất kích thích khác"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1148",
+    "path": "Chương I - Điều 9 - Khoản 4",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Cá nhân",
+        "v": "Xúc phạm",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Đe dọa",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Cản trở",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Cá nhân",
+        "v": "Chống đối",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hiệu lệnh",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Hướng dẫn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Yêu cầu kiểm tra",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chấp hành",
+        "o": "Yêu cầu kiểm soát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hiệu lệnh",
+        "v": "Dành cho",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Hướng dẫn",
+        "v": "Dành cho",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Yêu cầu kiểm tra",
+        "v": "Dành cho",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Yêu cầu kiểm soát",
+        "v": "Dành cho",
+        "o": "Người thi hành công vụ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1149",
+    "path": "Chương I - Điều 9 - Khoản 5",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Đua xe, tổ chức đua xe, xúi giục, giúp sức, cổ vũ đua xe trái phép; điều khiển phương tiện tham gia giao thông đường bộ lạng lách, đánh võng, rú ga liên tục."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Đua xe trái phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tổ chức",
+        "o": "Đua xe trái phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Xúi giục",
+        "o": "Đua xe trái phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "giúp sức",
+          "cổ vũ"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lạng lách",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đánh võng",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Rú ga",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1150",
+    "path": "Chương I - Điều 9 - Khoản 6",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Dùng tay cầm và sử dụng điện thoại hoặc thiết bị điện tử khác khi điều khiển phương tiện tham gia giao thông đang di chuyển trên đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Cầm",
+        "o": "Điện thoại",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Điện thoại",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Cầm",
+        "o": "Thiết bị điện tử",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "thiết bị điện tử khác"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Sử dụng",
+        "o": "Thiết bị điện tử",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "thiết bị điện tử khác"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1151",
+    "path": "Chương I - Điều 9 - Khoản 7",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Giao xe cơ giới, xe máy chuyên dùng cho người không đủ điều kiện theo quy định của pháp luật để điều khiển xe tham gia giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Giao",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giao",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người không đủ điều kiện",
+        "v": "Điều khiển",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1152",
+    "path": "Chương I - Điều 9 - Khoản 8",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Đưa xe cơ giới, xe máy chuyên dùng không bảo đảm quy định của pháp luật về an toàn kỹ thuật và bảo vệ môi trường, phương tiện khác không đủ điều kiện theo quy định của pháp luật để tham gia giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Đưa",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đưa",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đưa",
+        "o": "Phương tiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe cơ giới",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn an toàn kỹ thuật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe cơ giới",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn môi trường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn an toàn kỹ thuật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn môi trường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Phương tiện",
+        "v": "Đủ",
+        "o": "Điều kiện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1153",
+    "path": "Chương I - Điều 9 - Khoản 9",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Nhập khẩu, sản xuất, lắp ráp xe cơ giới, xe máy chuyên dùng không bảo đảm quy định của pháp luật về chất lượng an toàn kỹ thuật và bảo vệ môi trường."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Nhập khẩu",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Nhập khẩu",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sản xuất",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Sản xuất",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lắp ráp",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Lắp ráp",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe cơ giới",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn an toàn kỹ thuật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe cơ giới",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn môi trường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn an toàn kỹ thuật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Xe máy chuyên dùng",
+        "v": "Bảo đảm",
+        "o": "Quy chuẩn môi trường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1154",
+    "path": "Chương I - Điều 9 - Khoản 10",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Cải tạo xe ô tô loại khác thành xe ô tô chở người, trừ cải tạo thành xe ô tô chở người phục vụ mục đích quốc phòng, an ninh."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Cải tạo",
+        "o": "Ô tô loại khác",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô loại khác"
+        ]
+      },
+      {
+        "s": "Ô tô loại khác",
+        "v": "Thành",
+        "o": "Ô tô chở người",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô chở người"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1155",
+    "path": "Chương I - Điều 9 - Khoản 11",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Cải tạo trái phép",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Làm sai lệch",
+        "o": "Chỉ số đồng hồ báo quãng đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chỉ số đồng hồ báo quãng đường",
+        "v": "Dành cho",
+        "o": "Ô tô",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe ô tô"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Cắt",
+        "o": "Số khung",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Cắt",
+        "o": "Số động cơ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Hàn",
+        "o": "Số khung",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Hàn",
+        "o": "Số động cơ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tẩy xóa",
+        "o": "Số khung",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tẩy xóa",
+        "o": "Số động cơ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đục sửa",
+        "o": "Số khung",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đục sửa",
+        "o": "Số động cơ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đóng lại",
+        "o": "Số khung",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Đóng lại",
+        "o": "Số động cơ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Số khung",
+        "v": "Dành cho",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Số khung",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Số động cơ",
+        "v": "Dành cho",
+        "o": "Xe cơ giới",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Số động cơ",
+        "v": "Dành cho",
+        "o": "Xe máy chuyên dùng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "s1116",
+    "path": "Chương I - Điều 5 - Khoản 2",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Cơ quan quản lý nhà nước về trật tự, an toàn giao thông đường bộ chủ trì, phối hợp với các cơ quan, tổ chức, cá nhân có liên quan thực hiện tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Cơ quan quản lý nhà nước về trật tự, an toàn giao thông đường bộ", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ quan quản lý nhà nước về trật tự, an toàn giao thông đường bộ", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1117",
+    "path": "Chương I - Điều 5 - Khoản 3",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Cơ quan thông tin, truyền thông có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ trên các phương tiện thông tin, truyền thông đại chúng."
+    ],
+    "triplets": [
+      {"s": "Cơ quan thông tin, truyền thông", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ quan thông tin, truyền thông", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ quan thông tin, truyền thông", "v": "Sử dụng", "o": "Phương tiện thông tin đại chúng",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["phương tiện thông tin, truyền thông đại chúng"]}
+    ]
+  },
+  {
+    "id": "s1118",
+    "path": "Chương I - Điều 5 - Khoản 4",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên của Mặt trận có trách nhiệm phối hợp với cơ quan hữu quan và chính quyền địa phương tuyên truyền, vận động Nhân dân thực hiện pháp luật về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Mặt trận Tổ quốc Việt Nam", "v": "Tuyên truyền", "o": "Nhân dân",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Mặt trận Tổ quốc Việt Nam", "v": "Vận động", "o": "Nhân dân",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức thành viên của Mặt trận Tổ quốc Việt Nam", "v": "Tuyên truyền", "o": "Nhân dân",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tổ chức thành viên của Mặt trận Tổ quốc Việt Nam", "v": "Vận động", "o": "Nhân dân",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nhân dân", "v": "Thực hiện", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1119",
+    "path": "Chương I - Điều 5 - Khoản 5",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Bộ, cơ quan ngang Bộ, Ủy ban nhân dân các cấp, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Bộ", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Bộ", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ quan ngang Bộ", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ quan ngang Bộ", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Ủy ban nhân dân", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": ["ủy ban nhân dân các cấp"], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Ủy ban nhân dân", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": ["ủy ban nhân dân các cấp"], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1120",
+    "path": "Chương I - Điều 5 - Khoản 6",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Đơn vị lực lượng vũ trang nhân dân, cơ quan, tổ chức, cơ sở giáo dục có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ cho đối tượng thuộc thẩm quyền quản lý."
+    ],
+    "triplets": [
+      {"s": "Đơn vị lực lượng vũ trang nhân dân", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Đơn vị lực lượng vũ trang nhân dân", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ quan", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ quan", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Tổ chức", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Tổ chức", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ sở giáo dục", "v": "Tuyên truyền", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Cơ sở giáo dục", "v": "Phổ biến", "o": "Pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1121",
+    "path": "Chương I - Điều 5 - Khoản 7",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Thành viên trong gia đình có trách nhiệm tuyên truyền, nhắc nhở thành viên khác chấp hành pháp luật về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Thành viên gia đình", "v": "Tuyên truyền", "o": "Thành viên gia đình",
+       "s_keyphrases": ["thành viên trong gia đình"], "v_keyphrases": [],
+       "o_keyphrases": ["thành viên khác"]},
+      {"s": "Thành viên gia đình", "v": "Nhắc nhở", "o": "Thành viên gia đình",
+       "s_keyphrases": ["thành viên trong gia đình"], "v_keyphrases": [],
+       "o_keyphrases": ["thành viên khác"]},
+      {"s": "Thành viên gia đình", "v": "Chấp hành", "o": "Pháp luật",
+       "s_keyphrases": ["thành viên khác"], "v_keyphrases": [],
+       "o_keyphrases": ["pháp luật về trật tự, an toàn giao thông đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1122",
+    "path": "Chương I - Điều 6 - Khoản 1",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Giáo dục kiến thức pháp luật về trật tự, an toàn giao thông đường bộ cho trẻ em của cơ sở giáo dục mầm non, học sinh của cơ sở giáo dục phổ thông, cơ sở giáo dục nghề nghiệp."
+    ],
+    "triplets": [
+      {"s": "Giáo dục kiến thức pháp luật", "v": "Dành cho", "o": "Trẻ em",
+       "s_keyphrases": ["giáo dục kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"],
+       "v_keyphrases": ["cho"], "o_keyphrases": []},
+      {"s": "Giáo dục kiến thức pháp luật", "v": "Dành cho", "o": "Học sinh",
+       "s_keyphrases": ["giáo dục kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"],
+       "v_keyphrases": ["cho"], "o_keyphrases": []},
+      {"s": "Trẻ em", "v": "Dành cho", "o": "Cơ sở giáo dục mầm non",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Học sinh", "v": "Dành cho", "o": "Cơ sở giáo dục phổ thông",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Học sinh", "v": "Dành cho", "o": "Cơ sở giáo dục nghề nghiệp",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1123",
+    "path": "Chương I - Điều 6 - Khoản 2",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Lực lượng Cảnh sát giao thông có trách nhiệm chủ trì, phối hợp với cơ quan quản lý trường trung học phổ thông, cơ sở giáo dục nghề nghiệp tổ chức hướng dẫn kỹ năng lái xe gắn máy an toàn cho học sinh tại cơ sở giáo dục đó."
+    ],
+    "triplets": [
+      {"s": "Cảnh sát giao thông", "v": "Hướng dẫn", "o": "Học sinh",
+       "s_keyphrases": ["lực lượng cảnh sát giao thông"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cảnh sát giao thông", "v": "Hướng dẫn", "o": "Kỹ năng lái xe gắn máy an toàn",
+       "s_keyphrases": ["lực lượng cảnh sát giao thông"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1124",
+    "path": "Chương I - Điều 6 - Khoản 3",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Bộ Giáo dục và Đào tạo, Bộ Lao động, Thương binh và Xã hội, trong phạm vi nhiệm vụ, quyền hạn của mình, chủ trì, phối hợp với Bộ Công an và Bộ, cơ quan ngang Bộ có liên quan xây dựng, tích hợp, lồng ghép kiến thức pháp luật về trật tự, an toàn giao thông đường bộ vào chương trình giảng dạy."
+    ],
+    "triplets": [
+      {"s": "Bộ Giáo dục và Đào tạo", "v": "Xây dựng", "o": "Kiến thức pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Bộ Giáo dục và Đào tạo", "v": "Tích hợp", "o": "Kiến thức pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Bộ Giáo dục và Đào tạo", "v": "Lồng ghép", "o": "Kiến thức pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Bộ Lao động, Thương binh và Xã hội", "v": "Xây dựng", "o": "Kiến thức pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Bộ Lao động, Thương binh và Xã hội", "v": "Tích hợp", "o": "Kiến thức pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Bộ Lao động, Thương binh và Xã hội", "v": "Lồng ghép", "o": "Kiến thức pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["kiến thức pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Kiến thức pháp luật", "v": "Dành cho", "o": "Chương trình",
+       "s_keyphrases": [], "v_keyphrases": ["vào"],
+       "o_keyphrases": ["chương trình giảng dạy"]}
+    ]
+  },
+  {
+    "id": "s1125",
+    "path": "Chương I - Điều 7 - Khoản 1 - Điểm a",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ bao gồm: Cơ sở dữ liệu về đăng ký, quản lý xe cơ giới, xe máy chuyên dùng."
+    ],
+    "triplets": [
+      {"s": "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ", "v": "Bao gồm", "o": "Cơ sở dữ liệu về đăng ký, quản lý xe cơ giới, xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

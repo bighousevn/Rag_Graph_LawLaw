@@ -1,0 +1,179 @@
+[
+  {
+    "id": "s1096",
+    "path": "Chương I - Điều 2 - Khoản 9",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ bao gồm: người điều khiển xe cơ giới, người điều khiển xe thô sơ, người điều khiển xe máy chuyên dùng."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe thô sơ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Điều khiển", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1097",
+    "path": "Chương I - Điều 2 - Khoản 10",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển giao thông đường bộ bao gồm: Cảnh sát giao thông và người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người điều khiển giao thông", "v": "Gồm", "o": "Cảnh sát giao thông",
+       "s_keyphrases": ["người điều khiển giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người điều khiển giao thông", "v": "Gồm", "o": "Người được giao nhiệm vụ hướng dẫn giao thông",
+       "s_keyphrases": ["người điều khiển giao thông đường bộ"], "v_keyphrases": [],
+       "o_keyphrases": ["người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1098",
+    "path": "Chương I - Điều 2 - Khoản 11",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Ùn tắc giao thông đường bộ là tình trạng người, phương tiện tham gia giao thông đường bộ bị dồn ứ, di chuyển với tốc độ rất chậm hoặc không thể di chuyển được."
+    ],
+    "triplets": []
+  },
+  {
+    "id": "s1099",
+    "path": "Chương I - Điều 2 - Khoản 12",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Tai nạn giao thông đường bộ là va chạm liên quan đến người, phương tiện khi tham gia giao thông đường bộ, xảy ra ngoài ý muốn của người tham gia giao thông đường bộ, gây thiệt hại đến tính mạng, sức khỏe, tài sản của cá nhân hoặc tài sản của cơ quan, tổ chức."
+    ],
+    "triplets": [
+      {"s": "Tai nạn giao thông đường bộ", "v": "Liên quan", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tai nạn giao thông đường bộ", "v": "Liên quan", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tai nạn giao thông đường bộ", "v": "Gây thiệt hại", "o": "Tính mạng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tai nạn giao thông đường bộ", "v": "Gây thiệt hại", "o": "Sức khỏe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tai nạn giao thông đường bộ", "v": "Gây thiệt hại", "o": "Tài sản",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1100",
+    "path": "Chương I - Điều 2 - Khoản 13",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Thiết bị an toàn cho trẻ em là thiết bị có đủ khả năng bảo đảm an toàn cho trẻ em ở tư thế ngồi hoặc nằm trên xe ô tô, được thiết kế để giảm nguy cơ chấn thương cho người dùng trong trường hợp xảy ra va chạm hoặc xe ô tô giảm tốc độ đột ngột."
+    ],
+    "triplets": [
+      {"s": "Thiết bị an toàn", "v": "Dành cho", "o": "Trẻ em",
+       "s_keyphrases": [], "v_keyphrases": ["cho"], "o_keyphrases": []},
+      {"s": "Thiết bị an toàn", "v": "Giảm", "o": "Chấn thương",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1101",
+    "path": "Chương I - Điều 2 - Khoản 14",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ là thiết bị kỹ thuật công nghệ có khả năng phát hiện, phân tích, đánh giá các tình huống giao thông đường bộ, vi phạm pháp luật trên đường bộ; do lực lượng chức năng sử dụng để hỗ trợ chỉ huy, điều khiển giao thông đường bộ, giải quyết tình huống và xử lý vi phạm pháp luật trên đường bộ."
+    ],
+    "triplets": [
+      {"s": "Lực lượng chức năng", "v": "Sử dụng", "o": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ", "v": "Phát hiện", "o": "Tình huống giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ", "v": "Phát hiện", "o": "Vi phạm pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vi phạm pháp luật trên đường bộ"]},
+      {"s": "Lực lượng chức năng", "v": "Giải quyết", "o": "Tình huống giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Lực lượng chức năng", "v": "Xử lý", "o": "Vi phạm pháp luật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vi phạm pháp luật trên đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1102",
+    "path": "Chương I - Điều 3 - Khoản 1",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ là tuân thủ Hiến pháp, pháp luật Việt Nam và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên."
+    ],
+    "triplets": [
+      {"s": "Nguyên tắc", "v": "Tuân thủ", "o": "Hiến pháp",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Tuân thủ", "o": "Pháp luật Việt Nam",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Tuân thủ", "o": "Điều ước quốc tế",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1103",
+    "path": "Chương I - Điều 3 - Khoản 2",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ là bảo đảm giao thông đường bộ được trật tự, an toàn, thông suốt, góp phần phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh và bảo vệ môi trường; phòng ngừa vi phạm pháp luật về trật tự, an toàn giao thông đường bộ, tai nạn giao thông đường bộ và ùn tắc giao thông; bảo vệ tính mạng, sức khỏe, tài sản của cá nhân và tài sản của cơ quan, tổ chức."
+    ],
+    "triplets": [
+      {"s": "Nguyên tắc", "v": "Bảo đảm", "o": "Giao thông đường bộ",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Phát triển", "o": "Kinh tế - xã hội",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": ["góp phần phát triển"], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Bảo đảm", "o": "Quốc phòng",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Bảo đảm", "o": "An ninh",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Bảo đảm", "o": "Bảo vệ môi trường",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Phòng ngừa", "o": "Vi phạm pháp luật",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [],
+       "o_keyphrases": ["vi phạm pháp luật về trật tự, an toàn giao thông đường bộ"]},
+      {"s": "Nguyên tắc", "v": "Phòng ngừa", "o": "Tai nạn giao thông đường bộ",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Phòng ngừa", "o": "Ùn tắc giao thông",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Bảo vệ", "o": "Tính mạng",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Bảo vệ", "o": "Sức khỏe",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nguyên tắc", "v": "Bảo vệ", "o": "Tài sản",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1104",
+    "path": "Chương I - Điều 3 - Khoản 3",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ là trách nhiệm của cơ quan, tổ chức, cá nhân."
+    ],
+    "triplets": [
+      {"s": "Nguyên tắc", "v": "Là", "o": "Trách nhiệm",
+       "s_keyphrases": ["nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trách nhiệm", "v": "Dành cho", "o": "Cơ quan",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Trách nhiệm", "v": "Dành cho", "o": "Tổ chức",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Trách nhiệm", "v": "Dành cho", "o": "Cá nhân",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1105",
+    "path": "Chương I - Điều 3 - Khoản 4",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành các quy định của pháp luật về trật tự, an toàn giao thông đường bộ và quy định khác của pháp luật có liên quan, có trách nhiệm giữ an toàn cho mình và cho người khác."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Quy định",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Trách nhiệm",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Giữ", "o": "An toàn giao thông đường bộ",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

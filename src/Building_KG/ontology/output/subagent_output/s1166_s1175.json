@@ -1,0 +1,255 @@
+[
+  {
+    "id": "s1166",
+    "path": "Chương I - Điều 9 - Khoản 22",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Lợi dụng, lạm dụng nhiệm vụ bảo đảm trật tự, an toàn giao thông đường bộ để thực hiện hành vi vi phạm pháp luật, nhũng nhiễu, xâm phạm lợi ích của Nhà nước, quyền và lợi ích hợp pháp của tổ chức, cá nhân."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Lợi dụng", "o": "Nhiệm vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lạm dụng", "o": "Nhiệm vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nhiệm vụ", "v": "Bảo đảm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Hành vi vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["hành vi vi phạm pháp luật"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Nhũng nhiễu",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Xâm phạm", "o": "Lợi ích",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Lợi ích", "v": "Dành cho", "o": "Nhà nước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Xâm phạm", "o": "Quyền và lợi ích hợp pháp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền và lợi ích hợp pháp", "v": "Dành cho", "o": "Tổ chức",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền và lợi ích hợp pháp", "v": "Dành cho", "o": "Cá nhân",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1167",
+    "path": "Chương I - Điều 9 - Khoản 23",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Lợi dụng chức vụ, quyền hạn, nghề nghiệp của bản thân hoặc người khác để vi phạm pháp luật về trật tự, an toàn giao thông đường bộ hoặc can thiệp, tác động vào quá trình xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Lợi dụng", "o": "Chức vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lợi dụng", "o": "Quyền hạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lợi dụng", "o": "Nghề nghiệp",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Chức vụ", "v": "Dành cho", "o": "Người khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Quyền hạn", "v": "Dành cho", "o": "Người khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Nghề nghiệp", "v": "Dành cho", "o": "Người khác",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Vi phạm", "o": "Trật tự, an toàn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Can thiệp", "o": "Xử lý vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tác động", "o": "Xử lý vi phạm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1168",
+    "path": "Chương I - Điều 9 - Khoản 24",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Sử dụng quyền của xe ưu tiên khi không thực hiện nhiệm vụ theo quy định của pháp luật; lắp đặt, sử dụng thiết bị phát tín hiệu ưu tiên không đúng quy định của pháp luật."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Sử dụng", "o": "Quyền ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["quyền của xe ưu tiên"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Nhiệm vụ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lắp đặt", "o": "Thiết bị phát tín hiệu ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị phát tín hiệu ưu tiên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1169",
+    "path": "Chương I - Điều 9 - Khoản 25",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Không khai báo, khai báo gian dối hoặc cung cấp thông tin, tài liệu không đúng sự thật để trốn tránh trách nhiệm khi bị phát hiện vi phạm pháp luật về trật tự, an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Thực hiện", "o": "Khai báo",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Khai báo gian dối",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Cung cấp", "o": "Thông tin sai sự thật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["thông tin không đúng sự thật"]},
+      {"s": "Người", "v": "Cung cấp", "o": "Tài liệu sai sự thật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tài liệu không đúng sự thật"]},
+      {"s": "Người", "v": "Trốn tránh", "o": "Trách nhiệm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trốn tránh", "o": "Phát hiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1170",
+    "path": "Chương I - Điều 9 - Khoản 26",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Bỏ trốn sau khi gây tai nạn giao thông đường bộ để trốn tránh trách nhiệm; khi có điều kiện mà cố ý không cứu giúp người bị tai nạn giao thông đường bộ; xâm phạm tính mạng, sức khỏe, tài sản của người bị nạn, người gây tai nạn giao thông đường bộ hoặc người giúp đỡ, cứu chữa, đưa người bị nạn đi cấp cứu; lợi dụng việc xảy ra tai nạn giao thông đường bộ để hành hung, đe dọa, xúi giục, gây sức ép, làm mất trật tự, cản trở việc xử lý tai nạn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Gây", "o": "Tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Bỏ trốn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Trốn tránh", "o": "Trách nhiệm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Cứu giúp", "o": "Người bị tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Xâm phạm", "o": "Tính mạng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính mạng", "v": "Dành cho", "o": "Người bị nạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính mạng", "v": "Dành cho", "o": "Người gây tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tính mạng", "v": "Dành cho", "o": "Người giúp đỡ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Xâm phạm", "o": "Sức khỏe",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Người bị nạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Người gây tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Sức khỏe", "v": "Dành cho", "o": "Người giúp đỡ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Xâm phạm", "o": "Tài sản",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tài sản", "v": "Dành cho", "o": "Người bị nạn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tài sản", "v": "Dành cho", "o": "Người gây tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tài sản", "v": "Dành cho", "o": "Người giúp đỡ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Lợi dụng", "o": "Tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Hành hung",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Đe dọa",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Xúi giục",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Gây sức ép",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Làm mất trật tự",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Cản trở", "o": "Xử lý tai nạn giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1171",
+    "path": "Chương I - Điều 9 - Khoản 27",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Điều khiển vật thể bay, tàu bay không người lái, phương tiện bay siêu nhẹ hoạt động trong phạm vi khổ giới hạn đường bộ gây cản trở hoặc nguy cơ mất an toàn cho người, phương tiện tham gia giao thông đường bộ, trừ tàu bay không người lái, phương tiện bay siêu nhẹ được cấp phép bay."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Vật thể bay",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["tàu bay không người lái", "phương tiện bay siêu nhẹ"]},
+      {"s": "Vật thể bay", "v": "Tại", "o": "Khổ giới hạn đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể bay", "v": "Cản trở", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể bay", "v": "Cản trở", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể bay", "v": "Đe dọa", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vật thể bay", "v": "Đe dọa", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1172",
+    "path": "Chương I - Điều 9 - Khoản 28",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Hành vi khác vi phạm quy tắc giao thông đường bộ quy định tại Chương II của Luật này."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Vi phạm", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1173",
+    "path": "Chương II - Điều 10 - Khoản 1",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải đi bên phải theo chiều đi của mình, đi đúng làn đường, phần đường quy định, chấp hành báo hiệu đường bộ và các quy tắc giao thông đường bộ khác."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Đi", "o": "Bên phải",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Đi", "o": "Phần đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Báo hiệu đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chấp hành", "o": "Quy tắc giao thông đường bộ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1174",
+    "path": "Chương II - Điều 10 - Khoản 2",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người lái xe và người được chở trên xe ô tô phải thắt dây đai an toàn tại những chỗ có trang bị dây đai an toàn khi tham gia giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Trên", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Thắt", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người được chở", "v": "Thắt", "o": "Dây đai an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vị trí", "v": "Trang bị", "o": "Dây đai an toàn",
+       "s_keyphrases": ["chỗ"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Vị trí",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["chỗ"]}
+    ]
+  },
+  {
+    "id": "s1175",
+    "path": "Chương II - Điều 10 - Khoản 3",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Khi chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô không được cho trẻ em ngồi cùng hàng ghế với người lái xe, trừ loại xe ô tô chỉ có một hàng ghế; người lái xe phải sử dụng, hướng dẫn sử dụng thiết bị an toàn phù hợp cho trẻ em."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Ô tô",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe ô tô"]},
+      {"s": "Người", "v": "Chở", "o": "Trẻ em",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Trẻ em", "v": "Ngồi cùng", "o": "Người",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Sử dụng", "o": "Thiết bị an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Hướng dẫn", "o": "Thiết bị an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Thiết bị an toàn", "v": "Phù hợp", "o": "Trẻ em",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]
