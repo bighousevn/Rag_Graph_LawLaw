@@ -14,13 +14,20 @@ Với MỖI sub-triplet (s, v, o):
     3. Chấm điểm mỗi edge khớp = min(sim_S, sim_V, sim_O) — bảo thủ, tránh 1 điểm cao che 2 điểm
        yếu. Giữ mọi edge trên ngưỡng (không chỉ top-1), union "section_ids" của chúng.
 
-Sau khi có 1 tập section_ids cho MỖI sub-triplet, kết hợp giữa các sub-triplet:
-    - Giao (intersection) trước — đúng khi câu hỏi mô tả 1 hành vi ghép (nhiều sub-triplet cùng
-      nằm chung 1 điều khoản).
-    - Giao rỗng → fallback: đếm mỗi section_id được BAO NHIÊU sub-triplet (không rỗng) cùng trỏ
-      tới, chỉ giữ section có SỐ LƯỢNG PHỦ CAO NHẤT (đồng thuận nhiều nhất) — KHÔNG lấy toàn bộ
-      union, tránh trả về hàng trăm section không chọn lọc khi 1 sub-triplet lạc đề (vd relation
-      quá phổ biến như "Điều khiển" tự nó đã phủ gần hết corpus).
+Mỗi sub-triplet mang sẵn "group" (gán từ Bước 1 — đánh dấu sub-triplet nào cùng 1 tình huống/hành
+vi độc lập trong câu hỏi). Kết hợp diễn ra theo 2 tầng:
+    - TRONG 1 group: giao (intersection) các sub-triplet cùng group trước — đúng khi group đó mô
+      tả 1 hành vi ghép (nhiều sub-triplet cùng nằm chung 1 điều khoản). Giao rỗng → fallback: đếm
+      mỗi section_id được bao nhiêu sub-triplet (không rỗng) TRONG GROUP ĐÓ cùng trỏ tới, chỉ giữ
+      section có số lượng phủ cao nhất — không lấy toàn bộ union, tránh lạc đề khi 1 sub-triplet
+      quá phổ biến (vd "Điều khiển" tự nó đã phủ gần hết corpus). Mỗi group giới hạn tối đa
+      MAX_FINAL_SECTIONS section.
+    - GIỮA các group: HỢP (union) kết quả — câu hỏi ghép nhiều tình huống KHÔNG liên quan (vd vừa
+      hỏi không mang giấy tờ vừa hỏi không có gương) thì mỗi tình huống cần 1 điều khoản RIÊNG, nếu
+      lấy giao giữa các group sẽ mất hết vì chúng vốn không thuộc cùng 1 điều khoản. Tổng section
+      cuối cùng vì vậy là (số group) × tối đa MAX_FINAL_SECTIONS, không giới hạn chung 1 con số cho
+      cả câu hỏi — câu hỏi càng nhiều tình huống độc lập thì càng cần nhiều điều khoản, đúng bản
+      chất chứ không phải lỗi.
 
 Input:  output/question_triplets_vectorized.json
         ../Building_KG/ontology/output/keyphrase_vectors.npy
@@ -201,46 +208,80 @@ def main():
     vectors, rows, edges, node_names, idxs_by_type, all_node_ids, all_edge_ids = load_index()
     log(f"Đã tải index: {len(rows)} keyphrase row, {len(edges)} edge (từ {BUILD_OUTPUT_DIR})")
 
-    per_triplet_results = []
+    # Gom sub-triplet theo "group" (giữ nguyên thứ tự group xuất hiện đầu tiên), match từng
+    # sub-triplet như cũ, rồi combine() RIÊNG trong phạm vi từng group.
+    groups: dict[int, list[dict]] = {}
     for t in triplets:
-        r = match_triplet(t, vectors, rows, edges, node_names, idxs_by_type, all_node_ids, all_edge_ids)
-        per_triplet_results.append(r)
-        log(f"\nSub-triplet: ({r['query']['s']}, {r['query']['v']}, {r['query']['o']})")
-        if not r["matched_edges"]:
-            log("  => Không khớp edge nào trong đồ thị")
-        for m in r["matched_edges"][:5]:
-            log(f"  => ({m['source_name']}, {m['relation']}, {m['target_name']}) score={m['score']:.3f}")
-        log(f"  section_ids: {r['section_ids']}")
+        groups.setdefault(t.get("group", 1), []).append(t)
 
-    final = combine(per_triplet_results)
     section_texts = load_section_texts()
-    final["sections"] = [
-        {"section_id": sid, **section_texts.get(sid, {"path": None, "document_name": None, "text_content": ""})}
-        for sid in final["section_ids"]
-    ]
+    group_results = []
+    for group_id, group_triplets in groups.items():
+        log(f"\n{'='*70}\nGROUP {group_id}\n{'='*70}")
+        per_triplet_results = []
+        for t in group_triplets:
+            r = match_triplet(t, vectors, rows, edges, node_names, idxs_by_type, all_node_ids, all_edge_ids)
+            per_triplet_results.append(r)
+            log(f"\nSub-triplet: ({r['query']['s']}, {r['query']['v']}, {r['query']['o']})")
+            if not r["matched_edges"]:
+                log("  => Không khớp edge nào trong đồ thị")
+            for m in r["matched_edges"][:5]:
+                log(f"  => ({m['source_name']}, {m['relation']}, {m['target_name']}) score={m['score']:.3f}")
+            log(f"  section_ids: {r['section_ids']}")
 
-    log(f"\n=== KẾT QUẢ CUỐI ({final['strategy']}) ===")
-    if final["strategy"] == "best_coverage_fallback":
-        log(f"  (đồng thuận {final['coverage']}/{final['coverage_out_of']} sub-triplet)")
+        group_final = combine(per_triplet_results)
+        group_final["group"] = group_id
+        group_final["per_triplet"] = per_triplet_results
+        group_results.append(group_final)
+
+        log(f"\n--- Kết quả group {group_id} ({group_final['strategy']}) ---")
+        if group_final["strategy"] == "best_coverage_fallback":
+            log(f"  (đồng thuận {group_final['coverage']}/{group_final['coverage_out_of']} sub-triplet)")
+        log(f"  section_ids: {group_final['section_ids']}")
+
+    # HỢP kết quả các group lại (không giao) — mỗi group đóng góp tối đa MAX_FINAL_SECTIONS section
+    # riêng, giữ đủ mọi tình huống độc lập trong câu hỏi thay vì chỉ giữ 1 tình huống "thắng".
+    final_section_ids: list[str] = []
+    for g in group_results:
+        for sid in g["section_ids"]:
+            if sid not in final_section_ids:
+                final_section_ids.append(sid)
+    final_section_ids.sort()
+
+    final = {
+        "section_ids": final_section_ids,
+        "sections": [
+            {"section_id": sid, **section_texts.get(sid, {"path": None, "document_name": None, "text_content": ""})}
+            for sid in final_section_ids
+        ],
+    }
+
+    log(f"\n{'='*70}\n=== KẾT QUẢ CUỐI ({len(group_results)} group, hợp lại) ===\n{'='*70}")
     for sec in final["sections"]:
         log(f"  [{sec['section_id']}] {sec['path']}")
         log(f"      {sec['text_content']}")
 
     # Gộp mọi field "section_ids" (list) thành 1 chuỗi nối dấu phẩy — với indent=2, mảng JSON dài
     # hàng trăm phần tử bị dàn mỗi id 1 dòng, rất khó xem; chuỗi 1 dòng dễ đọc/dễ so sánh hơn hẳn.
-    export_per_triplet = []
-    for r in per_triplet_results:
-        r2 = dict(r)
-        r2["section_ids"] = ", ".join(r["section_ids"])
-        r2["matched_edges"] = [
-            {**m, "section_ids": ", ".join(m["section_ids"])} for m in r["matched_edges"]
-        ]
-        export_per_triplet.append(r2)
+    export_groups = []
+    for g in group_results:
+        g2 = dict(g)
+        g2["section_ids"] = ", ".join(g["section_ids"])
+        export_per_triplet = []
+        for r in g["per_triplet"]:
+            r2 = dict(r)
+            r2["section_ids"] = ", ".join(r["section_ids"])
+            r2["matched_edges"] = [
+                {**m, "section_ids": ", ".join(m["section_ids"])} for m in r["matched_edges"]
+            ]
+            export_per_triplet.append(r2)
+        g2["per_triplet"] = export_per_triplet
+        export_groups.append(g2)
 
     final_export = dict(final)
     final_export["section_ids"] = ", ".join(final["section_ids"])
 
-    result = {"per_triplet": export_per_triplet, "final": final_export}
+    result = {"groups": export_groups, "final": final_export}
     tmp = OUT_RESULT + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)

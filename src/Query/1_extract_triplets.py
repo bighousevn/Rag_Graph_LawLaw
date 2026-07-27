@@ -6,8 +6,13 @@ BIỆT, tách bạch 2 việc (giống cách Building_KG/2_rewrite_sections.py t
 
 Input:  input/1_question.txt              câu hỏi tự do của người dùng (1 file text thô)
 Output: output/1_normalized_question.txt  văn bản đã chuẩn hoá kiểu luật
-        output/question_triplets.json     [{"s":.., "v":.., "o":..}, ...] — đúng format mà
-                                           2_embedding_triplets.py đọc vào (Bước 2)
+        output/question_triplets.json     [{"s":.., "v":.., "o":.., "group":1}, ...] — đúng
+                                           format mà 2_embedding_triplets.py đọc vào (Bước 2)
+
+"group" (số nguyên) đánh dấu sub-triplet nào thuộc cùng 1 tình huống/hành vi độc lập trong câu hỏi
+— câu hỏi ghép nhiều tình huống không liên quan (vd "không mang giấy tờ VÀ không có gương") sẽ có
+nhiều group khác nhau. Bước 3 (3_query_flow.py) truy vấn RIÊNG từng group rồi hợp kết quả lại, để
+không bị rớt mất tình huống nào khi câu hỏi cần nhiều điều khoản khác nhau mới trả lời đủ.
 
 Nguyên tắc trích triplet bám theo tinh thần Building_KG/ontology/EXTRACTION_RULES.md (atomic
 subject/object, relation LUÔN chuẩn hoá khẳng định, "*" cho thành phần khuyết/ẩn số) nhưng rút
@@ -49,6 +54,10 @@ tập ĐỌC HIỂU + SUY LUẬN NGỮ CẢNH:
   hiệu giao thông" — KHÔNG cần mô tả lại cấu hình mũi tên/màu sắc trong câu viết lại.
 - Nếu câu hỏi mô tả 1 tình huống dài dòng nhưng bản chất chỉ hỏi về 1 hành vi + 1 điều kiện, hãy
   QUY VỀ đúng hành vi + điều kiện đó, bỏ hết chi tiết không phải thuật ngữ pháp lý.
+- NGƯỢC LẠI, nếu câu hỏi thật sự hỏi về NHIỀU hành vi/tình huống KHÁC NHAU, KHÔNG liên quan tới
+  nhau (vd vừa hỏi không mang giấy tờ, vừa hỏi không có gương — 2 lỗi độc lập) → PHẢI giữ ĐỦ cả
+  các hành vi đó trong câu viết lại, nối bằng "và"/";", TUYỆT ĐỐI không rút gọn/bỏ sót hành vi nào
+  chỉ vì muốn câu ngắn gọn.
 
 QUY TẮC KHÁC:
 1. Loại bỏ hoàn toàn: xưng hô/kể chuyện ("nhà em", "ông bà em", "em ơi", "các anh chị cho em
@@ -78,7 +87,16 @@ EXTRACT_SYSTEM_PROMPT = """\
 Bạn là chuyên gia trích xuất triplet ngữ nghĩa cho lĩnh vực pháp lý giao thông đường bộ Việt Nam.
 
 Từ đoạn văn bản đã chuẩn hoá, tách thành các sub-triplet (subject, verb, object) ĐỘC LẬP, atomic —
-áp dụng đúng tinh thần các quy tắc sau (rút gọn từ EXTRACTION_RULES.md, dùng cho xây kho ngữ liệu):
+áp dụng đúng tinh thần các quy tắc sau (rút gọn từ EXTRACTION_RULES.md, dùng cho xây kho ngữ liệu).
+
+MỖI sub-triplet PHẢI kèm thêm field "group" (số nguyên, bắt đầu từ 1) — đánh số theo MỆNH ĐỀ ĐỘC
+LẬP mà sub-triplet đó thuộc về (đúng ranh giới chẻ mệnh đề ở rule 2 dưới đây): nếu văn bản hỏi về
+NHIỀU tình huống/hành vi vi phạm KHÔNG LIÊN QUAN tới nhau (nối bằng "và"/","/"với lại"...) → mỗi
+tình huống 1 group riêng. Các sub-triplet cùng mô tả 1 hành vi/tình huống (dù bị tách nhỏ do atomic
+hoá) → giữ CHUNG 1 group. Nếu có 1 sub-triplet bối cảnh chung áp dụng cho MỌI tình huống (vd đang
+điều khiển loại xe gì) → LẶP LẠI sub-triplet đó ở TỪNG group liên quan (không chỉ ghi 1 lần), để
+mỗi group tự nó là 1 bộ sub-triplet ĐẦY ĐỦ, độc lập truy vấn được. Nếu văn bản chỉ có 1 tình huống
+duy nhất → toàn bộ sub-triplet dùng chung group 1.
 
 1. Subject/object phải là danh từ NGUYÊN TỬ — không gộp chủ thể+hành vi thành 1 cụm. "Người điều
    khiển xe ô tô" KHÔNG phải 1 subject — tách "Người", verb "Điều khiển", object "Ô tô".
@@ -103,30 +121,40 @@ Từ đoạn văn bản đã chuẩn hoá, tách thành các sub-triplet (subjec
    tách thành 1 sub-triplet RIÊNG dùng relation "Tại": (Người, Tại, Z) — độc lập với triplet hành
    vi chính (điều khiển/rẽ/dừng...), không gộp Z vào làm object của verb khác.
 
-VÍ DỤ:
+VÍ DỤ (1 tình huống duy nhất → toàn bộ chung group 1):
 Input: "Người điều khiển xe ô tô có nồng độ cồn trong máu bị xử phạt như thế nào?"
 Output: {"triplets": [
-  {"s": "Người", "v": "Điều khiển", "o": "Ô tô"},
-  {"s": "Người", "v": "Sử dụng", "o": "Cồn"},
-  {"s": "*", "v": "Xử phạt", "o": "*"}
+  {"s": "Người", "v": "Điều khiển", "o": "Ô tô", "group": 1},
+  {"s": "Người", "v": "Sử dụng", "o": "Cồn", "group": 1},
+  {"s": "*", "v": "Xử phạt", "o": "*", "group": 1}
 ]}
 
 Input: "Tổ chức kinh doanh vận tải sử dụng lái xe điều khiển xe khách chưa đủ số năm kinh nghiệm
 theo quy định."
 Output: {"triplets": [
-  {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Lái xe"},
-  {"s": "Lái xe", "v": "Điều khiển", "o": "Xe khách"},
-  {"s": "Lái xe", "v": "Đủ", "o": "Số năm kinh nghiệm"}
+  {"s": "Tổ chức kinh doanh vận tải", "v": "Sử dụng", "o": "Lái xe", "group": 1},
+  {"s": "Lái xe", "v": "Điều khiển", "o": "Xe khách", "group": 1},
+  {"s": "Lái xe", "v": "Đủ", "o": "Số năm kinh nghiệm", "group": 1}
 ]}
 
 Input: "Người điều khiển ô tô rẽ phải tại nơi có đèn tín hiệu giao thông."
 Output: {"triplets": [
-  {"s": "Người", "v": "Điều khiển", "o": "Ô tô"},
-  {"s": "Người", "v": "Rẽ phải", "o": "Ô tô"},
-  {"s": "Người", "v": "Tại", "o": "Đèn tín hiệu giao thông"}
+  {"s": "Người", "v": "Điều khiển", "o": "Ô tô", "group": 1},
+  {"s": "Người", "v": "Rẽ phải", "o": "Ô tô", "group": 1},
+  {"s": "Người", "v": "Tại", "o": "Đèn tín hiệu giao thông", "group": 1}
 ]}
 
-Trả về đúng JSON: {"triplets": [{"s": "...", "v": "...", "o": "..."}]}"""
+VÍ DỤ (2 tình huống KHÔNG liên quan tới nhau → 2 group riêng, mỗi group lặp lại sub-triplet bối
+cảnh chung "Điều khiển Xe" để tự nó đủ nghĩa):
+Input: "Người điều khiển xe máy không mang giấy tờ xe và xe không có gương bị phạt bao nhiêu?"
+Output: {"triplets": [
+  {"s": "Người", "v": "Điều khiển", "o": "Xe máy", "group": 1},
+  {"s": "Người", "v": "Mang", "o": "Giấy tờ xe", "group": 1},
+  {"s": "Người", "v": "Điều khiển", "o": "Xe máy", "group": 2},
+  {"s": "Xe máy", "v": "Có", "o": "Gương", "group": 2}
+]}
+
+Trả về đúng JSON: {"triplets": [{"s": "...", "v": "...", "o": "...", "group": 1}]}"""
 
 
 def log(msg: str) -> None:
@@ -188,9 +216,10 @@ def main():
     with open(OUT_TRIPLETS, "w", encoding="utf-8") as f:
         json.dump(triplets, f, ensure_ascii=False, indent=2)
 
-    log(f"\nĐã tách {len(triplets)} sub-triplet:")
+    n_groups = len({t.get("group", 1) for t in triplets})
+    log(f"\nĐã tách {len(triplets)} sub-triplet, {n_groups} group:")
     for t in triplets:
-        log(f"  ({t.get('s')}, {t.get('v')}, {t.get('o')})")
+        log(f"  [group {t.get('group', 1)}] ({t.get('s')}, {t.get('v')}, {t.get('o')})")
 
     log(f"\nĐã lưu:\n  {OUT_NORMALIZED}\n  {OUT_TRIPLETS}")
 

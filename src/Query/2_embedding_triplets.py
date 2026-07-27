@@ -14,8 +14,9 @@ Format input — 1 JSON array, mỗi phần tử là 1 sub-triplet của câu h�
 
 Input:  output/question_triplets.json
 Output: output/question_triplets_vectorized.json
-        [{"s": {"name":.., "vector":[...]|null}, "v": {...}, "o": {...}}, ...]
+        [{"group": 1, "s": {"name":.., "vector":[...]|null}, "v": {...}, "o": {...}}, ...]
         vector = null khi name == "*" (không embed thành phần khuyết).
+        "group" chỉ đi qua nguyên trạng từ input, không dùng để embed.
 
 QUAN TRỌNG: LUÔN embed trên CPU (device="cpu"), TUYỆT ĐỐI không dùng MPS — đã kiểm chứng thực tế
 backend MPS của PyTorch trả SAI vector khi batch nhiều câu cùng lúc với model này (cùng 1 chữ
@@ -65,7 +66,7 @@ def main():
 
     output = []
     for t in triplets:
-        entry = {}
+        entry = {"group": t.get("group", 1)}
         for role in ("s", "v", "o"):
             val = (t.get(role) or "").strip()
             entry[role] = {

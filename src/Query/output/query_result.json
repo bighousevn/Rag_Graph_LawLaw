@@ -1,825 +1,1319 @@
 {
-  "per_triplet": [
+  "groups": [
     {
-      "query": {
-        "s": "Người",
-        "v": "Điều khiển",
-        "o": "Phương tiện giao thông"
-      },
-      "listS": [
+      "strategy": "intersection",
+      "section_ids": "s134, s155, s73",
+      "group": 1,
+      "per_triplet": [
         {
-          "id": "C0443",
-          "name": "Người",
-          "score": 1.0
+          "query": {
+            "s": "Người",
+            "v": "Điều khiển",
+            "o": "Ô tô"
+          },
+          "listS": [
+            {
+              "id": "C0443",
+              "name": "Người",
+              "score": 1.0
+            }
+          ],
+          "listV": [
+            {
+              "id": "E0374",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1612",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E2162",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1434",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0766",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E2130",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1256",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1257",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0163",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0164",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0267",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0342",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0381",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0495",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0545",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0558",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0574",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0584",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0587",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0601",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0602",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0621",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0636",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0980",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0981",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0995",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1087",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1106",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1108",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1184",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1185",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1342",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1355",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1359",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1647",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1653",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1660",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1684",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1714",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E2242",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E2309",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E2313",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1529",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1412",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1430",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0958",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0959",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0969",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1413",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1431",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E1414",
+              "name": "Điều khiển",
+              "score": 1.0
+            },
+            {
+              "id": "E0575",
+              "name": "Kiểm soát",
+              "score": 0.845
+            },
+            {
+              "id": "E1849",
+              "name": "Giám sát",
+              "score": 0.817
+            },
+            {
+              "id": "E1850",
+              "name": "Giám sát",
+              "score": 0.817
+            },
+            {
+              "id": "E1851",
+              "name": "Giám sát",
+              "score": 0.817
+            },
+            {
+              "id": "E1328",
+              "name": "Quản lý",
+              "score": 0.803
+            },
+            {
+              "id": "E2251",
+              "name": "Quản lý",
+              "score": 0.803
+            },
+            {
+              "id": "E2264",
+              "name": "Quản lý",
+              "score": 0.803
+            },
+            {
+              "id": "E0086",
+              "name": "Quản lý",
+              "score": 0.803
+            },
+            {
+              "id": "E1276",
+              "name": "Quản lý",
+              "score": 0.803
+            },
+            {
+              "id": "E1246",
+              "name": "Quản lý",
+              "score": 0.803
+            }
+          ],
+          "listO": [
+            {
+              "id": "C0881",
+              "name": "Ô tô",
+              "score": 1.0
+            },
+            {
+              "id": "C0826",
+              "name": "Xe cơ giới",
+              "score": 0.873
+            },
+            {
+              "id": "C0834",
+              "name": "Xe máy",
+              "score": 0.852
+            },
+            {
+              "id": "C0836",
+              "name": "Xe mô tô",
+              "score": 0.852
+            }
+          ],
+          "matched_edges": [
+            {
+              "edge_id": "E0164",
+              "score": 1.0,
+              "source": "C0443",
+              "source_name": "Người",
+              "relation": "Điều khiển",
+              "target": "C0881",
+              "target_name": "Ô tô",
+              "section_ids": "s61, s63, s64, s65, s66, s67, s68, s69, s70, s71, s72, s73, s74, s75, s76, s77, s78, s79, s80, s81, s82, s83, s84, s85, s86, s87, s88, s89, s90, s91, s92, s93, s94, s95, s96, s97, s98, s99, s100, s101, s102, s103, s104, s105, s106, s107, s108, s109, s110, s111, s112, s113, s114, s115, s116, s117, s118, s119, s120, s121, s122, s123, s124, s125, s126, s127, s128, s129, s130, s131, s132, s133, s134, s135, s136, s137, s138, s139, s140, s141, s142, s143, s348, s349, s350, s351, s352, s353, s354, s355, s356, s357, s358, s359, s360, s361, s362, s363, s364, s365, s366, s367, s368, s369, s370, s371, s372, s373, s374, s375, s376, s377, s378, s379, s380, s420, s421, s422, s423, s424, s425, s431, s432, s433, s435, s436, s440, s445, s446, s447, s448, s449, s529, s530, s531, s532, s533, s534, s535, s540, s541, s542, s543, s544, s546, s547, s548, s549, s608, s609, s621, s787, s793, s794, s1035, s1174, s1175"
+            },
+            {
+              "edge_id": "E2313",
+              "score": 0.873,
+              "source": "C0443",
+              "source_name": "Người",
+              "relation": "Điều khiển",
+              "target": "C0826",
+              "target_name": "Xe cơ giới",
+              "section_ids": "s1096, s1128, s1145, s1161"
+            },
+            {
+              "edge_id": "E0163",
+              "score": 0.852,
+              "source": "C0443",
+              "source_name": "Người",
+              "relation": "Điều khiển",
+              "target": "C0836",
+              "target_name": "Xe mô tô",
+              "section_ids": "s61, s160, s161, s162, s163, s164, s165, s166, s167, s168, s169, s180, s181, s182, s183, s184, s185, s186, s187, s188, s189, s190, s191, s192, s193, s194, s195, s196, s197, s198, s199, s210, s211, s212, s213, s214, s215, s430, s437, s438, s439, s680, s774, s775, s776, s777, s778, s779, s791, s792, s1035"
+            },
+            {
+              "edge_id": "E0381",
+              "score": 0.852,
+              "source": "C0443",
+              "source_name": "Người",
+              "relation": "Điều khiển",
+              "target": "C0834",
+              "target_name": "Xe máy",
+              "section_ids": "s144, s145, s146, s147, s148, s149, s150, s151, s152, s153, s154, s155, s156, s157, s158, s159, s170, s171, s172, s173, s174, s175, s176, s177, s178, s179, s200, s201, s202, s203, s204, s205, s206, s207, s208, s209, s381, s382, s383, s384, s385, s386, s387, s388, s389, s390, s391, s392, s393, s394, s395, s396, s397, s398, s399, s400, s427, s428, s429, s1226"
+            }
+          ],
+          "section_ids": "s100, s101, s102, s103, s1035, s104, s105, s106, s107, s108, s109, s1096, s110, s111, s112, s1128, s113, s114, s1145, s115, s116, s1161, s117, s1174, s1175, s118, s119, s120, s121, s122, s1226, s123, s124, s125, s126, s127, s128, s129, s130, s131, s132, s133, s134, s135, s136, s137, s138, s139, s140, s141, s142, s143, s144, s145, s146, s147, s148, s149, s150, s151, s152, s153, s154, s155, s156, s157, s158, s159, s160, s161, s162, s163, s164, s165, s166, s167, s168, s169, s170, s171, s172, s173, s174, s175, s176, s177, s178, s179, s180, s181, s182, s183, s184, s185, s186, s187, s188, s189, s190, s191, s192, s193, s194, s195, s196, s197, s198, s199, s200, s201, s202, s203, s204, s205, s206, s207, s208, s209, s210, s211, s212, s213, s214, s215, s348, s349, s350, s351, s352, s353, s354, s355, s356, s357, s358, s359, s360, s361, s362, s363, s364, s365, s366, s367, s368, s369, s370, s371, s372, s373, s374, s375, s376, s377, s378, s379, s380, s381, s382, s383, s384, s385, s386, s387, s388, s389, s390, s391, s392, s393, s394, s395, s396, s397, s398, s399, s400, s420, s421, s422, s423, s424, s425, s427, s428, s429, s430, s431, s432, s433, s435, s436, s437, s438, s439, s440, s445, s446, s447, s448, s449, s529, s530, s531, s532, s533, s534, s535, s540, s541, s542, s543, s544, s546, s547, s548, s549, s608, s609, s61, s621, s63, s64, s65, s66, s67, s68, s680, s69, s70, s71, s72, s73, s74, s75, s76, s77, s774, s775, s776, s777, s778, s779, s78, s787, s79, s791, s792, s793, s794, s80, s81, s82, s83, s84, s85, s86, s87, s88, s89, s90, s91, s92, s93, s94, s95, s96, s97, s98, s99"
+        },
+        {
+          "query": {
+            "s": "Người",
+            "v": "Chạy quá tốc độ",
+            "o": "Ô tô"
+          },
+          "listS": [
+            {
+              "id": "C0443",
+              "name": "Người",
+              "score": 1.0
+            }
+          ],
+          "listV": [
+            {
+              "id": "E0204",
+              "name": "Chạy quá tốc độ",
+              "score": 1.0
+            },
+            {
+              "id": "E0397",
+              "name": "Chạy quá tốc độ",
+              "score": 1.0
+            },
+            {
+              "id": "E0303",
+              "name": "Vượt quá",
+              "score": 0.891
+            },
+            {
+              "id": "E0358",
+              "name": "Vượt quá",
+              "score": 0.891
+            },
+            {
+              "id": "E1113",
+              "name": "Vượt quá",
+              "score": 0.891
+            },
+            {
+              "id": "E1614",
+              "name": "Chở quá",
+              "score": 0.814
+            },
+            {
+              "id": "E0569",
+              "name": "Chở quá",
+              "score": 0.814
+            },
+            {
+              "id": "E0997",
+              "name": "Chở quá",
+              "score": 0.814
+            },
+            {
+              "id": "E1048",
+              "name": "Chở quá",
+              "score": 0.814
+            },
+            {
+              "id": "E1575",
+              "name": "Chở quá",
+              "score": 0.814
+            }
+          ],
+          "listO": [
+            {
+              "id": "C0881",
+              "name": "Ô tô",
+              "score": 1.0
+            },
+            {
+              "id": "C0826",
+              "name": "Xe cơ giới",
+              "score": 0.873
+            },
+            {
+              "id": "C0834",
+              "name": "Xe máy",
+              "score": 0.852
+            },
+            {
+              "id": "C0836",
+              "name": "Xe mô tô",
+              "score": 0.852
+            }
+          ],
+          "matched_edges": [
+            {
+              "edge_id": "E0204",
+              "score": 1.0,
+              "source": "C0443",
+              "source_name": "Người",
+              "relation": "Chạy quá tốc độ",
+              "target": "C0881",
+              "target_name": "Ô tô",
+              "section_ids": "s73, s134"
+            },
+            {
+              "edge_id": "E0397",
+              "score": 0.852,
+              "source": "C0443",
+              "source_name": "Người",
+              "relation": "Chạy quá tốc độ",
+              "target": "C0834",
+              "target_name": "Xe máy",
+              "section_ids": "s155"
+            }
+          ],
+          "section_ids": "s134, s155, s73"
+        },
+        {
+          "query": {
+            "s": "Người",
+            "v": "Tại",
+            "o": "Biển báo tốc độ tối đa 60 km/h"
+          },
+          "listS": [
+            {
+              "id": "C0443",
+              "name": "Người",
+              "score": 1.0
+            }
+          ],
+          "listV": [
+            {
+              "id": "E0528",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1163",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1209",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2174",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0723",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0726",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0611",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0612",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2116",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0002",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0764",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0021",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1803",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1227",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1228",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1881",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1882",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2220",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1192",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1750",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1193",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1012",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1088",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1093",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1187",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1615",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0530",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0235",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0532",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0194",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0195",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0198",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0200",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0201",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0212",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0214",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0219",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0225",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0228",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0236",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0237",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0238",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0239",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0240",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0241",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0245",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0251",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0252",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0255",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0257",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0259",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0260",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0272",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0273",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0274",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0275",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0276",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0277",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0295",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0298",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0299",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0302",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0328",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0330",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0331",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0395",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0401",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0404",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0406",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0409",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0410",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0500",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0502",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0506",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0507",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0510",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0519",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0520",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0525",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0526",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0531",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0535",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0564",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0652",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0956",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0957",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1032",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1035",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1036",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1037",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1065",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1066",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1125",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1646",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2608",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2609",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2610",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2611",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2619",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2669",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2670",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2674",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2676",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2677",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2678",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2679",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2680",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2681",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2682",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2683",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2684",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2685",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2686",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2687",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2691",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2693",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2698",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2735",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1795",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1796",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1797",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1201",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0318",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2615",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2311",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1976",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1977",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1978",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1979",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1980",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2536",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2302",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1969",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1970",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1971",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1972",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1973",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0004",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0716",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0717",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0022",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2688",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2689",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2527",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0637",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0544",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0321",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0553",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2732",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2733",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1000",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E1293",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E0533",
+              "name": "Tại",
+              "score": 1.0
+            },
+            {
+              "id": "E2532",
+              "name": "Tại",
+              "score": 1.0
+            }
+          ],
+          "listO": [],
+          "matched_edges": [],
+          "section_ids": ""
         }
-      ],
-      "listV": [
-        {
-          "id": "E0374",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1612",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E2162",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1434",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0766",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E2130",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1256",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1257",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0163",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0164",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0267",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0342",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0381",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0495",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0545",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0558",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0574",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0584",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0587",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0601",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0602",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0621",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0636",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0980",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0981",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0995",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1087",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1106",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1108",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1184",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1185",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1342",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1355",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1359",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1647",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1653",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1660",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1684",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1714",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E2242",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E2309",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E2313",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1529",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1412",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1430",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0958",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0959",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0969",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1413",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1431",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E1414",
-          "name": "Điều khiển",
-          "score": 1.0
-        },
-        {
-          "id": "E0575",
-          "name": "Kiểm soát",
-          "score": 0.845
-        },
-        {
-          "id": "E1849",
-          "name": "Giám sát",
-          "score": 0.817
-        },
-        {
-          "id": "E1850",
-          "name": "Giám sát",
-          "score": 0.817
-        },
-        {
-          "id": "E1851",
-          "name": "Giám sát",
-          "score": 0.817
-        },
-        {
-          "id": "E1328",
-          "name": "Quản lý",
-          "score": 0.803
-        },
-        {
-          "id": "E2251",
-          "name": "Quản lý",
-          "score": 0.803
-        },
-        {
-          "id": "E2264",
-          "name": "Quản lý",
-          "score": 0.803
-        },
-        {
-          "id": "E0086",
-          "name": "Quản lý",
-          "score": 0.803
-        },
-        {
-          "id": "E1276",
-          "name": "Quản lý",
-          "score": 0.803
-        },
-        {
-          "id": "E1246",
-          "name": "Quản lý",
-          "score": 0.803
-        }
-      ],
-      "listO": [
-        {
-          "id": "C0532",
-          "name": "Phương tiện giao thông",
-          "score": 1.0
-        },
-        {
-          "id": "C0531",
-          "name": "Phương tiện",
-          "score": 0.93
-        },
-        {
-          "id": "C0279",
-          "name": "Hàng hóa",
-          "score": 0.881
-        },
-        {
-          "id": "C0533",
-          "name": "Phương tiện giao thông cơ giới đường bộ",
-          "score": 0.875
-        },
-        {
-          "id": "C0539",
-          "name": "Phương tiện vi phạm hành chính",
-          "score": 0.875
-        },
-        {
-          "id": "C0640",
-          "name": "Thiết bị kỹ thuật",
-          "score": 0.875
-        },
-        {
-          "id": "C0834",
-          "name": "Xe máy",
-          "score": 0.875
-        },
-        {
-          "id": "C0835",
-          "name": "Xe máy chuyên dùng",
-          "score": 0.875
-        },
-        {
-          "id": "C0836",
-          "name": "Xe mô tô",
-          "score": 0.875
-        },
-        {
-          "id": "C0845",
-          "name": "Xe thô sơ",
-          "score": 0.875
-        },
-        {
-          "id": "C0881",
-          "name": "Ô tô",
-          "score": 0.875
-        }
-      ],
-      "matched_edges": [
-        {
-          "edge_id": "E2309",
-          "score": 1.0,
-          "source": "C0443",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0532",
-          "target_name": "Phương tiện giao thông",
-          "section_ids": "s1095, s1206, s1207, s1208, s1209, s1210, s1211, s1212, s1213, s1214, s1215, s1216, s1217, s1220"
-        },
-        {
-          "edge_id": "E0621",
-          "score": 0.93,
-          "source": "C0443",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0531",
-          "target_name": "Phương tiện",
-          "section_ids": "s307, s450, s451, s452, s488, s489, s490, s491, s492, s523, s524, s525, s526, s527, s528, s538, s539, s550, s552, s606, s607, s616, s620, s763, s764, s765, s766, s767, s771, s772, s773, s780, s781, s782, s783, s784, s785, s786, s787, s788, s789, s790, s795, s796, s797, s965, s985, s986, s987, s988, s989, s990, s991, s992, s993, s995, s1001, s1003, s1025, s1026, s1146, s1147, s1149, s1150, s1204, s1205, s1222"
-        },
-        {
-          "edge_id": "E0164",
-          "score": 0.875,
-          "source": "C0443",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0881",
-          "target_name": "Ô tô",
-          "section_ids": "s61, s63, s64, s65, s66, s67, s68, s69, s70, s71, s72, s73, s74, s75, s76, s77, s78, s79, s80, s81, s82, s83, s84, s85, s86, s87, s88, s89, s90, s91, s92, s93, s94, s95, s96, s97, s98, s99, s100, s101, s102, s103, s104, s105, s106, s107, s108, s109, s110, s111, s112, s113, s114, s115, s116, s117, s118, s119, s120, s121, s122, s123, s124, s125, s126, s127, s128, s129, s130, s131, s132, s133, s134, s135, s136, s137, s138, s139, s140, s141, s142, s143, s348, s349, s350, s351, s352, s353, s354, s355, s356, s357, s358, s359, s360, s361, s362, s363, s364, s365, s366, s367, s368, s369, s370, s371, s372, s373, s374, s375, s376, s377, s378, s379, s380, s420, s421, s422, s423, s424, s425, s431, s432, s433, s435, s436, s440, s445, s446, s447, s448, s449, s529, s530, s531, s532, s533, s534, s535, s540, s541, s542, s543, s544, s546, s547, s548, s549, s608, s609, s621, s787, s793, s794, s1035, s1174, s1175"
-        },
-        {
-          "edge_id": "E0495",
-          "score": 0.875,
-          "source": "C0443",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0835",
-          "target_name": "Xe máy chuyên dùng",
-          "section_ids": "s216, s217, s218, s219, s220, s221, s222, s223, s224, s225, s226, s227, s228, s229, s230, s231, s232, s233, s234, s235, s236, s237, s238, s239, s240, s241, s242, s243, s244, s245, s246, s247, s248, s249, s250, s251, s252, s253, s254, s255, s256, s257, s258, s259, s260, s261, s262, s403, s404, s405, s406, s407, s408, s409, s410, s411, s412, s413, s414, s415, s416, s417, s418, s419, s453, s454, s1096, s1128, s1145, s1161, s1203"
-        },
-        {
-          "edge_id": "E0545",
-          "score": 0.875,
-          "source": "C0443",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0845",
-          "target_name": "Xe thô sơ",
-          "section_ids": "s263, s264, s265, s266, s267, s268, s269, s271, s272, s273, s274, s275, s277, s278, s279, s280, s281, s282, s283, s284, s285, s286, s287, s288, s289, s401, s402, s774, s775, s776, s777, s778, s779, s1096"
-        },
-        {
-          "edge_id": "E0163",
-          "score": 0.875,
-          "source": "C0443",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0836",
-          "target_name": "Xe mô tô",
-          "section_ids": "s61, s160, s161, s162, s163, s164, s165, s166, s167, s168, s169, s180, s181, s182, s183, s184, s185, s186, s187, s188, s189, s190, s191, s192, s193, s194, s195, s196, s197, s198, s199, s210, s211, s212, s213, s214, s215, s430, s437, s438, s439, s680, s774, s775, s776, s777, s778, s779, s791, s792, s1035"
-        },
-        {
-          "edge_id": "E0381",
-          "score": 0.875,
-          "source": "C0443",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0834",
-          "target_name": "Xe máy",
-          "section_ids": "s144, s145, s146, s147, s148, s149, s150, s151, s152, s153, s154, s155, s156, s157, s158, s159, s170, s171, s172, s173, s174, s175, s176, s177, s178, s179, s200, s201, s202, s203, s204, s205, s206, s207, s208, s209, s381, s382, s383, s384, s385, s386, s387, s388, s389, s390, s391, s392, s393, s394, s395, s396, s397, s398, s399, s400, s427, s428, s429, s1226"
-        }
-      ],
-      "section_ids": "s100, s1001, s1003, s101, s102, s1025, s1026, s103, s1035, s104, s105, s106, s107, s108, s109, s1095, s1096, s110, s111, s112, s1128, s113, s114, s1145, s1146, s1147, s1149, s115, s1150, s116, s1161, s117, s1174, s1175, s118, s119, s120, s1203, s1204, s1205, s1206, s1207, s1208, s1209, s121, s1210, s1211, s1212, s1213, s1214, s1215, s1216, s1217, s122, s1220, s1222, s1226, s123, s124, s125, s126, s127, s128, s129, s130, s131, s132, s133, s134, s135, s136, s137, s138, s139, s140, s141, s142, s143, s144, s145, s146, s147, s148, s149, s150, s151, s152, s153, s154, s155, s156, s157, s158, s159, s160, s161, s162, s163, s164, s165, s166, s167, s168, s169, s170, s171, s172, s173, s174, s175, s176, s177, s178, s179, s180, s181, s182, s183, s184, s185, s186, s187, s188, s189, s190, s191, s192, s193, s194, s195, s196, s197, s198, s199, s200, s201, s202, s203, s204, s205, s206, s207, s208, s209, s210, s211, s212, s213, s214, s215, s216, s217, s218, s219, s220, s221, s222, s223, s224, s225, s226, s227, s228, s229, s230, s231, s232, s233, s234, s235, s236, s237, s238, s239, s240, s241, s242, s243, s244, s245, s246, s247, s248, s249, s250, s251, s252, s253, s254, s255, s256, s257, s258, s259, s260, s261, s262, s263, s264, s265, s266, s267, s268, s269, s271, s272, s273, s274, s275, s277, s278, s279, s280, s281, s282, s283, s284, s285, s286, s287, s288, s289, s307, s348, s349, s350, s351, s352, s353, s354, s355, s356, s357, s358, s359, s360, s361, s362, s363, s364, s365, s366, s367, s368, s369, s370, s371, s372, s373, s374, s375, s376, s377, s378, s379, s380, s381, s382, s383, s384, s385, s386, s387, s388, s389, s390, s391, s392, s393, s394, s395, s396, s397, s398, s399, s400, s401, s402, s403, s404, s405, s406, s407, s408, s409, s410, s411, s412, s413, s414, s415, s416, s417, s418, s419, s420, s421, s422, s423, s424, s425, s427, s428, s429, s430, s431, s432, s433, s435, s436, s437, s438, s439, s440, s445, s446, s447, s448, s449, s450, s451, s452, s453, s454, s488, s489, s490, s491, s492, s523, s524, s525, s526, s527, s528, s529, s530, s531, s532, s533, s534, s535, s538, s539, s540, s541, s542, s543, s544, s546, s547, s548, s549, s550, s552, s606, s607, s608, s609, s61, s616, s620, s621, s63, s64, s65, s66, s67, s68, s680, s69, s70, s71, s72, s73, s74, s75, s76, s763, s764, s765, s766, s767, s77, s771, s772, s773, s774, s775, s776, s777, s778, s779, s78, s780, s781, s782, s783, s784, s785, s786, s787, s788, s789, s79, s790, s791, s792, s793, s794, s795, s796, s797, s80, s81, s82, s83, s84, s85, s86, s87, s88, s89, s90, s91, s92, s93, s94, s95, s96, s965, s97, s98, s985, s986, s987, s988, s989, s99, s990, s991, s992, s993, s995"
-    },
-    {
-      "query": {
-        "s": "Người",
-        "v": "Vượt",
-        "o": "Xe khác"
-      },
-      "listS": [
-        {
-          "id": "C0443",
-          "name": "Người",
-          "score": 1.0
-        }
-      ],
-      "listV": [
-        {
-          "id": "E1702",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E1703",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E0289",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E0359",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E0384",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E0428",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E1092",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E1094",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E1095",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E1096",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E2714",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E2715",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E1098",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E2718",
-          "name": "Vượt",
-          "score": 1.0
-        },
-        {
-          "id": "E0589",
-          "name": "Vượt qua",
-          "score": 0.939
-        },
-        {
-          "id": "E1651",
-          "name": "Vượt quá",
-          "score": 0.894
-        },
-        {
-          "id": "E1652",
-          "name": "Vượt quá",
-          "score": 0.894
-        },
-        {
-          "id": "E1655",
-          "name": "Vượt quá",
-          "score": 0.894
-        },
-        {
-          "id": "E0822",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1802",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1016",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1111",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1112",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1693",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1695",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E2497",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E2498",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E2499",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E2500",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1015",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1692",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1694",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1148",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E0303",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E0358",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1113",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1731",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1732",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1733",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1734",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1119",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1120",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1153",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1657",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1659",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1665",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1664",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E0876",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E0877",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E0878",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1649",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1654",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1656",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1658",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E0834",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E0835",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E0836",
-          "name": "Vượt quá",
-          "score": 0.853
-        },
-        {
-          "id": "E1188",
-          "name": "Vượt quá",
-          "score": 0.853
-        }
-      ],
-      "listO": [
-        {
-          "id": "C0831",
-          "name": "Xe khác",
-          "score": 1.0
-        },
-        {
-          "id": "C0886",
-          "name": "Ô tô loại khác",
-          "score": 0.916
-        },
-        {
-          "id": "C0531",
-          "name": "Phương tiện",
-          "score": 0.857
-        },
-        {
-          "id": "C0398",
-          "name": "Lái xe khác",
-          "score": 0.828
-        }
-      ],
-      "matched_edges": [
-        {
-          "edge_id": "E0289",
-          "score": 1.0,
-          "source": "C0443",
-          "source_name": "Người",
-          "relation": "Vượt",
-          "target": "C0831",
-          "target_name": "Xe khác",
-          "section_ids": "s99, s177, s226, s253"
-        }
-      ],
-      "section_ids": "s177, s226, s253, s99"
+      ]
     }
   ],
   "final": {
-    "strategy": "intersection",
-    "section_ids": "s177, s226, s253, s99",
+    "section_ids": "s134, s155, s73",
     "sections": [
       {
-        "section_id": "s177",
-        "path": "Chương II - Mục 1 - Điều 7 - Khoản 4 - Điểm c",
+        "section_id": "s134",
+        "path": "Chương II - Mục 1 - Điều 6 - Khoản 12",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 4. Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: c) Vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt đối với loại phương tiện đang điều khiển, trừ các hành vi vi phạm quy định tại điểm đ khoản 3 Điều này;"
+        "text_content": "Điều 6. Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ. 12. Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với người điều khiển xe thực hiện hành vi điều khiển xe lạng lách, đánh võng trên đường bộ; chạy quá tốc độ đuổi nhau trên đường bộ; dùng chân điều khiển vô lăng xe khi xe đang chạy trên đường bộ."
       },
       {
-        "section_id": "s226",
-        "path": "Chương II - Mục 1 - Điều 8 - Khoản 3 - Điểm d",
+        "section_id": "s155",
+        "path": "Chương II - Mục 1 - Điều 7 - Khoản 2 - Điểm b",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 8. Xử phạt người điều khiển xe máy chuyên dùng vi phạm quy tắc giao thông đường bộ. 3. Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: d) Tránh xe, vượt xe không đúng quy định; không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật;"
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 2. Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: b) Điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h;"
       },
       {
-        "section_id": "s253",
-        "path": "Chương II - Mục 1 - Điều 8 - Khoản 8 - Điểm a",
+        "section_id": "s73",
+        "path": "Chương II - Mục 1 - Điều 6 - Khoản 3 - Điểm a",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 8. Xử phạt người điều khiển xe máy chuyên dùng vi phạm quy tắc giao thông đường bộ. 8. Phạt tiền từ 14.000.000 đồng đến 16.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Điều khiển xe không quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn theo quy định mà gây tai nạn giao thông; điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông; dừng xe, đỗ xe, quay đầu xe, lùi xe, tránh xe, vượt xe, chuyển hướng, chuyển làn đường không đúng quy định gây tai nạn giao thông; mở cửa xe, để cửa xe mở không bảo đảm an toàn gây tai nạn giao thông; không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông hoặc đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển, đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều” gây tai nạn giao thông, trừ các hành vi vi phạm quy định tại điểm b khoản 8, điểm đ khoản 9 Điều này;"
-      },
-      {
-        "section_id": "s99",
-        "path": "Chương II - Mục 1 - Điều 6 - Khoản 5 - Điểm a",
-        "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 6. Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ. 5. Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt (đối với loại phương tiện đang điều khiển); không có tín hiệu trước khi vượt hoặc có tín hiệu vượt xe nhưng không sử dụng trong suốt quá trình vượt xe; vượt bên phải xe khác trong trường hợp không được phép;"
+        "text_content": "Điều 6. Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ. 3. Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h;"
       }
     ]
   }
