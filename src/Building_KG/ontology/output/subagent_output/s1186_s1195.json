@@ -1,0 +1,168 @@
+[
+  {
+    "id": "s1186",
+    "path": "Chương II - Điều 11 - Khoản 4 - Điểm a",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành tín hiệu đèn màu xanh, giảm tốc độ hoặc dừng lại nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Đèn tín hiệu giao thông xanh",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [],
+       "o_keyphrases": ["tín hiệu đèn màu xanh"]},
+      {"s": "Người", "v": "Giảm", "o": "Tốc độ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["dừng lại"], "o_keyphrases": []},
+      {"s": "Người", "v": "Nhường", "o": "Người đi bộ",
+       "s_keyphrases": [], "v_keyphrases": ["nhường đường"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1187",
+    "path": "Chương II - Điều 11 - Khoản 4 - Điểm b",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành tín hiệu đèn màu vàng, dừng lại trước vạch dừng; nếu đang đi trên vạch dừng hoặc đã đi qua vạch dừng thì được đi; nếu tín hiệu đèn màu vàng nhấp nháy, người điều khiển phương tiện tham gia giao thông đường bộ được đi nhưng phải quan sát, giảm tốc độ hoặc dừng lại nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường hoặc các phương tiện khác."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Đèn tín hiệu giao thông vàng",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [],
+       "o_keyphrases": ["tín hiệu đèn màu vàng", "tín hiệu đèn màu vàng nhấp nháy"]},
+      {"s": "Người", "v": "Dừng", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["dừng lại"], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Vạch dừng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
+       "s_keyphrases": ["người điều khiển phương tiện tham gia giao thông đường bộ"],
+       "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Giảm", "o": "Tốc độ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Nhường", "o": "Người đi bộ",
+       "s_keyphrases": [], "v_keyphrases": ["nhường đường"], "o_keyphrases": []},
+      {"s": "Người", "v": "Nhường", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["các phương tiện khác"]}
+    ]
+  },
+  {
+    "id": "s1188",
+    "path": "Chương II - Điều 11 - Khoản 4 - Điểm c",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người tham gia giao thông đường bộ phải chấp hành tín hiệu đèn màu đỏ là cấm đi."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Chấp hành", "o": "Đèn tín hiệu giao thông đỏ",
+       "s_keyphrases": ["người tham gia giao thông đường bộ"], "v_keyphrases": [],
+       "o_keyphrases": ["tín hiệu đèn màu đỏ"]},
+      {"s": "Đèn tín hiệu giao thông đỏ", "v": "Cấm", "o": "Đi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1189",
+    "path": "Chương II - Điều 11 - Khoản 5 - Điểm a",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Biển báo cấm để biểu thị các điều cấm."
+    ],
+    "triplets": [
+      {"s": "Biển báo cấm", "v": "Biểu thị", "o": "Điều cấm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1190",
+    "path": "Chương II - Điều 11 - Khoản 5 - Điểm b",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Biển báo nguy hiểm để cảnh báo các tình huống nguy hiểm có thể xảy ra."
+    ],
+    "triplets": [
+      {"s": "Biển báo nguy hiểm", "v": "Cảnh báo", "o": "Tình huống nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1191",
+    "path": "Chương II - Điều 11 - Khoản 5 - Điểm c",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Biển hiệu lệnh để báo hiệu lệnh phải thi hành."
+    ],
+    "triplets": [
+      {"s": "Biển hiệu lệnh", "v": "Báo hiệu", "o": "Hiệu lệnh",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1192",
+    "path": "Chương II - Điều 11 - Khoản 5 - Điểm d",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Biển chỉ dẫn để chỉ dẫn hướng đi hoặc các điều cần biết."
+    ],
+    "triplets": [
+      {"s": "Biển chỉ dẫn", "v": "Chỉ dẫn", "o": "Hướng đi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1193",
+    "path": "Chương II - Điều 11 - Khoản 5 - Điểm đ",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Biển phụ để thuyết minh bổ sung cho biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh và biển chỉ dẫn."
+    ],
+    "triplets": [
+      {"s": "Biển phụ", "v": "Dành cho", "o": "Biển báo cấm",
+       "s_keyphrases": [], "v_keyphrases": ["thuyết minh bổ sung cho"], "o_keyphrases": []},
+      {"s": "Biển phụ", "v": "Dành cho", "o": "Biển báo nguy hiểm",
+       "s_keyphrases": [], "v_keyphrases": ["thuyết minh bổ sung cho"], "o_keyphrases": []},
+      {"s": "Biển phụ", "v": "Dành cho", "o": "Biển hiệu lệnh",
+       "s_keyphrases": [], "v_keyphrases": ["thuyết minh bổ sung cho"], "o_keyphrases": []},
+      {"s": "Biển phụ", "v": "Dành cho", "o": "Biển chỉ dẫn",
+       "s_keyphrases": [], "v_keyphrases": ["thuyết minh bổ sung cho"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1194",
+    "path": "Chương II - Điều 11 - Khoản 6",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Vạch kẻ đường là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại."
+    ],
+    "triplets": [
+      {"s": "Vạch kẻ đường", "v": "Phân chia", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vạch kẻ đường", "v": "Chỉ dẫn", "o": "Vị trí",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vạch kẻ đường", "v": "Chỉ dẫn", "o": "Hướng đi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Vạch kẻ đường", "v": "Chỉ dẫn", "o": "Vị trí dừng",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vị trí dừng lại"]}
+    ]
+  },
+  {
+    "id": "s1195",
+    "path": "Chương II - Điều 11 - Khoản 7",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Cọc tiêu, tường bảo vệ để hướng dẫn cho người tham gia giao thông đường bộ biết phạm vi an toàn của nền đường và hướng đi của đường."
+    ],
+    "triplets": [
+      {"s": "Cọc tiêu", "v": "Hướng dẫn", "o": "Phạm vi an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Cọc tiêu", "v": "Hướng dẫn", "o": "Hướng đi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tường bảo vệ", "v": "Hướng dẫn", "o": "Phạm vi an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tường bảo vệ", "v": "Hướng dẫn", "o": "Hướng đi",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Phạm vi an toàn", "v": "Thuộc", "o": "Nền đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Hướng đi", "v": "Thuộc", "o": "Đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

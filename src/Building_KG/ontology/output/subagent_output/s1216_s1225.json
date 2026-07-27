@@ -1,0 +1,200 @@
+[
+  {
+    "id": "s1216",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm m",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn trong điều kiện trời mưa, gió, sương, khói, bụi, mặt đường trơn trượt, lầy lội, có nhiều đất đá, vật liệu rơi vãi ảnh hưởng đến an toàn giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện giao thông",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["phương tiện tham gia giao thông đường bộ"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Giảm tốc độ", "o": "Phương tiện giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Phương tiện giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["dừng lại"], "o_keyphrases": []},
+      {"s": "Người", "v": "Bảo đảm", "o": "An toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1217",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm n",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại khu vực đang tổ chức kiểm soát giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện giao thông",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["phương tiện tham gia giao thông đường bộ"]},
+      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Giảm tốc độ", "o": "Phương tiện giao thông",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Dừng", "o": "Phương tiện giao thông",
+       "s_keyphrases": [], "v_keyphrases": ["dừng lại"], "o_keyphrases": []},
+      {"s": "Người", "v": "Bảo đảm", "o": "An toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Tại", "o": "Khu vực kiểm soát giao thông",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["khu vực đang tổ chức kiểm soát giao thông đường bộ"]}
+    ]
+  },
+  {
+    "id": "s1218",
+    "path": "Chương II - Điều 12 - Khoản 4",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Bộ trưởng Bộ Giao thông vận tải quy định chi tiết về tốc độ và khoảng cách an toàn của xe cơ giới, xe máy chuyên dùng tham gia giao thông đường bộ."
+    ],
+    "triplets": [
+      {"s": "Bộ trưởng Bộ Giao thông vận tải", "v": "Quy định", "o": "Tốc độ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Bộ trưởng Bộ Giao thông vận tải", "v": "Quy định", "o": "Khoảng cách an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Tốc độ", "v": "Dành cho", "o": "Xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Tốc độ", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Khoảng cách an toàn", "v": "Dành cho", "o": "Xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []},
+      {"s": "Khoảng cách an toàn", "v": "Dành cho", "o": "Xe máy chuyên dùng",
+       "s_keyphrases": [], "v_keyphrases": ["của"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1219",
+    "path": "Chương II - Điều 13 - Khoản 1",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Phương tiện tham gia giao thông đường bộ di chuyển với tốc độ thấp hơn phải đi về bên phải theo chiều đi của mình."
+    ],
+    "triplets": [
+      {"s": "Phương tiện giao thông", "v": "Đi", "o": "Bên phải",
+       "s_keyphrases": ["phương tiện tham gia giao thông đường bộ"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1220",
+    "path": "Chương II - Điều 13 - Khoản 2",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải cho xe đi trong một làn đường và chỉ được chuyển làn đường ở những nơi cho phép; mỗi lần chuyển làn đường chỉ được phép chuyển sang một làn đường liền kề; khi chuyển làn đường phải có tín hiệu báo trước; phải quan sát bảo đảm khoảng cách an toàn với xe phía trước, phía sau và hai bên mới được chuyển làn."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện giao thông",
+       "s_keyphrases": [], "v_keyphrases": [],
+       "o_keyphrases": ["phương tiện tham gia giao thông đường bộ"]},
+      {"s": "Người", "v": "Đi", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Chuyển làn", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Có", "o": "Tín hiệu báo trước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Thực hiện", "o": "Quan sát",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Bảo đảm", "o": "Khoảng cách an toàn",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khoảng cách an toàn", "v": "Với", "o": "Xe chạy liền trước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe phía trước"]},
+      {"s": "Khoảng cách an toàn", "v": "Với", "o": "Xe phía sau",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Khoảng cách an toàn", "v": "Với", "o": "Hai bên",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1221",
+    "path": "Chương II - Điều 13 - Khoản 3",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Trên một chiều đường có vạch kẻ phân làn đường, xe thô sơ phải đi trên làn đường bên phải trong cùng, xe cơ giới, xe máy chuyên dùng đi trên làn đường bên trái."
+    ],
+    "triplets": [
+      {"s": "Đường", "v": "Có", "o": "Vạch kẻ đường",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["vạch kẻ phân làn đường"]},
+      {"s": "Xe thô sơ", "v": "Đi", "o": "Làn đường bên phải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["làn đường bên phải trong cùng"]},
+      {"s": "Xe cơ giới", "v": "Đi", "o": "Làn đường bên trái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe máy chuyên dùng", "v": "Đi", "o": "Làn đường bên trái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1222",
+    "path": "Chương II - Điều 13 - Khoản 4",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển loại phương tiện khác không được đi vào làn đường dành riêng cho một loại phương tiện hoặc một nhóm loại phương tiện."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Điều khiển", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["loại phương tiện khác"]},
+      {"s": "Người", "v": "Đi", "o": "Làn đường",
+       "s_keyphrases": [], "v_keyphrases": ["đi vào"], "o_keyphrases": []},
+      {"s": "Làn đường", "v": "Dành cho", "o": "Phương tiện",
+       "s_keyphrases": [], "v_keyphrases": ["dành riêng cho"], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1223",
+    "path": "Chương II - Điều 14 - Khoản 1",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Vượt xe là tình huống giao thông trên đường mà mỗi chiều đường xe chạy chỉ có một làn đường dành cho xe cơ giới, xe đi phía sau di chuyển sang bên trái để di chuyển lên trước xe phía trước."
+    ],
+    "triplets": [
+      {"s": "Làn đường", "v": "Dành cho", "o": "Xe cơ giới",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Vượt", "o": "Bên trái",
+       "s_keyphrases": [], "v_keyphrases": ["di chuyển sang"], "o_keyphrases": []},
+      {"s": "Người", "v": "Vượt", "o": "Xe chạy liền trước",
+       "s_keyphrases": [], "v_keyphrases": ["di chuyển lên trước"], "o_keyphrases": ["xe phía trước"]}
+    ]
+  },
+  {
+    "id": "s1224",
+    "path": "Chương II - Điều 14 - Khoản 2",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Khi vượt, các xe phải vượt bên trái; trường hợp khi xe phía trước có tín hiệu rẽ trái hoặc đang rẽ trái hoặc khi xe chuyên dùng đang làm việc trên đường mà không thể vượt bên trái thì được vượt về bên phải."
+    ],
+    "triplets": [
+      {"s": "Người", "v": "Vượt", "o": "Bên trái",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Người", "v": "Vượt", "o": "Bên phải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe chạy liền trước", "v": "Có", "o": "Tín hiệu báo hướng rẽ",
+       "s_keyphrases": ["xe phía trước"], "v_keyphrases": [], "o_keyphrases": ["tín hiệu rẽ trái"]},
+      {"s": "Xe máy chuyên dùng", "v": "Làm việc", "o": "Đường bộ",
+       "s_keyphrases": ["xe chuyên dùng"], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  },
+  {
+    "id": "s1225",
+    "path": "Chương II - Điều 14 - Khoản 3",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Xe xin vượt chỉ được vượt khi không có chướng ngại vật phía trước, không có xe chạy ngược chiều trong đoạn đường định vượt, xe chạy trước không có tín hiệu vượt xe khác, đã có tín hiệu rẽ phải và tránh về bên phải."
+    ],
+    "triplets": [
+      {"s": "Xe xin vượt", "v": "Vượt", "o": "Xe chạy liền trước",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe xin vượt", "v": "Có", "o": "Chướng ngại vật",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe xin vượt", "v": "Có", "o": "Xe đi ngược chiều",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["xe chạy ngược chiều"]},
+      {"s": "Xe chạy liền trước", "v": "Có", "o": "Tín hiệu vượt xe",
+       "s_keyphrases": ["xe chạy trước"], "v_keyphrases": [], "o_keyphrases": []},
+      {"s": "Xe xin vượt", "v": "Có", "o": "Tín hiệu báo hướng rẽ",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": ["tín hiệu rẽ phải"]},
+      {"s": "Xe xin vượt", "v": "Tránh", "o": "Bên phải",
+       "s_keyphrases": [], "v_keyphrases": [], "o_keyphrases": []}
+    ]
+  }
+]

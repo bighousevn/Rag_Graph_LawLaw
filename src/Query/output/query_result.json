@@ -4,11 +4,11 @@
       "query": {
         "s": "Người",
         "v": "Điều khiển",
-        "o": "Xe máy"
+        "o": "Phương tiện giao thông"
       },
       "listS": [
         {
-          "id": "C0425",
+          "id": "C0443",
           "name": "Người",
           "score": 1.0
         }
@@ -322,1725 +322,504 @@
       ],
       "listO": [
         {
-          "id": "C0807",
-          "name": "Xe máy",
+          "id": "C0532",
+          "name": "Phương tiện giao thông",
           "score": 1.0
         },
         {
+          "id": "C0531",
+          "name": "Phương tiện",
+          "score": 0.93
+        },
+        {
+          "id": "C0279",
+          "name": "Hàng hóa",
+          "score": 0.881
+        },
+        {
+          "id": "C0533",
+          "name": "Phương tiện giao thông cơ giới đường bộ",
+          "score": 0.875
+        },
+        {
+          "id": "C0539",
+          "name": "Phương tiện vi phạm hành chính",
+          "score": 0.875
+        },
+        {
+          "id": "C0640",
+          "name": "Thiết bị kỹ thuật",
+          "score": 0.875
+        },
+        {
           "id": "C0834",
-          "name": "Xe đạp máy",
-          "score": 0.929
+          "name": "Xe máy",
+          "score": 0.875
         },
         {
-          "id": "C0818",
-          "name": "Xe thô sơ",
-          "score": 0.92
+          "id": "C0835",
+          "name": "Xe máy chuyên dùng",
+          "score": 0.875
         },
         {
-          "id": "C0833",
-          "name": "Xe đạp",
-          "score": 0.92
-        },
-        {
-          "id": "C0803",
-          "name": "Xe gắn máy",
-          "score": 0.877
-        },
-        {
-          "id": "C0809",
+          "id": "C0836",
           "name": "Xe mô tô",
+          "score": 0.875
+        },
+        {
+          "id": "C0845",
+          "name": "Xe thô sơ",
+          "score": 0.875
+        },
+        {
+          "id": "C0881",
+          "name": "Ô tô",
           "score": 0.875
         }
       ],
       "matched_edges": [
         {
-          "edge_id": "E0381",
+          "edge_id": "E2309",
           "score": 1.0,
-          "source": "C0425",
+          "source": "C0443",
           "source_name": "Người",
           "relation": "Điều khiển",
-          "target": "C0807",
-          "target_name": "Xe máy",
-          "section_ids": "s144, s145, s146, s147, s148, s149, s150, s151, s152, s153, s154, s155, s156, s157, s158, s159, s170, s171, s172, s173, s174, s175, s176, s177, s178, s179, s200, s201, s202, s203, s204, s205, s206, s207, s208, s209, s381, s382, s383, s384, s385, s386, s387, s388, s389, s390, s391, s392, s393, s394, s395, s396, s397, s398, s399, s400, s427, s428, s429"
+          "target": "C0532",
+          "target_name": "Phương tiện giao thông",
+          "section_ids": "s1095, s1206, s1207, s1208, s1209, s1210, s1211, s1212, s1213, s1214, s1215, s1216, s1217, s1220"
         },
         {
-          "edge_id": "E0584",
-          "score": 0.929,
-          "source": "C0425",
+          "edge_id": "E0621",
+          "score": 0.93,
+          "source": "C0443",
           "source_name": "Người",
           "relation": "Điều khiển",
-          "target": "C0834",
-          "target_name": "Xe đạp máy",
-          "section_ids": "s290, s291"
+          "target": "C0531",
+          "target_name": "Phương tiện",
+          "section_ids": "s307, s450, s451, s452, s488, s489, s490, s491, s492, s523, s524, s525, s526, s527, s528, s538, s539, s550, s552, s606, s607, s616, s620, s763, s764, s765, s766, s767, s771, s772, s773, s780, s781, s782, s783, s784, s785, s786, s787, s788, s789, s790, s795, s796, s797, s965, s985, s986, s987, s988, s989, s990, s991, s992, s993, s995, s1001, s1003, s1025, s1026, s1146, s1147, s1149, s1150, s1204, s1205, s1222"
+        },
+        {
+          "edge_id": "E0164",
+          "score": 0.875,
+          "source": "C0443",
+          "source_name": "Người",
+          "relation": "Điều khiển",
+          "target": "C0881",
+          "target_name": "Ô tô",
+          "section_ids": "s61, s63, s64, s65, s66, s67, s68, s69, s70, s71, s72, s73, s74, s75, s76, s77, s78, s79, s80, s81, s82, s83, s84, s85, s86, s87, s88, s89, s90, s91, s92, s93, s94, s95, s96, s97, s98, s99, s100, s101, s102, s103, s104, s105, s106, s107, s108, s109, s110, s111, s112, s113, s114, s115, s116, s117, s118, s119, s120, s121, s122, s123, s124, s125, s126, s127, s128, s129, s130, s131, s132, s133, s134, s135, s136, s137, s138, s139, s140, s141, s142, s143, s348, s349, s350, s351, s352, s353, s354, s355, s356, s357, s358, s359, s360, s361, s362, s363, s364, s365, s366, s367, s368, s369, s370, s371, s372, s373, s374, s375, s376, s377, s378, s379, s380, s420, s421, s422, s423, s424, s425, s431, s432, s433, s435, s436, s440, s445, s446, s447, s448, s449, s529, s530, s531, s532, s533, s534, s535, s540, s541, s542, s543, s544, s546, s547, s548, s549, s608, s609, s621, s787, s793, s794, s1035, s1174, s1175"
+        },
+        {
+          "edge_id": "E0495",
+          "score": 0.875,
+          "source": "C0443",
+          "source_name": "Người",
+          "relation": "Điều khiển",
+          "target": "C0835",
+          "target_name": "Xe máy chuyên dùng",
+          "section_ids": "s216, s217, s218, s219, s220, s221, s222, s223, s224, s225, s226, s227, s228, s229, s230, s231, s232, s233, s234, s235, s236, s237, s238, s239, s240, s241, s242, s243, s244, s245, s246, s247, s248, s249, s250, s251, s252, s253, s254, s255, s256, s257, s258, s259, s260, s261, s262, s403, s404, s405, s406, s407, s408, s409, s410, s411, s412, s413, s414, s415, s416, s417, s418, s419, s453, s454, s1096, s1128, s1145, s1161, s1203"
         },
         {
           "edge_id": "E0545",
-          "score": 0.92,
-          "source": "C0425",
+          "score": 0.875,
+          "source": "C0443",
           "source_name": "Người",
           "relation": "Điều khiển",
-          "target": "C0818",
+          "target": "C0845",
           "target_name": "Xe thô sơ",
           "section_ids": "s263, s264, s265, s266, s267, s268, s269, s271, s272, s273, s274, s275, s277, s278, s279, s280, s281, s282, s283, s284, s285, s286, s287, s288, s289, s401, s402, s774, s775, s776, s777, s778, s779, s1096"
         },
         {
-          "edge_id": "E0558",
-          "score": 0.92,
-          "source": "C0425",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0833",
-          "target_name": "Xe đạp",
-          "section_ids": "s270, s271, s272, s273, s274, s275, s276, s277, s278, s279"
-        },
-        {
-          "edge_id": "E1684",
-          "score": 0.877,
-          "source": "C0425",
-          "source_name": "Người",
-          "relation": "Điều khiển",
-          "target": "C0803",
-          "target_name": "Xe gắn máy",
-          "section_ids": "s774, s775, s776, s777, s778, s779"
-        },
-        {
           "edge_id": "E0163",
           "score": 0.875,
-          "source": "C0425",
+          "source": "C0443",
           "source_name": "Người",
           "relation": "Điều khiển",
-          "target": "C0809",
+          "target": "C0836",
           "target_name": "Xe mô tô",
           "section_ids": "s61, s160, s161, s162, s163, s164, s165, s166, s167, s168, s169, s180, s181, s182, s183, s184, s185, s186, s187, s188, s189, s190, s191, s192, s193, s194, s195, s196, s197, s198, s199, s210, s211, s212, s213, s214, s215, s430, s437, s438, s439, s680, s774, s775, s776, s777, s778, s779, s791, s792, s1035"
+        },
+        {
+          "edge_id": "E0381",
+          "score": 0.875,
+          "source": "C0443",
+          "source_name": "Người",
+          "relation": "Điều khiển",
+          "target": "C0834",
+          "target_name": "Xe máy",
+          "section_ids": "s144, s145, s146, s147, s148, s149, s150, s151, s152, s153, s154, s155, s156, s157, s158, s159, s170, s171, s172, s173, s174, s175, s176, s177, s178, s179, s200, s201, s202, s203, s204, s205, s206, s207, s208, s209, s381, s382, s383, s384, s385, s386, s387, s388, s389, s390, s391, s392, s393, s394, s395, s396, s397, s398, s399, s400, s427, s428, s429, s1226"
         }
       ],
-      "section_ids": "s1035, s1096, s144, s145, s146, s147, s148, s149, s150, s151, s152, s153, s154, s155, s156, s157, s158, s159, s160, s161, s162, s163, s164, s165, s166, s167, s168, s169, s170, s171, s172, s173, s174, s175, s176, s177, s178, s179, s180, s181, s182, s183, s184, s185, s186, s187, s188, s189, s190, s191, s192, s193, s194, s195, s196, s197, s198, s199, s200, s201, s202, s203, s204, s205, s206, s207, s208, s209, s210, s211, s212, s213, s214, s215, s263, s264, s265, s266, s267, s268, s269, s270, s271, s272, s273, s274, s275, s276, s277, s278, s279, s280, s281, s282, s283, s284, s285, s286, s287, s288, s289, s290, s291, s381, s382, s383, s384, s385, s386, s387, s388, s389, s390, s391, s392, s393, s394, s395, s396, s397, s398, s399, s400, s401, s402, s427, s428, s429, s430, s437, s438, s439, s61, s680, s774, s775, s776, s777, s778, s779, s791, s792"
+      "section_ids": "s100, s1001, s1003, s101, s102, s1025, s1026, s103, s1035, s104, s105, s106, s107, s108, s109, s1095, s1096, s110, s111, s112, s1128, s113, s114, s1145, s1146, s1147, s1149, s115, s1150, s116, s1161, s117, s1174, s1175, s118, s119, s120, s1203, s1204, s1205, s1206, s1207, s1208, s1209, s121, s1210, s1211, s1212, s1213, s1214, s1215, s1216, s1217, s122, s1220, s1222, s1226, s123, s124, s125, s126, s127, s128, s129, s130, s131, s132, s133, s134, s135, s136, s137, s138, s139, s140, s141, s142, s143, s144, s145, s146, s147, s148, s149, s150, s151, s152, s153, s154, s155, s156, s157, s158, s159, s160, s161, s162, s163, s164, s165, s166, s167, s168, s169, s170, s171, s172, s173, s174, s175, s176, s177, s178, s179, s180, s181, s182, s183, s184, s185, s186, s187, s188, s189, s190, s191, s192, s193, s194, s195, s196, s197, s198, s199, s200, s201, s202, s203, s204, s205, s206, s207, s208, s209, s210, s211, s212, s213, s214, s215, s216, s217, s218, s219, s220, s221, s222, s223, s224, s225, s226, s227, s228, s229, s230, s231, s232, s233, s234, s235, s236, s237, s238, s239, s240, s241, s242, s243, s244, s245, s246, s247, s248, s249, s250, s251, s252, s253, s254, s255, s256, s257, s258, s259, s260, s261, s262, s263, s264, s265, s266, s267, s268, s269, s271, s272, s273, s274, s275, s277, s278, s279, s280, s281, s282, s283, s284, s285, s286, s287, s288, s289, s307, s348, s349, s350, s351, s352, s353, s354, s355, s356, s357, s358, s359, s360, s361, s362, s363, s364, s365, s366, s367, s368, s369, s370, s371, s372, s373, s374, s375, s376, s377, s378, s379, s380, s381, s382, s383, s384, s385, s386, s387, s388, s389, s390, s391, s392, s393, s394, s395, s396, s397, s398, s399, s400, s401, s402, s403, s404, s405, s406, s407, s408, s409, s410, s411, s412, s413, s414, s415, s416, s417, s418, s419, s420, s421, s422, s423, s424, s425, s427, s428, s429, s430, s431, s432, s433, s435, s436, s437, s438, s439, s440, s445, s446, s447, s448, s449, s450, s451, s452, s453, s454, s488, s489, s490, s491, s492, s523, s524, s525, s526, s527, s528, s529, s530, s531, s532, s533, s534, s535, s538, s539, s540, s541, s542, s543, s544, s546, s547, s548, s549, s550, s552, s606, s607, s608, s609, s61, s616, s620, s621, s63, s64, s65, s66, s67, s68, s680, s69, s70, s71, s72, s73, s74, s75, s76, s763, s764, s765, s766, s767, s77, s771, s772, s773, s774, s775, s776, s777, s778, s779, s78, s780, s781, s782, s783, s784, s785, s786, s787, s788, s789, s79, s790, s791, s792, s793, s794, s795, s796, s797, s80, s81, s82, s83, s84, s85, s86, s87, s88, s89, s90, s91, s92, s93, s94, s95, s96, s965, s97, s98, s985, s986, s987, s988, s989, s99, s990, s991, s992, s993, s995"
     },
     {
       "query": {
         "s": "Người",
-        "v": "Sử dụng",
-        "o": "Rượu"
+        "v": "Vượt",
+        "o": "Xe khác"
       },
       "listS": [
         {
-          "id": "C0425",
+          "id": "C0443",
           "name": "Người",
           "score": 1.0
         }
       ],
       "listV": [
         {
-          "id": "E2144",
-          "name": "Sử dụng",
+          "id": "E1702",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E2145",
-          "name": "Sử dụng",
+          "id": "E1703",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E2178",
-          "name": "Sử dụng",
+          "id": "E0289",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E2180",
-          "name": "Sử dụng",
+          "id": "E0359",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E2295",
-          "name": "Sử dụng",
+          "id": "E0384",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E1389",
-          "name": "Sử dụng",
+          "id": "E0428",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E1441",
-          "name": "Sử dụng",
+          "id": "E1092",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E1442",
-          "name": "Sử dụng",
+          "id": "E1094",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E1465",
-          "name": "Sử dụng",
+          "id": "E1095",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E1478",
-          "name": "Sử dụng",
+          "id": "E1096",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E0039",
-          "name": "Sử dụng",
+          "id": "E2714",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E0669",
-          "name": "Sử dụng",
+          "id": "E2715",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E0670",
-          "name": "Sử dụng",
+          "id": "E1098",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E1789",
-          "name": "Sử dụng",
+          "id": "E2718",
+          "name": "Vượt",
           "score": 1.0
         },
         {
-          "id": "E2140",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2141",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2351",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1945",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1947",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1948",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1929",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1930",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1761",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1841",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1843",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0389",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1072",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2505",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2322",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0193",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0206",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0207",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0215",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0223",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0226",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0269",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0288",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0306",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0311",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0313",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0340",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0365",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0366",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0386",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0420",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0455",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0456",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0458",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0471",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0473",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0478",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0481",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0483",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0514",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0559",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0635",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0804",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0823",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0824",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0973",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1049",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1052",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1084",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1138",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1150",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1739",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2179",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2181",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2292",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2507",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2510",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2555",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2219",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1814",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1842",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1844",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1870",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1872",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1874",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1875",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0040",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0692",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0693",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1255",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1259",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1267",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1278",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1405",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1406",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1421",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1422",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1518",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1194",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1206",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1211",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1212",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1217",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1221",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1226",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1237",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1251",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0821",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0373",
-          "name": "Dùng",
-          "score": 0.869
-        },
-        {
-          "id": "E0565",
-          "name": "Dùng",
-          "score": 0.869
-        },
-        {
-          "id": "E1667",
-          "name": "Dùng",
-          "score": 0.869
-        },
-        {
-          "id": "E2538",
-          "name": "Lạm dụng",
-          "score": 0.834
-        },
-        {
-          "id": "E2089",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2094",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2109",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2079",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0589",
+          "name": "Vượt qua",
+          "score": 0.939
         },
         {
-          "id": "E2082",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1651",
+          "name": "Vượt quá",
+          "score": 0.894
         },
         {
-          "id": "E2087",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1652",
+          "name": "Vượt quá",
+          "score": 0.894
         },
         {
-          "id": "E1985",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1655",
+          "name": "Vượt quá",
+          "score": 0.894
         },
         {
-          "id": "E2059",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0822",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2060",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1802",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2093",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1016",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2096",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1111",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2111",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1112",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2091",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1693",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2095",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1695",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2110",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E2497",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2037",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E2498",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E0378",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E2499",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2071",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E2500",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2070",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1015",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E1998",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1692",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2005",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1694",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2009",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1148",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2013",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0303",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2015",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0358",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2022",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1113",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2026",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1731",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2001",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1732",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2006",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1733",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2010",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1734",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2021",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1119",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2025",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1120",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2029",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1153",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2017",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1657",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2023",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1659",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2027",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1665",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2019",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1664",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2024",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0876",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2028",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0877",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E1999",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0878",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2003",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1649",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2008",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1654",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2012",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1656",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2002",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1658",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2007",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0834",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2011",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0835",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2061",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E0836",
+          "name": "Vượt quá",
+          "score": 0.853
         },
         {
-          "id": "E2000",
-          "name": "Áp dụng",
-          "score": 0.832
+          "id": "E1188",
+          "name": "Vượt quá",
+          "score": 0.853
         }
       ],
       "listO": [
         {
-          "id": "C0172",
-          "name": "Cồn",
-          "score": 0.831
+          "id": "C0831",
+          "name": "Xe khác",
+          "score": 1.0
+        },
+        {
+          "id": "C0886",
+          "name": "Ô tô loại khác",
+          "score": 0.916
+        },
+        {
+          "id": "C0531",
+          "name": "Phương tiện",
+          "score": 0.857
+        },
+        {
+          "id": "C0398",
+          "name": "Lái xe khác",
+          "score": 0.828
         }
       ],
       "matched_edges": [
         {
-          "edge_id": "E0340",
-          "score": 0.831,
-          "source": "C0425",
+          "edge_id": "E0289",
+          "score": 1.0,
+          "source": "C0443",
           "source_name": "Người",
-          "relation": "Sử dụng",
-          "target": "C0172",
-          "target_name": "Cồn",
-          "section_ids": "s117, s123, s129, s183, s193, s197, s242, s249, s257, s277, s286, s288, s1146"
+          "relation": "Vượt",
+          "target": "C0831",
+          "target_name": "Xe khác",
+          "section_ids": "s99, s177, s226, s253"
         }
       ],
-      "section_ids": "s1146, s117, s123, s129, s183, s193, s197, s242, s249, s257, s277, s286, s288"
-    },
-    {
-      "query": {
-        "s": "Người",
-        "v": "Sử dụng",
-        "o": "Bia"
-      },
-      "listS": [
-        {
-          "id": "C0425",
-          "name": "Người",
-          "score": 1.0
-        }
-      ],
-      "listV": [
-        {
-          "id": "E2144",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2145",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2178",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2180",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2295",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1389",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1441",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1442",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1465",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1478",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0039",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0669",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0670",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1789",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2140",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2141",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2351",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1945",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1947",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1948",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1929",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1930",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1761",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1841",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1843",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0389",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1072",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2505",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2322",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0193",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0206",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0207",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0215",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0223",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0226",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0269",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0288",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0306",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0311",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0313",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0340",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0365",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0366",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0386",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0420",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0455",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0456",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0458",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0471",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0473",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0478",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0481",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0483",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0514",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0559",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0635",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0804",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0823",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0824",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0973",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1049",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1052",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1084",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1138",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1150",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1739",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2179",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2181",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2292",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2507",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2510",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2555",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E2219",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1814",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1842",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1844",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1870",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1872",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1874",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1875",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0040",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0692",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0693",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1255",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1259",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1267",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1278",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1405",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1406",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1421",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1422",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1518",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1194",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1206",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1211",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1212",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1217",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1221",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1226",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1237",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E1251",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0821",
-          "name": "Sử dụng",
-          "score": 1.0
-        },
-        {
-          "id": "E0373",
-          "name": "Dùng",
-          "score": 0.869
-        },
-        {
-          "id": "E0565",
-          "name": "Dùng",
-          "score": 0.869
-        },
-        {
-          "id": "E1667",
-          "name": "Dùng",
-          "score": 0.869
-        },
-        {
-          "id": "E2538",
-          "name": "Lạm dụng",
-          "score": 0.834
-        },
-        {
-          "id": "E2089",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2094",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2109",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2079",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2082",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2087",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E1985",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2059",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2060",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2093",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2096",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2111",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2091",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2095",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2110",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2037",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E0378",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2071",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2070",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E1998",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2005",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2009",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2013",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2015",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2022",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2026",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2001",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2006",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2010",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2021",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2025",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2029",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2017",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2023",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2027",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2019",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2024",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2028",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E1999",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2003",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2008",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2012",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2002",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2007",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2011",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2061",
-          "name": "Áp dụng",
-          "score": 0.832
-        },
-        {
-          "id": "E2000",
-          "name": "Áp dụng",
-          "score": 0.832
-        }
-      ],
-      "listO": [],
-      "matched_edges": [],
-      "section_ids": ""
+      "section_ids": "s177, s226, s253, s99"
     }
   ],
   "final": {
     "strategy": "intersection",
-    "section_ids": "s183, s193, s197, s277, s286, s288",
+    "section_ids": "s177, s226, s253, s99",
     "sections": [
       {
-        "section_id": "s183",
-        "path": "Chương II - Mục 1 - Điều 7 - Khoản 6 - Điểm a",
+        "section_id": "s177",
+        "path": "Chương II - Mục 1 - Điều 7 - Khoản 4 - Điểm c",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 6. Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở;"
+        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 4. Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: c) Vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt đối với loại phương tiện đang điều khiển, trừ các hành vi vi phạm quy định tại điểm đ khoản 3 Điều này;"
       },
       {
-        "section_id": "s193",
-        "path": "Chương II - Mục 1 - Điều 7 - Khoản 8 - Điểm b",
+        "section_id": "s226",
+        "path": "Chương II - Mục 1 - Điều 8 - Khoản 3 - Điểm d",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 8. Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: b) Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở."
+        "text_content": "Điều 8. Xử phạt người điều khiển xe máy chuyên dùng vi phạm quy tắc giao thông đường bộ. 3. Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: d) Tránh xe, vượt xe không đúng quy định; không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật;"
       },
       {
-        "section_id": "s197",
-        "path": "Chương II - Mục 1 - Điều 7 - Khoản 9 - Điểm d",
+        "section_id": "s253",
+        "path": "Chương II - Mục 1 - Điều 8 - Khoản 8 - Điểm a",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 7. Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ. 9. Phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: d) Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở;"
+        "text_content": "Điều 8. Xử phạt người điều khiển xe máy chuyên dùng vi phạm quy tắc giao thông đường bộ. 8. Phạt tiền từ 14.000.000 đồng đến 16.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Điều khiển xe không quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn theo quy định mà gây tai nạn giao thông; điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông; dừng xe, đỗ xe, quay đầu xe, lùi xe, tránh xe, vượt xe, chuyển hướng, chuyển làn đường không đúng quy định gây tai nạn giao thông; mở cửa xe, để cửa xe mở không bảo đảm an toàn gây tai nạn giao thông; không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông hoặc đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển, đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều” gây tai nạn giao thông, trừ các hành vi vi phạm quy định tại điểm b khoản 8, điểm đ khoản 9 Điều này;"
       },
       {
-        "section_id": "s277",
-        "path": "Chương II - Mục 1 - Điều 9 - Khoản 1 - Điểm p",
+        "section_id": "s99",
+        "path": "Chương II - Mục 1 - Điều 6 - Khoản 5 - Điểm a",
         "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 9. Xử phạt người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác vi phạm quy tắc giao thông đường bộ. 1. Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: p) Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở."
-      },
-      {
-        "section_id": "s286",
-        "path": "Chương II - Mục 1 - Điều 9 - Khoản 3 - Điểm d",
-        "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 9. Xử phạt người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác vi phạm quy tắc giao thông đường bộ. 3. Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: d) Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở."
-      },
-      {
-        "section_id": "s288",
-        "path": "Chương II - Mục 1 - Điều 9 - Khoản 4 - Điểm b",
-        "document_name": "Nghị định 168:2024/NĐ-CP",
-        "text_content": "Điều 9. Xử phạt người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác vi phạm quy tắc giao thông đường bộ. 4. Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: b) Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở;"
+        "text_content": "Điều 6. Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ. 5. Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt (đối với loại phương tiện đang điều khiển); không có tín hiệu trước khi vượt hoặc có tín hiệu vượt xe nhưng không sử dụng trong suốt quá trình vượt xe; vượt bên phải xe khác trong trường hợp không được phép;"
       }
     ]
   }

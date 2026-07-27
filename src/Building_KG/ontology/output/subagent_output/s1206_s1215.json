@@ -1,0 +1,821 @@
+[
+  {
+    "id": "s1206",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm b",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn khi có báo hiệu cảnh báo nguy hiểm hoặc có chướng ngại vật trên đường."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Báo hiệu cảnh báo nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Chướng ngại vật",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Chướng ngại vật",
+        "v": "Tại",
+        "o": "Đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1207",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm c",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn khi chuyển hướng xe chạy hoặc tầm nhìn bị hạn chế."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Chuyển hướng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Nơi tầm nhìn bị che khuất",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "tầm nhìn bị hạn chế"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1208",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm d",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại nơi đường bộ giao nhau cùng mức với đường bộ, đường bộ giao nhau cùng mức với đường sắt; đường hẹp, đường vòng, đường quanh co, đường đèo, dốc."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường bộ giao nhau",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "đường bộ giao nhau cùng mức với đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường bộ giao nhau cùng mức với đường sắt",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường hẹp",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đoạn đường cong",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "đường vòng",
+          "đường quanh co"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đường đèo",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Dốc",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1209",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm đ",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại nơi cầu, cống hẹp, đập tràn, đường ngầm, hầm chui, hầm đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Cầu",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Cống hẹp",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Đập tràn",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Ngầm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "đường ngầm"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Hầm chui",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Hầm đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1210",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm e",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại khu vực có trường học, bệnh viện, bến xe, công trình công cộng tập trung đông người, khu vực đông dân cư, chợ, khu vực đang thi công trên đường bộ, hiện trường vụ tai nạn giao thông đường bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Trường học",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Bệnh viện",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Bến xe",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Công trình công cộng tập trung đông người",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Khu đông dân cư",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "khu vực đông dân cư"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Chợ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Khu vực đang thi công",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Tai nạn giao thông đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "hiện trường vụ tai nạn giao thông đường bộ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1211",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm g",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn khi có vật nuôi đi trên đường hoặc chăn thả ở ven đường."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Vật nuôi",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Vật nuôi",
+        "v": "Tại",
+        "o": "Đường bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "đường"
+        ]
+      },
+      {
+        "s": "Vật nuôi",
+        "v": "Tại",
+        "o": "Lề đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "ven đường"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1212",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm h",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn khi tránh xe đi ngược chiều hoặc khi cho xe đi phía sau vượt; khi có tín hiệu xin đường, tín hiệu khẩn cấp của xe đi cùng chiều phía trước."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tránh",
+        "o": "Xe đi ngược chiều",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Nhường",
+        "o": "Xe xin vượt",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe đi phía sau"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Tín hiệu xin đường",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tín hiệu xin đường",
+        "v": "Dành cho",
+        "o": "Xe đi cùng chiều phía trước",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Tín hiệu khẩn cấp",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Tín hiệu khẩn cấp",
+        "v": "Dành cho",
+        "o": "Xe đi cùng chiều phía trước",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  },
+  {
+    "id": "s1213",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm i",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại điểm dừng xe, đỗ xe trên đường bộ có khách đang lên, xuống xe."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Tại",
+        "o": "Điểm đón, trả khách",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "điểm dừng xe, đỗ xe"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Lên",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "khách"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe"
+        ]
+      },
+      {
+        "s": "Hành khách",
+        "v": "Xuống",
+        "o": "Ô tô chở khách",
+        "s_keyphrases": [
+          "khách"
+        ],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "xe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1214",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm k",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn khi gặp xe vận chuyển hàng siêu trường, siêu trọng, hàng hóa nguy hiểm; đoàn người đi bộ."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Gặp",
+        "o": "Xe vận chuyển hàng siêu trường, siêu trọng",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Gặp",
+        "o": "Xe vận chuyển hàng hóa nguy hiểm",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Gặp",
+        "o": "Người đi bộ",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "đoàn người đi bộ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "s1215",
+    "path": "Chương II - Điều 12 - Khoản 3 - Điểm l",
+    "document_name": "Luật số: 36/2024/QH15",
+    "propositions": [
+      "Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn khi gặp xe ưu tiên."
+    ],
+    "triplets": [
+      {
+        "s": "Người",
+        "v": "Điều khiển",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": [
+          "phương tiện tham gia giao thông đường bộ"
+        ]
+      },
+      {
+        "s": "Người",
+        "v": "Thực hiện",
+        "o": "Quan sát",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Giảm tốc độ",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Dừng",
+        "o": "Phương tiện giao thông",
+        "s_keyphrases": [],
+        "v_keyphrases": [
+          "dừng lại"
+        ],
+        "o_keyphrases": []
+      },
+      {
+        "s": "Người",
+        "v": "Gặp",
+        "o": "Xe ưu tiên",
+        "s_keyphrases": [],
+        "v_keyphrases": [],
+        "o_keyphrases": []
+      }
+    ]
+  }
+]
