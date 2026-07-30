@@ -9,16 +9,16 @@ from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
 BASE_DIR = Path(__file__).parent
-QA_PATH = BASE_DIR / "emlaw_qa.json"
+QA_PATH = BASE_DIR / "answer_dat_dai.json"
 EVAL_BATCH_DIR = Path(
     "/private/tmp/claude-501/-Users-tranhuuduc-Documents-dev-Rag-Graph-LawLaw"
-    "/7721b141-7323-40f2-a20b-5bdd90af496a/scratchpad"
+    "/3d7f6d64-0102-43b0-9083-0a6ff61c2000/scratchpad"
 )
-BATCH_FILES = [f"qa_eval_batch_{i}.json" for i in range(4, 7)]
-STT_RANGE = range(31, 61)  # chỉ gộp các câu đã được đánh giá trong lần chạy này
+BATCH_FILES = ["dat_dai_eval_1_10.json"]
+STT_RANGE = range(1, 11)  # chỉ gộp các câu đã được đánh giá trong lần chạy này
 
-OUT_JSON_PATH = BASE_DIR / "emlaw_qa_evaluated_31_60.json"
-OUT_XLSX_PATH = BASE_DIR / "emlaw_qa_evaluated_31_60.xlsx"
+OUT_JSON_PATH = BASE_DIR / "answer_dat_dai_evaluated_1_10.json"
+OUT_XLSX_PATH = BASE_DIR / "answer_dat_dai_evaluated_1_10.xlsx"
 
 CRITERIA = [
     "xac_dinh_dung_van_de",
