@@ -6,8 +6,8 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font
 from openpyxl.utils import get_column_letter
 
-INPUT_PATH = Path(__file__).parent / "emlaw_qa.json"
-OUTPUT_PATH = Path(__file__).parent / "emlaw_qa.xlsx"
+INPUT_PATH = Path(__file__).parent / "answer_dat_dai.json"
+OUTPUT_PATH = Path(__file__).parent / "answer_dat_dai.xlsx"
 
 COLUMNS = ["stt", "question", "answer"]
 COLUMN_WIDTHS = {"stt": 8, "question": 50, "answer": 100}

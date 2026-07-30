@@ -7,20 +7,50 @@
   },
   {
     "s": "Người",
-    "v": "Mang",
-    "o": "Giấy tờ xe",
+    "v": "Chuyển làn",
+    "o": "Xe máy",
     "group": 1
   },
   {
     "s": "Người",
-    "v": "Điều khiển",
+    "v": "Tại",
+    "o": "Nơi có quy định về làn đường",
+    "group": 1
+  },
+  {
+    "s": "Người",
+    "v": "Chuyển làn",
     "o": "Xe máy",
     "group": 2
   },
   {
-    "s": "Xe máy",
-    "v": "Có",
-    "o": "Gương",
+    "s": "Người",
+    "v": "Xi-nhan",
+    "o": "Xe máy",
     "group": 2
+  },
+  {
+    "s": "Người",
+    "v": "Tại",
+    "o": "Nơi có quy định về làn đường",
+    "group": 2
+  },
+  {
+    "s": "Người",
+    "v": "Chuyển làn",
+    "o": "Xe máy",
+    "group": 3
+  },
+  {
+    "s": "Người",
+    "v": "Chuyển quá một làn liền kề",
+    "o": "Xe máy",
+    "group": 3
+  },
+  {
+    "s": "Người",
+    "v": "Tại",
+    "o": "Nơi có quy định về làn đường",
+    "group": 3
   }
 ]

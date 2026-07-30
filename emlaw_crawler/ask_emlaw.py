@@ -19,8 +19,8 @@ from playwright.sync_api import sync_playwright
 # ==================== CẤU HÌNH ====================
 CHAT_URL = "https://emlaw.vn/"
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_FILE = os.path.join(OUTPUT_DIR, "question.xlsx")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "emlaw_qa.json")
+INPUT_FILE = os.path.join(OUTPUT_DIR, "question_dat_dai.xlsx")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "answer_dat_dai.json")
 
 HEADLESS = True
 ANSWER_TIMEOUT_S = 120          # tối đa chờ 1 câu trả lời
