@@ -149,23 +149,34 @@ def evaluate_single_qa(
             return res
         except Exception as e:
             err_str = str(e)
-            if "429" in err_str or "rate_limit" in err_str.lower():
+            is_rate_limit = "429" in err_str or "rate_limit" in err_str.lower()
+            if attempt == max_retries:
+                print(f"❌ Lỗi khi đánh giá STT {stt}: {e}", file=sys.stderr)
+                return {
+                    "stt": stt,
+                    "is_error": True,
+                    "xac_dinh_dung_van_de": False,
+                    "trich_dung_dieu_luat": False,
+                    "tra_loi_dung_cau_hoi": False,
+                    "cau_tra_loi_ro_rang": False,
+                    "ghi_chu_dieu_luat": f"Lỗi gọi API GPT-4o: {str(e)}",
+                }
+            if is_rate_limit:
                 print(f"⚠️ STT {stt}: Gặp Rate Limit (429), chờ {backoff:.1f}s trước khi thử lại ({attempt}/{max_retries})...")
                 time.sleep(backoff)
                 backoff *= 1.5
             else:
-                if attempt == max_retries:
-                    print(f"❌ Lỗi khi đánh giá STT {stt}: {e}", file=sys.stderr)
-                    return {
-                        "stt": stt,
-                        "is_error": True,
-                        "xac_dinh_dung_van_de": False,
-                        "trich_dung_dieu_luat": False,
-                        "tra_loi_dung_cau_hoi": False,
-                        "cau_tra_loi_ro_rang": False,
-                        "ghi_chu_dieu_luat": f"Lỗi gọi API GPT-4o: {str(e)}",
-                    }
                 time.sleep(2.0)
+
+    return {
+        "stt": stt,
+        "is_error": True,
+        "xac_dinh_dung_van_de": False,
+        "trich_dung_dieu_luat": False,
+        "tra_loi_dung_cau_hoi": False,
+        "cau_tra_loi_ro_rang": False,
+        "ghi_chu_dieu_luat": "Lỗi gọi API GPT-4o: hết số lần thử lại.",
+    }
 
 
 def save_to_excel(merged_data: List[dict], out_xlsx_path: Path) -> None:
