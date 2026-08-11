@@ -88,7 +88,7 @@ def ask_question(page, question: str):
 
     textarea = page.query_selector('textarea[placeholder="Nhập câu hỏi..."]')
     textarea.click()
-    page.keyboard.type(question)
+    textarea.fill(question)
     page.wait_for_timeout(200)
 
     send_btn = page.query_selector('[data-tutorial="chat-send-button"]')
